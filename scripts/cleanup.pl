@@ -3,9 +3,12 @@
 package Kiva;
 
 use Modern::Perl;
+use Test::More;
+
 use IPC::Cmd;
 use Cwd;
 use File::Basename;
+use Git;
 
 
 
@@ -16,11 +19,17 @@ my $kohaPoFilesDir = "$kohaPath/misc/translator/po";
 my $self = {
   kohaPoFilesDir => "$kohaPath/misc/translator/po",
   kohaCleanedPoDir => "$kohaPath/misc/translator/Koha-translations",
-  verbose => 2,
   dryRun => 0,
-  test => 0,
+  test => $ENV{TEST} || 0,
+  verbose => $ENV{VERBOSE} || 0,
 };
+$self->{kohaTranslationsGitRepoDir} = $self->{kohaCleanedPoDir};
+$self->{kohaTranslationsGitRepo}    = Git->repository(Directory => $self->{kohaCleanedPoDir});
+
 bless($self, __PACKAGE__);
+
+
+
 
 =head2 getPoFiles
 
@@ -30,6 +39,7 @@ bless($self, __PACKAGE__);
 
 sub getPoFiles {
   my ($self) = @_;
+  print "getPoFiles() - Getting desired .po-files from Koha's .po-files dir\n" if $self->{verbose} > 0;
   my $files = $self->_shell('/usr/bin/find', $kohaPoFilesDir, '-maxdepth 1', "-name 'fi-FI*.po'");
   my @files = split(/\n/, $files);
   die "No .po-files found from '$kohaPoFilesDir'" unless @files;
@@ -60,7 +70,8 @@ becomes
 sub trimLoc {
   my ($self, $linePtr) = @_;
   my $matched = $$linePtr =~ s/^(#: \w+.+\.\w+):\d+$/$1/;
-  print "trimLoc():> trimmed -> $$linePtr\n" if $matched && $self->{verbose} > 1;
+  print "trimLoc():> trimmed -> $$linePtr\n" if $matched && $self->{verbose} > 2;
+  return $matched;
 }
 
 =head2 processFile
@@ -70,8 +81,8 @@ Open the file, tidy it, and write to destination
 =cut
 
 sub processFile {
-  my ($self, $inFile) = @_;
-  my $outFile = $self->{kohaCleanedPoDir}.'/'.File::Basename::basename($inFile);
+  my ($self, $inFile, $outFile) = @_;
+  print "processFile() - Streaming '$inFile' -> '$outFile'\n" if $self->{verbose} > 1;
 
   open(my $IN, '<', $inFile) or die "Cannot open .po-file '$inFile' for reading. $!";
   open(my $OUT, '>', $outFile) or die "Cannot open .po-file '$outFile' for writing. $!";
@@ -84,14 +95,67 @@ sub processFile {
   close $OUT or die "Cannot close output .po-file '$outFile'. $!";
 }
 
+=head2 discardUselessGitChanges
+
+Koha's translation tools update .po-files even if there are no changes.
+This causes some meta-headers to change and this would clutter version history.
+Intercept changes to files which have only meaningless meta-header changes and revert
+those changes.
+
+@RETURNS True, if changes can be discarded
+
+=cut
+
+sub discardUselessGitChanges {
+  my ($self, $outFile) = @_;
+
+  my $diff = $self->{kohaTranslationsGitRepo}->command('diff', $outFile);
+  my $status = $self->_analyzeUselessGitChanges($diff);
+  print "Git changes to '$outFile' are $status\n" if $self->{verbose} > 0;
+
+  if ($status eq 'useless') {
+    $self->{kohaTranslationsGitRepo}->command('checkout', $outFile);
+  }
+}
+
+sub _analyzeUselessGitChanges {
+  my ($self, $diff) = @_;
+
+  #How many additions + deletions there are?
+  my $changes = () = $diff =~ m/^[+-]/gsm;
+  if ($changes == 0) {
+    return 'unchanged';
+  }
+  $changes -= 2; #Remove the header rows in git diff output
+
+
+  if ($changes == 2 &&
+      $diff =~ m/^-"POT-Creation-Date: [0-9-+ :]+\\n"\n
+                 ^\+"POT-Creation-Date: [0-9-+ :]+\\n"\n/smx) {
+    return ($changes, 'useless');
+  }
+
+  return ($changes, 'useful');
+}
+
+sub _getGitCommits {
+    my ($self, $count) = @_;
+    my $repo = Git->repository(Directory => $self->{gitRepo});
+
+    #We can read and print 10000 git commits in less than three seconds :) good Git!
+    my @commits = $repo->command('show', '--pretty=oneline', '--no-patch', '-'.$count);
+    return \@commits;
+}
 
 if ($self->{test}) {
   $self->test();
 }
 else {
   my $files = $self->getPoFiles();
-  foreach my $file (@$files) {
-    $self->processFile($file);
+  foreach my $inFile (@$files) {
+    my $outFile = $self->{kohaCleanedPoDir}.'/'.File::Basename::basename($inFile);
+    $self->processFile($inFile, $outFile);
+    $self->discardUselessGitChanges($outFile);
   }
 }
 
@@ -107,7 +171,11 @@ else {
 
 
 
+=head2 _shell
 
+Execute a shell program, and collect results extensively, dying if trooble
+
+=cut
 
 sub _shell {
   my ($self, $program, @params) = @_;
@@ -126,19 +194,48 @@ sub _shell {
     my $coreDumpTriggered = ${^CHILD_ERROR_NATIVE} & 128;
     die "Shell command: $cmd\n  exited with code '$exitCode'. Killed by signal '$killSignal'.".(($coreDumpTriggered) ? ' Core dumped.' : '')."\nERROR MESSAGE: $error_message\nSTDOUT:\n@$stdout_buf\nSTDERR:\n@$stderr_buf\nCWD:".Cwd::getcwd()
         if $exitCode != 0;
-    print "CMD: $cmd\nERROR MESSAGE: ".($error_message // '')."\nSTDOUT:\n@$stdout_buf\nSTDERR:\n@$stderr_buf\nCWD:".Cwd::getcwd()."\n" if $self->{verbose} > 0;
+    print "CMD: $cmd\nERROR MESSAGE: ".($error_message // '')."\nSTDOUT:\n@$stdout_buf\nSTDERR:\n@$stderr_buf\nCWD:".Cwd::getcwd()."\n" if $self->{verbose} > 1;
     return "@$full_buf";
   }
 }
 
 
 
+=head2 test
+
+A poor man's test suite to get some shabby details if this script might work or not.
+
+=cut
+
 sub test {
+  plan tests => 3;
+
+
   my $row = "#: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:685";
-  $self->trimLoc(\$row);
-  if ($row eq "#: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt") {
-    print "trimLoc1 ok\n";
-  } else {
-    print "trimLoc1 fail\n"
-  }
+  ok($self->trimLoc(\$row),
+     "trimLoc() found something to trim");
+  is($row, "#: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt",
+     "trimLoc() did proper trimming");
+
+
+  my $diff = q{
+diff --git a/fi-FI-staff-help.po b/fi-FI-staff-help.po
+index 8337788..02dd5ed 100644
+--- a/fi-FI-staff-help.po
++++ b/fi-FI-staff-help.po
+@@ -6,7 +6,7 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+-"POT-Creation-Date: 2017-10-24 13:29+0300\n"
++"POT-Creation-Date: 2017-10-25 02:44+0300\n"
+ "PO-Revision-Date: 2017-10-09 09:09+0000\n"
+ "Last-Translator: AnneliÖ <anneli.osterman@ouka.fi>\n"
+ "Language-Team: LANGUAGE <LL@li.org>\n"
+};
+  my ($changes, $status) = $self->_analyzeUselessGitChanges($diff);
+  is($status, 'useless',
+     "_analyzeUselessGitChanges() useless status");
+  is($changes, 2,
+     "_analyzeUselessGitChanges() changed rows count");
 }
