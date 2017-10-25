@@ -19,9 +19,11 @@ my $kohaPoFilesDir = "$kohaPath/misc/translator/po";
 my $self = {
   kohaPoFilesDir => "$kohaPath/misc/translator/po",
   kohaCleanedPoDir => "$kohaPath/misc/translator/Koha-translations",
-  dryRun => 0,
-  test => $ENV{TEST} || 0,
+  dryRun => $ENV{DRYRUN} || 0,
   verbose => $ENV{VERBOSE} || 0,
+  test => $ENV{TEST} || 0,
+  export => $ENV{EXPORT} || 0,
+  import => $ENV{IMPORT} || 0,
 };
 $self->{kohaTranslationsGitRepoDir} = $self->{kohaCleanedPoDir};
 $self->{kohaTranslationsGitRepo}    = Git->repository(Directory => $self->{kohaCleanedPoDir});
@@ -138,24 +140,38 @@ sub _analyzeUselessGitChanges {
   return ($changes, 'useful');
 }
 
-sub _getGitCommits {
-    my ($self, $count) = @_;
-    my $repo = Git->repository(Directory => $self->{gitRepo});
+=head2 validatePo
 
-    #We can read and print 10000 git commits in less than three seconds :) good Git!
-    my @commits = $repo->command('show', '--pretty=oneline', '--no-patch', '-'.$count);
-    return \@commits;
+=cut
+
+sub validatePo {
+  my ($self, $outFile) = @_;
+  my $msgcatalogTempFile = '/tmp/messages.mo';
+
+  my $output = $self->_shell('/usr/bin/msgfmt', '-c', '-o', $msgcatalogTempFile, $outFile); #Does most possible validity checks
+  warn $output if $output;
+  unlink $msgcatalogTempFile;
 }
 
 if ($self->{test}) {
   $self->test();
 }
-else {
+elsif ($self->{export}) { #Send .po's to Koha
+  my $files = $self->getPoFiles();
+  foreach my $inFile (@$files) {
+    my $outFile = $self->{kohaCleanedPoDir}.'/'.File::Basename::basename($inFile);
+    $self->validatePo($outFile);
+    $self->_shell('/bin/mv', $outFile, $inFile); #Move file from outside of Koha to inside of Koha
+  }
+}
+elsif ($self->{import}) { #Fetch .po's from Koha
   my $files = $self->getPoFiles();
   foreach my $inFile (@$files) {
     my $outFile = $self->{kohaCleanedPoDir}.'/'.File::Basename::basename($inFile);
     $self->processFile($inFile, $outFile);
     $self->discardUselessGitChanges($outFile);
+    $self->validatePo($outFile);
+    #TODO stage and commit updated .po's
   }
 }
 
