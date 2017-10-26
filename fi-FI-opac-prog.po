@@ -1,0 +1,985 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-10-26 06:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "$[% SUBFIELD.code %] [% SUBFIELD.value %]"
+msgstr ""
+
+#. %1$s:  USE Koha 
+#. %2$s:  USE KohaDates 
+#. %3$s:  USE AuthorisedValues 
+#. %4$s:  SET TagsShowEnabled = ( TagsEnabled && TagsShowOnDetail ) 
+#. %5$s:  SET TagsInputEnabled = ( opacuserlogin && TagsEnabled && TagsInputOnDetail ) 
+#. %6$s:  ShowCourseReservesHeader = 0 
+#. %7$s:  IF Koha.Preference( 'UseCourseReserves' ) == 1 
+#. %8$s:  FOREACH ITEM_RESULT IN itemloop 
+#. %9$s:  IF ITEM_RESULT.course_reserves 
+#. %10$s:  FOREACH r IN ITEM_RESULT.course_reserves 
+#. %11$s:  IF r.course.enabled == 'yes' 
+#. %12$s:  ShowCourseReservesHeader = 1 
+#. %13$s:  END 
+#. %14$s:  END 
+#. %15$s:  END 
+#. %16$s:  END 
+#. %17$s:  END 
+#. %18$s:  IF ( using_https ) 
+#. %19$s:  SET protocol = "https://" 
+#. %20$s:  SET root_syndetics = "secure" 
+#. %21$s:  ELSE 
+#. %22$s:  SET protocol = "http://" 
+#. %23$s:  SET root_syndetics = "www" 
+#. %24$s:  END 
+#. %25$s:  INCLUDE 'doc-head-open.inc' 
+#. %26$s:  IF ( LibraryNameTitle ) 
+#. %27$s:  LibraryNameTitle 
+#. %28$s:  ELSE 
+#. %29$s:  END 
+#. %30$s:  title |html 
+#. %31$s:  FOREACH subtitl IN subtitle 
+#. %32$s:  subtitl.subfield |html 
+#. %33$s:  END 
+#. %34$s:  INCLUDE 'doc-head-close.inc' 
+#. %35$s:  INCLUDE 'datatables.inc' 
+#. %36$s:  IF ( SocialNetworks ) 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid ""
+"%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s%s"
+"%s%sKoha online%s catalog &rsaquo; Details for: %s%s, %s%s %s %s %s "
+msgstr ""
+
+#. %1$s:  IF holds_count.defined 
+#. %2$s:  ITEM_RESULT.holds_count 
+#. %3$s:  END 
+#. %4$s:  IF ITEM_RESULT.priority 
+#. %5$s:  IF holds_count.defined 
+#. %6$s:  ITEM_RESULT.priority 
+#. %7$s:  ELSE 
+#. %8$s:  ITEM_RESULT.priority 
+#. %9$s:  END 
+#. %10$s:  END 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "%s %s %s %s %s (priority %s) %s %s %s %s "
+msgstr ""
+
+#. %1$s:  IF otheritemloop.size 
+#. %2$s:  INCLUDE items_table items=otheritemloop tab="otherholdings" 
+#. %3$s:  ELSE 
+#. %4$s:  END 
+#. %5$s:  INCLUDE shelfbrowser tab='otherholdings' 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "%s %s %s No other items. %s %s "
+msgstr ""
+
+#. %1$s:  collectiontitle 
+#. %2$s:  IF ( collectionissn ) 
+#. %3$s:  collectionissn 
+#. %4$s:  END 
+#. %5$s:  IF ( collectionvolume ) 
+#. %6$s:  collectionvolume 
+#. %7$s:  END 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "%s %s, ISSN %s %s %s; %s %s "
+msgstr ""
+
+#. %1$s:  IF holds_count.defined 
+#. %2$s:  holds_count 
+#. %3$s:  END 
+#. %4$s:  IF priority 
+#. %5$s:  IF holds_count.defined 
+#. %6$s:  priority 
+#. %7$s:  ELSE 
+#. %8$s:  priority 
+#. %9$s:  END 
+#. %10$s:  END 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid ""
+"%s Total holds: %s %s %s %s (priority %s) %s Overall queue priority: %s %s "
+"%s "
+msgstr ""
+
+#. %1$s:  IF ( XISBN.author ) 
+#. %2$s:  XISBN.author |html 
+#. %3$s:  END 
+#. %4$s:  IF ( XISBN.copyrightdate ) 
+#. %5$s:  XISBN.copyrightdate 
+#. %6$s:  END 
+#. %7$s:  IF ( XISBN.publishercode ) 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "%s by %s%s%s &copy;%s%s%s "
+msgstr ""
+
+#. %1$s:  IF SeparateHoldings 
+#. %2$s:  LoginBranchname 
+#. %3$s:  ELSE 
+#. %4$s:  END 
+#. %5$s:  UNLESS too_many_items 
+#. %6$s:  itemloop.size || 0 
+#. %7$s:  END 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "%s%s holdings%sHoldings%s%s ( %s )%s"
+msgstr ""
+
+#. %1$s:  IF ( latestserial.status1 ) 
+#. %2$s:  END 
+#. %3$s:  IF ( latestserial.status2 ) 
+#. %4$s:  END 
+#. %5$s:  IF ( latestserial.status3 ) 
+#. %6$s:  END 
+#. %7$s:  IF ( latestserial.status4 ) 
+#. %8$s:  END 
+#. %9$s:  IF ( latestserial.status41 ) 
+#. %10$s:  END 
+#. %11$s:  IF ( latestserial.status42 ) 
+#. %12$s:  END 
+#. %13$s:  IF ( latestserial.status43 ) 
+#. %14$s:  END 
+#. %15$s:  IF ( latestserial.status44 ) 
+#. %16$s:  END 
+#. %17$s:  IF ( latestserial.status5 ) 
+#. %18$s:  END 
+#. %19$s:  IF ( latestserial.status6 ) 
+#. %20$s:  END 
+#. %21$s:  IF ( latestserial.status7 ) 
+#. %22$s:  END 
+#. %23$s:  IF ( latestserial.status8 ) 
+#. %24$s:  END 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid ""
+"%sExpected%s %sArrived%s %sLate%s %sMissing%s %sMissing (never received)%s "
+"%sMissing (sold out)%s %sMissing (damaged)%s %sMissing (lost)%s %sNot issued"
+"%s %sDelete%s %sClaimed%s %sStopped%s "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "&laquo; Previous"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "(done)"
+msgstr ""
+
+#. %1$s:  HTML5MediaParent 
+#. %2$s:  FOREACH HTML5MediaSet IN HTML5MediaSets 
+#. %3$s:  HTML5MediaSet.child  
+#. %4$s:  HTML5MediaSet.srcblock 
+#. %5$s:  HTML5MediaSet.typeblock 
+#. %6$s:  END 
+#. %7$s:  HTML5MediaParent 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid ""
+"<%s controls preload=none> %s <%s src=\"%s\"%s /> %s [%s tag not supported "
+"by your browser.] "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "About the author"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Add"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Additional authors:"
+msgstr ""
+
+#. For the first occurrence,
+#. %1$s:  subscription.branchname 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "At library: %s"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Audiovisual profile:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Author notes provided by Syndetics"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Awards:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Back to results"
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Back to the results search list"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Barcode"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Book reviews by critics ( XXX )"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Browse results"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Browse shelf"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Call number"
+msgstr ""
+
+#. For the first occurrence,
+#. %1$s:  subscription.callnumber 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Callnumber: %s"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Cancel"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Click here to view them all."
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Click on an image to view it in the image viewer"
+msgstr ""
+
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Click to forward the list to"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Click to open in new window"
+msgstr ""
+
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Click to rewind the list to"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Close"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Collection"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Collection: "
+msgstr ""
+
+#. For the first occurrence,
+#. %1$s:  review.firstname 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Comment by %s"
+msgstr ""
+
+#. %1$s:  review.firstname 
+#. %2$s:  review.surname|truncate(2,'.') 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Comment by %s %s"
+msgstr ""
+
+#. %1$s:  review.title 
+#. %2$s:  review.firstname 
+#. %3$s:  review.surname 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Comment by %s %s %s"
+msgstr ""
+
+#. %1$s:  reviews.size || 0 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Comments ( %s )"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Content Cafe"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Copy number"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Course reserves"
+msgstr ""
+
+#. IMG
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Cover image"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Date"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Date due"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Delicious"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Edit"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Edition statement:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Editions"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Email"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Enhanced content: "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Enhanced descriptions from Syndetics:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Excerpt"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Excerpt provided by Syndetics"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Facebook"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Fiction notes:"
+msgstr ""
+
+#. For the first occurrence,
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Go to detail"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Holdings:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "ISBD view"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "ISBN:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "ISBN: "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "ISSN:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Images"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Issue #"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Item callnumber"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Item hold queue priority"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Item holds"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Item type"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Item type: "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Library"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Link to resource "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "LinkedIn"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "List(s) this item appears in: "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Location"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Log in to add tags."
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Log in to your account"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "MARC view"
+msgstr ""
+
+#. %1$s:  subscription.missinglist 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Missing issues: %s "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "More book reviews at iDreamBooks.com"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "More details"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "New tag(s), separated by a comma:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Next"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Next &raquo;"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "No cover image available"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "No physical items for this record"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "No tags from this library for this title."
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Normal view"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Note"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Notes"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Novelist Select"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Novelist Select: "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Online resources:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Other editions of this work"
+msgstr ""
+
+#. %1$s:  otheritemloop.size || 0 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Other holdings ( %s )"
+msgstr ""
+
+#. %1$s:  review.datereviewed | $KohaDates 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Patron comment on %s"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Physical details:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Play media"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Post or edit your comments on this item. "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Previous"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Published by :"
+msgstr ""
+
+#. INPUT type=submit name=rate_button
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Rate me"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Reviews"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Reviews from LibraryThing.com:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Reviews provided by Syndetics"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Search"
+msgstr ""
+
+#. IMG
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "See Baker & Taylor"
+msgstr ""
+
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "See biblio"
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid ""
+"See: [% IF ( nextTitle ) %][% nextTitle |html %][% ELSE %]next biblio[% END "
+"%]"
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid ""
+"See: [% IF ( previousTitle ) %][% previousTitle |html %][% ELSE %]previous "
+"biblio[% END %]"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Select the item(s) to search :"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Serial collection"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Series information:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Series:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Share"
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Share by email"
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Share on Delicious"
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Share on Facebook"
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "Share on LinkedIn"
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid ""
+"Show pagination list ([% indexPag %]-[% indexPagEnd %] / [% totalPag %])"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Similar items"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Status"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Subject(s):"
+msgstr ""
+
+#. %1$s:  subscription.histstartdate | $KohaDates 
+#. %2$s:  IF ( subscription.histenddate ) 
+#. %3$s:  subscription.histenddate | $KohaDates 
+#. %4$s:  ELSE 
+#. %5$s:  END 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Subscription from: %s to:%s %s %s now (current)%s"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Subscriptions"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "TOC"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Table of contents provided by Syndetics"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Tag browser"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Tag status here. "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Tags from this library:"
+msgstr ""
+
+#. %1$s:  subscription.opacdisplaycount 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "The %s latest issues for this subscription:"
+msgstr ""
+
+#. %1$s:  subscriptionsnumber 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "There are %s subscription(s) associated with this title."
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "There are no comments for this item."
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "This is a serial"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid ""
+"This page contains enriched content visible when JavaScript is enabled or by "
+"clicking "
+msgstr ""
+
+#. %1$s:  items_count 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "This record has many physical items (%s). "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "This subscription is closed."
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Title notes"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Tweet"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Uniform titles:"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Vol info"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Year: "
+msgstr ""
+
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid ""
+"Your CGI session cookie is not current. Please refresh the page and try "
+"again."
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "Your comment "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "all"
+msgstr ""
+
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "average rating:"
+msgstr ""
+
+#. %1$s:  rating_avg_int 
+#. %2$s:  rating_total 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "average rating: %s (%s votes)"
+msgstr ""
+
+#. For the first occurrence,
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "by"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "by "
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "here"
+msgstr ""
+
+#. ABBR
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "koha:biblionumber:[% biblionumber %]"
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "to post a comment."
+msgstr ""
+
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "url"
+msgstr ""
+
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "with biblionumber"
+msgstr ""
+
+#. SCRIPT
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid "your rating:"
+msgstr ""
+
+#. %1$s:  rating_value 
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+#, c-format
+msgid "your rating: %s, "
+msgstr ""
+
+#. A
+#: opac-tmpl/prog/en/modules/opac-detail.tt
+msgid ""
+"‡[% MARCAUTHOR_SUBFIELDS_LOO.code %] [% MARCAUTHOR_SUBFIELDS_LOO.value %]"
+msgstr ""
