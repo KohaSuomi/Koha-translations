@@ -1,0 +1,132 @@
+#!env perl
+
+# Copyright (C) 2017 Koha-Suomi
+#
+# This file is part of TransMan, a gay translation manager!
+
+use Modern::Perl '2015';
+use utf8;
+binmode STDOUT, ':encoding(UTF-8)';
+binmode STDERR, ':encoding(UTF-8)';
+use feature 'signatures'; no warnings "experimental::signatures";
+use Carp::Always;
+use Try::Tiny;
+use Scalar::Util qw(blessed);
+use Data::Dumper;
+
+use Getopt::Long qw(:config no_ignore_case);
+
+
+my ($help, $dryRun, $export, $import, $install, $kohaPoDir, $kohaTranslationsPoDir, $credentials, $baseUrl);
+my $forceInstall = 0;
+my (@languages, @projects);
+my $verbose = 'WARN';
+
+GetOptions(
+    'h|help'                      => \$help,
+    'v|verbose:s'                 => \$verbose,
+    'd|dry-run'                   => \$dryRun,
+    'e|export'                    => \$export,
+    'i|import'                    => \$import,
+    'install'                     => \$install,
+    'force-install'               => \$forceInstall,
+    'koha-pos:s'                  => \$kohaPoDir,
+    'koha-trans:s'                => \$kohaTranslationsPoDir,
+    'l|languages:s'               => \@languages,
+    'p|projects:s'                => \@projects,
+    'c|credentials:s'             => \$credentials,
+    'b|base-url:s'                => \$baseUrl,
+);
+
+my $usage = <<USAGE;
+
+Exports/Imports .po-files from/to version control to/from Koha's translation system
+
+It is advised to test first with the "dry-run"-flag and "test"-flag.
+
+  -h --help             This friendly help!
+
+  -v --verbose          String, Log::Log4perl verbosity levels, ALL, TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF
+
+  -d --dry-run          Don't make any changes
+
+  -e --export           Overwrite Koha's .po-files with those under version control here
+
+  -i --import           Import Koha's .po-files, and prepare them to be version controllable.
+
+  --install             Install new languages if missing from Koha. Downloads them from Pootle.
+                        requires --credentials
+                        Won't install if language files already there.
+
+  --force-install       Forces reinstall, see --install
+
+  --koha-pos            Path, where the Koha's .po-files are?
+                        This is where we export
+                        Optional, but recommended
+
+  --koha-trans          Path, where the Koha-translations' version controlled translations are?
+                        This is where we import
+                        Optional, but recommended
+
+  -l --languages        Comma-separated list of language codes, eg. 'fi-FI, sv-SV, ...'
+                        Languages we manage using this tool. Basically the languages we translate ourselves.
+
+  -p --projects         Comma-separated list of project codes, eg. '17.05, marc21, ...'
+                        Koha's translation projects we want to pull from.
+
+  -c --credentials      Credentials used to authenticate to the Pootle-server.
+                        username:password
+                        or
+                        path to file with username:password only
+
+  --base-url            String, url of the Pootle-server we are downloading the .po-files from
+                        eg. http://translate.pootle.com
+
+LOGGING
+
+  To log what Pootle::Client does, set the environment value POOTLE_CLIENT_VERBOSITY=TRACE
+
+EXAMPLE
+
+  #Install finnish and swedish languages
+  trans-man -c username:password -l fi -p 17.05 --install
+  trans-man -c username:password -l sv -p 17.05 --install
+
+USAGE
+
+if ($help) {
+    print $usage;
+    exit 0;
+}
+
+$ENV{TRANSMAN_VERBOSITY} = $verbose if $verbose;
+
+
+use TransMan;
+
+die "KOHA_PATH environment variable is not defined. It must be defined if --koha-trans and --koha-pos are not given." if (not($ENV{KOHA_PATH}) && not($kohaPoDir && $kohaTranslationsPoDir));
+
+my $tm = new TransMan({
+  kohaPoFilesDir        => $kohaPoDir || "$ENV{KOHA_PATH}/misc/translator/po",
+  kohaTranslationsPoDir => $kohaTranslationsPoDir || "$ENV{KOHA_PATH}/misc/translator/Koha-translations/po",
+  dryRun                => $dryRun,
+  languages             => \@languages,
+  projects              => \@projects,
+  credentials           => $credentials,
+  baseUrl               => $baseUrl,
+});
+
+
+if ($export) {
+  $tm->exportPOs();
+}
+elsif ($import) {
+  $tm->importPOs();
+}
+elsif ($install || $forceInstall) {
+  $tm->installPOs($forceInstall);
+}
+else {
+  die "No mode of operation defined. You should export or import or install.";
+}
+

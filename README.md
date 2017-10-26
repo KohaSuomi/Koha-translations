@@ -7,6 +7,9 @@ https://tiketti.koha-suomi.fi:83/issues/2478
 
 Some manual setup is required:
 
+-Install the following Perl module dependencies
+* cpanm Pootle::Client
+
 -You must authorize the primary translations CI test server for write access to this repo.
  This is done via the GitHub -> repo -> Settings -> Deploy keys
 
