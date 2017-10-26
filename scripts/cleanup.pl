@@ -4,11 +4,59 @@ package Kiva;
 
 use Modern::Perl;
 use Test::More;
+use Try::Tiny;
+use Scalar::Util qw(blessed);
 
+use Getopt::Long qw(:config no_ignore_case);
 use IPC::Cmd;
 use Cwd;
 use File::Basename;
 use Git;
+use Data::Dumper;
+
+
+my ($help, $dryRun, $test, $export, $import);
+my $verbose = 0;
+
+GetOptions(
+    'h|help'                      => \$help,
+    'v|verbose:i'                 => \$verbose,
+    'd|dry-run'                   => \$dryRun,
+    't|test'                      => \$test,
+    'e|export'                    => \$export,
+    'i|import'                    => \$import,
+);
+
+my $usage = <<USAGE;
+
+Exports/Imports .po-files from/to version control to/from Koha's translation system
+
+It is advised to test first with the "dry-run"-flag and "test"-flag.
+
+  -h --help             This friendly help!
+
+  -v --verbose          Integer, default 0. 0-2, more is more.
+
+  -d --dry-run          Don't make any changes
+
+  -t --test             Run the built-in test harness
+
+  -e --export           Overwrite Koha's .po-files with those under version control here
+
+  -i --import           Import Koha's .po-files, and prepare them to be version controllable.
+
+EXAMPLE
+
+  TODO
+
+USAGE
+
+if ($help) {
+    print $usage;
+    exit 0;
+}
+
+
 
 
 
@@ -19,11 +67,11 @@ my $kohaPoFilesDir = "$kohaPath/misc/translator/po";
 my $self = {
   kohaPoFilesDir => "$kohaPath/misc/translator/po",
   kohaCleanedPoDir => "$kohaPath/misc/translator/Koha-translations",
-  dryRun => $ENV{DRYRUN} || 0,
-  verbose => $ENV{VERBOSE} || 0,
-  test => $ENV{TEST} || 0,
-  export => $ENV{EXPORT} || 0,
-  import => $ENV{IMPORT} || 0,
+  dryRun => $dryRun,
+  verbose => $verbose,
+  test => $test,
+  export => $export,
+  import => $import,
 };
 $self->{kohaTranslationsGitRepoDir} = $self->{kohaCleanedPoDir};
 $self->{kohaTranslationsGitRepo}    = Git->repository(Directory => $self->{kohaCleanedPoDir});
@@ -111,13 +159,18 @@ those changes.
 sub discardUselessGitChanges {
   my ($self, $outFile) = @_;
 
-  my $diff = $self->{kohaTranslationsGitRepo}->command('diff', $outFile);
-  my $status = $self->_analyzeUselessGitChanges($diff);
-  print "Git changes to '$outFile' are $status\n" if $self->{verbose} > 0;
+  try {
+    my $diff = $self->{kohaTranslationsGitRepo}->command('diff', $outFile);
+    my $status = $self->_analyzeUselessGitChanges($diff);
+    print "Git changes to '$outFile' are $status\n" if $self->{verbose} > 0;
 
-  if ($status eq 'useless') {
-    $self->{kohaTranslationsGitRepo}->command('checkout', $outFile);
-  }
+    if ($status eq 'useless') {
+      $self->{kohaTranslationsGitRepo}->command('checkout', $outFile);
+    }
+  } catch {
+    my $e = Data::Dumper::Dumper($_);
+    die $e;
+  };
 }
 
 sub _analyzeUselessGitChanges {
@@ -153,26 +206,91 @@ sub validatePo {
   unlink $msgcatalogTempFile;
 }
 
-if ($self->{test}) {
-  $self->test();
+=head2 commitTranslationChanges
+
+Automatically commit and push relevant changes in .po-files to version control.
+This is used to update the newest translation keys from source code, to version controlled .pos.
+And thus make them available to our translators.
+
+@RETURNS Boolean, true on success
+@THROWS die, if unexpected git troubles
+
+=cut
+
+sub commitTranslationChanges {
+  my ($self) = @_;
+
+  my $git = $self->{kohaTranslationsGitRepo};
+  try {
+    my $output = $git->command('add', '*.po');
+    $output = $git->command('commit', '-m', 'Automatic translation key update');
+
+    if ($self->{dryRun}) {
+      $output = $git->command('push');
+    }
+    else {
+      $output = $git->command('reset', '--mixed', 'HEAD~1');
+    }
+  } catch {
+    my $e = Data::Dumper::Dumper($_);
+    if ($e =~ /no changes added to commit/sm || #Trying to commit nothing, this is ok, and is a quick way of figuring out there are no changes
+        $e =~ /nothing to commit, working directory clean/sm) {
+      print "commitTranslationChanges():> No changes to commit\n" if $self->{verbose} > 0;
+    }
+    else {
+      die $e;
+    }
+  };
+  return 1;
 }
-elsif ($self->{export}) { #Send .po's to Koha
+
+=head2 export
+
+Overwrite Koha's .po-files with these
+
+=cut
+
+sub export {
+  my ($self) = @_;
+
   my $files = $self->getPoFiles();
   foreach my $inFile (@$files) {
     my $outFile = $self->{kohaCleanedPoDir}.'/'.File::Basename::basename($inFile);
     $self->validatePo($outFile);
-    $self->_shell('/bin/mv', $outFile, $inFile); #Move file from outside of Koha to inside of Koha
+    $self->_shell('/bin/cp', $outFile, $inFile); #Move file from outside of Koha to inside of Koha
   }
 }
-elsif ($self->{import}) { #Fetch .po's from Koha
+
+=head2 import
+
+Import Koha's .po-files to version control, along with all code updates.
+
+=cut
+
+sub import {
+  my ($self) = @_;
+
   my $files = $self->getPoFiles();
   foreach my $inFile (@$files) {
     my $outFile = $self->{kohaCleanedPoDir}.'/'.File::Basename::basename($inFile);
     $self->processFile($inFile, $outFile);
     $self->discardUselessGitChanges($outFile);
     $self->validatePo($outFile);
-    #TODO stage and commit updated .po's
   }
+  $self->commitTranslationChanges();
+}
+
+if ($self->{test}) {
+  $self->test();
+}
+elsif ($self->{export}) {
+  $self->export();
+}
+elsif ($self->{import}) { #Fetch .po's from Koha
+  $self->import();
+}
+else {
+  die "No mode of operation defined. You should export or import or test.";
 }
 
 
@@ -224,7 +342,7 @@ A poor man's test suite to get some shabby details if this script might work or 
 =cut
 
 sub test {
-  plan tests => 3;
+  plan tests => 5;
 
 
   my $row = "#: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:685";
@@ -254,4 +372,8 @@ index 8337788..02dd5ed 100644
      "_analyzeUselessGitChanges() useless status");
   is($changes, 2,
      "_analyzeUselessGitChanges() changed rows count");
+
+  $self->{dryRun} = 1;
+  ok($self->commitTranslationChanges(),
+     "commitTranslationChanges() didn't crash");
 }
