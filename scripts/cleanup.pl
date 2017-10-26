@@ -62,11 +62,10 @@ if ($help) {
 
 die "KOHA_PATH environment variable is not defined" unless $ENV{KOHA_PATH};
 my $kohaPath = $ENV{KOHA_PATH};
-my $kohaPoFilesDir = "$kohaPath/misc/translator/po";
 
 my $self = {
   kohaPoFilesDir => "$kohaPath/misc/translator/po",
-  kohaCleanedPoDir => "$kohaPath/misc/translator/Koha-translations",
+  kohaTranslationsPoDir => "$kohaPath/misc/translator/Koha-translations",
   dryRun => $dryRun,
   verbose => $verbose,
   test => $test,
@@ -83,17 +82,70 @@ bless($self, __PACKAGE__);
 
 =head2 getPoFiles
 
-`find` files we want to keep under version control in Koha's po-dir
+`find` files we want to keep under version control.
+Looks in Koha's po-dir and Koha-translations -repos files.
+
+@THROWS die, if no .po-files are found in Koha's .po-files dir
+@THROWS die, if no .po-files are found in Koha-translations' .po-files dir
+@THROWS die, if .po-files in Koha and in Koha-translations do not match.
+             This can cause subtle issues with things not translating properly.
+
 
 =cut
 
 sub getPoFiles {
   my ($self) = @_;
-  print "getPoFiles() - Getting desired .po-files from Koha's .po-files dir\n" if $self->{verbose} > 0;
-  my $files = $self->_shell('/usr/bin/find', $kohaPoFilesDir, '-maxdepth 1', "-name 'fi-FI*.po'");
-  my @files = split(/\n/, $files);
-  die "No .po-files found from '$kohaPoFilesDir'" unless @files;
-  return \@files;
+  my $kohaTranslationsPoDir = $self->{kohaTranslationsPoDir};
+  my $kohaPoFilesDir =   $self->{kohaPoFilesDir};
+
+  print "getPoFiles() - Getting desired .po-files from Koha's .po-files dir '$kohaPoFilesDir'\n" if $self->{verbose} > 0;
+  my $inFiles = $self->_shell('/usr/bin/find', $kohaPoFilesDir, '-maxdepth 1', "-name 'fi-FI*.po'");
+  my @inFiles = split(/\n/, $inFiles);
+  die "No .po-files found from '$kohaPoFilesDir'" unless @inFiles;
+
+  print "getPoFiles() - Getting desired .po-files from Koha-translations's .po-files dir '$kohaTranslationsPoDir'\n" if $self->{verbose} > 0;
+  my $outFiles = $self->_shell('/usr/bin/find', $kohaTranslationsPoDir, '-maxdepth 1', "-name 'fi-FI*.po'");
+  my @outFiles = split(/\n/, $outFiles);
+  die "No .po-files found from '$kohaTranslationsPoDir'" unless @outFiles;
+
+  @inFiles  = map {File::Basename::basename($_)} @inFiles;
+  @outFiles = map {File::Basename::basename($_)} @outFiles;
+
+  _findProblemsInPoFileLists(\@inFiles, \@outFiles);
+
+  return \@inFiles; #inFiles and outFiles are both the same now
+}
+
+=head2 _findProblemsInPoFileLists
+
+Compares .po-file lists and notifies if the .po-files in lists do not match.
+
+=cut
+
+sub _findProblemsInPoFileLists {
+  my ($inFiles, $outFiles) = @_;
+  #Copy given arrays, to prevent destroying the original copies
+  my @inFiles = @$inFiles;
+  my @outFiles = @$outFiles;
+
+  #exclude two arrays from each-others
+  #leaving only the values that do not exist in either of those arrays
+  my %inFiles = map {$_ => 1} @inFiles;
+  my $outFilesCnt = scalar(@outFiles);
+  for (my $i=0 ; $i<$outFilesCnt ; $i++) {
+    if ($inFiles{$outFiles[$i]}) {
+      delete($inFiles{$outFiles[$i]});
+      splice(@outFiles, $i, 1);
+      $i--;
+      $outFilesCnt--;
+    }
+  }
+  @inFiles = keys %inFiles;
+
+  my @e;
+  push @e, ".po-files not in Koha-translations, but in Koha: '@inFiles'"  if (@inFiles);
+  push @e, ".po-files not in Koha, but in Koha-translations: '@outFiles'" if (@outFiles);
+  die join(@e, "\n") if @e;
 }
 
 =head2 tidyPoLine
@@ -254,8 +306,9 @@ sub export {
   my ($self) = @_;
 
   my $files = $self->getPoFiles();
-  foreach my $inFile (@$files) {
-    my $outFile = $self->{kohaCleanedPoDir}.'/'.File::Basename::basename($inFile);
+  foreach my $file (@$files) {
+    my $outFile = $self->{kohaTranslationsPoDir}.'/'.$file;
+    my $inFile =  $self->{kohaPoFilesDir}.'/'.$file;
     $self->validatePo($outFile);
     $self->_shell('/bin/cp', $outFile, $inFile); #Move file from outside of Koha to inside of Koha
   }
@@ -271,8 +324,9 @@ sub import {
   my ($self) = @_;
 
   my $files = $self->getPoFiles();
-  foreach my $inFile (@$files) {
-    my $outFile = $self->{kohaCleanedPoDir}.'/'.File::Basename::basename($inFile);
+  foreach my $file (@$files) {
+    my $outFile = $self->{kohaTranslationsPoDir}.'/'.$file;
+    my $inFile =  $self->{kohaPoFilesDir}.'/'.$file;
     $self->processFile($inFile, $outFile);
     $self->discardUselessGitChanges($outFile);
     $self->validatePo($outFile);
