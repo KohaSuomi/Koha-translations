@@ -15,7 +15,7 @@ use Git;
 use Data::Dumper;
 
 
-my ($help, $dryRun, $test, $export, $import);
+my ($help, $dryRun, $test, $export, $import, $kohaPoDir, $kohaTranslationsPoDir);
 my $verbose = 0;
 
 GetOptions(
@@ -25,6 +25,8 @@ GetOptions(
     't|test'                      => \$test,
     'e|export'                    => \$export,
     'i|import'                    => \$import,
+    'koha-pos:s'                  => \$kohaPoDir,
+    'koha-trans:s'                => \$kohaTranslationsPoDir,
 );
 
 my $usage = <<USAGE;
@@ -45,6 +47,14 @@ It is advised to test first with the "dry-run"-flag and "test"-flag.
 
   -i --import           Import Koha's .po-files, and prepare them to be version controllable.
 
+  --koha-pos            Path, where the Koha's .po-files are?
+                        This is where we export
+                        Optional, but recommended
+
+  --koha-trans          Path, where the Koha-translations' version controlled translations are?
+                        This is where we import
+                        Optional, but recommended
+
 EXAMPLE
 
   TODO
@@ -61,11 +71,10 @@ if ($help) {
 
 
 die "KOHA_PATH environment variable is not defined" unless $ENV{KOHA_PATH};
-my $kohaPath = $ENV{KOHA_PATH};
 
 my $self = {
-  kohaPoFilesDir => "$kohaPath/misc/translator/po",
-  kohaTranslationsPoDir => "$kohaPath/misc/translator/Koha-translations",
+  kohaPoFilesDir => $kohaPoDir || "$ENV{KOHA_PATH}/misc/translator/po",
+  kohaTranslationsPoDir => $kohaTranslationsPoDir || "$ENV{KOHA_PATH}/misc/translator/Koha-translations",
   dryRun => $dryRun,
   verbose => $verbose,
   test => $test,
