@@ -55,11 +55,13 @@ sub findPOWithMeta($s, $filters) {
 
 sub _loadPOs($s) {
   my @pofiles;
-  my $cwd = Cwd::getcwd();
-  File::Find::find(sub {
-    if ($_ =~ /.*\.po$/) {
-      push(@pofiles, new TransMan::PO({file => $cwd.'/'.$File::Find::name})); #Collect the full path of all .po-files in the dir
-    }
+  File::Find::find({
+    wanted => sub {
+      if ($_ =~ /.*\.po$/) {
+        push(@pofiles, new TransMan::PO({file => $File::Find::name})); #Collect the full path of all .po-files in the dir
+      }
+    },
+    no_chdir => 1,
   },$s->dir);
 
   $s->{files} = \@pofiles;
