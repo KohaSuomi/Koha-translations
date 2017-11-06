@@ -111,8 +111,28 @@ sub validatePo {
   my ($self, $outFile) = @_;
   my $msgcatalogTempFile = '/tmp/messages.mo';
 
-  my $output = $self->_shell('/usr/bin/msgfmt', '-c', '-o', $msgcatalogTempFile, $outFile); #Does most possible validity checks
-  warn $output if $output;
+  try {
+    my $output = $self->_shell('/usr/bin/msgfmt', '-c', '-o', $msgcatalogTempFile, $outFile); #Does most possible validity checks
+    $l->warn("\n".
+             "##################################\n".
+             "## .po-file validation warnings ##\n".
+             "##################################\n".
+             $output."\n".
+             "##################################\n".
+             "##  end of validation warnings  ##\n".
+             "##################################\n".
+    "") if $output;
+  } catch {
+    $l->logdie("\n".
+               "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n".
+               "!! .po-file validation errors !!\n".
+               "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n".
+               $_."\n".
+               "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n".
+               "!!  end of validation errors  !!\n".
+               "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n".
+    "");
+  };
   unlink $msgcatalogTempFile;
 }
 
