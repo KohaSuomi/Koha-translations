@@ -31,9 +31,9 @@ sub new($class, @params) {
 
   my $s = \%self;
   bless($s, $class);
+  $s->{basename} = File::Basename::basename($s->file);
 
   $s->_parseMeta();
-  $s->{basename} = File::Basename::basename($s->file);
 
   return $s;
 }
@@ -61,16 +61,52 @@ sub _parseMeta($s) {
 }
 
 sub _validateMeta($s) {
-  die "_validateMeta():> no language in meta: ".$l->flatten($s->meta).", from file=".$s->file unless($s->language);
+
+  # Validate language exists. If it doesn't try to recover it from the filename
+  unless($s->language) {
+    if (my $lang = _pickLanguageFromFilename($s->basename)) {
+      $l->info("No Language in meta, for file='".$s->file."'. Picked '$lang' from filename.") if $l->is_trace();
+      $s->setLanguage($lang);
+    }
+    else {
+      $l->logdie("_validateMeta():> no language in meta or filename: ".$l->flatten($s->meta).", from file=".$s->file);
+    }
+  }
+}
+
+=item _pickLanguageFromFilename
+
+Tries its best to find the Language from the given filename.
+
+ @param String, the plain filename of the .po-file
+ @returns String, 2-letter language code, eg. fi
+          or undef
+
+=cut
+
+sub _pickLanguageFromFilename($basename) {
+  if (my @hits = $basename =~ / (?:\W|^)
+                                ([a-z]{2})     #has to contain lower case language code 'xx'
+                                (?:
+                                  [-_]
+                                  ([A-Z]{2})   #can optionally contain dialect code 'XX'
+                                )?
+                                \W             #language codes must be separated by non-word characters, so they distinguish
+                              /x) {
+    $l->trace("Extracted regexp matches='@hits' from file='$basename'") if $l->is_trace();
+    return $1;
+  }
+  return undef;
 }
 
 
 
 
-
-sub file($s)       { return $s->{file} };
-sub basename($s)   { return $s->{basename} };
-sub meta($s)       { return $s->{meta} };
-sub language($s)   { return $s->meta->{Language} };
+sub file($s)        { return $s->{file} };
+sub basename($s)    { return $s->{basename} };
+sub meta($s)        { return $s->{meta} };
+sub language($s)    { return $s->meta->{Language} };
+sub setLanguage($s, $lang)
+                    { $s->meta->{Language} = $lang };
 
 1;

@@ -6,6 +6,8 @@ use Modern::Perl '2015';
 use utf8;
 binmode STDOUT, ':encoding(UTF-8)';
 binmode STDERR, ':encoding(UTF-8)';
+use FindBin;
+use lib "$FindBin::Bin/../";
 use feature 'signatures'; no warnings "experimental::signatures";
 use Carp::Always;
 use Try::Tiny;
@@ -47,5 +49,15 @@ index 8337788..02dd5ed 100644
   $tm->{dryRun} = 1;
   ok(TransMan::Importer::commitTranslationChanges($tm),
      "commitTranslationChanges() didn't crash");
+
+
+subtest "Scenario: _pickLanguageFromFilename() regexp tests", \&_pickLanguageFromFilename;
+sub _pickLanguageFromFilename {
+  is(TransMan::PO::_pickLanguageFromFilename('fi-FI-marc-MARC21.po'), 'fi');
+  is(TransMan::PO::_pickLanguageFromFilename('fi-marc-MARC21.po'), 'fi');
+  is(TransMan::PO::_pickLanguageFromFilename('marc-MARC21-fi-FI.po'), 'fi');
+  is(TransMan::PO::_pickLanguageFromFilename('marc-MARC21.po'), undef);
+}
+
 
 done_testing();
