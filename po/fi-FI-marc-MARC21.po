@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-05-02 09:04+0300\n"
+"POT-Creation-Date: 2018-05-04 14:12+0300\n"
 "PO-Revision-Date: 2018-04-30 11:28+0300\n"
 "Last-Translator: AnneliÖ <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
@@ -248,6 +248,11 @@ msgstr "/cgi-bin/koha/catalogue/search.pl?q="
 msgid "/cgi-bin/koha/catalogue/search.pl?q=Control-number:"
 msgstr "/cgi-bin/koha/catalogue/search.pl?q=Control-number:"
 
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl
+#, fuzzy, c-format
+msgid "/cgi-bin/koha/catalogue/search.pl?q=Control-number: "
+msgstr "/cgi-bin/koha/catalogue/search.pl?q=Control-number:"
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #, c-format
 msgid "/cgi-bin/koha/catalogue/search.pl?q=Host-item:"
@@ -346,6 +351,11 @@ msgstr "/cgi-bin/koha/opac-search.pl?q="
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
 #, c-format
 msgid "/cgi-bin/koha/opac-search.pl?q=Control-number:"
+msgstr "/cgi-bin/koha/opac-search.pl?q=Control-number:"
+
+#: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl
+#, fuzzy, c-format
+msgid "/cgi-bin/koha/opac-search.pl?q=Control-number: "
 msgstr "/cgi-bin/koha/opac-search.pl?q=Control-number:"
 
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
@@ -1600,6 +1610,11 @@ msgstr "AND "
 msgid "AR"
 msgstr "AR"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Abkhaz"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
@@ -1659,11 +1674,26 @@ msgstr "Pianopartituuri"
 msgid "Accompanying matter"
 msgstr "Liiteaineisto"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Achinese"
+msgstr "kiinalainen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Acoli"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
 #, c-format
 msgid "Action note: "
 msgstr "Huomautus toimenpiteistä: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Adangme"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -1701,11 +1731,61 @@ msgstr "Aikuiset"
 msgid "Adult; "
 msgstr "Aikuinen; "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Adygei"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Afar"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Afrihili (Artificial language)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Afrikaans"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Afroasiatic (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
+#, fuzzy, c-format
+msgid "Age restriction: "
+msgstr "Kuvaus: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ainu"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Aitoff"
 msgstr "Aitoff"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Akan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Akkadian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Albanian"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -1713,10 +1793,35 @@ msgstr "Aitoff"
 msgid "Albers equal area"
 msgstr "Albersin oikeapintainen"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Aleut"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Algonquian (Other)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt
 #, c-format
 msgid "All Item Types"
 msgstr "Kaikki aineistotyypit"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Altai"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Altaic (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Amharic"
+msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
@@ -1724,6 +1829,11 @@ msgstr "Kaikki aineistotyypit"
 #, c-format
 msgid "Analytics: "
 msgstr "Kausijulkaisut: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Angika"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -1754,20 +1864,56 @@ msgstr "Anthemit"
 msgid "Any word"
 msgstr "Mikä sana tahansa"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Apache languages"
+msgstr "Useita kieliä"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Arabic"
 msgstr "arabia"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Aragonese"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Aramaic"
+msgstr "Draama"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Arapaho"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Arawak"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Armadillo"
 msgstr "Armadillo"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Armenian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Aromanian"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -1796,11 +1942,36 @@ msgstr "Taidejäljennös"
 msgid "Article"
 msgstr "Artikkeli"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Artificial (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Assamese"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Athapascan (Other)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Atlas"
 msgstr "Kartasto, Atlas"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Australian languages"
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Austronesian (Other)"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -1829,12 +2000,37 @@ msgstr "Itsehallinnollinen tai puoli-itsehallinnollinen"
 msgid "Availability: "
 msgstr "Saatavuus: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Avaric"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Avestan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Awadhi"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
 #, c-format
 msgid "Awards: "
 msgstr "Palkinnot: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Aymara"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Azerbaijani"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -1876,6 +2072,16 @@ msgstr "Tasoprojektio, erikoistyyppi tuntematon"
 msgid "BK"
 msgstr "BK"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bable"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Balinese"
+msgstr "kiinalainen"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -1888,11 +2094,61 @@ msgstr "Balladit"
 msgid "Ballets"
 msgstr "Baletti"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Baltic (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Baluchi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bambara"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Bamileke languages"
+msgstr "Useita kieliä"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Banda languages"
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bantu (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Basa"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bashkir"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Basic Roman"
 msgstr "Latinalainen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Basque"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Batak"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -1905,6 +2161,36 @@ msgstr "Syvyyskäyrät"
 #, c-format
 msgid "Bathymetry/soundings"
 msgstr "Luotauspisteet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Beja"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Belarusian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bemba"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bengali"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Berber (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bhojpuri"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -1942,6 +2228,21 @@ msgstr "Bibliografia"
 msgid "Biennial"
 msgstr "Kerran kahdessa vuodessa"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bihari (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bikol"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bilin"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -1972,11 +2273,21 @@ msgstr "Säveltäjän tai tekijän elämäkerta"
 msgid "Biography of performer or history of ensemble"
 msgstr "Esittäjän tai yhtyeen elämäkerta"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bislama"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Biweekly"
 msgstr "Kerran kahdessa viikossa"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Blissymbolics"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -2018,6 +2329,11 @@ msgstr "Kirja"
 msgid "Books"
 msgstr "Kirjat"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bosnian"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -2047,6 +2363,36 @@ msgstr "Toiseen teokseen sidottu karttaosa"
 #, c-format
 msgid "Braille"
 msgstr "Pistekirjoitus"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Braj"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Breton"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bugis"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Bulgarian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Buriat"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Burmese"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -2078,6 +2424,11 @@ msgstr "CF"
 #, c-format
 msgid "CR"
 msgstr "CR"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Caddo"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -2135,6 +2486,11 @@ msgstr "Kantaatit"
 msgid "Canzonas"
 msgstr "Canzonat"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Carib"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -2164,6 +2520,11 @@ msgstr "Cassini-Soldner"
 msgid "Cast: "
 msgstr "Esittäjät: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Catalan"
+msgstr "Luettelot, kuvastot"
+
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -2188,17 +2549,52 @@ msgstr "Luettelointilähde"
 msgid "Catalogs"
 msgstr "Luettelot, kuvastot"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Caucasian (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Cebuano"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Celtic (Other)"
+msgstr "Kartioprojektio, muu"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Central American Indian (Other)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Chaconnes"
 msgstr "Chaconnet"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Chagatai"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Chamberlin trimetric"
 msgstr "Chamberlinin trimetrinen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Chamic languages"
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Chamorro"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -2246,13 +2642,34 @@ msgstr "Kaavio"
 msgid "Charts"
 msgstr "Kaaviot"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Chechen"
+msgstr ""
+
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl
 #, c-format
 msgid "Checked out ("
 msgstr "Lainassa ("
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Cherokee"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Cheyenne"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Chibcha"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Chinese"
 msgstr "kiinalainen"
@@ -2263,6 +2680,21 @@ msgstr "kiinalainen"
 #, c-format
 msgid "Chinese, Japanese, Korean"
 msgstr "kiina, japani, korea"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Chinook jargon"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Chipewyan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Choctaw"
+msgstr ""
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt
 #, c-format
@@ -2286,6 +2718,26 @@ msgstr "Koraalit"
 #, c-format
 msgid "Chorus score"
 msgstr "Kuoropartituuri"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Church Slavic"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Chuukese"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Chuvash"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl
+#, fuzzy, c-format
+msgid "Classification: "
+msgstr "DCC-luokitus: "
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt
 #, c-format
@@ -2632,6 +3084,11 @@ msgstr "Konvertoitu MARCXML:stä MADS-versioon 2.0 (Revision 2.10)"
 msgid "Cooperative cataloging program"
 msgstr "Luettelointiyhteistyö"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Coptic"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slimUtils.xsl
 #, c-format
@@ -2644,6 +3101,16 @@ msgstr "Tekijänoikeusvuosi: "
 msgid "Cordiform"
 msgstr "Kaksoissydänprojektio"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Cornish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Corsican"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -2655,6 +3122,51 @@ msgstr "Kantrimusiikki"
 #, c-format
 msgid "CreativeWork"
 msgstr "CreativeWork"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Cree"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Creek"
+msgstr "kreikka"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Creoles and Pidgins (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Creoles and Pidgins, English-based (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Creoles and Pidgins, French-based (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Creoles and Pidgins, Portuguese-based (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Crimean Tatar"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Croatian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Cushitic (Other)"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -2677,6 +3189,11 @@ msgstr "Lieriöprojektio, erikoistyyppi tuntematon"
 msgid "Cyrillic"
 msgstr "kyrillinen"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Czech"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
 #, c-format
@@ -2689,6 +3206,11 @@ msgstr "DCC-luokitus: "
 msgid "Daily"
 msgstr "Päivittäin"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dakota"
+msgstr ""
+
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl
 #, c-format
 msgid "Damaged ("
@@ -2699,6 +3221,16 @@ msgstr "Vioittunut ("
 #, c-format
 msgid "Dance forms"
 msgstr "Tanssimusiikki"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Danish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dargwa"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -2944,6 +3476,16 @@ msgstr "Julkaisuvuosi poikkeaa tuotanto- tai äänitysajankohdasta"
 msgid "Dates unknown"
 msgstr "Tuntematon"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dayak"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Delaware"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
@@ -2995,6 +3537,11 @@ msgstr "Sanakirjat, sanastot"
 #, c-format
 msgid "Dimaxion"
 msgstr "Robinsonin oikeapintainen (Dimaxion)"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dinka"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3069,6 +3616,11 @@ msgstr "Huomautus väitöskirjasta: "
 msgid "Distributor: "
 msgstr "Jakaja: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Divehi"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -3080,6 +3632,16 @@ msgstr "Divertimentot, serenadit, kassaatiot, notturnot"
 #, c-format
 msgid "Document"
 msgstr "Asiakirja"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dogri"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dogrib"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3099,11 +3661,46 @@ msgstr "Draama"
 msgid "Dramas "
 msgstr "Draamat "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dravidian (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Duala"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dutch"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dutch, Middle (ca. 1050-1350)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dyula"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Dzongkha"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Each contains a blank (#) or a fill character (|)"
 msgstr "Kukin sisältää tyhjämerkin (#) tai täyttömerkin (|)"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "East Frisian"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3122,6 +3719,31 @@ msgstr "Eckert"
 #, c-format
 msgid "Edition: "
 msgstr "Painos: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Edo"
+msgstr "doi"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Efik"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Egyptian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ekajuk"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Elamite"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -3170,6 +3792,21 @@ msgstr "Koodaustaso"
 msgid "Encyclopedias"
 msgstr "Tietosanakirjat, hakuteokset"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "English"
+msgstr "e - Vain englanti"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "English, Middle (1100-1500)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "English, Old (ca. 450-1100)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -3188,6 +3825,16 @@ msgstr "Oikeapituinen"
 msgid "Equirectangular"
 msgstr "Pallopanoraama"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Erzya"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Esperanto"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3202,11 +3849,31 @@ msgstr "Esseet"
 msgid "Essays "
 msgstr "Esseet "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Estonian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ethiopic"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Ethnological information"
 msgstr "Etnologista tietoa"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ewe"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Ewondo"
+msgstr "Rondot"
 
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
@@ -3228,11 +3895,26 @@ msgstr "Laajennettu latinalainen"
 msgid "Facsimiles"
 msgstr "Jäljennös"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Fang"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Fantasias"
 msgstr "Fantasiat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Fanti"
+msgstr "Fantasiat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Faroese"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -3274,6 +3956,16 @@ msgstr "Kaunokirjallisuus "
 msgid "Fiction (not further specified)"
 msgstr "Kaunokirjallisuus (ei tarkkaa määritelmää)"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Fijian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Filipino"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -3292,6 +3984,21 @@ msgstr "Filmografiat"
 #, c-format
 msgid "Filmstrip"
 msgstr "Raina"
+
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
+#, fuzzy, c-format
+msgid "Finna view: "
+msgstr "Asiakasliittymänäkymä: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Finnish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Finno-Ugrian (Other)"
+msgstr ""
 
 #. SCRIPT
 #: intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc
@@ -3321,6 +4028,11 @@ msgstr "Kansanmusiikki"
 #, c-format
 msgid "Folktales"
 msgstr "Kansantarinat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Fon"
+msgstr "Kirjasinlaji"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3397,17 +4109,47 @@ msgstr "Yhdistynyt julkaisuista:"
 msgid "Forms"
 msgstr "Lomake tai kaavake"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "French"
+msgstr "f- Vain ranska"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "French, Middle (ca. 1300-1600)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "French, Old (ca. 842-1300)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Frequency"
 msgstr "Ilmestymistiheys"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Frisian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Friulian"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Fugues"
 msgstr "Fuugat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Fula"
+msgstr ""
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt
 #, c-format
@@ -3426,6 +4168,11 @@ msgstr "Partituuri"
 msgid "Full score, miniature or study size"
 msgstr "Pienoispartituuri"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Galician"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -3442,11 +4189,26 @@ msgstr "Gall"
 msgid "Game"
 msgstr "Peli"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ganda"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Gauss-Kruger"
 msgstr "Gauss-Krügerin poikittaisasentoinen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gayo"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gbaya"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3487,6 +4249,36 @@ msgstr "Yleinen; "
 msgid "Genre/Form: "
 msgstr "Genre/Muoto: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Georgian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "German"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "German, Middle High (ca. 1050-1500)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "German, Old High (ca. 750-1050)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Germanic (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gilbertese"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
@@ -3501,6 +4293,11 @@ msgstr "Karttapallo"
 msgid "Gnomic"
 msgstr "Gnomoninen"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gondi"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -3513,11 +4310,21 @@ msgstr "Gooden oikeapintainen"
 msgid "Goode's homolosine"
 msgstr "Gooden lohkottu"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gorontalo"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Gospel music"
 msgstr "Hengellinen musiikki, Gospel"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gothic"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -3559,6 +4366,11 @@ msgstr "Korkeuserot värisävyin"
 msgid "Graphic"
 msgstr "Grafiikka"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Grebo"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl
@@ -3568,11 +4380,51 @@ msgstr "Grafiikka"
 msgid "Greek"
 msgstr "kreikka"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Greek, Ancient (to 1453)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Greek, Modern (1453- )"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Guarani"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gujarati"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gwich'in"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Gã"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Hachures"
 msgstr "Rinteen suuntaa osoittavat viivat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Haida"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Haitian French Creole"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -3587,14 +4439,45 @@ msgstr "Rinteen suuntaa osoittavat viivat"
 msgid "Handbooks"
 msgstr "Käsikirjat"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Hausa"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Hawaiian"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Hebrew"
 msgstr "heprea"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Herero"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Hiligaynon"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Hindi"
+msgstr "välillinen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Hiri Motu"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3607,6 +4490,16 @@ msgstr "Historiallista tietoa"
 #, c-format
 msgid "History"
 msgstr "Historia"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Hittite"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Hmong"
+msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
@@ -3626,6 +4519,16 @@ msgstr "Huumori, satiiri, jne."
 #, c-format
 msgid "Humor, satires, etc. "
 msgstr "Huumori, satiirit, jne. "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Hungarian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Hupa"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3648,6 +4551,31 @@ msgstr "ISBN: "
 #, c-format
 msgid "ISSN: "
 msgstr "ISSN: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Iban"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Icelandic"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Ido"
+msgstr "doi"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Igbo"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ijo"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3688,6 +4616,11 @@ msgstr "Kuvitus, koodi 3"
 msgid "Illustrations - code 4"
 msgstr "Kuvitus, koodi 4"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Iloko"
+msgstr ""
+
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl
 #, c-format
 msgid "In transit ("
@@ -3699,6 +4632,11 @@ msgstr "Kuljetettavana ("
 #, c-format
 msgid "In: "
 msgstr "Teoksessa: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Inari Sami"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3747,6 +4685,11 @@ msgstr "Hakemisto"
 msgid "Indexes"
 msgstr "Hakemistot, indeksit"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Indic (Other)"
+msgstr "d- Muu"
+
 #. SPAN
 #: intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc
 msgid "Indicator/subfield lengths"
@@ -3757,6 +4700,21 @@ msgstr "Indikaattori/osakenttien pituudet"
 #, c-format
 msgid "Individual biography"
 msgstr "Yhden henkilön elämäkerta"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Indo-European (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Indonesian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ingush"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3794,6 +4752,16 @@ msgstr "Yhdistetty kirjaus"
 msgid "Interactive multimedia"
 msgstr "Interaktiivinen multimedia"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Interlingua (International Auxiliary Language Association)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Interlingue"
+msgstr "Haastattelut"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -3813,6 +4781,46 @@ msgstr "Kansainvälinen, hallitusten välinen"
 #, c-format
 msgid "Interviews"
 msgstr "Haastattelut"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Inuktitut"
+msgstr "constituent"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Inupiaq"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Iranian (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Irish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Irish, Middle (ca. 1100-1550)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Irish, Old (to 1100)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Iroquoian (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Italian"
+msgstr "Esine"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3837,8 +4845,14 @@ msgstr "Niteet käytettävissä: "
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Japanese"
+msgstr "japanilainen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Javanese"
 msgstr "japanilainen"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -3846,6 +4860,16 @@ msgstr "japanilainen"
 #, c-format
 msgid "Jazz"
 msgstr "Jazz"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Judeo-Arabic"
+msgstr "arabia"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Judeo-Persian"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -3865,6 +4889,116 @@ msgstr "Lapset ja nuoret"
 msgid "Juvenile; "
 msgstr "Lapset ja nuoret; "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kabardian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kabyle"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kachin"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kalâtdlisut"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kamba"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kannada"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kanuri"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kara-Kalpak"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Karachay-Balkar"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Karelian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Karen languages"
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kashmiri"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kashubian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kawi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kazakh"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Khasi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Khmer"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Khoisan (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Khotanese"
+msgstr "kiinalainen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kikuyu"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kimbundu"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kinyarwanda"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3878,6 +5012,11 @@ msgstr "Lapset ja nuoret; "
 #, c-format
 msgid "Kit"
 msgstr "Moniviestin"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Klingon (Artificial language)"
+msgstr ""
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt
 #, c-format
@@ -3919,11 +5058,42 @@ msgstr "Koha &rsaquo; Luettelointi &rsaquo; Linkityksen liitännäinen"
 msgid "Koha &rsaquo; Classifications &rsaquo; 008 builder"
 msgstr "Koha &rsaquo; Luokitus &rsaquo; 008:n muodostaja"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Komi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kongo"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Konkani"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kootenai"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Korean"
 msgstr "korealainen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kosraean"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kpelle"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3931,10 +5101,55 @@ msgstr "korealainen"
 msgid "Krovak"
 msgstr "Krovak"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Kru (Other)"
+msgstr "d- Muu"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kuanyama"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kumyk"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kurdish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kurukh"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Kyrgyz"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/oilsMARC21slim2HTML.xsl
 #, c-format
 msgid "LDR "
 msgstr "LDR "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Ladino"
+msgstr "Ladataan..."
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lahndā"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lamba (Zambia and Congo)"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -3988,6 +5203,16 @@ msgstr "Kielten opetus"
 msgid "Language material"
 msgstr "Tekstiaineisto"
 
+#: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
+#, fuzzy, c-format
+msgid "Language: "
+msgstr "Kieli"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lao"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -4015,9 +5240,15 @@ msgstr "Viimeisin kirjaus"
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Latin"
 msgstr "latina"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Latvian"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -4099,11 +5330,26 @@ msgstr "Kirjeet"
 msgid "Letters "
 msgstr "Kirjeet "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lezgian"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Libretto or text"
 msgstr "Libretto tai teksti"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Limburgish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lingala"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4116,6 +5362,11 @@ msgstr "Kirjallisuusmuoto"
 #, c-format
 msgid "Literary text for sound recordings"
 msgstr "Äänitteen kirjallisuuslaji"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lithuanian"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4147,6 +5398,11 @@ msgstr "Paikallishallinto"
 msgid "Location(s): "
 msgstr "Sijainti: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lojban (Artificial language)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -4157,6 +5413,61 @@ msgstr "Irtolehti"
 #, c-format
 msgid "Lost ("
 msgstr "Kadonnut ("
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Low German"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lower Sorbian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lozi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Luba-Katanga"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Luba-Lulua"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Luiseño"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lule Sami"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lunda"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Luo (Kenya and Tanzania)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Lushai"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Luxembourgish"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4234,11 +5545,86 @@ msgstr "MU"
 msgid "MX"
 msgstr "MX"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Maasai"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Macedonian"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Madrigals"
 msgstr "Madrigaalit"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Madurese"
+msgstr "Rinteen suuntaa osoittavat viivat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Magahi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Maithili"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Makasar"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Malagasy"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Malay"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Malayalam"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Maltese"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Manchu"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Mandar"
+msgstr "Kalenteri"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Mandingo"
+msgstr "Varjostus"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Manipuri"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Manobo languages"
+msgstr "Viittomakielet"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slimUtils.xsl
@@ -4266,6 +5652,16 @@ msgstr "Tekstikäsikirjoitus"
 #, c-format
 msgid "Manuscript notated music"
 msgstr "Nuottikäsikirjoitus"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Manx"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Maori"
+msgstr ""
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
@@ -4303,11 +5699,36 @@ msgstr "Karttasarja"
 msgid "Maps"
 msgstr "Kartat"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mapuche"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Marathi"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Marches"
 msgstr "Marssit"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mari"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Marshallese"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Marwari"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4324,6 +5745,11 @@ msgstr "Messut"
 #, c-format
 msgid "Material type: "
 msgstr "Aineistolaji: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Mayan languages"
+msgstr "Viittomakielet"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4343,6 +5769,11 @@ msgstr "Mediatyyppi: "
 msgid "Memoirs"
 msgstr "Muistelmat"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mende"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -4355,6 +5786,11 @@ msgstr "Mercator"
 #, c-format
 msgid "Merged with ... to form ..."
 msgstr "Yhdistynyt julkaisuun ... ja muodostanut julkaisun ..."
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Micmac"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -4434,11 +5870,26 @@ msgstr "Miller"
 msgid "Miller's bipolar oblique conformal conic"
 msgstr "Millerin kaksinapainen vinoasentoinen oikeakulmainen kartioprojektio"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Minangkabau"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Minuets"
 msgstr "Menuetit"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mirandese"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Miscellaneous languages"
+msgstr "Useita kieliä"
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4506,11 +5957,36 @@ msgstr "Muokattu tietue"
 msgid "Modified stereographic for Alaska"
 msgstr "Modifioitu stereografinen Alaskalle"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mohawk"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Moksha"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Mollweide"
 msgstr "Mollweide"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mon-Khmer (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mongo-Nkundu"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mongolian"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4518,11 +5994,21 @@ msgstr "Mollweide"
 msgid "Monographic series"
 msgstr "Monografiasarja"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Montenegrin"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Monthly"
 msgstr "Kerran kuukaudessa"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Mooré"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4587,6 +6073,7 @@ msgstr "Useita lajeja"
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Multiple languages"
 msgstr "Useita kieliä"
@@ -4610,6 +6097,11 @@ msgstr "Useita tyyppejä"
 #, c-format
 msgid "Multistate"
 msgstr "Monta aluetta"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Munda (Other)"
+msgstr "d- Muu"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -4658,6 +6150,16 @@ msgstr "Musiikkirevyyt"
 msgid "Musical sound recording"
 msgstr "Musiikkiäänite"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "N'Ko"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nahuatl"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4702,6 +6204,51 @@ msgstr "Sisällön tyyppi - koodi 4"
 msgid "Nature of entire work"
 msgstr "Koko sisältö"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nauru"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Navajo"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ndebele (South Africa)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ndebele (Zimbabwe)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ndonga"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Neapolitan Italian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nepali"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Newari"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Newari, Old"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -4723,6 +6270,26 @@ msgstr "Seuraava&gt;&gt;"
 #, c-format
 msgid "Next&gt;&gt; "
 msgstr "Seuraava&gt;&gt; "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nias"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Niger-Kordofanian (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nilo-Saharan (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Niuean"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -4938,6 +6505,7 @@ msgstr "Ei niteitä saatavilla "
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "No linguistic content"
 msgstr "Ei kielellistä sisältöä, soveltumaton"
@@ -4992,6 +6560,11 @@ msgstr "Ilmiasun erityispiirteitä ei ole määritelty"
 msgid "Nocturnes"
 msgstr "Nocturnet"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nogai"
+msgstr ""
+
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt
 #, c-format
@@ -5034,6 +6607,41 @@ msgstr "Kuva"
 #, c-format
 msgid "Normalized irregular"
 msgstr "Normaalin epäsäännöllinen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "North American Indian (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "North Frisian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Northern Sami"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Northern Sotho"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Norwegian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Norwegian (Bokmål)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Norwegian (Nynorsk)"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -5147,11 +6755,41 @@ msgstr "Romaanit"
 msgid "Novels "
 msgstr "Romaanit "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Nubian languages"
+msgstr "Viittomakielet"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Numeric data"
 msgstr "Numeerinen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nyamwezi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nyanja"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nyankole"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nyoro"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Nzima"
+msgstr ""
 
 #. INPUT type=submit
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt
@@ -5175,6 +6813,11 @@ msgstr "Asiakasliittymänäkymä: "
 msgid "Oblique Mercator"
 msgstr "Oblique Mercator"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Occitan (post-1500)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -5183,6 +6826,26 @@ msgstr "Oblique Mercator"
 #, c-format
 msgid "Offprints"
 msgstr "Eripainokset"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Oirat"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ojibwa"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Old Norse"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Old Persian (ca. 600-400 B.C.)"
+msgstr ""
 
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl
 #, c-format
@@ -5606,6 +7269,7 @@ msgid "Online system or service"
 msgstr "Verkossa oleva järjestelmä tai palvelu"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #, c-format
 msgid "Open in new window"
 msgstr "Avaa uudessa ikkunassa"
@@ -5634,11 +7298,36 @@ msgstr "Yhteisö"
 msgid "Original alphabet or script of title"
 msgstr "Nimekkeen alkuperäinen kirjoitusjärjestelmä"
 
+#: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
+#, fuzzy, c-format
+msgid "Original language: "
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Oriya"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Oromo"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Orthographic"
 msgstr "Ortografinen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Osage"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ossetic"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -5714,6 +7403,11 @@ msgstr "Muu painos: "
 msgid "Other title: "
 msgstr "Muut nimekkeet: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Otomian languages"
+msgstr "Viittomakielet"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -5728,6 +7422,46 @@ msgstr "Alkusoitot"
 #, c-format
 msgid "PR"
 msgstr "PR"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Pahlavi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Palauan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Pali"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Pampanga"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Pangasinan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Panjabi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Papiamento"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Papuan (Other)"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -5788,11 +7522,26 @@ msgstr "Johtoääni"
 msgid "Periodical"
 msgstr "Aikakauslehti"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Persian"
+msgstr "Henkilö"
+
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
 #, c-format
 msgid "Person"
 msgstr "Henkilö"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Philippine (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Phoenician"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -5877,11 +7626,21 @@ msgstr "Runot"
 msgid "Poetry "
 msgstr "Runous "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Pohnpeian"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Polar stereographic"
 msgstr "Polaarinen stereografinen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Polish"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -5909,6 +7668,16 @@ msgstr "Viihdemusiikki"
 #, c-format
 msgid "Portraits"
 msgstr "Muotokuva"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Portuguese"
+msgstr "Fuugat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Prakrit languages"
+msgstr "Viittomakielet"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -6039,6 +7808,11 @@ msgstr "Projektio"
 msgid "Projection not specified"
 msgstr "Projektiota ei määritelty"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Provençal (to 1500)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6066,6 +7840,11 @@ msgstr "Julkaisuvuosi ja tekijänoikeusvuosi"
 msgid "Publisher: "
 msgstr "Julkaisutiedot: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Pushto"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -6078,6 +7857,11 @@ msgstr "Palapeli"
 msgid "Quarterly"
 msgstr "Neljäsosavuosittain"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Quechua"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6089,11 +7873,21 @@ msgstr "Neljäsosavuosittain"
 msgid "Questionable date"
 msgstr "Epävarma päivämäärä"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Raeto-Romance"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Ragtime music"
 msgstr "Ragtime"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Rajasthani"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6105,6 +7899,16 @@ msgstr "Ragtime"
 #, c-format
 msgid "Range of years of bulk of collection"
 msgstr "Kokoelman merkittävimmän osan kattama ajanjakso"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Rapanui"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Rarotongan"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6259,11 +8063,31 @@ msgstr "Maisemapiirrokset"
 msgid "Rock music"
 msgstr "Rock"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Romance (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Romani"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Romanian"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Rondos"
 msgstr "Rondot"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Rundi"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6282,6 +8106,11 @@ msgstr "Kesto enemmän kuin 3 merkkiä"
 #, c-format
 msgid "Running time for motion pictures and videorecordings"
 msgstr "Kesto"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Russian"
+msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl
@@ -6303,6 +8132,26 @@ msgstr "SE"
 msgid "ST"
 msgstr "ST"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Salishan languages"
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Samaritan Aramaic"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sami"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Samoan"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6311,6 +8160,36 @@ msgstr "ST"
 #, c-format
 msgid "Samples"
 msgstr "Mallikappale tai näyte"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sandawe"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sango (Ubangi Creole)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sanskrit"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Santali"
+msgstr "Fantasiat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sardinian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sasak"
+msgstr ""
 
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
@@ -6328,6 +8207,16 @@ msgstr "Näkökulma ja sisältö: "
 #, c-format
 msgid "Score"
 msgstr "Nuotti"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Scots"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Scottish Gaelic"
+msgstr ""
 
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt
 #, c-format
@@ -6353,6 +8242,11 @@ msgstr "Valitse aineiston muoto"
 msgid "Select a type of material to specify the variable values"
 msgstr "Valitse materiaalityyppi vaihtuvien arvojen määritystä varten"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Selkup"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -6364,6 +8258,11 @@ msgstr "Puolivuosittain"
 #, c-format
 msgid "Semimonthly"
 msgstr "Kaksi kertaa kuukaudessa"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Semitic (Other)"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6383,6 +8282,16 @@ msgstr "Toisen teoksen erillinen karttaliite"
 #, c-format
 msgid "Separated from:"
 msgstr "Eronnut julkaisusta:"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Serbian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Serer"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #, c-format
@@ -6428,6 +8337,16 @@ msgstr "Moniosainen julkaisu: "
 msgid "Shading"
 msgstr "Varjostus"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Shan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Shona"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -6472,6 +8391,21 @@ msgstr "Näytä arvot '%s' materiaalityypille?"
 msgid "Show volumes"
 msgstr "Näytä niteet"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sichuan Yi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sicilian Italian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sidamo"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6479,9 +8413,20 @@ msgstr "Näytä niteet"
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Sign languages"
 msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Siksika"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sindhi"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6500,11 +8445,26 @@ msgstr "Yksi julkaisuvuosi"
 msgid "Single map"
 msgstr "Yksittäinen kartta"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sinhalese"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sino-Tibetan (Other)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Sinusoidal"
 msgstr "Sinusoidi"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Siouan (Other)"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6516,11 +8476,46 @@ msgstr ""
 "Kuusi määrittelemätöntä merkkipaikkaa; kukin sisältää tyhjämerkin (#) tai "
 "täyttömerkin (|)."
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Skolt Sami"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Slavey"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Slavic (Other)"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Slide"
 msgstr "Dia"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Slovak"
+msgstr "Krovak"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Slovenian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sogdian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Somali"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6528,11 +8523,31 @@ msgstr "Dia"
 msgid "Sonatas"
 msgstr "Sonaatit"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Songhai"
+msgstr "Laulut"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Songs"
 msgstr "Laulut"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Soninke"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sorbian (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sotho"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6563,11 +8578,26 @@ msgstr "Äänet"
 msgid "Source: "
 msgstr "Sisältyy tähän: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "South American Indian (Other)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Southern Sami"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Space oblique Mercator"
 msgstr "Space oblique Mercator"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Spanish"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6612,6 +8642,11 @@ msgstr "Puheet, esitelmät "
 msgid "Split into .. and ...:"
 msgstr "Jakautunut julkaisuiksi:"
 
+#: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
+#, fuzzy, c-format
+msgid "Spoken language: "
+msgstr "Viittomakielet"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -6623,6 +8658,11 @@ msgstr "Korkeuspisteet"
 #, c-format
 msgid "Square dance music"
 msgstr "Kontratanssit ja country-dancet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sranan"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -6698,6 +8738,11 @@ msgstr "Asiasanat: "
 msgid "Subject: "
 msgstr "Aihe: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
+#, fuzzy, c-format
+msgid "Subtitle language: "
+msgstr "Useita kieliä"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -6710,11 +8755,31 @@ msgstr "Peräkkäinen kirjaus"
 msgid "Suites"
 msgstr "Sarjat"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sukuma"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Sumerian"
+msgstr "Numeerinen"
+
+#: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
+#, fuzzy, c-format
+msgid "Summary language: "
+msgstr "Yhteenveto: "
+
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
 #, c-format
 msgid "Summary: "
 msgstr "Yhteenveto: "
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Sundanese"
+msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
@@ -6763,6 +8828,31 @@ msgstr "Ei näytetä verkkokirjastossa"
 msgid "Surveys of literature in a subject area"
 msgstr "Kirjallisuuskatsaukset"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Susu"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Swahili"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Swazi"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Swedish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Swiss German"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
@@ -6775,14 +8865,50 @@ msgstr "Sinfoniset runoelmat"
 msgid "Symphonies"
 msgstr "Sinfoniat"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Syriac"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Syriac, Modern"
+msgstr ""
+
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
 #, c-format
 msgid "Tactile material"
 msgstr "Tunnusteluaineisto"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Tagalog"
+msgstr "luettelo, kuvasto"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tahitian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Tai (Other)"
+msgstr "d- Muu"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tajik"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tamashek"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Tamil"
 msgstr "tamili"
@@ -6798,6 +8924,11 @@ msgstr "tamili"
 #, c-format
 msgid "Target audience"
 msgstr "Kohderyhmä"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tatar"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6842,6 +8973,26 @@ msgstr "Tekniset raportit"
 msgid "Technique"
 msgstr "Menetelmä"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Telugu"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Temne"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Terena"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tetum"
+msgstr ""
+
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
 #, c-format
@@ -6850,6 +9001,7 @@ msgstr "Teksti"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Thai"
 msgstr "thaimaalainen"
@@ -6926,6 +9078,21 @@ msgstr ""
 msgid "Three-dimensional artifact or naturally occurring object"
 msgstr "Esine"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tibetan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tigrinya"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tigré"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
@@ -6934,11 +9101,41 @@ msgstr "Esine"
 msgid "Title translated: "
 msgstr "Nimekkeen käännös: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tiv"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tlingit"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Toccatas"
 msgstr "Toccatat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tok Pisin"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tokelauan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tonga (Nyasa)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tongan"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -6994,6 +9191,61 @@ msgstr "Kerran kolmessa vuodessa"
 #, c-format
 msgid "Trio-sonatas"
 msgstr "Triosonaatit"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tsimshian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tsonga"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tswana"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tumbuka"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Tupi languages"
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Turkish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Turkish, Ottoman"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Turkmen"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tuvaluan"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Tuvinian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Twi"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -7123,6 +9375,31 @@ msgstr "Visuaalisen aineiston tyyppi"
 msgid "URN:ISBN:"
 msgstr "URN:ISBN:"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Udmurt"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ugaritic"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Uighur"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Ukrainian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Umbundu"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -7208,6 +9485,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
 #, c-format
 msgid "Undetermined"
 msgstr "Ei määritelty"
@@ -7274,6 +9552,11 @@ msgstr "Tuntematon"
 #, c-format
 msgid "Unknown if item is government publication"
 msgstr "Ei tiedetä onko kohde virallisjulkaisu"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Unknown language code"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -7423,6 +9706,21 @@ msgstr "Päivittyvä tietokanta"
 msgid "Updating loose-leaf"
 msgstr "Päivittyvä irtolehtijulkaisu"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Upper Sorbian"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Urdu"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Uzbek"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS3-1.xsl
@@ -7435,6 +9733,11 @@ msgstr "Päivittyvä irtolehtijulkaisu"
 #, c-format
 msgid "VM"
 msgstr "VM"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Vai"
+msgstr "ai"
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -7459,6 +9762,11 @@ msgstr "Muunnelmat"
 msgid "Various places"
 msgstr "Useita maita"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Venda"
+msgstr "Kalenteri"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt
@@ -7466,6 +9774,11 @@ msgstr "Useita maita"
 #, c-format
 msgid "Videorecording"
 msgstr "Videotallenne"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Vietnamese"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -7506,6 +9819,11 @@ msgstr "Laulupartituuri"
 msgid "Voice score with accompaniment omitted"
 msgstr "Partituuri, jossa vain lauluäänet ilman säestystä"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Volapük"
+msgstr ""
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
@@ -7513,17 +9831,37 @@ msgstr "Partituuri, jossa vain lauluäänet ilman säestystä"
 msgid "Volumes: "
 msgstr "Numerot: "
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Votic"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Wakashan languages"
+msgstr "Viittomakielet"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Wall map"
 msgstr "Seinäkartta"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Walloon"
+msgstr "a- Kuumailmapallo"
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Waltzes"
 msgstr "Valssit"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Waray"
+msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slimUtils-MODS31.xsl
 #, c-format
@@ -7534,11 +9872,26 @@ msgstr ""
 "Huomaa: Merkkijonossa on epäkelpo merkki. Sen tilalla käytetään "
 "kysymysmerkkiä."
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Washoe"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Weekly"
 msgstr "Kerran viikossa"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Welsh"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Western Pahari languages"
+msgstr ""
 
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
@@ -7555,6 +9908,36 @@ msgstr ""
 msgid "Withdrawn ("
 msgstr "Poistettu ("
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Wolayta"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Wolof"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Xhosa"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Yakut"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Yao (Africa)"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Yapese"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
@@ -7568,11 +9951,61 @@ msgstr "Poistettu ("
 msgid "Yearbooks"
 msgstr "Vuosikirjat"
 
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Yiddish"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Yoruba"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Yupik languages"
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Zande languages"
+msgstr "Viittomakielet"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Zapotec"
+msgstr ""
+
 #: intranet-tmpl/prog/en/data/marc21_field_006.xml
 #: intranet-tmpl/prog/en/data/marc21_field_008.xml
 #, c-format
 msgid "Zarzuelas"
 msgstr "Zarzuelat"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Zaza"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, fuzzy, c-format
+msgid "Zenaga"
+msgstr "devanagari"
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Zhuang"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Zulu"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21Languages.xsl
+#, c-format
+msgid "Zuni"
+msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
@@ -7598,6 +10031,12 @@ msgstr "[Kansinimeke]"
 msgid "[Distinctive title]"
 msgstr "[Erottuva nimeke]"
 
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl
+#: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl
+#, fuzzy, c-format
+msgid "[No title]"
+msgstr "[Kansinimeke]"
+
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
 #, c-format
@@ -7615,6 +10054,11 @@ msgstr "[Rinnakkaisnimeke]"
 #, c-format
 msgid "[Portion of title]"
 msgstr "[Nimekkeen osa]"
+
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
+#, c-format
+msgid "[Record with no title statement]"
+msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl
@@ -7648,6 +10092,7 @@ msgstr "_ - Ei-ISBD"
 msgid "_ - Not specified or not applicable"
 msgstr "_ - Ei eritelty tai soveltumaton"
 
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACDetail.xsl
@@ -8702,6 +11147,14 @@ msgid "ai"
 msgstr "ai"
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
+#, c-format
+msgid "amnp"
+msgstr ""
+
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl
+#: intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl
+#: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl
 #, c-format
 msgid "and cni:"
 msgstr "and cni:"
@@ -12074,6 +14527,11 @@ msgstr "l- Vinyyli"
 #, c-format
 msgid "lacnaf"
 msgstr "lacnaf"
+
+#: intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl
+#, c-format
+msgid "lang_name-"
+msgstr ""
 
 #: intranet-tmpl/prog/en/xslt/MARC21slim2MODS32.xsl
 #: opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl
