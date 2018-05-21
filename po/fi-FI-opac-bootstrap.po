@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-02-21 15:55+0200\n"
+"POT-Creation-Date: 2018-05-21 09:34+0300\n"
 "PO-Revision-Date: 2018-02-21 15:33+0200\n"
 "Last-Translator: AnneliÖ <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
@@ -4490,7 +4490,6 @@ msgstr "Lainattu"
 msgid "Checked out to %s %s %s(%s)%s"
 msgstr "Lainassa %s %s %s(%s)%s"
 
-#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #: opac-tmpl/bootstrap/en/includes/overdrive-checkout.inc
 #: opac-tmpl/bootstrap/en/includes/overdrive-checkout.inc
 #, c-format
@@ -4751,6 +4750,16 @@ msgstr "Kommentit ( %s )"
 #, c-format
 msgid "Comments on "
 msgstr "Kommentit liittyen teokseen "
+
+#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
+#, c-format
+msgid "Component parts"
+msgstr ""
+
+#: opac-tmpl/bootstrap/en/includes/opac-facets.inc
+#, c-format
+msgid "Component parts "
+msgstr ""
 
 #. INPUT type=submit
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
@@ -5612,6 +5621,11 @@ msgstr "Viedään Dublin Core -muotoon..."
 msgid "Extends the due date for a patron's existing loan."
 msgstr "Lainojen uusinta"
 
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
+#, c-format
+msgid "FINNA"
+msgstr ""
+
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #, c-format
 msgid "Facebook"
@@ -6165,6 +6179,11 @@ msgstr "Kotikirjastot"
 #, c-format
 msgid "Home library"
 msgstr "Kotikirjasto"
+
+#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
+#, fuzzy, c-format
+msgid "Host items"
+msgstr "Näytetään 50 viimeistä"
 
 #. A
 #: opac-tmpl/bootstrap/en/modules/opac-account.tt
@@ -6823,6 +6842,11 @@ msgstr "Rajoita johonkin seuraavista:"
 #, c-format
 msgid "Limit to currently available items."
 msgstr "Rajoita vain saatavilla oleviin."
+
+#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
+#, fuzzy, c-format
+msgid "Limit to linked resources:"
+msgstr "Linkit:"
 
 #: opac-tmpl/bootstrap/en/includes/opac-topissues.inc
 #, c-format
@@ -7577,6 +7601,11 @@ msgstr "Puheäänite"
 #, c-format
 msgid "None"
 msgstr "Ei mitään"
+
+#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#, c-format
+msgid "None of the libraries are available for pickup location. "
+msgstr ""
 
 #: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
@@ -8585,6 +8614,7 @@ msgstr "Yksityiset listat"
 msgid "Private lists shared with me"
 msgstr "Minulle jaetut yksityiset listat"
 
+#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #, c-format
@@ -9633,6 +9663,12 @@ msgstr "Näytä"
 msgid "Show _MENU_ entries"
 msgstr "Näytä _MENU_ kenttää"
 
+#: opac-tmpl/bootstrap/en/includes/opac-facets.inc
+#: opac-tmpl/bootstrap/en/includes/opac-facets.inc
+#, fuzzy, c-format
+msgid "Show all"
+msgstr "Näytä kaikki kohteet"
+
 #: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #: opac-tmpl/bootstrap/en/includes/opac-facets.inc
 #, c-format
@@ -9659,6 +9695,16 @@ msgstr "Näytä enemmän"
 #, c-format
 msgid "Show more options"
 msgstr "Näytä enemmän vaihtoehtoja"
+
+#: opac-tmpl/bootstrap/en/includes/opac-facets.inc
+#, c-format
+msgid "Show only component parts"
+msgstr ""
+
+#: opac-tmpl/bootstrap/en/includes/opac-facets.inc
+#, fuzzy, c-format
+msgid "Show only host items"
+msgstr "Näytetään 50 viimeistä"
 
 #. A
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
@@ -10729,6 +10775,13 @@ msgstr "Tämä lista on tyhjä. %s Tee lisäyksiä listaasi miltä tahansa "
 #, c-format
 msgid "This message can have the following reason(s):"
 msgstr "Tälle viestille voi olla seuraavia syitä:"
+
+#. INPUT type=checkbox name=digest
+#: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
+#: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
+#, fuzzy
+msgid "This option cannot be changed"
+msgstr "Teosta ei voi varata"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
