@@ -101,6 +101,10 @@ if ($help) {
 
 $ENV{TRANSMAN_VERBOSITY} = $verbose if $verbose;
 
+BEGIN {
+    use FindBin;
+    eval { use lib "$FindBin::Bin/../lib"; };
+}
 
 use TransMan;
 
