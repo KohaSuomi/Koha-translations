@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-17 09:05+0300\n"
+"POT-Creation-Date: 2018-09-17 10:27+0300\n"
 "PO-Revision-Date: 2018-07-06 10:21+0300\n"
 "Last-Translator: AnneliÖ <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
@@ -257,9 +257,9 @@ msgstr "%s %s (ei hyväksytty) %s "
 
 #. For the first occurrence,
 #. %1$s:  END 
-#. %2$s:  IF ( BORROWER_INFO.userdebarreddate ) 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#. %2$s:  IF debarred_date && debarred_date != '9999-12-31' 
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "%s %s End date: "
 msgstr "%s %s Loppupvm: "
@@ -1366,8 +1366,8 @@ msgstr "%s teosta"
 #. For the first occurrence,
 #. %1$s:  IF ( review.author ) 
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "%s by "
 msgstr "%s / "
@@ -1557,12 +1557,12 @@ msgstr "%s%s%sKoha %s &rsaquo; Itsepalvelulainauksen ohje"
 #. %2$s:  LibraryNameTitle 
 #. %3$s:  ELSE 
 #. %4$s:  END 
-#: opac-tmpl/bootstrap/en/modules/mydata.tt
 #: opac-tmpl/bootstrap/en/modules/opac-registration-invalid.tt
-#: opac-tmpl/bootstrap/en/modules/maintenance.tt
-#: opac-tmpl/bootstrap/en/modules/opac-blocked.tt
-#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/maintenance.tt
+#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
+#: opac-tmpl/bootstrap/en/modules/opac-blocked.tt
+#: opac-tmpl/bootstrap/en/modules/mydata.tt
 #, c-format
 msgid "%s%s%sKoha online%s catalog"
 msgstr "%s%s%sKoha online%s luettelo"
@@ -2056,8 +2056,8 @@ msgstr "%s%s%sKoha %s luettelo &rsaquo; Maksusi"
 #. %2$s:  LibraryNameTitle 
 #. %3$s:  ELSE 
 #. %4$s:  END 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-issue-note.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "%s%s%sKoha online%s catalog &rsaquo; Your library home"
 msgstr "%s%s%sKoha %s luettelo &rsaquo; Kirjastosi"
@@ -2381,8 +2381,8 @@ msgstr "%sTeoksella ei ole niteitä.%s "
 #. %1$s:  IF ( Koha.Preference('OPACPatronDetails') ) 
 #. %2$s:  ELSE 
 #. %3$s:  END 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "%sUpdate your contact information%sGo to your contact information%s"
 msgstr "%sPäivitä yhteystietosi%sMene yhteystietoihisi%s"
@@ -3115,8 +3115,8 @@ msgstr "(Vapaaehtoinen, oletusarvo 0)"
 msgid "(Optional, default 1)"
 msgstr "(Vapaaehtoinen, oletusarvo 1)"
 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid ""
 "(Please note: there may be a delay in restoring your account if you submit "
@@ -3171,9 +3171,9 @@ msgid "(Use SRU instead)"
 msgstr "(Käytä SRU:ta sen sijaan)"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #, c-format
 msgid "(done)"
 msgstr "(valmis)"
@@ -3234,10 +3234,10 @@ msgstr "(julkaistu %s%s "
 msgid "(related searches: %s%s%s)"
 msgstr "(samankaltaisia hakuja: %s%s%s)"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
 #: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
 #, c-format
@@ -3264,8 +3264,8 @@ msgstr "- Anna listan nimi"
 msgid "-- Choose --"
 msgstr "-- Valitse toiminto --"
 
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #, c-format
 msgid "-- Choose format --"
 msgstr "-- Valitse muoto --"
@@ -3451,8 +3451,8 @@ msgstr "Tiivistelmät, lyhennelmät"
 msgid "Access denied"
 msgstr "Ei käyttöoikeutta"
 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid ""
 "According to our records, we don't have up-to-date contact information. "
@@ -3500,11 +3500,11 @@ msgstr "Aktiivinen"
 
 #. INPUT type=submit name=tagbutton
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-basket.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 msgid "Add"
 msgstr "Lisää"
 
@@ -3520,8 +3520,8 @@ msgstr "Lisää %s nimekettä %s"
 msgid "Add another field"
 msgstr "Lisää kenttä"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Add tag"
 msgstr "Lisää tagi"
@@ -3547,8 +3547,8 @@ msgstr "Lisää listalle"
 msgid "Add to a new list:"
 msgstr "Lisää uudelle listalle:"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Add to cart"
 msgstr "Lisää koriin"
@@ -3558,8 +3558,10 @@ msgstr "Lisää koriin"
 msgid "Add to list:"
 msgstr "Lisää listalle:"
 
-#: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
+#. For the first occurrence,
+#. SCRIPT
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
+#: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
 #, c-format
 msgid "Add to your cart"
 msgstr "Lisää koriin"
@@ -3640,8 +3642,8 @@ msgid "All item types"
 msgstr "Kaikki aineistolajit"
 
 #: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
-#: opac-tmpl/bootstrap/en/includes/opac-topissues.inc
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
+#: opac-tmpl/bootstrap/en/includes/opac-topissues.inc
 #, c-format
 msgid "All libraries"
 msgstr "Kaikki kirjastot"
@@ -3651,8 +3653,8 @@ msgstr "Kaikki kirjastot"
 msgid "Allow changes to contents from: "
 msgstr "Muokkausoikeus: "
 
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "Allow your guarantor to view your current checkouts?"
 msgstr "Saako huoltajasi nähdä lainasi?"
@@ -3933,18 +3935,18 @@ msgstr ""
 "asiakkaalle."
 
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
+#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/includes/masthead.inc
+#: opac-tmpl/bootstrap/en/includes/masthead.inc
 #: opac-tmpl/bootstrap/en/includes/resort_form.inc
-#: opac-tmpl/bootstrap/en/includes/masthead.inc
-#: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Author"
 msgstr "Tekijä"
@@ -3987,15 +3989,15 @@ msgstr "Tekijä(t)"
 #. %13$s:  END 
 #. %14$s:  END 
 #. %15$s:  END 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Author(s): %s%s%s %s %s; %s %s %s %s%s %s %s;%s %s %s "
 msgstr "Tekijät: %s%s%s %s %s; %s %s %s %s%s %s %s;%s %s %s "
 
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #, c-format
 msgid "Author:"
 msgstr "Tekijä:"
@@ -4006,10 +4008,10 @@ msgid "Authority"
 msgstr "Auktoriteetti"
 
 #: opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt
+#: opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt
+#: opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt
 #: opac-tmpl/bootstrap/en/modules/opac-auth-MARCdetail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt
-#: opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt
+#: opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Authority search"
@@ -4040,10 +4042,8 @@ msgstr "Tekijät"
 msgid "Availability "
 msgstr "Saatavuus "
 
-#. For the first occurrence,
-#. SCRIPT
-#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #, c-format
 msgid "Availability:"
 msgstr "Saatavuus:"
@@ -4091,12 +4091,12 @@ msgid "Back to the results search list"
 msgstr "Takaisin löytyneisiin"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
-#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
 #: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "Barcode"
 msgstr "Viivakoodi"
@@ -4119,8 +4119,8 @@ msgstr ""
 "Varmista, että käytit sähköpostisi linkkiä tai ota yhteys kirjastoon. %s %s "
 "%s "
 
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #, c-format
 msgid "BibTeX"
 msgstr "BibTex"
@@ -4221,9 +4221,9 @@ msgid "CGI debug is on."
 msgstr "CGI debug on käytössä."
 
 #. For the first occurrence,
-#. %1$s:  csv_profile.profile |html 
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
+#. %1$s:  csv_profile.profile 
 #: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #, c-format
 msgid "CSV - %s"
 msgstr "CSV - %s"
@@ -4233,11 +4233,11 @@ msgstr "CSV - %s"
 msgid "Call Number"
 msgstr "Luokka"
 
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #, c-format
 msgid "Call no."
 msgstr "Luokka"
@@ -4249,15 +4249,15 @@ msgid "Call no.:"
 msgstr "Luokka:"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
 #: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
@@ -4289,33 +4289,33 @@ msgstr "Luokka:"
 msgid "Call number: %s"
 msgstr "Luokka: %s"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
+#: opac-tmpl/bootstrap/en/modules/clubs/enroll.tt
+#: opac-tmpl/bootstrap/en/modules/opac-review.tt
+#: opac-tmpl/bootstrap/en/modules/opac-issue-note.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelfform.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-passwd.tt
-#: opac-tmpl/bootstrap/en/modules/opac-review.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelfform.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasketform.tt
-#: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
-#: opac-tmpl/bootstrap/en/modules/opac-issue-note.tt
 #: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
-#: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
-#: opac-tmpl/bootstrap/en/modules/clubs/enroll.tt
+#: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
 #: opac-tmpl/bootstrap/en/includes/overdrive-checkout.inc
-#: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
+#: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
 #, c-format
 msgid "Cancel"
 msgstr "Peruuta"
@@ -4415,8 +4415,8 @@ msgid "Catalogs"
 msgstr "Luettelot, kuvastot"
 
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "Category:"
 msgstr "Luokka:"
@@ -4508,10 +4508,10 @@ msgstr "Lainaus"
 msgid "Checkout history"
 msgstr "Lainahistoria"
 
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
-#: opac-tmpl/bootstrap/en/modules/mydata.tt
-#: opac-tmpl/bootstrap/en/modules/mydata.tt
 #: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
+#: opac-tmpl/bootstrap/en/modules/mydata.tt
+#: opac-tmpl/bootstrap/en/modules/mydata.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #, c-format
 msgid "Checkouts"
 msgstr "Lainat"
@@ -4544,8 +4544,8 @@ msgstr "Luokitus"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.classification 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Classification: %s "
 msgstr "Luokitus: %s "
@@ -4557,20 +4557,24 @@ msgstr "Luokitus: %s "
 msgid "Clear"
 msgstr "Tyhjennä"
 
+#. For the first occurrence,
+#. SCRIPT
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #, c-format
 msgid "Clear all"
 msgstr "Tyhjennä kaikki"
 
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
+#. For the first occurrence,
+#. SCRIPT
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "Clear date"
 msgstr "Tyhjennä päiväys"
@@ -4689,9 +4693,9 @@ msgid "Collect items you are interested in"
 msgstr "Valitse nimekkeet, jotka haluat"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
-#: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
+#: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #, c-format
 msgid "Collection"
 msgstr "Kokoelma"
@@ -4708,8 +4712,8 @@ msgstr "Kokoelma: "
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.seriestitle 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Collection: %s "
 msgstr "Kokoelma: %s "
@@ -4829,8 +4833,8 @@ msgid "Contents of "
 msgstr "Sisältö "
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #, c-format
 msgid "Copy number"
 msgstr "Nidenumero"
@@ -4858,8 +4862,8 @@ msgstr "Copyright- tai julkaisuvuosi, esimerkiksi: 2016"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.copyrightdate 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Copyright year: %s "
 msgstr "Julkaisuvuosi: %s "
@@ -4880,8 +4884,8 @@ msgid "Course number:"
 msgstr "Kurssin numero:"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
+#: opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Course reserves"
@@ -4979,15 +4983,15 @@ msgstr "Opinto-ohjelma"
 msgid "DVD video / Videodisc"
 msgstr "DVD-video"
 
-#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-account.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #, c-format
 msgid "Date"
 msgstr "Pvm"
@@ -5033,9 +5037,9 @@ msgid "Date received"
 msgstr "Vastaanottopvm"
 
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #, c-format
 msgid "Date:"
 msgstr "Pvm:"
@@ -5096,12 +5100,12 @@ msgstr ""
 
 #. INPUT type=submit
 #: opac-tmpl/bootstrap/en/modules/opac-apikeys.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Delete"
 msgstr "Poista"
@@ -5153,24 +5157,24 @@ msgstr "Osasto"
 msgid "Descending"
 msgstr "Laskeva"
 
-#: opac-tmpl/bootstrap/en/modules/opac-account.tt
-#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #: opac-tmpl/bootstrap/en/modules/clubs/clubs-tab.tt
 #: opac-tmpl/bootstrap/en/modules/clubs/clubs-tab.tt
+#: opac-tmpl/bootstrap/en/modules/opac-account.tt
+#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #, c-format
 msgid "Description"
 msgstr "Kuvaus"
 
-#: opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt
 #: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt
 #, c-format
 msgid "Details"
 msgstr "Tiedot"
 
 #. For the first occurrence,
 #. %1$s:  bibliotitle 
-#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt
+#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-serial-issues.tt
 #, c-format
 msgid "Details for %s"
@@ -5194,8 +5198,8 @@ msgstr "Dewey"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.dewey 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Dewey: %s "
 msgstr "Dewey: %s "
@@ -5258,8 +5262,8 @@ msgstr "Haluatko kirjastokortin?"
 msgid "Don't have a password yet?"
 msgstr "Haluatko salasanan?"
 
-#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Don't have an account? "
@@ -5399,8 +5403,8 @@ msgstr "Painokset"
 msgid "Email"
 msgstr "Sähköposti"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendshelfform.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasketform.tt
 #, c-format
 msgid "Email address:"
@@ -5537,10 +5541,10 @@ msgid ""
 "with plain text."
 msgstr "Virhe: Ole hyvä ja syötä tagi uudestaan tekstinä"
 
-#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
-#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #: opac-tmpl/bootstrap/en/modules/opac-account-pay-error.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #, c-format
 msgid "Error:"
 msgstr "Virhe:"
@@ -5780,8 +5784,8 @@ msgid ""
 "who want to keep track of what they are reading."
 msgstr "Lainahistoria säilytetään aina."
 
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Forgot your password?"
@@ -5819,8 +5823,8 @@ msgstr ""
 
 #. For the first occurrence,
 #. SCRIPT
-#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 msgid "Found"
 msgstr "Löytyi"
 
@@ -5876,8 +5880,8 @@ msgstr "Luo uusi avain"
 msgid "Get new password recovery link"
 msgstr "Uusi salasanan palautuslinkki"
 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-discharge.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "Get your discharge"
 msgstr "Hae velattomuusilmoituksesi"
@@ -5965,11 +5969,11 @@ msgstr ""
 
 #. INPUT type=submit
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
-#: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
+#: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
@@ -5982,8 +5986,8 @@ msgstr "OK"
 msgid "Go to detail"
 msgstr "Tarkat tiedot"
 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "Go to your account page"
 msgstr "Mene käyttäjätietoihisi"
@@ -6054,8 +6058,8 @@ msgstr "Hei, %s "
 msgid "Help"
 msgstr "Ohje"
 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Hi,"
 msgstr "Hei,"
@@ -6149,58 +6153,58 @@ msgstr "Varaukset (%s)"
 msgid "Holds identifier is not unique."
 msgstr "Varaustunniste ei ole uniikki."
 
-#: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
-#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
-#: opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt
-#: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
-#: opac-tmpl/bootstrap/en/modules/opac-tags.tt
-#: opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-serial-issues.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
-#: opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
-#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
-#: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
-#: opac-tmpl/bootstrap/en/modules/ilsdi.tt
-#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
-#: opac-tmpl/bootstrap/en/modules/errors/errorpage.tt
-#: opac-tmpl/bootstrap/en/modules/opac-apikeys.tt
 #: opac-tmpl/bootstrap/en/modules/opac-registration-invalid.tt
-#: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
-#: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
+#: opac-tmpl/bootstrap/en/modules/opac-tags.tt
+#: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-apikeys.tt
+#: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-account-pay-error.tt
+#: opac-tmpl/bootstrap/en/modules/svc/suggestion.tt
+#: opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
+#: opac-tmpl/bootstrap/en/modules/opac-registration-email-sent.tt
+#: opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-discharge.tt
+#: opac-tmpl/bootstrap/en/modules/ilsdi.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #: opac-tmpl/bootstrap/en/modules/opac-imageviewer.tt
 #: opac-tmpl/bootstrap/en/modules/opac-tags_subject.tt
-#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-passwd.tt
-#: opac-tmpl/bootstrap/en/modules/opac-account.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
-#: opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt
-#: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
-#: opac-tmpl/bootstrap/en/modules/opac-paycollect.tt
-#: opac-tmpl/bootstrap/en/modules/opac-account-pay-error.tt
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt
-#: opac-tmpl/bootstrap/en/modules/opac-auth-MARCdetail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-issue-note.tt
-#: opac-tmpl/bootstrap/en/modules/opac-blocked.tt
-#: opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt
-#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
-#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
-#: opac-tmpl/bootstrap/en/modules/opac-discharge.tt
-#: opac-tmpl/bootstrap/en/modules/opac-restrictedpage.tt
-#: opac-tmpl/bootstrap/en/modules/opac-main.tt
-#: opac-tmpl/bootstrap/en/modules/opac-registration-email-sent.tt
-#: opac-tmpl/bootstrap/en/modules/svc/suggestion.tt
 #: opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
+#: opac-tmpl/bootstrap/en/modules/opac-issue-note.tt
+#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
+#: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
+#: opac-tmpl/bootstrap/en/modules/opac-restrictedpage.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt
+#: opac-tmpl/bootstrap/en/modules/opac-passwd.tt
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt
+#: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-paycollect.tt
+#: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt
+#: opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt
+#: opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt
+#: opac-tmpl/bootstrap/en/modules/errors/errorpage.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
+#: opac-tmpl/bootstrap/en/modules/opac-blocked.tt
+#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
+#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
+#: opac-tmpl/bootstrap/en/modules/opac-auth-MARCdetail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
+#: opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
+#: opac-tmpl/bootstrap/en/modules/opac-account.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
+#: opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt
+#: opac-tmpl/bootstrap/en/modules/opac-serial-issues.tt
+#: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
 #, c-format
 msgid "Home"
 msgstr "Etusivu"
@@ -6211,8 +6215,8 @@ msgid "Home libraries"
 msgstr "Kotikirjastot"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
 #: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
 #, c-format
 msgid "Home library"
 msgstr "Kotikirjasto"
@@ -6255,8 +6259,8 @@ msgstr "ILS-DI"
 msgid "IP address where the end user request is being placed"
 msgstr "Pyyntöjen IP-osoite"
 
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #, c-format
 msgid "ISBD"
 msgstr "ISBD"
@@ -6477,8 +6481,8 @@ msgstr "Poista heti"
 #. For the first occurrence,
 #. %1$s:  OPACBaseURL 
 #. %2$s:  BIBLIO_RESULT.biblionumber 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "In online catalog: %s/cgi-bin/koha/opac-detail.pl?biblionumber=%s "
 msgstr "Verkkokirjastossa: %s/cgi-bin/koha/opac-detail.pl?biblionumber=%s "
@@ -6493,10 +6497,10 @@ msgstr "Verkkokirjastossa: %s/cgi-bin/koha/opac-detail.pl?biblionumber=%s "
 msgid "In transit from %s to %s since %s"
 msgstr "Kuljetettavana kirjastosta %s kirjastoon %s %s lähtien."
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
+#: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
 #, c-format
 msgid "In your cart"
 msgstr "Korissasi"
@@ -6620,19 +6624,19 @@ msgid "Item lost"
 msgstr "Nide kadonnut"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
-#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #, c-format
 msgid "Item type"
 msgstr "Aineistolaji"
 
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
 #, c-format
 msgid "Item type:"
@@ -6659,10 +6663,8 @@ msgstr "Poistettu nide"
 msgid "Items available at:"
 msgstr "Niteet saatavilla:"
 
-#. For the first occurrence,
-#. SCRIPT
-#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #, c-format
 msgid "Items available:"
 msgstr "Niteet saatavilla:"
@@ -6672,8 +6674,8 @@ msgstr "Niteet saatavilla:"
 msgid "Items in your cart: "
 msgstr "Korissasi on: "
 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Items: "
 msgstr "Niteet: "
@@ -6759,8 +6761,8 @@ msgstr "LCCN:"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.lccn 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "LCCN: %s "
 msgstr "LCCN: %s "
@@ -6775,8 +6777,8 @@ msgstr "Kieli"
 msgid "Language: "
 msgstr "Kieli: "
 
-#: opac-tmpl/bootstrap/en/includes/opac-facets.inc
 #: opac-tmpl/bootstrap/en/includes/masthead-langmenu.inc
+#: opac-tmpl/bootstrap/en/includes/opac-facets.inc
 #, c-format
 msgid "Languages"
 msgstr "Kielet"
@@ -6851,8 +6853,8 @@ msgstr "Taso 4: Luotettava/toimialuespesifinen hakukone"
 msgid "Libraries"
 msgstr "Kirjastot"
 
-#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "Library"
@@ -6916,8 +6918,8 @@ msgstr "Linkit: "
 msgid "LinkedIn"
 msgstr "Jaa LinkedInillä"
 
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #, c-format
 msgid "Links"
 msgstr "Linkit"
@@ -6937,8 +6939,8 @@ msgstr "Lista poistettu."
 msgid "List name"
 msgstr "Listan nimi"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
 #, c-format
 msgid "List name:"
 msgstr "Listan nimi:"
@@ -6983,8 +6985,8 @@ msgstr "Ladataan "
 
 #. For the first occurrence,
 #. SCRIPT
-#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #: opac-tmpl/bootstrap/en/includes/datatables.inc
 msgid "Loading..."
 msgstr "Ladataan..."
@@ -7030,13 +7032,14 @@ msgstr "Sijainti (Tila)"
 msgid "Locations"
 msgstr "Hyllypaikat"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt
-#: opac-tmpl/bootstrap/en/modules/opac-auth.tt
-#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
-#: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
+#. INPUT type=submit
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt
+#: opac-tmpl/bootstrap/en/modules/opac-auth.tt
+#: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Log in"
@@ -7044,8 +7047,8 @@ msgstr "Kirjaudu"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Log in to add tags."
 msgstr "Kirjaudu sisään lisätäksesi tageja."
@@ -7073,8 +7076,8 @@ msgstr "Kirjaudu sisään nähdäksesi omat tagisi."
 msgid "Log in to your account"
 msgstr "Kirjaudu sisään"
 
-#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #, c-format
 msgid "Log in to your account:"
 msgstr "Kirjaudu sisään:"
@@ -7110,10 +7113,10 @@ msgstr "Kirjastokortin numero"
 msgid "Login page"
 msgstr "Kirjautumissivu"
 
-#: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt
-#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
-#: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
+#: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt
+#: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Login:"
@@ -7139,8 +7142,8 @@ msgstr ""
 msgid "LookupPatron"
 msgstr "LookupPatron"
 
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #, c-format
 msgid "MARC"
 msgstr "MARC"
@@ -7155,12 +7158,12 @@ msgstr "MARC-korttinäkymä"
 msgid "MARC View"
 msgstr "MARC-tiedot"
 
-#: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-showmarc.tt
+#: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-auth-MARCdetail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-auth-MARCdetail.tt
 #, c-format
 msgid "MARC view"
 msgstr "MARC-tiedot"
@@ -7336,9 +7339,9 @@ msgstr "Minun tiedot"
 msgid "NT"
 msgstr "ST"
 
+#: opac-tmpl/bootstrap/en/modules/clubs/clubs-tab.tt
+#: opac-tmpl/bootstrap/en/modules/clubs/clubs-tab.tt
 #: opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt
-#: opac-tmpl/bootstrap/en/modules/clubs/clubs-tab.tt
-#: opac-tmpl/bootstrap/en/modules/clubs/clubs-tab.tt
 #, c-format
 msgid "Name"
 msgstr "Nimi"
@@ -7388,8 +7391,8 @@ msgstr "Uusi kommentti teokseen %s %s, %s%s"
 msgid "New list"
 msgstr "Uusi lista"
 
-#: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt
 #: opac-tmpl/bootstrap/en/modules/opac-passwd.tt
+#: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt
 #, c-format
 msgid "New password:"
 msgstr "Uusi salasana:"
@@ -7406,15 +7409,15 @@ msgid "New search"
 msgstr "Uusi haku"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "New tag(s), separated by a comma:"
 msgstr "Lisää tageja, pilkulla eroteltuna:"
 
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
 #, c-format
 msgid "New tag:"
 msgstr "Uusi tagi:"
@@ -7431,8 +7434,8 @@ msgstr "Uutiset %s%s%skirjastosta%s"
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #: opac-tmpl/bootstrap/en/includes/calendar.inc
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
 #: opac-tmpl/bootstrap/en/includes/datatables.inc
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
 #, c-format
 msgid "Next"
 msgstr "Seuraava"
@@ -7454,11 +7457,11 @@ msgstr "Seuraava &raquo;"
 msgid "Next available item"
 msgstr "Seuraava saatavilla oleva nide"
 
+#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
+#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
 #: opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt
 #: opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt
 #: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
-#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
-#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
 #, c-format
 msgid "No"
 msgstr "Ei"
@@ -7475,39 +7478,39 @@ msgstr "Muutoksia ei tehty."
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
+#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
+#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
+#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
+#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
+#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
+#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
-#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
-#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
-#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
-#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
-#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
-#: opac-tmpl/bootstrap/en/includes/opac-bottom.inc
 #, c-format
 msgid "No cover image available"
 msgstr "Ei kansikuvaa saatavilla"
@@ -7675,13 +7678,13 @@ msgstr "Mitään kirjastoista ei voi valita noutopisteeksi."
 msgid "None specified: "
 msgstr "Ei määritelty: "
 
-#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-auth-MARCdetail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
+#: opac-tmpl/bootstrap/en/modules/opac-auth-MARCdetail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-serial-issues.tt
 #, c-format
 msgid "Normal view"
 msgstr "Perustiedot"
@@ -7800,22 +7803,22 @@ msgid ""
 msgstr ""
 "Huomaa: Tagissasi ollut muotoilukoodi on poistettu. Tagi lisättiin muodossa "
 
-#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
-#: opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
 #: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
+#: opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt
 #, c-format
 msgid "Notes"
 msgstr "Viestit"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.notes 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Notes : %s "
 msgstr "Viestit: %s "
@@ -7825,9 +7828,9 @@ msgstr "Viestit: %s "
 msgid "Notes/Comments"
 msgstr "Huomautukset"
 
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #, c-format
 msgid "Notes:"
 msgstr "Muuta:"
@@ -7843,8 +7846,8 @@ msgid ""
 "Nothing has been selected. Check the box for each item you want to renew"
 msgstr "Ei valittuja. Valitse lainat, jotka haluat uusia."
 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "Notice:"
 msgstr "Huomautus:"
@@ -8117,10 +8120,10 @@ msgstr "Sivut:"
 msgid "Parameters"
 msgstr "Muuttujat"
 
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/opac-auth.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "Password"
 msgstr "Salasana"
@@ -8140,10 +8143,10 @@ msgstr "Salasanasi ei ole tarpeeksi pitkä. "
 msgid "Password updated"
 msgstr "Salasana vaihdettu"
 
+#: opac-tmpl/bootstrap/en/modules/opac-main.tt
 #: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
-#: opac-tmpl/bootstrap/en/modules/opac-main.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Password:"
@@ -8242,8 +8245,8 @@ msgstr "Ulkoasu:"
 msgid "Pick up location"
 msgstr "Noutopaikka"
 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "Pick up location:"
 msgstr "Noutopaikka:"
@@ -8280,13 +8283,13 @@ msgid "Place article request for %s"
 msgstr "Tee artikkelipyyntö teoksesta %s"
 
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
 #: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
 #, c-format
 msgid "Place hold"
@@ -8425,8 +8428,8 @@ msgstr "Ethän käytä tätä viestiä tehdäksesi pyyntöjä tai uusiaksesi lai
 
 #. For the first occurrence,
 #. SCRIPT
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 msgid "Please enter a valid phone number."
 msgstr "Syötä kelpaava puhelinnumero."
 
@@ -8477,8 +8480,8 @@ msgstr ""
 "Huomioi, että Google-kirjautuminen toimii vain, jos käytät "
 "sähköpostiosoitetta, joka on tallennettu asiakastietoihisi."
 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid ""
 "Please note that the attached file is a MARC bibliographic records file "
@@ -8619,8 +8622,8 @@ msgstr "Esikatselu"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
-#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
 #: opac-tmpl/bootstrap/en/includes/datatables.inc
+#: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
 #, c-format
 msgid "Previous"
 msgstr "Edellinen"
@@ -8715,11 +8718,11 @@ msgstr "Julkinen"
 
 #. OPTGROUP
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Public lists"
@@ -8753,8 +8756,8 @@ msgid "Publication/Copyright date: Oldest to newest"
 msgstr "Julkaisuvuosi: Vanhimmasta uusimpaan"
 
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Publication:"
 msgstr "Julkaisuvuosi:"
@@ -8775,8 +8778,8 @@ msgstr "Julkaisija:"
 #. %8$s:  IF BIBLIO_RESULT.item('size') 
 #. %9$s:  BIBLIO_RESULT.item('size') 
 #. %10$s:  END 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Published by: %s %s in %s %s %s , %s %s %s , %s %s "
 msgstr "Julkaisija: %s %s in %s %s %s , %s %s %s , %s %s "
@@ -8809,8 +8812,8 @@ msgstr "Hankintaehdotukset"
 msgid "Quote of the Day"
 msgstr "Päivän sitaatti"
 
-#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt
+#: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
 #, c-format
 msgid "RIS (Zotero, EndNote, others)"
 msgstr "RIS (Zotero, EndNote, muut)"
@@ -8899,22 +8902,22 @@ msgid "Record title"
 msgstr "Teoksen nimeke"
 
 #: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
-#: opac-tmpl/bootstrap/en/includes/opac-topissues.inc
 #: opac-tmpl/bootstrap/en/includes/opac-facets.inc
+#: opac-tmpl/bootstrap/en/includes/opac-topissues.inc
 #: opac-tmpl/bootstrap/en/includes/search/facets.inc
 #, c-format
 msgid "Refine your search"
 msgstr "Tarkenna hakuasi"
 
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/opac-registration-invalid.tt
 #: opac-tmpl/bootstrap/en/modules/opac-registration-email-sent.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "Register a new account"
 msgstr "Luo uusi tili"
 
-#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Register here."
@@ -9067,8 +9070,8 @@ msgstr "Uusittu"
 msgid "Report issues and broken links"
 msgstr "Raportoi ongelmia ja rikkinäisiä linkkejä"
 
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #: opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc
 #, c-format
 msgid "Request article"
@@ -9317,13 +9320,12 @@ msgstr "La"
 msgid "Saturday"
 msgstr "Lauantai"
 
-#. INPUT type=submit
+#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
 #: opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #, c-format
 msgid "Save"
 msgstr "Tallenna"
@@ -9411,10 +9413,10 @@ msgid "Search for this title in:"
 msgstr "Hae nimekettä:"
 
 #. A
-#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 msgid "Search for works by this author"
 msgstr "Etsi saman tekijän teoksia"
 
@@ -9465,8 +9467,8 @@ msgstr "Haetaan OpenLibrarysta.."
 
 #. For the first occurrence,
 #. SCRIPT
-#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt
 msgid "Searching OverDrive..."
 msgstr "Haetaan OverDrivesta.."
 
@@ -9484,13 +9486,13 @@ msgstr "Kappale:"
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #: opac-tmpl/bootstrap/en/includes/shelfbrowser.inc
 msgid "See Baker & Taylor"
 msgstr "Katso Baker & Taylorin tiedot"
@@ -9528,20 +9530,22 @@ msgstr ""
 msgid "Select a list"
 msgstr "Valitse lista"
 
-#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
 #: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
 #, c-format
 msgid "Select a specific item:"
 msgstr "Valitse nide:"
 
+#. For the first occurrence,
+#. SCRIPT
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #, c-format
 msgid "Select all"
 msgstr "Valitse kaikki"
@@ -9571,11 +9575,13 @@ msgstr "Valitse haettavat niteet"
 msgid "Select the term(s) to search"
 msgstr "Valitse haettavat asiasanat"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#. For the first occurrence,
+#. SCRIPT
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Select titles to: "
 msgstr "Valitse teokset: "
@@ -9585,10 +9591,9 @@ msgstr "Valitse teokset: "
 msgid "Self checkout help"
 msgstr "Itsepalvelulainauksen ohje"
 
-#. INPUT type=submit
-#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelfform.tt
 #: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelfform.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasketform.tt
 #, c-format
 msgid "Send"
@@ -9637,16 +9642,16 @@ msgstr "Kausijulkaisukokoelma"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.serial 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Serial: %s "
 msgstr "Kausijulkaisu: %s "
 
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
+#: opac-tmpl/bootstrap/en/includes/masthead.inc
+#: opac-tmpl/bootstrap/en/includes/masthead.inc
 #: opac-tmpl/bootstrap/en/includes/opac-facets.inc
-#: opac-tmpl/bootstrap/en/includes/masthead.inc
-#: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Series"
 msgstr "Sarjajulkaisu"
@@ -10025,12 +10030,12 @@ msgstr "Standardinumero (ISBN, ISSN tai muu):"
 msgid "Statistics"
 msgstr "Tilastot"
 
-#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
 #, c-format
 msgid "Status"
@@ -10097,8 +10102,8 @@ msgstr "Aihe(et):"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.subject 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Subject: %s "
 msgstr "Asiasana: %s "
@@ -10106,8 +10111,8 @@ msgstr "Asiasana: %s "
 #. INPUT type=submit name=sendEmail
 #: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt
 #: opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
 #: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
 #: opac-tmpl/bootstrap/en/includes/opac-topissues.inc
@@ -10120,17 +10125,17 @@ msgstr "OK"
 msgid "Submit and close this window"
 msgstr "Lähetä ja sulje"
 
-#. For the first occurrence,
-#. SCRIPT
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-passwd.tt
+#. INPUT type=submit
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
+#: opac-tmpl/bootstrap/en/modules/opac-passwd.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 msgid "Submit changes"
 msgstr "Tallenna muutokset"
 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#. INPUT type=submit
 #: opac-tmpl/bootstrap/en/modules/opac-issue-note.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "Submit note"
 msgstr "Tallenna huomautus"
@@ -10173,10 +10178,10 @@ msgid "Subscribe to this list"
 msgstr "Tilaa tämä lista"
 
 #. IMG
-#: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
-#: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
+#: opac-tmpl/bootstrap/en/modules/opac-search-history.tt
 msgid "Subscribe to this search"
 msgstr "Tilaa tämä haku"
 
@@ -10238,9 +10243,9 @@ msgstr "Ehdotettu toimipisteelle:"
 msgid "Suggested on"
 msgstr "Ehdotettu kirjastolle"
 
-#: opac-tmpl/bootstrap/en/modules/mydata.tt
-#: opac-tmpl/bootstrap/en/modules/mydata.tt
 #: opac-tmpl/bootstrap/en/modules/svc/suggestion.tt
+#: opac-tmpl/bootstrap/en/modules/mydata.tt
+#: opac-tmpl/bootstrap/en/modules/mydata.tt
 #, c-format
 msgid "Suggestions"
 msgstr "Hankintaehdotukset"
@@ -10309,9 +10314,10 @@ msgstr "Sisällysluettelo"
 msgid "Table of contents provided by Syndetics"
 msgstr "Syndeticsiltä tuotu sisällysluettelo"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#. INPUT type=submit
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Tag"
 msgstr "Tagi"
@@ -10332,9 +10338,9 @@ msgid "Tag status here."
 msgstr "Tagin tila"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #, c-format
 msgid "Tag status here. "
 msgstr "Tagin tila "
@@ -10361,8 +10367,8 @@ msgstr "Lisätyt tagit: "
 msgid "Tags from this library:"
 msgstr "Tästä kirjastosta annetut tagit:"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Tags:"
 msgstr "Tagit:"
@@ -10856,8 +10862,9 @@ msgstr "Tälle viestille voi olla seuraavia syitä:"
 #. INPUT type=checkbox name=digest
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
 #: opac-tmpl/bootstrap/en/modules/opac-messaging.tt
+#, fuzzy
 msgid "This option cannot be changed"
-msgstr "Asetusta ei voi muuttaa"
+msgstr "Valintaa ei voi muuttaa"
 
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
 #: opac-tmpl/bootstrap/en/modules/opac-detail.tt
@@ -10911,26 +10918,26 @@ msgstr "Torstai"
 msgid "Timeout while waiting for print confirmation"
 msgstr "Tulostusvahvistusta odoteltaessa tuli aikakatkaisu"
 
-#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
 #: opac-tmpl/bootstrap/en/modules/opac-tags.tt
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
+#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-course-details.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #: opac-tmpl/bootstrap/en/modules/opac-user.tt
-#: opac-tmpl/bootstrap/en/modules/opac-topissues.tt
-#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
 #: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
+#: opac-tmpl/bootstrap/en/includes/masthead.inc
+#: opac-tmpl/bootstrap/en/includes/masthead.inc
 #: opac-tmpl/bootstrap/en/includes/resort_form.inc
-#: opac-tmpl/bootstrap/en/includes/masthead.inc
-#: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Title"
 msgstr "Nimeke"
@@ -10958,9 +10965,9 @@ msgid "Title phrase"
 msgstr "Otsikkofraasi"
 
 #: opac-tmpl/bootstrap/en/modules/opac-tags.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
+#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #: opac-tmpl/bootstrap/en/modules/opac-suggestions.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
-#: opac-tmpl/bootstrap/en/modules/opac-request-article.tt
 #, c-format
 msgid "Title:"
 msgstr "Nimeke:"
@@ -11047,8 +11054,8 @@ msgstr "Tiistai"
 msgid "Tweet"
 msgstr "Twiittaa"
 
-#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt
 #, c-format
 msgid "Type"
 msgstr "Tyyppi"
@@ -11086,8 +11093,8 @@ msgstr "URL(it)"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.url 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "URL: %s "
 msgstr "WWW-osoite: %s "
@@ -11102,8 +11109,8 @@ msgstr "Omien tagien lisääminen ei onnistu"
 msgid "Unable to cancel enrollment!"
 msgstr "Ilmoittautumisen peruminen epäonnistui."
 
-#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #: opac-tmpl/bootstrap/en/modules/opac-account-pay-error.tt
+#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #, c-format
 msgid "Unable to connect to PayPal."
 msgstr "PayPaliin ei saada yhteyttä."
@@ -11118,8 +11125,8 @@ msgstr "Ilmoittautuminen epäonnistui."
 msgid "Unable to update your setting!"
 msgstr "Asetusten päivittäminen ei onnistu."
 
-#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #: opac-tmpl/bootstrap/en/modules/opac-account-pay-error.tt
+#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #, c-format
 msgid "Unable to verify payment."
 msgstr "Maksun vahvistaminen ei onnistu."
@@ -11148,8 +11155,8 @@ msgstr "Yhtenäistetty nimeke"
 
 #. For the first occurrence,
 #. %1$s:  BIBLIO_RESULT.unititle 
-#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #: opac-tmpl/bootstrap/en/modules/opac-sendbasket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-sendshelf.tt
 #, c-format
 msgid "Unified title: %s "
 msgstr "Yhtenäistetty nimeke: %s "
@@ -11251,24 +11258,24 @@ msgid "View All"
 msgstr "Näytä kaikki"
 
 #. A
+#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results-grouped.tt
-#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
-#: opac-tmpl/bootstrap/en/modules/opac-showreviews.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 #: opac-tmpl/bootstrap/en/modules/opac-imageviewer.tt
 #: opac-tmpl/bootstrap/en/modules/opac-imageviewer.tt
 #: opac-tmpl/bootstrap/en/modules/opac-imageviewer.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
-#: opac-tmpl/bootstrap/en/modules/opac-results.tt
 msgid "View details for this title"
 msgstr "Teoksen tarkat tiedot"
 
@@ -11383,9 +11390,9 @@ msgstr "Valitut ehdotukset: "
 
 #. For the first occurrence,
 #. SCRIPT
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
 #: opac-tmpl/bootstrap/en/modules/opac-results.tt
+#: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 msgid "With selected titles: "
 msgstr "Valitut nimekkeet: "
 
@@ -11406,9 +11413,9 @@ msgstr "Haluatko tulostaa kuitin?"
 msgid "Written on %s by %s"
 msgstr "Päivä: %s, kirjoittaja %s"
 
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-basket.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #, c-format
 msgid "Year"
 msgstr "Vuosi"
@@ -11418,13 +11425,12 @@ msgstr "Vuosi"
 msgid "Year: "
 msgstr "Vuosi: "
 
-#. INPUT type=submit
+#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
+#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
 #: opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt
 #: opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt
 #: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
-#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
-#: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
 #, c-format
 msgid "Yes"
 msgstr "Kyllä"
@@ -11808,9 +11814,9 @@ msgid ""
 msgstr "Istuntosi eväste on vanhentunut. Lataa sivu uudelleen."
 
 #. For the first occurrence,
-#. %1$s:  IF ( BORROWER_INFO.debarredcomment ) 
-#: opac-tmpl/bootstrap/en/modules/opac-user.tt
+#. %1$s:  IF debarred_comment 
 #: opac-tmpl/bootstrap/en/modules/opac-reserve.tt
+#: opac-tmpl/bootstrap/en/modules/opac-user.tt
 #, c-format
 msgid "Your account has been frozen. %s Comment: "
 msgstr "Kirjastokorttisi on lukittu. %s Kommentti: "
@@ -11934,8 +11940,8 @@ msgstr "Tiedoston tallennuksen pitäisi alkaa automaattisesti."
 msgid "Your fines and charges"
 msgstr "Maksut"
 
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/opac-privacy.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "Your guarantor is "
 msgstr "Huoltajasi on "
@@ -11965,11 +11971,11 @@ msgstr ""
 msgid "Your list : %s "
 msgstr "Listasi: %s "
 
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
+#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
-#: opac-tmpl/bootstrap/en/modules/opac-shelves.tt
 #: opac-tmpl/bootstrap/en/includes/masthead.inc
 #, c-format
 msgid "Your lists"
@@ -12017,9 +12023,9 @@ msgid "Your password has been changed "
 msgstr "Salasana vaihdettu "
 
 #. For the first occurrence,
-#. %1$s:  Koha.Preference('minPasswordLength') 
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
+#. %1$s:  minpasslen 
 #: opac-tmpl/bootstrap/en/modules/opac-passwd.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "Your password must be at least %s characters long."
 msgstr "Salasanan on oltava vähintään %s merkkiä pitkä."
@@ -12238,8 +12244,8 @@ msgstr "Varauksen noutopaikan ilmaiseva muuttuja"
 msgid "an identifier used to look up the patron in Koha"
 msgstr "Asiakkaan etsimiseen tarkoitettu tunniste"
 
-#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
 #: opac-tmpl/bootstrap/en/modules/opac-main.tt
+#: opac-tmpl/bootstrap/en/modules/opac-advsearch.tt
 #, c-format
 msgid "and"
 msgstr "ja"
@@ -12616,10 +12622,10 @@ msgstr "Muu puhelin"
 msgid "out of"
 msgstr "/"
 
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
-#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #: opac-tmpl/bootstrap/en/modules/ilsdi.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
+#: opac-tmpl/bootstrap/en/modules/opac-memberentry.tt
 #, c-format
 msgid "password"
 msgstr "salasana"
@@ -12844,11 +12850,11 @@ msgstr "tagsel_button"
 
 #. META http-equiv=Content-Type
 #: opac-tmpl/bootstrap/en/modules/opac-showmarc.tt
-#: opac-tmpl/bootstrap/en/modules/opac-idref.tt
-#: opac-tmpl/bootstrap/en/modules/sco/printslip.tt
-#: opac-tmpl/bootstrap/en/modules/sco/help.tt
-#: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
 #: opac-tmpl/bootstrap/en/modules/svc/circvis.tt
+#: opac-tmpl/bootstrap/en/modules/opac-idref.tt
+#: opac-tmpl/bootstrap/en/modules/sco/help.tt
+#: opac-tmpl/bootstrap/en/modules/sco/printslip.tt
+#: opac-tmpl/bootstrap/en/modules/sco/sco-main.tt
 #: opac-tmpl/bootstrap/en/includes/doc-head-close.inc
 msgid "text/html; charset=utf-8"
 msgstr "text/html; charset=utf-8"
@@ -12895,8 +12901,8 @@ msgstr ""
 "asiakkaan yksilöllinen tunniste tietokannassa; sama tunniste palautuu "
 "LookupPatron tai AuthenticatePatron kautta"
 
-#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #: opac-tmpl/bootstrap/en/modules/opac-account-pay-error.tt
+#: opac-tmpl/bootstrap/en/modules/opac-account.tt
 #, c-format
 msgid "there was a problem processing your payment"
 msgstr "maksun käsittelyssä tapahtui virhe"

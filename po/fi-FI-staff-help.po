@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-11-06 10:27+0200\n"
+"POT-Creation-Date: 2018-09-17 10:27+0300\n"
 "PO-Revision-Date: 2017-10-09 09:09+0000\n"
 "Last-Translator: AnneliÖ <anneli.osterman@ouka.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -923,198 +923,198 @@ msgstr ""
 msgid "(! means 'not visible' or in the case of collapsed 'not collapsed')"
 msgstr "(! tarkoittaa 'ei näkyvissä' tai 'ei supistettu')"
 
-#: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
-#: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
-#: intranet-tmpl/prog/en/modules/help/members/mancredit.tt
-#: intranet-tmpl/prog/en/modules/help/members/maninvoice.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/members-home.tt
-#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
-#: intranet-tmpl/prog/en/modules/help/members/discharge.tt
-#: intranet-tmpl/prog/en/modules/help/members/boraccount.tt
-#: intranet-tmpl/prog/en/modules/help/members/notices.tt
-#: intranet-tmpl/prog/en/modules/help/members/readingrec.tt
-#: intranet-tmpl/prog/en/modules/help/members/members-update.tt
-#: intranet-tmpl/prog/en/modules/help/members/statistics.tt
-#: intranet-tmpl/prog/en/modules/help/members/files.tt
-#: intranet-tmpl/prog/en/modules/help/members/purchase-suggestions.tt
-#: intranet-tmpl/prog/en/modules/help/members/pay.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-password.tt
-#: intranet-tmpl/prog/en/modules/help/members/routing-lists.tt
-#: intranet-tmpl/prog/en/modules/help/mainpage.tt
-#: intranet-tmpl/prog/en/modules/help/plugins/plugins-upload.tt
-#: intranet-tmpl/prog/en/modules/help/plugins/plugins-home.tt
-#: intranet-tmpl/prog/en/modules/help/nohelp.tt
 #: intranet-tmpl/prog/en/modules/help/tags/review.tt
 #: intranet-tmpl/prog/en/modules/help/tags/list.tt
-#: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
-#: intranet-tmpl/prog/en/modules/help/admin/aqcontract.tt
-#: intranet-tmpl/prog/en/modules/help/admin/checkmarc.tt
-#: intranet-tmpl/prog/en/modules/help/admin/branch_transfer_limits.tt
-#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
-#: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
-#: intranet-tmpl/prog/en/modules/help/admin/authtypes.tt
-#: intranet-tmpl/prog/en/modules/help/admin/systempreferences.tt
-#: intranet-tmpl/prog/en/modules/help/admin/edi_accounts.tt
-#: intranet-tmpl/prog/en/modules/help/admin/aqplan.tt
-#: intranet-tmpl/prog/en/modules/help/admin/aqbudgets.tt
-#: intranet-tmpl/prog/en/modules/help/admin/auth_tag_structure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/oai_sets.tt
-#: intranet-tmpl/prog/en/modules/help/admin/admin-home.tt
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
-#: intranet-tmpl/prog/en/modules/help/admin/transport-cost-matrix.tt
-#: intranet-tmpl/prog/en/modules/help/admin/oai_set_mappings.tt
-#: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
-#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
-#: intranet-tmpl/prog/en/modules/help/admin/koha2marclinks.tt
-#: intranet-tmpl/prog/en/modules/help/admin/aqbudgetperiods.tt
-#: intranet-tmpl/prog/en/modules/help/admin/categorie.tt
-#: intranet-tmpl/prog/en/modules/help/admin/currency.tt
-#: intranet-tmpl/prog/en/modules/help/admin/didyoumean.tt
-#: intranet-tmpl/prog/en/modules/help/admin/auth_subfields_structure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/cities.tt
-#: intranet-tmpl/prog/en/modules/help/admin/items_search_fields.tt
-#: intranet-tmpl/prog/en/modules/help/admin/columns_settings.tt
-#: intranet-tmpl/prog/en/modules/help/admin/item_circulation_alerts.tt
-#: intranet-tmpl/prog/en/modules/help/admin/matching-rules.tt
-#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
-#: intranet-tmpl/prog/en/modules/help/admin/branches.tt
-#: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/fieldmapping.tt
-#: intranet-tmpl/prog/en/modules/help/admin/edi_ean_accounts.tt
-#: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/merge.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/detail.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/authorities-home.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/authorities.tt
-#: intranet-tmpl/prog/en/modules/help/about.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/image-manage.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/home.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/edit-batch.tt
-#: intranet-tmpl/prog/en/modules/help/reports/reports-home.tt
-#: intranet-tmpl/prog/en/modules/help/reports/dictionary.tt
-#: intranet-tmpl/prog/en/modules/help/reports/catalogue_out.tt
-#: intranet-tmpl/prog/en/modules/help/reports/bor_issues_top.tt
-#: intranet-tmpl/prog/en/modules/help/reports/manager.tt
-#: intranet-tmpl/prog/en/modules/help/reports/catalogue_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/issues_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/serials_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/borrowers_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/borrowers_out.tt
-#: intranet-tmpl/prog/en/modules/help/reports/itemslost.tt
-#: intranet-tmpl/prog/en/modules/help/reports/cat_issues_top.tt
-#: intranet-tmpl/prog/en/modules/help/offline_circ/process_koc.tt
-#: intranet-tmpl/prog/en/modules/help/offline_circ/list.tt
-#: intranet-tmpl/prog/en/modules/help/course_reserves/course.tt
-#: intranet-tmpl/prog/en/modules/help/course_reserves/course-details.tt
-#: intranet-tmpl/prog/en/modules/help/course_reserves/add_items.tt
-#: intranet-tmpl/prog/en/modules/help/course_reserves/course-reserves.tt
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-numberpatterns.tt
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-add.tt
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-detail.tt
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-frequencies.tt
-#: intranet-tmpl/prog/en/modules/help/serials/checkexpiration.tt
-#: intranet-tmpl/prog/en/modules/help/serials/serials-home.tt
-#: intranet-tmpl/prog/en/modules/help/serials/claims.tt
-#: intranet-tmpl/prog/en/modules/help/serials/serials-edit.tt
-#: intranet-tmpl/prog/en/modules/help/serials/serials-collection.tt
-#: intranet-tmpl/prog/en/modules/help/serials/routing.tt
-#: intranet-tmpl/prog/en/modules/help/catalogue/itemsearch.tt
-#: intranet-tmpl/prog/en/modules/help/catalogue/issuehistory.tt
-#: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
+#: intranet-tmpl/prog/en/modules/help/nohelp.tt
+#: intranet-tmpl/prog/en/modules/help/rotating_collections/rotatingCollections.tt
+#: intranet-tmpl/prog/en/modules/help/members/boraccount.tt
+#: intranet-tmpl/prog/en/modules/help/members/files.tt
+#: intranet-tmpl/prog/en/modules/help/members/routing-lists.tt
+#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
+#: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/maninvoice.tt
+#: intranet-tmpl/prog/en/modules/help/members/purchase-suggestions.tt
+#: intranet-tmpl/prog/en/modules/help/members/statistics.tt
+#: intranet-tmpl/prog/en/modules/help/members/mancredit.tt
+#: intranet-tmpl/prog/en/modules/help/members/member-password.tt
+#: intranet-tmpl/prog/en/modules/help/members/readingrec.tt
+#: intranet-tmpl/prog/en/modules/help/members/members-update.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
+#: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
+#: intranet-tmpl/prog/en/modules/help/members/discharge.tt
+#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
+#: intranet-tmpl/prog/en/modules/help/members/notices.tt
+#: intranet-tmpl/prog/en/modules/help/mainpage.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/detail.tt
 #: intranet-tmpl/prog/en/modules/help/catalogue/search-history.tt
 #: intranet-tmpl/prog/en/modules/help/catalogue/moredetail.tt
-#: intranet-tmpl/prog/en/modules/help/catalogue/detail.tt
-#: intranet-tmpl/prog/en/modules/help/tools/picture-upload.tt
-#: intranet-tmpl/prog/en/modules/help/tools/batch_record_modification.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/itemsearch.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/issuehistory.tt
 #: intranet-tmpl/prog/en/modules/help/tools/upload-cover-image.tt
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
-#: intranet-tmpl/prog/en/modules/help/tools/quotes.tt
-#: intranet-tmpl/prog/en/modules/help/tools/stage-marc-import.tt
-#: intranet-tmpl/prog/en/modules/help/tools/cleanborrowers.tt
-#: intranet-tmpl/prog/en/modules/help/tools/holidays.tt
-#: intranet-tmpl/prog/en/modules/help/tools/manage-marc-import.tt
-#: intranet-tmpl/prog/en/modules/help/tools/import_borrowers.tt
-#: intranet-tmpl/prog/en/modules/help/tools/export.tt
-#: intranet-tmpl/prog/en/modules/help/tools/koha-news.tt
-#: intranet-tmpl/prog/en/modules/help/tools/batch_delete_records.tt
-#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
-#: intranet-tmpl/prog/en/modules/help/tools/inventory.tt
-#: intranet-tmpl/prog/en/modules/help/tools/modborrowers.tt
-#: intranet-tmpl/prog/en/modules/help/tools/viewlog.tt
-#: intranet-tmpl/prog/en/modules/help/tools/scheduler.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/tools-home.tt
+#: intranet-tmpl/prog/en/modules/help/tools/picture-upload.tt
 #: intranet-tmpl/prog/en/modules/help/tools/overduerules.tt
+#: intranet-tmpl/prog/en/modules/help/tools/scheduler.tt
+#: intranet-tmpl/prog/en/modules/help/tools/cleanborrowers.tt
+#: intranet-tmpl/prog/en/modules/help/tools/batch_record_modification.tt
+#: intranet-tmpl/prog/en/modules/help/tools/quotes.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/koha-news.tt
+#: intranet-tmpl/prog/en/modules/help/tools/viewlog.tt
+#: intranet-tmpl/prog/en/modules/help/tools/stage-marc-import.tt
+#: intranet-tmpl/prog/en/modules/help/tools/batch_delete_records.tt
+#: intranet-tmpl/prog/en/modules/help/tools/export.tt
+#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
+#: intranet-tmpl/prog/en/modules/help/tools/inventory.tt
+#: intranet-tmpl/prog/en/modules/help/tools/import_borrowers.tt
+#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
+#: intranet-tmpl/prog/en/modules/help/tools/tools-home.tt
+#: intranet-tmpl/prog/en/modules/help/tools/manage-marc-import.tt
+#: intranet-tmpl/prog/en/modules/help/tools/modborrowers.tt
+#: intranet-tmpl/prog/en/modules/help/tools/holidays.tt
+#: intranet-tmpl/prog/en/modules/help/about.tt
+#: intranet-tmpl/prog/en/modules/help/serials/routing.tt
+#: intranet-tmpl/prog/en/modules/help/serials/serials-home.tt
+#: intranet-tmpl/prog/en/modules/help/serials/claims.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-detail.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-numberpatterns.tt
+#: intranet-tmpl/prog/en/modules/help/serials/checkexpiration.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-add.tt
+#: intranet-tmpl/prog/en/modules/help/serials/serials-edit.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-frequencies.tt
+#: intranet-tmpl/prog/en/modules/help/serials/serials-collection.tt
 #: intranet-tmpl/prog/en/modules/help/reserve/request.tt
+#: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
+#: intranet-tmpl/prog/en/modules/help/offline_circ/process_koc.tt
+#: intranet-tmpl/prog/en/modules/help/offline_circ/list.tt
+#: intranet-tmpl/prog/en/modules/help/plugins/plugins-home.tt
+#: intranet-tmpl/prog/en/modules/help/plugins/plugins-upload.tt
+#: intranet-tmpl/prog/en/modules/help/admin/branch_transfer_limits.tt
+#: intranet-tmpl/prog/en/modules/help/admin/didyoumean.tt
+#: intranet-tmpl/prog/en/modules/help/admin/auth_subfields_structure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/checkmarc.tt
+#: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
+#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
+#: intranet-tmpl/prog/en/modules/help/admin/systempreferences.tt
+#: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
+#: intranet-tmpl/prog/en/modules/help/admin/koha2marclinks.tt
+#: intranet-tmpl/prog/en/modules/help/admin/cities.tt
+#: intranet-tmpl/prog/en/modules/help/admin/branches.tt
+#: intranet-tmpl/prog/en/modules/help/admin/oai_set_mappings.tt
+#: intranet-tmpl/prog/en/modules/help/admin/aqplan.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
+#: intranet-tmpl/prog/en/modules/help/admin/item_circulation_alerts.tt
+#: intranet-tmpl/prog/en/modules/help/admin/aqbudgetperiods.tt
+#: intranet-tmpl/prog/en/modules/help/admin/edi_accounts.tt
+#: intranet-tmpl/prog/en/modules/help/admin/edi_ean_accounts.tt
+#: intranet-tmpl/prog/en/modules/help/admin/matching-rules.tt
+#: intranet-tmpl/prog/en/modules/help/admin/admin-home.tt
+#: intranet-tmpl/prog/en/modules/help/admin/fieldmapping.tt
+#: intranet-tmpl/prog/en/modules/help/admin/columns_settings.tt
+#: intranet-tmpl/prog/en/modules/help/admin/transport-cost-matrix.tt
+#: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
+#: intranet-tmpl/prog/en/modules/help/admin/authtypes.tt
+#: intranet-tmpl/prog/en/modules/help/admin/aqbudgets.tt
+#: intranet-tmpl/prog/en/modules/help/admin/items_search_fields.tt
+#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
+#: intranet-tmpl/prog/en/modules/help/admin/auth_tag_structure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/oai_sets.tt
+#: intranet-tmpl/prog/en/modules/help/admin/aqcontract.tt
+#: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
+#: intranet-tmpl/prog/en/modules/help/admin/currency.tt
+#: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/categorie.tt
+#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
+#: intranet-tmpl/prog/en/modules/help/course_reserves/add_items.tt
+#: intranet-tmpl/prog/en/modules/help/course_reserves/course-details.tt
+#: intranet-tmpl/prog/en/modules/help/course_reserves/course.tt
+#: intranet-tmpl/prog/en/modules/help/course_reserves/course-reserves.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/edit-batch.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/home.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/image-manage.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/circ/branchtransfers.tt
+#: intranet-tmpl/prog/en/modules/help/circ/view_holdsqueue.tt
+#: intranet-tmpl/prog/en/modules/help/circ/waitingreserves.tt
+#: intranet-tmpl/prog/en/modules/help/circ/renew.tt
+#: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
+#: intranet-tmpl/prog/en/modules/help/circ/pendingreserves.tt
+#: intranet-tmpl/prog/en/modules/help/circ/circulation-home.tt
+#: intranet-tmpl/prog/en/modules/help/circ/returns.tt
+#: intranet-tmpl/prog/en/modules/help/circ/overdue.tt
+#: intranet-tmpl/prog/en/modules/help/circ/selectbranchprinter.tt
+#: intranet-tmpl/prog/en/modules/help/circ/transferstoreceive.tt
+#: intranet-tmpl/prog/en/modules/help/circ/branchoverdues.tt
+#: intranet-tmpl/prog/en/modules/help/circ/reserveratios.tt
+#: intranet-tmpl/prog/en/modules/help/circ/on-site_checkouts.tt
+#: intranet-tmpl/prog/en/modules/help/circ/offline.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-layout.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
-#: intranet-tmpl/prog/en/modules/help/labels/spinelabel-home.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-batch.tt
+#: intranet-tmpl/prog/en/modules/help/labels/spinelabel-home.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
+#: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/detail.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/authorities.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/merge.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/authorities-home.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/linkitem.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/merge.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/moveitem.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/linkitem.tt
-#: intranet-tmpl/prog/en/modules/help/circ/branchtransfers.tt
-#: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
-#: intranet-tmpl/prog/en/modules/help/circ/selectbranchprinter.tt
-#: intranet-tmpl/prog/en/modules/help/circ/view_holdsqueue.tt
-#: intranet-tmpl/prog/en/modules/help/circ/on-site_checkouts.tt
-#: intranet-tmpl/prog/en/modules/help/circ/renew.tt
-#: intranet-tmpl/prog/en/modules/help/circ/circulation-home.tt
-#: intranet-tmpl/prog/en/modules/help/circ/branchoverdues.tt
-#: intranet-tmpl/prog/en/modules/help/circ/overdue.tt
-#: intranet-tmpl/prog/en/modules/help/circ/waitingreserves.tt
-#: intranet-tmpl/prog/en/modules/help/circ/reserveratios.tt
-#: intranet-tmpl/prog/en/modules/help/circ/transferstoreceive.tt
-#: intranet-tmpl/prog/en/modules/help/circ/returns.tt
-#: intranet-tmpl/prog/en/modules/help/circ/pendingreserves.tt
-#: intranet-tmpl/prog/en/modules/help/circ/offline.tt
 #: intranet-tmpl/prog/en/modules/help/patron_lists/lists.tt
-#: intranet-tmpl/prog/en/modules/help/reviews/reviewswaiting.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/supplier.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/basketheader.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/invoices.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/uncertainprice.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/neworderempty.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/addorderiso2709.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/acqui-home.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/edifactmsgs.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/neworderbiblio.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/addorderiso2709.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/neworderbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/neworderempty.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/basketheader.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/newordersubscription.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/acqui-home.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/uncertainprice.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/basketgroup.tt
-#: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
-#: intranet-tmpl/prog/en/modules/help/rotating_collections/rotatingCollections.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/edifactmsgs.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/supplier.tt
+#: intranet-tmpl/prog/en/modules/help/reviews/reviewswaiting.tt
+#: intranet-tmpl/prog/en/modules/help/reports/dictionary.tt
+#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
+#: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/bor_issues_top.tt
+#: intranet-tmpl/prog/en/modules/help/reports/borrowers_out.tt
+#: intranet-tmpl/prog/en/modules/help/reports/cat_issues_top.tt
+#: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/catalogue_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/manager.tt
+#: intranet-tmpl/prog/en/modules/help/reports/issues_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/reports-home.tt
+#: intranet-tmpl/prog/en/modules/help/reports/borrowers_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/itemslost.tt
+#: intranet-tmpl/prog/en/modules/help/reports/catalogue_out.tt
+#: intranet-tmpl/prog/en/modules/help/reports/serials_stats.tt
 #, c-format
 msgid "(online)."
 msgstr "(online)."
@@ -1633,8 +1633,8 @@ msgstr ""
 msgid "A fund is added to a budget."
 msgstr "Tili on lisätty budjettiin."
 
-#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #, c-format
 msgid ""
 "A layout defines the text and images that will be printed on to the card and "
@@ -1672,8 +1672,8 @@ msgid ""
 "A list can be created by visiting the Lists page and clicking 'New list'"
 msgstr "Lista voidaan luoda Listat-sivulla klikkaamalla 'Uusi lista'"
 
-#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #: intranet-tmpl/prog/en/modules/help/members/routing-lists.tt
+#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
 msgid ""
 "A list of all of the serial routing lists the patron belongs to will be "
@@ -1725,8 +1725,8 @@ msgid "A permission \"tools => stage_marc_import\" is needed to use this tool."
 msgstr ""
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "A profile is a set of \"adjustments\" applied to a given template just prior "
@@ -1736,8 +1736,8 @@ msgstr ""
 "Profiili on nippu \"asetuksia\", jotka tehdään annetulle pohjalle "
 "helpottamaan tulostamista tietyllä tulostimella (jolle profiili on tehty). "
 
-#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #, c-format
 msgid ""
 "A profile is a set of \"adjustments\" applied to a given template just prior "
@@ -1755,8 +1755,8 @@ msgstr ""
 "jokaisen kirjoittimen asetuksia siten (esim. siirtämällä tekstiä vasemmalle, "
 "oikealle, ylös, alas), että kortit asettuvat oikeille kohdille."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
 #, c-format
 msgid ""
@@ -1812,9 +1812,9 @@ msgstr ""
 "Tuonnin yhteenveto näkyy yhdessä yhdistämissääntöjen vaihtamisen "
 "mahdollisuuden kanssa"
 
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
 #, c-format
 msgid ""
 "A template is based on the label/card stock you are using. This might be "
@@ -2037,8 +2037,8 @@ msgstr "Hankinnan ja/tai hankintaehdotusten hallinta"
 msgid "Acquisitions"
 msgstr "Hankinnat"
 
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #, c-format
 msgid "Acquisitions Searching"
 msgstr "Hankinnan haku"
@@ -2127,8 +2127,8 @@ msgid "Add a Layout"
 msgstr "Lisää asettelu"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid "Add a Profile"
 msgstr "Lisää profiili"
@@ -2139,8 +2139,8 @@ msgid "Add a Staff Patron"
 msgstr "Henkilökunta-asiakkaan lisääminen"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid "Add a Template"
 msgstr "Lisää tallennuspohja"
@@ -2373,8 +2373,8 @@ msgid ""
 msgstr "Kun olet valinnut kopioinnin, saat vahvistusviestin."
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid ""
 "After clicking 'Receive shipment' you will be asked to enter a vendor "
@@ -2498,8 +2498,8 @@ msgstr ""
 "nähdäksesi, mitkä numerot järjestelmä luo. Jos syntyy poikkeavuuksia, voit "
 "valita listalta, mitä numeroita ei ole olemassa."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "After finding any anomalies in the printed document, create a profile and "
@@ -2566,22 +2566,22 @@ msgstr ""
 "Tallennuksen jälkeen asettelusi näkyvät 'Hallitse asetteluja' -sivulla."
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid "After saving, your profiles will appear on the 'Manage Profiles' page."
 msgstr ""
 "Tallennuksen jälkeen profiilisi näkyvät 'Hallitse profiileja' -sivulla."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "After saving, your templates will appear on the 'Manage Templates' page."
 msgstr "Tallennuksen jälkeen pohjasi näkyvät 'Pohjien hallinta' -sivulla."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/invoices.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #, c-format
 msgid ""
 "After searching, your results will appear to the right of the search options."
@@ -2666,8 +2666,8 @@ msgstr ""
 "Kaikki tietueen kentät ovat sisältöä muuttujalle \"field tag name\" "
 "avaimessa."
 
-#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #: intranet-tmpl/prog/en/modules/help/members/files.tt
+#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
 msgid ""
 "All files that are uploaded will appear above a form where additional files "
@@ -2676,8 +2676,8 @@ msgstr ""
 "Kaikki ladatut tiedostot näkyvät lomakkeen yläpuolella, josta lisätiedostot "
 "voi ladata."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "All fines will be removed from outstanding fines, and displayed as written "
@@ -3091,8 +3091,8 @@ msgstr ""
 "Näytön yläreunassa pitää valita, mitä dataa olet viemässä. Jos olet viemässä "
 "nimeketietueita niteiden kanssa tai ilman, klikkaa 'Vie nimeketietueita'."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #, c-format
 msgid ""
 "At the top of the various Acquisition pages there is a quick search box "
@@ -3352,15 +3352,15 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-batch.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-batch.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
 #, c-format
 msgid "Batches"
 msgstr "Eräajot"
 
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-batch.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
 #, c-format
 msgid ""
 "Batches are made up of the barcodes you would like to print. Once in this "
@@ -3427,8 +3427,8 @@ msgstr ""
 "voit määritellä oikeanlaisen profiilin, joka sopii tulostimesi ja pohjasi "
 "yhdistelmään."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "Before picking a profile try printing some sample labels so that you can "
@@ -3490,8 +3490,8 @@ msgid "Below is a summary of the various pieces of the advanced search limit: "
 msgstr ""
 "Alla on yhteenveto tarkan haun hakutulosten rajoitusmahdollisuuksista: "
 
-#: intranet-tmpl/prog/en/modules/help/catalogue/issuehistory.tt
 #: intranet-tmpl/prog/en/modules/help/catalogue/moredetail.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/issuehistory.tt
 #, c-format
 msgid ""
 "Below the 'History' heading is a link to 'View item's checkout history,' "
@@ -3560,8 +3560,8 @@ msgid "Below the task scheduler form, there is a list of scheduled reports"
 msgstr ""
 "Tehtävien ajastuslomakkeen alapuolella on lista ajastetuista raporteista"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "Birthdates should be entered using the format set forth in the dateformat "
@@ -3573,8 +3573,8 @@ msgstr "Syntymäpäivät pitää syöttää oikealla tavalla (määritetty asetu
 msgid "Borrow books"
 msgstr "Kirjojen lainaus"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Borrower number: "
 msgstr "Asiakkaan ID: "
@@ -3795,8 +3795,8 @@ msgstr ""
 msgid "Catalog statistics"
 msgstr "Luettelon tilastot"
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid "Cataloging"
 msgstr "Luettelointi"
@@ -4013,8 +4013,8 @@ msgid ""
 msgstr ""
 "Valitse tietueet, jotka haluat poistaa ja klikkaa 'Poista valitut tietueet'."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "Check the selection boxes next to the fines you wish to pay, click \"Pay "
@@ -4272,8 +4272,8 @@ msgstr ""
 "käyttämällä CTRL+klikkaus jokaisen lisättävän kentän kohdalla ja "
 "klikkaamalla sen jälkeen 'Lisää'-painiketta."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid "Choose the framework you would like to base your record off of"
 msgstr "Valitse pohja, johon haluat perustaa tietueesi"
@@ -4594,14 +4594,14 @@ msgstr "Luokitusjärjestelmät"
 msgid "Clear Patron Information"
 msgstr "Tyhjennä asiakkaan tiedot"
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Click \"Confirm\""
 msgstr "Klikkaa \"Vahvista\""
@@ -4611,14 +4611,14 @@ msgstr "Klikkaa \"Vahvista\""
 msgid "Click \"Overlay us!\" to start the overlaying process."
 msgstr ""
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Click \"Pay\" next to the fine you want to partially pay"
 msgstr "Klikkaa \"Maksa\" sen maksun kohdalla, jonka haluat maksaa osittain"
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Click \"Pay\" next to the fine you want to pay in full"
 msgstr "Klikkaa \"Maksa\" sen maksun kohdalla, jonka haluat maksaa kokonaan"
@@ -4628,8 +4628,8 @@ msgstr "Klikkaa \"Maksa\" sen maksun kohdalla, jonka haluat maksaa kokonaan"
 msgid "Click \"Save alert\" and your done!"
 msgstr "Klikkaa \"Tallenna hälytys\" ja se on siinä!"
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Click \"Writeoff\" next to the fine you wish to writeoff."
 msgstr "Klikkaa \"Poista maksu\" sen maksun kohdalla, jonka haluat poistaa."
@@ -4762,8 +4762,8 @@ msgid "Click 'Stage for import'"
 msgstr "Klikkaa 'Väliaikaisvarastoon tuonti'"
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
-#: intranet-tmpl/prog/en/modules/help/reports/itemslost.tt
 #: intranet-tmpl/prog/en/modules/help/circ/branchtransfers.tt
+#: intranet-tmpl/prog/en/modules/help/reports/itemslost.tt
 #, c-format
 msgid "Click 'Submit'"
 msgstr "Klikkaa 'OK'"
@@ -4833,14 +4833,14 @@ msgstr "Klikkaa 'Uusi joukko' -painiketta."
 msgid "Click on the title of the course you would like to add materials to."
 msgstr "Klikkaa sen kurssin nimeä, johon haluat lisätä aineistoa."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Click the \"Pay Amount\" button"
 msgstr "Klikkaa 'Maksa kaikki' -painiketta"
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Click the \"Writeoff All\" button"
 msgstr "Klikkaa 'Poista kaikki' -painiketta"
@@ -4980,8 +4980,8 @@ msgstr ""
 "Klikkaamalla 'Muokkaa' ehdotetun nimekkeen oikealla puolella pääset "
 "muokkaamaan ehdotusta."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #, c-format
 msgid ""
 "Clicking Advanced Search to the right of the search button will give you all "
@@ -5030,8 +5030,8 @@ msgstr ""
 "Klikkaamalla sinisiä otsikoita laajennat suodatusvalinnat ja klikkaamalla "
 "'[tyhjennä] poistaa kaikki suodattimet ja näyttää kaikki ehdotukset."
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "Clicking on the link to the Patron module will bring you to a search/browse "
@@ -5146,8 +5146,8 @@ msgstr ""
 "Klikkaamalla nuolta alaspäin varauksen oikealla puolella saa varauksen "
 "pysymään alimmaisena listalla, vaikka muita pyyntöjä tehtäisiin."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #, c-format
 msgid ""
 "Clicking the plus sign to the right of the Vendor search box will expand the "
@@ -5156,8 +5156,8 @@ msgstr ""
 "Klikkaamalla plusmerkkiä toimittajahaun oikealla puolella saat laajemman "
 "haun ja voit valita lisäkenttiä hakuun."
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "Clicking the small plus sign [+] to the right of the search box will open up "
@@ -5435,8 +5435,8 @@ msgstr ""
 msgid "Database"
 msgstr "Tietokanta"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Date of birth "
 msgstr "Syntymäaika "
@@ -5671,8 +5671,8 @@ msgstr ""
 "Riippuu IssueLostItem-asetuksen arvosta, näetkö varoituksen vai "
 "vahvistuslaatikon"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "Depending on what you have chosen for the 'Search fields' you can search for "
@@ -5855,8 +5855,8 @@ msgstr ""
 "arvo tai toisen kentän olemassaolo. Esim. voit haluta lisätä luokan "
 "nidetietueelle, jos siellä ei ole jo sitä."
 
-#: intranet-tmpl/prog/en/modules/help/catalogue/issuehistory.tt
 #: intranet-tmpl/prog/en/modules/help/catalogue/moredetail.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/issuehistory.tt
 #, c-format
 msgid ""
 "Each bibliographic record keeps a circulation history (with or without the "
@@ -5918,8 +5918,8 @@ msgid ""
 "for automatic overlaying."
 msgstr ""
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "Each line item can be paid in full (or written off) using the 'Pay Fines' "
@@ -5928,8 +5928,8 @@ msgstr ""
 "Jokaisen rivin maksut voidaan maksaa kokonaan (tai poistaa) käyttämällä "
 "'Maksa maksuja' -välilehteä."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Each line item can be paid in full, partially paid, or written off."
 msgstr "Jokaisen rivin maksut voidaan maksaa kokonaan, osittain tai poistaa."
@@ -6090,8 +6090,8 @@ msgstr "Asiakasmääreiden muokkaus/poisto"
 msgid "Editing/Deleting a Library"
 msgstr "Kirjaston muokkaus/poisto"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Email: "
 msgstr "Sähköposti: "
@@ -6197,8 +6197,8 @@ msgstr ""
 "alasvetovalikosta tai voit syöttää URLin toisella palvelimella sijaitsevaan "
 "äänitiedostoon."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Enter an amount to pay towards the fines."
 msgstr "Syötä summa, jolla maksuja maksetaan."
@@ -6208,8 +6208,8 @@ msgstr "Syötä summa, jolla maksuja maksetaan."
 msgid "Enter any notes that might apply to this hold"
 msgstr "Syötä mahdolliset varaukseen liittyvät huomautukset"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "Enter any part of the patron's address (includes all address fields) and "
@@ -6220,8 +6220,8 @@ msgstr ""
 "valitse 'Sisältää' 'Alkaa'-haun sijaan, niin löydät merkkijonon missä "
 "tahansa osoitteen sisällä."
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "Enter any part of their email address and choose 'Contains' instead of "
@@ -6230,8 +6230,8 @@ msgstr ""
 "Syötä mikä tahansa asiakkaan sähköpostiosoitteen osa ja valitse 'Sisältää' "
 "'Alkaa'-haun sijaan"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Enter any part of their name, username, email address or barcode"
 msgstr ""
@@ -6281,8 +6281,8 @@ msgstr "Syötä 952-kenttä ja o-osakenttä"
 msgid "Enter the 952 field and o subfield to copy to"
 msgstr "Syötä 952-kenttä ja o-osakenttä kopioidaksesi"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Enter the Koha borrower number"
 msgstr "Syötä Kohan asiakkaan ID"
@@ -6299,8 +6299,8 @@ msgstr ""
 msgid "Enter the MARC tag you want to match on in the 'Tag' field"
 msgstr "Syötä MARC-kenttä, jonka haluat vastaavan 'Kentät'-kentässä"
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "Enter the amount you are collecting from the patron in \"Collect from Patron."
@@ -6309,8 +6309,8 @@ msgstr ""
 "Syötä summa, jonka veloitat asiakkaalta \"Peri asiakkaalta\"-kenttään. "
 "Kaikki maksut näkyvät \"Maksettavia yhteensä\"-kentässä."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "Enter the amount you are collecting from the patron in the \"Collect From "
@@ -6350,9 +6350,9 @@ msgstr ""
 msgid "Enter the field 942 and subfield c"
 msgstr "Syötä 942-kenttä ja c-osakenttä"
 
-#: intranet-tmpl/prog/en/modules/help/admin/auth_tag_structure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
+#: intranet-tmpl/prog/en/modules/help/admin/auth_tag_structure.tt
 #, c-format
 msgid "Enter the information about your new tag:"
 msgstr "Syötä uuden kentän tiedot:"
@@ -6385,8 +6385,8 @@ msgstr ""
 "Syötä prosentuaalinen alennus, jonka saat tästä tilauksesta ja kun olet "
 "tehnyt sen, paina tab-näppäintä ja Koha täyttää muut hintakentät alapuolella."
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "Enter the phone number exactly as it is in the system or by using spaces "
@@ -6502,8 +6502,8 @@ msgstr ""
 "haluat muuttaa summaa 2,6%% (1024.974) ja haluat pyöristää sen lähimpään "
 "puoleen, tulee summaksi 1024.5 (summat pyöristetään alaspäin). "
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "Example: To find (212) 555-1212 you can search for it exactly as it was "
@@ -6526,8 +6526,8 @@ msgstr ""
 "Esimerkki: Kenttää 650 voi olla monta, ja tämä merkki tulee jokaisen väliin."
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid ""
 "Example: the text is .25\" from the left edge of the first label, .28\" from "
@@ -7125,8 +7125,8 @@ msgid "For multiple images, choose to upload a zip file"
 msgstr "Useiden kuvien kohdalla valitse pakatun tiedoston lataus"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid ""
 "For these values, negative numbers move the error up and to the left and "
@@ -7332,8 +7332,8 @@ msgstr ""
 "Täällä voi syöttää tarvittavat tiedot toimittajista, jotta voit olla "
 "yhteydessä heihin"
 
-#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #: intranet-tmpl/prog/en/modules/help/members/files.tt
+#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
 msgid "From here you can upload files to attach to the patron record."
 msgstr "Täällä voit ladata tiedostoja liitettäväksi asiakastietueeseen."
@@ -7546,8 +7546,8 @@ msgstr ""
 "sitä tai tehdä uuden raportin. Voit myös ladata tulokset ja valita tiedoston "
 "tyypin."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/invoices.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #, c-format
 msgid ""
 "From the results you can click the 'Details' link to see the full invoice or "
@@ -7556,8 +7556,8 @@ msgstr ""
 "Hakutuloksesta voit valita 'Tilaustiedot' nähdäksesi koko tilauksen tai "
 "'Sulje' suljetun/maksetun tilauksen merkkinä."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid ""
 "From the results you can view the MARC or Card view for the records or "
@@ -7578,8 +7578,8 @@ msgstr ""
 "siihen on liitetty ja poistolinkin (jos yhtään nimeketietuetta ei liity "
 "siihen)."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
 #, c-format
 msgid ""
 "From the results, click 'Order' next to the item you want to order and you "
@@ -7588,8 +7588,8 @@ msgstr ""
 "Hakutuloksesta klikkaa 'Tilaa' sen nimekkeen vieressä, jonka haluat tilata "
 "ja saat tilauslomakkeen, jossa on linkki hankintaehdotukseen "
 
-#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
 #, c-format
 msgid ""
 "From the results, click the Order link next to the item you want to purchase."
@@ -7648,8 +7648,8 @@ msgstr ""
 "tunnusten latauksen tai voit lukea niteet yksitellen alla olevaan "
 "lataustyökaluun. Kun olet ladannut tai lukenut viivakoodit, klikkaa 'Jatka'."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
 #, c-format
 msgid ""
 "From the warning, you can choose to order another copy on the existing bib "
@@ -7672,8 +7672,8 @@ msgstr ""
 "auktoriteettien välisen suhteen."
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid ""
 "From this form you can alter the cost information. You can also choose to "
@@ -7691,8 +7691,8 @@ msgstr ""
 "nidetietoihin osakenttiin v (Korvaushinta) ja g (Hankintahinta) tallennuksen "
 "jälkeen."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
 #, c-format
 msgid ""
 "From this form you can make changes to the Catalog Details if necessary."
@@ -7837,32 +7837,32 @@ msgstr ""
 msgid "Get the signum using a data source function "
 msgstr ""
 
-#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/holidays.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
 #, c-format
 msgid "Get there:"
 msgstr "Mene:"
 
-#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/holidays.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
 #, c-format
 msgid "Get there: "
 msgstr "Mene: "
@@ -8715,8 +8715,8 @@ msgstr ""
 "Jos tämä credit littyy johonkin niteeseen, niteen viivakoodin voi syöttää ja "
 "se näkyy linkkinä oikeaan niteeseen"
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid "If this field can be repeated, check the 'Repeatable' box"
 msgstr "Jos kenttä on toistettavissa, klikkaa 'Toistettavissa'-laatikko"
@@ -8726,8 +8726,8 @@ msgstr "Jos kenttä on toistettavissa, klikkaa 'Toistettavissa'-laatikko"
 msgid "If this field can be repeated, check the 'Repeatable' box."
 msgstr "Jos kenttä on toistettavissa, klikkaa 'Toistettavissa'-laatikko."
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid "If this field is mandatory, check the 'Mandatory' box"
 msgstr "Jos kenttä on pakollinen, klikkaa 'Pakollinen'-laatikko"
@@ -8820,8 +8820,8 @@ msgid ""
 msgstr ""
 "Jos valitset alussa vahingossa väärän asiakastyypin, voit vaihtaa sen täällä"
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "If you accidentally mark and item as paid, you can reverse that line item by "
@@ -9156,18 +9156,18 @@ msgstr ""
 "Jos luot uuden auktoriteettitietueen tyhjästä, voit syöttää kaikki "
 "auktoriteettitietueessasi tarvittavat tiedot lomakkeeseen."
 
-#: intranet-tmpl/prog/en/modules/help/reports/catalogue_out.tt
-#: intranet-tmpl/prog/en/modules/help/reports/bor_issues_top.tt
-#: intranet-tmpl/prog/en/modules/help/reports/manager.tt
-#: intranet-tmpl/prog/en/modules/help/reports/catalogue_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/issues_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
 #: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/serials_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/borrowers_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/bor_issues_top.tt
 #: intranet-tmpl/prog/en/modules/help/reports/borrowers_out.tt
 #: intranet-tmpl/prog/en/modules/help/reports/cat_issues_top.tt
+#: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/catalogue_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/manager.tt
+#: intranet-tmpl/prog/en/modules/help/reports/issues_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/borrowers_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/catalogue_out.tt
+#: intranet-tmpl/prog/en/modules/help/reports/serials_stats.tt
 #, c-format
 msgid ""
 "If you choose to output to the browser your results will print to the screen."
@@ -9255,8 +9255,8 @@ msgstr ""
 "osallistuvien kirjastojen koodit, erotusmerkkinä pilkku (esim. \"MPL,CPL,SPL,"
 "BML\" jne. )."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid ""
 "If you don't find the title you need in your Z39.50/SRU search results you "
@@ -9668,8 +9668,8 @@ msgstr ""
 "yläpuolella. Jos valitset enemmän tai vähemmän kuin kaksi tietuetta, saat "
 "virheilmoituksen."
 
-#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #: intranet-tmpl/prog/en/modules/help/members/files.tt
+#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
 msgid ""
 "If you set the EnableBorrowerFiles preference to 'Do' the Files tab will be "
@@ -9728,8 +9728,8 @@ msgstr ""
 "Jos haluat tämän kentän olevan alasvetovalikko, jossa on rajallinen määrä "
 "valintoja, valitse mitä auktorisoidut arvot -listaa haluat käyttää."
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid ""
 "If you want this field to be a pull down with limited possible answers, "
@@ -9744,8 +9744,8 @@ msgid ""
 "If you want to add another condition, click on 'OR' button and repeat step 1."
 msgstr "Jos haluat lisätä toisen ehdon, klikkaa 'OR'-nappia ja toista vaihe 1."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid ""
 "If you want to catalog a record based on an existing record at another "
@@ -10165,8 +10165,8 @@ msgid ""
 "Issue information."
 msgstr "Jos lehdessä on lisänumero, täytä 'Lisänumeron' tiedot."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
 #, c-format
 msgid ""
@@ -10475,8 +10475,8 @@ msgstr ""
 "Tärkeää: Jos et veloita maksuja ja/tai maksujen cron job ei ole käynnissä, "
 "tässä raportissa ei ole mitään tietoja."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "Important: If you do not supply a left text margin in the template, a "
@@ -10892,8 +10892,8 @@ msgstr ""
 "toimittamien teosten listan voi noutaa ISBN:n avulla (liitännäisillä "
 "unimarc_plugin_210c ja unimarc_plugin_225a)."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid ""
 "In addition to the Import link to the right of each title, you can click on "
@@ -11072,8 +11072,8 @@ msgstr ""
 "Verkkokirjastossa kansikuvat näkyvät myös kuvien välilehdellä sekä nimekkeen "
 "ja hakutulosten vieressä."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #, c-format
 msgid ""
 "In the Vendor Search you can enter any part of the vendor name to get "
@@ -11099,8 +11099,8 @@ msgstr ""
 "Älä käytä symboleja summa-kentässä, syötä vain budjetin summa numeroilla ja "
 "desimaaleilla."
 
-#: intranet-tmpl/prog/en/modules/help/members/mancredit.tt
 #: intranet-tmpl/prog/en/modules/help/members/maninvoice.tt
+#: intranet-tmpl/prog/en/modules/help/members/mancredit.tt
 #, c-format
 msgid ""
 "In the amount field, do not enter currency symbols, only numbers and decimals"
@@ -11233,8 +11233,8 @@ msgstr ""
 msgid "Inventory"
 msgstr "Inventaario"
 
-#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/invoices.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #, c-format
 msgid "Invoices"
 msgstr "Laskut"
@@ -11900,8 +11900,8 @@ msgstr "Selite näkyy niteiden hakusivulla"
 msgid "Language=%s "
 msgstr "Kielet=%s "
 
-#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-layout.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
@@ -12839,9 +12839,9 @@ msgid ""
 "search targets. "
 msgstr ""
 
+#: intranet-tmpl/prog/en/modules/help/reserve/request.tt
+#: intranet-tmpl/prog/en/modules/help/reserve/request.tt
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reserve/request.tt
-#: intranet-tmpl/prog/en/modules/help/reserve/request.tt
 #, c-format
 msgid "Note"
 msgstr "Viesti"
@@ -12862,11 +12862,11 @@ msgstr ""
 "on seuraavassa sarakkeessa."
 
 #: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
+#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
+#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
 #: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
-#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
-#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
 #, c-format
 msgid "Note:"
 msgstr "Huom:"
@@ -13037,8 +13037,8 @@ msgid "Offline circulation"
 msgstr "Yhteydettömän tilan lainaus"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid ""
 "Offset describes what happens when the entire image is off center either "
@@ -13138,8 +13138,8 @@ msgstr ""
 msgid "On this page you can create, modify and delete OAI-PMH sets"
 msgstr "Tällä sivulla voit luoda, muokata ja poistaa OAI-PMH -asetuksia"
 
-#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #: intranet-tmpl/prog/en/modules/help/members/routing-lists.tt
+#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
 msgid ""
 "On this tab you will be able to see and edit all of the routing lists that "
@@ -13188,8 +13188,8 @@ msgid ""
 "summary."
 msgstr "Kun nimeke on lisätty tilauskoriin, saat tilauksen yhteenvedon."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "Once clicked a new line item will be added to the account, showing the "
@@ -13542,8 +13542,8 @@ msgstr ""
 "Kun olet tallentanut muutoksesi, uusi kirjastosi näkyy oikeassa yläreunassa."
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid ""
 "Once you have saved your new profile, you can return to the list of "
@@ -13675,8 +13675,8 @@ msgstr ""
 "Kun olet tehnyt tarpeelliset muokkaukset, klikkaa 'Tallenna' ja kaikki tätä "
 "auktoriteettia käyttävät tietueet päivitetään."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid ""
 "Once you've opened a blank framework or imported a record via Z39.50/SRU you "
@@ -13915,8 +13915,8 @@ msgstr ""
 "'Hankintaehdotukset'-sivulle verkkokirjastossa."
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid ""
 "Orders can be received from the vendor information page or the vendor search "
@@ -14286,32 +14286,32 @@ msgstr ""
 msgid "Patrons:"
 msgstr "Asiakkaat:"
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Pay Selected fines "
 msgstr "Maksa valitut maksut "
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Pay a fine in full "
 msgstr "Maksa kaikki maksut "
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Pay a partial fine "
 msgstr "Maksa maksut osittain "
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Pay an amount towards all fines "
 msgstr "Maksa osa kaikista maksuista "
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Pay and Writeoff Fines"
 msgstr "Maksa ja poista maksut"
@@ -14361,8 +14361,8 @@ msgstr "Perl-moduulit"
 msgid "Philadelphia, PA 19107"
 msgstr "Philadelphia, PA 19107"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Phone number: "
 msgstr "Puhelinnumero: "
@@ -14485,10 +14485,10 @@ msgstr "Ammattilainen = Asiakas, joka voi kuulua yhteisöön"
 msgid "Professional patrons can be linked to Organizational patrons"
 msgstr "Ammattilaisasiakkaat voidaan linkittää yhteisöasiakkaaseen"
 
-#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
 #, c-format
 msgid "Profiles"
@@ -14620,8 +14620,8 @@ msgid "Receiving Holds"
 msgstr "Varausten vastaanotto"
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid "Receiving Orders"
 msgstr "Tilausten vastaanotto"
@@ -14663,8 +14663,8 @@ msgid "Record matching rules are used when importing MARC records into Koha."
 msgstr ""
 "Tietueiden yhdistämissääntöjä käytetään, kun tuodaan MARC-tietueita Kohaan."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid ""
 "Records can be added to Koha via original or copy cataloging. If you would "
@@ -14999,8 +14999,8 @@ msgstr "Hakuhistoria"
 msgid "Search index: Control-number"
 msgstr "Hakuindeksi: Kontrollinumero"
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid "Search targets can be altered by using the Z39.50/SRU Admin area."
 msgstr "Hakukohteet voi muuttaa Z39.50/SRU-palvelimien ylläpidossa."
@@ -15054,8 +15054,8 @@ msgstr "Mene: "
 msgid "See the full documentation for "
 msgstr "Katso koko dokumentaatio "
 
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #, c-format
 msgid "See the full documentation for Acquisitions Searching in the "
 msgstr "Katso koko dokumentaatio hankinnan haulle "
@@ -15095,12 +15095,12 @@ msgstr "Katso koko dokumentaatio Analyyttisille "
 msgid "See the full documentation for Anonymizing Patrons in the "
 msgstr "Katso koko dokumentaatio asiakkaiden anonymisoinnille "
 
+#: intranet-tmpl/prog/en/modules/help/admin/auth_subfields_structure.tt
 #: intranet-tmpl/prog/en/modules/help/admin/authtypes.tt
 #: intranet-tmpl/prog/en/modules/help/admin/auth_tag_structure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/auth_subfields_structure.tt
 #: intranet-tmpl/prog/en/modules/help/authorities/detail.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/authorities-home.tt
 #: intranet-tmpl/prog/en/modules/help/authorities/authorities.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/authorities-home.tt
 #, c-format
 msgid "See the full documentation for Authorities in the "
 msgstr "Katso koko dokumentaatio auktoriteeteille "
@@ -15151,8 +15151,8 @@ msgid "See the full documentation for Catalog Statistics in the "
 msgstr "Katso koko dokumentaatio luettelon tilastoille "
 
 #: intranet-tmpl/prog/en/modules/help/catalogue/detail.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid "See the full documentation for Cataloging in the "
 msgstr "Katso koko dokumentaatio luetteloinnille "
@@ -15304,8 +15304,8 @@ msgstr "Katso koko dokumentaatio hyllyvarauksille "
 msgid "See the full documentation for Inventory in the "
 msgstr "Katso koko dokumentaatio inventoinnille "
 
-#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/invoices.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #, c-format
 msgid "See the full documentation for Invoices in the "
 msgstr "Katso koko dokumentaatio laskuille "
@@ -15362,14 +15362,14 @@ msgstr "Katso koko dokumentaatio tarrojen muokkaukselle eräajona "
 msgid "See the full documentation for Label Layouts in the "
 msgstr "Katso koko dokumentaatio tarrojen asettelulle "
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid "See the full documentation for Label Profiles in the "
 msgstr "Katso koko dokumentaatio tarrojen profiilille "
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid "See the full documentation for Label Templates in the "
 msgstr "Katso koko dokumentaatio tarrojen pohjille "
@@ -15435,8 +15435,8 @@ msgstr "Katso koko dokumentaatio uutisille "
 msgid "See the full documentation for Notices in the "
 msgstr "Katso koko dokumentaatio ilmoituksille "
 
-#: intranet-tmpl/prog/en/modules/help/admin/oai_sets.tt
 #: intranet-tmpl/prog/en/modules/help/admin/oai_set_mappings.tt
+#: intranet-tmpl/prog/en/modules/help/admin/oai_sets.tt
 #, c-format
 msgid "See the full documentation for OAI Sets in the "
 msgstr "Katso koko dokumentaatio OAI-asetuksille "
@@ -15447,13 +15447,13 @@ msgstr "Katso koko dokumentaatio OAI-asetuksille "
 msgid "See the full documentation for Offline Circulation in the "
 msgstr "Katso koko dokumentaatio yhteydettömän tilan lainaukselle "
 
-#: intranet-tmpl/prog/en/modules/help/acqui/basketheader.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/addorderiso2709.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/neworderbiblio.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/neworderempty.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/addorderiso2709.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/neworderbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/basketheader.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/newordersubscription.tt
 #, c-format
 msgid "See the full documentation for Ordering in the "
@@ -15525,8 +15525,8 @@ msgstr "Katso koko dokumentaatio asiakkaiden tilastoille "
 msgid "See the full documentation for Patron routing lists in the "
 msgstr "Katso koko dokumentaatio asiakkaiden kiertolistoille "
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "See the full documentation for Paying Fines in the "
 msgstr "Katso koko dokumentaatio maksujen maksamiselle "
@@ -15547,8 +15547,8 @@ msgid "See the full documentation for Quick Spine Label Creator in the "
 msgstr "Katso koko dokumentaatio selkätarrojen pikaluonnille "
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid "See the full documentation for Receiving Orders in the "
 msgstr "Katso koko dokumentaatio tilausten vastaanotolle "
@@ -15588,8 +15588,8 @@ msgstr "Katso koko dokumentaatio kiertolistoille "
 msgid "See the full documentation for Search History in the "
 msgstr "Katso koko dokumentaatio hakuhistorialle "
 
-#: intranet-tmpl/prog/en/modules/help/catalogue/itemsearch.tt
 #: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/itemsearch.tt
 #, c-format
 msgid "See the full documentation for Searching in the "
 msgstr "Katso koko dokumentaatio hakutoiminnolle "
@@ -15614,8 +15614,8 @@ msgstr "Katso koko dokumentaatio kausijulkaisun numerointikaavalle "
 msgid "See the full documentation for Serials Statistics in the "
 msgstr "Katso koko dokumentaatio kausijulkaisun tilastoille "
 
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-detail.tt
 #: intranet-tmpl/prog/en/modules/help/serials/serials-home.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-detail.tt
 #: intranet-tmpl/prog/en/modules/help/serials/serials-collection.tt
 #, c-format
 msgid "See the full documentation for Serials in the "
@@ -15626,8 +15626,8 @@ msgstr "Katso koko dokumentaatio kausijulkaisuille "
 msgid "See the full documentation for Setting your Library in the "
 msgstr "Katso koko dokumentaatio kirjaston asetuksille "
 
-#: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
 #: intranet-tmpl/prog/en/modules/help/admin/systempreferences.tt
+#: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
 #, c-format
 msgid "See the full documentation for System Preferences in the "
 msgstr "Katso koko dokumentaatio järjestelmäasetuksille "
@@ -15788,8 +15788,8 @@ msgstr "Katso koko dokumentaatio myöhästymisilmoitusten määrittelylle "
 msgid "See the full documentation for the Patron Card Batches in the "
 msgstr "Katso koko dokumentaatio kirjastokorttien muokkaukselle eräajona "
 
-#: intranet-tmpl/prog/en/modules/help/patroncards/home.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/home.tt
 #, c-format
 msgid "See the full documentation for the Patron Card Creator in the "
 msgstr "Katso koko dokumentaatio kirjastokorttien luonnille "
@@ -15939,8 +15939,8 @@ msgstr "Kausijulkaisun ilmestymistiheydet"
 msgid "Serial Numbering Patterns"
 msgstr "Kausijulkaisun numerointikaavat"
 
-#: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
 #: intranet-tmpl/prog/en/modules/help/serials/serials-home.tt
+#: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
 #, c-format
 msgid "Serials"
 msgstr "Kausijulkaisut"
@@ -16186,14 +16186,14 @@ msgstr "Tähän aiheeseen ei ole ohjetta, katso "
 msgid "Sort 1 and 2 are used for statistical purposes within your library"
 msgstr "Lajittelukenttä 1 ja 2 ovat tilastollisessa käytössä kirjastossasi"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Sort field 1 "
 msgstr "Lajittelukenttä 1 "
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Sort field 2 "
 msgstr "Lajittelukenttä 2 "
@@ -16270,8 +16270,8 @@ msgstr "MARC-tietueiden välivarastointi"
 msgid "Standard ID"
 msgstr "Standardi ID"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Standard: "
 msgstr "Standardi: "
@@ -16387,8 +16387,8 @@ msgstr "Kohta 5:"
 msgid "Step 6:"
 msgstr "Kohta 6:"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid "Street address: "
 msgstr "Katuosoite: "
@@ -16580,8 +16580,8 @@ msgstr ""
 "auktoriteettitietue"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "Template Code should be something you can use to identify your template on a "
@@ -16591,8 +16591,8 @@ msgstr ""
 "listalta"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "Template ID will be automatically generated after saving your template, this "
@@ -16607,8 +16607,8 @@ msgid "Template Toolkit tags"
 msgstr "Template Toolkit tags"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid ""
 "Template will be filled in once you have chosen which template to apply the "
@@ -16617,9 +16617,9 @@ msgstr "Pohja täytetään, kun olet valinnut yhdistettävän profiilin"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
 #, c-format
 msgid "Templates"
 msgstr "Pohjat"
@@ -16726,8 +16726,8 @@ msgstr ""
 "'Sisempi laskuri' -kenttää käytetään kertomaan Kohalle, mistä numerosta "
 "vastaanotto aloitetaan "
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid ""
 "The 'Label for OPAC' is the text that will appear in the OPAC when viewing "
@@ -16753,8 +16753,8 @@ msgstr ""
 "'Teksti verkkokirjastossa' on teksti, joka näkyy verkkokirjastossa MARC-"
 "näkymässä"
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid ""
 "The 'Label for lib' is the text that will appear in the staff client when in "
@@ -16861,8 +16861,8 @@ msgid ""
 msgstr ""
 "'Osakentän erotinmerkki' on merkki, jolla erotetaan osakenttien tuplat. "
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid "The 'Tag' is the MARC field number"
 msgstr "'Kenttä' on MARC-kentän numero"
@@ -17106,8 +17106,8 @@ msgid "The Patrons module stores the information you add about your patrons."
 msgstr "Asiakkaat-osio säilyttää asiakkaista tallennetut tiedot."
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid ""
 "The Printer Name and Paper Bin do not have to match your printer exactly, "
@@ -17196,8 +17196,8 @@ msgstr ""
 "käytetään pohjassa. Tämän tiedon pitää olla yhteensopiva toimittajan "
 "tuotteen mittayksikön kanssa."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "The Units pull down is used to define what measurement scale you're going to "
@@ -17227,8 +17227,8 @@ msgstr ""
 "Yksikköjen alasvetovalikkoa käytetään määrittelemään, mitä mittakaavaa "
 "käytät profiilissasi."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid ""
 "The Units pull down is used to define what measurement scale you're going to "
@@ -17621,39 +17621,39 @@ msgstr ""
 "Vasemmalla tilauksen yhteenvetosivulla on valikko, jossa on linkki "
 "'Kausijulkaisukokoelma'."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "The fine totals will be updated with the payment applied to oldest fines "
 "first."
 msgstr "Maksujen summa päivittyy maksuihin vanhimpaan maksuun ensin."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "The fine totals will be updated with the payment applied to the oldest "
 "selected fines first."
 msgstr "Maksujen summa päivittyy maksuihin vanhimpaan valittuun maksuun ensin."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "The fine will be removed from outstanding fines, and displayed as fully paid."
 msgstr "Maksu poistetaan maksamattomista maksuista ja näkyy täysin maksettuna."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "The fine will be removed from outstanding fines, and displayed as written "
 "off."
 msgstr "Maksu poistetaan maksamattomista maksuista ja näkyy poistettuna."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "The fine will be updated to show the original Amount, and the current Amount "
@@ -17698,8 +17698,8 @@ msgstr "Muut Koha-kirjastot ovat käyttäneet seuraavia kohteita:"
 msgid "The form to edit the report will appear."
 msgstr "Seuraavaksi voit muokata raporttia."
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid ""
 "The full amount of the fine will be populated for you in the \"Collect From "
@@ -17843,8 +17843,8 @@ msgid ""
 "The measurements can be found on the vendor product packaging or website."
 msgstr "Mitat löydät toimittajan tuotteen pakkauksesta tai nettisivuilta."
 
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "The measurements, number of columns and number of rows can be found on the "
@@ -18023,8 +18023,8 @@ msgstr ""
 "Esimerkiksi korkeakoulukirjastot voivat tarvita tätä uusien "
 "opiskelijaryhmien kanssa."
 
-#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #: intranet-tmpl/prog/en/modules/help/members/boraccount.tt
+#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
 msgid ""
 "The patron's complete accounting history will appear on the Fines tab. "
@@ -18079,8 +18079,8 @@ msgid "The quick slip only includes items that were checked out today"
 msgstr "Pikakuitissa näkyy vain tänään lainatut niteet"
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid ""
 "The receive page will list all items still on order with the vendor "
@@ -18706,10 +18706,10 @@ msgid ""
 "quotes."
 msgstr "Tällä toiminnolla voit ladata sitaatteja CSV-tiedostona."
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "This is a custom field that libraries can use for any type of data about the "
@@ -19351,8 +19351,8 @@ msgstr ""
 "Tämä avaa uuden MARC-tietueen, jossa kentät on täytetty alkuperäisen "
 "nimeketietueen tiedoilla."
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid "This will open up a blank form for entering MARC field data"
 msgstr "Tämä avaa tyhjän lomakkeen, johon voi syöttää MARC-kenttien tietoja"
@@ -19401,11 +19401,11 @@ msgstr ""
 "Vinkki: Jos ladataan asiakasmääreitä, kentän 'patron_attributes' pitäisi "
 "sisältää asiakasmääreiden ja arvojen listan pilkuilla erotettuina."
 
-#: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
+#: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
+#: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #: intranet-tmpl/prog/en/modules/help/tools/batchMod.tt
-#: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
-#: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
+#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
+#: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
 #, c-format
 msgid "Tip:"
 msgstr "Vinkki:"
@@ -19437,8 +19437,8 @@ msgstr ""
 "Vinkki: Ketjuta yhteen kentät, joiden haluat näkyvän nimekkeen perässä, "
 "siinä järjestyksessä, jossa haluat niiden olevan."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
 msgid ""
 "Tip: If no results are found, try searching for fewer fields, not all Z39.50/"
@@ -19671,8 +19671,8 @@ msgstr ""
 "kenttä' auktoriteettipohjan määritelmän yläreunassa. Tämä avaa tyhjän "
 "lomakkeen, johon voi syöttää MARC-kenttien tietoa."
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid ""
 "To add a field to a Framework click the 'New Tag' button at the top of the "
@@ -19775,8 +19775,8 @@ msgstr ""
 "yläreunassa"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #, c-format
 msgid ""
 "To add a new profile, you want to click on the 'Profiles' button at the top "
@@ -19791,8 +19791,8 @@ msgid "To add a new search term simply fill in the 'Add a new field' area:"
 msgstr "Lisätäksesi uuden hakutermin täytä 'Lisää uusi kenttä' -kohta:"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "To add a new template, you want to click on the 'Templates' button at the "
@@ -20444,8 +20444,8 @@ msgstr ""
 "tai klikkaa nuolia sen oikealla puolella."
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid ""
 "To receive a specific item, click the 'Receive' link to the right of the "
@@ -20677,8 +20677,8 @@ msgstr ""
 "raporttia uuden raportin pohjana. Tämä täyttää uuden raportin entisen "
 "raportin SQL-koodilla ja sitä voi muokata ja tallentaa uudelleen."
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid ""
 "To the right of the new field is a link to 'Subfields,' you will need to add "
@@ -21060,8 +21060,8 @@ msgstr ""
 "luettelointipohja, johon haluat tämän säännön. Esimerkiksi kirjan alaotsikko "
 "löytyy 245$b -kentästä."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #, c-format
 msgid ""
 "Using the Orders Search you can search for items that have been ordered with "
@@ -21131,9 +21131,9 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-layout.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "Using the form that appears you can create a profile to fix any problems "
@@ -21143,8 +21143,8 @@ msgstr ""
 "pohjassasi olevat ongelmat."
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "Using the form that appears you can define the template for your sheet of "
@@ -21553,8 +21553,8 @@ msgid ""
 "'Create Routing List.'"
 msgstr "Lehtitilauksen näytöllä on vasemmalla linkki 'Luo kiertolista'."
 
-#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/invoices.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
 #, c-format
 msgid ""
 "When orders are received invoices are generated. Invoices can be searched by "
@@ -21616,8 +21616,8 @@ msgid ""
 "a myriad of errors can be shown in an alert-dialog. "
 msgstr ""
 
-#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
 #, c-format
 msgid ""
 "When the item appears in your basket it will include a link to the "
@@ -21818,8 +21818,8 @@ msgstr ""
 "asiakkaan tiedoissa."
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid ""
 "When you're finished receiving items you can navigate away from this page or "
@@ -21828,8 +21828,8 @@ msgstr ""
 "Kun olet vastaanottanut kaikki niteet, voit navigoida pois tältä näytöltä "
 "tai klikata 'Lopeta vastaanotto' näytön alareunassa."
 
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
 msgid ""
 "When you're finished, click 'Save Changes' and you will be presented with "
@@ -21949,14 +21949,14 @@ msgstr ""
 msgid "Write news for the OPAC and staff interfaces"
 msgstr "Kirjoita uutisia verkkokirjastoon ja virkailijatyökaluun"
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Writeoff All fines "
 msgstr "Poista kaikki maksut "
 
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Writeoff a single fine "
 msgstr "Poista yksittäinen maksu "
@@ -21980,8 +21980,8 @@ msgstr ""
 "Voit lisätä oman luokitusjärjestelmän käyttämällä 'Uusi luokitusjärjestelmä'-"
 "painiketta. Jos haluat muokata, klikkaa 'Muokkaa'."
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "You can also browse through the patron records by clicking on the linked "
@@ -21995,8 +21995,8 @@ msgstr ""
 msgid "You can also choose how to sort the list"
 msgstr "Voit myös valita, miten lista lajitellaan"
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "You can also choose how your results will be sorted by using the 'Order by' "
@@ -22005,8 +22005,8 @@ msgstr ""
 "Voit myös valita, kuinka tulokset lajitellaan käyttämällä 'Järjestä' "
 "alasvetovalikkoa lomakkeen lopussa."
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "You can also choose to either search for fields that start with the string "
@@ -22016,17 +22016,17 @@ msgstr ""
 "Voit myös hakea kentästä, joka alkaa antamallasi merkkijonolla tai sisältää "
 "tämän merkkijonon. Valitsemalla 'Sisältää' se toimii kuten jokerimerkkihaku."
 
-#: intranet-tmpl/prog/en/modules/help/reports/catalogue_out.tt
-#: intranet-tmpl/prog/en/modules/help/reports/bor_issues_top.tt
-#: intranet-tmpl/prog/en/modules/help/reports/manager.tt
-#: intranet-tmpl/prog/en/modules/help/reports/catalogue_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/issues_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
 #: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/serials_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/bor_issues_top.tt
 #: intranet-tmpl/prog/en/modules/help/reports/borrowers_out.tt
 #: intranet-tmpl/prog/en/modules/help/reports/cat_issues_top.tt
+#: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/catalogue_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/manager.tt
+#: intranet-tmpl/prog/en/modules/help/reports/issues_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/catalogue_out.tt
+#: intranet-tmpl/prog/en/modules/help/reports/serials_stats.tt
 #, c-format
 msgid ""
 "You can also choose to export to a file that you can manipulate to your "
@@ -22130,8 +22130,8 @@ msgstr ""
 "Voit myös muokata yhden nimekkeen niteitä joukkona menemällä "
 "nimeketietueeseen ja klikkaamalla 'Muokkaa' -> 'Muokkaa niteitä eräajossa'."
 
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
 "You can also filter your patron results using the search options on the left "
@@ -22141,8 +22141,8 @@ msgstr ""
 "vasemmalla puolella."
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid ""
 "You can also make edits to the item record from this form by clicking the "
@@ -22325,8 +22325,8 @@ msgstr ""
 "Tämä uusii automaattisesti lainaussääntöjesi mukaan, kunnes nimekkeestä "
 "tehdään varaus "
 
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
 #, c-format
 msgid ""
 "You can enter info in one or both fields and you can enter any part of the "
@@ -22451,8 +22451,8 @@ msgstr ""
 "kun luodaan raportteja valitsemalla 'tai luo' valintanappi. "
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #, c-format
 msgid ""
 "You can use the Template Description to add additional information about the "
@@ -22544,8 +22544,8 @@ msgstr ""
 "sitten:"
 
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
 #, c-format
 msgid ""
 "You will also see that the item is received and/or cancelled if you view the "
@@ -22720,8 +22720,8 @@ msgstr ""
 "joita et halua lopulliseen tietueeseen. Siirry sitten valitsemaan toisesta "
 "tietueesta, mitä kenttiä haluat sieltä lopulliseen tietueeseen."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/merge.tt
 #: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/merge.tt
 #, c-format
 msgid ""
 "You will be presented with the MARC for both of the records (each accessible "
@@ -23910,197 +23910,197 @@ msgstr "manage_staged_marc "
 msgid "management "
 msgstr "management "
 
-#: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
-#: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
-#: intranet-tmpl/prog/en/modules/help/members/mancredit.tt
-#: intranet-tmpl/prog/en/modules/help/members/maninvoice.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/members-home.tt
-#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
-#: intranet-tmpl/prog/en/modules/help/members/discharge.tt
-#: intranet-tmpl/prog/en/modules/help/members/boraccount.tt
-#: intranet-tmpl/prog/en/modules/help/members/notices.tt
-#: intranet-tmpl/prog/en/modules/help/members/readingrec.tt
-#: intranet-tmpl/prog/en/modules/help/members/members-update.tt
-#: intranet-tmpl/prog/en/modules/help/members/statistics.tt
-#: intranet-tmpl/prog/en/modules/help/members/files.tt
-#: intranet-tmpl/prog/en/modules/help/members/purchase-suggestions.tt
-#: intranet-tmpl/prog/en/modules/help/members/pay.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-password.tt
-#: intranet-tmpl/prog/en/modules/help/members/routing-lists.tt
-#: intranet-tmpl/prog/en/modules/help/mainpage.tt
-#: intranet-tmpl/prog/en/modules/help/plugins/plugins-upload.tt
-#: intranet-tmpl/prog/en/modules/help/plugins/plugins-home.tt
 #: intranet-tmpl/prog/en/modules/help/tags/review.tt
 #: intranet-tmpl/prog/en/modules/help/tags/list.tt
-#: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
-#: intranet-tmpl/prog/en/modules/help/admin/aqcontract.tt
-#: intranet-tmpl/prog/en/modules/help/admin/checkmarc.tt
-#: intranet-tmpl/prog/en/modules/help/admin/branch_transfer_limits.tt
-#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
-#: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
-#: intranet-tmpl/prog/en/modules/help/admin/authtypes.tt
-#: intranet-tmpl/prog/en/modules/help/admin/systempreferences.tt
-#: intranet-tmpl/prog/en/modules/help/admin/edi_accounts.tt
-#: intranet-tmpl/prog/en/modules/help/admin/aqplan.tt
-#: intranet-tmpl/prog/en/modules/help/admin/aqbudgets.tt
-#: intranet-tmpl/prog/en/modules/help/admin/auth_tag_structure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/oai_sets.tt
-#: intranet-tmpl/prog/en/modules/help/admin/admin-home.tt
-#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
-#: intranet-tmpl/prog/en/modules/help/admin/transport-cost-matrix.tt
-#: intranet-tmpl/prog/en/modules/help/admin/oai_set_mappings.tt
-#: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
-#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
-#: intranet-tmpl/prog/en/modules/help/admin/koha2marclinks.tt
-#: intranet-tmpl/prog/en/modules/help/admin/aqbudgetperiods.tt
-#: intranet-tmpl/prog/en/modules/help/admin/categorie.tt
-#: intranet-tmpl/prog/en/modules/help/admin/currency.tt
-#: intranet-tmpl/prog/en/modules/help/admin/didyoumean.tt
-#: intranet-tmpl/prog/en/modules/help/admin/auth_subfields_structure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/cities.tt
-#: intranet-tmpl/prog/en/modules/help/admin/items_search_fields.tt
-#: intranet-tmpl/prog/en/modules/help/admin/columns_settings.tt
-#: intranet-tmpl/prog/en/modules/help/admin/item_circulation_alerts.tt
-#: intranet-tmpl/prog/en/modules/help/admin/matching-rules.tt
-#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
-#: intranet-tmpl/prog/en/modules/help/admin/branches.tt
-#: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
-#: intranet-tmpl/prog/en/modules/help/admin/fieldmapping.tt
-#: intranet-tmpl/prog/en/modules/help/admin/edi_ean_accounts.tt
-#: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/merge.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/detail.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/authorities-home.tt
-#: intranet-tmpl/prog/en/modules/help/authorities/authorities.tt
-#: intranet-tmpl/prog/en/modules/help/about.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/image-manage.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/home.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
-#: intranet-tmpl/prog/en/modules/help/patroncards/edit-batch.tt
-#: intranet-tmpl/prog/en/modules/help/reports/reports-home.tt
-#: intranet-tmpl/prog/en/modules/help/reports/dictionary.tt
-#: intranet-tmpl/prog/en/modules/help/reports/catalogue_out.tt
-#: intranet-tmpl/prog/en/modules/help/reports/bor_issues_top.tt
-#: intranet-tmpl/prog/en/modules/help/reports/manager.tt
-#: intranet-tmpl/prog/en/modules/help/reports/catalogue_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/issues_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/serials_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/borrowers_stats.tt
-#: intranet-tmpl/prog/en/modules/help/reports/borrowers_out.tt
-#: intranet-tmpl/prog/en/modules/help/reports/itemslost.tt
-#: intranet-tmpl/prog/en/modules/help/reports/cat_issues_top.tt
-#: intranet-tmpl/prog/en/modules/help/offline_circ/process_koc.tt
-#: intranet-tmpl/prog/en/modules/help/offline_circ/list.tt
-#: intranet-tmpl/prog/en/modules/help/course_reserves/course.tt
-#: intranet-tmpl/prog/en/modules/help/course_reserves/course-details.tt
-#: intranet-tmpl/prog/en/modules/help/course_reserves/add_items.tt
-#: intranet-tmpl/prog/en/modules/help/course_reserves/course-reserves.tt
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-numberpatterns.tt
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-add.tt
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-detail.tt
-#: intranet-tmpl/prog/en/modules/help/serials/subscription-frequencies.tt
-#: intranet-tmpl/prog/en/modules/help/serials/checkexpiration.tt
-#: intranet-tmpl/prog/en/modules/help/serials/serials-home.tt
-#: intranet-tmpl/prog/en/modules/help/serials/claims.tt
-#: intranet-tmpl/prog/en/modules/help/serials/serials-edit.tt
-#: intranet-tmpl/prog/en/modules/help/serials/serials-collection.tt
-#: intranet-tmpl/prog/en/modules/help/serials/routing.tt
-#: intranet-tmpl/prog/en/modules/help/catalogue/itemsearch.tt
-#: intranet-tmpl/prog/en/modules/help/catalogue/issuehistory.tt
-#: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
+#: intranet-tmpl/prog/en/modules/help/rotating_collections/rotatingCollections.tt
+#: intranet-tmpl/prog/en/modules/help/members/boraccount.tt
+#: intranet-tmpl/prog/en/modules/help/members/files.tt
+#: intranet-tmpl/prog/en/modules/help/members/routing-lists.tt
+#: intranet-tmpl/prog/en/modules/help/members/moremember.tt
+#: intranet-tmpl/prog/en/modules/help/members/pay.tt
+#: intranet-tmpl/prog/en/modules/help/members/members-home.tt
+#: intranet-tmpl/prog/en/modules/help/members/maninvoice.tt
+#: intranet-tmpl/prog/en/modules/help/members/purchase-suggestions.tt
+#: intranet-tmpl/prog/en/modules/help/members/statistics.tt
+#: intranet-tmpl/prog/en/modules/help/members/mancredit.tt
+#: intranet-tmpl/prog/en/modules/help/members/member-password.tt
+#: intranet-tmpl/prog/en/modules/help/members/readingrec.tt
+#: intranet-tmpl/prog/en/modules/help/members/members-update.tt
+#: intranet-tmpl/prog/en/modules/help/members/member.tt
+#: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
+#: intranet-tmpl/prog/en/modules/help/members/discharge.tt
+#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
+#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
+#: intranet-tmpl/prog/en/modules/help/members/notices.tt
+#: intranet-tmpl/prog/en/modules/help/mainpage.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/detail.tt
 #: intranet-tmpl/prog/en/modules/help/catalogue/search-history.tt
 #: intranet-tmpl/prog/en/modules/help/catalogue/moredetail.tt
-#: intranet-tmpl/prog/en/modules/help/catalogue/detail.tt
-#: intranet-tmpl/prog/en/modules/help/tools/picture-upload.tt
-#: intranet-tmpl/prog/en/modules/help/tools/batch_record_modification.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/itemsearch.tt
+#: intranet-tmpl/prog/en/modules/help/catalogue/issuehistory.tt
 #: intranet-tmpl/prog/en/modules/help/tools/upload-cover-image.tt
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
-#: intranet-tmpl/prog/en/modules/help/tools/quotes.tt
-#: intranet-tmpl/prog/en/modules/help/tools/stage-marc-import.tt
-#: intranet-tmpl/prog/en/modules/help/tools/cleanborrowers.tt
-#: intranet-tmpl/prog/en/modules/help/tools/holidays.tt
-#: intranet-tmpl/prog/en/modules/help/tools/manage-marc-import.tt
-#: intranet-tmpl/prog/en/modules/help/tools/import_borrowers.tt
-#: intranet-tmpl/prog/en/modules/help/tools/export.tt
-#: intranet-tmpl/prog/en/modules/help/tools/koha-news.tt
-#: intranet-tmpl/prog/en/modules/help/tools/batch_delete_records.tt
-#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
-#: intranet-tmpl/prog/en/modules/help/tools/inventory.tt
-#: intranet-tmpl/prog/en/modules/help/tools/modborrowers.tt
-#: intranet-tmpl/prog/en/modules/help/tools/viewlog.tt
-#: intranet-tmpl/prog/en/modules/help/tools/scheduler.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/tools-home.tt
+#: intranet-tmpl/prog/en/modules/help/tools/picture-upload.tt
 #: intranet-tmpl/prog/en/modules/help/tools/overduerules.tt
+#: intranet-tmpl/prog/en/modules/help/tools/scheduler.tt
+#: intranet-tmpl/prog/en/modules/help/tools/cleanborrowers.tt
+#: intranet-tmpl/prog/en/modules/help/tools/batch_record_modification.tt
+#: intranet-tmpl/prog/en/modules/help/tools/quotes.tt
+#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
+#: intranet-tmpl/prog/en/modules/help/tools/koha-news.tt
+#: intranet-tmpl/prog/en/modules/help/tools/viewlog.tt
+#: intranet-tmpl/prog/en/modules/help/tools/stage-marc-import.tt
+#: intranet-tmpl/prog/en/modules/help/tools/batch_delete_records.tt
+#: intranet-tmpl/prog/en/modules/help/tools/export.tt
+#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
+#: intranet-tmpl/prog/en/modules/help/tools/inventory.tt
+#: intranet-tmpl/prog/en/modules/help/tools/import_borrowers.tt
+#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
+#: intranet-tmpl/prog/en/modules/help/tools/tools-home.tt
+#: intranet-tmpl/prog/en/modules/help/tools/manage-marc-import.tt
+#: intranet-tmpl/prog/en/modules/help/tools/modborrowers.tt
+#: intranet-tmpl/prog/en/modules/help/tools/holidays.tt
+#: intranet-tmpl/prog/en/modules/help/about.tt
+#: intranet-tmpl/prog/en/modules/help/serials/routing.tt
+#: intranet-tmpl/prog/en/modules/help/serials/serials-home.tt
+#: intranet-tmpl/prog/en/modules/help/serials/claims.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-detail.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-numberpatterns.tt
+#: intranet-tmpl/prog/en/modules/help/serials/checkexpiration.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-add.tt
+#: intranet-tmpl/prog/en/modules/help/serials/serials-edit.tt
+#: intranet-tmpl/prog/en/modules/help/serials/subscription-frequencies.tt
+#: intranet-tmpl/prog/en/modules/help/serials/serials-collection.tt
 #: intranet-tmpl/prog/en/modules/help/reserve/request.tt
+#: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
+#: intranet-tmpl/prog/en/modules/help/offline_circ/process_koc.tt
+#: intranet-tmpl/prog/en/modules/help/offline_circ/list.tt
+#: intranet-tmpl/prog/en/modules/help/plugins/plugins-home.tt
+#: intranet-tmpl/prog/en/modules/help/plugins/plugins-upload.tt
+#: intranet-tmpl/prog/en/modules/help/admin/branch_transfer_limits.tt
+#: intranet-tmpl/prog/en/modules/help/admin/didyoumean.tt
+#: intranet-tmpl/prog/en/modules/help/admin/auth_subfields_structure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/checkmarc.tt
+#: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
+#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
+#: intranet-tmpl/prog/en/modules/help/admin/systempreferences.tt
+#: intranet-tmpl/prog/en/modules/help/admin/marctagstructure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
+#: intranet-tmpl/prog/en/modules/help/admin/koha2marclinks.tt
+#: intranet-tmpl/prog/en/modules/help/admin/cities.tt
+#: intranet-tmpl/prog/en/modules/help/admin/branches.tt
+#: intranet-tmpl/prog/en/modules/help/admin/oai_set_mappings.tt
+#: intranet-tmpl/prog/en/modules/help/admin/aqplan.tt
+#: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
+#: intranet-tmpl/prog/en/modules/help/admin/item_circulation_alerts.tt
+#: intranet-tmpl/prog/en/modules/help/admin/aqbudgetperiods.tt
+#: intranet-tmpl/prog/en/modules/help/admin/edi_accounts.tt
+#: intranet-tmpl/prog/en/modules/help/admin/edi_ean_accounts.tt
+#: intranet-tmpl/prog/en/modules/help/admin/matching-rules.tt
+#: intranet-tmpl/prog/en/modules/help/admin/admin-home.tt
+#: intranet-tmpl/prog/en/modules/help/admin/fieldmapping.tt
+#: intranet-tmpl/prog/en/modules/help/admin/columns_settings.tt
+#: intranet-tmpl/prog/en/modules/help/admin/transport-cost-matrix.tt
+#: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
+#: intranet-tmpl/prog/en/modules/help/admin/authtypes.tt
+#: intranet-tmpl/prog/en/modules/help/admin/aqbudgets.tt
+#: intranet-tmpl/prog/en/modules/help/admin/items_search_fields.tt
+#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
+#: intranet-tmpl/prog/en/modules/help/admin/auth_tag_structure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/oai_sets.tt
+#: intranet-tmpl/prog/en/modules/help/admin/aqcontract.tt
+#: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
+#: intranet-tmpl/prog/en/modules/help/admin/currency.tt
+#: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
+#: intranet-tmpl/prog/en/modules/help/admin/categorie.tt
+#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
+#: intranet-tmpl/prog/en/modules/help/course_reserves/add_items.tt
+#: intranet-tmpl/prog/en/modules/help/course_reserves/course-details.tt
+#: intranet-tmpl/prog/en/modules/help/course_reserves/course.tt
+#: intranet-tmpl/prog/en/modules/help/course_reserves/course-reserves.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/edit-batch.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/home.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/image-manage.tt
+#: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/circ/branchtransfers.tt
+#: intranet-tmpl/prog/en/modules/help/circ/view_holdsqueue.tt
+#: intranet-tmpl/prog/en/modules/help/circ/waitingreserves.tt
+#: intranet-tmpl/prog/en/modules/help/circ/renew.tt
+#: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
+#: intranet-tmpl/prog/en/modules/help/circ/pendingreserves.tt
+#: intranet-tmpl/prog/en/modules/help/circ/circulation-home.tt
+#: intranet-tmpl/prog/en/modules/help/circ/returns.tt
+#: intranet-tmpl/prog/en/modules/help/circ/overdue.tt
+#: intranet-tmpl/prog/en/modules/help/circ/selectbranchprinter.tt
+#: intranet-tmpl/prog/en/modules/help/circ/transferstoreceive.tt
+#: intranet-tmpl/prog/en/modules/help/circ/branchoverdues.tt
+#: intranet-tmpl/prog/en/modules/help/circ/reserveratios.tt
+#: intranet-tmpl/prog/en/modules/help/circ/on-site_checkouts.tt
+#: intranet-tmpl/prog/en/modules/help/circ/offline.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-layout.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
-#: intranet-tmpl/prog/en/modules/help/labels/spinelabel-home.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-template.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-batch.tt
+#: intranet-tmpl/prog/en/modules/help/labels/spinelabel-home.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
+#: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
+#: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/detail.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/authorities.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/merge.tt
+#: intranet-tmpl/prog/en/modules/help/authorities/authorities-home.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/linkitem.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/merge.tt
+#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/moveitem.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/linkitem.tt
-#: intranet-tmpl/prog/en/modules/help/circ/branchtransfers.tt
-#: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
-#: intranet-tmpl/prog/en/modules/help/circ/selectbranchprinter.tt
-#: intranet-tmpl/prog/en/modules/help/circ/view_holdsqueue.tt
-#: intranet-tmpl/prog/en/modules/help/circ/on-site_checkouts.tt
-#: intranet-tmpl/prog/en/modules/help/circ/renew.tt
-#: intranet-tmpl/prog/en/modules/help/circ/circulation-home.tt
-#: intranet-tmpl/prog/en/modules/help/circ/branchoverdues.tt
-#: intranet-tmpl/prog/en/modules/help/circ/overdue.tt
-#: intranet-tmpl/prog/en/modules/help/circ/waitingreserves.tt
-#: intranet-tmpl/prog/en/modules/help/circ/reserveratios.tt
-#: intranet-tmpl/prog/en/modules/help/circ/transferstoreceive.tt
-#: intranet-tmpl/prog/en/modules/help/circ/returns.tt
-#: intranet-tmpl/prog/en/modules/help/circ/pendingreserves.tt
-#: intranet-tmpl/prog/en/modules/help/circ/offline.tt
 #: intranet-tmpl/prog/en/modules/help/patron_lists/lists.tt
-#: intranet-tmpl/prog/en/modules/help/reviews/reviewswaiting.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/supplier.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/basketheader.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/invoices.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/uncertainprice.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/neworderempty.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/addorderiso2709.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/acqui-home.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/edifactmsgs.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/parcels.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/neworderbiblio.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/invoice.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/booksellers.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/histsearch.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/parcel.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/addorderiso2709.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/neworderbiblio.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/neworderempty.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/z3950_search.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/basketheader.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/newordersubscription.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/orderreceive.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/acqui-home.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/uncertainprice.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/basketgroup.tt
-#: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
-#: intranet-tmpl/prog/en/modules/help/rotating_collections/rotatingCollections.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/edifactmsgs.tt
+#: intranet-tmpl/prog/en/modules/help/acqui/supplier.tt
+#: intranet-tmpl/prog/en/modules/help/reviews/reviewswaiting.tt
+#: intranet-tmpl/prog/en/modules/help/reports/dictionary.tt
+#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
+#: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/bor_issues_top.tt
+#: intranet-tmpl/prog/en/modules/help/reports/borrowers_out.tt
+#: intranet-tmpl/prog/en/modules/help/reports/cat_issues_top.tt
+#: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/catalogue_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/manager.tt
+#: intranet-tmpl/prog/en/modules/help/reports/issues_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/reports-home.tt
+#: intranet-tmpl/prog/en/modules/help/reports/borrowers_stats.tt
+#: intranet-tmpl/prog/en/modules/help/reports/itemslost.tt
+#: intranet-tmpl/prog/en/modules/help/reports/catalogue_out.tt
+#: intranet-tmpl/prog/en/modules/help/reports/serials_stats.tt
 #, c-format
 msgid "manual"
 msgstr "ohje"
