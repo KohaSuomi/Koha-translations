@@ -9828,8 +9828,8 @@ msgstr ") ei ole olemassa. "
 #. %2$s: - END -
 #: intranet-tmpl/prog/en/modules/acqui/tables/pendingorders_results.tt
 #, c-format
-msgid ")\" %s \"No basket group\" %s , \"dt_orderline\": \""
-msgstr ") %s Ei tilausryhmää %s, \"dt_orderline\": \""
+msgid ")\" %s \"No basket group\" %s, \"dt_orderline\": \""
+msgstr ")\" %s \"Ei tilausryhmää\" %s, \"dt_orderline\": \""
 
 #. %1$s: - IF loop_order.basketgroupid -
 #. %2$s:  loop_order.basketgroupname | html
