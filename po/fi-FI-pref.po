@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-04-15 09:41-0300\n"
-"PO-Revision-Date: 2018-05-29 12:26+0300\n"
-"Last-Translator: AnneliÖ <anneli.osterman@ouka.fi>\n"
+"PO-Revision-Date: 2018-11-08 16:11+0200\n"
+"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,7 @@ msgstr "Hankinnat"
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
 msgid "acquisitions.pref Interfacing"
-msgstr ""
+msgstr "Liitännät"
 
 # Acquisitions > Policy
 # Acquisitions > Policy
@@ -116,17 +116,17 @@ msgstr "jos virkailija yrittää luoda laskua samalle numerolle."
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#ArvoDiscounts# ."
-msgstr ""
+msgstr "."
 
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#ArvoDiscounts# Define Arvo 1.0 discounts:"
-msgstr ""
+msgstr "Määrittele Arvo 1.0 alennukset:"
 
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#ArvoDiscounts# This is a YAML-config."
-msgstr ""
+msgstr "Tämä on YAML-asetus."
 
 # Acquisitions > Policy
 # Acquisitions > Policy
@@ -251,12 +251,12 @@ msgstr "Seuraavat <a href='http://schema.koha-community.org/__VERSION__/tables/i
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#VaaraAcqVendorConfigurations# ."
-msgstr ""
+msgstr "."
 
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#VaaraAcqVendorConfigurations# <pre>---<br/>BTJBiblios:<br/>    host: ftp.btj.fi<br/>    port: 21<br/>    username: btjee<br/>    password: bebop<br/>    protocol: passive ftp<br/>    basedir: /<br/>    encoding: UTF-8<br/>    format: MARCXML<br/>    fileRegexp: 'B(\\d{4})(\\d{2})(\\d{2})xm[ak]'<br/>    stageFiles: 1<br/>    commitFiles: 1<br/>    matcher: ALLFONS<br/>    localStorageDir: /tmp/testImportedMARC<br/><br/></pre>"
-msgstr ""
+msgstr "<pre>---<br/>BTJBiblios:<br/>    host: ftp.btj.fi<br/>    port: 21<br/>    username: btjee<br/>    password: bebop<br/>    protocol: passive ftp<br/>    basedir: /<br/>    encoding: UTF-8<br/>    format: MARCXML<br/>    fileRegexp: 'B(\\d{4})(\\d{2})(\\d{2})xm[ak]'<br/>    stageFiles: 1<br/>    commitFiles: 1<br/>    matcher: ALLFONS<br/>    localStorageDir: /tmp/testImportedMARC<br/><br/></pre>"
 
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
@@ -266,7 +266,7 @@ msgstr ""
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#VaaraAcqVendorConfigurations# Define vendor integration rules:"
-msgstr ""
+msgstr "Määrittele toimittaja-integraation säännöt:"
 
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
@@ -276,7 +276,7 @@ msgstr ""
 # Acquisitions > Interfacing
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#VaaraAcqVendorConfigurations# This is a YAML-config."
-msgstr ""
+msgstr "Tämä on YAML-asetus."
 
 # Acquisitions > Policy
 # Acquisitions > Policy
@@ -2091,27 +2091,27 @@ msgstr "hankintatietoja nimekkeen perustiedot-näytöllä."
 # Cataloging > Display
 # Cataloging > Display
 msgid "cataloguing.pref#AddComponentPartRecordsToDetailedViews# Don't show"
-msgstr ""
+msgstr "Älä näytä"
 
 # Cataloging > Display
 # Cataloging > Display
 msgid "cataloguing.pref#AddComponentPartRecordsToDetailedViews# Requires XSLTDetailsDisplay and/or OPACXSLTDetailsDisplay system preferences to be active. Works on MARC21. "
-msgstr ""
+msgstr "Vaatii, että XSLTDetailsDisplay ja/tai OPACXSLTDetailsDisplay -järjestelmäasetukset on aktivoitu. Toimii MARC21:ssä. "
 
 # Cataloging > Display
 # Cataloging > Display
 msgid "cataloguing.pref#AddComponentPartRecordsToDetailedViews# Show"
-msgstr ""
+msgstr "Näytä"
 
 # Cataloging > Display
 # Cataloging > Display
 msgid "cataloguing.pref#AddComponentPartRecordsToDetailedViews# Technical explanation: This enables appending component part records to the bibliographic record data for the XSLT parsing. Component parts need to be indexed in the rcn-index, in which many by default are."
-msgstr ""
+msgstr "Tekninen selitys: Tämä mahdollistaa osakohteiden liittämisen luettelointitietoihin XSLT jäsennyksellä. Osakohteet pitää indeksoida rcn-indeksiin, jossa moni on oletuksena."
 
 # Cataloging > Display
 # Cataloging > Display
 msgid "cataloguing.pref#AddComponentPartRecordsToDetailedViews# component part records in the detailed views. This might cause a performance penalty for records with lots of component part records."
-msgstr ""
+msgstr "osakohteet perustiedot-näytöllä. Tämä voi hidastaa sivun avautumista niillä tietueilla, joilla on paljon osakohteita."
 
 # Cataloging > Importing
 # Cataloging > Importing
@@ -2181,7 +2181,7 @@ msgstr "Jos näytettäviä tekijöitä, sarjoja tai asiasanoja on useita, erota 
 # Cataloging > Record Structure
 # Cataloging > Record Structure
 msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
-msgstr ""
+msgstr "Määrittele kirjastokohtainen viivakoodin etuliite:"
 
 # Cataloging > Record Structure
 # Cataloging > Record Structure
@@ -2245,7 +2245,7 @@ msgstr "oletusarvoisena luokitusjärjestelmänä."
 # Cataloging > Record Structure
 # Cataloging > Record Structure
 msgid "cataloguing.pref#DefaultLanguageField008#  Empty defaults to eng."
-msgstr "  Jos tyhjä, käytetään eng."
+msgstr " Jos tyhjä, käytetään eng."
 
 # Cataloging > Record Structure
 # Cataloging > Record Structure
@@ -2669,7 +2669,7 @@ msgstr "Viivakoodit ovat"
 # Cataloging > Record Structure
 # Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# Vaarakirjastot, 1120000001 to 1129999999"
-msgstr ""
+msgstr "Vaara-kirjastot, 1120000001 - 1129999999"
 
 # Cataloging > Record Structure
 # Cataloging > Record Structure
@@ -2679,7 +2679,7 @@ msgstr "muotoa &lt;branchcode&gt;yymm0001."
 # Cataloging > Record Structure
 # Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# generated in the form &lt;prefixcode&gt;yyyymm0001."
-msgstr ""
+msgstr "generoidaan muodossa &lt;prefixcode&gt;yyyymm0001."
 
 # Cataloging > Record Structure
 # Cataloging > Record Structure
@@ -7714,12 +7714,12 @@ msgstr "Asiakkaat "
 # OPAC > Features
 # OPAC > Features
 msgid "opac.pref#OpacResetPassword# allowed"
-msgstr "eivät saa"
+msgstr "saavat"
 
 # OPAC > Features
 # OPAC > Features
 msgid "opac.pref#OpacResetPassword# not allowed"
-msgstr "saavat"
+msgstr "eivät saa"
 
 # OPAC > Features
 # OPAC > Features
@@ -10637,4 +10637,3 @@ msgstr "Palauta vain"
 # Web services > Reporting
 msgid "web_services.pref#SvcMaxReportRows# rows of a report requested via the reports web service."
 msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
-

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-17 10:31+0300\n"
-"PO-Revision-Date: 2018-09-19 13:34+0300\n"
+"PO-Revision-Date: 2018-11-12 11:00+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -9828,7 +9828,7 @@ msgstr ") ei ole olemassa. "
 #. %2$s: - END -
 #: intranet-tmpl/prog/en/modules/acqui/tables/pendingorders_results.tt
 #, c-format
-msgid ")\" %s \"No basket group\" %s, \"dt_orderline\": \""
+msgid ")\" %s \"No basket group\" %s , \"dt_orderline\": \""
 msgstr ")\" %s \"Ei tilausryhmää\" %s, \"dt_orderline\": \""
 
 #. %1$s: - IF loop_order.basketgroupid -
@@ -46678,7 +46678,7 @@ msgstr "Henkilökunnan käsikirjasto"
 #: intranet-tmpl/prog/en/includes/tools-menu.inc
 #, c-format
 msgid "Stage MARC for import"
-msgstr "Välivarastoitujen MARC-tietueiden hallinta"
+msgstr "MARC-tietueiden välivarastointi"
 
 #: intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt
 #, c-format
