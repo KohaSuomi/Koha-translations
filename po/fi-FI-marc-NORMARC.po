@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-17 10:31+0300\n"
+"POT-Creation-Date: 2019-04-10 15:14+0300\n"
 "PO-Revision-Date: 2016-11-16 14:00+0000\n"
 "Last-Translator: Koha-Suomi <koha.kirjasto@ouka.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,9 +70,9 @@ msgid "/cgi-bin/koha/catalogue/MARCdetail.pl?biblionumber="
 msgstr "/cgi-bin/koha/catalogue/MARCdetail.pl?biblionumber="
 
 #: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl
+#: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
+#: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
-#: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
-#: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
 #, c-format
 msgid "/cgi-bin/koha/catalogue/detail.pl?biblionumber="
 msgstr "/cgi-bin/koha/catalogue/detail.pl?biblionumber="
@@ -161,19 +161,19 @@ msgstr "/cgi-bin/koha/opac-authoritiesdetail.pl?authid="
 #: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
 #, c-format
 msgid "/cgi-bin/koha/opac-detail.pl?biblionumber="
 msgstr "/cgi-bin/koha/opac-detail.pl?biblionumber="
 
 #: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
 #, c-format
 msgid "/cgi-bin/koha/opac-search.pl?q="
 msgstr "/cgi-bin/koha/opac-search.pl?q="
@@ -192,10 +192,10 @@ msgid "/cgi-bin/koha/opac-search.pl?q=Host-item:"
 msgstr "/cgi-bin/koha/opac-search.pl?q=Host-item:"
 
 #: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
-#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
+#: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl
 #, c-format
 msgid "/cgi-bin/koha/opac-search.pl?q=an:"
 msgstr "/cgi-bin/koha/opac-search.pl?q=an:"
@@ -1659,9 +1659,9 @@ msgid "Numeriske data"
 msgstr "Numeerinen"
 
 #. INPUT type=submit
+#: intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt
 #: intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt
-#: intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt
 msgid "OK"
 msgstr "OK"
 
@@ -2351,8 +2351,8 @@ msgstr "a Tekstlig materiale"
 msgid "a_t"
 msgstr "a_t"
 
-#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl
+#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl
@@ -2417,15 +2417,15 @@ msgstr "abfghk"
 msgid "abhfgnp"
 msgstr "abhfgnp"
 
-#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
+#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
 #, c-format
 msgid "acdeq"
 msgstr "acdeq"
 
-#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
+#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
 #, c-format
 msgid "aq"
@@ -2459,8 +2459,8 @@ msgstr "b Manuskripter (kap.4)"
 msgid "b Serieanalytt"
 msgstr "b Serieanalytt"
 
-#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
+#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
 #, c-format
@@ -2509,8 +2509,8 @@ msgstr "c Utgivelsesår i pos. 7-10 og copyrightår i pos. 11-14"
 msgid "cartographic"
 msgstr "cartographic"
 
-#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl
+#: intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl
 #: opac-tmpl/bootstrap/en/xslt/NORMARCslimUtils.xsl
 #, c-format
 msgid "cdn"
