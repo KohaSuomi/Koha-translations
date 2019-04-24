@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-04-15 09:41-0300\n"
-"PO-Revision-Date: 2018-11-08 16:11+0200\n"
+"PO-Revision-Date: 2019-04-24 16:15+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "ladata ja liittää yksittäisiä tiedostoja laskuun."
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#AcqItemSetSubfieldsWhenReceiptIsCancelled# Upon cancelling a receipt, update the item's subfields if they were created when placing an order (e.g. o=5|a=\"bar foo\")."
-msgstr "Kun lasku perutaan, päivitä niteen osakentät, jos ne luotiin tilausta tehtäessä (esim. o=5|a=\"bar foo\")."
+msgstr "Kun vastaanotto perutaan, päivitä niteen osakentät, jos ne luotiin tilausta tehtäessä (esim. o=5|a=\"bar foo\")."
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#AcqItemSetSubfieldsWhenReceived# Upon receiving items, update their subfields if they were created when placing an order (e.g. o=5|a=\"foo bar\")."
@@ -211,7 +211,7 @@ msgstr "<pre>---<br/>BTJBiblios:<br/>    host: ftp.btj.fi<br/>    port: 21<br/> 
 
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#VaaraAcqVendorConfigurations# <pre>---<br/>Kirjavalitys:<br/>    host: localhost<br/>    port: 21<br/>    orderDirectory: /Order<br/>    username: user<br/>    selectionListConfirmationDirectory: /marcarkisto<br/>    selectionListDirectory: /<br/>    selectionListEncoding: utf8<br/>    selectionListFormat: marcxml<br/>    password: bebop<br/>    protocol: passive ftp<br/>    basedir: /<br/>    encoding: UTF-8<br/>    format: MARCXML<br/>    fileRegexp: 'B(\\d{4})(\\d{2})(\\d{2})xm[ak]'<br/>    stageFiles: 1<br/>    commitFiles: 0<br/>    matcher: ACQ(create empty matcher)<br/>    localStorageDir: /tmp/<br/>    KVDirectories: [/tmp/varkaus/, /tmp/heinavesi/, /tmp/pieksamaki/](optional) <br/><br/></pre>"
-msgstr ""
+msgstr "<pre>---<br/>Kirjavalitys:<br/>    host: localhost<br/>    port: 21<br/>    orderDirectory: /Order<br/>    username: user<br/>    selectionListConfirmationDirectory: /marcarkisto<br/>    selectionListDirectory: /<br/>    selectionListEncoding: utf8<br/>    selectionListFormat: marcxml<br/>    password: bebop<br/>    protocol: passive ftp<br/>    basedir: /<br/>    encoding: UTF-8<br/>    format: MARCXML<br/>    fileRegexp: 'B(\\d{4})(\\d{2})(\\d{2})xm[ak]'<br/>    stageFiles: 1<br/>    commitFiles: 0<br/>    matcher: ACQ(create empty matcher)<br/>    localStorageDir: /tmp/<br/>    KVDirectories: [/tmp/varkaus/, /tmp/heinavesi/, /tmp/pieksamaki/](optional) <br/><br/></pre>"
 
 # Acquisitions > Interfacing
 msgid "acquisitions.pref#VaaraAcqVendorConfigurations# Define vendor integration rules:"
@@ -1751,15 +1751,15 @@ msgstr "Määrittele kirjastokohtainen viivakoodin etuliite:"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#BarcodePrefix# This is a YAML config."
-msgstr ""
+msgstr "Tämä on YAML-asetus."
 
 # Cataloging > Exporting
 msgid "cataloguing.pref#BatchOverlayRules# A YAML configuration about what rules are used when overlaying biblios from remote repositories"
-msgstr ""
+msgstr "YAML-asetus, mitä sääntöjä käytetään, kun tuodaan tietueita ulkoisista lähteistä"
 
 # Cataloging > Exporting
 msgid "cataloguing.pref#BatchOverlayRules# See 'help' at <a href='/cgi-bin/koha/cataloguing/batchOverlay.pl'>cataloguing/batchOverlay.pl</a> for how to configure this feature."
-msgstr ""
+msgstr "Katso 'Ohje' osoitteesta <a href='/cgi-bin/koha/cataloguing/batchOverlay.pl'>cataloguing/batchOverlay.pl</a>, kuinka tämä toiminnallisuus konfiguroidaan."
 
 # Cataloging > Exporting
 # Cataloging > Exporting
@@ -1861,11 +1861,11 @@ msgstr "oletuksena uudessa MARC21-tietueessa (jätä tyhjäksi, jos ei valintaa)
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#MarcToFrameworkcodeAutoconvert# Rules to automatically set the framework code based on values in the record, if the framework is not set or is the default."
-msgstr ""
+msgstr "Säännöt, joilla asetetaan luettelointipohjan koodi perustuen tietueen arvoihin, jos luettelointipohjaa ei ole valittu tai se on oletuspohja."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#MarcToFrameworkcodeAutoconvert# This is YAML."
-msgstr ""
+msgstr "Tämä on YAML."
 
 # Cataloging > Display
 msgid "cataloguing.pref#MergeReportFields# <br />example: '001,245ab,600'"
@@ -2287,7 +2287,7 @@ msgstr "Itsepalvelulainaus"
 
 # Circulation > Self-Service API
 msgid "circulation.pref Self-Service API"
-msgstr ""
+msgstr "Itsepalvelu API"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionMarker# E.g. enter target audience keyword(s) split by | (bar) FSK|PEGI|Age| (No white space near |). Be sure to map agerestriction in Koha to MARC mapping (e.g. 521$a). A MARC field value of FSK 12 or PEGI 12 would mean: Borrower must be 12 years old. Leave empty to not apply an age restriction."
@@ -2859,7 +2859,7 @@ msgstr "Älä salli"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesMaxPickUpDelay# holds to expire automatically if they have not been picked by within the time period specified in circulation rules"
-msgstr ""
+msgstr "varausten vanhentua automaattisesti, jos niitä ei ole noudettu lainasäännöissä määritetyn ajan sisällä"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ExpireReservesOnHolidays# Allow"
@@ -3043,7 +3043,7 @@ msgstr "Priorisoi"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#LocalHoldsPriority# Warning! This will slow down check outs if biblio has lot of holds."
-msgstr ""
+msgstr "Varoitus! Tämä hidastaa lainausta, jos tietueessa on paljon varauksia."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#LocalHoldsPriority# holding library"
@@ -3200,90 +3200,90 @@ msgstr "on-site kaikissa tapauksissa (vaikka käyttäjä olisi estetty tms.)."
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# </code></p>"
-msgstr ""
+msgstr "</code></p>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <br/>"
-msgstr ""
+msgstr "<br/>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <p>Example:<br/>"
-msgstr ""
+msgstr "<p>Esimerkki:<br/>"
 
 # Circulation > Self-Service API
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>    - 07:00 #Opening hour</pre>"
-msgstr ""
+msgstr "<pre>    - 07:00 #Aukaisuaika</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>    - 12:00 #Opening hour</pre>"
-msgstr ""
+msgstr "<pre>    - 12:00 #Aukaisuaika</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>    - 18:00 #Closing hour</pre>"
-msgstr ""
+msgstr "<pre>    - 18:00 #Sulkuaika</pre>"
 
 # Circulation > Self-Service API
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>    - 20:00 #Closing hour</pre>"
-msgstr ""
+msgstr "<pre>    - 20:00 #Sulkuaika</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>  - #Monday</pre>"
-msgstr ""
+msgstr "<pre>  - #Maanantai</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>  - #Sunday</pre>"
-msgstr ""
+msgstr "<pre>  - #Sunnuntai</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>  - #Tuesday</pre>"
-msgstr ""
+msgstr "<pre>  - #Tiistai</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>---</pre>"
-msgstr ""
+msgstr "<pre>---</pre>"
 
 # Circulation > Self-Service API
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>...</pre>"
-msgstr ""
+msgstr "<pre>...</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>CPL:</pre>"
-msgstr ""
+msgstr "<pre>CPL:</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# <pre>FPL:</pre>"
-msgstr ""
+msgstr "<pre>FPL:</pre>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# A gargantuan YAML list of branchcodes, weekdays and times"
-msgstr ""
+msgstr "YAML-lista kirjastokoodeista, viikonpäivistä ja ajoista"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# If you make changes, remember to validate the YAML using https://www.yamllint.com"
-msgstr ""
+msgstr "Jos teet muutoksia, muista validoida YAML osoitteessa https://www.yamllint.com"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# Root keys are branchcodes, then each branchcode MUST define a list of weekdays, starting from monday - to - sunday.<br/>"
-msgstr ""
+msgstr "Perusarvoja ovat kirjastokoodit, sitten jokaiselle kirjastokoodille pitää olla määritettynä lista viikonpäivistä maanantaista sunnuntaihin.<br/>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# Self-service opening hours<br/>"
-msgstr ""
+msgstr "Itsepalvelun aukioloajat<br/>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# Then each weekday has a list of opening hour and closing hour."
-msgstr ""
+msgstr "Sitten jokaisella viikonpäivällä on lista aukaisu- ja sulkuajoista."
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# This is a YAML-configuration document.<br/>"
-msgstr ""
+msgstr "Tämä on YAML-asetusdokumentti."
 
 # Circulation > Self-Service API
 msgid "circulation.pref#OpeningHours# Trying to use the self-service REST API /borrowers/ssstatus without this syspref set will make the API return with configuration errors.<br/>"
-msgstr ""
+msgstr "Jos yritetään käyttää REST API /borrowers/ssstatus -endpointia ilman tätä asetusta, API palauttaa asetusvirheitä.<br/>"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#OverdueNoticeCalendar# Ignore Calendar"
@@ -3331,7 +3331,7 @@ msgstr "estä vain myöhässä olevan niteen uusinta."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#PickupExpiredHoldsOverReportDuration# For how many days holds expired by the 'ExpireReservesMaxPickUpDelay'-syspref are visible in the 'Hold Over'-tab in /circ/waitingreserves.pl ?"
-msgstr ""
+msgstr "Kuinka monta päivää 'ExpireReservesMaxPickUpDelay'-asetuksessa määritetyt vanhentuneet varaukset näkyvät Vanhentuneet varaukset -välilehdellä /circ/waitingreserves.pl-sivulla?"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#PrintNoticesMaxLines# Include up to"
@@ -3371,7 +3371,7 @@ msgstr "kotikirjaston sääntöjä."
 
 # Circulation > Fines Policy
 msgid "circulation.pref#RemoveFineOnReturn# Choose which fines will be removed on item return. Set here the note of the fine, separated by | eg. Perintä|Muovitusmaksu"
-msgstr ""
+msgstr "Mitkä maksut poistetaan nidettä palautettaessa. Aseta tähän maksun selite, eroteltuna |-merkillä, esim. Perintä|Muovitusmaksu"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#RenewalPeriodBase# When renewing checkouts, base the new due date on"
@@ -3443,11 +3443,11 @@ msgstr "varauksenteon yhteydessä, nähdäksesi, saako asiakas varata niteen."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ReservesMaxPickUpDelayBranch# Add reserve max pickup delay for individual branches.<br/>"
-msgstr ""
+msgstr "Aseta varauksen maksiminoutoaika kirjastokohtaisesti."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ReservesMaxPickUpDelayBranch# Example: <br/> KOU_AU: 14 <br/> MLI_AU: 10"
-msgstr ""
+msgstr "Esimerkiksi: <br/> KOU_AU: 14 <br/> MLI_AU: 10"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#ReservesNeedReturns# Automatically"
@@ -3511,31 +3511,31 @@ msgstr "Käytä seuraavia JavaScript-komentoja kaikilla sivuilla itsepalvelulain
 
 # Circulation > Self-Service API
 msgid "circulation.pref#SSRules# Example: '15:ST PT'<br/>"
-msgstr ""
+msgstr "Esimerkki: '15:ST PT'<br/>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#SSRules# First digits are the minimum age needed to access the self-service resources<br/>"
-msgstr ""
+msgstr "Ensimmäiset numerot ovat vähin vaadittu ikä, jolla pääsee käyttämään omatoimea."
 
 # Circulation > Self-Service API
 msgid "circulation.pref#SSRules# How the codes are separated in thelist, is not important. The list is scanned from left to right for text matching the users categorycode. If a match is found somewhere in the list, user passes the categorycode check."
-msgstr ""
+msgstr "Koodien erottelutapa ei ole merkitsevä. Lista luetaan vasemmalta oikealle täsmäyttäen käyttäjän asiakastyyppiin. Jos listalta löydetään vastaavuus, käyttäjä läpäisee asiakastyppi-tarkistuksen."
 
 # Circulation > Self-Service API
 msgid "circulation.pref#SSRules# Self-service resource usage rules<br/>"
-msgstr ""
+msgstr "Omatoimikäytön säännöt<br/>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#SSRules# You MUST set the OpeningHours-syspref as well or the /borrowers/ssstatus-endpoint (self-service access check) wont work"
-msgstr ""
+msgstr "Sinun täytyy määrittää myös OpeningHours-asetus, jotta /borrowers/ssstatus-endpoint (omatoimioikeuden tarkistus) toimisi"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#SSRules# followed by a list of borrower categorycodes allowed to access the self-service resources.<br/>"
-msgstr ""
+msgstr "sitä seuraa lista asiakastyypeistä, joilla on oikeus käyttää omatoimea.<br/>"
 
 # Circulation > Self-Service API
 msgid "circulation.pref#SSRules# separated by a colon ':'<br/>"
-msgstr ""
+msgstr "erotetaan kaksoispisteellä ':'<br/>"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#SelfCheckHelpMessage# Include the following HTML in the Help page of the web-based self checkout system:"
@@ -3719,7 +3719,7 @@ msgstr "päivää lähettämisen jälkeen."
 
 # Circulation > Checkin Policy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Can be used for showing only the not for loan message E.g. '-1: ONLYMESSAGE'. Each pair of values should be on a separate line."
-msgstr ""
+msgstr "Voidaan käyttää näyttämään vain Ei lainata -viesti. Esim. '-1: ONLYMESSAGE'. Jokainen arvopari pitää olla omalla rivillään."
 
 # Circulation > Checkin Policy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value"
@@ -5043,7 +5043,7 @@ msgstr "Virheenkorjaus"
 
 # Logging > Interface
 msgid "logs.pref Interface"
-msgstr ""
+msgstr "Käyttöliittymä"
 
 # Logging > Logging
 msgid "logs.pref Logging"
@@ -5075,15 +5075,15 @@ msgstr "asiakastietojen muutoksista."
 
 # Logging > Logging
 msgid "logs.pref#BorrowersViewLog# Don't log"
-msgstr ""
+msgstr "Älä lokita"
 
 # Logging > Logging
 msgid "logs.pref#BorrowersViewLog# Log"
-msgstr ""
+msgstr "Lokita"
 
 # Logging > Logging
 msgid "logs.pref#BorrowersViewLog# when patron data is viewed."
-msgstr ""
+msgstr "kun asiakasdataa tarkastellaan."
 
 # Logging > Logging
 msgid "logs.pref#CataloguingLog# Don't log"
@@ -5184,15 +5184,15 @@ msgstr "automaattisten palautuskehotusten lähettämisestä."
 # Logging > Interface
 # Logging > Interface
 msgid "logs.pref#LogInterfaceURL# Defined"
-msgstr ""
+msgstr "Määritetty"
 
 # Logging > Interface
 msgid "logs.pref#LogInterfaceURL# URL for fetching JSON log data with AJAX."
-msgstr ""
+msgstr "URL, josta noudetaan JSON lokitustieto AJAXilla."
 
 # Logging > Interface
 msgid "logs.pref#LogInterfaceURL# URL for fetching JSON personal data with AJAX."
-msgstr ""
+msgstr "URL, josta noudetaan JSON henkilötieto AJAXilla."
 
 # Logging > Logging
 msgid "logs.pref#RenewalLog# Don't log"
@@ -5416,15 +5416,15 @@ msgstr "asiakkaiden maksaa maksuja verkkokirjastossa PayPalilla"
 
 # OPAC > Appearance
 msgid "opac.pref#FinnaBaseURL# <pre>Record: https://koha.finna.fi/Record/koha.{biblionumber}</pre>"
-msgstr ""
+msgstr "<pre>Record: https://koha.finna.fi/Record/koha.{biblionumber}</pre>"
 
 # OPAC > Appearance
 msgid "opac.pref#FinnaBaseURL# Finna URL mapping"
-msgstr ""
+msgstr "Finnan URL-määritys"
 
 # OPAC > Appearance
 msgid "opac.pref#FinnaBaseURL# YAML configuration for different locations in Finna. Keywords currently in use<code>:</code> Record.<br /> Example"
-msgstr ""
+msgstr "YAML-asetus, jolla määritetään eri sijainteja Finnassa. Käytössä olevat avainsanat<code>:</code> Record.<br />Esimerkki"
 
 # OPAC > Appearance
 msgid "opac.pref#GoogleIndicTransliteration# Don't show"
@@ -6184,11 +6184,11 @@ msgstr "eivät saa"
 
 # OPAC > Features
 msgid "opac.pref#OpacResetPasswordHostWhitelist#  host names of third party services to be used as external password reset locations. Separate list elements by new line, whitespace, comma or |."
-msgstr ""
+msgstr " kolmannen osapuolen palveluiden isäntänimien käyttäminen ulkoisen salasanan palauttamisen paikkana. Erottele listan elementit eri riveille, välilyönnillä, pilkulla tai |-merkillä."
 
 # OPAC > Features
 msgid "opac.pref#OpacResetPasswordHostWhitelist# Allow the following "
-msgstr ""
+msgstr "Salli seuraavien "
 
 # OPAC > Appearance
 msgid "opac.pref#OpacSeparateHoldings# Don't separate"
@@ -6392,19 +6392,19 @@ msgstr "Sähköpostiosoite, johon vastaanotetaan PayPal-maksuja "
 
 # OPAC > Features
 msgid "opac.pref#QuoteOfTheDay# Add 'intranet' to show in the staff client main page."
-msgstr ""
+msgstr "Lisää 'intranet', jotta näytetään virkailijaliittymän etusivulla."
 
 # OPAC > Features
 msgid "opac.pref#QuoteOfTheDay# Add 'opac' to show in OPAC home page."
-msgstr ""
+msgstr "Lisää 'opac', jotta näytetään verkkokirjaston etusivulla."
 
 # OPAC > Features
 msgid "opac.pref#QuoteOfTheDay# Example 'opac intranet', displays QOTD in OPAC and the staff client."
-msgstr ""
+msgstr "Esimerkiksi 'opac intranet' näyttää päivän sitaatin verkkokirjastossa ja virkailijaliittymässä."
 
 # OPAC > Features
 msgid "opac.pref#QuoteOfTheDay# Quote of the Day display in Koha."
-msgstr ""
+msgstr "Päivän sitaatin näyttäminen Kohassa."
 
 # OPAC > Features
 msgid "opac.pref#RequestOnOpac# Allow"
@@ -6620,7 +6620,7 @@ msgstr "kaikilla verkkokirjaston sivuilla oletustyylitiedoston sijaan (käytetä
 
 # OPAC > Appearance
 msgid "opac.pref#opacnavigation# Include the following HTML in the OPAC navigation:"
-msgstr ""
+msgstr "Sisällytä seuraava HTML-koodi verkkokirjaston navigaatioon:"
 
 # OPAC > Privacy
 msgid "opac.pref#opacreadinghistory# Allow"
@@ -6704,15 +6704,15 @@ msgstr "henkilökunnan asettaa asiakkaan lainat näkyväksi linkitetyille asiakk
 
 # Patrons > General
 msgid "patrons.pref#AnonymizeOtherNames# Anonymize"
-msgstr ""
+msgstr "Anonymisoi"
 
 # Patrons > General
 msgid "patrons.pref#AnonymizeOtherNames# Don't anonymize"
-msgstr ""
+msgstr "Älä anonymisoi"
 
 # Patrons > General
 msgid "patrons.pref#AnonymizeOtherNames# holds identifiers when adding new borrowers."
-msgstr ""
+msgstr "varaustunnisteet, kun lisätään uusia asiakkaita."
 
 # Patrons > General
 msgid "patrons.pref#AutoEmailOpacUser# Don't send"
@@ -6828,35 +6828,35 @@ msgstr "Jos ei ole poistettu, älä tarkista"
 
 # Patrons > General
 msgid "patrons.pref#DebarmentsToLiftAfterPayment# <p>Example, debarment with message of exactly 'Debarment message' is lifted after payment with outstanding fees less or equal than 5:</p>"
-msgstr ""
+msgstr "<p>Esimerkiksi, rajoite, jossa on viesti 'Debarment message', poistetaan maksun jälkeen, kun voimassa olevia maksuja on vähemmän tai yhtä paljon kuin 5:</p>"
 
 # Patrons > General
 msgid "patrons.pref#DebarmentsToLiftAfterPayment# <p>Example, debarments with comment (either exact match or dynamic content, e.g. 'Debarment message for Patron 123') that match 'Debarment message' are lifted after all fees are paid:</p>"
-msgstr ""
+msgstr "<p>Esimerkiksi, rajoite, jossa on kommentti (joko täysin täsmäävä tai dynaaminen sisältä, esim. 'Debarment message for Patron123'), jota täsmää 'Debarment message' kanssa, poistetaan, kun kaikki maksut on maksettu:</p>"
 
 # Patrons > General
 msgid "patrons.pref#DebarmentsToLiftAfterPayment# <pre>  outstanding: 0</pre>"
-msgstr ""
+msgstr "<pre>  outstanding: 0</pre>"
 
 # Patrons > General
 msgid "patrons.pref#DebarmentsToLiftAfterPayment# <pre>  outstanding: 5.00</pre>"
-msgstr ""
+msgstr "<pre>  outstanding: 5.00</pre>"
 
 # Patrons > General
 msgid "patrons.pref#DebarmentsToLiftAfterPayment# <pre>Debarment message:</pre>"
-msgstr ""
+msgstr "<pre>Debarment message:</pre>"
 
 # Patrons > General
 msgid "patrons.pref#DebarmentsToLiftAfterPayment# <pre>^Debarment message$:</pre>"
-msgstr ""
+msgstr "<pre>^Debarment message$:</pre>"
 
 # Patrons > General
 msgid "patrons.pref#DebarmentsToLiftAfterPayment# Lift these debarments after Borrower has paid his/her fees. Matches dynamic content in debarment comment."
-msgstr ""
+msgstr "Poista nämä rajoitteet, kun asiakas on maksanut maksunsa. Täsmää dynaamiseen sisältöön rajoitekommentissa."
 
 # Patrons > General
 msgid "patrons.pref#DebarmentsToLiftAfterPayment# You can use regex in the definitions to match your needs."
-msgstr ""
+msgstr "Voit käyttää säännöllisiä lausekkeita (regex) määrittelyissä."
 
 # Patrons > General
 msgid "patrons.pref#DefaultPatronSearchFields# Comma separated list defining the default fields to be used during a patron search"
@@ -6932,15 +6932,15 @@ msgstr "maksu, kun asiakastyyppi vaihtuu rekisteröintimaksun vaatimaan asiakast
 
 # Patrons > General
 msgid "patrons.pref#LoginWithSSNProviderCredentials# Don't enable"
-msgstr ""
+msgstr "Älä salli"
 
 # Patrons > General
 msgid "patrons.pref#LoginWithSSNProviderCredentials# Enable"
-msgstr ""
+msgstr "Salli"
 
 # Patrons > General
 msgid "patrons.pref#LoginWithSSNProviderCredentials# automatically logging in to SSN-Service with SSNProvider credentials when checking/adding SSNs"
-msgstr ""
+msgstr "automaattinen sisäänkirjautuminen SSN-palveluun SSNProvider-tiedoilla kun tarkistetaan/lisätään henkilötunnuksia"
 
 # Patrons > General
 msgid "patrons.pref#MaxFine# Empty value means no limit. Single item caps are specified in the circulation rules matrix."
@@ -7080,27 +7080,27 @@ msgstr "asiakkaiden toimia."
 
 # Patrons > General
 msgid "patrons.pref#ValidatePhoneNumber# / to validate patrons' phone numbers."
-msgstr ""
+msgstr "/ asiakkaiden puhelinnumeroiden validointiin."
 
 # Patrons > General
 msgid "patrons.pref#ValidatePhoneNumber# <br>(Source of example http://regexlib.com/REDetails.aspx?regexp_id=3009)<br>"
-msgstr ""
+msgstr "<br>(Esimerkin lähde http://regexlib.com/REDetails.aspx?regexp_id=3009)<br>"
 
 # Patrons > General
 msgid "patrons.pref#ValidatePhoneNumber# <br><br>Leave blank to accept any phone number."
-msgstr ""
+msgstr "<br><br>Jätä tyhjäksi, jos kaikki numerot hyväksytään."
 
 # Patrons > General
 msgid "patrons.pref#ValidatePhoneNumber# <br>Example (Finland)<br>^((90[0-9]{3})?0|\\+358\\s?)(?!(100|20(0|2(0|[2-3])|9[8-9])|300|600|700|708|75(00[0-3]|(1|2)\\d{2}|30[0-2]|32[0-2]|75[0-2]|98[0-2])))(4|50|10[1-9]|20(1|2(1|[4-9])|[3-9])|29|30[1-9]|71|73|75(00[3-9]|30[3-9]|32[3-9]|53[3-9]|83[3-9])|2|3|5|6|8|9|1[3-9])\\s?(\\d\\s?){4,19}\\d$"
-msgstr ""
+msgstr "<br>Esimerkki (Suomi)<br>^((90[0-9]{3})?0|\\+358\\s?)(?!(100|20(0|2(0|[2-3])|9[8-9])|300|600|700|708|75(00[0-3]|(1|2)\\d{2}|30[0-2]|32[0-2]|75[0-2]|98[0-2])))(4|50|10[1-9]|20(1|2(1|[4-9])|[3-9])|29|30[1-9]|71|73|75(00[3-9]|30[3-9]|32[3-9]|53[3-9]|83[3-9])|2|3|5|6|8|9|1[3-9])\\s?(\\d\\s?){4,19}\\d$"
 
 # Patrons > General
 msgid "patrons.pref#ValidatePhoneNumber# <br>Example<br >^((\\+)?[1-9]{1,2})?([-\\s\\.])?((\\(\\d{1,4}\\))|\\d{1,4})(([-\\s\\.])?[0-9]{1,12}){1,2}$"
-msgstr ""
+msgstr "<br>Esimerkki<br >^((\\+)?[1-9]{1,2})?([-\\s\\.])?((\\(\\d{1,4}\\))|\\d{1,4})(([-\\s\\.])?[0-9]{1,12}){1,2}$"
 
 # Patrons > General
 msgid "patrons.pref#ValidatePhoneNumber# Use the following regex /"
-msgstr ""
+msgstr "Käytä seuraavaa säännöllistä lauseketta (regex) /"
 
 # Patrons > General
 msgid "patrons.pref#autoMemberNum# Do"
@@ -7148,23 +7148,23 @@ msgstr "henkilökunnan nähdä asiakkaan lainahistoria(a) (lainahistoria tallenn
 
 # Patrons > General
 msgid "patrons.pref#minAlnumPasswordLength# Login passwords for alphanumeric policy must be at least"
-msgstr ""
+msgstr "Kirjautumissalasana aakkosnumeerisessa säännössä pitää olla vähintään"
 
 # Patrons > General
 msgid "patrons.pref#minAlnumPasswordLength# characters long."
-msgstr ""
+msgstr "merkkiä pitkä."
 
 # Patrons > General
 msgid "patrons.pref#minComplexPasswordLength# Login passwords for complex policy must be at least"
-msgstr ""
+msgstr "Kirjautumissalasana kompleksissa säännössä pitää olla vähintään"
 
 # Patrons > General
 msgid "patrons.pref#minComplexPasswordLength# characters long."
-msgstr ""
+msgstr "merkkiä pitkä."
 
 # Patrons > General
 msgid "patrons.pref#minPasswordLength# Login passwords for simplenumeric policy must be at least"
-msgstr ""
+msgstr "Kirjautumissalasana numeerisessa säännössä pitää olla vähintään"
 
 # Patrons > General
 msgid "patrons.pref#minPasswordLength# characters long."
@@ -7236,19 +7236,19 @@ msgstr "Rajoita tarkan haun kielirajauksen alasvetovalikko"
 
 # Searching > Search Form
 msgid "searching.pref#AdvancedSearchLanguagesSort# . The leftmost language in the AdvancedSearchLanguages preference has the highest priority and appears on top of the drop-down list."
-msgstr ""
+msgstr "Vasemmanpuoleisin kieli AdvancedSearchLanguages-asetuksessa saa korkeimman prioriteetin ja on alasvetovalikossa ylimpänä."
 
 # Searching > Search Form
 msgid "searching.pref#AdvancedSearchLanguagesSort# By default, sort advanced search languages"
-msgstr ""
+msgstr "Järjestä oletuksena tarkan haun kielet"
 
 # Searching > Search Form
 msgid "searching.pref#AdvancedSearchLanguagesSort# alphabetically"
-msgstr ""
+msgstr "aakkosjärjestykseen"
 
 # Searching > Search Form
 msgid "searching.pref#AdvancedSearchLanguagesSort# by priority"
-msgstr ""
+msgstr "prioriteetin mukaisesti"
 
 # Searching > Search Form
 msgid "searching.pref#AdvancedSearchTypes# <em>Currently supported values</em>: Item types (<strong>itemtypes</strong>), Collection Codes (<strong>ccode</strong>) and Shelving Location (<strong>loc</strong>)."
@@ -7692,15 +7692,15 @@ msgstr "hakutulosta sivua kohti virkailijaliittymässä."
 
 # Searching > Results Display
 msgid "searching.pref#showBranchListOnSearchResults# Don't show"
-msgstr ""
+msgstr "Älä näytä"
 
 # Searching > Results Display
 msgid "searching.pref#showBranchListOnSearchResults# Show"
-msgstr ""
+msgstr "Näytä"
 
 # Searching > Results Display
 msgid "searching.pref#showBranchListOnSearchResults# list of holding branches on search results display"
-msgstr ""
+msgstr "lista(a) sijaintikirjastoista hakutuloslistalla."
 
 # Serials
 msgid "serials.pref"
@@ -7756,15 +7756,15 @@ msgstr "kiertolistaominaisuutta kausijulkaisuissa."
 
 # Serials
 msgid "serials.pref#SerialsDisplayTree# Don't use"
-msgstr ""
+msgstr "Älä käytä"
 
 # Serials
 msgid "serials.pref#SerialsDisplayTree# Use"
-msgstr ""
+msgstr "Käytä"
 
 # Serials
 msgid "serials.pref#SerialsDisplayTree# serials display improvements and the hold picker"
-msgstr ""
+msgstr "kausijulkaisupuuta ja varausavustajaa"
 
 # Serials
 msgid "serials.pref#StaffSerialIssueDisplayCount# Show the"
@@ -7948,15 +7948,15 @@ msgstr "Näytä seuraava HTML-koodi omassa palstassaan virkalijaliittymän pää
 
 # Staff Client > Options
 msgid "staff_client.pref#ReducePatronInfoOnCirculation# Show full"
-msgstr ""
+msgstr "Näytä täydelliset"
 
 # Staff Client > Options
 msgid "staff_client.pref#ReducePatronInfoOnCirculation# Show reduced"
-msgstr ""
+msgstr "Näytä vähennetyt"
 
 # Staff Client > Options
 msgid "staff_client.pref#ReducePatronInfoOnCirculation# patron information on circulation."
-msgstr ""
+msgstr "asiakastiedot lainauksessa."
 
 # Staff Client > Appearance
 msgid "staff_client.pref#SlipCSS# Include the stylesheet at"
@@ -8120,7 +8120,7 @@ msgstr "Kirjastokortit"
 
 # Tools > Payments
 msgid "tools.pref Payments"
-msgstr ""
+msgstr "Maksut"
 
 # Tools > Reports
 msgid "tools.pref Reports"
@@ -8184,173 +8184,173 @@ msgstr "raporttia Tallennetut raportit -sivulla."
 
 # Tools > Reports
 msgid "tools.pref#OKM# <p>Execution of the OKM report generator can be blocked by the 'blockStatisticsGeneration'-flag, by setting it to 1. This is mainly useful to prevent people from running the statistics module before first configuring it.</p>"
-msgstr ""
+msgstr "<p>OKM-raporttien ajon voi estää asettamalla 'blockStatisticsGeneration'-kohtaan 1. Tämä on enimmäkseen tarpeen, kun halutaan estää raportointityökalun käyttäminen ennen sen määrittelyä.</p>"
 
 # Tools > Reports
 msgid "tools.pref#OKM# <p>Material is considered Juvenile material if it is in one of the shelving locations defined by the 'juvenileShelvingLocations'-parameter.</p>"
-msgstr ""
+msgstr "<p>Aineisto tulkitaan lasten aineistoksi, jos hyllypaikan lyhenne määritetään 'juvenileShelvingLocations'-parametriin.</p>"
 
 # Tools > Reports
 msgid "tools.pref#OKM# <pre>---</pre> <pre>blockStatisticsGeneration: 1</pre> <pre>itemTypeToStatisticalCategory: </pre> <pre>  BK: Books</pre> <pre>  CF: Others</pre> <pre>  CR: Serials</pre> <pre>  MU: Recordings</pre> <pre>patronCategories: </pre> <pre>  - ADULTS</pre> <pre>  - STAFF</pre> <pre>notForLoanStatuses: </pre> <pre>  - -1</pre> <pre>  - 5</pre> <pre>adultShelvingLocations: </pre> <pre>  - ADULT</pre> <pre>  - AIK</pre> <pre>juvenileShelvingLocations: </pre>  <pre>  - CHILD</pre> <pre>  - AV</pre>"
-msgstr ""
+msgstr "<pre>---</pre> <pre>blockStatisticsGeneration: 1</pre> <pre>itemTypeToStatisticalCategory: </pre> <pre>  BK: Books</pre> <pre>  CF: Others</pre> <pre>  CR: Serials</pre> <pre>  MU: Recordings</pre> <pre>patronCategories: </pre> <pre>  - ADULTS</pre> <pre>  - STAFF</pre> <pre>notForLoanStatuses: </pre> <pre>  - -1</pre> <pre>  - 5</pre> <pre>adultShelvingLocations: </pre> <pre>  - ADULT</pre> <pre>  - AIK</pre> <pre>juvenileShelvingLocations: </pre>  <pre>  - CHILD</pre> <pre>  - AV</pre>"
 
 # Tools > Reports
 msgid "tools.pref#OKM# Example YAML config"
-msgstr ""
+msgstr "YAML-asetusesimerkki"
 
 # Tools > Reports
 msgid "tools.pref#OKM# OKM statistics configuration and statistical type mappings<br/> <p>Available statistical types:<br/> <ul><li>'Books'</li> <li>'SheetMusicAndScores'</li> <li>'Recordings' (further divided to MusicalRecordings and OtherRecordings based on the MARC)</li> <li>'Videos'</li> <li>'CDROMs'</li> <li>'DVDsAndBluRays'</li> <li>'Other'</li> <li>'Serials'</li> <li>'Celia'</li> <li>'Electronic'</li> <li>'Online'</li> </ul></p>"
-msgstr ""
+msgstr "OKM-tilastojen ja tilastoryhmien määrittely<br/> <p>Olemassa olevat tilastoryhmät:<br/> <ul><li>'Books'</li> <li>'SheetMusicAndScores'</li> <li>'Recordings' (jaetaan automaattisesti edelleen MusicalRecordings ja OtherRecordings -ryhmiin MARC:iin perustuen)</li> <li>'Videos'</li> <li>'CDROMs'</li> <li>'DVDsAndBluRays'</li> <li>'Other'</li> <li>'Serials'</li> <li>'Celia'</li> <li>'Electronic'</li> <li>'Online'</li> </ul></p>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePaymentMinTotal# . (Example: 2.50)"
-msgstr ""
+msgstr ". (Esimerkiksi: 2.50)"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePaymentMinTotal# Online payments. Define a minimum sum that can be paid via Online Payments"
-msgstr ""
+msgstr "Verkkomaksut. Määrittele minimisumma, joka voidaan maksaa verkkomaksuna"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <p>Example with system-wide mappings:</p>"
-msgstr ""
+msgstr "<p>Esimerkki järjestelmänlaajuisesta määrityksestä:</p>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <p>Example:</p>"
-msgstr ""
+msgstr "<p>Esimerkki:</p>"
 
 # Tools > Payments
 # Tools > Payments
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>  Default: demo_005</pre>"
-msgstr ""
+msgstr "<pre>  Default: demo_005</pre>"
 
 # Tools > Payments
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>  FU: demo_001</pre>"
-msgstr ""
+msgstr "<pre>  FU: demo_001</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>  FU: demo_003</pre>"
-msgstr ""
+msgstr "<pre>  FU: demo_003</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>  N: demo_002</pre>"
-msgstr ""
+msgstr "<pre>  N: demo_002</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>  N: demo_004</pre>"
-msgstr ""
+msgstr "<pre>  N: demo_004</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>  OnlinePaymentsInterface: PayPal</pre>"
-msgstr ""
+msgstr "<pre>  OnlinePaymentsInterface: PayPal</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>  OnlinePaymentsInterface: WU</pre>"
-msgstr ""
+msgstr "<pre>  OnlinePaymentsInterface: WU</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>  OnlinePaymentsInterface: disabled</pre>"
-msgstr ""
+msgstr "<pre>  OnlinePaymentsInterface: disabled</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>BRANCH1:</pre>"
-msgstr ""
+msgstr "<pre>BRANCH1:</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>BRANCH2:</pre>"
-msgstr ""
+msgstr "<pre>BRANCH2:</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# <pre>Default:</pre>"
-msgstr ""
+msgstr "<pre>Default:</pre>"
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# Also, if neither Default branch nor Patron's home branch are defined, online payments will be disabled for Patron's in that branch."
-msgstr ""
+msgstr "Jos oletuskirjastoa tai asiakkaan kotikirjastoa ei ole määritetty, verkkomaksut eivät ole mahdollisia asiakkaalle kyseissä kirjastossa."
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# Online payments. Convert Koha's account types (from accountlines database table) into product codes recognized by your online payment provider. Also define the interface being used in each branch."
-msgstr ""
+msgstr "Verkkomaksut. Konvertoi Kohan tilityypit (tietokannan accountlines-taulusta) verkkomaksujen palveluntarjoajan tuotekoodeiksi. Lisäksi määrittele kussakin kirjastossa käytettävä verkkomaksuliittymä."
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# Use parameter \"Default\" to define an item number for other types than defined."
-msgstr ""
+msgstr "Käytä parametria \"Default\" määrittääksesi, mihin muut kuin määritetyt tilityypit viedään."
 
 # Tools > Payments
 msgid "tools.pref#OnlinePayments# You can separate branches, or use branch \"Default\" to make definitions for all branches. If both branch and \"Default\" is defined, the branch mapping overrides the mapping given in Default."
-msgstr ""
+msgstr "Voit erotella kirjastot tai käyttää kirjastona \"Default\", jolloin määritykset koskevat kaikkia kirjastoja. Jos sekä kirjasto että \"Default\" on määritetty, kirjastokohtainen määritys ohittaa Default-säännön."
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <p>Example with system-wide mappings:</p>"
-msgstr ""
+msgstr "<p>Esimerkki järjestelmänlaajuisesta määrityksestä:</p>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <p>Example:</p>"
-msgstr ""
+msgstr "<p>Esimerkki:</p>"
 
 # Tools > Payments
 # Tools > Payments
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>  Default: demo_005</pre>"
-msgstr ""
+msgstr "<pre>  Default: demo_005</pre>"
 
 # Tools > Payments
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>  FU: demo_001</pre>"
-msgstr ""
+msgstr "<pre>  FU: demo_001</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>  FU: demo_003</pre>"
-msgstr ""
+msgstr "<pre>  FU: demo_003</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>  N: demo_002</pre>"
-msgstr ""
+msgstr "<pre>  N: demo_002</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>  N: demo_004</pre>"
-msgstr ""
+msgstr "<pre>  N: demo_004</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>  POSInterface: CPU</pre>"
-msgstr ""
+msgstr "<pre>  POSInterface: CPU</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>  POSInterface: PayPal</pre>"
-msgstr ""
+msgstr "<pre>  POSInterface: PayPal</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>  POSInterface: Vend</pre>"
-msgstr ""
+msgstr "<pre>  POSInterface: Vend</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>BRANCH1:</pre>"
-msgstr ""
+msgstr "<pre>BRANCH1:</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>BRANCH2:</pre>"
-msgstr ""
+msgstr "<pre>BRANCH2:</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# <pre>Default:</pre>"
-msgstr ""
+msgstr "<pre>Default:</pre>"
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# Also, if neither Default branch nor library's branch are defined, POS integration will be disabled that branch."
-msgstr ""
+msgstr "Jos oletuskirjastoa tai kirjastoa ei ole määritetty POS-integraatio ei ole käytössä kyseiselle kirjastolle."
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# POS integration. Convert Koha's account types (from accountlines database table) into product codes recognized by your POS provider. Also define the interface being used in each branch."
-msgstr ""
+msgstr "POS-integraatio. Konvertoi Kohan tilityypit (tietokannan accountlines-taulusta) POS-integraation palveluntarjoajan tuotekoodeiksi. Lisäksi määrittele kussakin kirjastossa käytettävä liittymä."
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# Use parameter \"Default\" to define an item number for other types than defined."
-msgstr ""
+msgstr "Käytä parametria \"Default\" määrittääksesi, mihin muut kuin määritetyt tilityypit viedään."
 
 # Tools > Payments
 msgid "tools.pref#POSIntegration# You can separate branches, or use branch \"Default\" to make definitions for all branches. If both branch and \"Default\" is defined, the branch mapping overrides the mapping given in Default."
-msgstr ""
+msgstr "Voit erotella kirjastot tai käyttää kirjastona \"Default\", jolloin määritykset koskevat kaikkia kirjastoja. Jos sekä kirjasto että \"Default\" on määritetty, kirjastokohtainen määritys ohittaa Default-säännön."
 
 # Tools > Upload
 msgid "tools.pref#UploadPurgeTemporaryFilesDays# Automatically delete temporary uploads older than"
@@ -8378,7 +8378,7 @@ msgstr "OAI-PMH"
 
 # Web services > RemoteAPIs
 msgid "web_services.pref RemoteAPIs"
-msgstr ""
+msgstr "EtäAPIt"
 
 # Web services > Reporting
 msgid "web_services.pref Reporting"
@@ -8494,15 +8494,15 @@ msgstr "Lisää tämän tietokannan tietueiden eteen tunniste"
 
 # Web services > RemoteAPIs
 msgid "web_services.pref#RemoteAPIs# <pre>---</pre> <pre>Example API:</pre> <pre>    host: http://test.example.com:8080</pre> <pre>    basePath: /api/v1/</pre> <pre>    authentication: cookies</pre> <pre>    api: Koha-Suomi</pre></pre>"
-msgstr ""
+msgstr "<pre>---</pre> <pre>Esimerkki API:</pre> <pre>    host: http://test.example.com:8080</pre> <pre>    basePath: /api/v1/</pre> <pre>    authentication: cookies</pre> <pre>    api: Koha-Suomi</pre></pre>"
 
 # Web services > RemoteAPIs
 msgid "web_services.pref#RemoteAPIs# Configure remote APIs to interface from Koha."
-msgstr ""
+msgstr "Määrittele etäApit Kohan rajapintaan."
 
 # Web services > RemoteAPIs
 msgid "web_services.pref#RemoteAPIs# Example YAML config"
-msgstr ""
+msgstr "Esimerkki YAML-asetus"
 
 # Web services > Reporting
 msgid "web_services.pref#SvcMaxReportRows# Only return"
@@ -8511,4 +8511,3 @@ msgstr "Palauta vain"
 # Web services > Reporting
 msgid "web_services.pref#SvcMaxReportRows# rows of a report requested via the reports web service."
 msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
-
