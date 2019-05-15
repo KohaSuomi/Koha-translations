@@ -3425,6 +3425,22 @@ msgstr "Sisällytä"
 msgid "circulation.pref#RentalsInNoissuesCharge# rental charges when summing up charges for noissuescharge."
 msgstr "lainausmaksut kun lasketaan maksuja yhteen."
 
+# Circulation > Checkin Policy
+msgid "circulation.pref#RequireSCCheckInBeforeNotifyingPickups# Do"
+msgstr ""
+
+# Circulation > Checkin Policy
+msgid "circulation.pref#RequireSCCheckInBeforeNotifyingPickups# Don't"
+msgstr ""
+
+# Circulation > Checkin Policy
+msgid "circulation.pref#RequireSCCheckInBeforeNotifyingPickups# If set to 'Do', the items checked in with SCO/SIP will be 'in transit' until they're checked in again with staff client."
+msgstr ""
+
+# Circulation > Checkin Policy
+msgid "circulation.pref#RequireSCCheckInBeforeNotifyingPickups# require reserved items to be checked in with staff client before sending pickup notifications."
+msgstr ""
+
 # Circulation > Holds Policy
 msgid "circulation.pref#ReservesControlBranch# Check the"
 msgstr "Tarkista"
@@ -8511,3 +8527,4 @@ msgstr "Palauta vain"
 # Web services > Reporting
 msgid "web_services.pref#SvcMaxReportRows# rows of a report requested via the reports web service."
 msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
+
