@@ -245,6 +245,10 @@ msgstr "Ylläpitoasetukset"
 msgid "admin.pref CAS authentication"
 msgstr "CAS-tunnistautuminen"
 
+# Administration > Encryption options
+msgid "admin.pref Encryption options"
+msgstr ""
+
 # Administration > Google OpenID Connect
 msgid "admin.pref Google OpenID Connect"
 msgstr "Google OpenID Connect"
@@ -352,6 +356,54 @@ msgstr "Oletusnäkymä, kun muokataan myöhästymisilmoituksia: "
 # Administration > Interface options
 msgid "admin.pref#DefaultToLoggedInLibraryOverdueTriggers# The logged-in library"
 msgstr "Kirjautuneen kirjaston"
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# # <em>'cipher-algorithm'</em> defaults to AES-256. Algorithm to be used to make symmetric encryptions.<br/>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# # <em>'passphrase'</em> is mandatory. This is used to secure symmetric encryptions that are <br/>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# # encrypted and decrypted using this same passphrase. <br/>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# --- </br>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# </code><br/>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# <br/>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# <code> </br>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# Configurations are given as YAML.<br/>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# Encryption configuration for tasks that encrypt files with gpg or gpg2 -programs."
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# cipher-algorithm: AES-256 </br>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# eg.<br/>"
+msgstr ""
+
+# Administration > Encryption options
+msgid "admin.pref#EncryptionConfiguration# passphrase: abrakadabra simsalapim<br/>"
+msgstr ""
 
 # Administration > Google OpenID Connect
 msgid "admin.pref#GoogleOAuth2ClientID# Google OAuth2 Client ID: "
@@ -1645,6 +1697,10 @@ msgstr "Näyttö"
 msgid "cataloguing.pref Exporting"
 msgstr "Vienti"
 
+# Cataloging > Holdings
+msgid "cataloguing.pref Holdings"
+msgstr ""
+
 # Cataloging > Importing
 msgid "cataloguing.pref Importing"
 msgstr "Tuonti"
@@ -2096,6 +2152,18 @@ msgstr "UNIMARC: \"995$f 995$h 995$j\""
 # Cataloging > Record Structure
 msgid "cataloguing.pref#SubfieldsToUseWhenPrefill# Define a list of subfields to use when prefilling items (separated by space)"
 msgstr "Listaa esitäytettävät niteen osakentät (erottele välilyönnein)"
+
+# Cataloging > Holdings
+msgid "cataloguing.pref#SummaryHoldings# Don't use"
+msgstr ""
+
+# Cataloging > Holdings
+msgid "cataloguing.pref#SummaryHoldings# Use"
+msgstr ""
+
+# Cataloging > Holdings
+msgid "cataloguing.pref#SummaryHoldings# summary holdings records."
+msgstr ""
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#UNIMARCField100Language# Use the languague (ISO 690-2)"
@@ -3526,32 +3594,128 @@ msgid "circulation.pref#SCOUserJS# Include the following JavaScript on all pages
 msgstr "Käytä seuraavia JavaScript-komentoja kaikilla sivuilla itsepalvelulainauksessa:"
 
 # Circulation > Self-Service API
-msgid "circulation.pref#SSRules# Example: '15:ST PT'<br/>"
-msgstr "Esimerkki: '15:ST PT'<br/>"
+msgid "circulation.pref#SSBlockCleanOlderThanThis# Clean expired self-service branch-specific access blocks older than this many days. You must enable access rule \"BranchBlock\" in syspref \"SSRules\" for this to have effect."
+msgstr ""
 
 # Circulation > Self-Service API
-msgid "circulation.pref#SSRules# First digits are the minimum age needed to access the self-service resources<br/>"
-msgstr "Ensimmäiset numerot ovat vähin vaadittu ikä, jolla pääsee käyttämään omatoimea."
+msgid "circulation.pref#SSBlockDefaultDuration# Self-service branch-specific access block default duration in days. You must enable access rule \"BranchBlock\" in syspref \"SSRules\" for this to have effect."
+msgstr ""
 
 # Circulation > Self-Service API
-msgid "circulation.pref#SSRules# How the codes are separated in thelist, is not important. The list is scanned from left to right for text matching the users categorycode. If a match is found somewhere in the list, user passes the categorycode check."
-msgstr "Koodien erottelutapa ei ole merkitsevä. Lista luetaan vasemmalta oikealle täsmäyttäen käyttäjän asiakastyyppiin. Jos listalta löydetään vastaavuus, käyttäjä läpäisee asiakastyppi-tarkistuksen."
+msgid "circulation.pref#SSRules# # Allows only the listed borrower categories. <br/>"
+msgstr ""
 
 # Circulation > Self-Service API
-msgid "circulation.pref#SSRules# Self-service resource usage rules<br/>"
-msgstr "Omatoimikäytön säännöt<br/>"
+msgid "circulation.pref#SSRules# # Blocks access during access times not allowed in the syspref 'OpeningHours' <br/>"
+msgstr ""
 
 # Circulation > Self-Service API
-msgid "circulation.pref#SSRules# You MUST set the OpeningHours-syspref as well or the /borrowers/ssstatus-endpoint (self-service access check) wont work"
-msgstr "Sinun täytyy määrittää myös OpeningHours-asetus, jotta /borrowers/ssstatus-endpoint (omatoimioikeuden tarkistus) toimisi"
+msgid "circulation.pref#SSRules# # Blocks if the user is younger than this <br/>"
+msgstr ""
 
 # Circulation > Self-Service API
-msgid "circulation.pref#SSRules# followed by a list of borrower categorycodes allowed to access the self-service resources.<br/>"
-msgstr "sitä seuraa lista asiakastyypeistä, joilla on oikeus käyttää omatoimea.<br/>"
+msgid "circulation.pref#SSRules# # Blocks users with more fines than the system preference 'noissuescharge' <br/>"
+msgstr ""
 
 # Circulation > Self-Service API
-msgid "circulation.pref#SSRules# separated by a colon ':'<br/>"
-msgstr "erotetaan kaksoispisteellä ':'<br/>"
+msgid "circulation.pref#SSRules# # Borrower extended attribute SSBAN is not set <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# # Borrower extended attribute SST&C (Terms and conditions) must be accepted <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# # Checks generic limitations, is the card lost, is the account debarred, is the card expired <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# # How the codes are separated, is not important. The list is scanned from left to right for </br>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# # This is not used when generating daily block lists, even when defined. <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# # Use Branch-specific blocks for Borrowers. Set them from the members/moremember.pl -page. <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# # text matching the users categorycode. <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# --- <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# </code><br/><br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# BorrowerCategories: PATRON STAFF LIB <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# BranchBlock: 1 <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# CardExpired: 1 </br>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# CardLost: 1 </br>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# Debarred: 1 </br>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# Each rule/check in the example triggers a specific test in the Self-service access rules checking module 'C4::SelfService'. <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# Example:<br/></br><code>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# MaxFines: 1 <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# MinimumAge: 15 <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# OpeningHours: 1 <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# Permission: 1 <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# Self-service resource usage rules and checks.<br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# TaC: 1 <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# The rules are YAML-formatted. <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# Used by the /borrowers/ssstatus-endpoint (real-time self-service access check) and block list generation cronjob self_service_lists.pl <br/>"
+msgstr ""
+
+# Circulation > Self-Service API
+msgid "circulation.pref#SSRules# You can configure how your library limits self-service access by choosing your own mix of rules. <br/>"
+msgstr ""
 
 # Circulation > Self Checkout
 msgid "circulation.pref#SelfCheckHelpMessage# Include the following HTML in the Help page of the web-based self checkout system:"
@@ -8527,3 +8691,4 @@ msgstr "Palauta vain"
 # Web services > Reporting
 msgid "web_services.pref#SvcMaxReportRows# rows of a report requested via the reports web service."
 msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
+
