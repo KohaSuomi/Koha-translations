@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-07-11 22:44+0300\n"
-"PO-Revision-Date: 2019-07-19 12:47+0300\n"
+"PO-Revision-Date: 2019-07-23 10:15+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -5649,7 +5649,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/acqui/basket.tt
 #, c-format
 msgid "%s order(s) attached."
-msgstr "%s varaus(ta) liitetty."
+msgstr "%s tilaus(ta) liitetty."
 
 #. For the first occurrence,
 #. %1$s:  books_loo.biblios
@@ -5657,7 +5657,7 @@ msgstr "%s varaus(ta) liitetty."
 #: intranet-tmpl/prog/en/modules/acqui/tables/pendingorders_results.tt
 #, c-format
 msgid "%s order(s) left"
-msgstr "%s Varaus(ta) jäljellä"
+msgstr "%s tilaus(ta) jäljellä"
 
 #. %1$s:  overwritten
 #. %2$s:  IF ( lastoverwritten )
