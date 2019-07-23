@@ -5,18 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2019-07-11 22:44+0300\n"
-"PO-Revision-Date: 2017-10-09 09:09+0000\n"
-"Last-Translator: AnneliÖ <anneli.osterman@ouka.fi>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-07-22 16:22+0300\n"
+"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.1.1\n"
+"X-Generator: Poedit 2.0.2\n"
 "X-POOTLE-MTIME: 1507540162.000000\n"
+"Language-Team: \n"
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
@@ -80,6 +80,8 @@ msgid ""
 "#If dry-run is active, no changes are written to the DB. This way one can "
 "safely test new configuration options."
 msgstr ""
+"#Jos 'dry-run' on päällä, tietokantaan ei tehdä muutoksia. Tällä tavalla "
+"voit turvallisesti testata uusia määrityksiä."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -87,13 +89,15 @@ msgid ""
 "#If there is even a tiny change in one of these fields/subfields/"
 "KohaToMarcMappings, an email is sent to the the given email-address."
 msgstr ""
+"#Jos kenttiin/osakenttiin/Kohan MARC-määrityksiin tulee pienikin muutos, "
+"lähetetään siitä ilmoitus määritettyyn sähköpostiosoitteeseen."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid ""
 "#If there is something to notify, notifications are sent to these email "
 "addresses."
-msgstr ""
+msgstr "#Ilmoitukset lähetetään tässä määritettyyn sähköpostiosoitteeseen."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -101,6 +105,8 @@ msgid ""
 "#Name of a different ruleset to use to overlay a remote record. This is "
 "always checked on a record-by-record basis."
 msgstr ""
+"#Säännöstön nimi, jota käytetään tietueiden yhdistelyyn. Tämä tarkistetaan "
+"aina tietuekohtaisesti."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -108,13 +114,15 @@ msgid ""
 "#Remote fields that are always dropped no matter what. Useful to make sure "
 "we dont get conflicting system data fields from remote targets."
 msgstr ""
+"#Lähtötietueesta tiputettavat kentät. Tämä on hyödyllinen, kun halutaan "
+"varmistaa, ettei synny ristiriitaisia kenttätietoja lähdetietokannasta."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid ""
 "#The name of a matcher whose merging rules are used to overlay local record "
 "from remote"
-msgstr ""
+msgstr "#Yhdistelysäännön tunniste, jota käytetään, kun yhdistetään tietueita."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -122,6 +130,8 @@ msgid ""
 "#The name of the matcher which is used to find if the remote component part "
 "already exists locally"
 msgstr ""
+"#Yhdistelysäännön koodi, jota käytetään, kun etsitään, löytyykö osakohdetta "
+"jo paikallisesta tietokannasta."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -129,6 +139,8 @@ msgid ""
 "#The name of the matcher whose merging rules are used to overlay possible "
 "duplicate local component part with the incoming component part"
 msgstr ""
+"#Yhdistelysäännön koodi, jota käytetään, kun yhdistetään tuotavia "
+"osakohteita paikallisiin."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -136,6 +148,8 @@ msgid ""
 "#The order of different searching algorithms to try. These algorithm must be "
 "defined in C4::BatchOverlay::SearchAlgorithms"
 msgstr ""
+"#Käytettävien hakualgoritmien järjestys. Nämä algoritmit pitää olla "
+"määritettynä C4::BatchOverlay::SearchAlgorithms"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -143,6 +157,8 @@ msgid ""
 "#These exceptions are not shown by default when viewing reports. This is "
 "useful to filter out meaningless exceptions which are too numerous normally."
 msgstr ""
+"#Näitä poikkeuksia ei näytetä raporteilla. Tämä on hyödyllistä, kun halutaan "
+"suodattaa pois merkityksettömiä poikkeuksia, joita on normaalisti runsaasti."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -151,6 +167,9 @@ msgid ""
 "system data fields and item fields in the record so they would clutter up "
 "the diff report badly."
 msgstr ""
+"#Näitä kenttiä ei käytetä vertailussa. Tämä on hyödyllistä, koska Koha "
+"tallentaa systeemitietoja tietueen kenttiin ja ne voivat täyttää turhaan "
+"raportin."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -158,6 +177,8 @@ msgid ""
 "#Which criteria are applied to bibliographic records when they are "
 "considered as batch overlay candidates."
 msgstr ""
+"#Mitä ehtoja käytetään, kun harkitaan, onko tietue eräyhdistelykelpoinen "
+"kandidaatti."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -165,8 +186,10 @@ msgid ""
 "#Z39.50 server code from where the overlayed biblios are looked from. Max "
 "length 20 characters."
 msgstr ""
+"#Z39.50-palvelimen koodi, josta eräyhdisteltäviä tietueita etsitään. Maksimi "
+"pituus 20 merkkiä."
 
-#. %1$s:  themelang 
+#. %1$s:  themelang
 #: intranet-tmpl/prog/en/modules/help/mainpage.tt
 #, c-format
 msgid "%s/modules/help"
@@ -186,7 +209,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "&nbsp;&nbsp;[Control_number_identifier Standard_identifier] "
-msgstr ""
+msgstr "&nbsp;&nbsp;[Control_number_identifier Standard_identifier] "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
 #, c-format
@@ -210,7 +233,7 @@ msgid ""
 msgstr ""
 "'Lisää useita niteitä' -toiminto kysyy, montako nidettä lisätään ja muuttaa "
 "uuden niteen viivakoodinumeroa yhdellä suuremmaksi siten, että jokainen "
-"viivakoodi on yksilöllinen."
+"viivakoodi on yksilöllinen"
 
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
@@ -229,7 +252,7 @@ msgid ""
 "'Appear in position' lets you decide what order your news items appear in"
 msgstr ""
 "'Näyttöjärjestys'-valinta määrittää, missä järjestyksessä sivuston uutiset "
-"esitetään."
+"esitetään"
 
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
@@ -269,8 +292,8 @@ msgid ""
 "'Authorized value' is where you define an authorized value that your "
 "catalogers can choose from a pull down to fill this field in"
 msgstr ""
-"'Auktorisoitu arvo' -toiminnolla määritetään kontrolloidut sanastot "
-"alasvetovalikkoihin luetteloijien käytettäviksi."
+"'Auktorisoitu arvo' -toiminnolla määritetään alasvetovalikoihin "
+"kontrolloidut sanastot luetteloijien käytettäviksi"
 
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
@@ -317,7 +340,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/serials/subscription-add.tt
 #, c-format
 msgid "'Call Number' is for your item's call number or call number prefix"
-msgstr "'Luokka': käytetään niteen luokkatietona hyllypaikkatiedon yhteydessä."
+msgstr "'Luokka': käytetään niteen luokkatietona hyllypaikkatiedon yhteydessä"
 
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
@@ -856,67 +879,67 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'candidateCriteria' "
-msgstr ""
+msgstr "'candidateCriteria' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'componentPartMatcherCode' "
-msgstr ""
+msgstr "'componentPartMatcherCode' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'componentPartMergeMatcherCode' "
-msgstr ""
+msgstr "'componentPartMergeMatcherCode' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'diffExcludedFields' "
-msgstr ""
+msgstr "'diffExcludedFields' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'dryRun' "
-msgstr ""
+msgstr "'dryRun' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'excludeExceptions' "
-msgstr ""
+msgstr "'excludeExceptions' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'mergeMatcherCode' "
-msgstr ""
+msgstr "'mergeMatcherCode' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'notificationEmails' "
-msgstr ""
+msgstr "'notificationEmails' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'notifyOnChangeSubfields' "
-msgstr ""
+msgstr "'notifyOnChangeSubfields' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'remoteFieldsDropped' "
-msgstr ""
+msgstr "'remoteFieldsDropped' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'remoteTargetCode' "
-msgstr ""
+msgstr "'remoteTargetCode' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'ruleset' "
-msgstr ""
+msgstr "'ruleset' "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "'searchAlgorithms' "
-msgstr ""
+msgstr "'searchAlgorithms' "
 
 #: intranet-tmpl/prog/en/modules/help/admin/auth_subfields_structure.tt
 #, c-format
@@ -1005,9 +1028,6 @@ msgstr "(! tarkoittaa 'ei näkyvissä' tai 'ei supistettu')"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/linkitem.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/spinelabel-home.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
@@ -1133,22 +1153,22 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "* Custom attributes * "
-msgstr ""
+msgstr "* Mukautetut määreet * "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "* DataSource * "
-msgstr ""
+msgstr "* Tiedon lähde * "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "* Dots per inch * "
-msgstr ""
+msgstr "* Pistettä tuumalla * "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "* Sheet size * "
-msgstr ""
+msgstr "* Pohjan koko * "
 
 #: intranet-tmpl/prog/en/modules/help/offline_circ/list.tt
 #, c-format
@@ -1168,6 +1188,15 @@ msgid ""
 "publicationDates: [2017, 2016, 2015] dryRun: 0 _excludeExceptions: "
 "[RemoteSearchNoResults DuplicateSearchTerm] "
 msgstr ""
+"--- default: remoteTargetCode: CATALOGUING_CENTER mergeMatcherCode: MERGER "
+"componentPartMergeMatcherCode: MERGER componentPartMatcherCode: COM_PART "
+"remoteFieldsDropped: [biblio.biblionumber, 952] diffExcludedFields: [999, "
+"items.barcode] notifyOnChangeSubfields: [084a, items.itemcallnumber, 110] "
+"notificationEmails: [koha@example.com, cataloguing@example.com] "
+"searchAlgorithms: [Control_number_identifier, Standard_identifier] "
+"candidateCriteria: lowlyCatalogued: always monthsPast: Date-of-acquisition 2 "
+"publicationDates: [2017, 2016, 2015] dryRun: 0 _excludeExceptions: "
+"[RemoteSearchNoResults DuplicateSearchTerm] "
 
 #: intranet-tmpl/prog/en/modules/help/admin/auth_subfields_structure.tt
 #, c-format
@@ -1217,7 +1246,7 @@ msgstr "-9 =&gt; Käyttö tulevaisuudessa"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid ". Fix the syspref "
-msgstr ""
+msgstr ". Korjaa järjestelmäasetus "
 
 #: intranet-tmpl/prog/en/modules/help/admin/audio_alerts.tt
 #, c-format
@@ -1262,12 +1291,12 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "020$a and 020$b or 020$c and 245$a and 245$b (easy isn't it :) ) "
-msgstr ""
+msgstr "020$a ja 020$b tai 020$c ja 245$a ja 245$b (helppoa, vai kuinka) "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "020$c "
-msgstr ""
+msgstr "020$c "
 
 #: intranet-tmpl/prog/en/modules/help/tools/overduerules.tt
 #, c-format
@@ -1385,7 +1414,7 @@ msgstr "2/vuosi: Puolivuosittain"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "245$a && 100$a || 110$a || 111$a || 024$a"
-msgstr ""
+msgstr "245$a && 100$a || 110$a || 111$a || 024$a"
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
@@ -1522,6 +1551,7 @@ msgstr ""
 #, c-format
 msgid "= How many months, eg. 2 eg. monthsPast: Date-of-acquisition 2 "
 msgstr ""
+"= Kuinka monta kuukautta, esim. 2 esim. months:Pst: Date-of-acquisition 2 "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -1529,11 +1559,14 @@ msgid ""
 "= The publication date from pubdate-index, MARC 008 7-10 eg. "
 "publicationDates: 2017 2016 2015 "
 msgstr ""
+"= julkaisupäivä pubdate-indeksistä, MARC 008-kentästä merkkipaikat 7-10. "
+"Esim. publicationDates: 2017 2016 2015 "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "= The search index to use, eg. Date-of-acquisition, time-last-modified"
 msgstr ""
+"= Käytettävä hakuindeksi, esim. Date-of-acquisition, time-last-modified"
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
@@ -1589,7 +1622,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
 msgid "A child patron will list their Guarantor"
-msgstr "Lapsiasiakas tarvitsee Takaajan."
+msgstr "Lapsiasiakkaan tiedoissa listataan heidän takaajansa"
 
 #: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
 #, c-format
@@ -1723,6 +1756,8 @@ msgstr ""
 #, c-format
 msgid "A permission \"tools => stage_marc_import\" is needed to use this tool."
 msgstr ""
+"Käyttäjä tarvitsee oikeuden \"tools =>stage_marc_import\" käyttääkseen tätä "
+"työkalua."
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
@@ -1776,7 +1811,6 @@ msgstr ""
 "oikealle, ylös, alas), että tarrat asettuvat oikeille kohdille."
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
 msgid ""
 "A public report is accessible via a URL that looks like this: http://MYOPAC/"
@@ -1791,6 +1825,8 @@ msgid ""
 "A report is generated listing all the actions taken, the resulting overlay "
 "operations and any detected errors."
 msgstr ""
+"Raporttiin listataan kaikki tehdyt toiminnot, eräyhdistelyn tulokset ja "
+"havaitut virheet."
 
 #: intranet-tmpl/prog/en/modules/help/serials/routing.tt
 #, c-format
@@ -1904,7 +1940,7 @@ msgid ""
 "the status will be changed to 'cleaned'"
 msgstr ""
 "Hyväksy poisto ja tietueet poistetaan varastosta ja tila muuttuu 'Siivottu'-"
-"tilaksi"
+"tilaksi."
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -2060,6 +2096,8 @@ msgid ""
 "column always shows the overlayed record in different stages of the "
 "operation. "
 msgstr ""
+"Toiminto näyttää tietueiden vertailun. Jokainen sarake näyttää yhdistellyn "
+"tietueen työn eri vaiheissa. "
 
 #: intranet-tmpl/prog/en/modules/help/tools/viewlog.tt
 #, c-format
@@ -2619,6 +2657,8 @@ msgid ""
 "After the parent record is overlayed, a new search for component parts "
 "begins. The search algorithm 'Component_part_773w_003' is always used."
 msgstr ""
+"Kun emotietue on eräyhdistelty, tehdään uusi haku osakohteita varten. "
+"Hakualgoritmiä 'Component_part_773w_003' käytetään aina."
 
 #: intranet-tmpl/prog/en/modules/help/circ/returns.tt
 #, c-format
@@ -2687,7 +2727,7 @@ msgstr "Kaikki maksut poistetaan ja ne näkyvät poistettuina."
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "All matchers have a maximum name length of 10 characters. "
-msgstr ""
+msgstr "Kaikilla yhdistelysäännöillä on maksimipituus 10 merkkiä. "
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
@@ -2824,6 +2864,8 @@ msgid ""
 "Also one can make direct references to MARC subfields using a standard "
 "notation, eg. "
 msgstr ""
+"Voit käyttää myös suoria viittauksia MARC-osakenttiin standardilla "
+"merkintätavalla, esim. "
 
 #: intranet-tmpl/prog/en/modules/help/tools/inventory.tt
 #, c-format
@@ -2905,7 +2947,7 @@ msgstr "Esimerki näiden kenttien käytöstä huomautuspohjassa voisi olla:"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "An introduction to batch overlaying"
-msgstr ""
+msgstr "Tietueiden eräyhdistelyn esittely"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/linkitem.tt
 #, c-format
@@ -2937,6 +2979,9 @@ msgid ""
 "component part records don't already exists in the database and thus are not "
 "imported twice (which could make a real mess)."
 msgstr ""
+"Toinen yhdistelysääntö, osakohteiden yhdistelysääntö, huolehtii, että "
+"valittuja osakohteita ei jo ole tietokannassa ja että niitä ei tuoda toiseen "
+"kertaan (mikä voisi aiheuttaa ongelmia)."
 
 #: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
 #, c-format
@@ -2952,14 +2997,10 @@ msgstr ""
 "nimekkeen hankintatilanne."
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
 msgid "Answer"
 msgstr "Vastaus"
 
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
 msgid "Answer:"
@@ -3236,6 +3277,9 @@ msgid ""
 "and tries to find fully catalogued counterparts from the remote repositories "
 "to overlay with. "
 msgstr ""
+"Automaattinen tietueiden eräyhdistely etsii sitten tietueita, joilla on "
+"matala luetteloinnin taso ja etsii niille täysluetteloituja vastaavuuksia "
+"etätietokannasta. "
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -3250,22 +3294,22 @@ msgstr "AutomaticItemReturn"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Available DataSource selectors"
-msgstr ""
+msgstr "Käytettävissä olevat tietolähdetoiminnot"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Available algorithms (atleast): "
-msgstr ""
+msgstr "Käytettävissä olevat algoritmit (vähintään): "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Available criteria: "
-msgstr ""
+msgstr "Käytettävissä olevat kriteerit: "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Available search algorithms"
-msgstr ""
+msgstr "Käytettävissä olevat hakualgoritmit"
 
 #: intranet-tmpl/prog/en/modules/help/reports/issues_avg_stats.tt
 #, c-format
@@ -3328,9 +3372,9 @@ msgid "Batch modify items"
 msgstr "Niteiden muokkaus eräajona"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Batch overlay"
-msgstr "Eräajot"
+msgstr "Tietueiden eräyhdistely"
 
 #: intranet-tmpl/prog/en/modules/help/tools/batch_delete_records.tt
 #, c-format
@@ -3343,11 +3387,9 @@ msgid "Batch record modification"
 msgstr "Niteiden muokkaus eräajona"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "BatchOverlayRules"
-msgstr ""
+msgstr "BatchOverlayRules"
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/manage.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-batch.tt
@@ -3692,6 +3734,9 @@ msgid ""
 "exceptions by checking the 'show all exceptions'-checkbox and displaying a "
 "new report. "
 msgstr ""
+"Oletuksena osa poikkeuksista on piilotettuna raportilla 'excludeExceptions'-"
+"säännöllä. Voit nähdä kaikki poikkeukset laittamalla valinnan 'Näytä kaikki "
+"poikkeukset' -kohtaan ja avaamalla uuden raportin."
 
 #: intranet-tmpl/prog/en/modules/help/circ/view_holdsqueue.tt
 #, c-format
@@ -3809,7 +3854,7 @@ msgstr "Luettelointi:"
 #: intranet-tmpl/prog/en/modules/help/catalogue/detail.tt
 #, c-format
 msgid "Cataloguing record \"push\"-feature"
-msgstr ""
+msgstr "Luettelointitietueen \"push\"-toiminto"
 
 #: intranet-tmpl/prog/en/modules/help/members/member-password.tt
 #, c-format
@@ -4132,7 +4177,6 @@ msgstr ""
 "vastaanotetuksi."
 
 #: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #, c-format
 msgid "Choose 'Copy'"
 msgstr "Valitse 'Kopioi'"
@@ -4152,7 +4196,6 @@ msgstr "Valitse 'Kadonneet niteet' 'Muut'-valikosta"
 msgid "Choose 'Zip file' under the 'File type' section"
 msgstr "Valitse 'ZIP-tiedosto' tiedostotyyppivalikosta"
 
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #, c-format
 msgid "Choose 'if'"
@@ -4307,7 +4350,6 @@ msgstr ""
 "kenttiä on käytettävissä kyselyysi."
 
 #: intranet-tmpl/prog/en/modules/help/tools/export.tt
-#: intranet-tmpl/prog/en/modules/help/tools/export.tt
 #, c-format
 msgid "Choose the name you want your file to save as"
 msgstr "Valitse tallennettavan tiedoston nimi"
@@ -4335,7 +4377,6 @@ msgid ""
 msgstr ""
 "Valitse ajanjakso, jolle budjetti on tehty: akateeminen vuosi, verovuosi tms."
 
-#: intranet-tmpl/prog/en/modules/help/tools/export.tt
 #: intranet-tmpl/prog/en/modules/help/tools/export.tt
 #, c-format
 msgid "Choose to export your data in marc or marcxml format"
@@ -4595,12 +4636,6 @@ msgid "Clear Patron Information"
 msgstr "Tyhjennä asiakkaan tiedot"
 
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
-#: intranet-tmpl/prog/en/modules/help/members/pay.tt
-#: intranet-tmpl/prog/en/modules/help/members/pay.tt
-#: intranet-tmpl/prog/en/modules/help/members/pay.tt
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
-#: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
 #, c-format
 msgid "Click \"Confirm\""
@@ -4609,7 +4644,7 @@ msgstr "Klikkaa \"Vahvista\""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Click \"Overlay us!\" to start the overlaying process."
-msgstr ""
+msgstr "Paina \"Yhdistä\"-nappia käynnistääksesi yhdistelyn."
 
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
 #: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
@@ -4634,8 +4669,6 @@ msgstr "Klikkaa \"Tallenna hälytys\" ja se on siinä!"
 msgid "Click \"Writeoff\" next to the fine you wish to writeoff."
 msgstr "Klikkaa \"Poista maksu\" sen maksun kohdalla, jonka haluat poistaa."
 
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #, c-format
 msgid "Click 'Add action'"
@@ -4726,7 +4759,6 @@ msgid "Click 'Next'"
 msgstr "Klikkaa 'Seuraava'"
 
 #: intranet-tmpl/prog/en/modules/help/tools/upload-cover-image.tt
-#: intranet-tmpl/prog/en/modules/help/tools/upload-cover-image.tt
 #, c-format
 msgid "Click 'Process images'"
 msgstr "Klikkaa 'Prosessoi kuvat'"
@@ -4736,7 +4768,6 @@ msgstr "Klikkaa 'Prosessoi kuvat'"
 msgid "Click 'Save Subscription' to save the information you have entered."
 msgstr "Klikkaa 'Tallenna tilaus' tallentaaksesi tiedot, jotka olet syöttänyt."
 
-#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
 msgid "Click 'Save'"
@@ -4773,7 +4804,6 @@ msgstr "Klikkaa 'OK'"
 msgid "Click 'Transfer' on the Circulation page "
 msgstr "Klikkaa 'Siirto' Lainauksen sivulla "
 
-#: intranet-tmpl/prog/en/modules/help/tools/upload-cover-image.tt
 #: intranet-tmpl/prog/en/modules/help/tools/upload-cover-image.tt
 #, c-format
 msgid "Click 'Upload file'"
@@ -5222,7 +5252,7 @@ msgstr "Tämän kentän yleisesti käytetyt arvot ovat:"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Component_part_773w_003"
-msgstr ""
+msgstr "Component_part_773w_003"
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -5241,7 +5271,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Configuring the feature"
-msgstr ""
+msgstr "Työkalun määrittely"
 
 #: intranet-tmpl/prog/en/modules/help/reports/dictionary.tt
 #, c-format
@@ -5254,6 +5284,8 @@ msgid ""
 "Connection to the remote repository could not be established or it died "
 "during searching. Notify your friendly administrator."
 msgstr ""
+"Etätietokantaan ei voitu yhdistää tai yhteys katosi haun aikana. Ota yhteys "
+"ylläpitäjään."
 
 #: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
 #, c-format
@@ -5274,10 +5306,9 @@ msgid "Control where the item returns to once it is checked in "
 msgstr "Säätää, mihin nide kuljetetaan, kun se on palautettu "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Control_number_identifier"
-msgstr "Yksilöllinen tunniste"
+msgstr "Control_number_identifier"
 
 #: intranet-tmpl/prog/en/modules/help/admin/transport-cost-matrix.tt
 #, c-format
@@ -5388,7 +5419,7 @@ msgstr "Muokatut raportit "
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Custom attributes are passed as key=value pairs, eg:"
-msgstr ""
+msgstr "Erityismääreet määritetään tunniste=arvo -pareina, esim."
 
 #: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
 #, c-format
@@ -5421,14 +5452,14 @@ msgid "DUEDGST "
 msgstr "DUEDGST "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
-#, fuzzy, c-format
+#, c-format
 msgid "DataSource examples"
-msgstr "Muutamia esimerkkejä:"
+msgstr "Tietolähde-esimerkkejä"
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "DataSource functions"
-msgstr ""
+msgstr "Tietolähdetoiminnot"
 
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
@@ -5447,16 +5478,15 @@ msgid "Date should be entered using the calendar pop up"
 msgstr "Päivämäärä pitäisi syöttää käyttämällä kalenteritoimintoa"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Dealing with errors"
-msgstr "Poista niteitä"
+msgstr "Virhetilanteiden käsittely"
 
 #: intranet-tmpl/prog/en/modules/help/tools/overduerules.tt
 #, c-format
 msgid "Dear Nicole Engard (23529000035726),"
 msgstr "Nicole Engard (23529000035726),"
 
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #, c-format
 msgid ""
@@ -5475,14 +5505,14 @@ msgid "Default Circulation Rules"
 msgstr "Oletus Lainaus- ja palautussäännöt"
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Default measurement"
-msgstr "Oletusarvo "
+msgstr "Oletusmittasuhteet"
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Default measurement unit"
-msgstr "Oletusarvo "
+msgstr "Oletusmittayksikkö"
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
@@ -5797,6 +5827,11 @@ msgid ""
 "dpi to 200, 100 pixels on your screen should take half of an inch on the "
 "printed medium. "
 msgstr ""
+"Pistettä tuumalla määrittelee tulostimelle skaalaamaan sivun tiettyyn "
+"tarkkuuteen. Periaatteessa tämä tarkoittaa, että arvolla 100, näyttösi 100 "
+"pikseliä tarkoittaa tulosteella yhtä tuumaa. Jos vähennät dpi:n 50:een, 100 "
+"pikseliä ruudulla on tulosteella 2 tuumaa. Jos suurennat dpi:n 200:n, 100 "
+"pikseliä ruudulla on tulosteella puoli tuumaa."
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
@@ -5808,6 +5843,12 @@ msgid ""
 "convenience to have more space on the screen to work with miniscule details, "
 "by decreasing the dpi-value. "
 msgstr ""
+"Kohan PDF-tulostuskirjaston rajoitteista johtuen, dpi:tä voidaan tällä "
+"hetkellä käyttää vain tarrapohjan elementtien ja sijainnin skaalaamiseen. "
+"Eli pdf-tiedostoja tulostettaessa dpi vaikuttaa vain asemointiin ja "
+"elementtien kokoon, ei tulostettavien tekstien tai viivakoodien kokoon. On "
+"vain mukavampaa työskennellä, kun pienentämällä dpi-arvoa, näytöllä on "
+"enemmän tilaa säätää pieniä yksityiskohtia."
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
@@ -5917,6 +5958,9 @@ msgid ""
 "searches is to find the correct bibliographic records from the Koha database "
 "for automatic overlaying."
 msgstr ""
+"Jokainen tekstilaatikon rivi on sanahaku, käytännössä sama asia kuin "
+"haettaisiin tiedonhaun hakukentästä. Hakujen tarkoitus on löytää oikea "
+"luettelointitietue Kohan tietokannasta automaattista eräyhdistelyä varten."
 
 #: intranet-tmpl/prog/en/modules/help/members/pay.tt
 #: intranet-tmpl/prog/en/modules/help/members/paycollect.tt
@@ -5987,6 +6031,7 @@ msgid ""
 "Each unit of measurement should match 1⁄72 inches based on the PDF-"
 "specification."
 msgstr ""
+"Jokainen mittayksikkö pitäisi vastata 1/72 tuumaa perustuen PDF-määrityksiin."
 
 #: intranet-tmpl/prog/en/modules/help/admin/edi_accounts.tt
 #, c-format
@@ -6102,14 +6147,14 @@ msgid "Encoding"
 msgstr "Merkistö"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Encoding level"
-msgstr "Merkistö"
+msgstr "Tietueen taso"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Encoding levels of lowly vs. fully catalogued record"
-msgstr ""
+msgstr "Luetteloinnin taso matala vs. täysluetteloitu tietue"
 
 #: intranet-tmpl/prog/en/modules/help/admin/preferences.tt
 #, c-format
@@ -6150,7 +6195,6 @@ msgstr ""
 msgid "Enter a code and a description"
 msgstr "Lisää koodi ja kuvaus"
 
-#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
 msgid ""
@@ -6425,21 +6469,24 @@ msgid ""
 "Error description, eg. \"Local search 'this-doesnt-exist' produced no results"
 "\""
 msgstr ""
+"Virheen kuvaus, esim. \"Paikallinen haku 'tätä-ei-ole' ei tuottanut tuloksia"
+"\""
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Error report"
-msgstr "raportit "
+msgstr "Virheraportti"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Error type, eg. \"Koha::Exception::BatchOverlay::LocalSearchNoResults\""
 msgstr ""
+"Virheen tyyppi, esim. \"Koha::Exception::BatchOverlay::LocalSearchNoResults\""
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Errors/exceptions are explained later in this help."
-msgstr ""
+msgstr "Virheet/poikkeukset selitetään myöhemmin tässä ohjeessa."
 
 #: intranet-tmpl/prog/en/modules/help/tags/review.tt
 #, c-format
@@ -6483,9 +6530,9 @@ msgstr "Esimerkki"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Example YAML configuration for syspref "
-msgstr ""
+msgstr "Esimerkki YAML-määrityksestä järjestelmäasetuksessa "
 
-#. %1$s:  fields.245.0.indicator.1 
+#. %1$s:  fields.245.0.indicator.1
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #, c-format
 msgid "Example: %s is the indicator 1 for the first 245 field."
@@ -6718,6 +6765,8 @@ msgid ""
 "Finally a report is persisted about the actions taken and for easy "
 "verification of correctness."
 msgstr ""
+"Lopuksi raportti koostetaan tehdyistä toimista, mistä voi varmistaa tietojen "
+"paikkansapitävyyden."
 
 #: intranet-tmpl/prog/en/modules/help/tools/batch_record_modification.tt
 #, c-format
@@ -6728,7 +6777,6 @@ msgstr ""
 "Valitse viimeksi MARC-muokkauksen pohja, jolla haluat muokata näitä "
 "tietueita."
 
-#: intranet-tmpl/prog/en/modules/help/tools/export.tt
 #: intranet-tmpl/prog/en/modules/help/tools/export.tt
 #, c-format
 msgid "Finally choose the file type and file name "
@@ -6835,6 +6883,8 @@ msgstr ""
 #, c-format
 msgid "Fine is the amount of money charged for sending the notification."
 msgstr ""
+"Maksu-kohtaan määritetään rahamäärä, joka peritään ilmoituksen "
+"lähettämisestä."
 
 #: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
@@ -6918,7 +6968,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Fix the syspref "
-msgstr ""
+msgstr "Korjaa järjestelmäasetus "
 
 #: intranet-tmpl/prog/en/modules/help/acqui/supplier.tt
 #, c-format
@@ -6969,7 +7019,7 @@ msgstr "Koko vuodelle, esimerkki voisi olla: 01/01/2009 - 01/01/2010"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "For an overview of how to operate this feature, see this "
-msgstr ""
+msgstr "Toiminnon yleiskatsaus, "
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
@@ -7173,8 +7223,8 @@ msgstr "Pakota: Sallii asiakkaan valita vain tietyn niteen"
 msgid "Format"
 msgstr "Materiaali"
 
-#. %1$s:  interface 
-#. %2$s:  theme 
+#. %1$s:  interface
+#. %2$s:  theme
 #: intranet-tmpl/prog/en/modules/help/labels/spinelabel-home.tt
 #, c-format
 msgid ""
@@ -7198,7 +7248,6 @@ msgstr ""
 "tekstiin, joka on liitetty kenttään"
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
-#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid ""
 "From Any Library: Patrons from any library may put this item on hold. "
@@ -7207,7 +7256,6 @@ msgstr ""
 "Mistä tahansa kirjastosta: Minkä tahansa kirjaston asiakkaat voivat varata "
 "niteen (oletus, jos muuta ei ole määritelty)"
 
-#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid ""
@@ -7815,29 +7863,28 @@ msgstr "Yleinen"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Get MARC subfield 020$a and 020$b or 020$c and 245$a and 245$b "
-msgstr ""
+msgstr "Hae MARC-osakenttä 020$a ja 020$b tai 020$c ja 245$a ja 245$b "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Get MARC subfield 020$c "
-msgstr ""
+msgstr "Hae MARC-osakenttä 020$c "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Get the Item's barcode "
-msgstr ""
+msgstr "Hae niteen viivakoodi "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Get the Item's homebranch's branchname or branchcode "
-msgstr ""
+msgstr "Hae niteen kotikirjaston nimi tai tunniste "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Get the signum using a data source function "
-msgstr ""
+msgstr "Hae signum käyttäen tietolähdetoimintoja "
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/holidays.tt
 #: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
@@ -7845,21 +7892,6 @@ msgstr ""
 msgid "Get there:"
 msgstr "Mene:"
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/holidays.tt
 #: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
@@ -7983,7 +8015,7 @@ msgstr "Täällä on muita paikkoja, joista saat lisätietoja:"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Here is a table of mappings for all the valid encoding level values"
-msgstr ""
+msgstr "Tässä on taulukko kaikista kelpaavista luetteloinnin tason arvoista"
 
 #: intranet-tmpl/prog/en/modules/help/admin/oai_set_mappings.tt
 #, c-format
@@ -8072,12 +8104,12 @@ msgstr "Palvelin"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "How many months to look in the past for candidates?"
-msgstr ""
+msgstr "Kuinka monta kuukautta taaksepäin etsitään kandidaatteja?"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "How this all actually works?"
-msgstr ""
+msgstr "Kuinka tämä toimii?"
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -8329,6 +8361,9 @@ msgid ""
 "APIs that this Koha can interact with are shown under the \"Save\"-toolbar "
 "link's dropdown menu under \"Push to remote\". "
 msgstr ""
+"Jos järjestelmäasetus \"RemoteAPIs\" on määritetty, kaikki määritetyt "
+"rajapinnat, joiden kanssa tämä Koha voi keskustella, näkyy Tallenna-valikon "
+"Push to remote -otsikon alla."
 
 #: intranet-tmpl/prog/en/modules/help/circ/offline.tt
 #, c-format
@@ -8683,6 +8718,9 @@ msgid ""
 "the matcher configured in 'componentPartMergeMatcherCode' is used to "
 "automerge them to the new component part"
 msgstr ""
+"Jos paikalliskannasta löytyy vastaavuus tuotavalle osakohteelle, käytetään "
+"yhdistelysääntöä 'componentPartMergeMatcherCode' niiden automaattiseen "
+"yhdistelyyn."
 
 #: intranet-tmpl/prog/en/modules/help/reviews/reviewswaiting.tt
 #, c-format
@@ -9892,7 +9930,6 @@ msgstr ""
 "kirjastojen myöhästymismaksut, vaihda kirjasto tai kirjaudu tähän kirjastoon."
 
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
-#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
 msgid ""
 "If you would like to limit this authorized value category to only specific "
@@ -9924,7 +9961,6 @@ msgstr ""
 "laita valinta 'Rajoitukset' laatikkoon. Tämä lisää asiakastietueeseen "
 "huomautuksen, että asiakas on lainauskiellossa. "
 
-#: intranet-tmpl/prog/en/modules/help/tools/upload-cover-image.tt
 #: intranet-tmpl/prog/en/modules/help/tools/upload-cover-image.tt
 #, c-format
 msgid ""
@@ -10216,7 +10252,6 @@ msgstr ""
 "niteet ovat myöhässä."
 
 #: intranet-tmpl/prog/en/modules/help/circ/returns.tt
-#: intranet-tmpl/prog/en/modules/help/circ/returns.tt
 #, c-format
 msgid ""
 "Ignoring the hold will leave the item on hold, but leave its status as "
@@ -10244,7 +10279,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Implementation specifics"
-msgstr ""
+msgstr "Huomioitavaa käyttöönotossa"
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #, c-format
@@ -10280,7 +10315,6 @@ msgstr ""
 "Tärkeää: Tarkoititko? toimii tällä hetkellä vain verkkokirjastossa. "
 "Virkailijatyökalun valinnat ovat tässä tulevaisuutta varten."
 
-#: intranet-tmpl/prog/en/modules/help/rotating_collections/rotatingCollections.tt
 #: intranet-tmpl/prog/en/modules/help/rotating_collections/rotatingCollections.tt
 #, c-format
 msgid "Important:"
@@ -10356,7 +10390,6 @@ msgstr ""
 "kenttään. Tämä tarkoittaa, että et voi kohdistaa sekä 100a että 700a "
 "tekijäkenttään, vaan pitää valita toinen."
 
-#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
 msgid ""
@@ -10438,7 +10471,6 @@ msgstr ""
 "Tärkeää: Tämän raportin ajo voi kestää kauan kirjastoille, joilla on paljon "
 "asiakkaita."
 
-#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid ""
@@ -10566,7 +10598,6 @@ msgstr ""
 "Tärkeää: Jos järjestelmäasetus AllowHoldPolicyOverrideset on 'Salli', "
 "virkailija voi ohittaa nämä säännöt."
 
-#: intranet-tmpl/prog/en/modules/help/admin/categorie.tt
 #: intranet-tmpl/prog/en/modules/help/admin/categorie.tt
 #, c-format
 msgid "Important: Only enter numbers and decimals in this field"
@@ -10723,7 +10754,6 @@ msgid ""
 msgstr "Tärkeää: Nämä asetukset ohittavat asiakastyyppiin tehdyt asetukset"
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
-#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "Important: This can only be set for the Day unit, not in Hours"
 msgstr "Tärkeää: Tämä voidaan asettaa vain päiväkohtaiseksi, ei tunneittain"
@@ -10750,14 +10780,11 @@ msgid "Important: This permission level no longer controls anything."
 msgstr "Tärkeää: Tämä oikeus ei enää kontrolloi mitään."
 
 #: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
-#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
-#: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
 #, c-format
 msgid "Important: This setting cannot be changed after an attribute is defined"
 msgstr ""
 "Tärkeää: Tätä asetusta ei voi muuttaa sen jälkeen, kun määre on määritelty"
 
-#: intranet-tmpl/prog/en/modules/help/admin/categorie.tt
 #: intranet-tmpl/prog/en/modules/help/admin/categorie.tt
 #, c-format
 msgid ""
@@ -11215,6 +11242,10 @@ msgid ""
 "overlaying, and if a matching record is found from the remote repository, it "
 "will be batch overlayed. "
 msgstr ""
+"Käytä öisin ajettavassa eräyhdistelyssä tiettyjä kriteerejä lisäämällä ne "
+"järjestelmäasetuksiin. Jos kaikki kriteerit täyttyvät, luettelointitietue "
+"valitaan yhdisteltävien erään ja jos vastaava tietue löytyy "
+"etätietokannasta, tietue eräyhdistellään."
 
 #: intranet-tmpl/prog/en/modules/help/rotating_collections/rotatingCollections.tt
 #, c-format
@@ -11477,7 +11508,7 @@ msgstr ""
 "voi lainata asiakkaille"
 
 #: intranet-tmpl/prog/en/modules/help/circ/waitingreserves.tt
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Items that have been on the hold shelf longer than you normally allow (based "
 "on the value defined in circulation rules) will appear on the 'Holds Over' "
@@ -11487,7 +11518,7 @@ msgid ""
 msgstr ""
 "Niteet, jotka ovat olleet noudettavien varausten hyllyllä yli ajan (perustuu "
 "ReservesMaxPickUpDelay-järjestelmäasetukseen) näkyvät 'Noutoaika päättynyt' -"
-"välilehdellä. Niitä ei automaattisesti poisteta, jollei cron jobia ole "
+"välilehdellä. Niitä ei automaattisesti poisteta, jollei ajastettua ajoa ole "
 "määritelty tekemään sitä, mutta varauksen voi peruuttaa käyttämällä 'Peruuta "
 "ja siirrä kaikki' -painiketta listan yläpuolella."
 
@@ -11501,7 +11532,7 @@ msgstr "Niteitä, joita ei ole lainattu"
 msgid "Keyword to MARC Mapping"
 msgstr "MARC-kenttänimet"
 
-#. %1$s:  helpVersion 
+#. %1$s:  helpVersion
 #: intranet-tmpl/prog/en/modules/help/nohelp.tt
 #, c-format
 msgid "Koha %s manual"
@@ -11579,7 +11610,7 @@ msgstr ""
 "Kohassa on valmiiksi asennettuna monta auktoriteettien tallennuspohjaa."
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Koha database schema"
 msgstr "Kohan tietokantarakenne"
 
@@ -11763,72 +11794,72 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception"
-msgstr ""
+msgstr "Koha::Exception"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BadEncoding"
-msgstr ""
+msgstr "Koha::Exception::BadEncoding"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::DuplicateSearchTerm"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::DuplicateSearchTerm"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::LocalSearch"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::LocalSearch"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::LocalSearchAmbiguous"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::LocalSearchAmbiguous"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::LocalSearchNoResults"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::LocalSearchNoResults"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::Marc"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::Marc"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::RemoteSearchAmbiguous"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::RemoteSearchAmbiguous"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::RemoteSearchFailed"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::RemoteSearchFailed"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::RemoteSearchNoResults"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::RemoteSearchNoResults"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::UnknownMatcher"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::UnknownMatcher"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::BatchOverlay::UnknownRemoteTarget"
-msgstr ""
+msgstr "Koha::Exception::BatchOverlay::UnknownRemoteTarget"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::Deduplicator::TooManyMatches"
-msgstr ""
+msgstr "Koha::Exception::Deduplicator::TooManyMatches"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Koha::Exception::FeatureUnavailable"
-msgstr ""
+msgstr "Koha::Exception::FeatureUnavailable"
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
@@ -11894,7 +11925,7 @@ msgstr "Tarrojen luonti"
 msgid "Label is what will appear on the item search page"
 msgstr "Selite näkyy niteiden hakusivulla"
 
-#. %1$s:  fields.008.0.substr( 28, 3 ) 
+#. %1$s:  fields.008.0.substr( 28, 3 )
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #, c-format
 msgid "Language=%s "
@@ -12096,7 +12127,7 @@ msgstr "Linkki "
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Link to the local record, eg. \"biblio:1115\""
-msgstr ""
+msgstr "Linkki paikalliseen tietueeseen, esim. \"biblio:1115\""
 
 #: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
 #, c-format
@@ -12143,7 +12174,7 @@ msgstr "Kadonnut aineisto"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Low or Full"
-msgstr ""
+msgstr "Epätäydellinen tai täydellinen"
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
@@ -12208,7 +12239,7 @@ msgstr "MARC-osakenttä on se osakenttä, josta haluat hakea"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "MARC-selectors"
-msgstr ""
+msgstr "MARC-valitsijat"
 
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
@@ -12234,6 +12265,8 @@ msgstr "Varmista, että tekstitiedostosi on puhdas tekstitiedosto, ei RTF."
 #, c-format
 msgid "Makes a simple 001 and 003 match against the remote search target. "
 msgstr ""
+"Tekee yksinkertaisen 001 ja 003 -kenttien vastaavuustarkistuksen "
+"etätietokantaan. "
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -12295,7 +12328,6 @@ msgstr "Sopimusten hallinta"
 msgid "Manage orders and basket groups"
 msgstr "Tilausten ja tilausryhmien hallinta"
 
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
 msgid "Manage orders and baskets"
@@ -12404,6 +12436,8 @@ msgid ""
 "773$w and 003 -> 003. This is only used to find component parts for a given "
 "component record. "
 msgstr ""
+"Vertailee paikallisia kenttiä etätietokannan hakukohteisiin. 001 -> 773w ja "
+"003 -> 003. Tätä käytetään vain emotietueen osakohteiden etsimiseen. "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -12412,6 +12446,10 @@ msgid ""
 "introduced first. Takes into account multiple same standard identifiers and "
 "tries to look with all of them, in the order they are introduced. "
 msgstr ""
+"Yhdistelee käyttäen ISBN (020$a), EAN (024$a) tai ISSN (022$a), siinä "
+"järjestyksessä kuin ne on asetukseen kirjoitettu. Ottaa huomioon useamman "
+"saman standardinumeron ja yrittää etsiä niitä kaikkia siinä järjestyksessä "
+"kuin ne tulevat vastaan."
 
 #: intranet-tmpl/prog/en/modules/help/tools/manage-marc-import.tt
 #, c-format
@@ -12806,7 +12844,6 @@ msgid "Nicole Engard "
 msgstr "Nicole Engard "
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
-#: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "No Holds Allowed: No patron may put this book on hold."
 msgstr "Ei varattavissa: asiakkaat eivät voi varata tätä kirjaa."
@@ -12838,9 +12875,11 @@ msgid ""
 "different matching rules to use to find matching records from the remote "
 "search targets. "
 msgstr ""
+"Kaikilla tietueilla ei ole standarditunnuksia (ISBN, EAN, jne), jolloin "
+"pitää käyttää muita vahvoja yhdistelysääntöjä. Hakualgoritmit mahdollistavat "
+"vastaavien tietueiden hakemisen etätietokannasta yhdistelysääntöjä käyttäen."
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reserve/request.tt
 #: intranet-tmpl/prog/en/modules/help/reserve/request.tt
 #, c-format
 msgid "Note"
@@ -12863,8 +12902,6 @@ msgstr ""
 
 #: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
-#: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
-#: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
 #: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
 #: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
 #, c-format
@@ -12992,13 +13029,6 @@ msgstr "OAI-PMH-joukkojen vastaavuuksien määrittely"
 msgid "ODUE (Overdue Notice) "
 msgstr "ODUE (Myöhästymisilmoitus) "
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid "OPAC &gt; Login &gt; my messaging"
@@ -13829,6 +13859,9 @@ msgid ""
 "algorithm, or find out if you have possible duplicate records in the remote "
 "repository."
 msgstr ""
+"Yksi hakualgoritmeistä löysi useamman tuloksen etätietokannasta. Sinun pitää "
+"joko korjata hakualgoritmia tai varmistaa, onko etätietokannassa "
+"tuplatietueita."
 
 #: intranet-tmpl/prog/en/modules/help/admin/cities.tt
 #, c-format
@@ -13959,6 +13992,10 @@ msgid ""
 "there are still problems with the overlaying, those issues probably arise "
 "from miscatalogued records, misconfigurations or bugs. "
 msgstr ""
+"Sivun välilehtien oikealla puolella on etätietokannan vianmääritys. Siitä "
+"näkee, onko määritetty etätietokanta käytettävissä (vihreä pallo). Jos "
+"eräyhdistelyn ongelmat jatkuvat, ne todennäköisesti johtuvat väärin "
+"luetteloiduista tiedoista, vääristä asetuksista tai ohjelman koodivirheistä. "
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
@@ -13986,6 +14023,8 @@ msgid ""
 "Overlay action for the given record crashed for an unknown reason. Contact "
 "your friendly system administrator."
 msgstr ""
+"Tietueen eräyhdistely epäonnistui tuntemattomasta syystä. Ota yhteys "
+"järjestelmän ylläpitoon."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -13993,11 +14032,13 @@ msgid ""
 "Overlay operation executed, in [brackets], see \"Overlay operations\" for "
 "more info."
 msgstr ""
+"Ajettu eräyhdistely [hakasulkeissa], katso \"Eräyhdistelyn toiminnot\" -"
+"otsikon alta lisätietoja."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Overlay operations"
-msgstr "Palvelimen tiedot"
+msgstr "Eräyhdistelyn toiminnot"
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -14402,6 +14443,8 @@ msgid ""
 "Plain text summary of the overlayed record, eg. \"Record: TYRANNIT VOIVAT "
 "HYVIN :, 9510108340\""
 msgstr ""
+"Tekstikooste eräyhdistellystä tietueesta, esim. \"Tietue: TYRANNIT VOIVAT "
+"HYVIN :, 9510108340\""
 
 #: intranet-tmpl/prog/en/modules/help/admin/aqbudgets.tt
 #, c-format
@@ -14447,7 +14490,7 @@ msgstr "Muokataan"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Print label sheet editor"
-msgstr ""
+msgstr "Tarrapohjien muokkaus"
 
 #: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
 #, c-format
@@ -14464,7 +14507,6 @@ msgstr "Laskujen tulostaminen"
 msgid "Printing Receipts"
 msgstr "Kuittien tulostaminen"
 
-#: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
 #: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
 #, c-format
 msgid "Private list: Is managed by you and can be seen only by you"
@@ -14502,13 +14544,10 @@ msgstr ""
 "Ominaisuudet liitetään kirjastoon lisäys- tai muokkauslomakkeen kautta."
 
 #: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
-#: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #, c-format
 msgid "Provide a description so you can identify this action later"
 msgstr "Anna kuvaus, jonka avulla tunnistat toiminnon myöhemmin"
 
-#: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
 #: intranet-tmpl/prog/en/modules/help/virtualshelves/shelves.tt
 #, c-format
 msgid "Public list: Can be seen by everybody, but managed only by you"
@@ -14532,14 +14571,10 @@ msgstr ""
 "Määrässä ilmoitetaan niteiden lukumäärä, jonka lisäsit tilaukseen yllä."
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
 msgid "Question"
 msgstr "Kysymys"
 
-#: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
 msgid "Question:"
@@ -14578,7 +14613,7 @@ msgstr "RLIST (Kiertolista) "
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Rank"
-msgstr ""
+msgstr "Sija"
 
 #: intranet-tmpl/prog/en/modules/help/mainpage.tt
 #, c-format
@@ -14598,7 +14633,7 @@ msgstr "Lue/Kirjoita Kohan wikiin"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Reading the batch overlay report"
-msgstr ""
+msgstr "Eräyhdistelyn raportin lukuohje"
 
 #: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
 #, c-format
@@ -14634,12 +14669,12 @@ msgstr "Kausijulkaisujen vastaanotto"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Recommended default is:"
-msgstr ""
+msgstr "Suositeltu oletus:"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Recommended example matcher config:"
-msgstr ""
+msgstr "Suositeltu esimerkkiyhdistelysääntö:"
 
 #: intranet-tmpl/prog/en/modules/help/admin/matching-rules.tt
 #, c-format
@@ -14652,8 +14687,7 @@ msgid "Record detail"
 msgstr "Tietueiden tiedot"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Record matching rules"
 msgstr "Tietueiden yhdistämissäännöt"
 
@@ -14717,7 +14751,7 @@ msgstr ""
 msgid ""
 "Remote repository has no records that match the given search algorithm's "
 "search terms."
-msgstr ""
+msgstr "Etätietokannassa ei ole vastaavia tietueita."
 
 #: intranet-tmpl/prog/en/modules/help/circ/renew.tt
 #, c-format
@@ -14809,7 +14843,6 @@ msgstr "Vaaditaan virkailijatyökaluun kirjautumisessa."
 msgid "Requires that the staff member also has circulate_remaining_permissions"
 msgstr "Vaatii, että virkailijalla on myös circulate_remaining_permissions"
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid "Requires that you set OpacAllowSharingPrivateLists to 'Allow'"
@@ -14948,7 +14981,7 @@ msgstr "Tehtävien ajastus"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Scheduling automatic batch overlaying"
-msgstr ""
+msgstr "Eräyhdistelyn ajastus"
 
 #: intranet-tmpl/prog/en/modules/help/admin/matching-rules.tt
 #, c-format
@@ -14958,7 +14991,7 @@ msgstr "Pisteytys: 101"
 #: intranet-tmpl/prog/en/modules/help/catalogue/detail.tt
 #, c-format
 msgid "Screencast about the feature is available here"
-msgstr ""
+msgstr "Toiminnon ruutukaappausvideo on saatavalla täällä"
 
 #: intranet-tmpl/prog/en/modules/help/admin/branches.tt
 #, c-format
@@ -14978,6 +15011,7 @@ msgstr ""
 #, c-format
 msgid "Search algorithm used, if available, eg. \"search algorithm: null\""
 msgstr ""
+"Käytettävä hakualgoritmi, jos käytettävissä, esim. \"search algorithm: null\""
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbooks.tt
 #, c-format
@@ -15012,11 +15046,14 @@ msgid ""
 "exact search term used for the search operation. This can happen for example "
 "with records having repetitions of standard identifiers."
 msgstr ""
+"Hakutermissä voi olla myös jälkiliite, jotta nähdään hakutermistä enemmän "
+"tietoa. Tämä voi tapahtua mm. silloin kun tietueella on useampi samassa "
+"kentässä oleva standardinumero."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Search term used, eg. \"search term: 911N0021233\"."
-msgstr ""
+msgstr "Käytetty hakutermi, esim. \"hakutermi: 911N0021233\"."
 
 #: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
 #, c-format
@@ -15045,9 +15082,9 @@ msgid "See a Sample Overdue Notice"
 msgstr "Katso esimerkki myöhästymisilmoituksesta"
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
-#, fuzzy, c-format
+#, c-format
 msgid "See the "
-msgstr "Mene: "
+msgstr "Katso"
 
 #: intranet-tmpl/prog/en/modules/help/tools/batchMod.tt
 #, c-format
@@ -15887,12 +15924,12 @@ msgstr "Katso koko dokumentaatio kuljetusten painomatriisille "
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "See the function description for possible custom attributes. "
-msgstr ""
+msgstr "Katso toiminnon kuvaus erityismäären kohdalta."
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "See title "
-msgstr ""
+msgstr "Katso otsikon "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -15901,6 +15938,9 @@ msgid ""
 "this setting must be enabled, or the batch overlay operation won't start. "
 "eg. lowlyCatalogued: always "
 msgstr ""
+"Valitse vain matalalla tasolla luetteloituja tietueita eräyhdistelyn "
+"ehdokkaiksi. Tällä hetkellä tämä asetus pitää olla päällä, jotta "
+"eräyhdistely toimisi. Esim. lowlyCatalogued: always "
 
 #: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
 #, c-format
@@ -16023,12 +16063,12 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Show all exceptions"
-msgstr ""
+msgstr "Näytä kaikki poikkeukset"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Simple diagnostics"
-msgstr ""
+msgstr "Yksinkertainen virheenetsintä"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/moveitem.tt
 #, c-format
@@ -16046,6 +16086,11 @@ msgid ""
 "barcodes, each on their own row. Actually this should happen automatically "
 "when you read a barcode with the barcode reader."
 msgstr ""
+"Yksinkertaisesti lue viivakoodit valkoiseen tekstikenttään vasemmalla. "
+"Viivakoodi voi olla mitä tahansa, mutta se pitää löytyä teoksen MARC-"
+"tiedoista. Jokainen rivi tekee erillisen haun. Jos luet viivakoodit "
+"viivakoodinlukijalla, tiedot yleensä menevät automaattisesti omille "
+"riveilleen."
 
 #: intranet-tmpl/prog/en/modules/help/tools/import_borrowers.tt
 #, c-format
@@ -16064,6 +16109,7 @@ msgstr "Ystävällisin terveisin, Kirjasto"
 #, c-format
 msgid "Some DataSource-functions and -formatters can accept custom attributes."
 msgstr ""
+"Jotkin tietolähde-toiminnot ja -muokkaimet voivat hyväksyä erityismääreitä."
 
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #, c-format
@@ -16109,6 +16155,8 @@ msgid ""
 "Something is wrong with the local search index. Notify your friendly "
 "administrator."
 msgstr ""
+"Jotain meni pieleen paikallisesta indeksistä haettaessa. Ota yhteys "
+"järjestelmän ylläpitoon."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
 #, c-format
@@ -16237,13 +16285,6 @@ msgstr ""
 "virkailijatyökalussa"
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid "Staff Client &gt; Patron Record &gt; Notices"
 msgstr "Virkailijatyökalu &gt; Asiakastietue &gt; Ilmoitukset"
@@ -16277,10 +16318,9 @@ msgid "Standard: "
 msgstr "Standardi: "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Standard_identifier"
-msgstr "bath.standardIdentifier"
+msgstr "Standard_identifier"
 
 #: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #, c-format
@@ -16408,11 +16448,11 @@ msgstr "Osakentät: a"
 msgid "Subject"
 msgstr "Asiasana"
 
-#. %1$s:  FOREACH field IN fields.650 
-#. %2$s:  IF field.indicator.2 
-#. %3$s:  field.a.0 
-#. %4$s:  END 
-#. %5$s:  END 
+#. %1$s:  FOREACH field IN fields.650
+#. %2$s:  IF field.indicator.2
+#. %3$s:  field.a.0
+#. %4$s:  END
+#. %5$s:  END
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #, c-format
 msgid "Subject=%s%s%s%s%s "
@@ -16458,7 +16498,6 @@ msgstr "Ehdotetut auktoriteetti Z39.50 kohteet"
 msgid "Suggested Bibliographic Z39.50 Targets"
 msgstr "Suggested Bibliographic Z39.50 Targets"
 
-#: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
 msgid "Syntax"
@@ -16627,7 +16666,7 @@ msgstr "Pohjat"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "Text"
-msgstr ""
+msgstr "Teksti"
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
@@ -16648,6 +16687,9 @@ msgid ""
 "catalogued record overlay. In the MARC21-format, the leader's (Field 000) "
 "character 17 contains the encoding level."
 msgstr ""
+"\"Tietueen taso\" -raporttia käytetään, kun etsitään yhdisteltäviä "
+"tietueita. MARC-formaatissa nimiön (kenttä 000) merkkipaikka 17 sisältää "
+"tietueen tason."
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
@@ -16955,13 +16997,6 @@ msgid ""
 "when ordering"
 msgstr "Kuvauksen pitäisi auttaa tunnistamaan budjetti tilauksen yhteydessä"
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid "The EnhancedMessagingPreferences is set to 'Allow'"
@@ -17366,11 +17401,18 @@ msgid ""
 "errors are listed in \"Typical error scenarios\", but all caught errors "
 "follow a similar pattern. "
 msgstr ""
+"Eräyhdistely on hyvin monimutkainen toiminto ja on todella paljon asioita, "
+"jotka voivat mennä pieleen. Siitä huolimatta eräyhdistely yrittää huomata "
+"virheet ja toimia niiden kanssa huomaamattomasti. Kaikkien virheiden "
+"ennustaminen on käytännössä mahdotonta ja ne pitää käsitellä "
+"tapauskohtaisesti. Virheet, joihin on valmistauduttu on \"Tyypilliset virheet"
+"\" -otsikon alla, mutta kaikki kiinni jääneet virheet seuraavat samanlaista "
+"kaavaa."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "The candidate must match one of these publication dates"
-msgstr ""
+msgstr "Ehdokkaan julkaisuvuosi pitää vastata yhtä näistä julkaisuajankohdista"
 
 #: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
 #, c-format
@@ -17435,6 +17477,8 @@ msgid ""
 "The comparison view of the overlay operation lists all subfields and "
 "indicators that have changed in any of the three compared records."
 msgstr ""
+"Eräyhdistelyn vertailunäkymä listaa kaikki osakentät ja indikaattorit, jotka "
+"ovat muuttuneet missä tahansa kolmesta vertailtavasta tietueesta."
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -17489,6 +17533,7 @@ msgid ""
 "The default dimensions for a PDF-document are x=595, y=842 if you are "
 "looking for a A4-fit."
 msgstr ""
+"Oletusmittasuhteet PDF-dokumentille ovat x=595, y=842, jos pyrit A4-kokoon."
 
 #: intranet-tmpl/prog/en/modules/help/members/member-password.tt
 #, c-format
@@ -17562,6 +17607,8 @@ msgid ""
 "The dimensions of the initial gray background sheet set the size of the "
 "printed document. Thus you can print documents of any dimension."
 msgstr ""
+"Alimmaisena olevan harmaan alueen mittasuhteet määrittävät tulostetun "
+"dokumentit koon. Voit siis tulostaa minkä kokoisia dokumentteja kuin haluat."
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -17592,9 +17639,9 @@ msgstr ""
 "jokaisen järjestelmäsi kirjaston kohdalla "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "The error report consists of the following elements: "
-msgstr "Eri palautussäännöillä on seuraavia vaikutuksia:"
+msgstr "Virheraportti koostuu seuraavista osista: "
 
 #: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
 #, c-format
@@ -17672,7 +17719,6 @@ msgstr "Ensimmäinen osio on toimittajan perustietoja varten. "
 msgid "The following item(s) are currently overdue:"
 msgstr "Seuraavat niteet ovat tällä hetkellä myöhässä:"
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid "The following item(s) is/are currently overdue:"
@@ -17800,6 +17846,9 @@ msgid ""
 "run faster. On large result sets the report might timeout the connection and "
 "fail. "
 msgstr ""
+"Rajaa hakua -kentällä voidaan rajoittaa haettavien tulosten määrää, jotta "
+"raportti toimisi nopeammin. Laajoissa hakutuloksissa raportti voi aiheuttaa "
+"yhteyden aikakatkaisun ja epäonnistua. "
 
 #: intranet-tmpl/prog/en/modules/help/serials/claims.tt
 #, c-format
@@ -17836,6 +17885,9 @@ msgid ""
 "defines the (sub)fields to preserve from the old record. The Matcher can be "
 "configured from "
 msgstr ""
+"Paikallisen tietueen yhdistely perustuu käytettyyn yhdistelysääntöön, jossa "
+"määritetään, mitkä (osa)kentät säästetään paikallisesta tietueesta. "
+"Yhdistelysäännöt määritetään "
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-template.tt
 #, c-format
@@ -17984,13 +18036,14 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "The overlaying action report id, eg. \"id:20\""
-msgstr ""
+msgstr "Raportin tunniste, esim. \"id:20\""
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid ""
 "The overlaying rule applied to the overlayed record record, eg. \"default\""
 msgstr ""
+"Yhdistelysääntö, jota käytetään tietueen eräyhdistelyyn, esim. \"default\""
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
@@ -17998,15 +18051,10 @@ msgid "The patron has requested to receive the checkout notice "
 msgstr "Asiakas haluaa lainausilmoituksen "
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid "The patron has requested to receive this notice "
 msgstr "Asiakas haluaa tämän ilmoituksen "
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid "The patron has requested to receive this notice as a digest "
@@ -18107,6 +18155,8 @@ msgid ""
 "The record you are looking for doesn't exist in the Koha database, try using "
 "a different query and test the results using basic keyword searching."
 msgstr ""
+"Etsimääsi tietuetta ei ole Kohan tietokannassa, kokeile käyttää toista "
+"hakutermiä ja testaa haun toimivuutta käyttämällä sanahakua."
 
 #: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
 #, c-format
@@ -18125,6 +18175,8 @@ msgid ""
 "The remote record's character encoding is not utf8. This could cause "
 "diacritics to fail."
 msgstr ""
+"Etätietokannan tietueen merkistökoodaus ei ole utf8-muotoa. Tämä voi "
+"aiheuttaa virheellisiä diakriittisiä merkkejä."
 
 #: intranet-tmpl/prog/en/modules/help/circ/overdue.tt
 #, c-format
@@ -18151,12 +18203,12 @@ msgstr ""
 #, c-format
 msgid ""
 "The requested \"Record matching rule\" doesn't exist in your Koha's defined "
-msgstr ""
+msgstr "Pyydettyä \"Tietueen yhdistelysääntöä\" ei ole olemamassa Kohan "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "The requested Z39.50 repository doesn't exist in your Koha's defined "
-msgstr ""
+msgstr "Pyydettyä Z39.50-palvelinta ei ole olemassa Kohan "
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
@@ -18181,6 +18233,9 @@ msgid ""
 "removed and batch overlaying continues normally. Find out what caused the "
 "same search term to be given many times."
 msgstr ""
+"Sama hakutermi annettiin monta kertaa. Tuplat poistetaan automaattisesti ja "
+"eräyhdistely jatkuu normaalisti. Selvitä, miksi sama hakutermi syötettiin "
+"monta kertaa."
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
@@ -18189,6 +18244,10 @@ msgid ""
 "Try downloading it first by right clicking the link and choosing \"save as"
 "\". Then play with your favourite video player. "
 msgstr ""
+"Ruutukaappausvideo on mp4-video, joten kaikki selaimet eivät osaa soittaa "
+"sitä suoraan. Kokeile tallentaa se koneelle klikkaamalla sitä ja "
+"valitsemalla \"tallenna nimellä\". Sitten aukaise se haluamallasi video-"
+"ohjelmalla."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -18200,6 +18259,12 @@ msgid ""
 "search term to see all the records returned by it, and either change your "
 "search term, fix error in records or deduplicate if the records are the same."
 msgstr ""
+"Hakutermi/viivakoodi, jonka lisäsit tekstikenttään palautti useamman "
+"tuloksen paikallisesta hakuindeksistä. Tämä todennäköisesti tarkoittaa, että "
+"tietokannassa on tuplatietueita, jotka pitää yhdistää ensin. Voit tarkistaa, "
+"onko tuplia hakemalla samalla hakutermillä tiedonhaussa ja jos saat useamman "
+"hakutuloksen joko vaihda hakutermiä tarkempaan, korjaa virheelliset tietueet "
+"tai yhdistä tuplat, jos ne ovat samoja."
 
 #: intranet-tmpl/prog/en/modules/help/acqui/supplier.tt
 #, c-format
@@ -18339,6 +18404,12 @@ msgid ""
 "too many are found), errors from all the search algorithms are reported and "
 "the cataloguer needs to take action to fix the blockade."
 msgstr ""
+"Sitten haku tehdään etätietokantaan käyttäen paikallisen tietokannan "
+"tietueen osakenttätietoja. Erilaisia hakustrategioita/algoritmeja kokeillaan "
+"siinä järjestyksessä kuin mitä ne on määritetty 'searchAlgorithms' "
+"järjestelmäasetuksen parametriin. Jos mikä tahansa täsmää, haku on "
+"onnistunut. Jos yhtään tietuetta ei löydy (tai löydetään liikaa), kaikkien "
+"hakualgoritmien virheet raportoidaan ja luetteloijan pitää korjata virheet."
 
 #: intranet-tmpl/prog/en/modules/help/reports/dictionary.tt
 #, c-format
@@ -18371,6 +18442,8 @@ msgid ""
 "There are a handful of different operations that can happen dependent on the "
 "type of the record being overlayed. "
 msgstr ""
+"Tietueen tyypistä riippuen eräyhdistelyssä tapahtuu muutamia erilaisia "
+"toimintoja. "
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
@@ -18456,7 +18529,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "There are two kinds of reports, errors and actions."
-msgstr ""
+msgstr "On olemassa kahdenlaisia raportteja: virheet ja toiminnot."
 
 #: intranet-tmpl/prog/en/modules/help/acqui/lateorders.tt
 #, c-format
@@ -18477,6 +18550,10 @@ msgid ""
 "friendly administrator to find out why we have many duplicate component "
 "parts locally."
 msgstr ""
+"Turvallisuussyistä automaattisessa paikallistietueiden yhdistelyssä on raja. "
+"Tämä toimii tällä hetkellä vain osakohteiden osalta ja jos osakohteista on "
+"tuplia, pyydä apua järjestelmän ylläpidolta selvittääksesi, miksi tuplia on "
+"olemassa."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -18484,13 +18561,15 @@ msgid ""
 "There is something wrong with a MARC-record. This needs to be manually fixed "
 "to the local database or to the remote target."
 msgstr ""
+"MARC-tietueessa on jotain vikaa. Tietue pitää korjata manuaalisesti "
+"paikallisessa tai etätietokannasta."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid ""
 "There is something wrong with the batch overlay feature's configuration "
 "syspref"
-msgstr ""
+msgstr "Tietueiden eräyhdistely asetuksissa on jotain vikaa"
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
@@ -18506,6 +18585,10 @@ msgid ""
 "administrator for them. Click the source data function's title to display "
 "more information on what it does. "
 msgstr ""
+"Nämä ovat pieniä ohjelmanpätkiä, jotka valikoivat monimutkaisempia osia "
+"lähdetiedoista tulostamista varten. Niitä on suhteellisen helppo tehdä "
+"lisää, joten voit tehdä kehitysehdotuksen järjestelmänylläpitäjälle. Klikkaa "
+"tietolähdetoiminnon nimeä nähdäksesi tarkemman selityksen sen toiminnasta. "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -18513,6 +18596,8 @@ msgid ""
 "These criteria are checked only when doing batch overlay using the the "
 "nightly cronjob batchOverlay.pl."
 msgstr ""
+"Nämä ehdot tarkistetaan vain, jos käytetään yöllistä batchOverlay.pl -"
+"ajastettua ajoa."
 
 #: intranet-tmpl/prog/en/modules/help/admin/admin-home.tt
 #, c-format
@@ -18558,7 +18643,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "These searches must return only one result per row (query)."
-msgstr ""
+msgstr "Näiden hakujen pitää palauttaa vain yhden tuloksen per rivi (kysely)."
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
@@ -18639,7 +18724,6 @@ msgid ""
 msgstr "Tämä voidaan ohittaa AllowRenewalLimitOverride-järjestelmäasetuksella"
 
 #: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
-#: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
 #, c-format
 msgid ""
 "This can be set by the librarian editing a patron record and adding a flag"
@@ -18707,8 +18791,6 @@ msgid ""
 msgstr "Tällä toiminnolla voit ladata sitaatteja CSV-tiedostona."
 
 #: intranet-tmpl/prog/en/modules/help/members/members-home.tt
-#: intranet-tmpl/prog/en/modules/help/members/members-home.tt
-#: intranet-tmpl/prog/en/modules/help/members/member.tt
 #: intranet-tmpl/prog/en/modules/help/members/member.tt
 #, c-format
 msgid ""
@@ -18803,12 +18885,6 @@ msgstr ""
 msgid "This notice is used if three criteria are met: "
 msgstr "Tätä ilmoitusta käytetään, jos kolme kriteeriä täyttyy: "
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid "This notice is used if two criteria are met: "
@@ -19060,14 +19136,6 @@ msgid ""
 msgstr "Tämä vaatii, että kirjaston kiinniolot on lisätty Kalenteri-työkaluun"
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
-#: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
 msgid "This section can be expanded"
 msgstr "Tämä alue voidaan laajentaa"
@@ -19270,6 +19338,8 @@ msgid ""
 "This tools helps you to overlay large amounts of items quickly with the "
 "fully catalogued counterpart."
 msgstr ""
+"Tällä työkalulla voit tuoda nopeasti täysluetteloituja tietueita "
+"etätietokannasta."
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -19403,7 +19473,6 @@ msgstr ""
 
 #: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
 #: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
-#: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #: intranet-tmpl/prog/en/modules/help/tools/batchMod.tt
 #, c-format
@@ -19629,9 +19698,9 @@ msgstr ""
 msgid "Title"
 msgstr "Nimeke"
 
-#. %1$s:  IF fields.100.0.indicator.1 
-#. %2$s:  fields.245.0.a.0 
-#. %3$s:  END 
+#. %1$s:  IF fields.100.0.indicator.1
+#. %2$s:  fields.245.0.a.0
+#. %3$s:  END
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #, c-format
 msgid "Title=%s%s%s "
@@ -20030,7 +20099,7 @@ msgstr ""
 "nimeketietueessa, 'Poista'-linkki tulee näkyviin tietueen oikealle puolelle "
 "hakutuloksissa ja sieltä pääset painikkeeseen."
 
-#. %1$s:  INCLUDE 'help-bottom.inc' 
+#. %1$s:  INCLUDE 'help-bottom.inc'
 #: intranet-tmpl/prog/en/modules/help/admin/audio_alerts.tt
 #, c-format
 msgid ""
@@ -20420,6 +20489,8 @@ msgid ""
 "To print a label element we must know what to print. DataSource answers that "
 "question."
 msgstr ""
+"Tulostaaksemme tarran elementin, meidän pitää tietää, mitä tulostetaan. "
+"Tietolähde kertoo sen."
 
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-batch.tt
@@ -20815,7 +20886,7 @@ msgstr "Käytä -h -parametriä nähdäksesi ohjeen."
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Typical error scenarios"
-msgstr ""
+msgstr "Tyypilliset virhetilanteet"
 
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
@@ -20960,7 +21031,6 @@ msgstr ""
 "rajoittamaan aineistolajia, kokoelmakoodia ja/tai hyllypaikkaa."
 
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
-#: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
 msgid ""
 "Use the Description field for the actual value that will be displayed. If "
@@ -21047,7 +21117,7 @@ msgstr "XSLT-tiedostojen käyttö tuotujen tietueiden muokkauksessa"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Using the \"Encoding level\" -report"
-msgstr ""
+msgstr "\"Luetteloinnin taso\" -raportin käyttäminen"
 
 #: intranet-tmpl/prog/en/modules/help/admin/fieldmapping.tt
 #, c-format
@@ -21131,7 +21201,6 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-profile.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-edit-layout.tt
 #, c-format
@@ -21162,6 +21231,11 @@ msgid ""
 "the tool, all records in the database can be considered candidates for "
 "automatic overlaying."
 msgstr ""
+"Tietueiden eräyhdistely -työkalulla käyttäjä valitsee tietueet, jotka pitää "
+"automaattisesti päivittää täysluetteloiduksi. Hakutermejä laitetaan yksi per "
+"rivi. Kun automaattinen eräyhdistely aktivoidaan, riippuen työkalun "
+"asetuksista, kaikki paikallisen tietokannan tietueet ovat mahdollisia "
+"ehdokkaita eräyhdistelyyn."
 
 #: intranet-tmpl/prog/en/modules/help/tools/koha-news.tt
 #, c-format
@@ -21221,7 +21295,7 @@ msgstr "VANCOUVER PUBLIC LIBRARY z3950.vpl.ca:210 Horizon"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "Values explained"
-msgstr ""
+msgstr "Arvojen selitykset"
 
 #: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
 #, c-format
@@ -21455,7 +21529,6 @@ msgstr ""
 "Kun olet valmis, klikkaa 'OK' ja pääset budjetin kaikkien tilien listaan."
 
 #: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
-#: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
 #, c-format
 msgid "When creating or editing:"
 msgstr "Kun lisätään tai muokataan:"
@@ -21615,6 +21688,10 @@ msgid ""
 "menu is shown listing all possible operations the remote API allows. If not, "
 "a myriad of errors can be shown in an alert-dialog. "
 msgstr ""
+"Kun \"push\"-linkkiä klikataan, sillä hetkellä avoinna oleva lähetetään "
+"valittuun rajapintaan (tietokantaan). Jos toiminto onnistuu, näytetään menu "
+"kaikista toiminnoista, jotka etätietokannan rajapinta sallii. Jos toiminto "
+"ei onnistu, näytetään virheilmoitus. "
 
 #: intranet-tmpl/prog/en/modules/help/acqui/newordersuggestion.tt
 #: intranet-tmpl/prog/en/modules/help/acqui/basket.tt
@@ -21642,7 +21719,6 @@ msgstr ""
 "Kun tämä on valmis, voit ladata toisen tiedoston tai hoitaa muita odottavia "
 "yhteydettömän tilan toimintoja."
 
-#: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
 msgid ""
@@ -21855,7 +21931,6 @@ msgstr ""
 "lainauksen sivulle Kohassa ja klikkaa 'Lainaa' tai 'Palauta' yhteydettömässä "
 "tilassa."
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
 #, c-format
 msgid ""
@@ -22113,13 +22188,13 @@ msgstr ""
 "'Maksimikeskeytys'-asetuksella"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You can also directly open the detailed view by clicking the report title "
 "biblionumbers. "
 msgstr ""
-"Voit myös ajastaa raportit suoraan tallennettujen raporttien listasta "
-"valitsemalla 'Ajasta'-linkin"
+"Voit avata tietueen tarkat tiedot -näkymän klikkaamalla raportin otsikon "
+"tietuenumeroa. "
 
 #: intranet-tmpl/prog/en/modules/help/tools/batchMod.tt
 #, c-format
@@ -22360,6 +22435,8 @@ msgid ""
 "You can put plain text to the labels by adding the desired text inside "
 "single or double parenthesis, eg. \"text to add\", 'ID:' "
 msgstr ""
+"Voit lisätä tarroihin tekstiä kirjoittamalla halutun tekstin hipsujen tai "
+"lainausmerkkien sisään, esim. \"lisää teksti\", 'ID:' "
 
 #: intranet-tmpl/prog/en/modules/help/admin/aqbudgets.tt
 #, c-format
@@ -22518,6 +22595,8 @@ msgid ""
 "You must be logged in to the current Koha instance and to the remote API to "
 "authenticate the cross-Koha record transfer."
 msgstr ""
+"Käyttäjän pitää olla kirjautuneen paikalliseen Kohaan ja etätietokantaan, "
+"jotta Koha-asennuksien välinen tietueen siirto onnistuisi."
 
 #: intranet-tmpl/prog/en/modules/help/catalogue/detail.tt
 #, c-format
@@ -22525,6 +22604,8 @@ msgid ""
 "You must have the \"editcatalogue\"->\"add_catalogue\" -permission in the "
 "remote API or a respective permission the API requires."
 msgstr ""
+"Käyttäjällä pitää olla \"editcatalogue\" -> \"add_catalogue\" -"
+"käyttäjäoikeus rajapintaan tai useampi oikeus, mitä rajapinta vaatii."
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -22966,9 +23047,9 @@ msgstr ""
 "formaatissa."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "Z39.50 servers"
-msgstr "Z39.50/SRU-palvelimet"
+msgstr "Z39.50-palvelimet"
 
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
@@ -22991,11 +23072,13 @@ msgid ""
 "[fiddling component parts], this means that operation was working with "
 "component parts, but possibly couldn't complete the action"
 msgstr ""
+"[osakohteiden käsittely], tarkoittaa, että toiminto käsitteli osakohteita, "
+"mutta ei mahdollisesti pystynyt suorittamaan toimintoa loppuun"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "[new component part], a new component part was added"
-msgstr ""
+msgstr "[uusi osakohde], lisättiin uusi osakohde"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -23003,6 +23086,7 @@ msgid ""
 "[overlay record], this is the basic operation when the record doesn't have "
 "component parts"
 msgstr ""
+"[tietueen eräyhdistely], perustoiminto, kun tietueeseen ei liity osakohteita"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
@@ -23010,6 +23094,8 @@ msgid ""
 "[overlaying component part], an existing component part was found for the "
 "given record and was overlayed"
 msgstr ""
+"[osakohteen eräyhdistely], löydettiin olemassa oleva osakohde ja se "
+"korvattiin"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
 #, c-format
@@ -23126,12 +23212,13 @@ msgstr "bath.standardIdentifier"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "biblio, maps to the biblio-table, all columns are available "
-msgstr ""
+msgstr "biblio, käyttää biblio-taulua, kaikki sarakkeet käytettävissä "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "biblioitems, maps to the biblioitems-table, all columns are available "
 msgstr ""
+"biblioitems, käyttää biblioitems-taulua, kaikki sarakkeet käytettävissä "
 
 #: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
 #, c-format
@@ -23255,6 +23342,9 @@ msgid ""
 "are present in one of the configured remote bibliographic record "
 "repositories. "
 msgstr ""
+"ajastettu ajo misc/cronjobs/batchOverlay.pl pitäisi ajaa öisin, jolloin "
+"tarkistetaan paikallisesta kannasta matalan luettelointitason tietueet ja "
+"löytyykö niille täydellisemmin luetteloituja vastineita etätietokannoista. "
 
 #: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
 #, c-format
@@ -23384,9 +23474,9 @@ msgstr ""
 "navigaatiovalikkoa."
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
-#, fuzzy, c-format
+#, c-format
 msgid "database tables"
-msgstr "Tietokanta"
+msgstr "tietokannan taulut"
 
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
@@ -23556,15 +23646,13 @@ msgid ""
 "for available tables and columns. Currently the following tables are "
 "available for DataSource selectors "
 msgstr ""
+"käytettävissä olevat taulut ja sarakkeet. Tällä hetkellä seuraavat taulut "
+"ovat käytettävissä tiedon lähteiksi "
 
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "full"
-msgstr ""
+msgstr "täydellinen"
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -23670,11 +23758,12 @@ msgstr ""
 #, c-format
 msgid "homebranch, maps to the branches-table, all columns are available "
 msgstr ""
+"homebranch, käyttää branches-taulua, kaikki sarakkeet ovat käytettävissä "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "homebranch.branchname or homebranch.branchcode "
-msgstr ""
+msgstr "homebranch.branchname tai homebranch.branchcode "
 
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
@@ -23714,6 +23803,8 @@ msgid ""
 "if you have proper permissions. See the matcher 'MRGE_XMPLE' for available "
 "overlaying operations."
 msgstr ""
+"jos sinulla on tarvittavat oikeudet. Katso yhdistelysäännöstä 'MRGE_XMPLE' "
+"käytettävissä olevat yhdistelytoiminnot."
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -23743,12 +23834,12 @@ msgstr "numero"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "item, maps to the items-table, all columns are available "
-msgstr ""
+msgstr "item, käyttää items-taulua, kaikki sarakkeet käytettävissä "
 
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
-#, fuzzy, c-format
+#, c-format
 msgid "item.barcode "
-msgstr "items_batchdel "
+msgstr "item.barcode "
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -23788,7 +23879,7 @@ msgstr "siirry uusinta-välilehdelle pikanäppäimellä Alt+W"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "key=value, lord=rings, lady=chatterley"
-msgstr ""
+msgstr "key=value, lord=rings, lady=chatterley"
 
 #: intranet-tmpl/prog/en/modules/help/tools/automatic_item_modification_by_age.tt
 #, c-format
@@ -23861,9 +23952,9 @@ msgid "lists reports written by Koha users around the world."
 msgstr "lista raporteista, joita eri maiden Koha-käyttäjät ovat laatineet."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "local search index 'Control-number'"
-msgstr "Hakuindeksi: Kontrollinumero"
+msgstr "paikallinen hakuindeksi 'Control-number'"
 
 #: intranet-tmpl/prog/en/modules/help/reports/guided_reports.tt
 #, c-format
@@ -23871,19 +23962,14 @@ msgid "localuse "
 msgstr "localuse "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "low"
-msgstr ""
+msgstr "epätäydellinen"
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "lowlyCatalogued: "
-msgstr "luettelo "
+msgstr "lowlyCatalogued: "
 
 #: intranet-tmpl/prog/en/modules/help/admin/z3950servers.tt
 #, c-format
@@ -23991,9 +24077,6 @@ msgstr "management "
 #: intranet-tmpl/prog/en/modules/help/cataloguing/linkitem.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
 #: intranet-tmpl/prog/en/modules/help/cataloguing/addbiblio.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
-#: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
 #: intranet-tmpl/prog/en/modules/help/labels/spinelabel-home.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-home.tt
@@ -24153,7 +24236,7 @@ msgstr "modify_holds_priority "
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "monthsPast: "
-msgstr ""
+msgstr "monthsPast: "
 
 #: intranet-tmpl/prog/en/modules/help/catalogue/search.tt
 #, c-format
@@ -24199,12 +24282,12 @@ msgstr "tai sisäänrakennettu Kohan yhteydettömän tilan lainaustyökalu."
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "or the missing Z39.50 server."
-msgstr ""
+msgstr "tai lisää puuttuva Z39.50-palvelin."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "or the missing record matching rule"
-msgstr "Luodaksesi uuden yhdistämissäännön:"
+msgstr "tai lisää puuttuva yhdistelysääntö"
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -24284,7 +24367,7 @@ msgstr "asetus, "
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "publicationDates: "
-msgstr ""
+msgstr "publicationDates: "
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -24312,9 +24395,9 @@ msgid "reports "
 msgstr "raportit "
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
-#, fuzzy, c-format
+#, c-format
 msgid "required match check, 003 matches 003 "
-msgstr "'Vaaditut vastaavuustarkistukset' - ??"
+msgstr "vaadittu vastaavuustarkistus, 003 vastaa 003 "
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -24359,7 +24442,7 @@ msgstr "schedule_tasks "
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "screencast"
-msgstr ""
+msgstr "ruutukaappausvideo"
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -24381,6 +24464,7 @@ msgid ""
 "signum() (you should get this by clicking the '+'-button by the data source "
 "function name) "
 msgstr ""
+"signum() (saat tämän klikkaamalla '+'-nappia tietolähteen nimen vierestä) "
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -24405,7 +24489,7 @@ msgstr "superserials "
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "the center column is the record found from the remote repository"
-msgstr ""
+msgstr "keskimmäinen sarake on etätietokannasta löytynyt tietue"
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
@@ -24420,7 +24504,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/cataloguing/batchOverlay.tt
 #, c-format
 msgid "the leftmost column is the original record in the local database"
-msgstr ""
+msgstr "vasemmanpuoleisin sarake on alkuperäinen tietue paikallistietokannasta"
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
@@ -24436,6 +24520,8 @@ msgid ""
 "the rightmost column is the result of the overlaying action which is now "
 "stored to the local database"
 msgstr ""
+"oikeanpuoleisin sarake on eräyhdistelyn tulos, joka on nyt tallennettuna "
+"paikalliseen tietokantaan"
 
 #: intranet-tmpl/prog/en/modules/help/admin/matching-rules.tt
 #, c-format
@@ -24463,7 +24549,7 @@ msgstr "tämä ei toimi Mac-käyttäjillä"
 #: intranet-tmpl/prog/en/modules/help/labels/oplib-label-create.tt
 #, c-format
 msgid "to calculate sheet sizes. "
-msgstr ""
+msgstr "laskeaksesi paperin koon. "
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
