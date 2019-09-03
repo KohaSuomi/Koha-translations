@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-07-11 22:44+0300\n"
-"PO-Revision-Date: 2019-07-23 10:15+0300\n"
+"PO-Revision-Date: 2019-09-03 15:12+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -4584,7 +4584,7 @@ msgstr "%s Rajoite tullut palautuskehoituksesta %s %s %s %s "
 #: intranet-tmpl/prog/en/modules/members/moremember.tt
 #, c-format
 msgid "%s Restrictions"
-msgstr "%s Rajoitukset"
+msgstr "Rajoitukset (%s )"
 
 #. %1$s:  END
 #: intranet-tmpl/prog/en/modules/members/memberentrygen.tt
@@ -5499,7 +5499,7 @@ msgstr "%s kohde(tta) ei voinut poistaa: %s%s%s"
 #: intranet-tmpl/prog/en/modules/tools/batchMod-del.tt
 #, c-format
 msgid "%s item(s) deleted."
-msgstr "%s kohde(tta) poistettu."
+msgstr "%s nide(ttä) poistettu."
 
 #. For the first occurrence,
 #. %1$s:  books_loo.items
@@ -5747,7 +5747,7 @@ msgstr "%s tietue(tta)"
 #: intranet-tmpl/prog/en/modules/tools/batchMod-del.tt
 #, c-format
 msgid "%s record(s) deleted."
-msgstr "%s kohde(tta) poistettu."
+msgstr "%s tietue(tta) poistettu."
 
 #. %1$s:  total
 #: intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt
@@ -6792,7 +6792,7 @@ msgstr "%sMuokataan tietuetta "
 #: intranet-tmpl/prog/en/modules/cataloguing/addholding.tt
 #, c-format
 msgid "%sEditing record number %s %sAdd holdings record %s "
-msgstr "%sMuokataan tietuenumeroa %s %sLisää varastotietue %s"
+msgstr "%sMuokataan tietuenumeroa %s %sLisää varastotietue %s "
 
 #. %1$s:  IF ( serialslis.status1 )
 #. %2$s:  END
@@ -21304,7 +21304,7 @@ msgstr "Poista valitut hälytykset"
 #: intranet-tmpl/prog/en/modules/catalogue/detail.tt
 #, c-format
 msgid "Delete selected items"
-msgstr "Poista valitut"
+msgstr "Poista valitut niteet"
 
 #. INPUT type=submit
 #: intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt
@@ -27430,8 +27430,8 @@ msgid ""
 "printing doesn't work."
 msgstr ""
 "Jos sinulla on ongelmia pdf:n tulostamisessa, varmista että tulostat sen "
-"ilman skaalausta. Marginaaleja tarvitsee säätää vain, jos skaalaamaton "
-"tulostus ei toimi."
+"ilman skaalausta. Alla olevia marginaaleja tarvitsee säätää vain, jos "
+"skaalaamaton tulostus ei toimi."
 
 #: intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt
 #, c-format
@@ -41295,7 +41295,7 @@ msgstr "Edelliset hälytykset"
 #: intranet-tmpl/prog/en/modules/catalogue/moredetail.tt
 #, c-format
 msgid "Previous borrower:"
-msgstr "Edellinen lainaaja:"
+msgstr "Aikaisempi lainaaja:"
 
 #: intranet-tmpl/prog/en/modules/circ/offline.tt
 #: intranet-tmpl/prog/en/includes/strings.inc
@@ -42935,7 +42935,7 @@ msgstr "Poista rajoitus?"
 #: intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt
 #, c-format
 msgid "Remove selected"
-msgstr "Poista valitut"
+msgstr "Ota pois valitut"
 
 #: intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt
 #, c-format
@@ -45596,7 +45596,7 @@ msgstr "Valinta2"
 #: intranet-tmpl/prog/en/modules/basket/basket.tt
 #, c-format
 msgid "Selected items :"
-msgstr "Valitut niteet :"
+msgstr "Valitut teokset :"
 
 #: intranet-tmpl/prog/en/modules/serials/subscription-add.tt
 #, c-format
@@ -46576,7 +46576,7 @@ msgstr "Näytä tagit"
 #: intranet-tmpl/prog/en/modules/admin/aqplan.tt
 #, c-format
 msgid "Show/hide columns:"
-msgstr "Näytä/piilota rivejä:"
+msgstr "Näytä/piilota sarakkeita:"
 
 #. SCRIPT
 #: intranet-tmpl/prog/en/includes/datatables.inc
@@ -52588,7 +52588,7 @@ msgstr "Käyttää raportit-liitännäisiä"
 #: intranet-tmpl/prog/en/columns.def
 #, c-format
 msgid "Use restrictions"
-msgstr "Käyttörajoitukset"
+msgstr "Käytä rajoituksia"
 
 #. INPUT type=submit name=submit
 #: intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt
