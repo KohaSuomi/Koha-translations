@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-04-15 09:41-0300\n"
-"PO-Revision-Date: 2019-07-16 15:49+0300\n"
+"PO-Revision-Date: 2019-12-19 12:24+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -7231,6 +7231,18 @@ msgid "patrons.pref#StatisticsFields# Show the following fields from the items d
 msgstr "Näytä seuraavat kentät niteen tietokantataulusta sarakkeina tilastovälilehdellä asiakkaan tiedoissa: "
 
 # Patrons > General
+msgid "patrons.pref#SuomiFiMessaging# Disable"
+msgstr "Älä salli"
+
+# Patrons > General
+msgid "patrons.pref#SuomiFiMessaging# Enable"
+msgstr "Salli"
+
+# Patrons > General
+msgid "patrons.pref#SuomiFiMessaging# sending messages to patrons via suomi.fi messaging-service."
+msgstr "viestien lähettäminen asiakkaille suomi.fi viestipalvelun kautta."
+
+# Patrons > General
 msgid "patrons.pref#TalkingTechItivaPhoneNotification# Disable"
 msgstr "Estä"
 
@@ -7673,6 +7685,22 @@ msgstr "Yritä soveltaa"
 # Searching > Features
 msgid "searching.pref#QueryFuzzy# to match similarly spelled words in a search (for example, a search for <cite>flang</cite> would also match <cite>flange</cite> and <cite>fang</cite>; REQUIRES ZEBRA)."
 msgstr "samankaltaisuuteen perustuvaa sumeaa hakua (jolloin esimerkiksi <cite>flang</cite> löytäisi muodot <cite>flange</cite> ja <cite>fang</cite>; vaatii ZEBRA-hakumoottorin käyttöä)."
+
+# Searching > Features
+msgid "searching.pref#QueryRegexEscapeOptions# Don't escape"
+msgstr "Älä käytä"
+
+# Searching > Features
+msgid "searching.pref#QueryRegexEscapeOptions# Escape"
+msgstr "Käytä"
+
+# Searching > Features
+msgid "searching.pref#QueryRegexEscapeOptions# Unescape escaped"
+msgstr "Poista"
+
+# Searching > Features
+msgid "searching.pref#QueryRegexEscapeOptions# regular expressions within query strings. If \"Unescape escaped\" is selected this will allow writing regular expressions \"\\/like this\\/\" while \"/this/\", \"or/this\" will be escaped and interpreted by Elasticsearch as regular strings."
+msgstr "hakulausekkeiden sisältämien säännönmukaisten lausekkeiden suojaus(ta). Jos \"Poista\" on valittu, voidaan kirjoittaa säännönmukaisia lausekkeita \" \\/tähän tapaan\\/\" kun taas \"/tämä/\", \"tai/tämä\" suojataan ja Elasticsearch tulkitsee ne tavallisiksi merkkijonoiksi."
 
 # Searching > Features
 msgid "searching.pref#QueryStemming# Don't try"
