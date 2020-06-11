@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-04-15 09:41-0300\n"
-"PO-Revision-Date: 2020-02-12 14:10+0200\n"
+"PO-Revision-Date: 2020-06-11 08:35+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -4211,7 +4211,7 @@ msgstr "viimeisimmästä aikaisimpaan"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#useDaysMode# Calculate the due date using"
-msgstr "Määritä palautuspäivä käyttäen"
+msgstr "Laske eräpäivä käyttäen"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#useDaysMode# circulation rules only."
@@ -4219,7 +4219,7 @@ msgstr "vain lainaussääntöjä"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#useDaysMode# the calendar to push the due date to the next open day"
-msgstr "kalenteria palautuspäivän siirtämiseksi seuraavaan aukiolopäivään"
+msgstr "kalenteria eräpäivän siirtämiseksi seuraavaan aukiolopäivään"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#useDaysMode# the calendar to skip all days the library is closed."
