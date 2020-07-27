@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-07-11 22:44+0300\n"
-"PO-Revision-Date: 2019-12-30 14:05+0200\n"
+"PO-Revision-Date: 2020-07-21 13:01+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -14665,7 +14665,7 @@ msgstr "MARC-tietueiden eräyhdistely."
 #: intranet-tmpl/prog/en/includes/tools-menu.inc
 #, c-format
 msgid "Batch patron deletion/anonymization"
-msgstr "Asiakkaiden poisto/lainatietojen poisto eräajona"
+msgstr "Asiakkaiden poisto/anonymisointi eräajona"
 
 #. For the first occurrence,
 #. %1$s:  Branches.GetName( current_branch )
@@ -50555,8 +50555,8 @@ msgid ""
 "deleting patrons, any combination of limits can be used."
 msgstr ""
 "Tällä työkalulla voit poistaa asiakkaita tai anonymisoida asiakkaiden "
-"lainahistorian. Asiakkaiden poistossa voidaan käyttää mitä tahansa "
-"rajoitteita."
+"lainahistorian. Asiakkaiden poistossa voidaan yhdistellä mitä tahansa "
+"vaihtoehtoja."
 
 #. %1$s:  field.marcfield
 #. %2$s:  ELSE
