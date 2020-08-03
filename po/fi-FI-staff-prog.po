@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-07-11 22:44+0300\n"
-"PO-Revision-Date: 2020-07-21 13:01+0300\n"
+"PO-Revision-Date: 2020-08-03 15:36+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -15773,7 +15773,7 @@ msgstr "Tietueen poisto ei onnistu, poista siihen liittyvät tilaukset ensin."
 #. SPAN
 #: intranet-tmpl/prog/en/modules/acqui/basket.tt
 msgid "Can't delete catalog record, see constraints below"
-msgstr "Tietueen poisto ei onnistu, alla olevian rajoituksien takia"
+msgstr "Tietueen poisto ei onnistu, alla olevien rajoitusten takia"
 
 #. SCRIPT
 #: intranet-tmpl/prog/en/modules/authorities/authorities.tt
@@ -27270,7 +27270,9 @@ msgstr "Jos tyhjä, käytetään järjestelmän oletuskieltä"
 #, c-format
 msgid ""
 "If items have been created when ordering or receiving, they will be deleted."
-msgstr "Tilattaessa ja vastaanotettaessa luodut niteet poistetaan."
+msgstr ""
+"Tilattaessa ja vastaanotettaessa luodut niteet poistetaan (vaikka ne olisi "
+"lainassa)."
 
 #: intranet-tmpl/prog/en/modules/tools/import_borrowers.tt
 #, c-format
