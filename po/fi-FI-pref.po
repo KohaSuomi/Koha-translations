@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-04-15 09:41-0300\n"
-"PO-Revision-Date: 2020-07-27 08:32+0300\n"
+"PO-Revision-Date: 2021-04-13 11:24+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-POOTLE-MTIME: 1507638846.000000\n"
 "Language-Team: \n"
 
@@ -1495,7 +1495,7 @@ msgstr "Ei"
 
 # Administration > Interface options
 msgid "admin.pref#noItemTypeImages# Show itemtype icons in the catalog: "
-msgstr "Näytä aineistolajien kuvakkeet hakutuloksissa: "
+msgstr "Näytä nidetyyppien kuvakkeet hakutuloksissa: "
 
 # Administration > Interface options
 msgid "admin.pref#noItemTypeImages# Yes"
@@ -2251,11 +2251,11 @@ msgstr "MARC-näkymässä kenttänumeroita, osakenttäkoodeja ja indikaattoreita
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#item-level_itypes# Use the item type of the"
-msgstr "Käytä aineistolajia"
+msgstr "Käytä nidetyyppiä"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#item-level_itypes# as the authoritative item type (for determining circulation and fines rules, for displaying an item type icon on either opac detail or results page, etc)."
-msgstr "määräävänä aineistolajina (kun määritetään laina- ja maksusääntöjä, aineistolajin kuvaketta verkkokirjastossa, hakutuloksissa jne.)."
+msgstr "määräävänä nidetyyppinä (kun määritetään laina- ja maksusääntöjä, nidetyypin kuvaketta verkkokirjastossa, hakutuloksissa jne.)."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#item-level_itypes# biblio record"
@@ -2447,7 +2447,7 @@ msgstr "Älä salli"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldItemTypeSelection# hold fulfillment to be limited by itemtype."
-msgstr "rajata varausten täyttymistä aineistolajin mukaan."
+msgstr "rajata varausten täyttymistä nidetyypin mukaan."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldPolicyOverride# Allow"
@@ -3939,7 +3939,7 @@ msgstr "kokoelmakoodiin"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#UseBranchTransferLimits# item type"
-msgstr "aineistolajiin"
+msgstr "nidetyyppiin"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#UseBranchTransferLimits# library transfer limits based on"
@@ -5556,7 +5556,7 @@ msgstr "Näytä"
 
 # OPAC > Appearance
 msgid "opac.pref#DisplayOPACiconsXSLT# the format, audience, and material type icons in XSLT MARC21 results and detail pages in the OPAC."
-msgstr "muodon, kohdeyleisön ja aineistolajien kuvakkeita XSLT MARC21-tuloksissa ja perustiedot-näkymässä verkkokirjastossa."
+msgstr "muodon, kohdeyleisön ja aineistotyyppien kuvakkeita XSLT MARC21-tuloksissa ja perustiedot-näkymässä verkkokirjastossa."
 
 # OPAC > Privacy
 msgid "opac.pref#EnableOpacSearchHistory# Don't keep"
@@ -7444,7 +7444,7 @@ msgstr "prioriteetin mukaisesti"
 
 # Searching > Search Form
 msgid "searching.pref#AdvancedSearchTypes# <em>Currently supported values</em>: Item types (<strong>itemtypes</strong>), Collection Codes (<strong>ccode</strong>) and Shelving Location (<strong>loc</strong>)."
-msgstr "<em>Tuetut arvot</em>: Aineistolaji (<strong>itemtypes</strong>), Kokoelmakoodi (<strong>ccode</strong>) ja Hyllypaikka (<strong>loc</strong>)."
+msgstr "<em>Tuetut arvot</em>: Nidetyyppi (<strong>itemtypes</strong>), Kokoelmakoodi (<strong>ccode</strong>) ja Hyllypaikka (<strong>loc</strong>)."
 
 # Searching > Search Form
 msgid "searching.pref#AdvancedSearchTypes# Show tabs in OPAC and staff-side advanced search for limiting searches on the"
@@ -8012,7 +8012,7 @@ msgstr "Muuta"
 
 # Serials
 msgid "serials.pref#makePreviousSerialAvailable# previous serial automatically available when receiving a new serial issue. The previous issue can also be set to another item type when receiving a new one. Please note that the item-level_itypes syspref must be set to specific item."
-msgstr "kausijulkaisun edellinen numero automaattisesti saatavaksi, kun seuraava numero otetaan vastaan. Edelliselle numerolle voidaan muuttaa myös toinen aineistolaji, kun seuraava numero otetaan vastaan. Huomioi, että item-level_itypes-järjestelmäasetukseen pitää tällöin olla asetettuna 'niteestä'."
+msgstr "kausijulkaisun edellinen numero automaattisesti saatavaksi, kun seuraava numero otetaan vastaan. Edelliselle numerolle voidaan muuttaa myös toinen nidetyyppi, kun seuraava numero otetaan vastaan. Huomioi, että item-level_itypes-järjestelmäasetukseen pitää tällöin olla asetettuna 'niteestä'."
 
 # Serials
 msgid "serials.pref#opacSerialDefaultTab# Holdings tab"

@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-07-11 22:44+0300\n"
-"PO-Revision-Date: 2019-07-22 16:22+0300\n"
+"PO-Revision-Date: 2021-04-13 11:25+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-POOTLE-MTIME: 1507540162.000000\n"
 "Language-Team: \n"
 
@@ -2256,7 +2256,7 @@ msgstr "Kiinniolojen lisäys"
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "Adding Item Types"
-msgstr "Lisää aineistolajeja"
+msgstr "Lisää nidetyyppejä"
 
 #: intranet-tmpl/prog/en/modules/help/tools/letter.tt
 #, c-format
@@ -3703,9 +3703,9 @@ msgid ""
 "check outs. To change this, click on the item type/patron category "
 "combination that you would like to stop notices for."
 msgstr ""
-"Oletuksena kaikista aineistolajeista lähetään ja kaikki asiakastyypit saavat "
+"Oletuksena kaikista nidetyypeistä lähetään ja kaikki asiakastyypit saavat "
 "viestin lainauksista ja palautuksista. Jos haluat muuttaa tämän, valitse "
-"aineistolaji/asiakastyyppi -yhdistelmä, joille viestejä ei lähetetä."
+"nidetyyppi/asiakastyyppi -yhdistelmä, joille viestejä ei lähetetä."
 
 #: intranet-tmpl/prog/en/modules/help/tools/export.tt
 #, c-format
@@ -4042,8 +4042,8 @@ msgid ""
 "Check the boxes for the libraries that you accept checkins from for the item "
 "type you have selected at the top."
 msgstr ""
-"Valitse ne kirjastot, joissa voi palauttaa ylhäällä valitsemasi "
-"aineistolajin niteen."
+"Valitse ne kirjastot, joissa voi palauttaa ylhäällä valitsemasi nidetyypin "
+"niteen."
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -4247,8 +4247,8 @@ msgid ""
 "Choose an 'Item Type' to perform the report on (or, leave at the default "
 "'All' to perform the report on all item types)"
 msgstr ""
-"Valitse 'Aineistolaji', jolle teet raportin (tai jätä se oletusarvoon "
-"'Kaikki' nähdäksesi raportin kaikista aineistolajeista)"
+"Valitse 'Nidetyyppi', jolle teet raportin (tai jätä se oletusarvoon 'Kaikki' "
+"nähdäksesi raportin kaikista nidetyypeistä)"
 
 #: intranet-tmpl/prog/en/modules/help/admin/classsources.tt
 #, c-format
@@ -4262,7 +4262,7 @@ msgid ""
 "or branches). If you don't want to apply any limits, simply click Next "
 "instead of making an option."
 msgstr ""
-"Valitse raporttisi rajoitteet kuten aineistolaji tai kirjasto. Jos et halua "
+"Valitse raporttisi rajoitteet kuten nidetyyppi tai kirjasto. Jos et halua "
 "rajoittaa raporttia, klikkaa 'Seuraava'."
 
 #: intranet-tmpl/prog/en/modules/help/reports/itemslost.tt
@@ -4296,8 +4296,8 @@ msgid ""
 "Choose the 'Item Type' you would like this rule to apply to. If you leave "
 "this to 'All' it will apply to all item types"
 msgstr ""
-"Valitse 'Aineistolaji', jota tämä sääntö koskee. Jos jätät tähän valinnan "
-"'Kaikki', se koskee kaikkia aineistolajeja"
+"Valitse 'Nidetyyppi', jota tämä sääntö koskee. Jos jätät tähän valinnan "
+"'Kaikki', se koskee kaikkia nidetyyppejä"
 
 #: intranet-tmpl/prog/en/modules/help/tools/stage-marc-import.tt
 #, c-format
@@ -4467,7 +4467,7 @@ msgid ""
 msgstr ""
 "Muun kuin oletuspohjan valitseminen ei ole pakollista, mutta on "
 "suositeltavaa raporttien ajamiseksi ja oikean aineistotyypin saamiseksi "
-"aineistolajeille tuonnissa."
+"nidetyypeille tuonnissa."
 
 #: intranet-tmpl/prog/en/modules/help/reports/acquisitions_stats.tt
 #, c-format
@@ -5658,7 +5658,7 @@ msgstr "Julkisen listan poisto"
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "Deleting Item Types"
-msgstr "Poista aineistolajeja"
+msgstr "Poista nidetyyppejä"
 
 #: intranet-tmpl/prog/en/modules/help/admin/audio_alerts.tt
 #, c-format
@@ -5938,8 +5938,8 @@ msgid ""
 "Each item type has an Edit button beside it. To edit an item simply click "
 "the 'Edit' link."
 msgstr ""
-"Jokaisella niteellä on vieressään muokkaa-painike. Jos haluat muokata "
-"nidettä, klikkaa 'Muokkaa'."
+"Jokaisella nidetyypillä on vieressään muokkaa-painike. Jos haluat muokata "
+"nidetyyppiä, klikkaa 'Muokkaa'."
 
 #: intranet-tmpl/prog/en/modules/help/admin/branches.tt
 #, c-format
@@ -6108,7 +6108,7 @@ msgstr "Kiinniolojen muokkaus"
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "Editing Item Types"
-msgstr "Aineistolajien muokkaus"
+msgstr "Nidetyyppien muokkaus"
 
 #: intranet-tmpl/prog/en/modules/help/members/moremember.tt
 #, c-format
@@ -6445,13 +6445,13 @@ msgid ""
 "Enter the total number of renewals allowed for the item type in the "
 "'Renewals' box"
 msgstr ""
-"Syötä sallittujen uusintojen määrä kullekin aineistolajille 'Uusinnat'-"
+"Syötä sallittujen uusintojen määrä kullekin nidetyypille 'Uusinnat'-"
 "laatikkoon"
 
 #: intranet-tmpl/prog/en/modules/help/tools/marc_modification_templates.tt
 #, c-format
 msgid "Enter the value of 'EBOOK' (or whatever your ebook item type code is)"
-msgstr "Syötä arvo 'EBOOK' (tai mikä ikinä e-kirjojen aineistolajisi onkaan)"
+msgstr "Syötä arvo 'EBOOK' (tai mikä ikinä e-kirjojen nidetyyppi onkaan)"
 
 #: intranet-tmpl/prog/en/modules/help/acqui/supplier.tt
 #, c-format
@@ -6838,7 +6838,7 @@ msgid ""
 "specific patron category a discount on that fee, enter the percentage "
 "discount (without the %% symbol) in the 'Rental Discount' field"
 msgstr ""
-"Jos perit aineistolajista lainausmaksua ja haluat antaa jollekin "
+"Jos perit nidetyypistä lainausmaksua ja haluat antaa jollekin "
 "asiakastyypille alennuksen tästä maksusta, syötä prosenttialennus (ilman %% "
 "merkkiä) 'Lainausmaksun alennus'-kenttään"
 
@@ -7147,7 +7147,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "For items that do not circulate, check the 'Not for loan' options "
-msgstr "Jos niteitä ei lainata, valitse 'Ei lainata' aineistolajille "
+msgstr "Jos niteitä ei lainata, valitse 'Ei lainata' nidetyypille "
 
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
@@ -7191,9 +7191,8 @@ msgid ""
 "For this library, you can edit rules for given itemtypes, regardless of the "
 "patron's category. Currently, this means hold policies."
 msgstr ""
-"Tälle kirjastolle voit muokata sääntöjä annetulle aineistolajille "
-"riippumatta asiakkaan tyypistä. Tällä hetkellä tämä tarkoittaa "
-"varaussääntöjä."
+"Tälle kirjastolle voit muokata sääntöjä annetulle nidetyypille riippumatta "
+"asiakkaan tyypistä. Tällä hetkellä tämä tarkoittaa varaussääntöjä."
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
@@ -7202,7 +7201,7 @@ msgid ""
 "of a given category can make, regardless of the item type."
 msgstr ""
 "Tälle kirjastolle voit asettaa asiakastyypeille lainojen maksimimäärän "
-"riippumatta aineistolajista."
+"riippumatta nidetyypistä."
 
 #: intranet-tmpl/prog/en/modules/help/serials/subscription-add.tt
 #, c-format
@@ -7546,7 +7545,7 @@ msgid ""
 "From the matrix you can choose any combination of patron categories and item "
 "types to apply the rules to"
 msgstr ""
-"Taulukosta voit valita minkä tahansa asiakastyypin ja aineistolajin "
+"Taulukosta voit valita minkä tahansa asiakastyypin ja nidetyypin "
 "yhdistelmän, jolle haluat säännöt"
 
 #: intranet-tmpl/prog/en/modules/help/acqui/addorderiso2709.tt
@@ -7782,8 +7781,8 @@ msgid ""
 "From this menu you can set a default to apply to all item types and patrons "
 "in the library."
 msgstr ""
-"Tässä valikossa voit asettaa oletuksen, joka koskee kaikkia aineistolajeja "
-"ja asiakastyyppejä kirjastossa."
+"Tässä valikossa voit asettaa oletuksen, joka koskee kaikkia nidetyyppejä ja "
+"asiakastyyppejä kirjastossa."
 
 #: intranet-tmpl/prog/en/modules/help/offline_circ/list.tt
 #, c-format
@@ -8526,7 +8525,7 @@ msgid ""
 "If the patron can place holds on this item type, enter the total numbers of "
 "items (of this type) that can be put on hold in the 'Holds Allowed' field"
 msgstr ""
-"Jos asiakas voi varata tätä aineistolajia, syötä numeroilla varausten "
+"Jos asiakas voi varata tätä nidetyyppiä, syötä numeroilla varausten "
 "enimmäismäärä 'Varauksia sallittu'-kenttään"
 
 #: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
@@ -8818,7 +8817,7 @@ msgid ""
 msgstr ""
 "Jos tämä on ensimmäinen kerta, kun kirjaudut Kohaan, sinun pitäisi mennä "
 "Kohan Ylläpitoon ja asettaa järjestelmällesi asetukset, asiakastyypit, "
-"aineistolajit ja kirjastot. Myös muut Ylläpidon asetukset pitää tarkistaa."
+"nidetyypit ja kirjastot. Myös muut Ylläpidon asetukset pitää tarkistaa."
 
 #: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
 #, c-format
@@ -10372,10 +10371,10 @@ msgid ""
 "this holds issue. Koha needs to know what rule to fall back on."
 msgstr ""
 "Tärkeää: Ainakin oletuslainaussääntö pitää määritellä. Tämä sääntö pitää "
-"määritellä koskemaan kaikkia aineistolajeja, kaikkia kirjastoja ja kaikkia "
+"määritellä koskemaan kaikkia nidetyyppejä, kaikkia kirjastoja ja kaikkia "
 "asiakastyyppejä. Sääntö pätee niissä tapauksissa, kun ei ole olemassa "
 "erityistä sääntöä. Kun lainataan ja ei ole sääntöä kaikille kirjastoille, "
-"kaikille aineistolajeille ja kaikille asiakastyypeille, asiakkaat eivät voi "
+"kaikille nidetyypeille ja kaikille asiakastyypeille, asiakkaat eivät voi "
 "välttämättä tehdä varauksia. Määrittele tiedot myös kirjastoittain, jos on "
 "erityisiä tarpeita. Koha tarvitsee tiedon, mitä sääntöä noudatetaan."
 
@@ -10536,7 +10535,7 @@ msgid ""
 msgstr ""
 "Tärkeää: Sen lisäksi, että voit käyttää auktorisoitujen arvojen koodeja "
 "alasvetovalikon tekoon, voit valita seuraavista arvoista myös: kirjastot "
-"(branches), aineistolajit (itemtypes) ja asiakastyypit (categorycode). "
+"(branches), nidetyypit (itemtypes) ja asiakastyypit (categorycode). "
 "Esimerkiksi kirjastojen alasvetovalikko luodaan näin: &lt;&lt;Branch|"
 "branches&gt;&gt;"
 
@@ -10800,7 +10799,7 @@ msgid ""
 "Important: To have your item type images appear in the OPAC you need to set "
 "noItemTypeImages to 'Show' "
 msgstr ""
-"Tärkeää: Jos haluat aineistolajien kuvakkeiden näkyvän verkkokirjastossa, "
+"Tärkeää: Jos haluat nidetyyppien kuvakkeiden näkyvän verkkokirjastossa, "
 "täytyy noItemTypeImages olla 'Näytä' "
 
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
@@ -11060,13 +11059,13 @@ msgid ""
 "status."
 msgstr ""
 "'Nidetiedot'-välilehdellä voit syöttää tiedon, joka lisätään kaikkiin "
-"tilattuihin nimekkeisiin, kuten esim. aineistolaji, kokoelmakoodi ja ei "
+"tilattuihin nimekkeisiin, kuten esim. nidetyyppi, kokoelmakoodi ja ei "
 "lainattavissa -tila."
 
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "In the 'Item Type' field, enter a short code for your item type"
-msgstr "Syötä 'Aineistolaji'-kenttään aineistolajin lyhyt tunnus"
+msgstr "Syötä 'Nidetyyppi'-kenttään nidetyypin lyhyt tunnus"
 
 #: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
 #, c-format
@@ -11366,7 +11365,7 @@ msgstr "Nidekohtainen lainahistoria"
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "Item Types"
-msgstr "Aineistolajit"
+msgstr "Nidetyypit"
 
 #: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
 #, c-format
@@ -11470,7 +11469,7 @@ msgid ""
 "Item types typically refer to the material type (book, cd, dvd, etc), but "
 "can be used in any way that works for your library."
 msgstr ""
-"Aineistolaji tyypillisesti on materiaalin mukaan (kirja, cd, dvd jne), mutta "
+"Nidetyyppi tyypillisesti on materiaalin mukaan (kirja, cd, dvd jne), mutta "
 "sitä voidaan käyttää myös muulla tavalla, joka toimii kirjastossasi."
 
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
@@ -11548,8 +11547,7 @@ msgstr "Kohan listat"
 msgid ""
 "Koha allows you to organize your collection by item types and collection "
 "codes."
-msgstr ""
-"Kohassa voit järjestää kokoelmasi aineistolajeilla ja kokoelmakoodeilla."
+msgstr "Kohassa voit järjestää kokoelmasi nidetyypeillä ja kokoelmakoodeilla."
 
 #: intranet-tmpl/prog/en/modules/help/admin/didyoumean.tt
 #, c-format
@@ -12099,7 +12097,7 @@ msgstr "Rajoita luokkanumeroväliin"
 #: intranet-tmpl/prog/en/modules/help/tools/export.tt
 #, c-format
 msgid "Limit to a specific item type"
-msgstr "Rajoita tiettyyn aineistolajiin"
+msgstr "Rajoita tiettyyn nidetyyppiin"
 
 #: intranet-tmpl/prog/en/modules/help/tools/export.tt
 #, c-format
@@ -12691,8 +12689,8 @@ msgid ""
 "Next decide if the patron can renew this item type and if so, enter how many "
 "times they can renew it in the 'Renewals Allowed' box"
 msgstr ""
-"Valitse seuraavaksi, voiko asiakas uusia tätä aineistolajia ja jos voi, "
-"syötä uusintojen määrä numerona 'Uusintoja sallittu' laatikkoon"
+"Valitse seuraavaksi, voiko asiakas uusia tätä nidetyyppiä ja jos voi, syötä "
+"uusintojen määrä numerona 'Uusintoja sallittu' laatikkoon"
 
 #: intranet-tmpl/prog/en/modules/help/members/memberentry.tt
 #, c-format
@@ -12736,7 +12734,7 @@ msgid ""
 msgstr ""
 "Voit lisätä toimintoja pohjaan täyttämällä 'Toiminnot'-laatikon. Esim. jos "
 "lataat tietueita eränä e-kirjojen toimittajalta, voit haluta lisätä "
-"aineistolajin EK kenttään 942$c."
+"aineistotyypin EK kenttään 942$c."
 
 #: intranet-tmpl/prog/en/modules/help/tools/import_borrowers.tt
 #, c-format
@@ -12803,7 +12801,7 @@ msgid ""
 "items that are on the shelf (or available in the library) or not. If you "
 "choose 'no' then items can only be placed on hold if checked out"
 msgstr ""
-"Seuraavaksi voit päättää, voiko asiakas/aineistolaji-yhdistelmä tehdä "
+"Seuraavaksi voit päättää, voiko asiakas/nidetyyppi-yhdistelmä tehdä "
 "varauksia hyllyssä olevaan aineistoon. Jos valitset 'Ei', vain lainassa "
 "olevaa aineistoa voidaan varata"
 
@@ -13893,7 +13891,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "Or you can just have no image associated with the item type"
-msgstr "Aineistolajiin ei ole pakko liittää kuvaa."
+msgstr "Nidetyyppiin ei ole pakko liittää kuvaa."
 
 #: intranet-tmpl/prog/en/modules/help/rotating_collections/rotatingCollections.tt
 #, c-format
@@ -14769,7 +14767,7 @@ msgid ""
 "Rental fees will be charged based on the settings in your Item Types "
 "administration area"
 msgstr ""
-"Lainausmaksut peritään aineistolajien asetusten mukaan, jotka on määritelty "
+"Lainausmaksut peritään nidetyyppien asetusten mukaan, jotka on määritelty "
 "ylläpidossa"
 
 #: intranet-tmpl/prog/en/modules/help/admin/patron-attr-types.tt
@@ -15365,7 +15363,7 @@ msgstr "Katso koko dokumentaatio nidetietueille "
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "See the full documentation for Item Types in the "
-msgstr "Katso koko dokumentaatio aineistolajeille "
+msgstr "Katso koko dokumentaatio nidetyypeille "
 
 #: intranet-tmpl/prog/en/modules/help/admin/items_search_fields.tt
 #, c-format
@@ -15759,7 +15757,7 @@ msgstr "Katso koko dokumentaatio kalenterille "
 #: intranet-tmpl/prog/en/modules/help/reports/manager.tt
 #, c-format
 msgid "See the full documentation for the Catalog by Item type report in the "
-msgstr "Katso koko dokumentaatio luettelo aineistolajeittain -raportille "
+msgstr "Katso koko dokumentaatio luettelo nidetyypeittäin -raportille "
 
 #: intranet-tmpl/prog/en/modules/help/admin/didyoumean.tt
 #, c-format
@@ -16857,7 +16855,7 @@ msgid ""
 "The 'Overdue Fines Cap' is the maximum fine for this patron and item "
 "combination "
 msgstr ""
-"'Maksimi myöhästymismaksu' on tämän asiakastyypin ja aineistolajin "
+"'Maksimi myöhästymismaksu' on tämän asiakastyypin ja nidetyypin "
 "yhdistelmälle määritelty korkein maksu "
 
 #: intranet-tmpl/prog/en/modules/help/serials/subscription-add.tt
@@ -17559,7 +17557,7 @@ msgstr "Kuvauskenttään syötät hyvityksen kuvauksen"
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "The description is the plain text definition of the item type"
-msgstr "Kuvaus on tekstimääritelmä aineistolajista"
+msgstr "Kuvaus on tekstimääritelmä nidetyypistä"
 
 #: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
 #, c-format
@@ -18217,7 +18215,7 @@ msgid ""
 "found in this order:"
 msgstr ""
 "Säännöt tarkistetaan tässä järjestyksessä, ja sääntönä käytetään ensimmäistä "
-"kirjaston, asiakastyypin ja aineistolajin mukaan osuvaa:"
+"kirjaston, asiakastyypin ja nidetyypin mukaan osuvaa:"
 
 #: intranet-tmpl/prog/en/modules/help/admin/matching-rules.tt
 #, c-format
@@ -18611,7 +18609,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/admin/item_circulation_alerts.tt
 #, c-format
 msgid "These preferences are set based on patron categories and item types."
-msgstr "Nämä asetukset perustuvat asiakastyyppiin ja aineistolajiin."
+msgstr "Nämä asetukset perustuvat asiakastyyppiin ja nidetyyppiin."
 
 #: intranet-tmpl/prog/en/modules/help/reports/reserves_stats.tt
 #, c-format
@@ -18911,8 +18909,8 @@ msgid ""
 "This one-step report will show you how many items of each item type are "
 "currently in your library or libraries."
 msgstr ""
-"Tämä yksiportainen raportti näyttää, montako nidettä kutakin aineistolajia "
-"on tällä hetkellä kirjastossasi tai kirjastoissa."
+"Tämä yksiportainen raportti näyttää, montako nidettä kutakin nidetyyppiä on "
+"tällä hetkellä kirjastossasi tai kirjastoissa."
 
 #: intranet-tmpl/prog/en/modules/help/tools/quotes-upload.tt
 #, c-format
@@ -19079,7 +19077,7 @@ msgid ""
 "This report will list the total number of items of each item type per "
 "library."
 msgstr ""
-"Tämä raportti listaa kokonaismäärän kunkin aineistolajin niteistä "
+"Tämä raportti listaa kokonaismäärän kunkin nidetyypin niteistä "
 "kirjastoittain."
 
 #: intranet-tmpl/prog/en/modules/help/circ/waitingreserves.tt
@@ -19494,8 +19492,8 @@ msgid ""
 "Tip: All fields, with the exception of the 'Item Type' will be editable from "
 "the Item Types list"
 msgstr ""
-"Vinkki: Kaikki kentät paitsi 'Aineistolaji' ovat muokattavissa "
-"aineistolajien listalla"
+"Vinkki: Kaikki kentät paitsi 'Nidetyyppi' ovat muokattavissa nidetyyppien "
+"listalla"
 
 #: intranet-tmpl/prog/en/modules/help/admin/fieldmapping.tt
 #, c-format
@@ -19525,7 +19523,7 @@ msgid ""
 msgstr ""
 "Vinkki: Jos annetulle asiakastyypille on jätetty tyhjäksi lainattavien "
 "niteiden kokonaismäärä, mitään rajoitusta ei ole, paitsi mahdollinen "
-"rajoitus tietyn aineistolajin mukaan."
+"rajoitus tietyn nidetyypin mukaan."
 
 #: intranet-tmpl/prog/en/modules/help/admin/branches.tt
 #, c-format
@@ -19811,8 +19809,8 @@ msgid ""
 "To add a new item type, simply click the 'New Item Type' button at the top "
 "of the Item Types page."
 msgstr ""
-"Jos haluat lisätä uuden aineistolajin, klikkaa 'Uusi aineistolaji' "
-"aineistolajien sivun yläreunassa."
+"Jos haluat lisätä uuden nidetyypin, klikkaa 'Uusi nidetyyppi' nidetyyppien "
+"sivun yläreunassa."
 
 #: intranet-tmpl/prog/en/modules/help/patroncards/edit-layout.tt
 #: intranet-tmpl/prog/en/modules/help/labels/label-manage.tt
@@ -21028,7 +21026,7 @@ msgid ""
 "limiting to Item Type, Collection Code and/or Shelving location."
 msgstr ""
 "Käytä AdvancedSearchTypes-asetusta määrittämään, mitä välilehtiä näkyy "
-"rajoittamaan aineistolajia, kokoelmakoodia ja/tai hyllypaikkaa."
+"rajoittamaan nidetyyppiä, kokoelmakoodia ja/tai hyllypaikkaa."
 
 #: intranet-tmpl/prog/en/modules/help/admin/authorised_values.tt
 #, c-format
@@ -21149,7 +21147,7 @@ msgid ""
 "libraries)"
 msgstr ""
 "Laina- ja maksusääntöjen matriisilla voit määritellä sääntöjä, jotka "
-"perustuvat asiakastyyppien ja aineistolajien yhdistelmiin. Määrittääksesi "
+"perustuvat asiakastyyppien ja nidetyyppien yhdistelmiin. Määrittääksesi "
 "säännöt, valitse kirjasto alasvetovalikosta (tai 'kaikki kirjastot', jos "
 "haluat säännön koskevan kaikkia kirjastoja)"
 
@@ -21568,8 +21566,8 @@ msgid ""
 "delete your rule, simply click the 'Delete' link to the right of the rule."
 msgstr ""
 "Kun olet valmis, klikkaa 'Lisää' tallentaaksesi muutokset. Muokataksesi "
-"sääntöä, luo uusi sääntö samalle asiakastyypille ja aineistolajille. Jos "
-"haluat poistaa säännön, klikkaa 'Poista'-linkkiä säännön oikealla puolella."
+"sääntöä, luo uusi sääntö samalle asiakastyypille ja nidetyypille. Jos haluat "
+"poistaa säännön, klikkaa 'Poista'-linkkiä säännön oikealla puolella."
 
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
@@ -22163,7 +22161,7 @@ msgid ""
 "the item type in question. The options are: "
 msgstr ""
 "Voit myös päättää, voivatko asiakkaat tehdä nidevarauksia tietystä "
-"aineistolajista. Nämä valinnat ovat: "
+"nidetyypistä. Nämä valinnat ovat: "
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
@@ -22174,8 +22172,8 @@ msgid ""
 "specify."
 msgstr ""
 "Voit myös määritellä pakollisen eräpäivän tietylle asiakastyypille ja "
-"aineistolajille. Pakollinen eräpäivä ohittaa normaalin lainaussäännön ja "
-"tarkoittaa, että kaikki määritellyn aineistolajin niteet erääntyvät tiettynä "
+"nidetyypille. Pakollinen eräpäivä ohittaa normaalin lainaussäännön ja "
+"tarkoittaa, että kaikki määritellyn nidetyypin niteet erääntyvät tiettynä "
 "päivänä, ennen tai jälkeen asettamasi päiväyksen."
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
@@ -22342,7 +22340,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "You can choose to have an image associated with your item type "
-msgstr "Voit valita aineistolajille kuvan "
+msgstr "Voit valita nidetyypille kuvan "
 
 #: intranet-tmpl/prog/en/modules/help/suggestion/suggestion.tt
 #, c-format
@@ -22466,8 +22464,8 @@ msgid ""
 "be used if none is defined below for a particular item type or category."
 msgstr ""
 "Voit asettaa oletuksen lainojen ja varausten maksimimäärälle. Se on "
-"käytössä, jos muuta ei ole määritelty alapuolella tietylle aineistolajille "
-"tai kategorialle."
+"käytössä, jos muuta ei ole määritelty alapuolella tietylle nidetyypille tai "
+"kategorialle."
 
 #: intranet-tmpl/prog/en/modules/help/circ/circulation.tt
 #, c-format
@@ -22575,10 +22573,10 @@ msgid ""
 "rules are right for your new item types (whether they be hourly or daily "
 "loans)."
 msgstr ""
-"Voit myös lisätä uusia aineistolajeja, kokoelmakoodeja ja/tai hyllypaikkoja, "
+"Voit myös lisätä uusia nidetyyppejä, kokoelmakoodeja ja/tai hyllypaikkoja, "
 "jotta kursseille varatut niteet ovat selkeästi varattu kurssin "
 "osallistujille. On myös tarkistettava, että Laina- ja maksusäännöt ovat "
-"oikein kurssien uusille aineistolajeille."
+"oikein kurssien uusille nidetyypeille."
 
 #: intranet-tmpl/prog/en/modules/help/tools/quotes.tt
 #, c-format
@@ -22882,15 +22880,14 @@ msgstr "Syötä tunnus ja kuvaus."
 msgid ""
 "You will not be able to delete item types that are being used by items "
 "within your system."
-msgstr "Et voi poistaa aineistolajia, joka on käytössä järjestelmäsi niteissä."
+msgstr "Et voi poistaa nidetyyppiä, joka on käytössä järjestelmäsi niteissä."
 
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid ""
 "You will not be able to edit the code you assigned as the 'Item Type' but "
 "you will be able to edit the description for the item."
-msgstr ""
-"Et voi muokata 'Aineistolajin' tunnusta, mutta voit muokata sen kuvausta."
+msgstr "Et voi muokata 'Nidetyypin' tunnusta, mutta voit muokata sen kuvausta."
 
 #: intranet-tmpl/prog/en/modules/help/tools/manage-marc-import.tt
 #, c-format
@@ -22993,7 +22990,7 @@ msgstr ""
 #: intranet-tmpl/prog/en/modules/help/admin/itemtypes.tt
 #, c-format
 msgid "Your new item type will now appear on the list"
-msgstr "Uusi aineistolaji näkyy nyt listalla"
+msgstr "Uusi nidetyyppi näkyy nyt listalla"
 
 #: intranet-tmpl/prog/en/modules/help/mainpage.tt
 #, c-format
@@ -23110,22 +23107,22 @@ msgstr "hankinta "
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "all libraries, all patron categories, all item types"
-msgstr "kaikki kirjastot, kaikki asiakastyypit, kaikki aineistolajit"
+msgstr "kaikki kirjastot, kaikki asiakastyypit, kaikki nidetyypit"
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "all libraries, all patron categories, same item type"
-msgstr "kaikki kirjastot, kaikki asiakastyypit, sama aineistolaji"
+msgstr "kaikki kirjastot, kaikki asiakastyypit, sama nidetyyppi"
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "all libraries, same patron category, all item types"
-msgstr "kaikki kirjastot, sama asiakastyyppi, kaikki aineistolajit"
+msgstr "kaikki kirjastot, sama asiakastyyppi, kaikki nidetyypit"
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "all libraries, same patron category, same item type"
-msgstr "kaikki kirjastot, sama asiakastyyppi, sama aineistolaji"
+msgstr "kaikki kirjastot, sama asiakastyyppi, sama nidetyyppi"
 
 #: intranet-tmpl/prog/en/modules/help/admin/biblio_framework.tt
 #: intranet-tmpl/prog/en/modules/help/admin/marc_subfields_structure.tt
@@ -24417,22 +24414,22 @@ msgstr "kiertolista "
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "same library, all patron categories, all item types"
-msgstr "sama kirjasto, kaikki asiakastyypit, kaikki aineistolajit"
+msgstr "sama kirjasto, kaikki asiakastyypit, kaikki nidetyypit"
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "same library, all patron categories, same item type"
-msgstr "sama kirjasto, kaikki asiakastyypit, sama aineistolaji"
+msgstr "sama kirjasto, kaikki asiakastyypit, sama nidetyyppi"
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "same library, same patron category, all item type"
-msgstr "sama kirjasto, sama asiakastyyppi, kaikki aineistolajit"
+msgstr "sama kirjasto, sama asiakastyyppi, kaikki nidetyypit"
 
 #: intranet-tmpl/prog/en/modules/help/admin/smart-rules.tt
 #, c-format
 msgid "same library, same patron category, same item type"
-msgstr "sama kirjasto, sama asiakastyyppi, sama aineistolaji"
+msgstr "sama kirjasto, sama asiakastyyppi, sama nidetyyppi"
 
 #: intranet-tmpl/prog/en/modules/help/members/member-flags.tt
 #, c-format
@@ -24616,7 +24613,7 @@ msgstr "writeoff"
 #: intranet-tmpl/prog/en/modules/help/cataloguing/additem.tt
 #, c-format
 msgid "y - Koha item type"
-msgstr "y - Kohan aineistolaji"
+msgstr "y - Kohan nidetyyppi"
 
 #: intranet-tmpl/prog/en/modules/help/tools/csv-profiles.tt
 #, c-format
