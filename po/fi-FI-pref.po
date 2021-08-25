@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-04-15 09:41-0300\n"
-"PO-Revision-Date: 2021-04-13 11:24+0300\n"
+"PO-Revision-Date: 2021-08-25 09:00+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -4211,7 +4211,7 @@ msgstr "viimeisimmästä aikaisimpaan"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#useDaysMode# Calculate the due date using"
-msgstr "Laske eräpäivä käyttäen"
+msgstr "Määritä palautuspäivä käyttäen"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#useDaysMode# circulation rules only."
@@ -4219,7 +4219,7 @@ msgstr "vain lainaussääntöjä"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#useDaysMode# the calendar to push the due date to the next open day"
-msgstr "kalenteria eräpäivän siirtämiseksi seuraavaan aukiolopäivään"
+msgstr "kalenteria palautuspäivän siirtämiseksi seuraavaan aukiolopäivään"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#useDaysMode# the calendar to skip all days the library is closed."
@@ -5556,7 +5556,7 @@ msgstr "Näytä"
 
 # OPAC > Appearance
 msgid "opac.pref#DisplayOPACiconsXSLT# the format, audience, and material type icons in XSLT MARC21 results and detail pages in the OPAC."
-msgstr "muodon, kohdeyleisön ja aineistotyyppien kuvakkeita XSLT MARC21-tuloksissa ja perustiedot-näkymässä verkkokirjastossa."
+msgstr "muodon, kohdeyleisön ja aineistotyypin kuvakkeita XSLT MARC21-tuloksissa ja perustiedot-näkymässä verkkokirjastossa."
 
 # OPAC > Privacy
 msgid "opac.pref#EnableOpacSearchHistory# Don't keep"
@@ -5943,8 +5943,8 @@ msgid "opac.pref#OPACUserCSS# Include the following CSS on all pages in the OPAC
 msgstr "Kaytä verkkokirjastossa seuraavia CSS-määrityksiä:"
 
 # OPAC > Appearance
-msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC:"
-msgstr "Sisällytä seuraava JavaScript kaikille sivuille verkkokirjastossa:"
+msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC. You may need to ask your system administrator to run rehash_userjs_sysprefs.pl after changing this."
+msgstr "Sisällytä seuraava JavaScript kaikille verkkokirjaston sivuille. Voit joutua pyytämään ylläpitäjää ajamaan rehash_userjs_sysprefs.pl-ajon järjestelmäasetuksen muuttamisen jälkeen."
 
 # OPAC > Policy
 msgid "opac.pref#OPACViewOthersSuggestions# Don't show"
@@ -7658,6 +7658,18 @@ msgstr "PazPar2-hakumoottoria samantyyppisten tulosten ryhmittelyyn verkkokirjas
 msgid "searching.pref#OpacGroupResults# Use"
 msgstr "Käytä"
 
+# Searching > Results Display
+msgid "searching.pref#PassItemMarcToXSLT# Do"
+msgstr "Tee"
+
+# Searching > Results Display
+msgid "searching.pref#PassItemMarcToXSLT# Don't"
+msgstr "Älä tee"
+
+# Searching > Results Display
+msgid "searching.pref#PassItemMarcToXSLT# make item MARC tags available to XSLT stylesheets. Default is \"Don't\", items are disaplyed using other methods"
+msgstr "niteen MARC-tietoja saatavaksi XSLT-tyylitiedostoille. Oletus on 'Älä tee', jolloin niteet näytetään muilla keinoin."
+
 # Searching > Features
 msgid "searching.pref#QueryAutoTruncate# <br />(The * character would be used like so: <cite>Har*</cite> or <cite>*logging</cite>.)"
 msgstr "<br />(Jokerimerkkiä * käytetään sanojen katkaisuun, esimerkiksi: <cite>Har*</cite> tai <cite>*logging</cite>.)"
@@ -7804,7 +7816,7 @@ msgstr "Virkailijaliittymän hakutulosten oletusjärjestys on"
 
 # Searching > Results Display
 msgid "searching.pref#defaultSortField# ascending."
-msgstr "nouseva järjestys / vanhimmat ensin."
+msgstr "nouseva järjestys / uusimmat ensin."
 
 # Searching > Results Display
 msgid "searching.pref#defaultSortField# author"
@@ -7824,7 +7836,7 @@ msgstr "julkaisuajan mukaan"
 
 # Searching > Results Display
 msgid "searching.pref#defaultSortField# descending."
-msgstr "laskeva järjestys / uusimmat ensin."
+msgstr "laskeva järjestys / vanhimmat ensin."
 
 # Searching > Results Display
 msgid "searching.pref#defaultSortField# from A to Z."
@@ -8147,8 +8159,8 @@ msgid "staff_client.pref#IntranetUserCSS# Include the following CSS on all pages
 msgstr "Käytä seuraavaa CSS-tyylitiedostoa virkailijaliittymän kaikilla sivuilla:"
 
 # Staff Client > Appearance
-msgid "staff_client.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff client:"
-msgstr "Sisällytä seuraava JavaScript kaikille virkailijaliittymän sivuille:"
+msgid "staff_client.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff client. You may need to ask your system administrator to run rehash_userjs_sysprefs.pl after changing this."
+msgstr "Sisällytä seuraava JavaScript kaikille virkailijaliittymän sivuille. Voit joutua pyytämään ylläpitäjää ajamaan rehash_userjs_sysprefs.pl-ajon järjestelmäasetuksen muuttamisen jälkeen."
 
 # Staff Client > Appearance
 msgid "staff_client.pref#IntranetmainUserblock# Show the following HTML in its own column on the main page of the staff client:"
