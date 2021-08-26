@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-08-23 14:01+0300\n"
-"PO-Revision-Date: 2021-08-24 15:59+0300\n"
+"PO-Revision-Date: 2021-08-26 09:29+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -3347,8 +3347,8 @@ msgid ""
 "item of this type can be issued unless notforloan is set for a specific "
 "item) "
 msgstr ""
-"%s (Valinta estää tämän aineistolajin varaamisen. Jos jätät tämän valinnan "
-"tyhjäksi, tätä aineistolajia voi varata, ellei \"ei lainata\"-valinta ole "
+"%s (Valinta estää tämän nidetyypin varaamisen. Jos jätät tämän valinnan "
+"tyhjäksi, tätä nidetyyppiä voi varata, ellei \"ei lainata\"-valinta ole "
 "voimassa.) "
 
 #. For the first occurrence,
@@ -4119,8 +4119,8 @@ msgid ""
 "%s Item returns home %s Item returns to issuing branch %s Item floats %s "
 "Error - unknown option %s "
 msgstr ""
-"%s Nide palaa kotikirjastoon%s Nide palaa lainaavaan kirjastoon %s Aineisto "
-"jää kellumaan %s Virhe - tuntematon toiminto %s "
+"%s Nide palaa kotikirjastoon%s Nide palaa lainaavaan kirjastoon %s Nide jää "
+"kellumaan %s Virhe - tuntematon toiminto %s "
 
 #. %1$s:  END
 #: intranet-tmpl/prog/en/modules/admin/smart-rules.tt:892
@@ -10422,7 +10422,7 @@ msgstr "-- Valitse tila --"
 #: intranet-tmpl/prog/en/modules/virtualshelves/downloadshelf.tt:32
 #, c-format
 msgid "-- Choose format --"
-msgstr "-- Valitse aineistolaji --"
+msgstr "-- Valitse formaatti --"
 
 #: intranet-tmpl/prog/en/modules/admin/audio_alerts.tt:49
 #, c-format
@@ -17929,7 +17929,7 @@ msgstr "Lainaustila:"
 #: intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:180
 #, c-format
 msgid "Checkouts"
-msgstr "Lainassa"
+msgstr "Lainat"
 
 #: intranet-tmpl/prog/en/includes/blocked-fines.inc:8
 #: intranet-tmpl/prog/en/modules/circ/circulation.tt:876
@@ -20457,7 +20457,8 @@ msgid ""
 "for the MARC editor."
 msgstr ""
 "Luo ja käsittele nimekkeiden tallennuspohjia, jotka määrittelevät MARC-"
-"tietueen kenttiä ja osakenttiä eri aineistolajien luettelointipohjien kautta."
+"tietueen kenttiä ja osakenttiä eri aineistotyyppien luettelointipohjien "
+"kautta."
 
 #: intranet-tmpl/prog/en/modules/tools/tools-home.tt:50
 #, c-format
@@ -29006,7 +29007,7 @@ msgid ""
 msgstr ""
 "Tärkeää: Lainasäännöt perustuvat nidetyyppeihin. Lainasäännöt määrittelevät, "
 "kuinka kirjastossasi lainataan niteitä: laina-ajan pituus, uusimissäännöt, "
-"varaussäännöt jne. Esimerkiksi DVD-aineistolajin lainasäännöksi voi laittaa, "
+"varaussäännöt jne. Esimerkiksi DVD-nidetyypin lainasäännöksi voi laittaa, "
 "että DVD:n lainaamisesta menee 1 euron maksu."
 
 #. For the first occurrence,
@@ -30002,12 +30003,12 @@ msgstr "Nide palautettu"
 #: intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1163
 #, c-format
 msgid "Item returns home"
-msgstr "Aineisto palaa kotikirjastoon"
+msgstr "Nide palaa kotikirjastoon"
 
 #: intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1164
 #, c-format
 msgid "Item returns to issuing library"
-msgstr "Nide palautuu tilaavaan kirjastoon"
+msgstr "Nide palautuu lainaavaan kirjastoon"
 
 #: intranet-tmpl/prog/en/includes/header.inc:11
 #: intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:418
@@ -52744,7 +52745,7 @@ msgstr "Nide on kadonnut"
 #: intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:154
 #, c-format
 msgid "This item is on hold for another patron."
-msgstr "Tämä aineisto varattu toiselle asiakkaalle."
+msgstr "Tämä aineisto on varattu toiselle asiakkaalle."
 
 #: intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:198
 #, c-format
@@ -52752,7 +52753,7 @@ msgid ""
 "This item is on hold for another patron. The hold will be overridden, but "
 "not cancelled."
 msgstr ""
-"Tämä aineisto varattu toiselle asiakkaalle. Varaus ohitetaan, mutta ei "
+"Tämä aineisto on varattu toiselle asiakkaalle. Varaus ohitetaan, mutta ei "
 "peruuteta."
 
 #. %1$s:  Branches.GetName( branchname )
@@ -52769,12 +52770,12 @@ msgstr "Tämä nide odottaa noutoa kirjastossasi"
 #: intranet-tmpl/prog/en/modules/circ/returns.tt:197
 #, c-format
 msgid "This item is part of a rotating collection."
-msgstr "Tämä aineisto on osa siirtokokoelmaa."
+msgstr "Tämä nide on osa siirtokokoelmaa."
 
 #: intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:151
 #, c-format
 msgid "This item is waiting for another patron."
-msgstr "Tämä aineisto on noudettavana toiselle asiakkaalle."
+msgstr "Tämä nide on noudettavana toiselle asiakkaalle."
 
 #: intranet-tmpl/prog/en/modules/circ/returns.tt:248
 #, c-format
@@ -52833,7 +52834,7 @@ msgstr "Tämä viesti johtuu jostain seuraavasta syystä:"
 #, c-format
 msgid "This patron can't check out this item per library circulation policy."
 msgstr ""
-"Tämä asiakas ei voi lainata tätä aineistoa, koska kirjaston lainaussäännöt "
+"Tämä asiakas ei voi lainata tätä nidettä, koska kirjaston lainaussäännöt "
 "estävät sen."
 
 #: intranet-tmpl/prog/en/modules/circ/circulation.tt:1122
@@ -54185,7 +54186,7 @@ msgstr "Siirretty tilauskorista: "
 #: intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:171
 #, c-format
 msgid "Transferred items"
-msgstr "Siirretty aineisto"
+msgstr "Kuljetettava aineisto"
 
 #: intranet-tmpl/prog/en/modules/acqui/basket.tt:733
 #, c-format
