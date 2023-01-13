@@ -1,23 +1,19 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 21.05\n"
-"POT-Creation-Date: 2021-07-19 08:09-0300\n"
-"PO-Revision-Date: 2021-11-19 13:29+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: fi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-20 15:14-0300\n"
+"PO-Revision-Date: 2021-11-17 12:22+0000\n"
+"Last-Translator: marie.hedbom <marie.hedbom@musikverket.se>\n"
+"Language-Team: \n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1637328551.369679\n"
-"X-Pootle-Path: /fi/21.05/fi-FI-marc-NORMARC.po\n"
+"X-POOTLE-MTIME: 1637151751.993503\n"
+"X-Pootle-Path: /sv/21.05/sv-SE-marc-NORMARC.po\n"
 "X-Pootle-Revision: 1\n"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:494
@@ -39,7 +35,7 @@ msgstr "(Se "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:194
 #, c-format
 msgid "(autofylt)"
-msgstr "(täytetty automaattisesti)"
+msgstr "(fylls i automatiskt)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:418
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:447
@@ -59,7 +55,7 @@ msgstr "+and+(bib-level:a+or+bib-level:b)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:22
 #, c-format
 msgid ",complete-subfield"
-msgstr ",complete-subfield"
+msgstr ",fullständigt-delfält"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslimUtils.xsl:75
 #, c-format
@@ -133,9 +129,9 @@ msgstr "/cgi-bin/koha/catalogue/search.pl?q=rcn:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:175
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:190
-#, c-format
+#, fuzzy, c-format
 msgid "/cgi-bin/koha/catalogue/search.pl?q=se:"
-msgstr "/cgi-bin/koha/catalogue/search.pl?q=se:"
+msgstr "/cgi-bin/koha/catalogue/search.pl?q=su"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:425
 #, c-format
@@ -224,9 +220,9 @@ msgstr "/cgi-bin/koha/opac-search.pl?q=rcn:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:204
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:219
-#, c-format
+#, fuzzy, c-format
 msgid "/cgi-bin/koha/opac-search.pl?q=se:"
-msgstr "/cgi-bin/koha/opac-search.pl?q=se:"
+msgstr "/cgi-bin/koha/opac-search.pl?q=su"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:453
 #, c-format
@@ -267,7 +263,7 @@ msgstr "/opac-tmpl/"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:170
 #, c-format
 msgid "0 Fullstendig beskrivelse"
-msgstr "0 Tarkat tiedot"
+msgstr "0 Fullständig beskrivning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:164
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:166
@@ -278,17 +274,17 @@ msgstr "0 Norges nasjonalbibliografi, autorisert post"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:10
 #, c-format
 msgid "00 Type materiale: "
-msgstr "00 Type materiale: "
+msgstr "00 Materialtyp: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:11
 #, c-format
 msgid "00-04 Systemgenerert informasjon"
-msgstr "00-04 Automaattisesti syötetty tieto"
+msgstr "00-04 Systemgenererad information"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:56
 #, c-format
 msgid "00-05 Registreringsdato"
-msgstr "00-05 Tallennuspäivämäärä"
+msgstr "00-05 Registreringsdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:2
 #, c-format
@@ -298,22 +294,22 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:8
 #, c-format
 msgid "000 - Postens hode"
-msgstr "000 - Postens hode"
+msgstr "000 - Postrubrik"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:6
 #, c-format
 msgid "007 Fysisk beskrivelse av dokumentet"
-msgstr "007 Dokumentin fyysinen kuvailu"
+msgstr "007 Fysisk beskrivelse av dokumentet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:2
 #, fuzzy, c-format
 msgid "007 feltbygger &rsaquo; Cataloging &rsaquo; Koha"
-msgstr "Koha &rsaquo; Cataloging &rsaquo; 007 feltbygger"
+msgstr "Koha &rsaquo; Katalogisering &rsaquo; 007-verktyg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:6
 #, c-format
 msgid "008 Informasjonskoder"
-msgstr "008 Informaatiokoodit"
+msgstr "008 Informasjonskoder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:15
 #, c-format
@@ -438,7 +434,7 @@ msgstr "9 Annen kilde"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:475
 #, c-format
 msgid "; Format: "
-msgstr "; Formaatti: "
+msgstr "; Format: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:505
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:551
@@ -446,7 +442,7 @@ msgstr "; Formaatti: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:559
 #, c-format
 msgid "; Innhold: "
-msgstr "; Sisältää: "
+msgstr "; Innehåll: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:561
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:577
@@ -454,7 +450,7 @@ msgstr "; Sisältää: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:585
 #, c-format
 msgid "; Litterær form: "
-msgstr "; Kirjoitusasu: "
+msgstr "; Litterär form: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:602
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:627
@@ -466,31 +462,31 @@ msgstr "; Kirjoitusasu: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:747
 #, c-format
 msgid "; Målgruppe: "
-msgstr "; Kohderyhmä: "
+msgstr "; Målgruppe: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:534
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:537
 #, c-format
 msgid "; Type maskinlesbar fil: "
-msgstr "; Type maskinlesbar fil: "
+msgstr "; Typ av maskinläsbar fil: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:493
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:491
 #, c-format
 msgid "; Type periodikum: "
-msgstr "; Type periodikum: "
+msgstr "; Typ av periodika: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:417
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:446
 #, c-format
 msgid "AND "
-msgstr "AND "
+msgstr "OCH "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:521
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:521
 #, c-format
 msgid "Adressebøker"
-msgstr "Osoitekirjat"
+msgstr "Adressböcker"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:207
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:407
@@ -498,49 +494,49 @@ msgstr "Osoitekirjat"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:395
 #, c-format
 msgid "Analytics: "
-msgstr "Kausijulkaisut: "
+msgstr "Analys: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:115
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:160
 #, c-format
 msgid "Anamorfisk kart"
-msgstr "Anamorfinen kartta"
+msgstr "Anamorfisk karta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:596
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:604
 #, c-format
 msgid "Andre typer innhold"
-msgstr "Muut aineistot"
+msgstr "Andra innehållstyper"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:500
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:498
 #, c-format
 msgid "Andre typer periodika"
-msgstr "Muut jatkuvat julkaisut"
+msgstr "Andra typer av peridika"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:519
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:519
 #, c-format
 msgid "Anmeldelser"
-msgstr "Anmeldelser"
+msgstr "Recensioner"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:208
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:253
 #, c-format
 msgid "Annen filmtype"
-msgstr "Annen filmtype"
+msgstr "Annan filmtyp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:157
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:202
 #, c-format
 msgid "Annen globustype"
-msgstr "Annen globustype"
+msgstr "Annan globustyp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:135
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:180
 #, c-format
 msgid "Annen karttype"
-msgstr "Annen karttype"
+msgstr "Annan karttyp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:168
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:200
@@ -548,55 +544,55 @@ msgstr "Annen karttype"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:245
 #, c-format
 msgid "Annen materialtype"
-msgstr "Annen materialtype"
+msgstr "Annan materialtyp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:178
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:223
 #, c-format
 msgid "Annen mikroformtype"
-msgstr "Annen mikroformtype"
+msgstr "Annan mikroformtyp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:87
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:132
 #, c-format
 msgid "Annen tale/annet"
-msgstr "Annen tale/annet"
+msgstr "Annat tal/annat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:236
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:281
 #, c-format
 msgid "Annen type gjenstand"
-msgstr "Annen type gjenstand"
+msgstr "Annan exemplartyp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:244
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:289
 #, c-format
 msgid "Annen type videoopptak"
-msgstr "Annen type videoopptak"
+msgstr "Annan typ av video"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:149
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:194
 #, c-format
 msgid "Annet lagringsmedium"
-msgstr "Annet lagringsmedium"
+msgstr "Annat lagringsmedia"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:222
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:267
 #, c-format
 msgid "Annet lydmateriale"
-msgstr "Annet lydmateriale"
+msgstr "Annat ljudmaterial"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:572
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:580
 #, c-format
 msgid "Antologi"
-msgstr "Antologia"
+msgstr "Antologi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:107
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:152
 #, c-format
 msgid "Artikler (i bøker eller periodika)"
-msgstr "Artikkeli (kirjassa tai kausijulkaisussa)"
+msgstr "Artiklar (i böcker eller periodika)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:75
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:116
@@ -604,7 +600,7 @@ msgstr "Artikkeli (kirjassa tai kausijulkaisussa)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:161
 #, c-format
 msgid "Atlas"
-msgstr "Kartasto, Atlas"
+msgstr "Atlas"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:677
 #, c-format
@@ -614,7 +610,7 @@ msgstr ""
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:836
 #, c-format
 msgid "Availability: "
-msgstr "Saatavuus: "
+msgstr "Tillgänglighet: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:70
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:198
@@ -626,31 +622,31 @@ msgstr "Avbryt"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:496
 #, c-format
 msgid "Avis"
-msgstr "Sanomalehti"
+msgstr "Avis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:522
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:583
 #, c-format
 msgid "Avløser delvis: "
-msgstr "Avløser delvis: "
+msgstr "Avlöser delvis: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:519
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:580
 #, c-format
 msgid "Avløser: "
-msgstr "AvlÃ¸ser: "
+msgstr "Avlöser: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:569
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:630
 #, c-format
 msgid "Avløst av: "
-msgstr "AvlÃ¸st av: "
+msgstr "Avlöst av: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:83
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:128
 #, c-format
 msgid "Avspiller med lydfil (eks. Digibøker)"
-msgstr "Avspiller med lydfil (eks. DigibÃ¸ker)"
+msgstr "Spelar ljudfil (t.ex. digitala böcker)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:608
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:633
@@ -660,7 +656,7 @@ msgstr "Avspiller med lydfil (eks. DigibÃ¸ker)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:733
 #, c-format
 msgid "Barn i alderen til og med 5 år;"
-msgstr "Esikouluikäiset"
+msgstr "Barn till och med 5 år;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:606
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:631
@@ -672,116 +668,116 @@ msgstr "Esikouluikäiset"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:752
 #, c-format
 msgid "Barn og ungdom;"
-msgstr "Lapset ja nuoret"
+msgstr "Barn och ungdom;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:677
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:754
 #, c-format
 msgid "Barn over 7 år;"
-msgstr "Ala-asteikäiset"
+msgstr "Barn över 7 år;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:307
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:361
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:336
 #, c-format
 msgid "Beskrivelse: "
-msgstr "Kuvaus: "
+msgstr "Beskrivning: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:508
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:508
 #, c-format
 msgid "Bibliografier"
-msgstr "Bibliografiat"
+msgstr "Bibliografier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:541
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:544
 #, c-format
 msgid "Bibliografiske data"
-msgstr "Bibliografiset tiedot"
+msgstr "Bibliografiska data"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:188
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:233
 #, c-format
 msgid "Bilde"
-msgstr "kuv. "
+msgstr "Bild"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:163
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:208
 #, c-format
 msgid "Billedbånd"
-msgstr "BilledbÃ¥nd"
+msgstr "Videoband"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:613
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:690
 #, c-format
 msgid "Billedbøker for barn i alderen til og med 5 år;"
-msgstr "BilledbÃ¸ker for barn i alderen til og med 5 Ã¥r;"
+msgstr "Bilderböcker för barn till och med 5 år;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:614
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:691
 #, c-format
 msgid "Billedbøker for elever på 1. til 3. klassetrinn;"
-msgstr "BilledbÃ¸ker for elever pÃ¥ 1. til 3. klassetrinn;"
+msgstr "Bilderböcker för elever från 1 till 3 klass;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:615
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:692
 #, c-format
 msgid "Billedbøker for elever på 4. og 5. klassetrinn;"
-msgstr "BilledbÃ¸ker for elever pÃ¥ 4. og 5. klassetrinn;"
+msgstr "Bilderböcker för elever från 4 till 5 klass;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:616
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:693
 #, c-format
 msgid "Billedbøker for elever på 6. og 7. klassetrinn;"
-msgstr "BilledbÃ¸ker for elever pÃ¥ 6. og 7. klassetrinn;"
+msgstr "Bilderböcker för elever från 6 till 7 klass;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:617
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:694
 #, c-format
 msgid "Billedbøker for elever på ungdomstrinnet;"
-msgstr "BilledbÃ¸ker for elever pÃ¥ ungdomstrinnet;"
+msgstr "Bilderböcker för elever över 7 klass (ungdomar);"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:605
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:682
 #, c-format
 msgid "Billedbøker for voksne;"
-msgstr "BilledbÃ¸ker for voksne;"
+msgstr "Bilderböcker för vuxna;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:607
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:684
 #, c-format
 msgid "Billedbøker;"
-msgstr "BilledbÃ¸ker;"
+msgstr "Bilderböcker;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:194
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:239
 #, c-format
 msgid "Billedkort"
-msgstr "Billedkort"
+msgstr "Kort med bilder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:556
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:564
 #, c-format
 msgid "Biografi "
-msgstr "Elämäkerta "
+msgstr "Biografi "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:579
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:587
 #, c-format
 msgid "Biografier"
-msgstr "Elämäkerrat"
+msgstr "Biografier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:121
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:166
 #, c-format
 msgid "Blokkdiagram"
-msgstr "Blokkdiagram "
+msgstr "Blockdiagram"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:93
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:138
 #, c-format
 msgid "Blu-ray-plate"
-msgstr "Blu-ray-levy "
+msgstr "Blu-ray-skiva"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:157
@@ -790,56 +786,57 @@ msgstr "Blu-ray-levy "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:463
 #, c-format
 msgid "Bok"
-msgstr "Kirja"
+msgstr "Bok"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:205
 #, c-format
 msgid "Cancel"
-msgstr "Peruuta"
+msgstr "Avbryt"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:895
 #, c-format
 msgid "Checked out ("
-msgstr "Lainassa ("
+msgstr "Utlånad ("
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:519
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:822
 #, c-format
 msgid "Click here to access online"
-msgstr "Click here to access online"
+msgstr "Klicka här för att gå online"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:183
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:228
 #, c-format
 msgid "Collage"
-msgstr "Kollaasi"
+msgstr "Kollage"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:917
 #, c-format
 msgid "Damaged ("
-msgstr "Vioittunut ("
+msgstr "Skadad ("
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:572
 #, c-format
 msgid "Delvis avløst av: "
-msgstr "Delvis avløst av: "
+msgstr "Delvis avlöst av: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:516
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:577
 #, c-format
 msgid "Delvis fortsettelse av: "
-msgstr "Delvis fortsettelse av: "
+msgstr "Delvis fortsättning av: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:578
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:639
 #, c-format
 msgid "Delvis gått inn i: "
-msgstr "Delvis gÃ¥tt inn i: "
+msgstr "Ingått delvis i: "
 
+# NO
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:633
 #, c-format
 msgid "Delvsi avløst av: "
-msgstr "Delvsi avlÃ¸st av: "
+msgstr "Delvsi avløst av: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:166
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:211
@@ -859,13 +856,13 @@ msgstr "Dia"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:600
 #, c-format
 msgid "Dikt"
-msgstr "Puhe"
+msgstr "Dikt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:229
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:274
 #, c-format
 msgid "Diorama"
-msgstr "Dioraama"
+msgstr "Diorama"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:99
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:143
@@ -873,31 +870,31 @@ msgstr "Dioraama"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:188
 #, c-format
 msgid "Diskett"
-msgstr "Tietokonelevyke"
+msgstr "Diskett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:515
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:515
 #, c-format
 msgid "Diskografier"
-msgstr "Dsikografiat"
+msgstr "Diskografier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:524
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:524
 #, c-format
 msgid "Doktoravhandlinger/lisensiat-avhandlinger"
-msgstr "Väitöskirjat tai muut opinnäytteet"
+msgstr "Doktorsavhandlingar/licentiatavhandlingar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:581
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:589
 #, c-format
 msgid "Drama"
-msgstr "Draama"
+msgstr "Drama"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:98
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:143
 #, c-format
 msgid "Elektroniske ressurser"
-msgstr "Elektroninen"
+msgstr "Elektroniska resurser"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:609
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:634
@@ -907,7 +904,7 @@ msgstr "Elektroninen"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:734
 #, c-format
 msgid "Elever på 1. til 3. klassetrinn;"
-msgstr "Ala-asteikäiset"
+msgstr "Elever från 1 till 3 klass;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:610
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:635
@@ -917,7 +914,7 @@ msgstr "Ala-asteikäiset"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:735
 #, c-format
 msgid "Elever på 4. og 5. klassetrinn;"
-msgstr "Ala-asteikäiset"
+msgstr "Elever från 4 till 5 klass;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:611
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:636
@@ -927,7 +924,7 @@ msgstr "Ala-asteikäiset"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:736
 #, c-format
 msgid "Elever på 6. og 7. klassetrinn;"
-msgstr "Yläasteikäiset"
+msgstr "Elever från 6 till 7 klass;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:612
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:637
@@ -937,25 +934,25 @@ msgstr "Yläasteikäiset"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:737
 #, c-format
 msgid "Elever på ungdomstrinnet;"
-msgstr "Lukioikäiset ja vastaavat"
+msgstr "Elever över 7 klass (ungdomar);"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:405
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:434
 #, c-format
 msgid "Emne(r): "
-msgstr "Emner: "
+msgstr "Ämne: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:582
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:590
 #, c-format
 msgid "Essays"
-msgstr "Esseet"
+msgstr "Uppsatser"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:591
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:599
 #, c-format
 msgid "Eventyr"
-msgstr "Seikkailu"
+msgstr "Äventyr"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:50
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:44
@@ -969,7 +966,7 @@ msgstr "FV"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:162
 #, c-format
 msgid "Fantasikart"
-msgstr "Fantasiakori"
+msgstr "Fantasikart"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:2
 #, fuzzy, c-format
@@ -980,7 +977,7 @@ msgstr "Koha &rsaquo; Katalogisering &rsaquo; Feltbygger for 008"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:561
 #, c-format
 msgid "Festskrift "
-msgstr "Juhlajulkaisu "
+msgstr "Festskrift "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:54
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:159
@@ -992,7 +989,7 @@ msgstr "Juhlajulkaisu "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:465
 #, c-format
 msgid "Fil"
-msgstr "Tiedosto"
+msgstr "Fil"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:161
@@ -1003,7 +1000,7 @@ msgstr "Tiedosto"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:467
 #, c-format
 msgid "Film og video"
-msgstr "Filmi tai video"
+msgstr "Film och video"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:35
@@ -1015,25 +1012,25 @@ msgstr "Filmer og videogrammer"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:251
 #, c-format
 msgid "Filmkassett"
-msgstr "Kuvatallenne"
+msgstr "Filmkassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:217
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:262
 #, c-format
 msgid "Filmlydspor"
-msgstr "Äänitallenne"
+msgstr "Filmlydspor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:520
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:520
 #, c-format
 msgid "Filmografier"
-msgstr "Filmografiat"
+msgstr "Filmografier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:205
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:250
 #, c-format
 msgid "Filmsløyfe"
-msgstr "Filminauha"
+msgstr "Filmsløyfe"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:90
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:207
@@ -1041,37 +1038,37 @@ msgstr "Filminauha"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:252
 #, c-format
 msgid "Filmspole"
-msgstr "Filmirulla"
+msgstr "Filmspole"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:131
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:176
 #, c-format
 msgid "Fjernanalysebilde"
-msgstr "Etäanalyysikuva"
+msgstr "Fjernanalysebilde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:147
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:192
 #, c-format
 msgid "Fjerntilgang (online)"
-msgstr "Etäsaanti"
+msgstr "Fjerntilgang (online)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:190
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:235
 #, c-format
 msgid "Flipover"
-msgstr "Kääntöpuolella"
+msgstr "Flipover"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:118
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:163
 #, c-format
 msgid "Flykart"
-msgstr "Postikortti"
+msgstr "Flykart"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:542
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:545
 #, c-format
 msgid "Font"
-msgstr "Kirjasinlaji"
+msgstr "Teckensnitt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:620
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:645
@@ -1081,43 +1078,43 @@ msgstr "Kirjasinlaji"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:740
 #, c-format
 msgid "For psykisk utviklingshemmede;"
-msgstr "Erityisryhmille;"
+msgstr "För psykiskt utvecklingsstörda;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:589
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:597
 #, c-format
 msgid "Foredrag, taler"
-msgstr "Puheet, esitelmät"
+msgstr "Föredrag, talare"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:585
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:593
 #, c-format
 msgid "Fortellinger, noveller"
-msgstr "Novellit, kertomukset tai niiden kokoelmat"
+msgstr "Berättelser, noveller"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:513
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:574
 #, c-format
 msgid "Fortsettelse av: "
-msgstr "Jatkaja: "
+msgstr "Fortsettelse av: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:563
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:624
 #, c-format
 msgid "Fortsettelse i: "
-msgstr "Jatkuu: "
+msgstr "Fortsettelse i: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:581
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:642
 #, c-format
 msgid "Fortsettes av: ...; og ... "
-msgstr "Jatkuu "
+msgstr "Fortsettes av: ...; og ... "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:566
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:627
 #, c-format
 msgid "Fortsettes delvis i: "
-msgstr "Jatkuu osittain "
+msgstr "Fortsettes delvis i: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:96
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:187
@@ -1125,37 +1122,37 @@ msgstr "Jatkuu osittain "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:232
 #, c-format
 msgid "Fotografi"
-msgstr "Valokuva"
+msgstr "Fotografi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:186
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:231
 #, c-format
 msgid "Fotografi - negativ"
-msgstr "Valokuvanegatiivi"
+msgstr "Fotografi - negativ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:125
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:170
 #, c-format
 msgid "Fotokart"
-msgstr "Kuvakortti, postikortti"
+msgstr "Fotokart"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:126
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:171
 #, c-format
 msgid "Fotomosaikk"
-msgstr "Kuvakollaasi"
+msgstr "Fotomosaikk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:593
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:601
 #, c-format
 msgid "Fremføring av alle typer ikke-musikalske produksjoner"
-msgstr "Ei-musiikilliset aineistot"
+msgstr "Fremføring av alle typer ikke-musikalske produksjoner"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:108
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:153
 #, c-format
 msgid "Fysiske bøker"
-msgstr "kirja"
+msgstr "Fysiske bøker"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:622
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:647
@@ -1167,13 +1164,13 @@ msgstr "kirja"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:757
 #, c-format
 msgid "Generell;"
-msgstr "Generell;"
+msgstr "Allmän;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:189
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:234
 #, c-format
 msgid "Grafisk blad"
-msgstr "Kuvasivu"
+msgstr "Grafisk blad"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:163
@@ -1184,13 +1181,13 @@ msgstr "Kuvasivu"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:469
 #, c-format
 msgid "Grafisk materiale"
-msgstr "Grafiikka"
+msgstr "Grafisk materiale"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:539
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:542
 #, c-format
 msgid "Grafiske data"
-msgstr "Visuaaliset aineistot"
+msgstr "Grafiske data"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:80
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:214
@@ -1198,43 +1195,43 @@ msgstr "Visuaaliset aineistot"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:259
 #, c-format
 msgid "Grammofonplate"
-msgstr "Gramofoniäänilevy"
+msgstr "Grammofonplate"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:575
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:636
 #, c-format
 msgid "Gått inn i: "
-msgstr "Sisältyy: "
+msgstr "Gått inn i: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:531
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:592
 #, c-format
 msgid "Har delvis tatt opp: "
-msgstr "Osittainen jatkaja: "
+msgstr "Har delvis tatt opp: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:528
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:589
 #, c-format
 msgid "Har tatt opp: "
-msgstr "Jatkaja: "
+msgstr "Har tatt opp: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:162
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:207
 #, c-format
 msgid "Hologram"
-msgstr "Hologrammi"
+msgstr "Hologram"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:517
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:517
 #, c-format
 msgid "Hovedoppgaver/diplomoppgaver"
-msgstr "Väitöskirja"
+msgstr "Hovedoppgaver/diplomoppgaver"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:512
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:512
 #, c-format
 msgid "Håndbøker"
-msgstr "Käsikirjat"
+msgstr "Håndbøker"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:325
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:376
@@ -1254,12 +1251,12 @@ msgstr "ISSN: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:572
 #, c-format
 msgid "Ikke skjønnlitteratur"
-msgstr "Tietokirjallisuus"
+msgstr "Ikke skjønnlitteratur"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:931
 #, c-format
 msgid "In transit ("
-msgstr "Matkalla ("
+msgstr "Under förflyttning ("
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:228
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:428
@@ -1267,35 +1264,35 @@ msgstr "Matkalla ("
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:416
 #, c-format
 msgid "In: "
-msgstr "Teoksessa: "
+msgstr "I: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:545
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:548
 #, c-format
 msgid "Interaktivt multimedium"
-msgstr "Interaktiivinen multimedia"
+msgstr "Interaktivt multimedium"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:595
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:603
 #, c-format
 msgid "Intervjuer"
-msgstr "Haastattelut"
+msgstr "Intervjuer"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:843
 #, c-format
 msgid "Items available for loan: "
-msgstr "Niteet lainattavissa: "
+msgstr "Exemplar tillgängliga för utlåning: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:875
 #, c-format
 msgid "Items available for reference: "
-msgstr "Niteet käytettävissä: "
+msgstr "Exemplar tillgängliga som referens: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:156
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:201
 #, c-format
 msgid "Jordglobus"
-msgstr "Karttapallo"
+msgstr "Jordglobus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:52
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:46
@@ -1303,7 +1300,7 @@ msgstr "Karttapallo"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:48
 #, c-format
 msgid "Kar"
-msgstr "Kori"
+msgstr "Kar"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:160
@@ -1318,37 +1315,37 @@ msgstr "Kori"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:40
 #, c-format
 msgid "Kart"
-msgstr "Kartta"
+msgstr "Vagn"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:74
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:119
 #, c-format
 msgid "Kartografisk materiale"
-msgstr "Kartat"
+msgstr "Kartografisk materiale"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:124
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:169
 #, c-format
 msgid "Kartprofil"
-msgstr "Karttaprojektio"
+msgstr "Kartprofil"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:132
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:177
 #, c-format
 msgid "Kartseksjon"
-msgstr "Karttaosasto"
+msgstr "Kartseksjon"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:81
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:126
 #, c-format
 msgid "Kassett"
-msgstr "Kasettinauha"
+msgstr "Kassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:509
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:509
 #, c-format
 msgid "Kataloger"
-msgstr "Luettelot, kuvastot"
+msgstr "Kataloger"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:731
 #, c-format
@@ -1358,13 +1355,13 @@ msgstr "Klikk her for online tilgang"
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:457
 #, c-format
 msgid "Klikk her for tilgang "
-msgstr "Paina tästä "
+msgstr "Klikk her for tilgang "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:88
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:133
 #, c-format
 msgid "Kombidokument"
-msgstr "Moniviestin"
+msgstr "Kombidokument"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:164
@@ -1373,13 +1370,13 @@ msgstr "Moniviestin"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:470
 #, c-format
 msgid "Kombidokumenter"
-msgstr "Moniviestin"
+msgstr "Kombidokumenter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:588
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:596
 #, c-format
 msgid "Komedier"
-msgstr "Draama"
+msgstr "Komedier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:82
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:213
@@ -1387,19 +1384,19 @@ msgstr "Draama"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:258
 #, c-format
 msgid "Kompaktplate"
-msgstr "CD-äänilevy"
+msgstr "Kompaktplate"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:527
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:530
 #, c-format
 msgid "Konferansepublikasjon "
-msgstr "Kokousjulkaisu "
+msgstr "Konferansepublikasjon "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:511
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:511
 #, c-format
 msgid "Konversasjonsleksika"
-msgstr "Sanakirjat, sanastot"
+msgstr "Konversasjonsleksika"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:97
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:197
@@ -1409,13 +1406,13 @@ msgstr "Sanakirjat, sanastot"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:273
 #, c-format
 msgid "Kunstreproduksjon"
-msgstr "Taidejäljennös"
+msgstr "Kunstreproduksjon"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:141
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:186
 #, c-format
 msgid "Lagringsbrikke"
-msgstr "Muistikortti"
+msgstr "Lagringsbrikke"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:619
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:644
@@ -1425,78 +1422,78 @@ msgstr "Muistikortti"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:739
 #, c-format
 msgid "Lettlest;"
-msgstr "Helppolukuiset"
+msgstr "Lettlest;"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:910
 #, c-format
 msgid "Lost ("
-msgstr "Kadonnut ("
+msgstr "Förkommen ("
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:516
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:516
 #, c-format
 msgid "Lover og forskrifter"
-msgstr "Kirjoituksia"
+msgstr "Lover og forskrifter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:544
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:547
 #, c-format
 msgid "Lyd"
-msgstr "Ääni"
+msgstr "Lyd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:86
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:131
 #, c-format
 msgid "Lydbok"
-msgstr "Äänikirja"
+msgstr "Lydbok"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:220
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:265
 #, c-format
 msgid "Lydbånd"
-msgstr "Ääninauha"
+msgstr "Lydbånd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:594
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:602
 #, c-format
 msgid "Lyder (f.eks. fuglelyder)"
-msgstr "Ääniä (esim. linnunlaulu)"
+msgstr "Lyder (f.eks. fuglelyder)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:219
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:264
 #, c-format
 msgid "Lydkassett"
-msgstr "Äänikasetti"
+msgstr "Lydkassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:79
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:124
 #, c-format
 msgid "Lydopptak"
-msgstr "Ääniä"
+msgstr "Lydopptak"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:565
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:573
 #, c-format
 msgid "Lærebok, brevkurs"
-msgstr "Oppikirjat, kirjekurssit"
+msgstr "Lærebok, brevkurs"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:145
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:190
 #, c-format
 msgid "Magnetbåndkassett"
-msgstr "Magneettinauhakasetti"
+msgstr "Magnetbåndkassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:146
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:191
 #, c-format
 msgid "Magnetbåndspole"
-msgstr "Magneettikelanauha"
+msgstr "Magnetbåndspole"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:140
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:185
 #, c-format
 msgid "Magnetisk-optisk plate"
-msgstr "Magneetti-optinen levy"
+msgstr "Magnetisk-optisk plate"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:185
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:230
@@ -1508,7 +1505,7 @@ msgstr "Maleri"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:122
 #, c-format
 msgid "Manuskripter"
-msgstr "Käsikirjoitukset"
+msgstr "Manuskripter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:25
@@ -1522,25 +1519,25 @@ msgstr "Maskinlesbare filer"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:461
 #, c-format
 msgid "Materialtype: "
-msgstr "Aineistotyyppi: "
+msgstr "Materialtyp: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:590
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:598
 #, c-format
 msgid "Memoarer"
-msgstr "Muistelmat"
+msgstr "Memoarer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:177
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:222
 #, c-format
 msgid "Mikro-opak"
-msgstr "OPAC"
+msgstr "Mikro-opak"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:174
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:219
 #, c-format
 msgid "Mikrofilmkassett"
-msgstr "Mikrofilmikasetti"
+msgstr "Mikrofilmkassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:105
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:176
@@ -1548,7 +1545,7 @@ msgstr "Mikrofilmikasetti"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:221
 #, c-format
 msgid "Mikrofilmkort"
-msgstr "Mikrofilmi"
+msgstr "Mikrofilmkort"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:104
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:175
@@ -1556,25 +1553,25 @@ msgstr "Mikrofilmi"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:220
 #, c-format
 msgid "Mikrofilmspole"
-msgstr "Mikrofilmi"
+msgstr "Mikrofilmspole"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:103
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:148
 #, c-format
 msgid "Mikroformer"
-msgstr "Mikrofilmi"
+msgstr "Mikroformer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:232
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:277
 #, c-format
 msgid "Mikroskopdia"
-msgstr "Mikrodia"
+msgstr "Mikroskopdia"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:233
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:278
 #, c-format
 msgid "Modell"
-msgstr "Mallipohja"
+msgstr "Modell"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:49
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:59
@@ -1586,7 +1583,7 @@ msgstr "Mallipohja"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:55
 #, c-format
 msgid "Mon"
-msgstr "Ma"
+msgstr "Mån"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:15
@@ -1598,7 +1595,7 @@ msgstr "Monografier"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:495
 #, c-format
 msgid "Monografiserie"
-msgstr "Monofgrafiasarja"
+msgstr "Monografiserie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:51
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:45
@@ -1606,7 +1603,7 @@ msgstr "Monofgrafiasarja"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:47
 #, c-format
 msgid "Mus"
-msgstr "Muusa"
+msgstr "Mus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:162
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:84
@@ -1616,13 +1613,13 @@ msgstr "Muusa"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:468
 #, c-format
 msgid "Musikk"
-msgstr "Musiikki"
+msgstr "Musikk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:78
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:123
 #, c-format
 msgid "Musikktrykk"
-msgstr "Musiikkipainate"
+msgstr "Musikktrykk"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:162
@@ -1633,51 +1630,51 @@ msgstr "Musiikkipainate"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:30
 #, c-format
 msgid "Musikktrykk og lydopptak"
-msgstr "Musiikkipainate tai ääni"
+msgstr "Musikktrykk og lydopptak"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:131
 #, c-format
 msgid "NORMARC-koder for land"
-msgstr "NORMARC-koder for land"
+msgstr "NORMARC-koder för land"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:143
 #, c-format
 msgid "NORMARC-koder for språk"
-msgstr "NORMARC-koder for språk"
+msgstr "NORMARC-koder för språk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:120
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:165
 #, c-format
 msgid "Navigasjonskart"
-msgstr "Navigointikartta"
+msgstr "Navigasjonskart"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:448
 #, c-format
 msgid "Nettbasert ressurs: "
-msgstr "Verkkoaineisto: "
+msgstr "Nätbaserad resurs: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:101
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:146
 #, c-format
 msgid "Nettressurser"
-msgstr "Verkkoaineisto"
+msgstr "Nätresurser"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:838
 #, c-format
 msgid "No items available "
-msgstr "Ei niteitä saatavilla "
+msgstr "Inga exemplar finns tillgängliga"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:568
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:576
 #, c-format
 msgid "Novelle / fortelling"
-msgstr "Novelle / fortelling"
+msgstr "Novell / berättelse"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:537
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:540
 #, c-format
 msgid "Numeriske data"
-msgstr "Numeerinen"
+msgstr "Numeriska data"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:70
@@ -1689,23 +1686,23 @@ msgstr "OK"
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:605
 #, c-format
 msgid "OPAC View: "
-msgstr "Nettikirjastonäkymä: "
+msgstr "Opac-vy: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:937
 #, c-format
 msgid "On hold ("
-msgstr "Varattu ("
+msgstr "Reserverad ("
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:924
 #, c-format
 msgid "On order ("
-msgstr "Tilauksessa ("
+msgstr "Beställd ("
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:488
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:791
 #, c-format
 msgid "Online resources: "
-msgstr "Online resources: "
+msgstr "Online-resurser: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:712
 #, c-format
@@ -1716,60 +1713,60 @@ msgstr "Online tilgang: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:549
 #, c-format
 msgid "Online tjeneste"
-msgstr "Suorakäyttö, online"
+msgstr "Online-tjänst"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:607
 #, c-format
 msgid "Open in new window "
-msgstr "Avaa uudessa ikkunassa "
+msgstr "Öppna i nytt fönster "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:142
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:187
 #, c-format
 msgid "Optisk kassett"
-msgstr "Optinen kasetti"
+msgstr "Optisk kassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:148
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:193
 #, c-format
 msgid "Optisk plate"
-msgstr "Optinen levy"
+msgstr "Optisk plate"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:100
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:145
 #, c-format
 msgid "Optiske lagringsmedia (CD-ROM)"
-msgstr "Optinen tallennusväline (CD-ROM)"
+msgstr "Optiske lagringsmedia (CD-ROM)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:510
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:510
 #, c-format
 msgid "Ordbøker"
-msgstr "Sanakirjat, sanastot"
+msgstr "Ordböcker"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:195
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:240
 #, c-format
 msgid "Ordkort"
-msgstr "Sanakortti"
+msgstr "Ordkort"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:227
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:272
 #, c-format
 msgid "Originalt kunstverk"
-msgstr "Taideteos, alkuperäinen"
+msgstr "Konstverk i original"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:127
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:172
 #, c-format
 msgid "Ortofoto"
-msgstr "Suorakuva"
+msgstr "Ortofoto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:518
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:518
 #, c-format
 msgid "Oversiktsverker innenfor et emne"
-msgstr "Yleisesitykset aiheesta"
+msgstr "Oversiktsverker innenfor et emne"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:364
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:701
@@ -1777,13 +1774,13 @@ msgstr "Yleisesitykset aiheesta"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:779
 #, c-format
 msgid "Parallelltittel: "
-msgstr "Rinnakkaisnimeke: "
+msgstr "Parallelltitel: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:573
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:581
 #, c-format
 msgid "Pekebok"
-msgstr "Luukkukirja"
+msgstr "Pekbok"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:60
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:54
@@ -1791,7 +1788,7 @@ msgstr "Luukkukirja"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:56
 #, c-format
 msgid "Per"
-msgstr "kohti"
+msgstr "Per"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:158
@@ -1804,43 +1801,43 @@ msgstr "kohti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:20
 #, c-format
 msgid "Periodika"
-msgstr "Aikakauslehti"
+msgstr "Periodika"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:134
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:179
 #, c-format
 msgid "Perspektivkart"
-msgstr "Perspektiivikartta"
+msgstr "Perspektivkarta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:199
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:244
 #, c-format
 msgid "Plakat"
-msgstr "Kuvataulu"
+msgstr "Plakat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:133
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:178
 #, c-format
 msgid "Plan"
-msgstr "Kartta"
+msgstr "Planera"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:155
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:200
 #, c-format
 msgid "Planet- eller måneglobus"
-msgstr "Maa- tai kuupallo"
+msgstr "Planet- eller månglobus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:193
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:238
 #, c-format
 msgid "Plansje"
-msgstr "Kuvataulu"
+msgstr "Plansch"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:144
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:189
 #, c-format
 msgid "Platelager (harddisk)"
-msgstr "Platelager (harddisk)"
+msgstr "Skivlager (hårddisk)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:700
 #, c-format
@@ -1851,31 +1848,31 @@ msgstr ""
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:243
 #, c-format
 msgid "Postkort"
-msgstr "Postikortti"
+msgstr "Vykort"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:538
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:541
 #, c-format
 msgid "Programvare"
-msgstr "Tietokoneohjelmat"
+msgstr "Programvara"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:584
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:592
 #, c-format
 msgid "Rapporter, referater"
-msgstr "Rapporter, referater"
+msgstr "Rapporter, referat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:234
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:279
 #, c-format
 msgid "Realia"
-msgstr "Esine"
+msgstr "Realia"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:513
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:513
 #, c-format
 msgid "Referanseverk"
-msgstr "Referanseverk"
+msgstr "Referensverk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:514
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:514
@@ -1887,13 +1884,13 @@ msgstr "Registre"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:575
 #, c-format
 msgid "Roman"
-msgstr "Romaani"
+msgstr "Romare"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:583
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:591
 #, c-format
 msgid "Romaner"
-msgstr "Romaanit"
+msgstr "Romaner"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:218
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:263
@@ -1905,37 +1902,37 @@ msgstr "Rull (pianorull/orgelrull)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:210
 #, c-format
 msgid "Røntgenbilde"
-msgstr "Röntgenkuva"
+msgstr "Röntgenbild"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:507
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:507
 #, c-format
 msgid "Sammendrag(abstracts)/Referatorganer"
-msgstr "Sammendrag(abstracts)/Referatorganer"
+msgstr "Sammandrag (abstracts)/Referatorganer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:525
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:586
 #, c-format
 msgid "Sammenslåing av: ... ; og ... "
-msgstr "SammenslÃ¥ing av: ... ; og ... "
+msgstr "Sammanslagning av: ... ; och ... "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:580
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:588
 #, c-format
 msgid "Samtaler og diskusjoner"
-msgstr "Samtaler og diskusjoner"
+msgstr "Samtal och diskussioner"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:578
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:586
 #, c-format
 msgid "Selvbiografier"
-msgstr "Omaelämäkerrat"
+msgstr "Selvbiografier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:172
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:201
 #, c-format
 msgid "Series: "
-msgstr "Sarja: "
+msgstr "Serie: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:217
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:417
@@ -1943,43 +1940,43 @@ msgstr "Sarja: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:405
 #, c-format
 msgid "Show analytics"
-msgstr "Näytä kausijulkaisutiedot"
+msgstr "Visa analys"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:119
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:164
 #, c-format
 msgid "Sjøkart"
-msgstr "Merikortti"
+msgstr "Sjøkart"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:566
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:574
 #, c-format
 msgid "Skjønnlitteratur"
-msgstr "Kaunokirjallisuus"
+msgstr "Skjønnlitteratur"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:570
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:578
 #, c-format
 msgid "Skuespill"
-msgstr "Draama"
+msgstr "Skuespill"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:584
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:645
 #, c-format
 msgid "Slått sammen med: .., til: ... "
-msgstr "Yhdessä: ..., ... "
+msgstr "Slått sammen med: .., til: ... "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:216
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:261
 #, c-format
 msgid "Sløyfekassett"
-msgstr "Videokasetti"
+msgstr "Sløyfekassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:678
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:755
 #, c-format
 msgid "Småbarn;"
-msgstr "Lapset"
+msgstr "Småbarn;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:618
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:643
@@ -1999,49 +1996,49 @@ msgstr "Spesialisert;"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:546
 #, c-format
 msgid "Spill"
-msgstr "Näytelmä"
+msgstr "Spill"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:85
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:130
 #, c-format
 msgid "Språkkurs"
-msgstr "Kielikurssi"
+msgstr "Språkkurs"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:587
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:595
 #, c-format
 msgid "Språkundervisning"
-msgstr "Kielenopetus"
+msgstr "Språkundervisning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:381
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:410
 #, c-format
 msgid "Standardtittel: "
-msgstr "Yhtenäistetty nimeke: "
+msgstr "Standardtitel: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:522
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:522
 #, c-format
 msgid "Statistikker"
-msgstr "Tilasto"
+msgstr "Statistikker"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:164
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:209
 #, c-format
 msgid "Stereobilde"
-msgstr "Stereokuva"
+msgstr "Stereobild"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:154
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:199
 #, c-format
 msgid "Stjerneglobus"
-msgstr "Tähtipallo"
+msgstr "Stjerneglobus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:167
 #, c-format
 msgid "Stjernekart"
-msgstr "Tähtikartta"
+msgstr "Stjernekart"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:621
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:646
@@ -2051,25 +2048,25 @@ msgstr "Tähtikartta"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:741
 #, c-format
 msgid "Storskrift;"
-msgstr "Isoteksti"
+msgstr "Storskrift;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:192
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:237
 #, c-format
 msgid "Studieplansje"
-msgstr "Opinto-ohjaus"
+msgstr "Studieplansje"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:69
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:252
 #, c-format
 msgid "Suppressed in OPAC"
-msgstr "Piilotettu verkkokirjastossa"
+msgstr "Dold i OPAC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:215
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:260
 #, c-format
 msgid "Sylinder"
-msgstr "Sylinteri"
+msgstr "Cylinder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:196
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:241
@@ -2081,37 +2078,37 @@ msgstr "Symbolkort"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:579
 #, c-format
 msgid "Tegneserie"
-msgstr "Sarjakuva"
+msgstr "Tegneserie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:638
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:715
 #, c-format
 msgid "Tegneserier for barn i alderen til og med 5 år;"
-msgstr "Tegneserier for barn i alderen til og med 5 Ã¥r;"
+msgstr "Tegneserier for barn i alderen til og med 5 år;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:639
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:716
 #, c-format
 msgid "Tegneserier for elever på 1. til 3. klassetrinn;"
-msgstr "Tegneserier for elever pÃ¥ 1. til 3. klassetrinn;"
+msgstr "Tegneserier for elever på 1. til 3. klassetrinn;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:640
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:717
 #, c-format
 msgid "Tegneserier for elever på 4. og 5. klassetrinn;"
-msgstr "Tegneserier for elever pÃ¥ 4. og 5. klassetrinn;"
+msgstr "Tegneserier for elever på 4. og 5. klassetrinn;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:641
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:718
 #, c-format
 msgid "Tegneserier for elever på 6. og 7. klassetrinn;"
-msgstr "Tegneserier for elever pÃ¥ 6. og 7. klassetrinn;"
+msgstr "Tegneserier for elever på 6. og 7. klassetrinn;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:642
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:719
 #, c-format
 msgid "Tegneserier for elever på ungdomstrinnet;"
-msgstr "Tegneserier for elever pÃ¥ ungdomstrinnet;"
+msgstr "Tegneserier for elever på ungdomstrinnet;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:630
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:707
@@ -2129,31 +2126,31 @@ msgstr "Tegneserier;"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:173
 #, c-format
 msgid "Tegnet kart"
-msgstr "Piirretty kartta"
+msgstr "Tegnet kart"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:184
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:229
 #, c-format
 msgid "Tegning"
-msgstr "Piirros"
+msgstr "Tegning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:191
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:236
 #, c-format
 msgid "Teknisk tegning"
-msgstr "Tekninen piirros"
+msgstr "Teknisk tegning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:523
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:523
 #, c-format
 msgid "Tekniske rapporter"
-msgstr "Tekninen raportti"
+msgstr "Tekniske rapporter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:540
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:543
 #, c-format
 msgid "Tekst"
-msgstr "Teksti"
+msgstr "Tekst"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:130
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:175
@@ -2165,13 +2162,13 @@ msgstr "Terrengmodell"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:497
 #, c-format
 msgid "Tidsskrift"
-msgstr "Kausijulkaisu"
+msgstr "Tidsskrift"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:167
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:212
 #, c-format
 msgid "Transparent"
-msgstr "Piirtoheitinkalvo"
+msgstr "Transparent"
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:165
@@ -2180,13 +2177,13 @@ msgstr "Piirtoheitinkalvo"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:471
 #, c-format
 msgid "Tre-dimensjonale gjenstander"
-msgstr "Kolmiulotteinen esine"
+msgstr "Tre-dimensjonale gjenstander"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:102
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:147
 #, c-format
 msgid "Tredimensjonale gjenstander"
-msgstr "Kolmiulotteinen esine"
+msgstr "Tredimensjonale gjenstander"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:129
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:174
@@ -2209,19 +2206,19 @@ msgstr "URN:ISBN:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:758
 #, c-format
 msgid "Ukjent;"
-msgstr "Tuntematon;"
+msgstr "Ukjent;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:586
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:594
 #, c-format
 msgid "Undervisning"
-msgstr "Opetus"
+msgstr "Undervisning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:676
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:753
 #, c-format
 msgid "Ungdom over 12 år;"
-msgstr "Ungdom over 12 Ã¥r;"
+msgstr "Ungdom over 12 år;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:290
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:396
@@ -2229,7 +2226,7 @@ msgstr "Ungdom over 12 Ã¥r;"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:384
 #, c-format
 msgid "Utgave: "
-msgstr "Painos: "
+msgstr "Utgave: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:273
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:689
@@ -2237,7 +2234,7 @@ msgstr "Painos: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:767
 #, c-format
 msgid "Utgiver: "
-msgstr "Toimittaja: "
+msgstr "Utgiver: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:534
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:595
@@ -2260,31 +2257,31 @@ msgstr "Velg materialtype"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:287
 #, c-format
 msgid "Videokassett"
-msgstr "Videokasetti"
+msgstr "Videokassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:91
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:136
 #, c-format
 msgid "Videokassett (VHS)"
-msgstr "Videokasetti (VHS)"
+msgstr "Videokassett (VHS)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:241
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:286
 #, c-format
 msgid "Videoplate"
-msgstr "Videolevy"
+msgstr "Videoplate"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:137
 #, c-format
 msgid "Videoplate (DVD)"
-msgstr "Videolevy (DVD)"
+msgstr "Videoplate (DVD)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:243
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:288
 #, c-format
 msgid "Videospole"
-msgstr "Filmikela"
+msgstr "Videospole"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:173
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:218
@@ -2296,13 +2293,13 @@ msgstr "Vinduskort"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:751
 #, c-format
 msgid "Voksne over 15 år;"
-msgstr "Voksne over 15 Ã¥r;"
+msgstr "Voksne over 15 år;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:673
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:750
 #, c-format
 msgid "Voksne over 18 år;"
-msgstr "Voksne over 18 Ã¥r;"
+msgstr "Voksne over 18 år;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:604
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:629
@@ -2314,18 +2311,18 @@ msgstr "Voksne over 18 Ã¥r;"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:749
 #, c-format
 msgid "Voksne;"
-msgstr "Aikuinen;"
+msgstr "Voksne;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:221
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:266
 #, c-format
 msgid "Wire"
-msgstr "Lanka"
+msgstr "Wire"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:903
 #, c-format
 msgid "Withdrawn ("
-msgstr "Poistettu ("
+msgstr "Borttagen ("
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:67
@@ -2464,7 +2461,7 @@ msgstr "aq"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:223
 #, c-format
 msgid "av"
-msgstr "/"
+msgstr "av"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:104
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:304
@@ -2472,7 +2469,7 @@ msgstr "/"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:343
 #, c-format
 msgid "av "
-msgstr "/ "
+msgstr "av "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:57
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:59
@@ -2546,7 +2543,7 @@ msgstr "cdn"
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:52
 #, c-format
 msgid "collection"
-msgstr "kokoelma"
+msgstr "samling"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:27
@@ -2696,12 +2693,12 @@ msgstr "manuscript"
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:68
 #, c-format
 msgid "mixed material"
-msgstr "sekalainen aineisto"
+msgstr "mixed material"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:65
 #, c-format
 msgid "moving image"
-msgstr "liikkuva kuva"
+msgstr "moving image"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:32
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:34
@@ -2713,12 +2710,12 @@ msgstr "n Ny post"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:82
 #, c-format
 msgid "n Ukjent år"
-msgstr "n Ukjent år"
+msgstr "n Okänt årtal"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:62
 #, c-format
 msgid "notated music"
-msgstr "Musiikkinotaatio"
+msgstr "notated music"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:94
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:287
@@ -2732,13 +2729,13 @@ msgstr "np"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:109
 #, c-format
 msgid "o Kombidokumenter"
-msgstr "o Kombidokumenter"
+msgstr "o Kombinerat material"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:85
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:87
 #, c-format
 msgid "o Opphørt (periodika)"
-msgstr "o Opphørt (periodika)"
+msgstr "o Upphört (periodika)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:170
 #, c-format
@@ -2755,7 +2752,7 @@ msgstr "p Analytt til periodikum"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:40
 #, c-format
 msgid "p Oppgradert post"
-msgstr "p Oppgradert post"
+msgstr "p Uppgraderad post"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:90
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:92
@@ -2795,18 +2792,18 @@ msgstr "s Enkelt år (f.eks. utgivelsesår) i pos. 7-10"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:52
 #, c-format
 msgid "s Lydopptak "
-msgstr "s Lydopptak "
+msgstr "s Ljudupptagning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:151
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_leader.tt:153
 #, c-format
 msgid "s Periodikum "
-msgstr "s Periodikum "
+msgstr "s Periodika"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:67
 #, c-format
 msgid "software, multimedia"
-msgstr "tietokoneohjelma, multimedia"
+msgstr "software, multimedia"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:63
 #, c-format
@@ -2821,7 +2818,7 @@ msgstr "still image"
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:60
 #, c-format
 msgid "text"
-msgstr "teksti"
+msgstr "text"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2OAIDC.xsl:66
 #, c-format
@@ -2846,19 +2843,19 @@ msgstr "trd"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:57
 #, c-format
 msgid "u Tre-dimensjonal gjenstand"
-msgstr "u Tre-dimensjonal gjenstand"
+msgstr "u Tredimensionellt objekt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:107
 #, c-format
 msgid "u Ukjent status (periodika)"
-msgstr "u Ukjent status (periodika)"
+msgstr "u Okänd status (periodika)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:60
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_007.tt:62
 #, c-format
 msgid "v Videoopptak "
-msgstr "v Videoopptak "
+msgstr "v Videoupptagning"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACDetail.xsl:142
@@ -2878,7 +2875,7 @@ msgstr "vxyz"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/normarc_field_008.tt:112
 #, c-format
 msgid "x Løpende (periodika)"
-msgstr "x Løpende (periodika)"
+msgstr "x Löpande (periodika)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetDetail.xsl:454
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:722
@@ -2892,13 +2889,13 @@ msgstr "y3z"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:494
 #, c-format
 msgid "Årbok"
-msgstr "Vuosikirja"
+msgstr "Årsbok"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/NORMARCslim2intranetResults.xsl:230
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/NORMARCslim2OPACResults.xsl:275
 #, c-format
 msgid "Øvelsesmodell"
-msgstr "Malli"
+msgstr "Övningsmodell"
 
 #~ msgid "Koha &rsaquo; Cataloging &rsaquo; 000 - Bygging av postens hode"
-#~ msgstr "Koha &rsaquo; Cataloging &rsaquo; 000 - Bygging av postens hode"
+#~ msgstr "Koha &rsaquo; Katalogisering &rsaquo; 000 - Bygging av postens hode"
