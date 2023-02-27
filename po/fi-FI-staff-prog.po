@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-01-16 17:09-0300\n"
-"PO-Revision-Date: 2023-02-23 15:27+0200\n"
+"PO-Revision-Date: 2023-02-27 14:40+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -4535,7 +4535,7 @@ msgstr "%s pvm %s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:230
 #, c-format
 msgid "%s on %s until %s"
-msgstr "%s keskeytys voimassa %s %s asti"
+msgstr "%s on voimassa %s päivään %s"
 
 #. %1$s:  barcode | html
 #. %2$s:  IF hold_info.item_group
@@ -5263,7 +5263,7 @@ msgstr "%s(verollinen)%s(veroton)%s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:134
 #, c-format
 msgid "%s, %s,%s since %s %s Item being transferred to "
-msgstr "%s, %s, %s %s lähtien %s Teos kuljetettavana kirjastoon "
+msgstr "%s, %s,%s %s lähtien %s Teos kuljetettavana kirjastoon "
 
 #. %1$s:  IF ( itemnumber )
 #. %2$s:  itemnumber | html
@@ -20722,12 +20722,12 @@ msgstr "Vahvista tämän toimittajan poisto?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:867
 #, c-format
 msgid "Confirm hold (Y) "
-msgstr "Vahvista varaus "
+msgstr "Vahvista varaus (Y) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:860
 #, c-format
 msgid "Confirm hold and transfer (Y) "
-msgstr "Vahvista varaus ja kuljetus "
+msgstr "Vahvista varaus ja kuljetus (Y) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:24
 #, c-format
@@ -20753,12 +20753,12 @@ msgstr "Vahvista salasana: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1061
 #, c-format
 msgid "Confirm recall (Y) "
-msgstr "Vahvista palautuspyyntö "
+msgstr "Vahvista palautuspyyntö (Y) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:961
 #, c-format
 msgid "Confirm recall and transfer (Y) "
-msgstr "Vahvista palautuspyyntö ja kuljetus "
+msgstr "Vahvista palautuspyyntö ja kuljetus (Y) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/request.tt:7
 #, c-format
@@ -25421,7 +25421,7 @@ msgstr "Älä estä "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:381
 #, c-format
 msgid "Don't check out and print slip (P)"
-msgstr "Älä lainaa ja tulosta kuittia"
+msgstr "Älä lainaa ja tulosta infokuitti (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:742
 #, c-format
@@ -42099,7 +42099,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:748
 #, c-format
 msgid "No (N)"
-msgstr "Ei"
+msgstr "Ei (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:482
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:490
@@ -43144,33 +43144,33 @@ msgstr "Ei, älä nollaa määrityksiä"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/cancelorder.tt:57
 #, c-format
 msgid "No, don't cancel (N)"
-msgstr "Ei, älä peruuta"
+msgstr "Ei, älä peruuta (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:395
 #, c-format
 msgid "No, don't check out (N)"
-msgstr "Ei, älä lainaa"
+msgstr "Ei, älä lainaa (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:432
 #, c-format
 msgid "No, don't checkin (N)"
-msgstr "Ei, älä palauta"
+msgstr "Ei, älä palauta (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:785
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:810
 #, c-format
 msgid "No, don't close (N)"
-msgstr "Ei, älä sulje"
+msgstr "Ei, älä sulje (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:83
 #, c-format
 msgid "No, don't delete (N)"
-msgstr "Ei, älä poista"
+msgstr "Ei, älä poista (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:393
 #, c-format
 msgid "No, don't renew (N)"
-msgstr "Ei, älä uusi lainaa"
+msgstr "Ei, älä uusi lainaa (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/share_content.tt:89
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/share_content.tt:91
@@ -44374,7 +44374,7 @@ msgstr "OK"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:750
 #, c-format
 msgid "OK (Y)"
-msgstr "OK"
+msgstr "OK (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:206
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:442
@@ -49611,7 +49611,7 @@ msgstr "Tulosta kuitti "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:751
 #, c-format
 msgid "Print slip (P)"
-msgstr "Tulosta kuitti"
+msgstr "Tulosta kuitti (P)"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:652
@@ -49624,13 +49624,13 @@ msgstr "Tulosta kuitti ja tyhjennä näyttö"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1064
 #, c-format
 msgid "Print slip and confirm (P) "
-msgstr "Tulosta kuitti ja vahvista "
+msgstr "Tulosta kuitti ja vahvista (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:863
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:964
 #, c-format
 msgid "Print slip, transfer, and confirm (P) "
-msgstr "Tulosta kuitti, kuljeta ja vahvista "
+msgstr "Tulosta kuitti, kuljeta ja vahvista (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:24
 #, c-format
@@ -49645,7 +49645,7 @@ msgstr "Tulosta tämä tarra"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:601
 #, c-format
 msgid "Print transfer slip (P)"
-msgstr "Tulosta kuljetuskuitti"
+msgstr "Tulosta kuljetuskuitti (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:86
 #, c-format
@@ -68211,7 +68211,7 @@ msgstr "Kyllä %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:746
 #, c-format
 msgid "Yes (Y)"
-msgstr "Kyllä"
+msgstr "Kyllä (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:390
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:394
@@ -68235,24 +68235,24 @@ msgstr "Kyllä, vahvistan"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/cancelorder.tt:56
 #, c-format
 msgid "Yes, cancel (Y)"
-msgstr "Kyllä, peruuta"
+msgstr "Kyllä, peruuta (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:337
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:361
 #, c-format
 msgid "Yes, check out (Y)"
-msgstr "Kyllä, lainaa"
+msgstr "Kyllä, lainaa (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:430
 #, c-format
 msgid "Yes, checkin (Y)"
-msgstr "Kyllä, palauta"
+msgstr "Kyllä, palauta (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:781
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:806
 #, c-format
 msgid "Yes, close (Y)"
-msgstr "Kyllä, sulje"
+msgstr "Kyllä, sulje (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:346
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:242
@@ -68278,7 +68278,7 @@ msgstr "Kyllä, poista"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:78
 #, c-format
 msgid "Yes, delete (Y)"
-msgstr "Kyllä, poista"
+msgstr "Kyllä, poista (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:175
 #, c-format
@@ -68345,7 +68345,7 @@ msgstr "Kyllä, poista"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:359
 #, c-format
 msgid "Yes, renew (Y)"
-msgstr "Kyllä, uusi"
+msgstr "Kyllä, uusi (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:99
 #, c-format
