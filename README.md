@@ -2,3 +2,5 @@
 Koha-Suomi translation files are kept here under lock and key. 
 
 You can find instructions how to handle po-files from Redmine: https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/K%C3%A4%C3%A4nn%C3%B6stiedostojen_k%C3%A4sittelyohje
+
+Version 22.11 po-tiedostot ovat branchissa 22.xx.
