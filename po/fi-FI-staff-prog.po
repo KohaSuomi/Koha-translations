@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-01-16 17:09-0300\n"
-"PO-Revision-Date: 2023-03-23 14:27+0200\n"
+"PO-Revision-Date: 2023-03-27 13:59+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -6996,7 +6996,7 @@ msgstr "(Ei mitään)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:23
 #, c-format
 msgid "(Not lost)"
-msgstr "(Ei menetetty)"
+msgstr "(Ei kadoksissa)"
 
 #. %1$s:  biblionumber | html
 #. %2$s:  ELSE
@@ -15569,7 +15569,7 @@ msgstr "Numeroimaton lista"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/bundle_contents.inc:7
 #, c-format
 msgid "Bundle contents for %s"
-msgstr "Nidepaketin sisältö kohteelle %s"
+msgstr "Nidepaketin %s sisältö"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:228
 #, c-format
@@ -15579,7 +15579,7 @@ msgstr "Nidepaketin sisältö päivitetty"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:227
 #, c-format
 msgid "Bundle had missing items"
-msgstr "Nidepaketti sisälsi kadonneita niteitä"
+msgstr "Nidepaketista puuttui niteitä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:239
 #, c-format
@@ -20550,7 +20550,7 @@ msgstr "Vahvista tilitys "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:512
 #, c-format
 msgid "Confirm checkin and mark missing items as lost"
-msgstr "Vahvista palautus ja merkkaa kadoksissa olevat niteet (missing) kadonneiksi (lost)"
+msgstr "Vahvista palautus ja merkkaa puuttuvat niteet kadonneiksi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:764
 #, c-format
@@ -35464,7 +35464,7 @@ msgstr "Kadonneet niteet"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1336
 #, c-format
 msgid "Items missing from bundle at checking for %s"
-msgstr "Kadonneita niteitä paketista palauttaessa viivakoodilla %s"
+msgstr "Nidepaketista %s palautettaessa puuttuneet niteet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:66
 #, c-format
@@ -41559,7 +41559,7 @@ msgstr "Uusi nideryhmä"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:20
 #, c-format
 msgid "New item lost value:"
-msgstr "Uusi LOST-arvo niteelle:"
+msgstr "Uusi kadonnut-arvo niteelle:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:130
 #, c-format
@@ -52953,7 +52953,7 @@ msgstr "Muuta kokoa"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:12
 #, c-format
 msgid "Resolution"
-msgstr "Resoluutio"
+msgstr "Ratkaisu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:199
 #, c-format
