@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-01-16 17:09-0300\n"
-"PO-Revision-Date: 2023-03-27 13:59+0300\n"
+"PO-Revision-Date: 2023-04-03 15:36+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -16543,7 +16543,7 @@ msgstr "Peruuta palautuspyyntö ja palauta kirjastoon: %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:292
 #, c-format
 msgid "Cancel receipt"
-msgstr "Peruuta kuitti"
+msgstr "Peruuta vastaanotto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:47
 #, c-format
@@ -30274,7 +30274,7 @@ msgstr "Siirry sivulle : "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:343
 #, c-format
 msgid "Go to receipt page"
-msgstr "Siirry kuittisivulle"
+msgstr "Siirry vastaanottoon"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue/itemsearch_item.json.inc:14
@@ -40568,7 +40568,7 @@ msgstr "Kuukausi: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:305
 #, c-format
 msgid "More"
-msgstr "Enemmän"
+msgstr "Lisätietoja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:30
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:49
