@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-01-16 17:09-0300\n"
-"PO-Revision-Date: 2023-04-11 13:51+0300\n"
+"PO-Revision-Date: 2023-04-25 16:42+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -15976,7 +15976,7 @@ msgstr "Luokka:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:125
 #, c-format
 msgid "Call number: "
-msgstr "Hyllypaikka: "
+msgstr "Luokka: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:65
 #, c-format
@@ -48215,7 +48215,7 @@ msgstr "Tee kaukolainapyyntö kumppanikirjastoihin"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:10
 #, c-format
 msgid "Placed on"
-msgstr "Varauspvm"
+msgstr "Tilattu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:54
 #, c-format
