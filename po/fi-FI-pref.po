@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2015-04-15 09:41-0300\n"
-"PO-Revision-Date: 2023-03-01 14:09+0200\n"
+"PO-Revision-Date: 2023-05-10 10:00+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -2747,6 +2747,14 @@ msgid ""
 "with "
 msgstr "Erota päänäkymä ja alemmat kohteet merkillä "
 
+# Cataloging > Record structure
+msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
+msgstr "Määrittele kirjastokohtaiset viivakoodin prefiksit:"
+
+# Cataloging > Record structure
+msgid "cataloguing.pref#BarcodePrefix# This is a YAML config."
+msgstr "Tämä on YAML-määritys."
+
 # Cataloging > Exporting
 # Cataloging > Exporting
 # Cataloging > Exporting
@@ -3588,6 +3596,10 @@ msgid ""
 msgstr "muotoa <year>-0001, <year>-0002."
 
 # Cataloging > Record structure
+msgid "cataloguing.pref#autoBarcode# generated in the from <prefix>yyyymm0001."
+msgstr "muotoa <prefix>yyyymm0001."
+
+# Cataloging > Record structure
 msgid "cataloguing.pref#autoBarcode# incremental EAN-13 barcodes."
 msgstr "EAN-13 -muodossa, nouseva numerointi."
 
@@ -3735,6 +3747,10 @@ msgstr "Noutopalvelumoduuli"
 # Circulation > Fines Policy
 msgid "circulation.pref Fines Policy"
 msgstr "Maksuasetukset"
+
+# Circulation
+msgid "circulation.pref Floating"
+msgstr "Kellutus"
 
 # Circulation > Holds Policy
 msgid "circulation.pref Holds policy"
@@ -5297,6 +5313,136 @@ msgid ""
 "circulation.pref#FinesIncludeGracePeriod# the grace period when calculating "
 "the fine for an overdue item."
 msgstr "anteeksiantoaika kun lasketaan myöhässä olevan aineiston maksua."
+
+# Circulation > Self check-in module
+msgid "circulation.pref#FloatRules# </ul>"
+msgstr "</ul>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means "
+"that rule applies when item is from library B and is checked in from library "
+"A.</br>"
+msgstr ""
+"<code>A->B</code> - missä <code>-></code> tarkoittaa, että sääntö pätee, kun "
+"nide on kirjastosta B ja palautetaan kirjastoon A.</br>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> means "
+"that rule applies to both libraries.</br></br>"
+msgstr ""
+"<code>A<>B</code> - missä <code><></code> tarkoittaa, että sääntö pätee "
+"kummassakin kirjastossa.</br></br>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, "
+"== and !=</code> for numeric values and <code>=~</code> for regular "
+"expressions.</br>"
+msgstr ""
+"<code>eq ja ne</code> merkkijonoille,<code> <, >, == ja !=</code> "
+"numeerisille arvoilla ja <code>=~</code> säännönmukaisille lausekkeille.</br>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items "
+"with a collection code \"FLOAT\" will float </li>"
+msgstr ""
+"<li><code>ccode eq \"FLOAT\"</code> - kaikki niteet, joiden kokoelmakoodi on "
+"\"FLOAT\" kelluvat </li>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> "
+"- using a regular expression to match against the item attribute, floats "
+"item types \"CD\" or \"DVD\" or \"KIRJA\"</li>"
+msgstr ""
+"<li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - säännönmukaisella "
+"lausekkeella täsmäytetään niteen nidetyyppi-arvoihin \"CD\" tai \"DVD\" tai "
+"\"KIRJA\", jotka sitten kelluvat.</li>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\" || itemtype eq "
+"\"CD\"</code> - all items with item type \"KIRJA\" or \"CD\" will float </li>"
+msgstr ""
+"<li><code>itemtype eq \"KIRJA\" || itemtype eq \"CD\"</code> - kaikki "
+"niteet, joiden aineistotyyppi on \"KIRJA\" tai \"CD\" kelluvat </li>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\"</code> - all "
+"items with item type \"KIRJA\" will float</li>"
+msgstr ""
+"<li><code>itemtype eq \"KIRJA\"</code> - kaikki niteet, joiden "
+"aineistotyyppi on \"KIRJA\" kelluvat</li>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && "
+"permanent_location eq \"CART\"</code> - all items not of item type \"CD\" "
+"and whose permanent location is \"CART\" will float</li>"
+msgstr ""
+"<li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - "
+"kaikki niteet, joiden aineistotyyppi on \"CD\" ja niteen permanent location-"
+"arvo on \"CART\" kelluvat</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
+msgstr "<li><code>notforloan == 0</code> </li>"
+
+# Circulation > Self check-in module
+msgid "circulation.pref#FloatRules# <ul>"
+msgstr "<ul>"
+
+# Circulation > Self check-out module
+msgid "circulation.pref#FloatRules# Allowed operators are following:</br>"
+msgstr "Seuraavat operaattorit ovat sallittuja:</br>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# Define float rules by columns of items table "
+"and biblioitems column itemtype. NOTE! Rules can't be applied to other "
+"columns from biblioitems table.</br>"
+msgstr ""
+"Määritä kellutussääntöjä nidetaulun sarakkeiden ja biblioitems-taulun "
+"itemtype-sarakkeen perusteella. Huomaa! Sääntöjä ei voi tehdä muiden "
+"biblioitems-taulun sarakkeiden mukaan.</br>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# Example rule: <code>A->B: itemtype eq "
+"\"KIRJA\"</code></br></br>"
+msgstr "Esimerkkisääntö: <code>A->B: itemtype eq \"KIRJA\"</code></br></br>"
+
+# Circulation > Checkin policy
+msgid "circulation.pref#FloatRules# Examples:</br>"
+msgstr "Esimerkkejä:<br/>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# Rules should start with following syntax:</br>"
+msgstr "Säännöt pitäisi alkaa seuraavalla syntaksilla:</br>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join "
+"statements together.</br>"
+msgstr ""
+"Käytä <code>&& ja ||</code> operaattoreita yhdistämään lauseita yhteen.</br>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# You can also use % as a wildcard when defining "
+"which libraries rule applies."
+msgstr ""
+"Voit myös käyttää %-merkkiä jokerimerkkinä, kun määrittelet, mitä kirjastoja "
+"sääntö koskee."
+
+# Circulation > Self check-in module
+msgid "circulation.pref#FloatRules# or: </br>"
+msgstr "tai: </br>"
 
 # Circulation > Checkin policy
 msgid "circulation.pref#HidePersonalPatronDetailOnCirculation# Don't hide"
@@ -7173,6 +7319,31 @@ msgstr ""
 # Circulation > Checkin policy
 msgid ""
 "circulation.pref#UpdateNotForLoanStatusOnCheckin# it will be updated to the "
+"right-hand value. For example, '-1: 0' will cause an item that was set to "
+"'Ordered' to now be available for loan."
+msgstr ""
+"se päivitetään oikeanpuoleiseen arvoon. Esim. '-1: 0' tarkoittaa, että nide, "
+"joka oli 'Tilattu'-tilassa on nyt saatavana."
+
+# Circulation > Checkin policy
+msgid ""
+"circulation.pref#UpdateNotForLoanStatusOnCheckout# Each pair of values "
+"should be on a separate line."
+msgstr "Jokaisen arvoparin pitää olla omalla rivillä."
+
+# Circulation > Checkin policy
+msgid ""
+"circulation.pref#UpdateNotForLoanStatusOnCheckout# This is a list of value "
+"pairs. When an item is checked out, if the not for loan value on the left "
+"matches the items not for loan value"
+msgstr ""
+"Tämä on lista arvopareista. Kun nide palautetaan ja niteen 'ei "
+"lainattavissa' -arvo vastaa tässä vasemmalla olevaa 'ei lainattavissa' -"
+"arvoa,"
+
+# Circulation > Checkin policy
+msgid ""
+"circulation.pref#UpdateNotForLoanStatusOnCheckout# it will be updated to the "
 "right-hand value. For example, '-1: 0' will cause an item that was set to "
 "'Ordered' to now be available for loan."
 msgstr ""
@@ -9194,6 +9365,18 @@ msgstr "Kerää loki"
 # Logging > Logging
 msgid "logs.pref#BorrowersLog# changes to patron records."
 msgstr "asiakastietojen muutoksista."
+
+# Logging > Logging
+msgid "logs.pref#BorrowersViewLog# Don't log"
+msgstr "Älä kerää lokia"
+
+# Logging > Logging
+msgid "logs.pref#BorrowersViewLog# Log"
+msgstr "Kerää loki"
+
+# Logging > Logging
+msgid "logs.pref#BorrowersViewLog# when patron data is viewed."
+msgstr "asiakastietojen katseluja."
 
 # Logging > Logging
 msgid "logs.pref#CataloguingLog# Don't log"
@@ -12206,6 +12389,22 @@ msgstr "Anna varoitus, jos nide on lainattu hänelle myöhemmin kuin"
 # Patrons > General
 msgid "patrons.pref#CheckPrevCheckoutDelay# days ago."
 msgstr "päivää sitten."
+
+# Patrons > Patron forms
+msgid "patrons.pref#ChildNeedsGuarantor# A child patron"
+msgstr "Lapsiasiakkaalla"
+
+# Patrons > Patron forms
+msgid "patrons.pref#ChildNeedsGuarantor# a guarantor when adding the patron."
+msgstr "takaaja, kun asiakasta lisätään."
+
+# Patrons > Notices and notifications
+msgid "patrons.pref#ChildNeedsGuarantor# doesn't need"
+msgstr "ei täydy"
+
+# Patrons > Patron relationships > ChildNeedsGuarantor
+msgid "patrons.pref#ChildNeedsGuarantor# must have"
+msgstr "täytyy olla"
 
 # Patrons > Patron forms
 msgid ""
