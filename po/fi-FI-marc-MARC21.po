@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-05-09 15:58+0300\n"
-"PO-Revision-Date: 2023-05-10 09:34+0300\n"
+"PO-Revision-Date: 2023-05-12 11:01+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -2410,7 +2410,7 @@ msgstr "Analoginen sähköinen varastointi"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:253
 #, c-format
 msgid "Analytics: "
-msgstr "Kausijulkaisut: "
+msgstr "Osakohteet: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:640
 #, c-format
@@ -11777,7 +11777,7 @@ msgstr "Lyhytaaltoinfrapuna (SWIR)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:270
 #, c-format
 msgid "Show analytics"
-msgstr "Näytä kausijulkaisutiedot"
+msgstr "Näytä osakohteet"
 
 #. For the first occurrence,
 #. SCRIPT
