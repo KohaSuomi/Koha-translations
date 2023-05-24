@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-05-09 15:58+0300\n"
-"PO-Revision-Date: 2023-05-12 15:07+0300\n"
+"PO-Revision-Date: 2023-05-24 13:50+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1676373862.176928\n"
@@ -47922,7 +47922,7 @@ msgstr "Asiakkaan kortti vanhenee pian."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:118
 #, c-format
 msgid "Patron's guarantees collectively owe %s. %s "
-msgstr "Asiakkaan takaajilla on maksuja %s. %s "
+msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €. %s "
 
 #. For the first occurrence,
 #. %1$s:  charges_guarantors_guarantees | $Price
