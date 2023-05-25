@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-05-09 15:58+0300\n"
-"PO-Revision-Date: 2023-05-24 13:50+0300\n"
+"PO-Revision-Date: 2023-05-25 13:16+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -1931,7 +1931,7 @@ msgstr "%s / %s tietueen muokkaus onnistui. Joitain virheitä esiintyi."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_elastic_index.inc:11
 #, c-format
 msgid "%s / %s records have successfully been reindexed. Some errors occurred. %s"
-msgstr "%s / %s tietueen muokkaus onnistui. Joitain virheitä esiintyi. %s"
+msgstr "%s / %s tietuetta indeksoitu onnistuneesti. Joitain virheitä esiintyi. %s"
 
 #. %1$s:  booksellerphone | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:67
