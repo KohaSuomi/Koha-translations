@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-05-09 15:58+0300\n"
-"PO-Revision-Date: 2023-05-25 13:16+0300\n"
+"PO-Revision-Date: 2023-05-30 16:24+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -4432,7 +4432,7 @@ msgstr "%s niteitä ei voitu poistaa: %s%s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:7
 #, c-format
 msgid "%s item(s) deleted."
-msgstr "%s kohde(tta) poistettu."
+msgstr "%s nide(ttä) poistettu."
 
 #. %1$s:  books_loo.items | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:632
@@ -4674,7 +4674,7 @@ msgstr "%s tietue(tta)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:9
 #, c-format
 msgid "%s record(s) deleted."
-msgstr "%s kohde(tta) poistettu."
+msgstr "%s tietue(tta) poistettu."
 
 #. %1$s:  index.missing_count | html
 #. %2$s:  index.index_count | html
