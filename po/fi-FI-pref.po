@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2015-04-15 09:41-0300\n"
-"PO-Revision-Date: 2023-05-24 13:47+0300\n"
+"PO-Revision-Date: 2023-09-19 09:59+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1675413223.464631\n"
@@ -2746,6 +2746,11 @@ msgid ""
 "cataloguing.pref#AuthoritySeparator# Separate main entry and subdivisions "
 "with "
 msgstr "Erota päänäkymä ja alemmat kohteet merkillä "
+
+# Cataloging > Interface > AutoItemtype
+msgid ""
+"cataloguing.pref#AutoItemtype# Define mappings for itemtype.pl value builder"
+msgstr "Määritä itemtype.pl-valuebuilderin mäppäykset"
 
 # Cataloging > Record structure
 msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
@@ -5511,25 +5516,6 @@ msgstr ""
 "automaattisesti varauskuitin kysely(ä) automaattisesti täytetyille "
 "varauksille."
 
-# Circulation > Checkout policy
-msgid "circulation.pref#HoldsInNoissuesCharge# Don't include"
-msgstr "Älä sisällytä"
-
-# Circulation > Checkout policy
-msgid "circulation.pref#HoldsInNoissuesCharge# Include"
-msgstr "Sisällytä"
-
-# Circulation > Checkout policy > HoldsInNoissuesCharge
-msgid ""
-"circulation.pref#HoldsInNoissuesCharge# hold charges when summing up charges "
-"for limit set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?"
-"op=search&searchfield=noissuescharge\">noissuescharge</a> system preference."
-msgstr ""
-"varausmaksuja, kun lasketaan yhteen asiakkaan maksuja <a href=\"/cgi-bin/"
-"koha/admin/preferences.pl?"
-"op=search&searchfield=noissuescharge\">noissuescharge</a> "
-"järjestelmäasetuksen summaan."
-
 # Circulation > Checkin policy
 msgid "circulation.pref#HoldsNeedProcessingSIP# Don't fulfill"
 msgstr "Älä täytä"
@@ -5860,26 +5846,6 @@ msgid ""
 "circulation.pref#LocalHoldsPriority# priority for filling holds to patrons "
 "whose"
 msgstr "asiakkaat, joiden varausten"
-
-# Circulation > Checkout policy
-msgid "circulation.pref#ManInvInNoissuesCharge# Don't include"
-msgstr "Älä sisällytä"
-
-# Circulation > Checkout policy
-msgid "circulation.pref#ManInvInNoissuesCharge# Include"
-msgstr "Sisällytä"
-
-# Circulation > Checkout policy > ManInvInNoissuesCharge
-msgid ""
-"circulation.pref#ManInvInNoissuesCharge# custom debit type charges when "
-"summing up charges for limit set in the <a href=\"/cgi-bin/koha/admin/"
-"preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> "
-"system preference."
-msgstr ""
-"muokattuja debit-maksuja, kun lasketaan yhteen asiakkaan maksuja <a href=\"/"
-"cgi-bin/koha/admin/preferences.pl?"
-"op=search&searchfield=noissuescharge\">noissuescharge</a> "
-"järjestelmäasetuksen summaan."
 
 # Circulation > Checkout policy
 msgid "circulation.pref#MarkLostItemsAsReturned# ."
@@ -6511,25 +6477,6 @@ msgstr "älä kysy"
 # Circulation > Checkout policy
 msgid "circulation.pref#RentalFeesCheckoutConfirmation# for confirmation."
 msgstr "varmistus(ta)."
-
-# Circulation > Checkout policy
-msgid "circulation.pref#RentalsInNoissuesCharge# Don't include"
-msgstr "Älä sisällytä"
-
-# Circulation > Checkout policy
-msgid "circulation.pref#RentalsInNoissuesCharge# Include"
-msgstr "Sisällytä"
-
-# Circulation > Checkout policy > RentalsInNoissuesCharge
-msgid ""
-"circulation.pref#RentalsInNoissuesCharge# rental charges when summing up "
-"charges for limit set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?"
-"op=search&searchfield=noissuescharge\">noissuescharge</a> system preference."
-msgstr ""
-"vuokrausmaksuja, kun lasketaan yhteen asiakkaan maksuja <a href=\"/cgi-bin/"
-"koha/admin/preferences.pl?"
-"op=search&searchfield=noissuescharge\">noissuescharge</a> "
-"järjestelmäasetuksen summaan."
 
 # Circulation > Holds policy
 msgid "circulation.pref#ReservesControlBranch# Check the rule from the"
@@ -10584,8 +10531,12 @@ msgstr "Kaytä verkkokirjastossa seuraavia CSS-määrityksiä:"
 # OPAC > Appearance
 msgid ""
 "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the "
-"OPAC:"
-msgstr "Sisällytä seuraava JavaScript kaikille sivuille verkkokirjastossa:"
+"OPAC. You may need to ask your system administrator to rehash userjs "
+"checksums after changing this."
+msgstr ""
+"Sisällytä seuraava JavaScript kaikille sivuille verkkokirjastossa. Pyydä "
+"järjestelmän ylläpitäjää päivittämään järjestelmän tarkistussumma, kun "
+"muutat tätä asetusta."
 
 # OPAC > Shelf browser
 msgid "opac.pref#OPACUserSummary# Don't show"
@@ -14701,8 +14652,12 @@ msgstr ""
 # Staff interface > Appearance
 msgid ""
 "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all "
-"pages in the staff interface:"
-msgstr "Sisällytä seuraava JavaScript kaikille virkailijaliittymän sivuille:"
+"pages in the staff interface. You may need to ask your system administrator "
+"to rehash userjs checksums after changing this."
+msgstr ""
+"Sisällytä seuraava JavaScript kaikille virkailijaliittymän sivuille. Pyydä "
+"järjestelmän ylläpitäjää päivittämään järjestelmän tarkistussumma, kun "
+"muutat tätä asetusta."
 
 # Staff interface > Appearance
 msgid ""
@@ -15593,6 +15548,46 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 #~ "tarvittaessa uusia auktoriteettitietueita sen sijaan, että "
 #~ "linkitettäisiin olemassaoleviin tietueisiin."
 
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#HoldsInNoissuesCharge# Don't include"
+#~ msgstr "Älä sisällytä"
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#HoldsInNoissuesCharge# Include"
+#~ msgstr "Sisällytä"
+
+# Circulation > Checkout policy > HoldsInNoissuesCharge
+#~ msgid ""
+#~ "circulation.pref#HoldsInNoissuesCharge# hold charges when summing up "
+#~ "charges for limit set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?"
+#~ "op=search&searchfield=noissuescharge\">noissuescharge</a> system "
+#~ "preference."
+#~ msgstr ""
+#~ "varausmaksuja, kun lasketaan yhteen asiakkaan maksuja <a href=\"/cgi-bin/"
+#~ "koha/admin/preferences.pl?"
+#~ "op=search&searchfield=noissuescharge\">noissuescharge</a> "
+#~ "järjestelmäasetuksen summaan."
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#ManInvInNoissuesCharge# Don't include"
+#~ msgstr "Älä sisällytä"
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#ManInvInNoissuesCharge# Include"
+#~ msgstr "Sisällytä"
+
+# Circulation > Checkout policy > ManInvInNoissuesCharge
+#~ msgid ""
+#~ "circulation.pref#ManInvInNoissuesCharge# custom debit type charges when "
+#~ "summing up charges for limit set in the <a href=\"/cgi-bin/koha/admin/"
+#~ "preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> "
+#~ "system preference."
+#~ msgstr ""
+#~ "muokattuja debit-maksuja, kun lasketaan yhteen asiakkaan maksuja <a "
+#~ "href=\"/cgi-bin/koha/admin/preferences.pl?"
+#~ "op=search&searchfield=noissuescharge\">noissuescharge</a> "
+#~ "järjestelmäasetuksen summaan."
+
 # Circulation > Holds policy > OPACMandatoryHoldDates
 #~ msgid ""
 #~ "circulation.pref#OPACMandatoryHoldDates# mandatory. Note this pref only "
@@ -15601,6 +15596,26 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 #~ msgstr ""
 #~ ". Huomaa: Tämä asetus on voimassa varauksen aloituspvm:lle vain, jos "
 #~ "OPACAllowHoldDateInFuture on myös sallittu."
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#RentalsInNoissuesCharge# Don't include"
+#~ msgstr "Älä sisällytä"
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#RentalsInNoissuesCharge# Include"
+#~ msgstr "Sisällytä"
+
+# Circulation > Checkout policy > RentalsInNoissuesCharge
+#~ msgid ""
+#~ "circulation.pref#RentalsInNoissuesCharge# rental charges when summing up "
+#~ "charges for limit set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?"
+#~ "op=search&searchfield=noissuescharge\">noissuescharge</a> system "
+#~ "preference."
+#~ msgstr ""
+#~ "vuokrausmaksuja, kun lasketaan yhteen asiakkaan maksuja <a href=\"/cgi-"
+#~ "bin/koha/admin/preferences.pl?"
+#~ "op=search&searchfield=noissuescharge\">noissuescharge</a> "
+#~ "järjestelmäasetuksen summaan."
 
 # Circulation > Interface
 #~ msgid "circulation.pref#itemBarcodeInputFilter# scanned item barcodes."
