@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-09-15 12:31+0300\n"
-"PO-Revision-Date: 2023-09-19 09:45+0300\n"
+"PO-Revision-Date: 2023-09-21 15:00+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -3288,7 +3288,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:426
 #, c-format
 msgid "%s Other name: "
-msgstr "%s Muu nimi (Varaustunnus): "
+msgstr "%s Muu nimi: "
 
 #. %1$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:745
@@ -46309,12 +46309,12 @@ msgstr "Muut rajoitukset"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:10
 #, c-format
 msgid "Other name"
-msgstr "Muu nimi (Varaustunnus)"
+msgstr "Muu nimi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/merge-patrons.tt:222
 #, c-format
 msgid "Other name:"
-msgstr "Muu nimi (Varaustunnus):"
+msgstr "Muu nimi:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:25
 #, c-format
