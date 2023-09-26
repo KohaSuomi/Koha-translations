@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-09-15 12:31+0300\n"
-"PO-Revision-Date: 2023-09-22 11:12+0300\n"
+"PO-Revision-Date: 2023-09-26 15:25+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -27423,7 +27423,7 @@ msgstr "Aikavälin loppupäivä "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:485
 #, c-format
 msgid "End of interval"
-msgstr "Aikavälin loppupäivä"
+msgstr "Jakson loppu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:144
 #, c-format
@@ -59095,7 +59095,7 @@ msgstr "Aikavälin alku "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:486
 #, c-format
 msgid "Start of interval"
-msgstr "Aikavälin alku"
+msgstr "Jakson alku"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-bib-search.tt:28
