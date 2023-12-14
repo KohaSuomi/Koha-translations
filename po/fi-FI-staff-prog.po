@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-09-15 12:31+0300\n"
-"PO-Revision-Date: 2023-11-03 13:53+0200\n"
+"PO-Revision-Date: 2023-12-14 08:19+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -29373,7 +29373,7 @@ msgstr "Suodata:"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:347
 msgid "Filter paid transactions"
-msgstr "Lähetystapahtumat"
+msgstr "Suodata pois maksusuoritukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:321
 #, c-format
@@ -43872,17 +43872,17 @@ msgstr "Sisäinen huomautus"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:455
 #, c-format
 msgid "Non-public note:"
-msgstr "Viesti virkailijalle:"
+msgstr "Huomautus virkailijalle:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:371
 #, c-format
 msgid "Non-public notes"
-msgstr "Viesti virkailijalle"
+msgstr "Huomautukset virkailijalle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:422
 #, c-format
 msgid "Non-public notes:"
-msgstr "Viesti virkailijalle:"
+msgstr "Sisäiset huomautukset:"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -43968,13 +43968,13 @@ msgstr "Ei määritelty "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:108
 #, c-format
 msgid "Nonpublic note"
-msgstr "Viesti virkailijalle:"
+msgstr "Huomautus virkailijalle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:170
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:396
 #, c-format
 msgid "Nonpublic note:"
-msgstr "Viesti virkailijalle:"
+msgstr "Huomautus virkailijalle:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:134
 #, c-format
@@ -43985,7 +43985,7 @@ msgstr "Sisäinen huomautus:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:114
 #, c-format
 msgid "Nonpublic note: %s"
-msgstr "Viesti virkailijalle: %s"
+msgstr "Huomautus virkailijalle: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:52
 #, c-format
@@ -44267,7 +44267,7 @@ msgstr "Viesti verkkokirjastossa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-history.tt:71
 #, c-format
 msgid "Note for staff"
-msgstr "Viesti virkailijalle"
+msgstr "Huomautus virkailijalle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:79
 #, c-format
