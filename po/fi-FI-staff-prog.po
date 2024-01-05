@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 03:17+0000\n"
-"PO-Revision-Date: 2024-01-03 12:30+0200\n"
+"PO-Revision-Date: 2024-01-05 10:07+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -12830,7 +12830,7 @@ msgstr "%s Odottaa tässä kirjastossa %s %s%s saakka. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:220
 #, c-format
 msgid "Waiting here since %s. "
-msgstr "Odottaa tässä kirjastossa %s lähtien. "
+msgstr "Odottanut tässä kirjastossa %s lähtien. "
 
 #. %1$s:  waiting_elsewhere | html
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:230
