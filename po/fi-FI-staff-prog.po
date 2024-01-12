@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-09-15 12:31+0300\n"
-"PO-Revision-Date: 2023-12-14 08:19+0200\n"
+"PO-Revision-Date: 2024-01-12 14:22+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -19717,7 +19717,7 @@ msgstr "Tyhjennä muotoilu"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:216
 #, c-format
 msgid "Clear on loan"
-msgstr "Poista lainassa-tila"
+msgstr "Poista valinta lainassa olevilta"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:651
@@ -48425,7 +48425,7 @@ msgstr "Odottavat velattomuusilmoitus-pyynnöt &rsaquo; Asiakkaat &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-print.tt:112
 #, c-format
 msgid "Pending holds"
-msgstr "Odottavat varaukset"
+msgstr "Varaukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:12
 #, c-format
