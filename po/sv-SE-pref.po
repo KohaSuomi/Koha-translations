@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-20 11:46-0300\n"
-"PO-Revision-Date: 2023-04-11 11:25+0300\n"
+"PO-Revision-Date: 2024-02-16 13:25+0200\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-pref.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1678174765.557295\n"
@@ -2711,6 +2711,21 @@ msgstr ""
 "cataloguing.pref#AuthoritySeparator# Separera huvudingången och "
 "underavdelningar med "
 
+# Cataloging > Interface > AutoItemtype
+msgid ""
+"cataloguing.pref#AutoItemtype# Define mappings for itemtype.pl value builder"
+msgstr ""
+
+# Cataloging > Record structure
+#, fuzzy
+msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
+msgstr "Streckkoder är"
+
+# Cataloging > Record Structure
+#, fuzzy
+msgid "cataloguing.pref#BarcodePrefix# This is a YAML config."
+msgstr "inkrementella EAN-13-streckkoder."
+
 # Cataloging > Exporting
 # Cataloging > Exporting
 # Cataloging > Exporting
@@ -3548,6 +3563,11 @@ msgid ""
 msgstr "genererade i formatet <year>0001, <year>-0002."
 
 # Cataloging > Record Structure
+#, fuzzy
+msgid "cataloguing.pref#autoBarcode# generated in the from <prefix>yyyymm0001."
+msgstr "genererade i formatet <branchcode>ååmm0001."
+
+# Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# incremental EAN-13 barcodes."
 msgstr "inkrementella EAN-13-streckkoder."
 
@@ -3691,6 +3711,11 @@ msgstr ""
 msgid "circulation.pref Fines Policy"
 msgstr "Böter- och avgiftspolicy"
 
+# Circulation
+#, fuzzy
+msgid "circulation.pref Floating"
+msgstr "circulation.pref"
+
 # Circulation > Holds Policy
 msgid "circulation.pref Holds policy"
 msgstr "Reservationspolicy"
@@ -3702,6 +3727,10 @@ msgstr "Housebound module"
 # Circulation > Interface
 msgid "circulation.pref Interface"
 msgstr "Gränssnitt "
+
+# Circulation > Interlibrary Loans
+msgid "circulation.pref Interlibrary loans"
+msgstr "Fjärrlån"
 
 # Circulation > Interface
 msgid "circulation.pref Item bundles"
@@ -4631,11 +4660,14 @@ msgid "circulation.pref#CircControl# the library you are logged in at."
 msgstr "biblioteket du är inloggad på."
 
 # Circulation > Checkout policy
+#, fuzzy
 msgid ""
-"circulation.pref#CircControlReturnsBranch# To determine whether an item is "
-"transferred or remains in the library after checkin, use the circulation "
+"circulation.pref#CircControlReturnsBranch# To determine wether an item is "
+"transferred or remains in the libray after checkin, use the circulation "
 "rules of"
 msgstr ""
+"circulation.pref#AllowReturnToBranch# antingen det bibliotek exemplaret är "
+"från eller det bibliotek det lånades ut från. "
 
 # Circulation > Checkout policy
 msgid ""
@@ -4667,6 +4699,21 @@ msgid ""
 "circulation.pref#CircSidebar# the navigation sidebar on all circulation "
 "pages."
 msgstr "sidofältet för navigering på alla cirkulationssidor."
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid "circulation.pref#CirculateILL# Disable"
+msgstr "Avaktivera"
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid "circulation.pref#CirculateILL# Enable"
+msgstr "Aktivera"
+
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#CirculateILL# the circulation of ILL requested items."
+msgstr "Använd kalender- och utlåningsreglerna för"
 
 # Circulation > Return claims
 msgid "circulation.pref#ClaimReturnedChargeFee# ."
@@ -5216,6 +5263,117 @@ msgid ""
 "the fine for an overdue item."
 msgstr "respittiden vid beräkning av böterna för ett försenat exemplar. "
 
+# Circulation > Article requests
+#, fuzzy
+msgid "circulation.pref#FloatRules# </ul>"
+msgstr "Aktivera "
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means "
+"that rule applies when item is from library B and is checked in from library "
+"A.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> means "
+"that rule applies to both libraries.</br></br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, "
+"== and !=</code> for numeric values and <code>=~</code> for regular "
+"expressions.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items "
+"with a collection code \"FLOAT\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> "
+"- using a regular expression to match against the item attribute, floats "
+"item types \"CD\" or \"DVD\" or \"KIRJA\"</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\" || itemtype eq "
+"\"CD\"</code> - all items with item type \"KIRJA\" or \"CD\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\"</code> - all "
+"items with item type \"KIRJA\" will float</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && "
+"permanent_location eq \"CART\"</code> - all items not of item type \"CD\" "
+"and whose permanent location is \"CART\" will float</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
+msgstr ""
+
+# Circulation > Article requests
+#, fuzzy
+msgid "circulation.pref#FloatRules# <ul>"
+msgstr "Aktivera "
+
+# Circulation > Self check-out module
+#, fuzzy
+msgid "circulation.pref#FloatRules# Allowed operators are following:</br>"
+msgstr "Tillåt inte "
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# Define float rules by columns of items table "
+"and biblioitems column itemtype. NOTE! Rules can't be applied to other "
+"columns from biblioitems table.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# Example rule: <code>A->B: itemtype eq "
+"\"KIRJA\"</code></br></br>"
+msgstr ""
+
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# Examples:</br>"
+msgstr "Exempel:<br/>"
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# Rules should start with following syntax:</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join "
+"statements together.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid ""
+"circulation.pref#FloatRules# You can also use % as a wildcard when defining "
+"which libraries rule applies."
+msgstr ""
+
+# Circulation > Article requests
+#, fuzzy
+msgid "circulation.pref#FloatRules# or: </br>"
+msgstr "Aktivera inte "
+
 # Circulation > Checkin policy
 msgid "circulation.pref#HidePersonalPatronDetailOnCirculation# Don't hide"
 msgstr "Dölj inte"
@@ -5281,21 +5439,6 @@ msgid ""
 "circulation.pref#HoldsAutoFillPrintSlip# automatically display the hold slip "
 "dialog for auto-filled holds."
 msgstr "rutan för kvittoutskrift för automatiskt infångade reservationer."
-
-# Circulation > Checkout policy
-msgid "circulation.pref#HoldsInNoissuesCharge# Don't include"
-msgstr "Inkludera inte "
-
-# Circulation > Checkout policy
-msgid "circulation.pref#HoldsInNoissuesCharge# Include"
-msgstr "Inkludera "
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-msgid ""
-"circulation.pref#HoldsInNoissuesCharge# hold charges when summing up charges "
-"for limit set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?"
-"op=search&searchfield=noissuescharge\">noissuescharge</a> system preference."
-msgstr ""
 
 # Circulation > Holds policy
 msgid "circulation.pref#HoldsNeedProcessingSIP# Don't fulfill"
@@ -5406,6 +5549,119 @@ msgstr "Aktivera "
 msgid "circulation.pref#HouseboundModule# the housebound module."
 msgstr ""
 
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid "circulation.pref#ILLCheckAvailability# Check"
+msgstr "Kontrollera"
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid "circulation.pref#ILLCheckAvailability# Don't check"
+msgstr "Kontrollera inte"
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid ""
+"circulation.pref#ILLCheckAvailability# external sources for availability "
+"during the request process."
+msgstr "externa källor för tillgänglighet under beställningsprocessen."
+
+# Circulation > Interlibrary loans > ILLDefaultStaffEmail
+msgid ""
+"circulation.pref#ILLDefaultStaffEmail# Fallback email address for staff ILL "
+"notices to be sent to in the absence of a library address:"
+msgstr ""
+
+# Circulation > Return claims
+#, fuzzy
+msgid ""
+"circulation.pref#ILLHiddenRequestStatuses# (separated with |). If left "
+"empty, all ILL requests will be displayed. The request codes can be found in "
+"the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?"
+"searchfield=ILLSTATUS\">ILLSTATUS</a> authorized value category."
+msgstr ""
+"Använd ett värde från den auktoriserade värdekategorin <a href=\"/cgi-bin/"
+"koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>"
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid ""
+"circulation.pref#ILLHiddenRequestStatuses# ILL statuses that are considered "
+"finished and should not be displayed in the ILL module: "
+msgstr ""
+"Fjärrlånestatusar som ska anses färdiga och inte ska visas i "
+"fjärrlånemodulen: "
+
+# Circulation > Housebound module
+#, fuzzy
+msgid "circulation.pref#ILLModule# Disable"
+msgstr "Avaktivera "
+
+# Circulation > Self check-in module
+#, fuzzy
+msgid "circulation.pref#ILLModule# Enable"
+msgstr "Möjliggör"
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid ""
+"circulation.pref#ILLModule# the interlibrary loans module (master switch)."
+msgstr "fjärrlånemodulen (huvudströmbrytaren)."
+
+# Circulation > Interlibrary loans > ILLModuleCopyrightClearance
+msgid ""
+"circulation.pref#ILLModuleCopyrightClearance# Adding text will enable the "
+"copyright clearance stage in request creation. The text you enter will be "
+"the text displayed."
+msgstr ""
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid "circulation.pref#ILLModuleUnmediated# Disable"
+msgstr "Avaktivera"
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid "circulation.pref#ILLModuleUnmediated# Enable"
+msgstr "Aktivera"
+
+# Circulation > Interlibrary loans > ILLModuleUnmediated
+msgid ""
+"circulation.pref#ILLModuleUnmediated# unmediated interlibrary loan requests. "
+"If enabled and the ILL backend supports it, the newly created requests are "
+"immediately requested by backend."
+msgstr ""
+
+# Circulation > Interlibrary loans
+#, fuzzy
+msgid ""
+"circulation.pref#ILLOpacbackends# (separated with |). If left empty, all "
+"installed backends will be enabled."
+msgstr ""
+"(separerade med |). Om fältet lämnas tomt, kommer alla installerade backends "
+"att aktiveras."
+
+# Circulation > Interlibrary loans > ILLOpacbackends
+msgid ""
+"circulation.pref#ILLOpacbackends# Enabled ILL backends for OPAC initiated "
+"requests:"
+msgstr ""
+
+# Circulation > Interlibrary loans > ILLSendStaffNotices
+msgid ""
+"circulation.pref#ILLSendStaffNotices# (separated with |). e.g. "
+"ILL_REQUEST_CANCEL|ILL_REQUEST_MODIFIED If left empty, no staff ILL notices "
+"will be sent."
+msgstr ""
+
+# Circulation > Interlibrary loans > ILLSendStaffNotices
+#, fuzzy
+msgid ""
+"circulation.pref#ILLSendStaffNotices# Send these ILL notices to staff when "
+"appropriate:"
+msgstr ""
+"Skicka följande fjärrlånemeddelanden till personalen när det är lämpligt:"
+
 # Circulation > Checkout policy
 msgid "circulation.pref#IssueLostItem# ."
 msgstr "."
@@ -5512,22 +5768,6 @@ msgid ""
 "circulation.pref#LocalHoldsPriority# priority for filling holds to patrons "
 "whose"
 msgstr "för att fylla reservationer för låntagare vars"
-
-# Circulation > Checkout policy
-msgid "circulation.pref#ManInvInNoissuesCharge# Don't include"
-msgstr "Inkludera inte "
-
-# Circulation > Checkout policy
-msgid "circulation.pref#ManInvInNoissuesCharge# Include"
-msgstr "Inkludera "
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-msgid ""
-"circulation.pref#ManInvInNoissuesCharge# custom debit type charges when "
-"summing up charges for limit set in the <a href=\"/cgi-bin/koha/admin/"
-"preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> "
-"system preference."
-msgstr ""
 
 # Circulation > Checkout policy
 msgid "circulation.pref#MarkLostItemsAsReturned# ."
@@ -6137,21 +6377,6 @@ msgstr "be inte om"
 # Circulation > Checkout policy
 msgid "circulation.pref#RentalFeesCheckoutConfirmation# for confirmation."
 msgstr "bekräftelse."
-
-# Circulation > Checkout policy
-msgid "circulation.pref#RentalsInNoissuesCharge# Don't include"
-msgstr "Inkludera inte "
-
-# Circulation > Checkout policy
-msgid "circulation.pref#RentalsInNoissuesCharge# Include"
-msgstr "Inkludera "
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-msgid ""
-"circulation.pref#RentalsInNoissuesCharge# rental charges when summing up "
-"charges for limit set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?"
-"op=search&searchfield=noissuescharge\">noissuescharge</a> system preference."
-msgstr ""
 
 # Circulation > Holds policy
 msgid "circulation.pref#ReservesControlBranch# Check the rule from the"
@@ -6918,6 +7143,35 @@ msgstr ""
 # Circulation > Checkin policy
 msgid ""
 "circulation.pref#UpdateNotForLoanStatusOnCheckin# it will be updated to the "
+"right-hand value. For example, '-1: 0' will cause an item that was set to "
+"'Ordered' to now be available for loan."
+msgstr ""
+"kommer det att uppdateras till värdet på höger sida. Exempelvis kommer \"-1: "
+"0\" att göra så att ett exemplar som var inställt på \"Beställd\" nu kommer "
+"att vara tillgängligt för lån."
+
+# Circulation > Checkin policy
+#, fuzzy
+msgid ""
+"circulation.pref#UpdateNotForLoanStatusOnCheckout# Each pair of values "
+"should be on a separate line."
+msgstr "varje värdepar ska vara på en separat rad. "
+
+# Circulation > Checkin policy
+#, fuzzy
+msgid ""
+"circulation.pref#UpdateNotForLoanStatusOnCheckout# This is a list of value "
+"pairs. When an item is checked out, if the not for loan value on the left "
+"matches the items not for loan value"
+msgstr ""
+"cirkulation.pref#UpdateNotForLoanStatusOnCheckin# Detta är en lista med "
+"värde-par. När ett exemplar återlämnas, om ej för utlån-värdet till vänster "
+"matchar exemplarens ej för utlån-värde"
+
+# Circulation > Checkin policy
+#, fuzzy
+msgid ""
+"circulation.pref#UpdateNotForLoanStatusOnCheckout# it will be updated to the "
 "right-hand value. For example, '-1: 0' will cause an item that was set to "
 "'Ordered' to now be available for loan."
 msgstr ""
@@ -8821,136 +9075,6 @@ msgid ""
 "on the OPAC."
 msgstr "låntagare ändra det språk de ser i OPAC. "
 
-# Serials
-msgid "interlibrary_loans.pref"
-msgstr ""
-
-# Searching > Features
-msgid "interlibrary_loans.pref Features"
-msgstr ""
-
-msgid "interlibrary_loans.pref Notifications"
-msgstr ""
-
-# Interlibrary loans
-msgid "interlibrary_loans.pref OPAC"
-msgstr ""
-
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#CirculateILL# Disable"
-msgstr "Avaktivera"
-
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#CirculateILL# Enable"
-msgstr "Aktivera"
-
-# Circulation > Checkout Policy
-msgid ""
-"interlibrary_loans.pref#CirculateILL# the circulation of ILL requested items."
-msgstr ""
-
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#ILLCheckAvailability# Check"
-msgstr "Kontrollera"
-
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#ILLCheckAvailability# Don't check"
-msgstr "Kontrollera inte"
-
-# Circulation > Interlibrary loans
-msgid ""
-"interlibrary_loans.pref#ILLCheckAvailability# external sources for "
-"availability during the request process."
-msgstr "externa källor för tillgänglighet under beställningsprocessen."
-
-# Interlibrary loans > Notifications > ILLDefaultStaffEmail
-msgid ""
-"interlibrary_loans.pref#ILLDefaultStaffEmail# Fallback email address for "
-"staff ILL notices to be sent to in the absence of a library address:"
-msgstr ""
-
-# Circulation > Interlibrary loans > ILLHiddenRequestStatuses
-msgid ""
-"interlibrary_loans.pref#ILLHiddenRequestStatuses# (separated with |). If "
-"left empty, all ILL requests will be displayed. The request codes are "
-"defined in the backends and additional aliases can be configured via the <a "
-"href=\"/cgi-bin/koha/admin/authorised_values.pl?"
-"searchfield=ILL_STATUS_ALIAS\">ILL_STATUS_ALIAS</a> authorized value "
-"category."
-msgstr ""
-
-# Circulation > Interlibrary loans
-msgid ""
-"interlibrary_loans.pref#ILLHiddenRequestStatuses# ILL statuses that are "
-"considered finished and should not be displayed in the ILL module: "
-msgstr ""
-"Fjärrlånestatusar som ska anses färdiga och inte ska visas i "
-"fjärrlånemodulen: "
-
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#ILLModule# Disable"
-msgstr "Avaktivera"
-
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#ILLModule# Enable"
-msgstr "Aktivera"
-
-# Circulation > Interlibrary loans
-msgid ""
-"interlibrary_loans.pref#ILLModule# the interlibrary loans module (master "
-"switch)."
-msgstr "fjärrlånemodulen (huvudströmbrytaren)."
-
-# Interlibrary loans > Features > ILLModuleCopyrightClearance
-msgid ""
-"interlibrary_loans.pref#ILLModuleCopyrightClearance# Adding text will enable "
-"the copyright clearance stage in request creation. The text you enter will "
-"be the text displayed."
-msgstr ""
-
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#ILLModuleUnmediated# Disable"
-msgstr "Avaktivera"
-
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#ILLModuleUnmediated# Enable"
-msgstr "Aktivera"
-
-# Interlibrary loans > Features > ILLModuleUnmediated
-msgid ""
-"interlibrary_loans.pref#ILLModuleUnmediated# unmediated interlibrary loan "
-"requests. If enabled and the ILL backend supports it, the newly created "
-"requests are immediately requested by backend."
-msgstr ""
-
-# Circulation > Interlibrary loans
-msgid ""
-"interlibrary_loans.pref#ILLOpacbackends# (separated with |). If left empty, "
-"all installed backends will be enabled."
-msgstr ""
-"(separerade med |). Om fältet lämnas tomt, kommer alla installerade backends "
-"att aktiveras."
-
-# Interlibrary loans > OPAC > ILLOpacbackends
-msgid ""
-"interlibrary_loans.pref#ILLOpacbackends# Enabled ILL backends for OPAC "
-"initiated requests:"
-msgstr ""
-
-# Circulation > Interlibrary loans
-msgid ""
-"interlibrary_loans.pref#ILLSendStaffNotices# (separated with |). e.g. "
-"ILL_REQUEST_CANCEL|ILL_REQUEST_MODIFIED If left empty, no staff ILL notices "
-"will be sent."
-msgstr ""
-
-# Circulation > Interlibrary loans > ILLSendStaffNotices
-msgid ""
-"interlibrary_loans.pref#ILLSendStaffNotices# Send these ILL notices to staff "
-"when appropriate:"
-msgstr ""
-"Skicka följande fjärrlånemeddelanden till personalen när det är lämpligt:"
-
 # Local Use
 msgid "local_use.pref"
 msgstr "local_use.pref"
@@ -9033,6 +9157,21 @@ msgstr "Logga"
 
 # Logging > Logging
 msgid "logs.pref#BorrowersLog# changes to patron records."
+msgstr "ändringar av låntagarposter."
+
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# Don't log"
+msgstr "Logga inte"
+
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# Log"
+msgstr "Logga"
+
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# when patron data is viewed."
 msgstr "ändringar av låntagarposter."
 
 # Logging > Logging
@@ -10174,9 +10313,11 @@ msgid ""
 msgstr "Inkludera följande CSS på alla sidor i OPAC:"
 
 # OPAC > Appearance
+#, fuzzy
 msgid ""
 "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the "
-"OPAC:"
+"OPAC. You may need to ask your system administrator to rehash userjs "
+"checksums after changing this."
 msgstr "Inkludera följande JavaScript på alla sidor i OPAC:"
 
 # OPAC > Appearance
@@ -11948,6 +12089,24 @@ msgstr ""
 msgid "patrons.pref#CheckPrevCheckoutDelay# days ago."
 msgstr "dagar sedan."
 
+# Patrons > Notices and notifications
+#, fuzzy
+msgid "patrons.pref#ChildNeedsGuarantor# A child patron"
+msgstr "ett e-postbrev till nyskapade låntagare med deras kontoinformation."
+
+# Patrons > Patron relationships > ChildNeedsGuarantor
+msgid "patrons.pref#ChildNeedsGuarantor# a guarantor when adding the patron."
+msgstr ""
+
+# Patrons > Notices and notifications
+#, fuzzy
+msgid "patrons.pref#ChildNeedsGuarantor# doesn't need"
+msgstr "Skicka inte"
+
+# Patrons > Patron relationships > ChildNeedsGuarantor
+msgid "patrons.pref#ChildNeedsGuarantor# must have"
+msgstr ""
+
 # Patrons > Patron forms
 msgid ""
 "patrons.pref#CollapseFieldsPatronAddForm# Additional attributes and "
@@ -12018,10 +12177,11 @@ msgid ""
 msgstr ""
 
 # Patrons > General
+#, fuzzy
 msgid ""
 "patrons.pref#DefaultPatronSearchFields# Comma separated list defining the "
 "default fields to be used during a patron search using the \"standard\" "
-"option in the patrons or circulation module:"
+"option:"
 msgstr ""
 "Kommaseparerad lista som definierar standardfälten som ska användas vid "
 "låntagarsökningar"
@@ -12562,10 +12722,6 @@ msgstr ""
 # Patrons > Patron relationships
 msgid "patrons.pref#PrefillGuaranteeField# Main address - ZIP/Postal code"
 msgstr "Huvudadress - Postnummer"
-
-# Patrons > Patron relationships
-msgid "patrons.pref#PrefillGuaranteeField# Surname"
-msgstr ""
 
 # Patrons > Patron relationships
 msgid ""
@@ -14183,9 +14339,11 @@ msgid ""
 msgstr "Inkludera följande CSS på alla sidor i personalklienten:"
 
 # Staff interface > Appearance
+#, fuzzy
 msgid ""
 "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all "
-"pages in the staff interface:"
+"pages in the staff interface. You may need to ask your system administrator "
+"to rehash userjs checksums after changing this."
 msgstr "Inkludera följande JavaScript på alla sidor i personalklienten:"
 
 # Staff interface > Appearance
@@ -15038,9 +15196,29 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 #~ "dem automatiskt skapa nya auktoritetsposter om så krävs, istället för att "
 #~ "hänvisa till befintliga auktoriteter."
 
-# Circulation > Interlibrary Loans
-#~ msgid "circulation.pref Interlibrary loans"
-#~ msgstr "Fjärrlån"
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#HoldsInNoissuesCharge# Don't include"
+#~ msgstr "Inkludera inte "
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#HoldsInNoissuesCharge# Include"
+#~ msgstr "Inkludera "
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#ManInvInNoissuesCharge# Don't include"
+#~ msgstr "Inkludera inte "
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#ManInvInNoissuesCharge# Include"
+#~ msgstr "Inkludera "
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#RentalsInNoissuesCharge# Don't include"
+#~ msgstr "Inkludera inte "
+
+# Circulation > Checkout policy
+#~ msgid "circulation.pref#RentalsInNoissuesCharge# Include"
+#~ msgstr "Inkludera "
 
 # Circulation > Interface
 #~ msgid "circulation.pref#itemBarcodeInputFilter# scanned item barcodes."
@@ -15058,6 +15236,14 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 # Enhanced content > Local or remote cover images
 #~ msgid "enhanced_content.pref#OPACLocalCoverImages# Display"
 #~ msgstr "Visa "
+
+# Circulation > Interlibrary loans
+#~ msgid "interlibrary_loans.pref#ILLModule# Disable"
+#~ msgstr "Avaktivera"
+
+# Circulation > Interlibrary loans
+#~ msgid "interlibrary_loans.pref#ILLModule# Enable"
+#~ msgstr "Aktivera"
 
 # Patrons > General > AutoApprovePatronProfileSettings
 #, fuzzy
