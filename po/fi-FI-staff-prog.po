@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-09-15 12:31+0300\n"
-"PO-Revision-Date: 2024-02-07 14:01+0200\n"
+"PO-Revision-Date: 2024-02-23 08:41+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -64739,7 +64739,7 @@ msgstr "Liian monta nidettä (%s) näytettäväksi."
 msgid ""
 "Too many items (%s): You are editing more than %s items in a batch, items will not be "
 "shown."
-msgstr "Liian paljon niteitä (%s): Erässä voi muokata kerralla korkeintaan %s nidettä."
+msgstr "Liian paljon niteitä (%s): Muokkaat yli %s nidettä erässä, niteitä ei näytetä."
 
 #. %1$s:  too_many_items_process | html
 #. %2$s:  Koha.Preference('MaxItemsToProcessForBatchMod') | html
@@ -64757,7 +64757,7 @@ msgstr "Liian paljon niteitä (%s): Erässä voi muokata kerralla korkeintaan %s
 msgid ""
 "Too many items (%s): You have edited more than %s items in a batch, items will not be "
 "shown."
-msgstr "Liian paljon niteitä (%s): Muokkaat yli %s nidettä erässä, niteitä ei näytetä."
+msgstr "Liian paljon niteitä (%s): Olet muokannut yli %s nidettä erässä, niteitä ei näytetä."
 
 #. %1$s:  current_loan_count | html
 #. %2$s:  max_loans_allowed | html
