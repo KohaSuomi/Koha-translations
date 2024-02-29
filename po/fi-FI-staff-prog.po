@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "POT-Creation-Date: 2023-09-15 12:31+0300\n"
-"PO-Revision-Date: 2024-02-23 08:41+0200\n"
+"PO-Revision-Date: 2024-02-29 09:36+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi\n"
@@ -19865,12 +19865,12 @@ msgstr "Valitse tästä luodaksesi satunnaisesti luodun salasanaehdotuksen. "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:88
 #, c-format
 msgid "Client ID"
-msgstr "Asiakkaan ID"
+msgstr "Client ID"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:51
 #, c-format
 msgid "Client ID: "
-msgstr "Asiakkaan tunnus: "
+msgstr "Client ID: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:130
 #, c-format
@@ -30556,12 +30556,12 @@ msgstr "Luo EDIFACT-tilaus"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:82
 #, c-format
 msgid "Generate a new client id/key pair"
-msgstr "Luo uusi asiakkaan id/avainpari"
+msgstr "Luo uusi client id/key -pari"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:125
 #, c-format
 msgid "Generate a new client id/secret pair"
-msgstr "Luo uusi asiakkaan id/avainpari"
+msgstr "Luo uusi client id/secret -pari"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:91
 #, c-format
@@ -30581,7 +30581,7 @@ msgstr "Luo poikkeukset aikavälille."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:67
 #, c-format
 msgid "Generate new client id/secret pair"
-msgstr "Luo uusi asiakkaan id/avainpari"
+msgstr "Luo uusi client id/secret -pari"
 
 #. INPUT type=button
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:162
@@ -47538,7 +47538,7 @@ msgstr "Automaattinen uusinta ei käytössä asiakkaalla"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:6
 #, c-format
 msgid "Patron has outstanding charges of %s."
-msgstr "Asiakkaalla on maksamattomia maksuja %s."
+msgstr "Asiakkaalla on lainauskieltoon vaikuttavia maksuja %s."
 
 #. %1$s:  fines | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:187
@@ -47635,7 +47635,7 @@ msgstr "Tämä asiakas on toisesta kirjastosta"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:23
 #, c-format
 msgid "Patron is not notified."
-msgstr "Asiakasta ei ole huomautettu."
+msgstr "Ilmoitus: Kirje"
 
 #. %1$s:  patron_outside.count | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:153
@@ -53919,7 +53919,7 @@ msgstr "Jatka"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:970
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:812
 msgid "Resume all suspended holds"
-msgstr "Jatka kaikki keskeytetyt varaukset"
+msgstr "Aktivoi kaikki keskeytetyt varaukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:486
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:402
@@ -56086,7 +56086,7 @@ msgstr "Sekunnit (oletus)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:55
 #, c-format
 msgid "Secret: "
-msgstr "Avain: "
+msgstr "Secret: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:55
@@ -66316,7 +66316,7 @@ msgstr "Poista asiakkaalta osoitetietojen puuttumisen ilmoitus"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:223
 #, c-format
 msgid "Unsuspend %s "
-msgstr "Jatka %s "
+msgstr "Aktivoi %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:178
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:123
@@ -73692,7 +73692,7 @@ msgstr "tuntematon komento"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:800
 #, c-format
 msgid "until"
-msgstr "tähän päivämäärään asti"
+msgstr "ja aktivoi varaukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:95
 #, c-format
