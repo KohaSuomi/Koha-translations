@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.001\n"
+"Project-Id-Version: Koha 23.11.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2023-12-27 12:08+0000\n"
+"PO-Revision-Date: 2024-03-14 08:50+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -1539,7 +1539,7 @@ msgstr "Aineisto tavoitettavissa, aukioloaika"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1771
 msgid "Nonpublic note"
-msgstr "Huomautus virkailijalle"
+msgstr "Viesti virkailijalle:"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1813
 msgid "Generation process"

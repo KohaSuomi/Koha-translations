@@ -1,9 +1,9 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.001\n"
+"Project-Id-Version: Koha 23.11.03.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-08 03:05+0000\n"
+"POT-Creation-Date: 2024-01-16 03:05+0000\n"
 "PO-Revision-Date: 2023-12-06 03:02+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -17922,12 +17922,6 @@ msgstr "+AND+(bib-level:a+OR+bib-level:b)"
 msgid "/cgi-bin/koha/catalogue/search.pl?q=rcn:"
 msgstr "/cgi-bin/koha/catalogue/search.pl?q=rcn:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:225
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:267
-#, c-format
-msgid "Host-item:("
-msgstr "Emojulkaisu:("
-
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:231
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:669
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:721
@@ -20581,6 +20575,10 @@ msgstr "/cgi-bin/koha/opac-MARCdetail.pl?biblionumber="
 #, c-format
 #~ msgid "Direct storage, not acoustical"
 #~ msgstr "Suora varastointi, ei akustinen"
+
+#, c-format
+#~ msgid "Host-item:("
+#~ msgstr "Emojulkaisu:("
 
 #, c-format
 #~ msgid "Leader builder &rsaquo; Authorities &rsaquo; Koha"

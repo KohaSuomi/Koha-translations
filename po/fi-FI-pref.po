@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.001\n"
+"Project-Id-Version: Koha 23.11.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2023-12-27 12:08+0000\n"
+"PO-Revision-Date: 2024-03-14 08:50+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -469,7 +469,7 @@ msgstr "<p>Esimerkiksi:<br/>hinta: 947$a|947$c<br/>määrä: 969$h<br/>tilikoodi
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "<p>Voit käyttää seuraavia kenttiä: hinta, korvaushinta, lukumäärä, budjettikoodi, alennus, lajittelu1, lajittelu2</p>"
+msgstr "<p>Voit käyttää seuraavia kenttiä: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -488,7 +488,7 @@ msgstr "<p>Jos kenttä puuttuu tai sitä ei ole mäpätty, <a href=\"/cgi-bin/ko
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "<p>Voit käyttää seuraavia kenttiä: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Erityiskentät: quantity and budget_code</p>"
+msgstr "<p>Voit käyttää seuraavia kenttiä: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice ja itemcallnumber. Erityiskentät: quantity and budget_code</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -5295,7 +5295,7 @@ msgstr "varaus(ta) automaattisesti, jos sopiva nide palautetaan SIP-protokollan 
 
 # Circulation > Holds policy > HoldsQueuePrioritizeBranch
 msgid "circulation.pref#HoldsQueuePrioritizeBranch# The holds queue should prioritize filling a hold by matching the patron's home library with an item having a matching"
-msgstr "Varausjonon tulisi ensisijaisesti täyttää varaukset täsmäyttämällä asiakkaan kotikirjasto ja niteen"
+msgstr "Varausjonon tulisi ensisijaisesti täyttää varaukset täsmäyttämällä asiakkaan kotikirjasto ja"
 
 # Circulation > Checkout policy > HomeOrHoldingBranch
 # Circulation > Checkout policy
@@ -6222,22 +6222,17 @@ msgstr "Käytä seuraavia JavaScript-komentoja kaikilla sivuilla itsepalvelulain
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
-msgstr "Lähetä"
-
-# Circulation > Interface > AllowAllMessageDeletion
-# Circulation > Interface
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't"
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't send"
 msgstr "Älä lähetä"
+
+# Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# OPAC patron messages in the SIP2 screen message field."
+msgstr "asiakkaan Huomautus verkkokirjastossa -kentän tieto(a) SIP2-näyttöviestikentässä."
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Course reserves
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Use"
-msgstr "Käytä:"
-
-# Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# send OPAC patron messages in the SIP2 screen message field."
-msgstr "asiakkaan huomautus verkkokirjastossa -kentän tieto SIP2-näyttöviestikentässä."
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Send"
+msgstr "Lähetä"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -6808,29 +6803,62 @@ msgstr "Lista arvoista, jotka voidaan päivittää niteelle, kun sille on merkit
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# Example: \"itemlost: 1\" to set items.itemlost to 1 when the item is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>. (Requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 msgstr "Esimerkki: \"itemlost: 1\" asettaaksesi kadonnut-arvon 1 items.itemlost-kenttään kun nide merkitään <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>-arvolla. (Vaatii <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 
-# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'.<br>"
-msgstr "Voidaan käyttää näyttämään vain 'ei lainattavissa' -tilan kuvaus. Esim. '-1: ONLYMESSAGE'.<br>"
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: 0<br/><br/>"
+msgstr "&nbsp-1: 0<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each pair of values should be on a separate line.<br>"
-msgstr "Jokaisen arvoparin pitää olla omalla rivillä.<br>"
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: ONLYMESSAGE<br/><br/>"
+msgstr "&nbsp-1: ONLYMESSAGE<br/><br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp1: 0<br/><br/>"
+msgstr "&nbsp1: 0<br/><br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# <strong>Examples:</strong><br/>"
+msgstr "<strong>Esimerkkejä:</strong><br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# BK:<br/>"
+msgstr "BK:<br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# CR:<br/>"
+msgstr "CR:<br/>"
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each item type needs to be defined on a separate line on the left side of the colon (:).<br/>Each pair of not for loan values, for that item type, should be listed on separate lines below the item type, each indented by a leading space<br/><br/>"
+msgstr "Jokainen nidetyyppi pitää määritellä erilliselle riville :-merkin vasemmalle puolelle. <br/> Jokainen Ei lainata -tilojen pari nidetyypille pitää listata omille riveillensä nidetyypin alapuolelle, sisennettynä yhdellä välilyönnillä.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
-msgstr "Esim. '-1: 0' tarkoittaa, että nide, joka oli 'Tilattu'-tilassa on nyt saatavana."
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# ONLYMESSAGE can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'<br/><br/>"
+msgstr "ONLYMESSAGE-määritystä voidaan käyttää näyttämään 'Ei lainattavissa' -tilan kuvaus. Esim. '-1: ONLYMESSAGE'.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
-msgstr "Tämä on lista arvopareista. Kun nide palautetaan ja niteen 'ei lainattavissa' -arvo vastaa tässä vasemmalla olevaa 'ei lainattavissa' -arvoa, päivitetään se oikealla olevaan arvoon."
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of item types and value pairs.<br/><br/>"
+msgstr "Tämä on lista nidetyypeistä ja arvopareista.<br/><br/>"
 
 # Circulation > Item bundles > BundleNotLoanValue
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE."
-msgstr "Käytä <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> -auktorisoitua arvoa tai ONLYMESSAGE-arvoa."
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE.<br/><br/>"
+msgstr "Käytä <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> -auktorisoitua arvoa ja ONLYMESSAGE.<br/><br/>"
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# When an item is checked in, if it's item type matches CR then when the value on the left (1) matches the items' not for loan value it will be updated to the value on the right.<br/><br/>The special term _ALL_ is used on the left side of the colon (:) to affect all item types, <strong>this does not override all other rules</strong><br/><br/>"
+msgstr "Kun nide palautetaan ja sen nidetyyppi täsmää arvon CR kanssa ja vasemmanpuoleinen arvo (1) täsmää niteen Ei lainata -arvon kanssa, päivitetään tila oikeanpuoleiseen Ei lainata -arvoon. <br/><br/>Erikoistermiä _ALL_ käytetään :-merkin vasemmalla puolella, jolloin sääntö koskee kaikkia nidetyyppejä, <strong>tämä ei ohita muita sääntöjä</strong><br/><br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# _ALL_:<br/>"
+msgstr "_ALL_:<br/>"
 
 # Circulation > Checkout policy > UpdateNotForLoanStatusOnCheckout
 # Circulation > Checkin policy
@@ -7119,10 +7147,15 @@ msgstr "Älä lähetä"
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "Lähetä"
 
+# Administration > Interface options > AddressForFailedOverdueNotices
+# Circulation > Checkin policy > StoreLastBorrower
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
+msgstr "Käytetään listan ensimmäistä määriteltyä osoitetta: kirjaston vastausosoite, kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the Koha administrator email address whenever a hold request is placed."
-msgstr "ylläpidon sähköpostiin ilmoitus(ta) aina, kun tehdään varaus."
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
+msgstr "sähköpostin lähettäminen asiakkaan kirjastoon aina, kun tehdään varaus."
 
 # Circulation > Fines Policy > finesCalendar
 # Circulation > Fines Policy
@@ -8140,7 +8173,7 @@ msgstr "vaaditaan"
 
 # Enhanced content > OverDrive > OverDriveCirculation
 # Enhanced content > OverDrive
-msgid "enhanced_content.pref#OverDriveCirculation# cardnumber"
+msgid "enhanced_content.pref#OverDriveCirculation# card number"
 msgstr "kirjastokortin numeron"
 
 # Enhanced content > OverDrive > OverDriveCirculation
@@ -11231,6 +11264,47 @@ msgstr "Vaadi"
 msgid "opac.pref#PatronSelfRegistrationVerifyByEmail# that a self-registering patron verify themselves via email."
 msgstr "itserekisteröityneen asiakkaan vahvistavan rekisteröitymisensä sähköpostitse."
 
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
+msgstr "</ul>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
+msgstr "<li>Ensimmäinen prioriteetti: Käytä --list-invites -parametriä, kun cleanup_datebase.pl ajastettu ajo käynnistetään, --list-invites -parametrin määrittäessä päivien määrän.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
+msgstr "<li>Toinen prioriteetti: Käytä PurgeListShareInvitesOlderThan -järjestelmäasetusta, kun siihen on määritetty arvo.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
+msgstr "<li>Kolmas prioriteetti: Käytä oletusarvoa 14 päivää, kun cleanup_database.pl -ajastettu ajo ajetaan --list-invites -parametrilla ilman arvoa JA PurgeListShareInvitesOlderThan -järjestelmäasetus on tyhjä.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
+msgstr "<p><strong>Varoitus</strong>: Hyväksymättömät yksityisten listojen jaot poistetaan käyttäen näitä prioriteettejä:"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
+msgstr "<p>Esimerkki: [14] Poistaa hyväksymättömät yksityiset listajaot, jotka ovat vanhempia kuin 14 päivää.</p>"
+
+# OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
+# Patrons > General > LockExpiredDelay
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
+msgstr "<br><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/cleanup_database.pl</code> -cronjobin. Pyydä ylläpitäjiä ajastamaan se."
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
+msgstr "<ul>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
+msgstr "cleanup_database.pl -ajastettu ajo poistaa automaattisesti hyväksymättömät yksityisten listojen jaot"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
+msgstr "päivän jälkeen."
+
 # OPAC > Features > QuoteOfTheDay
 # OPAC > Features
 msgid "opac.pref#QuoteOfTheDay# OPAC"
@@ -11831,11 +11905,6 @@ msgstr "Yhteystiedot"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-msgid "patrons.pref#CollapseFieldsPatronAddForm# Guarantor information"
-msgstr "Takaajan tiedot"
-
-# Patrons > Patron forms > CollapseFieldsPatronAddForm
-# Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Housebound roles"
 msgstr "Kotipalvelu"
 
@@ -11856,6 +11925,11 @@ msgstr "Osoite"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
+msgid "patrons.pref#CollapseFieldsPatronAddForm# Non-patron guarantor"
+msgstr "Ei-asiakas -takaaja"
+
+# Patrons > Patron forms > CollapseFieldsPatronAddForm
+# Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# OPAC/Staff interface login"
 msgstr "Kirjautumistunnus ja salasanan vaihto"
 
@@ -11863,6 +11937,11 @@ msgstr "Kirjautumistunnus ja salasanan vaihto"
 # Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron account flags (existing patrons)"
 msgstr "Asiakkaan huomautukset"
+
+# Patrons > Patron forms > CollapseFieldsPatronAddForm
+# Patrons > Patron forms
+msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
+msgstr "Asiakastakaaja"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -11927,8 +12006,8 @@ msgid "patrons.pref#DefaultPatronSearchMethod# Contains"
 msgstr "Sisältää"
 
 # Patrons > General > DefaultPatronSearchMethod
-msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use Starts with or Contains for autocomplete patron searches."
-msgstr "Määritä, käytetäänkö asiakashakutoiminnossa Alkaa vai Sisältää -tyyppistä hakua."
+msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use 'starts with' or 'contains' for all patron searches, including auto-complete."
+msgstr "Määritä, käytetäänkö asiakashakutoiminnossa Alkaa vai Sisältää -tyyppistä hakua, myös automaattisessa täydennyksessä."
 
 # Patrons > General > DefaultPatronSearchMethod
 msgid "patrons.pref#DefaultPatronSearchMethod# Starts with"
@@ -11964,7 +12043,7 @@ msgid "patrons.pref#EmailFieldPrimary# alternate email"
 msgstr "vaihtoehtoista sähköpostia"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
-msgid "patrons.pref#EmailFieldPrimary# cardnumber"
+msgid "patrons.pref#EmailFieldPrimary# card number"
 msgstr "kirjastokortin numeroa"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
@@ -15019,6 +15098,11 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 #~ msgid "circulation.pref#SCOMainUserBlock# Include the following HTML on the the web-based self checkout screen:"
 #~ msgstr "Käytä seuraavaa HTML:ää itsepalvelulainauksen näytöllä:"
 
+# Circulation > Interface > AllowAllMessageDeletion
+# Circulation > Interface
+#~ msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
+#~ msgstr "Lähetä"
+
 # Circulation > Self check-out module > SelfCheckHelpMessage
 # Circulation > Self check-out module
 #~ msgid "circulation.pref#SelfCheckHelpMessage# Include the following HTML in the Help page of the web-based self checkout system:"
@@ -15038,6 +15122,16 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 # Circulation > Checkin policy
 #~ msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# Never trap items with 'not for loan' values of"
 #~ msgstr "Älä ota koskaan kiinni niteitä, joissa on 'not for loan' arvona"
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin policy
+#~ msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
+#~ msgstr "Esim. '-1: 0' tarkoittaa, että nide, joka oli 'Tilattu'-tilassa on nyt saatavana."
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin policy
+#~ msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
+#~ msgstr "Tämä on lista arvopareista. Kun nide palautetaan ja niteen 'ei lainattavissa' -arvo vastaa tässä vasemmalla olevaa 'ei lainattavissa' -arvoa, päivitetään se oikealla olevaan arvoon."
 
 # Circulation > Interface
 #~ msgid "circulation.pref#itemBarcodeInputFilter# scanned item barcodes."
@@ -15149,3 +15243,8 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 # Patrons > Notices and notifications
 #~ msgid "patrons.pref#AutoEmailPrimaryAddress# work"
 #~ msgstr "työsähköpostiosoitetta"
+
+# Patrons > Patron forms > CollapseFieldsPatronAddForm
+# Patrons > Patron forms
+#~ msgid "patrons.pref#CollapseFieldsPatronAddForm# Guarantor information"
+#~ msgstr "Takaajan tiedot"

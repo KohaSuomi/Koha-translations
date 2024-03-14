@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.001\n"
+"Project-Id-Version: Koha 23.11.03.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-19 03:06+0000\n"
-"PO-Revision-Date: 2023-12-27 12:08+0000\n"
+"POT-Creation-Date: 2024-03-02 04:08+0000\n"
+"PO-Revision-Date: 2024-03-14 08:50+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -734,7 +734,7 @@ msgstr "Tallenna"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:139
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-checkout.inc:18
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-login.inc:19
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:33
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:32
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:54
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:68
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:95
@@ -813,7 +813,7 @@ msgstr "Keskeytetty"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:154
 #, c-format
 msgid "until"
-msgstr "tähän saakka"
+msgstr "ja aktivoi varaukset"
 
 #. %1$s:  ItemTypes.GetDescription( HOLD.itemtype ) | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:157
@@ -831,7 +831,7 @@ msgstr "Odottava"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:170
 #, c-format
 msgid "Resume"
-msgstr "Jatka"
+msgstr "Aktivoi"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:213
 #, c-format
@@ -852,7 +852,7 @@ msgstr "Jos kentässä ei ole päivämäärää, keskeytyvät varaukset toistais
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:226
 #, c-format
 msgid "Resume all suspended holds"
-msgstr "Jatka kaikki keskeytetyt varaukset"
+msgstr "Aktivoi kaikki keskeytetyt varaukset"
 
 #. %1$s:  END 
 #. %2$s:  END 
@@ -1550,20 +1550,20 @@ msgstr "Voit kirjautua ilman ulkoista tiliä paikallisella tililläsi: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:221
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:200
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:124
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:93
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:109
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reset-password.tt:77
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:451
 #, c-format
 msgid "Login:"
-msgstr "Kirjastokortin numero tai käyttäjätunnus:"
+msgstr "Kirjautumistunnus:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:434
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-login.inc:13
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:225
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:202
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:953
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:57
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:99
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:72
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:115
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:453
 #, c-format
 msgid "Password:"
@@ -1574,7 +1574,7 @@ msgstr "Salasana:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:26
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:229
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:205
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:106
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:456
 #, c-format
 msgid "Log in"
@@ -1592,7 +1592,7 @@ msgstr "Unohditko salasanasi?"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:451
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:251
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:220
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:110
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:126
 #, c-format
 msgid "Create an account"
 msgstr "Luo uusi tili"
@@ -2953,13 +2953,13 @@ msgstr "Ilmoittaudu "
 msgid "Enrollment"
 msgstr "Ilmoittautumiset"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:32
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:31
 #, c-format
 msgid "Finish enrollment"
 msgstr "Lopeta ilmoittautuminen"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:38
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:37
 msgid "Unable to create enrollment!"
 msgstr "Ilmoittautuminen epäonnistui!"
 
@@ -3335,9 +3335,9 @@ msgid "language (Optional)"
 msgstr "kieli (vapaaehtoinen)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:176
-#, fuzzy, c-format
+#, c-format
 msgid "requests a particular language for the output, default is the OPAC cookie language if set, the first language in OPAC language list or English"
-msgstr "näyttäminen vaatii kielen valintaa. Oletus on käyttöliittymän evästeen kieli, jos asetettu; muuten ensimmäinen kieli käyttöliittymän kielivalikossa; tai englanti"
+msgstr "näyttäminen vaatii kielen valintaa. Oletus on käyttöliittymän evästeen kieli, jos asetettu; muuten ensimmäinen kieli käyttöliittymän kielivalikossa tai englanti"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:179
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:471
@@ -5033,7 +5033,7 @@ msgstr "Katso myös:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt:122
 #, c-format
 msgid "Other forms:"
-msgstr "Muu nimi:"
+msgstr "Muut muodot:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt:136
 #, c-format
@@ -7724,7 +7724,7 @@ msgid "Quote of the day"
 msgstr "Päivän sitaatti"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:177
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:92
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:108
 #, c-format
 msgid "Log in to your account:"
 msgstr "Kirjaudu sisään:"
@@ -8009,7 +8009,7 @@ msgid "There is no minimum or maximum character length."
 msgstr "Ei merkkien määrälle ei ole vähimmäis- tai maksimipituutta."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:259
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:53
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:68
 #, c-format
 msgid "Username:"
 msgstr "Käyttäjätunnus:"
@@ -8472,19 +8472,16 @@ msgstr "Tuntematon"
 
 #. SELECT name=[% messaging_preference.message_attribute_id | html %]-DAYS
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:81
-#, fuzzy
 msgid "Choose how many days in advance you wish to receive the message"
-msgstr "Valitse montako päivää etukäteen ennakkoilmoitus lähetetään"
+msgstr "Valitse montako päivää ennen eräpäivää ennakkoilmoitus lähetetään"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:97
-#, fuzzy
 msgid "Unselect SMS messaging"
 msgstr "Poista tekstiviestivalinta"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:99
-#, fuzzy
 msgid "Select SMS messaging"
 msgstr "Valitse tekstiviesti"
 
@@ -8505,7 +8502,6 @@ msgstr "Poista itiva-valinta"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
-#, fuzzy
 msgid "Select itiva messaging"
 msgstr "Poista itiva-valinta"
 
@@ -9204,8 +9200,8 @@ msgstr "Laina- ja varaushistoria säilytetään aina."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:67
 #, c-format
-msgid "Default: keep my history according to local laws. This is the default option : the library will keep your history for the duration permitted by local laws."
-msgstr "Oletus: laina- ja varaushistoria tallennetaan kirjaston määrittämän ajan."
+msgid "Default: keep my history according to library policy. This is the default option : the library will keep your history for the duration set by library policy."
+msgstr "Oletus: laina- ja varaushistoria tallennetaan kirjaston määrittämän ajan. Tämä on oletusvalinta: kirjasto säilyttää lainaushistoriasi käyttösääntöjensä mukaisesti."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:68
 #, c-format
@@ -9236,7 +9232,7 @@ msgstr "Valitse yksityisyysasetuksesi:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:83
 #, c-format
 msgid "Forever"
-msgstr "Aina"
+msgstr "Toistaiseksi"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:91
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:93
@@ -9599,6 +9595,7 @@ msgstr "varaus"
 
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:162
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:56
 msgid "Confirm"
 msgstr "Hyväksy"
 
@@ -9712,37 +9709,48 @@ msgstr "Yhtään palautuspyyntöä ei ole tehty."
 msgid "Are you sure you want to remove this recall?"
 msgstr "Haluatko varmasti poistaa tämän palautuspyynnön?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:19
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:20
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:51
+#, c-format
+msgid "Registration pending"
+msgstr "Ilmoittautuminen vireillä"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:22
 #, c-format
 msgid "Registration complete"
 msgstr "Rekisteröityminen on valmis"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:46
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:52
+#, c-format
+msgid "Click the button below to confirm registration."
+msgstr "Valitse alla oleva painike vahvistaaksesi rekisteröinnin."
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:61
 #, c-format
 msgid "Registration complete!"
 msgstr "Rekisteröityminen on valmis!"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:48
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:63
 #, c-format
 msgid "You have successfully registered your new account."
 msgstr "Rekisteröityminen onnistui."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:50
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:65
 #, c-format
 msgid "To log in, use the following credentials:"
 msgstr "Käytä seuraavia tietoja kirjautumiseen:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:63
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:78
 #, c-format
 msgid "Card number:"
 msgstr "Kirjastokortin numero:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:70
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:85
 #, c-format
 msgid "For your convenience, the login box on this page has been pre-filled with this data. Please log in and change your password."
 msgstr "Kirjautumistiedot on valmiiksi täytetty tällä sivulla. Kirjaudu sisään ja vaihda salasanasi."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:72
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:87
 #, c-format
 msgid "For your convenience, the login box on this page has been pre-filled with this data. Please log in."
 msgstr "Kirjautumistietosi ovat valmiiksi syötetty kenttiin. Kirjaudu sisään."
@@ -10587,7 +10595,7 @@ msgstr "%s hakutulosta. "
 msgid "(related searches:%s %s%s)."
 msgstr "(samankaltaisia hakuja:%s %s%s)."
 
-#. %1$s:  #END 
+#. %1$s:  END 
 #. %2$s:  IF ( koha_spsuggest ) 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:126
 #, c-format
@@ -13337,7 +13345,7 @@ msgstr "Keskeytä varaus"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1049
 #, c-format
 msgid "Suspend until:"
-msgstr "Keskeytä varaus tähän saakka:"
+msgstr "Keskeytä varaus ja aktivoi se:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1056
 #, c-format
