@@ -1,9 +1,9 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.11.03.000\n"
+"Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 03:06+0000\n"
+"POT-Creation-Date: 2024-03-19 03:50+0000\n"
 "PO-Revision-Date: 2024-03-14 08:50+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -6168,7 +6168,7 @@ msgstr "Hakutulokset"
 msgid "You did not specify any search criteria"
 msgstr "Anna hakuehto"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:618
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:606
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:17
 #, perl-brace-format
 msgid "{count} item"
