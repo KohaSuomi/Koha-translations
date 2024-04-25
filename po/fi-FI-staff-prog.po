@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-20 04:10+0000\n"
-"PO-Revision-Date: 2024-04-17 09:00+0300\n"
+"PO-Revision-Date: 2024-04-25 08:54+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -12037,7 +12037,7 @@ msgstr "Lainat ("
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:12
 #, c-format
 msgid "Relatives' checkouts (%s)"
-msgstr "Perheenjäsenen lainat (%s)"
+msgstr "Perheenjäsenten lainat (%s)"
 
 #. %1$s:  fines | $Price
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:18
@@ -12049,7 +12049,7 @@ msgstr "Maksut (%s)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:24
 #, c-format
 msgid "Guarantees' charges (%s)"
-msgstr "Taattavat maksut (%s)"
+msgstr "Taattavien maksut (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:49
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-menu.inc:19
