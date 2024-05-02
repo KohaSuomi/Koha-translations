@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-19 03:50+0000\n"
+"POT-Creation-Date: 2024-05-02 13:04+0300\n"
 "PO-Revision-Date: 2024-03-14 08:50+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -722,7 +722,7 @@ msgstr "Uusi noutopaikka:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:94
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:77
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:144
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:254
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:264
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:654
 #, c-format
 msgid "Save"
@@ -734,7 +734,7 @@ msgstr "Tallenna"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:139
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-checkout.inc:18
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-login.inc:19
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:32
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:33
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:54
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:68
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:95
@@ -1136,6 +1136,7 @@ msgid "%s %s %s Koha online %s "
 msgstr "%s %s %s Koha %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead-sci.inc:31
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead-sco-self.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead-sco.inc:31
 #, c-format
 msgid "Help"
@@ -1162,7 +1163,7 @@ msgid "Collect items you are interested in"
 msgstr "Valitse nimekkeet, jotka haluat"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:40
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:221
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:231
 #, c-format
 msgid "Cart"
 msgstr "Kori"
@@ -1264,7 +1265,6 @@ msgstr "Kirjaudu ulos"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:51
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:862
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reset-password.tt:49
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:450
 #, c-format
 msgid "Log in to your account"
 msgstr "Kirjaudu sisään"
@@ -1400,7 +1400,7 @@ msgstr "Ryhmät"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:237
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:289
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1074
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:495
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:543
 #, c-format
 msgid "Search"
 msgstr "Haku"
@@ -1550,9 +1550,8 @@ msgstr "Voit kirjautua ilman ulkoista tiliä paikallisella tililläsi: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:221
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:200
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:124
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:109
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:93
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reset-password.tt:77
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:451
 #, c-format
 msgid "Login:"
 msgstr "Kirjautumistunnus:"
@@ -1562,9 +1561,9 @@ msgstr "Kirjautumistunnus:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:225
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:202
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:953
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:72
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:115
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:453
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:57
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:99
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:462
 #, c-format
 msgid "Password:"
 msgstr "Salasana:"
@@ -1574,8 +1573,8 @@ msgstr "Salasana:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:26
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:229
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:205
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:122
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:456
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:106
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:471
 #, c-format
 msgid "Log in"
 msgstr "Kirjaudu"
@@ -1592,7 +1591,7 @@ msgstr "Unohditko salasanasi?"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:451
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:251
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:220
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:126
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:110
 #, c-format
 msgid "Create an account"
 msgstr "Luo uusi tili"
@@ -1699,7 +1698,8 @@ msgstr "lainattua nidettä"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:162
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reportproblem.tt:101
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:276
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:467
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:484
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:515
 #, c-format
 msgid "Submit"
 msgstr "OK"
@@ -1855,13 +1855,13 @@ msgid "Suggest for purchase"
 msgstr "Tee hankintaehdotus"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:51
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:197
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:207
 #, c-format
 msgid "Unhighlight"
 msgstr "Poista korostus"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:52
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:198
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:208
 #, c-format
 msgid "Highlight"
 msgstr "Korosta"
@@ -2518,13 +2518,13 @@ msgstr "Sulje virtuaalihylly "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:148
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:156
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:168
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:351
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:359
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:367
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:376
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:384
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:393
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:405
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:361
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:369
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:377
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:386
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:394
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:403
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:415
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:431
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:443
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:452
@@ -2549,8 +2549,8 @@ msgstr "Ei kansikuvaa saatavana"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:126
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:166
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:391
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:402
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:401
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:412
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:469
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:479
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:130
@@ -2562,8 +2562,8 @@ msgstr "Katso Baker & Taylorin tiedot"
 #. IMG
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/shelfbrowser.inc:77
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1169
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:413
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:415
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:423
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:425
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:490
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-showreviews.tt:139
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:385
@@ -2594,21 +2594,21 @@ msgstr "Lisää tageja, pilkulla eroteltuna:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:36
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:77
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:253
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:274
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:284
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:379
 msgid "Add"
 msgstr "Lisää"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:37
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:254
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:275
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:285
 #, c-format
 msgid "(done)"
 msgstr "(valmis)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:39
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:255
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:277
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:287
 #, c-format
 msgid "Tag status here. "
 msgstr "Tagin tila "
@@ -2953,13 +2953,13 @@ msgstr "Ilmoittaudu "
 msgid "Enrollment"
 msgstr "Ilmoittautumiset"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:31
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:32
 #, c-format
 msgid "Finish enrollment"
 msgstr "Lopeta ilmoittautuminen"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:37
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:38
 msgid "Unable to create enrollment!"
 msgstr "Ilmoittautuminen epäonnistui!"
 
@@ -4111,7 +4111,7 @@ msgstr "Maksu"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-account-pay-error.tt:40
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-account.tt:60
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:138
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:148
 #, c-format
 msgid "Error:"
 msgstr "Virhe:"
@@ -4539,7 +4539,7 @@ msgid "-- none -- "
 msgstr "-- ei mikään -- "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:268
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:165
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:175
 #, c-format
 msgid "Sort by:"
 msgstr "Järjestys:"
@@ -5358,7 +5358,7 @@ msgstr "%sAuktoriteettihaun tulos%sEi tuloksia%s &rsaquo; %s%s%sKohan verkkokirj
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt:54
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-browse.tt:90
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:286
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:296
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:96
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:143
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:197
@@ -5515,7 +5515,7 @@ msgstr "Piilota ikkuna"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:55
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1123
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:205
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:215
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:276
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:350
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:540
@@ -5524,7 +5524,7 @@ msgid "Select all"
 msgstr "Valitse kaikki"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:56
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:208
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:218
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:277
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:353
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:540
@@ -5536,7 +5536,7 @@ msgstr "Tyhjennä kaikki"
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:59
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:582
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:357
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
 #, c-format
@@ -5554,14 +5554,14 @@ msgid "Add to a list"
 msgstr "Lisää listalle"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:69
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:266
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:276
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:374
 #, c-format
 msgid "Tag"
 msgstr "Tagi"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:75
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:272
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:282
 #, c-format
 msgid "New tag:"
 msgstr "Uusi tagi:"
@@ -5673,7 +5673,7 @@ msgstr "%sTeoksella ei ole niteitä.%s "
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:500
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:582
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
 msgid "No item was selected"
 msgstr "Ei valittua teosta"
@@ -5682,7 +5682,7 @@ msgstr "Ei valittua teosta"
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1456
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:582
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
 msgid "No tag was specified."
 msgstr "Ei määriteltyjä tageja."
@@ -5690,7 +5690,7 @@ msgstr "Ei määriteltyjä tageja."
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:582
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
 msgid "With selected titles: "
 msgstr "Valitut nimekkeet: "
@@ -7049,7 +7049,7 @@ msgstr "-- Valitse muoto --"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:78
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:81
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:67
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:189
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:199
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:367
 #, c-format
 msgid "Go"
@@ -7724,7 +7724,7 @@ msgid "Quote of the day"
 msgstr "Päivän sitaatti"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:177
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:108
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:92
 #, c-format
 msgid "Log in to your account:"
 msgstr "Kirjaudu sisään:"
@@ -8009,7 +8009,8 @@ msgid "There is no minimum or maximum character length."
 msgstr "Ei merkkien määrälle ei ole vähimmäis- tai maksimipituutta."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:259
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:68
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:53
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:454
 #, c-format
 msgid "Username:"
 msgstr "Käyttäjätunnus:"
@@ -8472,18 +8473,21 @@ msgstr "Tuntematon"
 
 #. SELECT name=[% messaging_preference.message_attribute_id | html %]-DAYS
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:81
-msgid "Choose how many days in advance you wish to receive the message"
+#, fuzzy
+msgid "Choose how many days in advance you wish to receive notice"
 msgstr "Valitse montako päivää ennen eräpäivää ennakkoilmoitus lähetetään"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:97
-msgid "Unselect SMS messaging"
-msgstr "Poista tekstiviestivalinta"
+#, fuzzy
+msgid "Unselect sms messaging"
+msgstr "Poista sähköpostivalinta"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:99
-msgid "Select SMS messaging"
-msgstr "Valitse tekstiviesti"
+#, fuzzy
+msgid "Select sms messaging"
+msgstr "Valitse sähköposti"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:110
@@ -8492,17 +8496,13 @@ msgstr "Poista puhelinvalinta"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:117
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
 msgid "Select notification by phone"
 msgstr "Valitse puhelin"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:133
 msgid "Unselect itiva messaging"
-msgstr "Poista itiva-valinta"
-
-#. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
-msgid "Select itiva messaging"
 msgstr "Poista itiva-valinta"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
@@ -9199,8 +9199,8 @@ msgid "Forever: keep my history without limit. This is the option for users who 
 msgstr "Laina- ja varaushistoria säilytetään aina."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:67
-#, c-format
-msgid "Default: keep my history according to library policy. This is the default option : the library will keep your history for the duration set by library policy."
+#, fuzzy, c-format
+msgid "Default: keep my history according to local laws. This is the default option : the library will keep your history for the duration permitted by local laws."
 msgstr "Oletus: laina- ja varaushistoria tallennetaan kirjaston määrittämän ajan. Tämä on oletusvalinta: kirjasto säilyttää lainaushistoriasi käyttösääntöjensä mukaisesti."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:68
@@ -9595,7 +9595,6 @@ msgstr "varaus"
 
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:162
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:56
 msgid "Confirm"
 msgstr "Hyväksy"
 
@@ -9709,48 +9708,37 @@ msgstr "Yhtään palautuspyyntöä ei ole tehty."
 msgid "Are you sure you want to remove this recall?"
 msgstr "Haluatko varmasti poistaa tämän palautuspyynnön?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:20
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:51
-#, c-format
-msgid "Registration pending"
-msgstr "Ilmoittautuminen vireillä"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:22
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:19
 #, c-format
 msgid "Registration complete"
 msgstr "Rekisteröityminen on valmis"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:52
-#, c-format
-msgid "Click the button below to confirm registration."
-msgstr "Valitse alla oleva painike vahvistaaksesi rekisteröinnin."
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:61
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:46
 #, c-format
 msgid "Registration complete!"
 msgstr "Rekisteröityminen on valmis!"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:63
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:48
 #, c-format
 msgid "You have successfully registered your new account."
 msgstr "Rekisteröityminen onnistui."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:65
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:50
 #, c-format
 msgid "To log in, use the following credentials:"
 msgstr "Käytä seuraavia tietoja kirjautumiseen:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:78
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:63
 #, c-format
 msgid "Card number:"
 msgstr "Kirjastokortin numero:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:85
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:70
 #, c-format
 msgid "For your convenience, the login box on this page has been pre-filled with this data. Please log in and change your password."
 msgstr "Kirjautumistiedot on valmiiksi täytetty tällä sivulla. Kirjaudu sisään ja vaihda salasanasi."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:87
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:72
 #, c-format
 msgid "For your convenience, the login box on this page has been pre-filled with this data. Please log in."
 msgstr "Kirjautumistietosi ovat valmiiksi syötetty kenttiin. Kirjaudu sisään."
@@ -10576,7 +10564,7 @@ msgid "%s You did not specify any search criteria. %s "
 msgstr "%s Anna hakuehto. %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:79
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:132
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:142
 #, c-format
 msgid "Return to the last advanced search"
 msgstr "Palaa edelliseen tarkkaan hakuun"
@@ -10595,6 +10583,13 @@ msgstr "%s hakutulosta. "
 msgid "(related searches:%s %s%s)."
 msgstr "(samankaltaisia hakuja:%s %s%s)."
 
+#. %1$s:  #END 
+#. %2$s:  IF ( koha_spsuggest ) 
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:126
+#, c-format
+msgid "%s %s Did you mean: "
+msgstr "%s %s Tarkoititko: "
+
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:126
 #, c-format
 msgid "Not what you expected? Check for "
@@ -10605,180 +10600,180 @@ msgstr "Etkö löytänyt hakemaasi? Kävisikö nämä "
 msgid "suggestions"
 msgstr "ehdotukset"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:148
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:158
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
 #, c-format
 msgid "Sort"
 msgstr "Järjestä"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:171
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:181
 #, c-format
 msgid "Results per page: "
 msgstr "Tuloksia sivulla: "
 
 #. For the first occurrence,
 #. %1$s:  Koha.Preference('OPACnumSearchResults') | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:175
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:177
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:185
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:187
 #, c-format
 msgid "%s (default)"
 msgstr "%s (oletus)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:214
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:224
 #, c-format
 msgid "Select titles to:"
 msgstr "Valitse teokset:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:219
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:229
 #, c-format
 msgid "Add to..."
 msgstr "Lisää"
 
 #. OPTGROUP
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:225
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:235
 msgid "Your lists:"
 msgstr "Listasi:"
 
 #. OPTGROUP
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:237
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:247
 msgid "Public lists:"
 msgstr "Julkiset listat:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:249
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:259
 #, c-format
 msgid "[ More lists ]"
 msgstr "[ Enemmän listoja ]"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:251
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:261
 #, c-format
 msgid "[ New list ]"
 msgstr "[ Uusi lista ]"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:260
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:270
 #, c-format
 msgid "Place hold "
 msgstr "Varaa "
 
 #. INPUT type=checkbox name=biblionumber
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:299
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:302
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:306
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:309
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:312
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:316
 msgid "Select search result: %s"
 msgstr "Valitse hakutuloksesta: %s"
 
 #. IMG
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:328
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:338
 msgid "bonus"
 msgstr "etu"
 
 #. %1$s:  SEARCH_RESULT.score_avg | html 
 #. %2$s:  SEARCH_RESULT.num_scores | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:438
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:448
 #, c-format
 msgid "&nbsp;&nbsp; %s / 5 (on %s rates)"
 msgstr "&nbsp;&nbsp; %s / 5 (yhteensä %s arviota)"
 
 #. %1$s:  SEARCH_RESULT.num_critics | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:441
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:451
 #, c-format
 msgid "%s Internet user critics"
 msgstr "%s Nettiarviot"
 
 #. %1$s:  SEARCH_RESULT.num_critics_pro | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:444
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:454
 #, c-format
 msgid "%s Professional critics"
 msgstr "%s Arvosteluja"
 
 #. %1$s:  SEARCH_RESULT.num_videos | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:447
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:457
 #, c-format
 msgid "%s Video extracts"
 msgstr "%s Videonäytteet"
 
 #. %1$s:  SEARCH_RESULT.num_quotations | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:450
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:460
 #, c-format
 msgid "%s Quotations"
 msgstr "%s Sitaatteja"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:461
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:471
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:515
 #, c-format
 msgid "Tags:"
 msgstr "Tagit:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:475
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:485
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:501
 #, c-format
 msgid "Lists:"
 msgstr "Listat:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:489
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:499
 #, c-format
 msgid "Match:"
 msgstr "Vastaavuus:"
 
 #. %1$s:  SEARCH_RESULT.ratings.count | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:515
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:525
 #, c-format
 msgid "&nbsp;&nbsp;(%s votes)"
 msgstr "&nbsp;&nbsp;(%s ääntä)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:533
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:543
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:926
 #, c-format
 msgid "Pages"
 msgstr "Sivut"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:545
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:555
 #, c-format
 msgid "Not finding what you're looking for? "
 msgstr "Etkö löydä hakemaasi? "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:550
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:552
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:560
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:562
 #, c-format
 msgid "Make a "
 msgstr "Tee "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:550
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:552
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:560
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:562
 #, c-format
 msgid "purchase suggestion"
 msgstr "hankintaehdotus"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:556
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:566
 #, c-format
 msgid "Interlibrary loan request"
 msgstr "Kaukolainapyyntö"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:556
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:566
 #, c-format
 msgid "Make an "
 msgstr "Tee "
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:582
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 msgid "Error searching %s collection"
 msgstr "Virhe haettaessa %s kokoelmasta"
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:582
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 msgid "Found %s results in the library's %s collection"
 msgstr "Löytyi %s tulosta kirjaston %s kokoelmasta"
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:582
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 msgid "Searching %s..."
 msgstr "Haetaan %s..."
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:582
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
 msgid "You must be logged in to create or add to lists"
 msgstr "Kirjaudu sisään luodaksesi listan tai lisätäksesi teoksia listalle"
@@ -13543,6 +13538,7 @@ msgstr "Viivakoodit"
 
 # painike
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:156
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:500
 #, c-format
 msgid "Check in"
 msgstr "Palautus"
@@ -13972,23 +13968,40 @@ msgstr "Ei lainoja."
 msgid "You currently have no pending holds."
 msgstr "Ei odottavia varauksia."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:461
+# painike
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:448
+#, c-format
+msgid "Check out"
+msgstr "Lainaus"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:478
 #, c-format
 msgid "Please enter your card number:"
 msgstr "Kirjastokortin numero:"
 
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:505
+#, fuzzy, c-format
+msgid "Please enter barcode:"
+msgstr "Kirjastokortin numero:"
+
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:495
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:543
 msgid "End session"
 msgstr "Lopeta istunto"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:495
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:543
 msgid "Print receipt and end session"
 msgstr "Tulosta kuitti ja päätä istunto"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:495
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:543
+msgid "Timeout while waiting for print confirmation"
+msgstr ""
+
+#. For the first occurrence,
+#. SCRIPT
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:543
 msgid "Would you like to print a receipt?"
 msgstr "Haluatko tulostaa kuitin?"
 
@@ -14038,10 +14051,6 @@ msgstr "000 "
 
 #~ msgid "%s %s %s %s Item in transit from "
 #~ msgstr "%s %s %s %s Aineisto matkalla kirjastosta "
-
-#, c-format
-#~ msgid "%s %s Did you mean: "
-#~ msgstr "%s %s Tarkoititko: "
 
 #~ msgid "%s %s New password must not be the same as old password. %s Passwords do not match. Please re-type your new password. %s Password must be at least %s characters long. %s Password must contain at least one digit, one lowercase and one uppercase. %s Password must not contain leading or trailing whitespaces. %s You entered an incorrect username or password. Please try again! But note that passwords are case sensitive%s and that your account will be locked out after a fixed number of failed login attempts%s. Please contact a library staff member if you continue to have problems. %s Please log-in to account to update your password."
 #~ msgstr "%s %s Uusi salasana ei voi olla sama kuin vanha salasana. %s Salasanat eivät täsmää. Syötä salasana uudelleen. %s Salasanan täytyy olla vähintään %s merkkiä pitkä. %s Salasanassa pitää olla vähintään yksi numero, yksi pieni kirjain ja yksi iso kirjain. %s Salasanassa ei saa olla tyhjiä merkkejä alussa tai lopussa. %s Käyttäjätunnus tai salasana väärin. Yritä uudelleen! Salasana huomioi pienet ja isot kirjaimet%s. Salasanasi lukitaan liian monen epäonnistuneen yrityksen jälkeen%s. Jos ongelma toistuu, ota yhteyttä kirjaston henkilökuntaan. %s Kirjaudu sisään päivittääksesi salasanasi."
@@ -14161,10 +14170,6 @@ msgstr "000 "
 #~ msgid "Automatic renewal"
 #~ msgstr "Automaattinen uusinta"
 
-# painike
-#~ msgid "Check out"
-#~ msgstr "Lainaus"
-
 #~ msgid "Checked out until %s"
 #~ msgstr "Lainattu, eräpäivä: %s"
 
@@ -14173,6 +14178,10 @@ msgstr "000 "
 
 #~ msgid "Classification: %s "
 #~ msgstr "Luokitus: %s "
+
+#, c-format
+#~ msgid "Click the button below to confirm registration."
+#~ msgstr "Valitse alla oleva painike vahvistaaksesi rekisteröinnin."
 
 #~ msgid "Collection: %s "
 #~ msgstr "Kokoelma: %s "
@@ -14364,6 +14373,10 @@ msgstr "000 "
 #~ msgid "Register here."
 #~ msgstr "Rekisteröidy täällä."
 
+#, c-format
+#~ msgid "Registration pending"
+#~ msgstr "Ilmoittautuminen vireillä"
+
 #~ msgid "Relative issues"
 #~ msgstr "Huollettavan lainat"
 
@@ -14378,6 +14391,12 @@ msgstr "000 "
 
 #~ msgid "Search:"
 #~ msgstr "Haku:"
+
+#~ msgid "Select SMS messaging"
+#~ msgstr "Valitse tekstiviesti"
+
+#~ msgid "Select itiva messaging"
+#~ msgstr "Poista itiva-valinta"
 
 #~ msgid "Serial collection "
 #~ msgstr "Kausijulkaisukokoelma "
@@ -14434,6 +14453,9 @@ msgstr "000 "
 
 #~ msgid "Unified title: %s "
 #~ msgstr "Yhtenäistetty nimeke: %s "
+
+#~ msgid "Unselect SMS messaging"
+#~ msgstr "Poista tekstiviestivalinta"
 
 #, c-format
 #~ msgid "Updates to your record"
