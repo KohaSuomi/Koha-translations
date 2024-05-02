@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-02 13:04+0300\n"
-"PO-Revision-Date: 2024-03-14 08:50+0000\n"
+"PO-Revision-Date: 2024-05-02 15:46+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: fi-FI\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-messages-js.po\n"
 "X-POOTLE-MTIME: 1699019957.327455\n"
@@ -1063,9 +1063,8 @@ msgstr "Ei voida aktivoida, varausta ei löytynyt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:353
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:439
-#, fuzzy
 msgid "Your request could not be processed. Check the logs"
-msgstr "Pyyntöäsi ei voitu käsitellä. Tarkista lokitiedot."
+msgstr "Pyyntöäsi ei voitu käsitellä. Tarkista lokitiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:400
 msgid "Suspend hold on"
@@ -1080,52 +1079,46 @@ msgid "Clear date to suspend indefinitely"
 msgstr "Jos kentässä ei ole päivämäärää, keskeytyvät varaukset toistaiseksi."
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:436
-#, fuzzy
 msgid "Unable to suspend, hold not found"
-msgstr "Varausta ei voitu keskeyttää, koska sitä ei löytynyt."
+msgstr "Varausta ei voitu keskeyttää, koska sitä ei löytynyt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:634
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Item being transferred to <strong>%s</strong>"
-msgstr "Nide <strong>odottaa</strong>"
+msgstr "Nidettä kuljetetaan kohteeseen <strong>%s</strong>"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:636
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Item being processed at <strong>%s</strong>"
-msgstr "Nide <strong>odottaa</strong>"
+msgstr "Nidettä käsitellään pisteessä <strong>%s</strong>"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:638
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Item waiting at <strong>%s</strong> since %s"
-msgstr "Nide on <strong>kuljetettavana</strong> yksiköstä %s lähtien %s"
+msgstr "Nide on noudettavana pisteessä <strong>%s</strong> %s lähtien"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:668
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:670
-#, fuzzy
 msgid "Next available"
-msgstr "Seuraava vapaa %s nide"
+msgstr "Seuraava vapaa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:668
-#, fuzzy
 msgid "Non priority hold"
-msgstr "Uusinnan prioriteetti"
+msgstr "Kiireetön varaus"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:695
 msgid "Revert transit status"
-msgstr ""
+msgstr "Peruuta kuljetustila"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:697
-#, fuzzy
 msgid "Revert waiting status"
-msgstr "Valinnan tila"
+msgstr "Peruuta odottava-tila"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:709
-#, fuzzy
 msgid "Suspend on"
-msgstr "Keskeytä varaus"
+msgstr "Keskeytetty, aktivoituu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:711
-#, fuzzy
 msgid "Suspend until"
 msgstr "Keskeytä varaus ja aktivoi se:"
 
@@ -1320,7 +1313,6 @@ msgstr "Vaihda viestiasetukset oletusasetukseksi tälle ryhmälle?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:38
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:55
-#, fuzzy
 msgid "Your concern was sucessfully submitted."
 msgstr "Virheilmoituksesi on lähetetty."
 
@@ -1349,7 +1341,7 @@ msgstr "Virheilmoitus #%s päivitetty."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:89
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:117
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Error resolving concern #%s. Check the logs."
 msgstr "Virhe ratkaistaessa virheilmoitusta #%s. Tarkista lokit."
 
@@ -1393,12 +1385,10 @@ msgstr "Haluatko varmasti poistaa tämän evästeasetuksen?"
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
-#, fuzzy
 msgid "Click to collapse this section"
 msgstr "Valitse sulkeaksi tämä osio"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
-#, fuzzy
 msgid "Click to expand this section"
 msgstr "Valitse aukaistaksesi tämä osio"
 
@@ -1518,9 +1508,8 @@ msgid "Click to expand"
 msgstr "Valitse aukaistaksesi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
-#, fuzzy
 msgid "Click to collapse"
-msgstr "Supista"
+msgstr "Valitse sulkeaksi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
 msgid "You must complete all fields"
@@ -1807,9 +1796,8 @@ msgid "Are you sure you want to delete %s?"
 msgstr "Oletko varma, että haluat poistaa %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:473
-#, fuzzy
 msgid "An error occurred. Check the logs"
-msgstr "Tapahtui virhe. Tarkista lokit."
+msgstr "Tapahtui virhe. Tarkista lokit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19
 msgid "Frequency and subscription length provided doesn't combine well. Please consider entering an issue count rather than a time period."
@@ -3031,13 +3019,11 @@ msgstr "Raportin julkaisu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:221
-#, fuzzy
 msgid "Customer Id"
 msgstr "Asiakastunnus"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:244
-#, fuzzy
 msgid "Requestor Id"
 msgstr "Pyytäjän tunnus"
 
@@ -3155,12 +3141,10 @@ msgid "Credentials information"
 msgstr "Pääsytietojen tiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:311
-#, fuzzy
 msgid "Customer id info"
 msgstr "Asiakastunnuksen tiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:321
-#, fuzzy
 msgid "Requestor id info"
 msgstr "Pyytäjätunnuksen tiedot"
 
@@ -3181,7 +3165,6 @@ msgid "for more information."
 msgstr "saadaksesi lisätietoja."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
-#, fuzzy
 msgid "This provider does not currently support any counter 5 reports via SUSHI."
 msgstr "Tämä palveluntarjoaja ei tue tällä hetkellä mitään COUNTER 5 -raportteja SUSHIn kautta."
 

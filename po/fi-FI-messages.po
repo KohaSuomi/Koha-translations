@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-02 13:04+0300\n"
-"PO-Revision-Date: 2024-03-14 08:50+0000\n"
+"PO-Revision-Date: 2024-05-02 15:51+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: fi-FI\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-messages.po\n"
 "X-POOTLE-MTIME: 1695118454.573755\n"
@@ -2213,9 +2213,8 @@ msgid "Permanent shelving location"
 msgstr "Pysyvä hyllypaikka"
 
 #: Koha/Database/Columns.pm:232
-#, fuzzy
 msgid "Sublocation"
-msgstr "Paikka"
+msgstr "Hyllytarkenne"
 
 #: Koha/Database/Columns.pm:233
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
@@ -3592,12 +3591,10 @@ msgid "Bookseller name"
 msgstr "Toimittajan nimi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#, fuzzy
 msgid "Bookseller physical address"
 msgstr "Toimittajan fyysinen osoite"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#, fuzzy
 msgid "Bookseller postal address"
 msgstr "Toimittajan postiosoite"
 
@@ -3683,7 +3680,6 @@ msgid "Manager name"
 msgstr "Käsittelijän nimi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-#, fuzzy
 msgid "Patron cardnumber"
 msgstr "Kirjastokortin numero"
 
@@ -5852,7 +5848,7 @@ msgstr "Uusi SMTP-palvelin"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:148
 #, perl-brace-format
 msgid "Modify SMTP server '{smtp_server}'"
-msgstr "Muokkaa SMTP-palvelinta '{smtp_server }'"
+msgstr "Muokkaa SMTP-palvelinta '{smtp_server}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:12
 msgid "SMTP servers"
@@ -6860,7 +6856,7 @@ msgstr "Asiakaskerhot"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:11
 #, perl-brace-format
 msgid "Modify club {club_name}"
-msgstr "Muokkaa kerhoa (club_name)"
+msgstr "Muokkaa kerhoa {club_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:13
 #, perl-brace-format
@@ -7280,12 +7276,12 @@ msgstr "Suorita maksu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:27
 #, perl-brace-format
 msgid "Write off an amount for {patron}"
-msgstr "Poista summa {asiakkaalta}"
+msgstr "Poista summa asiakkaalta {patron}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:29
 #, perl-brace-format
 msgid "Collect payment for {patron}"
-msgstr "Kerää maksu {asiakkaalta}"
+msgstr "Kerää maksu asiakkaalta {patron}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printfeercpt.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printinvoice.tt:8
@@ -8291,22 +8287,18 @@ msgid "Show more series"
 msgstr "Näytä lisää sarjoja"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:48
-#, fuzzy
 msgid "Show fewer types"
 msgstr "Näytä vähemmän nidetyyppejä"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:48
-#, fuzzy
 msgid "Show more types"
 msgstr "Näytä lisää nidetyyppejä"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:49
-#, fuzzy
 msgid "Show fewer collection codes"
 msgstr "Näytä vähemmän kokoelmia"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:49
-#, fuzzy
 msgid "Show more collection codes"
 msgstr "Näytä lisää kokoelmia"
 

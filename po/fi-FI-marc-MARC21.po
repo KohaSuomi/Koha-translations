@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-02 13:04+0300\n"
-"PO-Revision-Date: 2023-12-06 03:02+0000\n"
+"PO-Revision-Date: 2024-05-02 15:37+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: fi-FI\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-marc-MARC21.po\n"
 "X-POOTLE-MTIME: 1691473713.814600\n"
@@ -13113,9 +13113,9 @@ msgstr "&lt;&lt; Edellinen"
 msgid "Next&gt;&gt;"
 msgstr "Seuraava&gt;&gt;"
 
-#. %1$s:  from | html 
-#. %2$s:  to | html 
-#. %3$s:  total | html 
+#. %1$s:  from | html
+#. %2$s:  to | html
+#. %3$s:  total | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:62
 #, c-format
 msgid "Results %s to %s of %s"
@@ -17996,13 +17996,13 @@ msgstr "Moniosainen julkaisu: "
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:324
 #, c-format
 msgid "\" AND cni,ext:\""
-msgstr ""
+msgstr "\" AND cni,ext:\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:321
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:324
-#, fuzzy, c-format
+#, c-format
 msgid "/cgi-bin/koha/catalogue/search.pl?q=Control-number,ext:\""
-msgstr "/cgi-bin/koha/catalogue/search.pl?q=Control-number:"
+msgstr "/cgi-bin/koha/catalogue/search.pl?q=Control-number,ext:\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:330
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:906
@@ -18356,7 +18356,7 @@ msgstr "avxyz"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:842
 #, c-format
 msgid "(index-term-genre"
-msgstr "(hakutermi-lajityyppi"
+msgstr "(index-term-genre"
 
 # index-term-genre-sana osoitteessa on indeksin nimi, joten sitä ei saa suomentaa, jotta linkin kautta tehtävä haku toimii.
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:805
@@ -18845,9 +18845,9 @@ msgid "_blank"
 msgstr "_blank"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:1637
-#, fuzzy, c-format
+#, c-format
 msgid "Finna view: "
-msgstr "Verkkokirjasto: "
+msgstr "Finna-verkkokirjasto: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:1667
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:1083
@@ -20175,54 +20175,54 @@ msgid "/cgi-bin/koha/opac-search.pl"
 msgstr "/cgi-bin/koha/opac-search.pl"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:305
-#, fuzzy, c-format
+#, c-format
 msgid "/cgi-bin/koha/catalogue/search.pl?q=place-of-publication:"
-msgstr "/cgi-bin/koha/catalogue/search.pl?q=copydate:\""
+msgstr "/cgi-bin/koha/catalogue/search.pl?q=place-of-publication:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:455
-#, fuzzy, c-format
+#, c-format
 msgid "Age restriction: "
-msgstr "Kuvaus: "
+msgstr "Ikäraja: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:481
-#, fuzzy, c-format
+#, c-format
 msgid "Current publication frequency: "
-msgstr "Virallisjulkaisu"
+msgstr "Nykyinen julkaisutiheys: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:502
-#, fuzzy, c-format
+#, c-format
 msgid "Performance medium: "
-msgstr "Heijastettava kuva tai viestin"
+msgstr "Esityskokoonpano: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:505
 #, c-format
 msgid "ind1-"
-msgstr ""
+msgstr "ind1-"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:509
 #, c-format
 msgid "sf-"
-msgstr ""
+msgstr "sf-"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:537
-#, fuzzy, c-format
+#, c-format
 msgid "Producing country: "
-msgstr "Tuotantoon osallistujat: "
+msgstr "Tuottajan maa: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:554
-#, fuzzy, c-format
+#, c-format
 msgid "Creation time: "
-msgstr "[Otsikkonimeke]"
+msgstr "Luontiaika: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:571
 #, c-format
 msgid "Associated place: "
-msgstr ""
+msgstr "Liittyvä paikka: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/kohasuomi-MARC21slimUtils.xsl:609
-#, fuzzy, c-format
+#, c-format
 msgid "Captions language: "
-msgstr "Puhuttu kieli: "
+msgstr "Kuulovammaisille tarkoitetun tekstityksen kieli: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/oilsMARC21slim2HTML.xsl:29
 #, c-format
