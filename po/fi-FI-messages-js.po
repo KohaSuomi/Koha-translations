@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-02 13:04+0300\n"
-"PO-Revision-Date: 2024-05-02 15:46+0300\n"
+"PO-Revision-Date: 2024-05-10 16:00+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -1050,7 +1050,7 @@ msgstr "Nide <strong>odottaa</strong>"
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:309
 #, javascript-format
 msgid "Item is <strong>in transit</strong> from %s since %s"
-msgstr "Nide on <strong>kuljetettavana</strong> yksiköstä %s lähtien %s"
+msgstr "Nide on <strong>kuljetettavana</strong> yksiköstä %s %s lähtien"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:311
 #, javascript-format
