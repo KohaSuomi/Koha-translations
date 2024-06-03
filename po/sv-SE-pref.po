@@ -461,37 +461,37 @@ msgstr "ingen"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
+#, fuzzy
+msgid "acquisitions.pref#MarcFieldsToOrder# <br/>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a"
 msgstr "<p>Till exempel:<br/>price: 947$a|947$c<br/>kvantitet: 969$h<br/>budget_code: 922$a</p>"
-
-# Acquisitions > Policy > MarcFieldsToOrder
-# Acquisitions > Policy
-msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "<p>Du kan använda följande fält: price, quantity, budget_code, discount, sort1, sort2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcFieldsToOrder# Set the mapping values for a new order line created from a MARC record in a staged file."
 msgstr "Ställ in mappningsvärden för en ny beställningsrad skapad från en MARC-post i en förberedd fil."
 
+# Acquisitions > Policy > MarcFieldsToOrder
+# Acquisitions > Policy
+#, fuzzy
+msgid "acquisitions.pref#MarcFieldsToOrder# You can use the following fields: price, quantity, budget_code, discount, sort1, sort2"
+msgstr "<p>Du kan använda följande fält: price, quantity, budget_code, discount, sort1, sort2</p>"
+
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
+#, fuzzy
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <br/>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
 msgstr "<p>Till exempel:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
-
-# Acquisitions > Policy > MarcItemFieldsToOrder
-msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr ""
-
-# Acquisitions > Policy > MarcItemFieldsToOrder
-# Acquisitions > Policy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "<p>Du kan använda följande fält: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice och itemcallnumber. Specialfält: quantity och budget_code</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# Set the mapping values for new item records created from a MARC record in a staged file."
 msgstr "Ställ in mappningsvärden för en ny beställningsrad skapad från en MARC-post i en förberedd fil."
+
+# Acquisitions > Policy > MarcItemFieldsToOrder
+# Acquisitions > Policy
+#, fuzzy
+msgid "acquisitions.pref#MarcItemFieldsToOrder# You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code"
+msgstr "<p>Du kan använda följande fält: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice och itemcallnumber. Specialfält: quantity och budget_code</p>"
 
 # Acquisitions > Printing > OrderPdfFormat
 # Acquisitions > Printing
@@ -2816,6 +2816,18 @@ msgstr "(icke-XSLT-vy enbart)."
 msgid "cataloguing.pref#AuthoritySeparator# Separate main entry and subdivisions with "
 msgstr "Separera huvuduppgift och underavdelningar med "
 
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record structure
+#, fuzzy
+msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
+msgstr "Streckkoder är"
+
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record Structure
+#, fuzzy
+msgid "cataloguing.pref#BarcodePrefix# This is a YAML config."
+msgstr "inkrementella EAN-13-streckkoder."
+
 # Cataloging > Exporting > BibtexExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#BibtexExportAdditionalFields# <br/>"
@@ -3621,6 +3633,12 @@ msgstr "genererade i formatet <year>0001, <year>-0002."
 
 # Cataloging > Record structure > autoBarcode
 # Cataloging > Record Structure
+#, fuzzy
+msgid "cataloguing.pref#autoBarcode# generated in the from <prefix>yyyymm0001."
+msgstr "genererade i formatet <branchcode>ååmm0001."
+
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# incremental EAN-13 barcodes."
 msgstr "inkrementella EAN-13-streckkoder."
 
@@ -3770,6 +3788,11 @@ msgstr "Upphämtningsmodulen"
 # Circulation > Fines Policy
 msgid "circulation.pref Fines Policy"
 msgstr "Böter- och avgiftspolicy"
+
+# Circulation
+#, fuzzy
+msgid "circulation.pref Floating"
+msgstr "circulation.pref"
 
 # Circulation
 # Circulation > Holds Policy
@@ -4020,6 +4043,36 @@ msgstr "Detta tillåter självutlåning för dessa exemplar. Om du använder res
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# checkouts of items reserved to someone else via SIP checkout messages."
+msgstr "utlån av exemplar som är reserverade av någon annan via SIP utlåningsmeddelanden."
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# Allow"
+msgstr "Tillåt"
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# Don't allow"
+msgstr "Tillåt inte"
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# If allowed do not generate ISSUED_TO_ANOTHER warning."
+msgstr "Om tillåtet, generera ingen RESERVED-varning."
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# This allows self checkouts for those items."
+msgstr "Tillåt"
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout Policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# checkouts of items already checked out to someone else via SIP checkout messages."
 msgstr "utlån av exemplar som är reserverade av någon annan via SIP utlåningsmeddelanden."
 
 # Circulation > Checkout policy > AllowMultipleIssuesOnABiblio
@@ -5191,6 +5244,100 @@ msgstr "Inkludera"
 msgid "circulation.pref#FinesIncludeGracePeriod# the grace period when calculating the fine for an overdue item."
 msgstr "respittiden vid beräkning av avgifterna för ett försenat exemplar."
 
+# Circulation > Article requests > ArticleRequests
+# Circulation > Article requests
+#, fuzzy
+msgid "circulation.pref#FloatRules# </ul>"
+msgstr "Aktivera "
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>#A->B: itemtype eq \"KIRJA\"</code>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means that rule applies when item is from library B and is checked in from library A.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> means that rule applies to both libraries.</br></br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, == and !=</code> for numeric values and <code>=~</code> for regular expressions.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items with a collection code \"FLOAT\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - using a regular expression to match against the item attribute, floats item types \"CD\" or \"DVD\" or \"KIRJA\"</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\" || itemtype eq \"CD\"</code> - all items with item type \"KIRJA\" or \"CD\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\"</code> - all items with item type \"KIRJA\" will float</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - all items not of item type \"CD\" and whose permanent location is \"CART\" will float</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
+msgstr ""
+
+# Circulation > Article requests > ArticleRequests
+# Circulation > Article requests
+#, fuzzy
+msgid "circulation.pref#FloatRules# <ul>"
+msgstr "Aktivera "
+
+# Circulation > Self check-out module > AutoSelfCheckAllowed
+# Circulation > Self check-out module
+#, fuzzy
+msgid "circulation.pref#FloatRules# Allowed operators are following:</br>"
+msgstr "Tillåt inte"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Define float rules by columns of items table and biblioitems column itemtype. NOTE! Rules can't be applied to other columns from biblioitems table.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Example rule: <code>A->B: itemtype eq \"KIRJA\"</code></br></br>"
+msgstr ""
+
+# Circulation > SIP2 > SIP2SortBinMapping
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# Examples:</br>"
+msgstr "Exempel:<br/>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Rules should start with following syntax:</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies."
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# You can also use comments to disable unused rules, just add <code>#</code> before the rule:</br>"
+msgstr ""
+
+# Circulation > Article requests > ArticleRequests
+# Circulation > Article requests
+#, fuzzy
+msgid "circulation.pref#FloatRules# or: </br>"
+msgstr "Aktivera inte "
+
 # Circulation > Checkin policy > HidePersonalPatronDetailOnCirculation
 # Circulation > Checkin policy
 msgid "circulation.pref#HidePersonalPatronDetailOnCirculation# Don't hide"
@@ -6196,17 +6343,25 @@ msgstr "Inkludera följande JavaScript på alla sidor i den webbaserade självut
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't send"
-msgstr "Skicka inte"
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
+msgstr "Skicka"
 
-# Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# OPAC patron messages in the SIP2 screen message field."
-msgstr "OPAC-meddelanden i meddelandefältet för SIP2."
+# Circulation > Interface > AllowAllMessageDeletion
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't"
+msgstr "Skicka"
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Course reserves
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Send"
+#, fuzzy
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Use"
 msgstr "Skicka"
+
+# Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
+#, fuzzy
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# send OPAC patron messages in the SIP2 screen message field."
+msgstr "OPAC-meddelanden i meddelandefältet för SIP2."
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -7124,13 +7279,10 @@ msgstr "Skicka inte"
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "Skicka"
 
-# Administration > Interface options > AddressForFailedOverdueNotices
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
-msgstr "Den första e-postadressen i följande lista kommer att användas: Library Reply-To, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the Koha administrator email address whenever a hold request is placed."
 msgstr "för att skicka ett e-postmeddelande till biblioteket varje gång en reservation läggs."
 
 # Circulation > Fines Policy > finesCalendar
@@ -8146,7 +8298,8 @@ msgstr "Obligatoriskt"
 
 # Enhanced content > OverDrive > OverDriveCirculation
 # Enhanced content > OverDrive
-msgid "enhanced_content.pref#OverDriveCirculation# card number"
+#, fuzzy
+msgid "enhanced_content.pref#OverDriveCirculation# cardnumber"
 msgstr "kortnummer"
 
 # Enhanced content > OverDrive > OverDriveCirculation
@@ -9028,6 +9181,24 @@ msgstr "Logga"
 # Logging > Logging > BorrowersLog
 # Logging > Logging
 msgid "logs.pref#BorrowersLog# changes to patron records."
+msgstr "ändringar av låntagarposter."
+
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# Don't log"
+msgstr "Logga inte"
+
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# Log"
+msgstr "Logga"
+
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# when patron data is viewed."
 msgstr "ändringar av låntagarposter."
 
 # Logging > Logging > CataloguingLog
@@ -10186,7 +10357,8 @@ msgstr "<br><strong>OBS:</strong> Biblioteksspecifik javascriptkod kan definiera
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
-msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC:"
+#, fuzzy
+msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC. You may need to ask your system administrator to rehash userjs checksums after changing this."
 msgstr "Inkludera följande JavaScript på alla sidor i OPAC:"
 
 # OPAC > Appearance > OPACUserSummary
@@ -11220,47 +11392,6 @@ msgstr "Kräv"
 msgid "opac.pref#PatronSelfRegistrationVerifyByEmail# that a self-registering patron verify themselves via email."
 msgstr "att låntagare som registrerat sig via OPAC verifierar sig via e-post."
 
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
-msgstr "</ul>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
-msgstr "<li>Första prioritet: Använd inställningen --list-invites när cronjobbet cleanup_database.pl cronjob körs och inställningen --list-invites definierar ett antal dagar.</li>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
-msgstr "<li>Andra prioritet: Använd systeminställningen PurgeListShareInvitesOlderThan när den innehåller ett värde.</li>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
-msgstr "<li>Tredje prioritet: Använd som standard 14 dagar när cronjobbet cleanup_database.pl körs med inställningen --list-invites, men utan värde OCH systeminställningen PurgeListShareInvitesOlderThan är tom.</li>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
-msgstr "<p><strong>VARNING</strong>: Oaccepterade privata listdelningar tas bort enligt dessa prioriteringar:"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
-msgstr "<p>Exempel: [14] Tar bort en inbjudan till oaccepterad privat listdelning äldre än 14 dagar.</p>"
-
-# OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
-# OPAC > Self registration and modification
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<strong>OBS!</strong> Denna systeminställning kräver att följande cronjobb körs: <code>misc/cronjobs/cleanup_database.pl</code>Be din systemadministratör att schemalägga det."
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
-msgstr "<ul>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
-msgstr "Cronjobbet cleanup_database.pl tar automatiskt bort inbjudningar till oaccepterade privata listdelninger efter"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
-msgstr "dagar."
-
 # OPAC > Features > QuoteOfTheDay
 # OPAC > Features
 msgid "opac.pref#QuoteOfTheDay# OPAC"
@@ -11858,6 +11989,11 @@ msgstr "Kontaktinformation"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
+msgid "patrons.pref#CollapseFieldsPatronAddForm# Guarantor information"
+msgstr "Information om målsman"
+
+# Patrons > Patron forms > CollapseFieldsPatronAddForm
+# Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Housebound roles"
 msgstr "Boken kommer-roller"
 
@@ -11878,11 +12014,6 @@ msgstr "Primär adress"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-msgid "patrons.pref#CollapseFieldsPatronAddForm# Non-patron guarantor"
-msgstr "Vårdnadshavare som inte är låntagare"
-
-# Patrons > Patron forms > CollapseFieldsPatronAddForm
-# Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# OPAC/Staff interface login"
 msgstr "OPAC-/personalinloggning"
 
@@ -11890,11 +12021,6 @@ msgstr "OPAC-/personalinloggning"
 # Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron account flags (existing patrons)"
 msgstr "Flaggor för låntagarkonto (befintliga låntagare)"
-
-# Patrons > Patron forms > CollapseFieldsPatronAddForm
-# Patrons > Patron forms
-msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
-msgstr "Vårdnadshavare som är låntagare"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -11959,7 +12085,8 @@ msgid "patrons.pref#DefaultPatronSearchMethod# Contains"
 msgstr "Innehåller"
 
 # Patrons > General > DefaultPatronSearchMethod
-msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use 'starts with' or 'contains' for all patron searches, including auto-complete."
+#, fuzzy
+msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use Starts with or Contains for autocomplete patron searches."
 msgstr "Aktivera denna för att vid sökningar på låntagare kunna komplettera automatiskt enligt 'börjar med' eller 'innehåller'."
 
 # Patrons > General > DefaultPatronSearchMethod
@@ -11997,7 +12124,8 @@ msgid "patrons.pref#EmailFieldPrimary# alternate email"
 msgstr "alternativa e-postadress"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
-msgid "patrons.pref#EmailFieldPrimary# card number"
+#, fuzzy
+msgid "patrons.pref#EmailFieldPrimary# cardnumber"
 msgstr "lånekortnummer"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
@@ -14191,7 +14319,8 @@ msgstr "Inkludera följande CSS på alla sidor i personalklienten:"
 
 # Staff interface > Appearance > IntranetUserJS
 # Staff interface > Appearance
-msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface:"
+#, fuzzy
+msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface. You may need to ask your system administrator to rehash userjs checksums after changing this."
 msgstr "Inkludera följande JavaScript på alla sidor i personalklienten:"
 
 # Staff interface > Appearance > IntranetmainUserblock
@@ -15042,8 +15171,8 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#~ msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
-#~ msgstr "Skicka"
+#~ msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't send"
+#~ msgstr "Skicka inte"
 
 # Circulation > Self check-out module > SelfCheckHelpMessage
 # Circulation > Self check-out module
@@ -15075,6 +15204,10 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 # Circulation > Checkin policy
 #~ msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
 #~ msgstr "Detta är en lista med värdepar. Vid återlämning: om \"Ej för utlån\"-värdet till vänster matchar exemplarets \"Ej för utlån\"-värde kommer det att uppdateras till värdet till höger."
+
+# Administration > Interface options > AddressForFailedOverdueNotices
+#~ msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
+#~ msgstr "Den första e-postadressen i följande lista kommer att användas: Library Reply-To, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Circulation > Interface
 #~ msgid "circulation.pref#itemBarcodeInputFilter# scanned item barcodes."
@@ -15153,6 +15286,47 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 #~ msgid "opac.pref#PatronSelfRegistrationAdditionalInstructions# Display the following additional instructions for patrons who self register via the OPAC ( HTML is allowed ):"
 #~ msgstr "Visa följande ytterligare instruktioner för låntagare som registrerar sig själva via OPAC ( HTML tillåts):"
 
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
+#~ msgstr "</ul>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
+#~ msgstr "<li>Första prioritet: Använd inställningen --list-invites när cronjobbet cleanup_database.pl cronjob körs och inställningen --list-invites definierar ett antal dagar.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
+#~ msgstr "<li>Andra prioritet: Använd systeminställningen PurgeListShareInvitesOlderThan när den innehåller ett värde.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
+#~ msgstr "<li>Tredje prioritet: Använd som standard 14 dagar när cronjobbet cleanup_database.pl körs med inställningen --list-invites, men utan värde OCH systeminställningen PurgeListShareInvitesOlderThan är tom.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
+#~ msgstr "<p><strong>VARNING</strong>: Oaccepterade privata listdelningar tas bort enligt dessa prioriteringar:"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
+#~ msgstr "<p>Exempel: [14] Tar bort en inbjudan till oaccepterad privat listdelning äldre än 14 dagar.</p>"
+
+# OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
+# OPAC > Self registration and modification
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
+#~ msgstr "<strong>OBS!</strong> Denna systeminställning kräver att följande cronjobb körs: <code>misc/cronjobs/cleanup_database.pl</code>Be din systemadministratör att schemalägga det."
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
+#~ msgstr "<ul>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
+#~ msgstr "Cronjobbet cleanup_database.pl tar automatiskt bort inbjudningar till oaccepterade privata listdelninger efter"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
+#~ msgstr "dagar."
+
 # OPAC > Features
 #~ msgid "opac.pref#ShowReviewerPhoto# Hide"
 #~ msgstr "Dölj"
@@ -15196,8 +15370,13 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#~ msgid "patrons.pref#CollapseFieldsPatronAddForm# Guarantor information"
-#~ msgstr "Information om målsman"
+#~ msgid "patrons.pref#CollapseFieldsPatronAddForm# Non-patron guarantor"
+#~ msgstr "Vårdnadshavare som inte är låntagare"
+
+# Patrons > Patron forms > CollapseFieldsPatronAddForm
+# Patrons > Patron forms
+#~ msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
+#~ msgstr "Vårdnadshavare som är låntagare"
 
 # Tools > Reports
 #, fuzzy

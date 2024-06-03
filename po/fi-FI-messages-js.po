@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-02 13:04+0300\n"
+"POT-Creation-Date: 2024-06-03 13:29+0300\n"
 "PO-Revision-Date: 2024-05-10 16:00+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53,7 +53,7 @@ msgid "Edit"
 msgstr "Muokkaa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1072
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1093
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
@@ -545,7 +545,7 @@ msgstr "Haluatko varmasti poistaa %s liitettyä nidettä?"
 msgid "(select to create)"
 msgstr "(valitse luodaksesi)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:643
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:651
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Jokin meni pieleen. Ehkä arvo on jo olemassa?"
 
@@ -584,203 +584,207 @@ msgstr "Automaattinen"
 msgid "Renewal type:"
 msgstr "Uusinnan tyyppi:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:131
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:133
-msgid "Checked in"
-msgstr "Palautettu"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:135
-msgid "Patron note"
-msgstr "Asiakkaan huomautus"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:138
-msgid "Unable to check in"
-msgstr "Ei voi palauttaa"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:168
-msgid "Confirm"
-msgstr "Hyväksy"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:211
-msgid "Renewed, due:"
-msgstr "Uusittu, erääntyy:"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:214
-msgid "Renew failed:"
-msgstr "Uusinta epäonnistui:"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:216
-msgid "not checked out"
-msgstr "ei lainattu"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:218
-msgid "too many renewals"
-msgstr "liian monta uusintaa"
-
-# Vaikea muotoilla järkeväksi lauseeksi.
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:220
-msgid "too many consecutive renewals without being seen by the library"
-msgstr "liian monta uusintaa ilman kirjastokäyntiä"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:222
-msgid "on hold"
-msgstr "varattu"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:224
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:557
-msgid "Not allowed: patron restricted"
-msgstr "Ei sallittu: asiakkaalla on lainauskielto"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:226
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:564
-msgid "Not allowed: overdue"
-msgstr "Ei sallittu: erääntynyt"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:228
-msgid "Unable to find an open day"
-msgstr "Avoimia päiviä ei löydy"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:232
-msgid "reason unknown"
-msgstr "tuntematon syy"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:328
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:34
 msgid "Loading... you may continue scanning."
 msgstr "Ladataan... voit jatkaa skannausta."
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:345
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:721
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:51
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:434
 msgid "Today's checkouts"
 msgstr "Tänään lainatut"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:347
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:723
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:53
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:436
 msgid "Previous checkouts"
 msgstr "Edelliset lainat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:403
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:802
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:110
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:819
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "/ _AUTHOR_"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:424
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:823
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:131
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:840
 msgid "On-site checkout"
 msgstr "On-site -lainat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:428
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:135
 msgid "This item has been recalled and the due date updated"
 msgstr "Tästä niteestä on palautuspyyntö ja sen eräpäivä on päivitetty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:531
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:656
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:238
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:369
 msgid "Recalled"
 msgstr "Palautuspyyntö"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:538
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:658
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:245
+msgid "Booked"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:251
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:371
 #: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
 msgid "On hold"
 msgstr "Varattu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:545
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:258
 msgid "Not renewable"
 msgstr "Ei uusittavissa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:552
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:265
 msgid "Must be renewed at the library"
 msgstr "Täytyy uusia kirjastossa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:571
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:270
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:708
+msgid "Not allowed: patron restricted"
+msgstr "Ei sallittu: asiakkaalla on lainauskielto"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:277
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:710
+msgid "Not allowed: overdue"
+msgstr "Ei sallittu: erääntynyt"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:284
 #, javascript-format
 msgid "No renewal before %s"
 msgstr "Ei uusintaa ennen %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:578
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:291
 msgid "Can no longer be auto-renewed - number of checkout days exceeded"
 msgstr "Ei voi enää uusia automaattisesti - lainapäivien määrä ylitetty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:585
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:298
 msgid "Automatic renewal failed, patron has unpaid fines"
 msgstr "Automaattinen uusinta epäonnistui, asiakkaalla on maksamattomia maksuja"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:592
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:305
 msgid "Automatic renewal failed, account expired"
 msgstr "Automaattinen uusinta epäonnistui, kirjastokortti on vanhentunut"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:601
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:314
 msgid "Renewal denied by syspref"
 msgstr "Uusinta on estetty."
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:636
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
 #, javascript-format
 msgid "%s of %s renewals remaining"
 msgstr "%s / %s uusintakertaa jäljellä"
 
 # Käänsin unseen renewalin nyt verkkouusinnaksi. Muutetaan termi, jos osoittautuu kamalaksi.
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:638
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:351
 #, javascript-format
 msgid " and %s of %s unseen renewals remaining"
 msgstr " ja %s / %s verkkokirjastouusinnasta jäljellä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:644
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:357
 msgid "Scheduled for automatic renewal"
 msgstr "Ajastettu automaattista uusintaa varten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:675
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:677
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:388
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:390
 msgid "Claim returned"
 msgstr "Ilmoitettu palautetuksi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:736
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:451
 msgid "No itemtype"
 msgstr "Ei nidetyyppiä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:742
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:457
 msgid "Number of checkouts by item type"
 msgstr "Lainojen määrä nidetyypeittäin"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1027
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:604
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:606
+msgid "Checked in"
+msgstr "Palautettu"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:608
+msgid "Patron note"
+msgstr "Asiakkaan huomautus"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
+msgid "Unable to check in"
+msgstr "Ei voi palauttaa"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:652
+msgid "Confirm"
+msgstr "Hyväksy"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
+msgid "Renewed, due:"
+msgstr "Uusittu, erääntyy:"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:698
+msgid "Renew failed:"
+msgstr "Uusinta epäonnistui:"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:700
+msgid "not checked out"
+msgstr "ei lainattu"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:702
+msgid "too many renewals"
+msgstr "liian monta uusintaa"
+
+# Vaikea muotoilla järkeväksi lauseeksi.
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:704
+msgid "too many consecutive renewals without being seen by the library"
+msgstr "liian monta uusintaa ilman kirjastokäyntiä"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:706
+msgid "on hold"
+msgstr "varattu"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:712
+msgid "Unable to find an open day"
+msgstr "Avoimia päiviä ei löydy"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:716
+msgid "reason unknown"
+msgstr "tuntematon syy"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1048
 msgid "Double click to edit"
 msgstr "Kaksoisnapsauta muokataksesi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1075
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1096
 msgid "Resolve"
 msgstr "Ratkaise"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1080
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1101
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Toiminnot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1083
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1104
 msgid "Edit notes"
 msgstr "Muokkaa huomautuksia"
 
 # The "Python brace placeholders" error with this translation appears to be false positive
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1146
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1167
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Näytä 1 palautusilmoitus"
 msgstr[1] "Näytä kaikki {count} palautusilmoitusta"
 
 # The "Python brace placeholders" error with this translation appears to be false positive
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1151
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1172
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Näytä 1 ratkaisematon palautusilmoitus"
 msgstr[1] "Näytä {count} ratkaisematonta palautusilmoitusta"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1172
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1193
 msgid "Update"
 msgstr "Päivitä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1173
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1194
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:693
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:376
@@ -796,7 +800,7 @@ msgstr "Päivitä"
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1212
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1233
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Haluatko varmasti poistaa palautusilmoituksen?"
 
@@ -1002,13 +1006,13 @@ msgid "Yes"
 msgstr "Kyllä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:263
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:703
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:707
 msgid "Resume"
 msgstr "Aktivoi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:266
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:414
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:705
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:709
 msgid "Suspend"
 msgstr "Keskeytä varaus"
 
@@ -1027,7 +1031,7 @@ msgid "Next available %s item"
 msgstr "Seuraava vapaa %s nide"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:287
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:662
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:666
 #, javascript-format
 msgid "Next available item group <strong>%s</strong> item"
 msgstr "Seuraava vapaa nideryhmän <strong>%s</strong> nide"
@@ -1097,32 +1101,33 @@ msgstr "Nidettä käsitellään pisteessä <strong>%s</strong>"
 msgid "Item waiting at <strong>%s</strong> since %s"
 msgstr "Nide on noudettavana pisteessä <strong>%s</strong> %s lähtien"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:668
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:670
-msgid "Next available"
-msgstr "Seuraava vapaa"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:668
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:653
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:672
 msgid "Non priority hold"
 msgstr "Kiireetön varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:672
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:674
+msgid "Next available"
+msgstr "Seuraava vapaa"
+
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:699
 msgid "Revert transit status"
 msgstr "Peruuta kuljetustila"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:697
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:701
 msgid "Revert waiting status"
 msgstr "Peruuta odottava-tila"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:709
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:713
 msgid "Suspend on"
 msgstr "Keskeytetty, aktivoituu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:711
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:715
 msgid "Suspend until"
 msgstr "Keskeytä varaus ja aktivoi se:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:725
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:729
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:678
 msgid "Print slip"
 msgstr "Tulosta kuitti"
