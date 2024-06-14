@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 13:29+0300\n"
-"PO-Revision-Date: 2024-06-06 12:55+0300\n"
+"PO-Revision-Date: 2024-06-14 09:14+0300\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -20535,14 +20535,14 @@ msgid "are licensed under the "
 msgstr "är licensierade under "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:952
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery"
-msgstr "Query"
+msgstr "jQuery"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:952
-#, fuzzy, c-format
+#, c-format
 msgid "jQueryUI"
-msgstr "Query"
+msgstr "jQueryUI"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:955
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:957
@@ -44802,15 +44802,15 @@ msgid "Koha &rsaquo; Circulation &rsaquo; Holds to pull"
 msgstr "Reservationsförhållanden &rsaquo; Cirkulation &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:272
-#, fuzzy, c-format
+#, c-format
 msgid "&rsaquo; Holds to pull"
 msgstr "Plocklista reservationer"
 
 #. %1$s:  reporteddate | $KohaDates with_hours => 1
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:277
-#, fuzzy, c-format
+#, c-format
 msgid "Holds to pull reported on %s"
-msgstr "Plocklista för reservationer lagda mellan %s och %s"
+msgstr "Reservationer att plocka %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:281
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:62
