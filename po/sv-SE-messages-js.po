@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 13:29+0300\n"
-"PO-Revision-Date: 2024-01-30 04:06+0000\n"
+"PO-Revision-Date: 2024-06-14 09:40+0300\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: sv-SE\n"
+"Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-messages-js.po\n"
 "X-POOTLE-MTIME: 1695111164.407902\n"
@@ -1084,19 +1084,19 @@ msgid "Unable to suspend, hold not found"
 msgstr "Kunde inte pausa reservation, reservation ej funnen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:634
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Item being transferred to <strong>%s</strong>"
-msgstr "Exemplaret <strong>väntar</strong>"
+msgstr "Exemplaret är under transport till <strong>%s</strong>"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:636
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Item being processed at <strong>%s</strong>"
-msgstr "Exemplaret <strong>väntar</strong>"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:638
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Item waiting at <strong>%s</strong> since %s"
-msgstr "Exemplaret är <strong>under transport</strong> från %s sedan %s"
+msgstr "Exemplaret väntar på avhämtningen från <strong>%s </strong> sedan %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:653
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:672
@@ -1399,7 +1399,6 @@ msgid "Click to collapse this section"
 msgstr "Minimera denna sektion"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
-#, fuzzy
 msgid "Click to expand this section"
 msgstr "Expandera denna sektion"
 
@@ -3529,9 +3528,8 @@ msgid "Settings updated"
 msgstr "Inställningarna har uppdaterats"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:3
-#, fuzzy
 msgid "Processings"
-msgstr "Bearbetar..."
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:23
 #, fuzzy
@@ -3569,15 +3567,13 @@ msgid "Edit processing #%s"
 msgstr "Redigera leverantör %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:7
-#, fuzzy
 msgid "New processing"
-msgstr "Bearbetar..."
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:22
-#, fuzzy
 msgid "Processing name"
-msgstr "Bearbetar..."
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:30
@@ -3641,9 +3637,9 @@ msgid "Processing created"
 msgstr "Licens skapad"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Processing #%s"
-msgstr "Bearbetar..."
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:38
 msgid "Edit this template"
@@ -4082,14 +4078,12 @@ msgid "Settings"
 msgstr "Inställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:129
-#, fuzzy
 msgid "Show processing"
-msgstr "Bearbetar..."
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:135
-#, fuzzy
 msgid "Add processing"
-msgstr "Bearbetar..."
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:141
 #, fuzzy
