@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-05-02 16:28+0300\n"
+"PO-Revision-Date: 2024-06-20 12:00+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -1153,7 +1153,7 @@ msgstr "Kyllä"
 # Administration > Share anonymous usage statistics > UsageStatsCountry
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsCountry# "
-msgstr " "
+msgstr "  "
 
 # Administration > Share anonymous usage statistics > UsageStatsCountry
 # Administration > Share anonymous usage statistics
@@ -2193,7 +2193,7 @@ msgstr "Käytä seuraavaa nimeä kirjastollesi Hea Communityn verkkosivuilla: "
 # Administration > Share anonymous usage statistics > UsageStatsLibraryType
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsLibraryType# "
-msgstr " "
+msgstr "  "
 
 # Administration > Share anonymous usage statistics > UsageStatsLibraryType
 # Circulation > Checkin policy > CalculateFinesOnReturn
@@ -3274,6 +3274,50 @@ msgstr "uuden niteen tietoja ei esitäytetä edellisen luodun niteen tiedoilla."
 # Cataloging > Record structure
 msgid "cataloguing.pref#PrefillItem# the new item is prefilled with last created item values."
 msgstr "uuden niteen tiedot esitäytetään edellisen luodun niteen tiedoilla."
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 001: 773$w<br/>"
+msgstr "001: 773$w<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 020$a: 773$z<br/>"
+msgstr "020$a: 773$z<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 022$a: 773$x<br/>"
+msgstr "022$a: 773$x<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 028$ba: 773$o<br/>"
+msgstr "028$ba: 773$o<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 245$abnpc: 773$t<br/>"
+msgstr "245$abnpc: 773$t<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 264$abc: 773$d<br/>"
+msgstr "264$abc: 773$d<br/>"
+
+# Cataloging > Record structure > AlternateHoldingsField
+# Cataloging > Record structure
+msgid "cataloguing.pref#PrepareHostField# 300$ae: 773$h"
+msgstr "773$h"
+
+# Cataloging > Display > PrepareHostField
+msgid "cataloguing.pref#PrepareHostField# Define rules for copying host data to component parts.<br/>"
+msgstr "Määrittele säännöt, joiden mukaan kopioidaan tietoja emotietueesta osakohteeseen.<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# Example:<br/>"
+msgstr "Esimerkki:<br/>"
 
 # Cataloging > Exporting > RisExportAdditionalFields
 # Cataloging > Exporting

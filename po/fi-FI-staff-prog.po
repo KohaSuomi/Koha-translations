@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 13:29+0300\n"
-"PO-Revision-Date: 2024-06-18 09:02+0300\n"
+"POT-Creation-Date: 2024-06-20 11:32+0300\n"
+"PO-Revision-Date: 2024-06-20 11:54+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -1055,8 +1055,8 @@ msgstr "Hankintahaku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/checkout-notes.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:615
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:150
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:305
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:325
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:307
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:327
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:90
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:72
@@ -2680,7 +2680,7 @@ msgstr "%sz = muu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1316
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1428
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1528
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1335
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1341
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:156
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:37
@@ -5734,7 +5734,7 @@ msgstr "Seuraava"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:177
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:279
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:106
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1274
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1280
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:211
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:132
@@ -6662,7 +6662,7 @@ msgstr "Erälainaus"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:152
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:246
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1278
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1284
 #, c-format
 msgid "Details"
 msgstr "Tiedot"
@@ -7096,8 +7096,8 @@ msgstr "Odottavat on-site -lainat"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:359
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:162
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:78
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:300
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:320
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:302
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:322
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:66
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:149
@@ -8065,14 +8065,14 @@ msgstr "Nykyinen paikka"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:82
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:477
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:330
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:332
 #, c-format
 msgid "Locations"
 msgstr "Hyllypaikat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:85
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:481
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:332
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:334
 #, c-format
 msgid "Collections"
 msgstr "Kokoelmat"
@@ -8727,7 +8727,7 @@ msgstr "Korisi on tyhjä."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:332
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:343
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:929
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1271
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1277
 #, c-format
 msgid "Priority"
 msgstr "Sija jonossa"
@@ -8759,7 +8759,7 @@ msgstr "Vaihda sijaa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:135
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/discharges.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:94
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1273
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1279
 #, c-format
 msgid "Patron"
 msgstr "Asiakas"
@@ -8794,7 +8794,7 @@ msgstr "Asiakas"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:271
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1555
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2519
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1275
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1281
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:229
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:490
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:125
@@ -8809,7 +8809,7 @@ msgstr "Pvm"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:163
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-restrictions-tab.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1438
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1276
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1282
 #, c-format
 msgid "Expiration"
 msgstr "Vanhenee"
@@ -8818,7 +8818,7 @@ msgstr "Vanhenee"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-article-requests.inc:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:288
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:222
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1277
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1283
 #, c-format
 msgid "Pickup library"
 msgstr "Noutokirjasto"
@@ -8831,7 +8831,7 @@ msgstr "Aseta alimmalle sijalle"
 
 #. I
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1279
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1285
 msgid "Toggle set to lowest priority"
 msgstr "Aseta alin sija varausjonossa päälle/pois"
 
@@ -8843,7 +8843,7 @@ msgid "Suspend"
 msgstr "Keskeytä varaus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1282
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1288
 #, c-format
 msgid "Print hold/transfer slip"
 msgstr "Tulosta varaus/kuljetuskuitti"
@@ -9420,7 +9420,7 @@ msgstr "Lisää lomake"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:103
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:176
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1309
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1315
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:97
 #, c-format
 msgid "Confirm deletion"
@@ -9732,7 +9732,7 @@ msgstr "Vuosi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:725
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:749
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:153
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1308
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1314
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:185
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:113
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:418
@@ -12002,7 +12002,7 @@ msgstr "Perheenjäsenten lainat (%s)"
 msgid "Charges (%s)"
 msgstr "Maksut (%s)"
 
-#. %1$s:  guarantees_fines | $Price
+#. %1$s:  guarantees_fines_total_incl_non_blocking | $Price
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:24
 #, c-format
 msgid "Guarantees' charges (%s)"
@@ -12137,9 +12137,9 @@ msgstr "Peruutuksen syy:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:216
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:708
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:187
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1084
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1259
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1320
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1087
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1265
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1326
 #, c-format
 msgid "No reason given"
 msgstr "Syytä ei annettu"
@@ -12777,22 +12777,22 @@ msgstr "Asiakkaalla on %s palautusilmoitusta "
 msgid "Return claims:"
 msgstr "Palautusilmoitukset:"
 
-#. For the first occurrence,
-#. %1$s:  charges_guarantors_guarantees | $Price
-#. %2$s:  IF noissues
+#. %1$s:  charges_guarantors_guarantees | $Price with_symbol => 1
+#. %2$s:  charges_guarantors_guarantees_incl_non_blocking | $Price with_symbol => 1
+#. %3$s:  IF noissues
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:102
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:69
 #, c-format
-msgid "Patron's guarantors and their other guarantees collectively owe %s. %s "
-msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on maksuja yhteensä %s. %s "
+msgid "Patron's guarantors and their other guarantees collectively owe %s. Total (incl. non-blocking): %s. %s "
+msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on maksuja yhteensä %s. Yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. %s "
 
 #. %1$s:  chargesamount_guarantees | $Price with_symbol => 1
 #. %2$s:  chargesamount_guarantees_total | $Price with_symbol => 1
-#. %3$s:  IF noissues
+#. %3$s:  chargesamount_guarantees_total | $Price with_symbol => 1
+#. %4$s:  IF noissues
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:111
 #, c-format
-msgid "Patron's guarantees collectively owe %s. Guarantees total (incl. non-blocking ): %s. %s "
-msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €. Taattavilla yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. %s "
+msgid "Patron's guarantees collectively owe %s. Total (incl. non-blocking ): %s. Guarantees total (incl. non-blocking ): %s. %s "
+msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €. Yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. Taattavilla yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:123
 #, c-format
@@ -15788,7 +15788,7 @@ msgstr "Runko"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:288
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:289
 #, c-format
 msgid "Bold"
 msgstr "Lihavointi"
@@ -18719,8 +18719,8 @@ msgstr "Sopimukset"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:307
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:327
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:309
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:329
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
 #, c-format
 msgid "Issues"
@@ -24081,7 +24081,7 @@ msgstr "Hinta laskulla"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1004
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:73
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:374
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:376
 #, c-format
 msgid "by"
 msgstr " "
@@ -24917,7 +24917,7 @@ msgstr "Inventaarionumero"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:516
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:226
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:267
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:329
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:331
 #, c-format
 msgid "Materials"
 msgstr "Materiaalit"
@@ -39958,8 +39958,8 @@ msgstr "palautuspyyntö asiakkaalle %s, luotu %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:565
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:983
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:299
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:319
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:301
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:321
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:288
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:206
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:693
@@ -43098,9 +43098,9 @@ msgstr "Haluatko varmasti perua tämän artikkelipyynnön?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:185
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1082
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1257
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1318
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1085
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1263
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1324
 #, c-format
 msgid "Cancellation reason: "
 msgstr "Peruutuksen syy: "
@@ -43120,8 +43120,8 @@ msgstr "Syötä syy"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:128
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:197
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1331
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1333
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1337
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1339
 #, c-format
 msgid "Confirm cancellation"
 msgstr "Vahvista poisto"
@@ -44331,6 +44331,13 @@ msgstr "Et voi käyttää erälainausta tälle asiakkaalle"
 msgid "Cannot check out! %s %s %s %s "
 msgstr "Ei voi lainata! %s %s %s %s "
 
+#. %1$s:  charges_guarantors_guarantees | $Price
+#. %2$s:  IF noissues
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:69
+#, c-format
+msgid "Patron's guarantors and their other guarantees collectively owe %s. %s "
+msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on maksuja yhteensä %s. %s "
+
 #. %1$s:  chargesamount_guarantees | $Price
 #. %2$s:  IF noissues
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:77
@@ -44850,63 +44857,63 @@ msgstr "Näitä varauksia ei ole vielä haettu hyllystä. Hae niteet ja palauta 
 msgid "color means that the item can be found in the hold pickup library."
 msgstr "väri tarkoittaa, että nide löytyy varauksen noutokirjastosta."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:289
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:290
 #, c-format
 msgid "text means that the item can be found in a library that belongs to the same hold pickup location group as the hold's pickup library."
 msgstr "tarkoittaa, että nide löytyy saman poimintaryhmän kirjastosta kuin mihin varauksen noutokirjasto kuuluu."
 
 #. INPUT type=text
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:298
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:300
 msgid "Pull count"
 msgstr "Hae yhteensä"
 
 #. INPUT type=text
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:301
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:321
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:303
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:323
 #, c-format
 msgid "Next patron"
 msgstr "Seuraava asiakas"
 
 #. INPUT type=text
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:304
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:324
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:306
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:326
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:64
 #, c-format
 msgid "Call numbers"
 msgstr "Signumit"
 
 #. INPUT type=text
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:306
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:308
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:328
 #, c-format
 msgid "Copies"
 msgstr "Nidekappaleet"
 
 #. INPUT type=text
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:313
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:333
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:315
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:335
 #, c-format
 msgid "Item notes"
 msgstr "Nidehuomautukset"
 
 #. INPUT type=text
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:314
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:334
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:316
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:336
 #, c-format
 msgid "Next hold"
 msgstr "Seuraava varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:318
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:320
 #, c-format
 msgid "Pull"
 msgstr "Hae"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:322
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:324
 #, c-format
 msgid "On shelf"
 msgstr "Hyllyssä"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:323
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:325
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:115
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:664
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:854
@@ -44914,17 +44921,17 @@ msgstr "Hyllyssä"
 msgid "Hold at"
 msgstr "Varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:328
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:330
 #, c-format
 msgid "Itemtypes"
 msgstr "Nidetyypit"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:331
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:333
 #, c-format
 msgid "Sublocations"
 msgstr "Hyllytarkenteet"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:375
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:377
 #, c-format
 msgid "series"
 msgstr "sarja"
@@ -44939,14 +44946,14 @@ msgstr "sarja"
 #. %8$s:  IF ( reserveloo.enumchron )
 #. %9$s:  reserveloo.enumchron | html
 #. %10$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:376
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:378
 #, c-format
 msgid "%s %s%s%s %s %s%s %sIssues %s%s "
 msgstr "%s %s%s%s %s %s%s %sNumerot %s%s "
 
 #. %1$s:  ELSE
 #. %2$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:434
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:436
 #, c-format
 msgid "%s No items found. Please ask your system administrator to ensure that update-holds-to-pull.pl gets run regularily. %s "
 msgstr "%s Ei niteitä. Pyydä järjestelmänvalvojaa tarkistamaan, että update-holds-to-pull.pl ajetaan säännöllisesti. %s "
@@ -46746,16 +46753,16 @@ msgid "This item is on hold for pick-up at your library"
 msgstr "Tämä nide odottaa noutoa kirjastossasi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:91
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1066
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1240
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1069
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1243
 #, c-format
 msgid "The job has been enqueued! It will be processed as soon as possible."
 msgstr "Työ on jonossa! Se käsitellään niin pian kuin mahdollista."
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:92
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1067
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1241
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1070
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1244
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:195
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:233
@@ -46806,7 +46813,7 @@ msgid "%s Only items that need not be transferred will be cancelled (TransferWhe
 msgstr "%s Vain niteistä, joita ei tarvitse kuljettaa, poistetaan odottavat varaukset (TransferWhenCancelAllWaitingHolds-järjestelmäasetus) %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:180
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1313
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1319
 #, c-format
 msgid "Are you sure you want to cancel this hold?"
 msgstr "Haluatko varmasti peruuttaa tämän varauksen?"
@@ -46814,7 +46821,7 @@ msgstr "Haluatko varmasti peruuttaa tämän varauksen?"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:207
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 msgid "Cancel selected (%s)"
 msgstr "Peruuta valitut (%s)"
 
@@ -50617,8 +50624,8 @@ msgstr "Varauksen nidetyyppi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:118
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:178
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:569
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1162
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1205
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1165
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1208
 #, c-format
 msgid "Any item type"
 msgstr "Mikä tahansa nidetyyppi"
@@ -52720,11 +52727,12 @@ msgstr "Näytä lainat takaajalle:"
 msgid "Show charges to guarantor:"
 msgstr "Näytä maksut takaajalle:"
 
-#. %1$s:  guarantees_fines | $Price
+#. %1$s:  guarantees_fines | $Price with_symbol => 1
+#. %2$s:  guarantees_fines_total_incl_non_blocking | $Price with_symbol => 1
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:216
 #, c-format
-msgid "Patron's guarantees collectively owe %s. "
-msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €. "
+msgid "Patron's guarantees collectively owe %s. Total (incl. non-blocking): %s. "
+msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €. Taattavilla yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:218
 #, c-format
@@ -58100,7 +58108,7 @@ msgstr "varattavaksi"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:428
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Cannot place hold"
 msgstr "Ei varattavissa"
@@ -58159,7 +58167,7 @@ msgstr "tälle niteelle."
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:441
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:758
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Age restricted"
 msgstr "Ikärajoitus"
@@ -58360,7 +58368,7 @@ msgstr "Vaatii varaussäännön ohittamista"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:756
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Item damaged"
 msgstr "Nide vaurioitunut"
@@ -58368,7 +58376,7 @@ msgstr "Nide vaurioitunut"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:760
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Exceeded max holds per record"
 msgstr "Varausten maksimimäärä tietuetta kohden ylittynyt"
@@ -58376,7 +58384,7 @@ msgstr "Varausten maksimimäärä tietuetta kohden ylittynyt"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:762
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Daily hold limit reached for patron"
 msgstr "Asiakkaan päivittäinen varausraja on täyttynyt"
@@ -58384,7 +58392,7 @@ msgstr "Asiakkaan päivittäinen varausraja on täyttynyt"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:764
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Too many holds"
 msgstr "Liian monta varausta"
@@ -58392,7 +58400,7 @@ msgstr "Liian monta varausta"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:766
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Not holdable"
 msgstr "Ei varattavissa"
@@ -58400,7 +58408,7 @@ msgstr "Ei varattavissa"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:768
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Patron is from different library"
 msgstr "Tämä asiakas on toisesta kirjastosta"
@@ -58413,7 +58421,7 @@ msgstr "Asiakkaan kirjasto ei voi tehdä varauksia"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:772
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Patron already has hold for this item"
 msgstr "Asiakkaalla on jo varaus tähän niteeseen"
@@ -58421,7 +58429,7 @@ msgstr "Asiakkaalla on jo varaus tähän niteeseen"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:774
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Cannot be transferred to pickup library"
 msgstr "Ei voi kuljettaa noutokirjastoon"
@@ -58429,7 +58437,7 @@ msgstr "Ei voi kuljettaa noutokirjastoon"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:776
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 #, c-format
 msgid "Only pickup locations within the same hold group are allowed"
 msgstr "Vain saman varausryhmän noutopaikka on sallittu"
@@ -58533,70 +58541,88 @@ msgstr "Ei lainata (%s)"
 msgid "Not for loan (Itemtype not for loan)"
 msgstr "Ei lainattavissa (Nidetyyppi ei ole lainattavissa)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1045
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1048
 #, c-format
 msgid "Always show holds"
 msgstr "Näytä aina varaukset"
 
 #. %1$s:  hold_count | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1049
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1052
 #, c-format
 msgid "Show holds (%s)"
 msgstr "Näytä varaukset (%s)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1071
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1245
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1074
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1248
 #, c-format
 msgid "Existing holds"
 msgstr "Olemassa olevat varaukset"
 
 #. INPUT type=submit name=submit
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1074
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1249
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1077
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1255
 msgid "Update hold(s)"
 msgstr "Päivitä varaukset"
 
 # niteellä vai tietueella?
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1114
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1144
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1177
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1227
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1117
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1147
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1180
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1230
 #, c-format
 msgid "There are no holds on this title. "
 msgstr "Tällä nimekkeellä ei ole varauksia. "
 
+#. %1$s:  active_hold_count | html
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1249
+#, c-format
+msgid "Active: %s"
+msgstr "Aktiivisia: %s"
+
+#. %1$s:  upcoming_hold_count | html
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1250
+#, c-format
+msgid "Upcoming: %s"
+msgstr "Tulevia: %s"
+
+#. %1$s:  suspended_hold_count | html
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1251
+#, c-format
+msgid "Suspended: %s"
+msgstr "Keskeytettyjä: %s"
+
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 msgid "- Please select an item to place a hold"
 msgstr "- Valitse varattava nide"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 msgid "No reserves allowed"
 msgstr "Ei varattavissa"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 msgid "None of these items can normally be put on hold for this patron."
 msgstr "Asiakas ei voi varata nimekettä."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 msgid "Place hold on this item?"
 msgstr "Varaa tämä nide?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 msgid "Place hold?"
 msgstr "Varaa tämä?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 msgid "This item normally cannot be put on hold except for patrons from %s."
 msgstr "Tämän niteen voivat varata vain asiakkaat, joiden kotikirjasto on %s."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1360
 msgid "This item normally cannot be put on hold."
 msgstr "Tätä nidettä ei voi varata."
 
@@ -71931,6 +71957,10 @@ msgstr "_blank"
 #, c-format
 #~ msgid "Patron's card will expire soon."
 #~ msgstr "Asiakkaan kortti vanhenee pian."
+
+#, c-format
+#~ msgid "Patron's guarantees collectively owe %s. "
+#~ msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €. "
 
 #~ msgid "Patrons statistics "
 #~ msgstr "Asiakastilastot "
