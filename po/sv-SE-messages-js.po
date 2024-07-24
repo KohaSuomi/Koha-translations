@@ -1,18 +1,18 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.11.03.000\n"
+"Project-Id-Version: Koha 24.05.01.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 13:29+0300\n"
-"PO-Revision-Date: 2024-06-14 09:40+0300\n"
-"Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
+"POT-Creation-Date: 2024-07-20 03:07+0000\n"
+"PO-Revision-Date: 2024-05-24 03:00+0000\n"
+"Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: sv_SE\n"
+"Language: sv-SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Weblate 5.5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-messages-js.po\n"
 "X-POOTLE-MTIME: 1695111164.407902\n"
@@ -21,19 +21,19 @@ msgstr ""
 msgid "ERROR: Price is not a valid number, please check the price and try again!"
 msgstr "FEL: Pris är inte ett korrekt nummer, var vänlig kontrollera priset och försök igen!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/acq.js:310
+#: koha-tmpl/intranet-tmpl/prog/js/acq.js:314
 msgid "Fund amount exceeds parent allocation"
 msgstr "Belopp för budgetställe överskrider tilldelning från överordnad budget"
 
-#: koha-tmpl/intranet-tmpl/prog/js/acq.js:312
+#: koha-tmpl/intranet-tmpl/prog/js/acq.js:316
 msgid "Fund amount exceeds period allocation"
 msgstr "Belopp för budgetställe överskrider periodens tilldelning"
 
-#: koha-tmpl/intranet-tmpl/prog/js/acq.js:344
+#: koha-tmpl/intranet-tmpl/prog/js/acq.js:348
 msgid "New budget-parent is beneath budget"
 msgstr "Ny övergripande budget är under budget"
 
-#: koha-tmpl/intranet-tmpl/prog/js/acq.js:389
+#: koha-tmpl/intranet-tmpl/prog/js/acq.js:393
 msgid "Are you sure you want to delete this vendor?"
 msgstr "Är du säker på att du vill ta bort leverantören?"
 
@@ -48,14 +48,14 @@ msgstr "Du kan inte ta emot fler exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:105
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:103
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:615
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:631
 msgid "Edit"
 msgstr "Redigera"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1093
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1110
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:9
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:591
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
 msgid "Delete"
@@ -113,6 +113,8 @@ msgid "Some required item subfields are not set"
 msgstr "Några obligatoriska fält saknar information"
 
 #: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:97
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:2
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:2
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:2
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:2
@@ -172,15 +174,15 @@ msgstr "Fel; dina data kanske inte har sparats"
 msgid "Loading..."
 msgstr "Laddar..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:53
 msgid "Please select or enter a sound."
 msgstr "Vänligen välj eller ange ett ljud."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:66
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:76
 msgid "Are you sure you want to delete the selected audio alerts?"
 msgstr "Är du säker på att du vill ta bort valda ljudnotifieringar?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:68
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:78
 msgid "Check the box next to the alert you want to delete."
 msgstr "Kryssa i rutan bredvid meddelandet du vill ta bort."
 
@@ -239,8 +241,7 @@ msgstr "%s finns redan i din minneslista"
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:444
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:454
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:6
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:27
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:28
 msgid "No item was selected"
 msgstr "Inget exemplar valdes"
 
@@ -478,9 +479,15 @@ msgstr "Oktober"
 msgid "September"
 msgstr "September"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:362
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:349
+#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:31
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:861
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:929
+msgid "Failure"
+msgstr "Misslyckades"
+
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:83
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:350
 msgid "Place hold"
 msgstr "Reservera"
 
@@ -499,8 +506,8 @@ msgstr "%s exemplar är kopplade till denna post. Du måste ta bort alla exempla
 
 #: koha-tmpl/intranet-tmpl/prog/js/catalog.js:36
 #, javascript-format
-msgid "Warning: This record is used in %s order(s). Deleting it could cause serious issues on acquisition module. Are you sure you want to delete this record?"
-msgstr "Varning: Denna post används i %s beställningar. Om den tas bort kan det orsaka allvarliga problem i inköpsmodulen. Är du säker på att du vill ta bort denna post?"
+msgid "Warning: This record is used in %s order(s). These orders will be cancelled. Are you sure you want to delete this record?"
+msgstr "Varning: Denna post används i %s beställningar. De här beställningarna kommer att avbeställas. Är du säker på att du vill ta bort denna post?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/catalog.js:38
 #, javascript-format
@@ -545,11 +552,11 @@ msgstr "Är du säker på att du vill ta bort de %s kopplade exemplaren?"
 msgid "(select to create)"
 msgstr "(välj för att skapa)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:651
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:649
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Något gick fel. Värdet kanske redan finns?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:148
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:145
 msgid "Template name is required."
 msgstr "Namn på mallen krävs."
 
@@ -589,201 +596,204 @@ msgid "Loading... you may continue scanning."
 msgstr "Laddar... du kan fortsätta skanna."
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:51
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:434
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:432
 msgid "Today's checkouts"
 msgstr "Dagens utlånade exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:53
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:436
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:434
 msgid "Previous checkouts"
 msgstr "Föregående lån"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:110
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:819
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:836
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "av _AUTHOR_"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:131
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:840
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:857
 msgid "On-site checkout"
 msgstr "Lån på plats"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:135
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:133
 msgid "This item has been recalled and the due date updated"
 msgstr "Det här exemplaret har återkrävts och återlämningsdatum är uppdaterat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:238
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:369
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:236
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:367
 msgid "Recalled"
 msgstr "Återkrävd"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:245
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
 msgid "Booked"
-msgstr ""
+msgstr "Bokad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:251
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:371
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:249
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:369
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:314
 msgid "On hold"
 msgstr "Reserverad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:258
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:256
 msgid "Not renewable"
 msgstr "Kan ej omlånas"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:265
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:263
 msgid "Must be renewed at the library"
 msgstr "Måste lånas om på biblioteket"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:270
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:708
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:268
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:700
 msgid "Not allowed: patron restricted"
 msgstr "Inte tillåtet: låntagaren är begränsad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:277
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:710
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:275
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:702
 msgid "Not allowed: overdue"
 msgstr "Inte tillåtet: försenad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:284
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:282
 #, javascript-format
 msgid "No renewal before %s"
 msgstr "Kan inte lånas om före %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:291
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:289
 msgid "Can no longer be auto-renewed - number of checkout days exceeded"
 msgstr "Kan inte längre lånas om automatiskt - antal dagar för utlåning har överskridits"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:298
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:296
 msgid "Automatic renewal failed, patron has unpaid fines"
 msgstr "Automatisk förnyelse misslyckades, låntagaren har obetalda avgifter"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:305
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:303
 msgid "Automatic renewal failed, account expired"
 msgstr "Automatiskt omlån misslyckades, kontot behöver uppdateras"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:314
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:312
 msgid "Renewal denied by syspref"
 msgstr "Omlån nekat av syspref"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:347
 #, javascript-format
 msgid "%s of %s renewals remaining"
 msgstr "%s av %s återstående omlån"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:351
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
 #, javascript-format
 msgid " and %s of %s unseen renewals remaining"
 msgstr " %s av %s omlån kvarstår"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:357
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:355
 msgid "Scheduled for automatic renewal"
 msgstr "Schemalagd för automatiskt omlån"
 
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:371
+#, javascript-format
+msgid "Confirm (%s)"
+msgstr "Bekräfta (%s)"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:386
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:388
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:390
 msgid "Claim returned"
 msgstr "Påstås återlämnad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:451
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:449
 msgid "No itemtype"
 msgstr "Ingen exemplartyp"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:457
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:455
 msgid "Number of checkouts by item type"
 msgstr "Antal lån efter exemplartyp"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:604
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:606
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:597
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:599
 msgid "Checked in"
 msgstr "Återlämnad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:608
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:601
 msgid "Patron note"
 msgstr "Låntagarnotiser"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:604
 msgid "Unable to check in"
 msgstr "Kan inte återlämna"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:652
-msgid "Confirm"
-msgstr "Bekräfta"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
 msgid "Renewed, due:"
 msgstr "Omlånad, återlämningsdatum:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:698
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:690
 msgid "Renew failed:"
 msgstr "Omlån misslyckades:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:700
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:692
 msgid "not checked out"
 msgstr "inte utlånad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:702
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:694
 msgid "too many renewals"
 msgstr "för många omlån"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:704
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:696
 msgid "too many consecutive renewals without being seen by the library"
 msgstr "för många omlån på rad utan att exemplaret mellanlandat på biblioteket"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:706
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:698
 msgid "on hold"
 msgstr "reserverad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:712
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:704
 msgid "Unable to find an open day"
 msgstr "Kan inte hitta en öppen dag"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:716
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:708
 msgid "reason unknown"
 msgstr "okänd orsak"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1048
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1065
 msgid "Double click to edit"
 msgstr "Dubbelklicka för att redigera"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1096
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1113
 msgid "Resolve"
 msgstr "Markera som löst"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1101
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1118
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:71
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:376
 msgid "Actions"
 msgstr "Åtgärder"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1104
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1121
 msgid "Edit notes"
 msgstr "Redigera anteckningar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1167
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1184
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Visa 1 reklamation"
 msgstr[1] "Visa alla {count} reklamationer"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1172
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1189
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Visa en olöst reklamation"
 msgstr[1] "Visa {count} olösta reklamationer"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1193
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1210
 msgid "Update"
 msgstr "Uppdatering"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1194
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1211
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:693
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:82
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:44
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:376
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:402
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:124
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:355
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:362
@@ -796,7 +806,7 @@ msgstr "Uppdatering"
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1233
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1250
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Är du säker på att du vill ta bort denna begäran om återlämning?"
 
@@ -811,7 +821,7 @@ msgid "Last"
 msgstr "Sista"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:15
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:970
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:971
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:16
 msgid "No data available in table"
 msgstr "Inget data i tabellen"
@@ -884,7 +894,7 @@ msgid "Clear filter"
 msgstr "Rensa filter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:51
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:123
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:126
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
@@ -927,7 +937,7 @@ msgid "CSV"
 msgstr "CSV"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:707
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:657
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:673
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:259
 msgid "Copy"
 msgstr "Kopiera"
@@ -966,25 +976,35 @@ msgstr "Konfigurera tabell"
 msgid "Configure"
 msgstr "Konfigurera"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:862
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:863
 #, javascript-format
 msgid "%s search"
 msgstr "%s sök"
 
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:71
 msgid "This field is mandatory and must have at least one mapping"
 msgstr "Det här fältet är obligatoriskt och måste ha minst en mappning"
+
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:152
+#, javascript-format
+msgid "Search field '%s' already exists"
+msgstr "Sökfältet '%s' finns redan"
+
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:174
+#, javascript-format
+msgid "Facet '%s' already exists"
+msgstr "Facetten '%s' finns redan"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:6
 msgid "This pickup location is not allowed according to circulation rules"
 msgstr "Det här avhämtningsbiblioteket är inte tillåtet enligt lånereglerna"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:211
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:621
 msgid " (current) "
 msgstr " (aktuell) "
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:245
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:56
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:101
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:129
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:321
@@ -993,6 +1013,7 @@ msgid "No"
 msgstr "Nej"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:246
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:56
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:91
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:130
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:321
@@ -1001,13 +1022,11 @@ msgid "Yes"
 msgstr "Ja"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:263
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:707
 msgid "Resume"
 msgstr "Återuppta"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:266
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:414
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:709
 msgid "Suspend"
 msgstr "Pausa"
 
@@ -1026,7 +1045,6 @@ msgid "Next available %s item"
 msgstr "Nästa tillgängliga %s exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:287
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:666
 #, javascript-format
 msgid "Next available item group <strong>%s</strong> item"
 msgstr "Nästa tillgängliga exemplargrupp <strong>%s</strong> exemplar"
@@ -1062,9 +1080,8 @@ msgstr "Kunde inte återuppta, reservation ej funnen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:353
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:439
-#, fuzzy
-msgid "Your request could not be processed. Check the logs"
-msgstr "Din begäran kunde inte hanteras. Kontrollera loggarna"
+msgid "Your request could not be processed. Check the logs for details."
+msgstr "Din begäran kunde inte hanteras. Titta i loggarna för mer information."
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:400
 msgid "Suspend hold on"
@@ -1079,60 +1096,8 @@ msgid "Clear date to suspend indefinitely"
 msgstr "Lämna tomt för att pausa utan slutdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:436
-#, fuzzy
-msgid "Unable to suspend, hold not found"
-msgstr "Kunde inte pausa reservation, reservation ej funnen"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:634
-#, javascript-format
-msgid "Item being transferred to <strong>%s</strong>"
-msgstr "Exemplaret är under transport till <strong>%s</strong>"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:636
-#, javascript-format
-msgid "Item being processed at <strong>%s</strong>"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:638
-#, javascript-format
-msgid "Item waiting at <strong>%s</strong> since %s"
-msgstr "Exemplaret väntar på avhämtningen från <strong>%s </strong> sedan %s"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:653
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:672
-#, fuzzy
-msgid "Non priority hold"
-msgstr "Förnyelse prioriteras"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:672
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:674
-#, fuzzy
-msgid "Next available"
-msgstr "Nästa tillgängliga %s exemplar"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:699
-msgid "Revert transit status"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:701
-#, fuzzy
-msgid "Revert waiting status"
-msgstr "Status för val"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:713
-#, fuzzy
-msgid "Suspend on"
-msgstr "Pausa"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:715
-#, fuzzy
-msgid "Suspend until"
-msgstr "Pausa tills:"
-
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:729
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:678
-msgid "Print slip"
-msgstr "Skriv ut kvitto"
+msgid "Unable to suspend, hold not found."
+msgstr "Kunde inte pausa reservation, reservation ej funnen."
 
 #: koha-tmpl/intranet-tmpl/prog/js/item_search_fields.js:5
 msgid "Please enter letters or numbers"
@@ -1157,30 +1122,22 @@ msgstr "Ett brev med koden '%s' finns redan för '%s'."
 msgid "A letter with the code '%s' already exists for '%s'. Overwrite this letter?"
 msgstr "Ett brev med koden '%s' finns redan för '%s'. Skriva över det här brevet?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/letter.js:104
+#: koha-tmpl/intranet-tmpl/prog/js/letter.js:52
+msgid "Existing format settings for all notices of the same language will be overwritten by these format settings."
+msgstr "Existerande formatinställningar för alla meddelanden på samma språk kommer att skrivas över av dessa formatinställningar."
+
+#: koha-tmpl/intranet-tmpl/prog/js/letter.js:120
 #, javascript-format
 msgid "Please specify title and content for %s"
 msgstr "Ange titel och innehåll för %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/letter.js:113
+#: koha-tmpl/intranet-tmpl/prog/js/letter.js:129
 msgid "Please fill at least one template."
-msgstr "Fyll i minst en mall"
+msgstr "Fyll i minst en mall."
 
-#: koha-tmpl/intranet-tmpl/prog/js/letter.js:150
+#: koha-tmpl/intranet-tmpl/prog/js/letter.js:166
 msgid " characters"
 msgstr " tecken"
-
-#: koha-tmpl/intranet-tmpl/prog/js/localcovers.js:46
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:98
-#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:8
-#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:10
-#: koha-tmpl/opac-tmpl/bootstrap/js/bakertaylorimages.js:7
-#: koha-tmpl/opac-tmpl/bootstrap/js/google-jackets.js:77
-#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:25
-#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:54
-#: koha-tmpl/opac-tmpl/bootstrap/js/openlibrary.js:63
-msgid "No cover image available"
-msgstr "Ingen omslagsbild finns tillgänglig"
 
 #: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:17
 msgid "Both subfield values should be filled or empty."
@@ -1222,84 +1179,89 @@ msgstr "Det villkorliga reguljära uttrycket måste vara ifyllt."
 msgid "The conditional value should be filled."
 msgstr "Det villkorliga värdet måste vara ifyllt."
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:121
-msgid "Every"
-msgstr "Alla"
-
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:265
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:113
 msgid "Are you sure you wish to delete this template action?"
 msgstr "Är du säker på att du vill ta bort denna mallåtgärd?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:269
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:117
 msgid "Are you sure you wish to delete this template?"
 msgstr "Är du säker på att du vill ta bort denna mall?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:315
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:124
+msgid "Every"
+msgstr "Alla"
+
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:310
 #, javascript-format
 msgid "Edit action %s"
 msgstr "Redigera åtgärd %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:318
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:313
 msgid "Update action"
-msgstr "Uppdateringsåtgärd"
+msgstr "Uppdatera"
 
 #: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:39
 msgid "Are you sure you want to delete this message? This cannot be undone."
 msgstr "Är du säker på att du vill radera detta meddelande? Detta kan inte ångras."
 
-#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:107
+#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:140
 msgid "Dates of birth should be entered in the format 'MM/DD/YYYY'"
 msgstr "Födelsedatum ska anges i formatet 'MM/DD/ÅÅÅÅ'"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:109
+#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:142
 msgid "Dates of birth should be entered in the format 'YYYY-MM-DD'"
 msgstr "Födelsedatum ska anges i formatet 'ÅÅÅÅ-MM-DD'"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:111
+#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:144
 msgid "Dates of birth should be entered in the format 'DD/MM/YYYY'"
 msgstr "Födelsedatum ska anges i formatet 'DD/MM/ÅÅÅÅ'"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:113
+#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:146
 msgid "Dates of birth should be entered in the format 'DD.MM.YYYY'"
 msgstr "Födelsedatum ska anges i formatet 'DD.MM.ÅÅÅÅ'"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:122
+#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:155
 msgid "Are you sure you want to update this child to an Adult category? This cannot be undone."
 msgstr "Är du säker på att du vill uppdatera detta barn till kategorin Vuxna? Detta kan inte ångras."
 
-#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:137
+#: koha-tmpl/intranet-tmpl/prog/js/members-menu.js:170
 msgid "Are you sure you want to renew this patron's registration?"
 msgstr "Är du säker på att du vill förnya låntagarens registrering?"
+
+#: koha-tmpl/intranet-tmpl/prog/js/members-patron-selections.js:21
+#, javascript-format
+msgid "Patrons selected: %s"
+msgstr "Låntagare valda: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/members.js:20
 msgid "Please confirm whether this is a duplicate patron"
 msgstr "Bekräfta om denna låntagare är en dubblett"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members.js:75
+#: koha-tmpl/intranet-tmpl/prog/js/members.js:82
 #, javascript-format
 msgid "Minimum password length: %s"
 msgstr "Kortaste lösenord: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members.js:176
+#: koha-tmpl/intranet-tmpl/prog/js/members.js:179
 msgid "Age"
 msgstr "Ålder"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/members.js:183
 #, javascript-format
 msgid "%s year"
 msgstr "%s år"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/members.js:183
 #, javascript-format
 msgid "%s years"
 msgstr "%s år"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members.js:185
+#: koha-tmpl/intranet-tmpl/prog/js/members.js:188
 #, javascript-format
 msgid "%s month"
 msgstr "%s månad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/members.js:185
+#: koha-tmpl/intranet-tmpl/prog/js/members.js:188
 #, javascript-format
 msgid "%s months"
 msgstr "%s månader"
@@ -1318,40 +1280,74 @@ msgstr "Delfältet får inte upprepas och finns redan i målposten. Det kan där
 msgid "Change messaging preferences to default for this category?"
 msgstr "Ändra inställningarna för meddelanden till standard för denna kategori?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:38
-#: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:55
-#, fuzzy
-msgid "Your concern was sucessfully submitted."
+#: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:41
+#: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:56
+msgid "Your concern was successfully submitted."
 msgstr "Ditt ärende har skickats in."
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:46
-#: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:54
+#: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:61
 msgid "There was an error when submitting your concern, please contact a librarian."
 msgstr "Ett fel uppstod när ärendet skulle skickas in, kontakta personalen."
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:23
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:33
+msgid "Assignee"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:41
 msgid "Loading updates . . ."
 msgstr "Laddar uppdateringar..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:43
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:65
 msgid "Public"
 msgstr "Offentlig"
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:72
 msgid "Private"
 msgstr "Privat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:86
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:114
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:171
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:109
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:695
+msgid "years"
+msgstr "år"
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:194
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:128
+msgid "Search for a patron"
+msgstr "Sök efter låntagare"
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:227
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:273
 #, javascript-format
 msgid "Concern #%s updated successfully."
 msgstr "Problem #%s uppdaterades."
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:89
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:117
-#, fuzzy, javascript-format
-msgid "Error resolving concern #%s. Check the logs."
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:238
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:284
+#, javascript-format
+msgid "Error resolving concern #%s. Check the logs for details."
 msgstr "Fel gällande problem #%s. Se loggfilerna."
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:42
+msgid "Edit booking"
+msgstr "Redigera bokning"
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:45
+msgid "Place booking"
+msgstr "Boka"
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:139
+msgid "Pickup location"
+msgstr "Avhämtningsbibliotek"
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:850
+msgid "Booking successfully placed"
+msgstr "Bokningen genomfördes"
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:918
+msgid "Booking successfully updated"
+msgstr "Bokningen uppdaterades"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:72
 msgid "Remove restriction?"
@@ -1361,56 +1357,56 @@ msgstr "Ta bort begränsning?"
 msgid "You must select checkout(s) to export"
 msgstr "Du måste välja lån att exportera"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:7
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:10
 msgid "Error: presence of invalid data prevent saving. Please make the corrections and try again."
 msgstr "Fel: det gick inte att spara på grund av ogiltig data. Korrigera felet och försök igen."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:25
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:48
 msgid "Nothing to save"
 msgstr "Inget att spara"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:51
 msgid "Saving..."
 msgstr "Sparar..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:48
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:76
 #, javascript-format
 msgid "Saved preference %s"
 msgstr "Sparade inställning %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:64
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:97
 msgid "modified"
-msgstr "modified"
+msgstr "ändrad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:70
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:104
 msgid "You have made changes to system preferences."
 msgstr "Du har redigerat systeminställningarna."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:156
-#, fuzzy
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:202
 msgid "Are you sure you want to delete this consent item?"
-msgstr "Är du säker på att du vill ta bort denna omslagsbild?"
+msgstr "Är du säker på att du vill ta bort detta samtycke?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
-#, fuzzy
-msgid "Click to collapse this section"
-msgstr "Minimera denna sektion"
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:267
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:283
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:298
+msgid "Collapse this section"
+msgstr "Stäng detta avsnitt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
-msgid "Click to expand this section"
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:277
+msgid "Expand this section"
 msgstr "Expandera denna sektion"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:328
 msgid "Note: _ALL_ value will override all other values"
 msgstr "Notering: _ALL_ värdet åsidosätter alla andra värden"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:266
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:342
 msgid "The following values are not formatted correctly:"
 msgstr "Följande värden är inte formaterade korrekt:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:378
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:482
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:17
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:45
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:254
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:124
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:152
@@ -1423,7 +1419,7 @@ msgstr "Följande värden är inte formaterade korrekt:"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:92
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:147
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:74
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:297
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:304
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:73
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:229
@@ -1431,13 +1427,14 @@ msgstr "Följande värden är inte formaterade korrekt:"
 msgid "Name"
 msgstr "Namn"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:379
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:383
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:395
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:399
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:403
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:38
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:60
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:489
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:503
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:533
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:547
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:561
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:24
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:40
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:64
@@ -1447,6 +1444,7 @@ msgstr "Namn"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:31
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:40
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:56
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:45
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:67
@@ -1463,8 +1461,8 @@ msgstr "Namn"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:140
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:172
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:52
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:83
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:111
@@ -1478,7 +1476,7 @@ msgstr "Namn"
 msgid "Required"
 msgstr "Obligatoriskt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:496
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:284
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:43
@@ -1487,55 +1485,53 @@ msgstr "Obligatoriskt"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:40
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:12
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:80
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:314
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:321
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:26
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:113
 msgid "Description"
 msgstr "Beskrivning"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:510
 msgid "Requires consent in OPAC"
 msgstr "Kräver samtycke i OPAC"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:518
 msgid "Requires consent in staff interface"
 msgstr "Kräver samtycke i personalklienten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:394
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:526
 msgid "String used to identify cookie name"
-msgstr ""
+msgstr "Sträng använd för att identifiera kaknamn"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:398
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:540
 msgid "Cookie domain"
 msgstr "Cookie-domän"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:554
 msgid "Cookie path"
 msgstr "Cookie-sökväg"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
-#, fuzzy
-msgid "Click to expand"
-msgstr "Klicka för att expandera denna sektion"
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:577
+msgid "Expand"
+msgstr "Expandera"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
-#, fuzzy
-msgid "Click to collapse"
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:584
+msgid "Collapse"
 msgstr "Minimera"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:608
 msgid "You must complete all fields"
 msgstr "Alla fält måste fyllas i"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:472
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:656
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:664
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:490
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:680
 msgid "Add new code"
 msgstr "Lägg till ny kod"
 
@@ -1551,14 +1547,25 @@ msgstr "Coce-bild från Google Books"
 msgid "Coce image from Open Library"
 msgstr "Coce-bild från Open Library"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:342
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:372
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:380
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:98
+#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:8
+#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:10
+#: koha-tmpl/opac-tmpl/bootstrap/js/bakertaylorimages.js:7
+#: koha-tmpl/opac-tmpl/bootstrap/js/google-jackets.js:77
+#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:25
+#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:54
+#: koha-tmpl/opac-tmpl/bootstrap/js/openlibrary.js:63
+msgid "No cover image available"
+msgstr "Ingen omslagsbild finns tillgänglig"
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:338
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:368
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:376
 msgid "Nothing is selected"
 msgstr "Ingenting är valt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:432
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:443
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:429
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:441
 msgid "You must select at least one record"
 msgstr "Du måste välja minst en post"
 
@@ -1566,73 +1573,73 @@ msgstr "Du måste välja minst en post"
 msgid "At least two records must be selected for merging"
 msgstr "Minst två poster måste väljas för att kunna slås samman"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:38
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:37
 #, javascript-format
 msgid "AJAX failed to approve tag: %s"
 msgstr "AJAX kunde inte godkänna tagg: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:43
 #, javascript-format
 msgid "AJAX failed to reject tag: %s"
 msgstr "AJAX kunde inte avvisa tagg: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:46
 #, javascript-format
 msgid "%s is permitted!"
 msgstr "%s är tillåtet!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:49
 #, javascript-format
 msgid "%s is prohibited!"
 msgstr "%s är inte tillåtet!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:52
 #, javascript-format
 msgid "%s is neither permitted nor prohibited!"
 msgstr "%s är varken tillåtet eller otillåtet!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:58
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:57
 msgid " Test"
 msgstr " Test"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:164
 msgid "Clear all"
 msgstr "Rensa alla"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:138
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:161
 msgid "Select all"
 msgstr "Välj alla"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 msgid "Select all pending"
 msgstr "Välj alla väntande"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:112
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:113
 msgid "Reject"
 msgstr "Avslå"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:114
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:117
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:115
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:118
 msgid "Approved"
 msgstr "Godkänd"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:133
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:136
 msgid "Approve"
 msgstr "Godkänna"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:141
 msgid "Rejected"
 msgstr "Avslagen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:151
 msgid "Testing..."
 msgstr "Testar..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:159
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:163
 #, javascript-format
 msgid "AJAX error (%s alert)"
 msgstr "AJAX-fel (%s notifiering)"
@@ -1657,84 +1664,84 @@ msgstr "Denna funktion är endast tillgänglig i säkra sammanhang (HTTPS)."
 msgid "An unknown error occurred: "
 msgstr "Ett okänt fel har inträffat. "
 
-#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:85
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:530
-msgid "years"
-msgstr "år"
-
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:6
 msgid "Are you sure you want to remove this recall?"
 msgstr "Är du säker på att du vill ta bort det här återkravet?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:22
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:12
 msgid "The recall may have already been cancelled. Please refresh the page."
 msgstr "Återkravet har redan ångrats. Ladda om sidan."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:14
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:94
 msgid "Cancelled"
 msgstr "Avbruten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:26
 msgid "Are you sure you want to expire this recall?"
-msgstr "Är du säker på att du vill ta bort det här återkravet? "
+msgstr "Är du säker på att du vill avsluta det här återkravet?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
 msgid "The recall may have already been expired. Please refresh the page."
 msgstr "Återkravet har redan förfallit. Ladda om sidan."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:34
 msgid "Expired"
 msgstr "Utgången"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:46
 msgid "Are you sure you want to revert the waiting status of this recall?"
 msgstr "Är du säker på att du vill återställa väntestatusen från detta återkrav?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:78
-msgid "The recall waiting status may have already been reverted. Please refresh the page."
-msgstr "Återkravet har redan ångrats. Ladda om sidan."
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+msgid "The recall may have already been reverted. Please refresh the page."
+msgstr "Återkravet har redan avbrutits. Ladda om sidan."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:80
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:54
 msgid "Waiting status reverted"
 msgstr "Väntestatus återställd"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:88
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:66
 msgid "Are you sure you want to mark this recall as overdue?"
 msgstr "Är du säker på att du vill markera detta återkravet som försenat?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:106
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:72
 msgid "The recall may have already been marked as overdue. Please refresh the page."
 msgstr "Återkravet har redan markerats som försenat. Ladda om sidan."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:108
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:74
 msgid "Marked overdue"
 msgstr "Markerad som försenad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:86
 msgid "Are you sure you want to remove this recall and return the item to it's home library?"
 msgstr "Vill du ta bort återkravet och återlämna exemplaret till dess hembibliotek?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:134
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:92
 msgid "The recall may have already been removed. Please refresh the page."
 msgstr "Återkravet har redan avbrutits. Ladda om sidan."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:154
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
 msgid "Are you sure you want to remove the selected recall(s)?"
 msgstr "Är du säker på att du vill ta bort valda återkrav?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:118
 msgid "Please make a selection."
 msgstr "Var vänlig välj."
 
 #: koha-tmpl/intranet-tmpl/prog/js/resolve_claim_modal.js:8
 #, javascript-format
 msgid "%s (current status)"
-msgstr "%s (aktuell) "
+msgstr "%s (aktuell)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:8
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:7
 msgid "Are you sure you want to delete this rotating collection?"
 msgstr "Är du säker på att du vill ta bort denna roterande samling?"
+
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:469
+msgid "Are you sure you want to remove this item?"
+msgstr "Är du säker på att du vill ta bort det här exemplaret?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:8
 msgid "The results could not be loaded"
@@ -1766,7 +1773,7 @@ msgstr "Inga resultat hittades"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:25
 msgid "Searching…"
-msgstr "Söker..."
+msgstr "Söker…"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:26
 msgid "Remove all items"
@@ -1776,17 +1783,17 @@ msgstr "Ta bort alla exemplar"
 msgid "Remove item"
 msgstr "Ta bort exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:4
-msgid "Are you sure you want to close this subscription?"
-msgstr "Är du säker på att du vill stänga denna prenumeration?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:9
+msgid "Are you sure you want to delete this subscription?"
+msgstr "Är du säker på att du vill ta bort prenumerationen?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:10
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:12
 msgid "Are you sure you want to reopen this subscription?"
 msgstr "Är du säker på att du vill öppna denna prenumeration?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:17
-msgid "Are you sure you want to delete this subscription?"
-msgstr "Är du säker på att du vill ta bort prenumerationen?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:15
+msgid "Are you sure you want to close this subscription?"
+msgstr "Är du säker på att du vill stänga denna prenumeration?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/sms_providers.js:36
 msgid "Add an SMS cellular provider"
@@ -1807,10 +1814,14 @@ msgstr "Är du säker på att du vill ta bort %s? %s låntagare använder det!"
 msgid "Are you sure you want to delete %s?"
 msgstr "Är du säker på att du vill ta bort %s?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:473
-#, fuzzy
-msgid "An error occurred. Check the logs"
-msgstr "Ett fel inträffade. Titta i loggarna"
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:289
+#: koha-tmpl/opac-tmpl/bootstrap/js/global.js:323
+msgid "Back to top"
+msgstr "Tillbaka till början"
+
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:629
+msgid "An error occurred. Check the logs for details."
+msgstr "Ett fel inträffade. Titta i loggarna."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19
 msgid "Frequency and subscription length provided doesn't combine well. Please consider entering an issue count rather than a time period."
@@ -1921,13 +1932,50 @@ msgstr "Dela ditt mönster med andra bibliotekarier när du är klar"
 msgid "This bibliographic record does not exist"
 msgstr "Denna bibliografiska post finns inte"
 
-#: koha-tmpl/intranet-tmpl/prog/js/table_filters.js:34
+#: koha-tmpl/intranet-tmpl/prog/js/table_filters.js:28
 msgid "Deactivate filters"
 msgstr "Avaktivera filter"
 
-#: koha-tmpl/intranet-tmpl/prog/js/table_filters.js:54
+#: koha-tmpl/intranet-tmpl/prog/js/table_filters.js:48
 msgid "Activate filters"
 msgstr "Aktivera filter"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:19
+msgid "Booking ID"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:23
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:216
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:173
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:292
+msgid "Title"
+msgstr "Titel"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:34
+#, fuzzy
+msgid "Item"
+msgstr "Exemplar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:37
+#, fuzzy
+msgid "Any item"
+msgstr "Lägg till exemplar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:53
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:20
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:54
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:93
+msgid "Start date"
+msgstr "Startdatum"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:62
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:33
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:65
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:103
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:227
+msgid "End date"
+msgstr "Slutdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:71
 msgid "Are you sure you want to delete this cover image?"
@@ -1965,34 +2013,29 @@ msgstr "Misslyckades"
 msgid "Denied"
 msgstr "Nekad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:142
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:143
 msgid "An error occurred while uploading."
 msgstr "Ett fel inträffade när filen laddades upp."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "Error:"
 msgstr "Fel:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "This tool only accepts ZIP files or GIF, JPEG, PNG, or XPM images."
 msgstr "Verktyget accepterar bara formaten ZIP eller GIF, JPEG, PNG eller XPM."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:179
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
 msgid "File name:"
 msgstr "Filnamn:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
 msgid "File type:"
 msgstr "Filtyp:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:182
 msgid "File size:"
 msgstr "Filstorlek:"
-
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:220
-msgid "An error occurred on deleting this image"
-msgstr "Ett fel inträffade när bilden togs bort"
 
 #: koha-tmpl/intranet-tmpl/prog/js/viewlog.js:18
 msgid "View comparison"
@@ -2011,6 +2054,90 @@ msgstr "Du kan välja max två checkboxar"
 msgid "You must select two entries to compare"
 msgstr "Du måste välja minst två ingångar att jämföra"
 
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:6
+#, javascript-format
+msgid "Edit record source #%s"
+msgstr "Redigera postkälla #%s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:11
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:27
+msgid "Add record source"
+msgstr "Lägg till ny postkälla"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:28
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:50
+msgid "Can be edited"
+msgstr "Kan redigeras"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:106
+msgid "Record source updated!"
+msgstr "Postkälla uppdaterad!"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:116
+msgid "Record source created!"
+msgstr "Postkälla skapad!"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:21
+msgid "There are no record sources defined"
+msgstr "Det finns inga postkällor definierade"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:36
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:14
+msgid "Record sources"
+msgstr "Postkällor"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:40
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:359
+msgid "ID"
+msgstr "ID"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:108
+msgid "Are you sure you want to delete this record source?"
+msgstr "Är du säker på att du vill ta bort postkällan?"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:111
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:197
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:402
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:145
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:178
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:147
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:341
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:122
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:209
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:96
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:137
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:202
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:80
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:144
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:159
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:405
+msgid "Yes, delete"
+msgstr "Ja, ta bort"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:112
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:198
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:403
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:179
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:148
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:342
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:123
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:210
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:97
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:203
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:145
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:406
+msgid "No, do not delete"
+msgstr "Nej, radera inte"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:122
+#, javascript-format
+msgid "Record source '%s' deleted"
+msgstr "Postkälla %s borttagen"
+
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ButtonSubmit.vue:11
 msgid "Submit"
 msgstr "Skicka"
@@ -2020,12 +2147,12 @@ msgstr "Skicka"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:106
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:238
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:108
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:255
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:257
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:140
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:117
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:79
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:85
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:245
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:253
 msgid "Close"
 msgstr "Stäng"
 
@@ -2035,14 +2162,14 @@ msgstr "Sparar..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:149
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:78
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:79
 msgid "Licenses"
 msgstr "Licenser"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Agreement license %s"
-msgstr "Ta bort denna licens"
+msgstr "Avtalslicens %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:14
 msgid "Remove this license"
@@ -2052,7 +2179,7 @@ msgstr "Ta bort denna licens"
 msgid "License"
 msgstr "Licens"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:42
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:35
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:47
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:290
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:49
@@ -2061,11 +2188,11 @@ msgstr "Licens"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:195
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:52
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:18
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:320
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:327
 msgid "Status"
 msgstr "Status"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:64
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:154
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:307
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:70
@@ -2073,7 +2200,7 @@ msgstr "Status"
 msgid "Physical location"
 msgstr "Fysisk placering"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:76
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:69
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:52
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:68
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:155
@@ -2084,12 +2211,12 @@ msgstr "Fysisk placering"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:237
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:61
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:209
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:144
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:146
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:127
 msgid "Notes"
 msgstr "Kommentarer"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:86
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:79
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:156
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:311
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:82
@@ -2098,11 +2225,11 @@ msgstr "Kommentarer"
 msgid "URI"
 msgstr "URI"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:97
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:90
 msgid "Add new license"
 msgstr "Lägg till ny licens"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:99
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:92
 msgid "There are no licenses created yet"
 msgstr "Inga licenser har skapats"
 
@@ -2119,19 +2246,6 @@ msgstr "Avtalsperiod %s"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:14
 msgid "Remove this period"
 msgstr "Ta bort den här perioden"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:20
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:54
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:93
-msgid "Start date"
-msgstr "Startdatum"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:33
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:65
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:103
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:227
-msgid "End date"
-msgstr "Slutdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:93
@@ -2283,42 +2397,6 @@ msgstr "Välj"
 msgid "Are you sure you want to remove this agreement?"
 msgstr "Är du säker på att du vill ta bort det här avtalet?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:197
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:402
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:145
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:178
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:142
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:339
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:122
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:209
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:96
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:137
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:202
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:80
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:144
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:159
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:397
-msgid "Yes, delete"
-msgstr "Ja, ta bort"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:198
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:403
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:146
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:179
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:143
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:340
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:123
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:210
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:97
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:138
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:203
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:81
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:145
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:160
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:398
-msgid "No, do not delete"
-msgstr "Nej, radera inte"
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:205
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:410
 #, javascript-format
@@ -2350,14 +2428,14 @@ msgstr "Användare"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:125
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:75
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:34
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:35
 msgid "Role"
 msgstr "Roll"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:236
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:121
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:223
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:122
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:232
 msgid "Packages"
 msgstr "Paket"
 
@@ -2377,6 +2455,7 @@ msgid "Remove this document"
 msgstr "Ta bort detta dokument"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:19
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:24
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:5
 msgid "File"
 msgstr "Fil"
@@ -2424,19 +2503,12 @@ msgstr "Det här avtalet är redan länkat med det här paketet"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
 msgid "Hide filters"
-msgstr "Dölj filter"
+msgstr "Dölj filtrering"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
 msgid "Show filters"
-msgstr "Visa filter"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:216
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:168
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:274
-msgid "Title"
-msgstr "Titel"
+msgstr "Visa filtrering"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:177
@@ -2447,8 +2519,8 @@ msgstr "Titel"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageTitlesList.vue:73
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalResourcesShow.vue:38
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:230
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:200
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:156
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:205
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:158
 msgid "Publication type"
 msgstr "Publikationstyp"
 
@@ -2579,7 +2651,7 @@ msgstr "Publikationstitel"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:133
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalResourcesShow.vue:32
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:219
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:150
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:152
 msgid "Publisher name"
 msgstr "Förlagsnamn"
 
@@ -2625,18 +2697,18 @@ msgid "%s titles found locally"
 msgstr "%s titlar hittades lokalt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:263
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:214
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:219
 msgid "Identifier"
 msgstr "Identifikator"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:273
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:224
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:229
 #, javascript-format
 msgid "ISBN (Print): %s"
 msgstr "ISBN (Tryck): %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:280
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:231
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:236
 #, javascript-format
 msgid "ISBN (Online): %s"
 msgstr "ISBN (Online): %s"
@@ -2708,79 +2780,79 @@ msgstr "URL på titelnivå"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:177
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:126
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:128
 msgid "First author"
 msgstr "Första författare"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:115
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:188
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:132
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:134
 msgid "Embargo information"
 msgstr "Embargoinformation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:121
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:199
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:140
 msgid "Coverage depth"
 msgstr "Täckningsdjup"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:153
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:245
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:254
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:170
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:172
 msgid "Date the monograph is first published in print"
 msgstr "Datum när monografen först publicerades tryckt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:165
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:264
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:273
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:182
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:184
 msgid "Date the monograph is first published online"
 msgstr "Datum när monografen först publicerades online"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:175
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:282
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:289
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:192
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:194
 msgid "Number of volume for monograph"
 msgstr "Volymnummer för monografi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:182
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:296
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:199
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:201
 msgid "Edition of the monograph"
 msgstr "Upplaga av monografin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:188
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:307
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:205
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:207
 msgid "First editor"
 msgstr "Första redaktör"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:197
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:320
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:329
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:214
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:216
 msgid "Title identifier of the parent publication"
 msgstr "Titelidentifierare på den övergripande publikationen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:209
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:339
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:348
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:226
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:228
 msgid "Title identifier of any preceding publication title"
 msgstr "Titelidentifierare på föregående publikation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:218
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:358
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:235
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:237
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:151
 msgid "Access type"
 msgstr "Typ av tillgång"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:48
 msgid "Agreements"
 msgstr "Avtal"
 
@@ -2855,15 +2927,35 @@ msgstr "Redigera titel #%s"
 msgid "New title"
 msgstr "Ny titel"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:466
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:378
+#, fuzzy
+msgid "Update linked bibliographic record"
+msgstr "Skapa länkad bibliografisk rekord"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:379
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:61
+msgid "Create linked bibliographic record"
+msgstr "Skapa länkad bibliografisk rekord"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:385
+#, fuzzy
+msgid "Update record"
+msgstr "Uppdatera"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:386
+#, fuzzy
+msgid "Create record"
+msgstr "Skapa rapport"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:493
 msgid "A package is used several times"
 msgstr "Ett paket används flera gånger"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:497
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:524
 msgid "Title updated"
 msgstr "Titel uppdaterad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:507
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:534
 msgid "Title created"
 msgstr "Titel skapad"
 
@@ -2889,7 +2981,7 @@ msgid "There are no packages created yet"
 msgstr "Inga paket har skapats"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:201
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:202
 msgid "Import from a list"
 msgstr "Importera från en lista"
 
@@ -2903,6 +2995,7 @@ msgid "see job #%s"
 msgstr "se jobb #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:36
 msgid "To the following local package"
 msgstr "Till följande lokala paket"
 
@@ -2914,22 +3007,87 @@ msgstr "Kan inte importera, inget paket är valt"
 msgid "Import"
 msgstr "Importera"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:210
+msgid "Import from a KBART file"
+msgstr "Importera från en KBART-fil"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:5
+msgid "Requirements:"
+msgstr "Krav:"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:7
+msgid "The file must be in TSV or CSV format"
+msgstr "Filen måste var i TSV- eller CSV-format"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:11
+msgid "The file should not contain any additional information / header rows, e.g. a file with a single title would be structured as follows:"
+msgstr "Filen ska inte innehålla ytterligare information / rubrikrader, t.ex. kommer en fil med en enkel titel att struktureras enligt följande:"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:15
+msgid "Column headings row"
+msgstr "Rad med kolumnrubriker"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:16
+msgid "Title data row"
+msgstr "Titel datarad"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:21
+msgid "Select file for upload"
+msgstr "Välj fil för uppladdning"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:75
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:30
+#: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:30
+msgid "Clear form"
+msgstr "Rensa formulär"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:145
+#, javascript-format
+msgid "Your file was too large to process in one job, the file has been split into %s jobs to meet the maximum size limits."
+msgstr "Din fil var för stor för att bearbeta i ett jobb, filen har delats in i %s jobb för att uppfylla maxgränserna."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:150
+#, javascript-format
+msgid "Job %s for uploaded file has been queued"
+msgstr "Jobb %s för uppladdad fil har köats"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:154
+msgid "see progress"
+msgstr "se progression"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:161
+msgid "Information:"
+msgstr "Information:"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:164
+msgid "Additional columns were detected in your report, please see the list below:"
+msgstr "Ytterligare kolumner upptäcktes i din rapport, se listan nedan:"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:170
+msgid "The data in these columns will not be imported."
+msgstr "Uppgifterna i dessa kolumner importeras inte."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:176
+msgid "The file must be in .tsv or .csv format, please convert your file and try again."
+msgstr "Filen måste vara i .tsv- eller .csv-format, vänligen konvertera filen och prova igen."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:36
 msgid "There are no titles defined"
 msgstr "Inga titlar är definierade"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:139
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:336
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:144
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:338
 msgid "Are you sure you want to remove this title?"
 msgstr "Är du säker på att du vill ta bort den här titeln?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:150
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:347
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:155
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:349
 #, javascript-format
 msgid "Local title %s deleted"
 msgstr "Lokal titel %s borttagen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:185
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:190
 msgid "Contributors"
 msgstr "Medverkande"
 
@@ -3008,8 +3166,8 @@ msgid "Data provider name"
 msgstr "Dataleverantörsnamn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:24
-#, fuzzy
-msgid "Service Type"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:106
+msgid "Service type"
 msgstr "Servicetyp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:30
@@ -3018,8 +3176,7 @@ msgid "Report types"
 msgstr "Rapporttyper"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:37
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:164
-msgid "Sushi credentials"
+msgid "SUSHI credentials"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:41
@@ -3028,36 +3185,35 @@ msgid "Service URL"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:47
-#, fuzzy
-msgid "Report Release"
-msgstr "Rapporttyper"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:198
+msgid "Report release"
+msgstr "Rapportsläpp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:221
-#, fuzzy
-msgid "Customer Id"
+msgid "Customer ID"
 msgstr "Kund-ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:244
 #, fuzzy
-msgid "Requestor Id"
+msgid "Requestor ID"
 msgstr "Obligatoriskt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:65
-#, fuzzy
-msgid "API Key"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:269
+msgid "API key"
 msgstr "API-nyckel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:71
-#, fuzzy
-msgid "Requestor Name"
-msgstr "Obligatoriskt"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:286
+msgid "Requestor name"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:77
-#, fuzzy
-msgid "Requestor Email"
-msgstr "Obligatoriskt"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
+msgid "Requestor email"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:13
 msgid "There are no import logs defined"
@@ -3088,19 +3244,22 @@ msgstr "Importdatum"
 msgid "Imported by"
 msgstr "Importerad av"
 
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:142
+msgid "Cronjob"
+msgstr "Cronjobb"
+
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:4
 msgid "Manual upload:"
 msgstr "Manuell uppladdning:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:30
-#: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:30
-msgid "Clear form"
-msgstr "Rensa formulär"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:95
+msgid "Job for uploaded file has been queued"
+msgstr "Jobb för den uppladdade filen har köats"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:93
-#, javascript-format
-msgid "<li>Job for uploaded file has been queued, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">click here</a> to check its progress.</li>"
-msgstr "<li>Uppladdningsjobb är placerat i kö, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">klicka här</a> för att se förloppet.</li>"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:100
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:256
+msgid "Check job progress"
+msgstr "Kontrollera hur arbetet fortskrider"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:6
 #, fuzzy, javascript-format
@@ -3109,7 +3268,7 @@ msgstr "Redigera leverantör %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:11
 msgid "New usage data provider"
-msgstr ""
+msgstr "Ny leverantör av användardata"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:204
@@ -3130,30 +3289,14 @@ msgstr "Skapa från register"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:93
 msgid "Harvester status"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:106
-msgid "Service type"
-msgstr "Servicetyp"
+msgstr "Skördningsstatus"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:145
 msgid "Unselect all"
 msgstr "Välj bort alla"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:198
-msgid "Report release"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:269
-msgid "API key"
-msgstr "API-nyckel"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:286
-msgid "Requestor name"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
-msgid "Requestor email"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:164
+msgid "Sushi credentials"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:308
@@ -3162,40 +3305,37 @@ msgid "Credentials information"
 msgstr "Resursinformation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:311
-#, fuzzy
-msgid "Customer id info"
+msgid "Customer ID info"
 msgstr "Information om kund-ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:321
 #, fuzzy
-msgid "Requestor id info"
+msgid "Requestor ID info"
 msgstr "Obligatoriskt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:331
 msgid "API key info"
-msgstr ""
+msgstr "API-nyckelinfo"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:340
 msgid "Please refer to the "
 msgstr "Hänvisa till "
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:342
-#, fuzzy
-msgid "counter registry"
-msgstr "Skapa från register"
+msgid "COUNTER registry"
+msgstr "COUNTER-registrering"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:344
 msgid "for more information."
 msgstr "för mer information."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
-msgid "This provider does not currently support any counter 5 reports via SUSHI."
-msgstr ""
+msgid "This provider does not currently support any COUNTER 5 reports via SUSHI."
+msgstr "Denna leverantör stöder för närvarande inte några rapporter från COUNTER 5 via SUSHI."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:572
-#, fuzzy
 msgid "Data provider updated"
-msgstr "Paket uppdaterat"
+msgstr "Dataleverantör uppdaterad"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:588
 #, fuzzy
@@ -3203,7 +3343,7 @@ msgid "Data provider created"
 msgstr "Paket skapat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:16
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:329
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:338
 #, fuzzy
 msgid "Data providers summary"
 msgstr "Redigera leverantör %s"
@@ -3223,18 +3363,17 @@ msgstr "Testa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:134
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:199
-#, fuzzy
 msgid "Are you sure you want to remove this data provider?"
-msgstr "Är du säker på att du vill ta bort den här titeln?"
+msgstr "Är du säker på att du vill ta bort den här dataleverantören?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:147
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Data provider %s deleted"
-msgstr "Lokal titel %s borttagen"
+msgstr "Dataleverantör %s borttagen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:166
 msgid "This data provider is set to 'Inactive', do you wish to update the status to 'Active'?"
-msgstr ""
+msgstr "Den här dataleverantören är inställd på \"Inaktiv\", vill du uppdatera statusen till \"Aktiv\"?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:169
 msgid "Yes, update status"
@@ -3250,9 +3389,8 @@ msgid "Updated status for usage data provider %s"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:209
-#, fuzzy
 msgid "Are you sure you want to run the harvester for this data provider?"
-msgstr "Är du säker på att du vill ta bort den här titeln?"
+msgstr "Är du säker på att du vill köra skördaren för den här dataleverantören?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:212
 msgid "Yes, run"
@@ -3263,30 +3401,29 @@ msgid "No, do not run"
 msgstr "Nej, kör inte"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:220
-#, fuzzy
 msgid "Begin date"
-msgstr "Slutdatum"
+msgstr "Startdatum"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:249
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:251
 #, javascript-format
-msgid "<li>Job for report type <strong>%s</strong> has been queued, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">click here</a> to check its progress.</li>"
-msgstr "<li>Rapportjobb <strong>%s</strong>är placerat i kö, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">klicka här</a> för att se förloppet.</li>"
+msgid "Job for report type <strong>%s</strong> has been queued"
+msgstr "Körning för rapporten <strong>%s</strong> har köats"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:270
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:277
 #, javascript-format
 msgid "Harvester connection was successful for usage data provider %s"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:277
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:284
 #, javascript-format
 msgid "No connection for usage data provider %s, please check your credentials and try again."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:288
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:295
 msgid "This data provider is inactive - connection testing is not possible"
-msgstr ""
+msgstr "Den här dataleverantören är inte aktiv - testning av kopplingen till dem är inte möjlig"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:329
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:336
 msgid "Last run"
 msgstr "Sista körning"
 
@@ -3308,9 +3445,9 @@ msgid "Import logs"
 msgstr "Importloggar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:213
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Usage data provider %s deleted"
-msgstr "Lokal titel %s borttagen"
+msgstr "Dataleverantören %s för användarstatistik är borttagen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:13
 msgid "Data providers list"
@@ -3321,13 +3458,12 @@ msgid "Provider"
 msgstr "Leverantör"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:96
-#, fuzzy
 msgid "Start"
-msgstr "Startdatum"
+msgstr "Start"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:108
 msgid "End"
-msgstr ""
+msgstr "Avsluta"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersToolbar.vue:7
 msgid "New data provider"
@@ -3343,7 +3479,7 @@ msgstr "Välj rapportdata"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:11
 msgid "Data display"
-msgstr ""
+msgstr "Visa data"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:53
 msgid "Choose data provider"
@@ -3363,9 +3499,8 @@ msgid "Choose access type"
 msgstr "Välj tillgångstyp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:129
-#, fuzzy
 msgid "Start year"
-msgstr "Startdatum"
+msgstr "Startår"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:136
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:168
@@ -3373,32 +3508,28 @@ msgid "Please enter year in format YYYY"
 msgstr "Ange år enligt formatet ÅÅÅÅ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:144
-#, fuzzy
 msgid "Start month"
-msgstr "Startade"
+msgstr "Startmånad"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:162
-#, fuzzy
 msgid "End year"
-msgstr "%s år"
+msgstr "Slutår"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:176
-#, fuzzy
 msgid "End month"
-msgstr "%s månad"
+msgstr "Slutmånad"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:194
 msgid "Keyword"
-msgstr ""
+msgstr "Nyckelord"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:212
 msgid "Select report columns"
-msgstr ""
+msgstr "Välj rapportkolumner"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:245
-#, fuzzy
 msgid "Select date display method"
-msgstr "Välj alla"
+msgstr "Välj metod för datumvisning"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:250
 msgid "Display data filtered by year"
@@ -3422,7 +3553,7 @@ msgstr "Spara rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:4
 msgid "Usage statistics reports"
-msgstr ""
+msgstr "Rapporter för användningsstatistik"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:18
 msgid "Saved reports"
@@ -3432,7 +3563,7 @@ msgstr "Sparade rapporter"
 msgid "Create report"
 msgstr "Skapa rapport"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:93
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:90
 msgid "No data providers have been created -  no report data will be available"
 msgstr ""
 
@@ -3443,7 +3574,7 @@ msgstr "Visa per år"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:142
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:269
 msgid "YOP"
-msgstr ""
+msgstr "Publikationsår"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:158
 msgid "Metric"
@@ -3483,30 +3614,32 @@ msgstr "Ta bort denna användare"
 msgid "User"
 msgstr "Användare"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:28
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:29
 msgid "Select user"
 msgstr "Välj användare"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:63
 msgid "Add new user"
 msgstr "Lägg till ny användare"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/InfiniteScrollSelect.vue:27
+msgid "Loading more options..."
+msgstr "Laddar fler alternativ..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:115
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:91
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:85
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:634
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:650
 msgid "Remove"
 msgstr "Ta bort"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Main.vue:87
-#, fuzzy
 msgid "The preservation module is disabled, turn on <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=PreservationModule\">PreservationModule</a> to use it"
-msgstr "Modulen för e-resurshantering är avslagen, slå på <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a> för att använda den"
+msgstr "Modulen för bokvård är avslagen, slå på <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=PreservationModule\">PreservationModule</a> för att använda den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:5
-#, fuzzy
 msgid "Edit preservation settings"
-msgstr "Redigera åtgärd %s"
+msgstr "Redigera bokvårdsinställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:79
@@ -3528,52 +3661,50 @@ msgid "Settings updated"
 msgstr "Inställningarna har uppdaterats"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:3
+#, fuzzy
 msgid "Processings"
-msgstr ""
+msgstr "Bearbetar..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:23
-#, fuzzy
 msgid "Remove this processing"
-msgstr "Ta bort detta dokument"
+msgstr "Ta bort den här processen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:32
 msgid "Edit this processing"
-msgstr ""
+msgstr "Redigera den här processen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:42
-#, fuzzy
 msgid "Add new processing"
-msgstr "Lägg till nytt dokument"
+msgstr "Lägg till ny process"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:77
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:141
-#, fuzzy
 msgid "Are you sure you want to remove this processing?"
-msgstr "Är du säker på att du vill ta bort det här paketet?"
+msgstr "Är du säker på att du vill ta bort den här processen?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:88
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:154
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Processing %s deleted"
-msgstr "Licens %s borttagen"
+msgstr "Process %s borttagen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:105
 msgid "This processing cannot be deleted, it is already in used."
-msgstr ""
+msgstr "Den här processen kan inte tas bort, den används redan."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit processing #%s"
-msgstr "Redigera leverantör %s"
+msgstr "Redigera process #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:7
 msgid "New processing"
-msgstr ""
+msgstr "Ny process"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:22
 msgid "Processing name"
-msgstr ""
+msgstr "Namn på process"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:30
@@ -3587,7 +3718,7 @@ msgstr "Attribut"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:49
 msgid "Be careful when removing attributes from this processing: the items using it will be impacted as well!"
-msgstr ""
+msgstr "Var försiktig när du tar bort attribut från den här processen: exemplar som använder dem kan påverkas!"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:60
 #, javascript-format
@@ -3639,7 +3770,7 @@ msgstr "Licens skapad"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:5
 #, javascript-format
 msgid "Processing #%s"
-msgstr ""
+msgstr "Processar #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:38
 msgid "Edit this template"
@@ -3650,9 +3781,8 @@ msgid "Unknown"
 msgstr "Okänt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:69
-#, fuzzy
 msgid "There are no attributes defined for this processing."
-msgstr "Inga titlar är definierade"
+msgstr "Det finns inga attribut definierade för den här processen."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:5
 #, fuzzy, javascript-format
@@ -3660,9 +3790,8 @@ msgid "Edit train #%s"
 msgstr "Redigera åtgärd %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:7
-#, fuzzy
 msgid "New train"
-msgstr "Ny titel"
+msgstr "Nytt tåg"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:139
@@ -3704,7 +3833,7 @@ msgid "Processing"
 msgstr "Bearbetar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:295
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:313
 msgid "Barcode"
 msgstr "Streckkod"
 
@@ -3717,9 +3846,8 @@ msgid "Item updated"
 msgstr "Exemplar uppdaterat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:367
-#, fuzzy
 msgid "Item added to train"
-msgstr " exemplar lades till i din minneslista"
+msgstr "Exemplar lades till tåg"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:4
 #, javascript-format
@@ -3735,15 +3863,14 @@ msgstr "Exemplarnummer"
 msgid "Cannot be edited now, the value will be retrieved from %s"
 msgstr "Kan inte redigeras nu, värde kommer att hämtas från %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:264
-#, fuzzy, javascript-format
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:262
+#, javascript-format
 msgid "%s items have been added to train %s."
-msgstr "Detta exemplar lades till i din vagn"
+msgstr "%s exemplar har lagts till i tåget %s."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:273
-#, fuzzy
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:271
 msgid "No items have been added to the train."
-msgstr "Exemplaret har lagts till i din minneslista"
+msgstr "Inga exemplar har lagts till tåget."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:12
 msgid "Filter by"
@@ -3755,11 +3882,11 @@ msgstr "Stängda"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:30
 msgid "Sent"
-msgstr ""
+msgstr "Skickat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:36
 msgid "Received"
-msgstr ""
+msgstr "Mottagen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:56
 #, fuzzy
@@ -3772,13 +3899,13 @@ msgid "Add items"
 msgstr "Lägg till exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:156
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:394
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:402
 #, fuzzy
 msgid "Are you sure you want to remove this train?"
 msgstr "Är du säker på att du vill ta bort den här titeln?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:167
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:405
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:413
 #, fuzzy, javascript-format
 msgid "Train %s deleted"
 msgstr "Licens %s borttagen"
@@ -3789,19 +3916,18 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:247
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:119
-#, fuzzy
 msgid "Closed on"
-msgstr "Stäng"
+msgstr "Stängd den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:256
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:125
 msgid "Sent on"
-msgstr ""
+msgstr "Skickad den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:265
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:131
 msgid "Received on"
-msgstr ""
+msgstr "Mottagen den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:4
 msgid "Copy item to the following train"
@@ -3822,9 +3948,9 @@ msgid "Receive"
 msgstr "Ta emot"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:101
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train #%s"
-msgstr "Titlar"
+msgstr "Tåg #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:155
 msgid "Items"
@@ -3839,35 +3965,36 @@ msgstr "Åtgärder "
 msgid "Print slips"
 msgstr "Skriv ut kvitton"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:351
-msgid "ID"
-msgstr "ID"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:194
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:595
+msgid "Cannot print slip, this item does not have a processing with a letter template defined."
+msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
-msgid "Are you sure you want to remove this item?"
-msgstr "Är du säker på att du vill ta bort det här exemplaret?"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:251
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:471
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
 msgid "Yes, remove"
 msgstr "Ja, ta bort"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:464
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:252
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:472
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:270
 msgid "No, do not remove"
 msgstr "Nej, ta inte bort"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:472
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:480
 msgid "Item removed"
 msgstr "Exemplar borttaget"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:507
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:515
 msgid "Item copied successfully."
 msgstr "Exemplar kopierades."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:513
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:521
 msgid "Item cannot be copied to a train, it is already in a non-received train."
 msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:694
+msgid "Print slip"
+msgstr "Skriv ut kvitto"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:4
 msgid "Add items to waiting list"
@@ -3899,134 +4026,143 @@ msgstr ""
 msgid "There are no items in the waiting list"
 msgstr "Det finns inga exemplar på väntelistan"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:225
+#, javascript-format
+msgid "%s new items added. %s items not found."
+msgstr "%s nya exemplar lades till. %s exemplar kunde inte hittas."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:234
 #, javascript-format
 msgid "%s new items added."
 msgstr "%s nya exemplar lades till."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:231
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:249
 msgid "No items added"
-msgstr "Inga exemplar lades till."
+msgstr "Inga exemplar tillagda"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:248
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:266
 msgid "Are you sure you want to remove this item from the waiting list?"
 msgstr "Är du säker på att du vill ta bort detta exemplar från väntelistan?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:259
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:277
 msgid "Item removed from the waiting list"
 msgstr "Exemplar togs bort från väntelistan"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:283
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:301
 msgid "Author"
 msgstr "Författare"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:289
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:307
 msgid "Call number"
 msgstr "Hyllsignatur"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:37
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:7
+msgid "Administration"
+msgstr "Administration"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:33
+msgid "Edit record source"
+msgstr "Redigera postkälla"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:38
 msgid "E-resource management"
 msgstr "E-resurshantering"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:61
 msgid "Show agreement"
 msgstr "Visa avtal"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:66
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:67
 msgid "Add agreement"
 msgstr "Lägg till avtal"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:72
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:73
 msgid "Edit agreement"
 msgstr "Redigera avtal"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:91
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:92
 msgid "Show license"
 msgstr "Visa licens"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:97
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:98
 msgid "Add license"
 msgstr "Lägg till licens"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:103
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:104
 msgid "Edit license"
 msgstr "Redigera licens"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:109
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:110
 msgid "eHoldings"
 msgstr "eBestånd"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:115
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:116
 msgid "Local"
 msgstr "Lokal"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:138
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:240
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:139
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
 msgid "Show package"
 msgstr "Visa paket"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
 msgid "Add package"
 msgstr "Lägg till paket"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:154
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
 msgid "Edit package"
 msgstr "Redigera paket"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:160
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:246
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:161
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:255
 msgid "Titles"
 msgstr "Titlar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:177
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:263
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:178
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
 msgid "Show title"
 msgstr "Visa titel"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:185
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
 msgid "Add title"
 msgstr "Lägg till titel"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:193
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
 msgid "Edit title"
 msgstr "Redigera titel"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:209
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:271
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
 msgid "Resource"
 msgstr "Resurs"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
 msgid "EBSCO"
 msgstr "EBSCO"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:282
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:291
 msgid "eUsage"
-msgstr ""
+msgstr "eUsage"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:288
-#, fuzzy
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:297
 msgid "Data providers"
-msgstr "Redigera leverantör %s"
+msgstr "Dataleverantörer"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:305
-#, fuzzy
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:314
 msgid "Show provider"
-msgstr "Redigera leverantör %s"
+msgstr "Visa leverantör"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:313
-#, fuzzy
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:322
 msgid "Add data provider"
-msgstr "Lägg till en SMS-leverantör"
+msgstr "Lägg till en dataleverantör"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:321
-#, fuzzy
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:330
 msgid "Edit data provider"
-msgstr "Redigera leverantör %s"
+msgstr "Redigera dataleverantör"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:350
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:359
 msgid "View report"
-msgstr ""
+msgstr "Visa rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:28
 msgid "Preservation"
@@ -4034,11 +4170,11 @@ msgstr "p- Arkivkvalitet för långtidslagring"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:34
 msgid "Home"
-msgstr ""
+msgstr "Hem"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:39
 msgid "Trains"
-msgstr ""
+msgstr "Tåg"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:50
 #, fuzzy
@@ -4078,12 +4214,14 @@ msgid "Settings"
 msgstr "Inställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:129
+#, fuzzy
 msgid "Show processing"
-msgstr ""
+msgstr "Bearbetar..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:135
+#, fuzzy
 msgid "Add processing"
-msgstr ""
+msgstr "Bearbetar..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:141
 #, fuzzy
@@ -4108,11 +4246,11 @@ msgstr "har tillgång till (efter avbeställning)"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:26
 msgid "tracks demand-driven acquisitions for"
-msgstr ""
+msgstr "spårar efterfrågedrivet inköp för"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:30
 msgid "has demand-driven acquisitions in"
-msgstr ""
+msgstr "har efterfrågedrivet inköp i"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:32
 msgid "has backfile in"
@@ -4127,28 +4265,24 @@ msgid "related to"
 msgstr "relaterad till"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:39
-#, fuzzy
 msgid "Publisher"
-msgstr "Förlagsnamn"
+msgstr "Förlag"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:51
-#, fuzzy
 msgid "Platform"
-msgstr "Rensa formulär"
+msgstr "Plattform"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:63
-#, fuzzy
 msgid "Publisher ID"
-msgstr "Förlagsnamn"
+msgstr "Förlags-ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:75
 msgid "Online ISSN"
-msgstr ""
+msgstr "ISSN (online)"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:87
-#, fuzzy
 msgid "Print ISSN"
-msgstr "Skriv ut"
+msgstr "ISSN (tryckt)"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:99
 msgid "DOI"
@@ -4220,11 +4354,7 @@ msgctxt "Bibliographic record"
 msgid "The item has been removed from your cart"
 msgstr "Exemplaret har tagits bort från din minneslista"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/global.js:274
-msgid "Back to top"
-msgstr "Tillbaka till början"
-
-#: koha-tmpl/opac-tmpl/bootstrap/js/global.js:274
+#: koha-tmpl/opac-tmpl/bootstrap/js/global.js:325
 msgid "Scroll to the top of the page"
 msgstr "Gå överst på sidan"
 
@@ -4248,45 +4378,45 @@ msgstr "Lån"
 msgid "Holds"
 msgstr "Reservationer"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:290
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:291
 msgid "Checked out until: "
 msgstr "Utlånad till och med: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:295
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:296
 msgid "Get item"
 msgstr "Skaffa exemplar"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:301
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
 msgid "Check in"
 msgstr "Återlämna"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:303
 msgid "Are you sure you want to return this item?"
-msgstr "Är du säker på att du vill lämna tillbaka detta exemplar? "
+msgstr "Är du säker på att du vill lämna tillbaka detta exemplar?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:319
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
 msgid "Check out"
 msgstr "Låna ut"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:321
 msgid "Are you sure you want to check out this item?"
 msgstr "Är du säker på att du vill låna detta exemplar?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:355
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
 msgid "Cancel hold"
 msgstr "Annullera reservation"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:357
 msgid "Are you sure you want to cancel this hold?"
 msgstr "Är du säker på att du vill annullera den här reservationen?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:385
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:386
 msgid "Item cannot be checked out. There are no available formats"
 msgstr "Exemplaret kan inte lånas ut. Det finns inga tillgängliga format"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/privacy.js:4
 msgid "Warning: Cannot be undone. Please confirm once again"
-msgstr ""
+msgstr "Varning: kan inte ångras. Bekräfta igen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/ratings.js:35
 #, javascript-format
@@ -4298,65 +4428,82 @@ msgstr "Ditt omdöme: %s."
 msgid "Average rating: %s (%s votes)"
 msgstr "Medelbetyg: %s (%s röster)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:42
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:96
-msgid "Tags added: "
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:43
-#, fuzzy
-msgid "Tags deleted: "
-msgstr "Ja, ta bort"
-
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
-#, fuzzy
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:100
+msgid "Tags added: "
+msgstr "Taggar tillagda: "
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:45
+msgid "Tags deleted: "
+msgstr "Taggar borttagna: "
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:46
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:110
 msgid "Errors: "
-msgstr "Fel:"
-
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
-msgid "Sorry, tags are not enabled on this system."
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:61
-msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
-msgstr ""
+msgstr "Fel: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
-msgid "Error! Illegal parameter"
-msgstr ""
+msgid "Sorry, tags are not enabled on this system."
+msgstr "Taggar kan inte användas i det här systemet."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
+msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
+msgstr "Fel! Din tagg var gjord helt med märkspråk.  Den lades INTE till.  Försök igen med vanlig text."
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+msgid "Error! Illegal parameter"
+msgstr "Fel! Ogiltig parameter"
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
-msgid "Error! Adding tags failed at"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
-msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
-msgid "Error! You cannot delete the tag"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
-msgid "Note: you can only delete your own tags."
-msgstr ""
+msgstr "Notera: din tagg innehöll märkspråkskod som togs bort. Taggen lades till så här "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
+msgid "Error! Adding tags failed at"
+msgstr "Fel! Att lägga till taggar misslyckades vid"
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
+msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
+msgstr "Notera: du kan bara tagga ett exemplar med en given term en gång.  Kontrollera \"Taggar\" för att se dina nuvarande taggar."
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
+msgid "Error! You cannot delete the tag"
+msgstr "Fel! Det går inte att ta bort taggen"
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
+msgid "Note: you can only delete your own tags."
+msgstr "Obs! Du kan bara ta bort dina egna taggar."
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:68
 msgid "You must be logged in to add tags."
-msgstr ""
+msgstr "Du måste vara inloggad för att lägga till taggar."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:126
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:130
 msgid "Unable to add one or more tags."
-msgstr ""
+msgstr "Det går inte att lägga till en eller flera taggar."
 
-#, fuzzy, javascript-format
-#~ msgid "%s new items added. %s items not found."
-#~ msgstr "%s nya exemplar lades till."
+#, javascript-format
+#~ msgid "%s linked biblio record"
+#~ msgstr "%s länkade bibliografisk post"
+
+#, javascript-format
+#~ msgid "%s record"
+#~ msgstr "%s post"
+
+#, javascript-format
+#~ msgid "<li>Job for report type <strong>%s</strong> has been queued, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">click here</a> to check its progress.</li>"
+#~ msgstr "<li>Rapportjobb <strong>%s</strong>är placerat i kö, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">klicka här</a> för att se förloppet.</li>"
+
+#, javascript-format
+#~ msgid "<li>Job for uploaded file has been queued, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">click here</a> to check its progress.</li>"
+#~ msgstr "<li>Uppladdningsjobb är placerat i kö, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">klicka här</a> för att se förloppet.</li>"
+
+#~ msgid "An error occurred on deleting this image"
+#~ msgstr "Ett fel inträffade när bilden togs bort"
+
+#, fuzzy
+#~ msgid "Click to expand"
+#~ msgstr "Klicka för att expandera denna sektion"
 
 #, fuzzy
 #~ msgid "Delete license"
@@ -4366,17 +4513,6 @@ msgstr ""
 #~ msgid "Delete package"
 #~ msgstr "Ta bort"
 
-#, fuzzy
-#~ msgid "Edit booking"
-#~ msgstr "Redigera leverantör %s"
-
-#~ msgid "Expand"
-#~ msgstr "Expandera"
-
-#, fuzzy
-#~ msgid "Failure"
-#~ msgstr "Misslyckades"
-
 #~ msgid "Import of record(s) failed: "
 #~ msgstr "Misslyckad import av post(er): "
 
@@ -4384,17 +4520,12 @@ msgstr ""
 #~ msgid "License user"
 #~ msgstr "Licenser"
 
-#, fuzzy, javascript-format
-#~ msgid "Patrons selected: %s"
-#~ msgstr "Ja, ta bort"
-
-#, fuzzy
-#~ msgid "Place booking"
-#~ msgstr "Reservera"
-
 #, fuzzy
 #~ msgid "Select item"
 #~ msgstr "Välj fil"
+
+#~ msgid "The recall waiting status may have already been reverted. Please refresh the page."
+#~ msgstr "Återkravet har redan ångrats. Ladda om sidan."
 
 #, fuzzy
 #~ msgid "name"

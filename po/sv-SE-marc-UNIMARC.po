@@ -1,10 +1,10 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.11.03.000\n"
+"Project-Id-Version: Koha 24.05.01.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2024-01-15 16:32+0000\n"
+"POT-Creation-Date: 2024-06-28 04:06+0000\n"
+"PO-Revision-Date: 2024-01-15 16:33+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -34,8 +34,8 @@ msgid "Coded fields"
 msgstr "Kodade fält"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:10
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:301
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:342
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:302
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:343
 #, c-format
 msgid "Audience: "
 msgstr "Målgrupp: "
@@ -13023,22 +13023,22 @@ msgstr "UNIMARC field 210c builder"
 msgid "Search for authority type: EDITORS"
 msgstr "Sök efter auktoritetstyp: REDIGERARE"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:32
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:33
 #, c-format
 msgid "None"
 msgstr "Ingen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:34
 #, c-format
 msgid "Heading A-Z"
 msgstr "Rubrik A-Z"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:35
 #, c-format
 msgid "Heading Z-A"
 msgstr "Rubrik Z-A"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:37
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:60
@@ -13046,7 +13046,7 @@ msgstr "Rubrik Z-A"
 msgid "contains"
 msgstr "innehåller"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:38
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:61
@@ -13054,7 +13054,7 @@ msgstr "innehåller"
 msgid "starts with"
 msgstr "börjar med"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:39
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:62
@@ -13063,12 +13063,12 @@ msgid "is exactly"
 msgstr "är exakt"
 
 #. INPUT type=submit
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:46
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:74
 msgid "Search"
 msgstr "Sök"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:50
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:51
 #, c-format
 msgid "Authority search results"
 msgstr "Auktoritetssökresultat"
@@ -13077,59 +13077,59 @@ msgstr "Auktoritetssökresultat"
 #. %1$s:  from | html 
 #. %2$s:  to | html 
 #. %3$s:  total | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:56
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:59
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:57
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:60
 #, c-format
 msgid "Results %s to %s of %s"
 msgstr "Resultat %s till %s av %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:58
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:60
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:59
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:61
 #, c-format
 msgid "No results found"
 msgstr "Inga resultat hittades"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:65
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:66
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:66
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:67
 #, c-format
 msgid "Summary"
 msgstr "Sammanfattning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:66
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:67
 #, c-format
 msgid "Heading type"
 msgstr "Rubriktyp"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:67
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:68
 #, c-format
 msgid "Used"
 msgstr "Används"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:68
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:69
 #, c-format
 msgid "Get it!"
 msgstr "Skaffa!"
 
 #. %1$s:  resul.used | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:74
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:75
 #, c-format
 msgid "%s times"
 msgstr "%s tider"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:77
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:98
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:78
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:99
 #, c-format
 msgid "Choose"
 msgstr "Välj"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:97
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:104
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:98
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:105
 #, c-format
 msgid "Close"
 msgstr "Stäng"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:111
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:112
 msgid "Authority"
 msgstr "Auktoritet"
 
@@ -13611,62 +13611,62 @@ msgstr "UNIMARC field 4XX builder"
 msgid "Search on "
 msgstr "Sök på "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:28
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:29
 #, c-format
 msgid "Any word"
 msgstr "Alla ord"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:30
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:31
 #, c-format
 msgid "Item type:"
 msgstr "Exemplartyp:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:32
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:33
 #, c-format
 msgid "All item types"
 msgstr "Alla exemplartyper"
 
 #. INPUT type=submit
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:39
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:40
 msgid "Start search"
 msgstr "Börja sökning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:47
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:48
 #, c-format
 msgid "Search results"
 msgstr "Sökresultat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:49
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:50
 #, c-format
 msgid "&lt;&lt; Previous"
 msgstr "&lt;&lt; Föregående"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:56
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:57
 #, c-format
 msgid "Next&gt;&gt;"
 msgstr "Nästa&gt;&gt;"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:67
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:68
 #, c-format
 msgid "Item count"
 msgstr "Antal exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:68
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:69
 #, c-format
 msgid "Location"
 msgstr "Plats"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:100
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:101
 #, c-format
 msgid "Clear field"
 msgstr "Rensa fält"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:111
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:112
 #, c-format
 msgid "&lt;&lt; Previous "
 msgstr "&lt;&lt; Föregående "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:129
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:130
 #, c-format
 msgid "Next&gt;&gt; "
 msgstr "Nästa&gt;&gt; "
@@ -14152,11 +14152,6 @@ msgstr "18-19 Odefinierad"
 msgid "20-24 Entry map &amp; lengths"
 msgstr "20-24 Entry map &amp; lengths"
 
-#. META http-equiv=Content-Type
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARC_compact.xsl:14
-msgid "text/html"
-msgstr "text/html"
-
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARC_compact.xsl:63
 #, c-format
 msgid "LCCN:"
@@ -14178,15 +14173,15 @@ msgid "RT : "
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:35
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:80
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:133
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:186
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:234
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:285
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:336
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:399
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:451
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:499
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:77
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:130
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:183
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:231
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:282
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:333
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:396
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:448
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:496
 #, c-format
 msgid "/cgi-bin/koha/authorities/detail.pl?authid="
 msgstr "/cgi-bin/koha/authorities/detail.pl?authid="
@@ -14196,20 +14191,15 @@ msgstr "/cgi-bin/koha/authorities/detail.pl?authid="
 msgid "/cgi-bin/koha/authorities/authorities-home.pl?op=do_search&amp;type=intranet&amp;value=identifier-standard%%3A"
 msgstr "/cgi-bin/koha/authorities/authorities-home.pl?op=do_search&amp;type=intranet&amp;value=identifier-standard%%3A"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:71
-#, fuzzy, c-format
-msgid "authority-summary"
-msgstr "Auktoritetssökning"
-
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:111
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:164
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:214
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:263
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:314
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:377
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:429
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:479
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:527
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:108
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:161
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:211
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:260
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:311
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:374
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:426
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:476
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCauthResults.xsl:524
 #, c-format
 msgid "UF : "
 msgstr ""
@@ -14453,347 +14443,348 @@ msgstr "LOC:"
 msgid "<xsl:variable name=\"title\" select=\"marc:subfield[@code='a']\"/> <xsl:variable name=\"ntitle\" select=\"translate($title, '&#x0098;&#x009C;&#xC29C;&#xC29B;&#xC298;&#xC288;&#xC289;','')\"/> <xsl:value-of select=\"$ntitle\" /> <xsl:if test=\"marc:subfield[@code='e']\"> <xsl:text> : </xsl:text> <xsl:for-each select=\"marc:subfield[@code='e']\"> <xsl:value-of select=\".\"/> </xsl:for-each> </xsl:if> <xsl:for-each select=\"marc:subfield[@code='h' or @code='i' or @code='v']\"> <xsl:text>, </xsl:text> <xsl:value-of select=\".\"/> </xsl:for-each> "
 msgstr "<xsl:variable name=\"title\" select=\"marc:subfield[@code='a']\"/> <xsl:variable name=\"ntitle\" select=\"translate($title, '&#x0098;&#x009C;&#xC29C;&#xC29B;&#xC298;&#xC288;&#xC289;','')\"/> <xsl:value-of select=\"$ntitle\" /> <xsl:if test=\"marc:subfield[@code='e']\"> <xsl:text> : </xsl:text> <xsl:for-each select=\"marc:subfield[@code='e']\"> <xsl:value-of select=\".\"/> </xsl:for-each> </xsl:if> <xsl:for-each select=\"marc:subfield[@code='h' or @code='i' or @code='v']\"> <xsl:text>, </xsl:text> <xsl:value-of select=\".\"/> </xsl:for-each>"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:59
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:89
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:60
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:90
 #, c-format
 msgid "Main Author"
 msgstr "Huvudförfattare "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:60
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:90
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:61
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:91
 #, c-format
 msgid "main_author"
 msgstr "huvudförfattare "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:65
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:95
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:66
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:96
 #, c-format
 msgid "Corporate Author (Main)"
 msgstr "Corporate Author (primär)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:66
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:96
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:67
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:97
 #, c-format
 msgid "corporate_main_author"
 msgstr "corporate_main_author"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:71
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:101
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:72
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:102
 #, c-format
 msgid "Coauthor"
 msgstr "Medförfattare "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:72
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:102
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:73
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:103
 #, c-format
 msgid "coauthor"
 msgstr "medförfattare "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:77
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:107
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:78
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:108
 #, c-format
 msgid "Secondary Author"
 msgstr "Sekundär författare"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:78
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:108
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:79
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:109
 #, c-format
 msgid "secondary_author"
 msgstr "underordnad författare"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:83
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:113
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:84
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:114
 #, c-format
 msgid "Corporate Author (Coauthor)"
 msgstr "Corporate Author (medförfattare)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:84
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:114
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:85
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:115
 #, c-format
 msgid "corporate_coauthor"
 msgstr "corporate_coauthor"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:89
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:119
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:90
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:120
 #, c-format
 msgid "Corporate Author (Secondary)"
 msgstr "Corporate Author (sekundär)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:90
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:120
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:91
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:121
 #, c-format
 msgid "corporate_secondary_author"
 msgstr "corporate_secondary_author"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:95
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:137
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:96
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:138
 #, c-format
 msgid "Language: "
 msgstr "Språk: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:99
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:141
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:100
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:142
 #, c-format
 msgid "of intermediate text, "
 msgstr "of intermediate text, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:100
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:142
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:101
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:143
 #, c-format
 msgid "of original work, "
 msgstr "of original work, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:101
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:143
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:102
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:144
 #, c-format
 msgid "of summary, "
 msgstr "of summary, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:102
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:144
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:103
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:145
 #, c-format
 msgid "of contents page, "
 msgstr "of contents page, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:103
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:145
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:104
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:146
 #, c-format
 msgid "of title page, "
 msgstr "of title page, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:104
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:146
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:105
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:147
 #, c-format
 msgid "of title proper, "
 msgstr "of title proper, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:105
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:147
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:106
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:148
 #, c-format
 msgid "of libretto, "
 msgstr "of libretto, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:106
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:148
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:107
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:149
 #, c-format
 msgid "of accompanying material, "
 msgstr "av medföljande material, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:107
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:149
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:108
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:150
 #, c-format
 msgid "of subtitles, "
 msgstr "of subtitles, "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:125
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:167
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:126
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:168
 #, c-format
 msgid "Country: "
 msgstr "Land: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:147
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:148
 #, c-format
 msgid "Tag 009: "
 msgstr "Tagg 009: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:155
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:196
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:156
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:197
 #, c-format
 msgid "ISBN: "
 msgstr "ISBN: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:175
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:216
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:176
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:217
 #, c-format
 msgid "ISSN: "
 msgstr "ISSN: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:194
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:235
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:195
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:236
 #, c-format
 msgid "Series"
 msgstr "Serie"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:195
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:236
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:196
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:237
 #, c-format
 msgid "series"
 msgstr "serie"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:200
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:241
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:201
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:242
 #, c-format
 msgid "Dewey: "
 msgstr "Dewey: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:220
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:261
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:221
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:262
 #, c-format
 msgid "Classification: "
 msgstr "Klassificering:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:238
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:279
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:239
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:280
 #, c-format
 msgid "Contents note: "
 msgstr "Innehållskommentar:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:243
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:284
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:244
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:285
 #, c-format
 msgid "abcdjpvxyz"
 msgstr "abcdjpvxyz"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:244
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:245
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:404
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:285
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:286
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:402
 #, c-format
 msgid "jpxyz"
 msgstr "jpxyz"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:255
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:296
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:256
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:297
 #, c-format
 msgid "Abstract: "
 msgstr "Sammandrag: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:272
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:313
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:273
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:314
 #, c-format
 msgid "Provenance note: "
 msgstr "Ursprungsanteckning: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:281
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:322
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:282
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:323
 #, c-format
 msgid "Bibliography: "
 msgstr "Bibliografi:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:291
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:332
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:292
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:333
 #, c-format
 msgid "Thesis: "
 msgstr "Avhandling: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:311
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:352
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:317
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:358
 #, c-format
 msgid "SUDOC serial history: "
 msgstr "SUDOC seriehistorik: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:322
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:363
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:328
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:369
 #, c-format
 msgid "Subject - Personal Name"
 msgstr "Ämne - personnamn"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:327
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:368
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:333
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:374
 #, c-format
 msgid "Subject - Corporate Author"
 msgstr "Ämne - Corporate Author"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:332
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:373
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:338
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:379
 #, c-format
 msgid "Subject - Family"
 msgstr "Ämne - familj"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:337
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:378
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:343
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:384
 #, c-format
 msgid "Subject - Author/Title"
 msgstr "Ämne - Författare/Titel"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:342
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:383
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:348
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:389
 #, c-format
 msgid "Subject - Topical Name"
 msgstr "Ämne - ämnesnamn"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:347
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:388
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:353
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:394
 #, c-format
 msgid "Subject - Geographical Name"
 msgstr "Ämne - geografiskt namn"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:352
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:393
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:358
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:399
 #, c-format
 msgid "Subject - Form"
 msgstr "Ämne - form"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:357
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:398
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:363
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:404
 #, c-format
 msgid "Subject"
 msgstr "Ämne"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:362
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:403
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:368
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:409
 #, c-format
 msgid "Subject Category"
 msgstr "Ämneskategori "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:367
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:408
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:373
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:414
 #, c-format
 msgid "Trademark"
 msgstr "Varumärke "
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:372
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:413
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:378
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:419
 #, c-format
 msgid "Online Resources:"
 msgstr "Elektroniska resurser:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:385
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:425
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:175
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:391
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:431
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:181
 #, c-format
 msgid "y3z"
 msgstr "y3z"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:388
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:178
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:394
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:184
 #, c-format
 msgid "Click here to access online "
 msgstr "Klicka här för att gå online"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:406
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:553
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:412
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:559
 #, c-format
 msgid "aq"
 msgstr "aq"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:427
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:574
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:433
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:580
 #, c-format
 msgid "cdn"
 msgstr "cdn"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:434
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:581
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:440
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:587
 #, c-format
 msgid "acdeq"
 msgstr "acdeq"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:442
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:589
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:448
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:595
 #, c-format
 msgid "bc"
 msgstr "bc"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:454
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:461
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:601
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:608
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:460
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:467
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:607
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:614
 #, c-format
 msgid "fghkdlmor"
 msgstr "fghkdlmor"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetResults.xsl:38
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:53
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetResults.xsl:39
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:54
 #, c-format
 msgid "title"
 msgstr "title"
@@ -14918,6 +14909,7 @@ msgid "/cgi-bin/koha/catalogue/search.pl?q=su:"
 msgstr "/cgi-bin/koha/catalogue/search.pl?q=su:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:403
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:401
 #, c-format
 msgid "abcdjptvxyz"
 msgstr "abcdjptvxyz"
@@ -14928,10 +14920,22 @@ msgid "/cgi-bin/koha/catalogue/search.pl?q=au:"
 msgstr "/cgi-bin/koha/catalogue/search.pl?q=au:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:443
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:505
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:442
 #, c-format
 msgid "%%20"
 msgstr "%%20"
+
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:492
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:489
+#, fuzzy, c-format
+msgid "Content warning: "
+msgstr "Innehåll: "
+
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:516
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:513
+#, c-format
+msgid "bcdefghijklmnopqrstvwxyz"
+msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:4
 #, c-format
@@ -14983,172 +14987,172 @@ msgstr "Serietyp"
 msgid "Periodicity"
 msgstr "Periodicitet"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:71
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:138
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:72
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:139
 #, c-format
 msgid "Translation of"
 msgstr "Översättning av "
 
 # NO
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:72
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:139
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:73
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:140
 #, c-format
 msgid "original_title"
 msgstr "orginaltitel "
 
 # Interpreted as noun
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:77
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:144
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:78
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:145
 #, c-format
 msgid "Set Level"
 msgstr "Ställ in nivå"
 
 # Interpreted as noun
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:78
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:145
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:79
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:146
 #, c-format
 msgid "set_level"
 msgstr "set_level"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:83
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:150
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:84
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:151
 #, c-format
 msgid "Piece-Analytic Level"
 msgstr "Styckeanalysnivå"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:84
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:151
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:85
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:152
 #, c-format
 msgid "piece_analytic_level"
 msgstr "styckeanalysnivå"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:125
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:126
 #, c-format
 msgid "Uniform Title"
 msgstr "Uniform titel "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:126
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:127
 #, c-format
 msgid "uniform_title"
 msgstr "uniform_titel"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:131
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:132
 #, c-format
 msgid "Uniform Conventional Heading"
 msgstr "Uniform Conventional Heading"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:132
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:133
 #, c-format
 msgid "uniform_conventional_heading"
 msgstr "uniform_conventional_heading"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:185
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:186
 #, c-format
 msgid "Edition Statement"
 msgstr "Utgåvebeteckning"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:186
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:187
 #, c-format
 msgid "edition"
 msgstr "utgåva "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:420
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:478
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:117
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:170
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:426
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:484
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:118
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:176
 #, c-format
 msgid "_blank"
 msgstr "_blank"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:434
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:440
 #, c-format
 msgid "Click here to access online"
 msgstr "Klicka här för att gå online "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:461
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:474
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:100
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:113
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:467
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:480
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:101
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:114
 #, c-format
 msgid "OpenURL"
 msgstr "OpenURL"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:510
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:516
 #, c-format
 msgid "Audio file"
 msgstr "Ljudfil"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:533
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:539
 #, c-format
 msgid "Play this sample"
 msgstr "Spela upp detta ljudprov"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:159
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:165
 #, c-format
 msgid "Availability: "
 msgstr "Tillgänglighet: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:191
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:197
 #, c-format
 msgid "No items available "
 msgstr "Inga exemplar finns tillgängliga "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:196
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:202
 #, c-format
 msgid "Items available for loan: "
 msgstr "Exemplar tillgängliga för lån: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:204
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:230
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:254
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:296
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:337
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:210
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:236
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:260
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:302
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:343
 #, c-format
 msgid "Call number: "
 msgstr "Hyllsignatur: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:281
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:287
 #, c-format
 msgid "Items available for reference: "
 msgstr "Exemplar tillgängliga som referens:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:286
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:327
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:292
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:333
 #, fuzzy, c-format
 msgid "ItemSummary "
 msgstr "Sammanfattning: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:353
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:359
 #, c-format
 msgid "Checked out ("
 msgstr "Utlånad ( "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:360
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:366
 #, c-format
 msgid "Withdrawn ("
 msgstr "Borttagen ("
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:367
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:373
 #, c-format
 msgid "Lost ("
 msgstr "Förkommen ("
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:374
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:380
 #, c-format
 msgid "Damaged ("
 msgstr "Skadad ( "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:381
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:387
 #, c-format
 msgid "On order ("
 msgstr "Beställd ( "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:388
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:394
 #, c-format
 msgid "In transit ("
 msgstr "Under förflyttning ("
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:395
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:401
 #, c-format
 msgid "On hold ("
 msgstr "Reserverad ( "
@@ -15175,48 +15179,38 @@ msgstr "/cgi-bin/koha/opac-MARCdetail.pl?biblionumber="
 msgid "/cgi-bin/koha/opac-search.pl?q=pb:"
 msgstr "/cgi-bin/koha/opac-search.pl?q=pb:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:412
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:497
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:392
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:434
 #, c-format
 msgid "/cgi-bin/koha/opac-search.pl?q=an:"
 msgstr "/cgi-bin/koha/opac-search.pl?q=an:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:439
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:395
 #, c-format
 msgid "/cgi-bin/koha/opac-search.pl?q=su:"
 msgstr "/cgi-bin/koha/opac-search.pl?q=su:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:445
-#, c-format
-msgid "abcdfijkmnptvxyz"
-msgstr "abcdfijkmnptvxyz"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:446
-#, c-format
-msgid "ijknpxyz"
-msgstr "ijknpxyz"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:503
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:440
 #, c-format
 msgid "/cgi-bin/koha/opac-search.pl?q=au:"
 msgstr "/cgi-bin/koha/opac-search.pl?q=au:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:528
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:465
 #, c-format
 msgid "/cgi-bin/koha/opac-idref.pl?unimarc3="
 msgstr "/cgi-bin/koha/opac-idref.pl?unimarc3="
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:531
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:468
 #, c-format
 msgid "IdRef"
 msgstr "IdRef"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:532
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:469
 #, c-format
 msgid "gb_page_center[600,500]"
 msgstr "gb_page_center[600,500]"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:533
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:470
 #, c-format
 msgid "Idref"
 msgstr "Idref"
@@ -15305,8 +15299,16 @@ msgstr "Idref"
 #~ msgid "UNIMARC field 700-4 builder"
 #~ msgstr "UNIMARC field 700-4 builder"
 
+#, c-format
+#~ msgid "abcdfijkmnptvxyz"
+#~ msgstr "abcdfijkmnptvxyz"
+
 #~ msgid "ag- chart"
 #~ msgstr "ag- chart"
+
+#, fuzzy, c-format
+#~ msgid "authority-summary"
+#~ msgstr "Auktoritetssökning"
 
 #~ msgid "camaiu"
 #~ msgstr "camaiu"
@@ -15325,6 +15327,10 @@ msgstr "Idref"
 #~ msgstr "i- print"
 
 #, c-format
+#~ msgid "ijknpxyz"
+#~ msgstr "ijknpxyz"
+
+#, c-format
 #~ msgid "illustrateur"
 #~ msgstr "illustrateur"
 
@@ -15338,6 +15344,9 @@ msgstr "Idref"
 #, c-format
 #~ msgid "préface, notes"
 #~ msgstr "préface, notes"
+
+#~ msgid "text/html"
+#~ msgstr "text/html"
 
 #, c-format
 #~ msgid "traducteur"

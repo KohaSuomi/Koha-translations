@@ -1,10 +1,10 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.11.03.000\n"
+"Project-Id-Version: Koha 24.05.01.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2024-02-06 03:07+0000\n"
+"PO-Revision-Date: 2024-05-01 03:00+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -2304,9 +2304,8 @@ msgid "multiple media"
 msgstr "multimedia "
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:authorised_values:2:row:40
-#, fuzzy
 msgid "unmediated"
-msgstr "Autentiserad"
+msgstr "omedierad"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:authorised_values:2:row:41
 #, fuzzy
@@ -3026,9 +3025,8 @@ msgid "Other Coding for Content Form"
 msgstr "other kinds of contents"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:190
-#, fuzzy
 msgid "ISBD Media Type Code"
-msgstr "Mediatyp:"
+msgstr "Medietyp"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:191
 msgid "Other Coding for Media Type"
@@ -3113,9 +3111,8 @@ msgid "Content qualification"
 msgstr "Annullera meddelande"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:213
-#, fuzzy
 msgid "Media type"
-msgstr "Mediatyp:"
+msgstr "Medietyp"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:215
 #, fuzzy
@@ -3162,7 +3159,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:225
 msgid "Numbering: Dates and Volume Designations"
-msgstr ""
+msgstr "Numrering: datum och volymangivelser"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:226
 #, fuzzy
@@ -3344,9 +3341,8 @@ msgid "Level"
 msgstr "Nivå"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:278
-#, fuzzy
 msgid "Carrier Type Designation"
-msgstr "Bärartyp:  "
+msgstr "Bärartyp"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:294
 msgid "Institution and Copy to Which Field Applies"
@@ -3767,7 +3763,6 @@ msgid "Series statement"
 msgstr "Serietitel"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:465
-#, fuzzy
 msgid "Volume Number"
 msgstr "Volymnummer"
 
@@ -3908,9 +3903,8 @@ msgid "Name of Part"
 msgstr "Dagens namn"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:1570
-#, fuzzy
 msgid "Volume or Dates associated with Title"
-msgstr "Ta bort tillhörande exemplar? "
+msgstr "Volym eller datum associerad med titel"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:1572
 msgid "Language of Title"
@@ -3942,7 +3936,7 @@ msgstr "of title proper, "
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:1592
 msgid "Volumes or Dates of Former Title"
-msgstr ""
+msgstr "Volym eller datum på tidigare titel"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:1594
 #, fuzzy
@@ -3961,7 +3955,7 @@ msgstr "Kvalifikator"
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:1597
 #, fuzzy
 msgid "Volume or Dates Associated with Key Title"
-msgstr "Ta bort tillhörande exemplar? "
+msgstr "Volym eller datum associerad med Key Title"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:1599
 #, fuzzy
@@ -4595,9 +4589,8 @@ msgid "Organization and Arrangement of Materials"
 msgstr "Transposition and arrangement"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_tag_structure:11:row:65
-#, fuzzy
 msgid "Carrier Type"
-msgstr "Bärartyp:  "
+msgstr "Bärartyp"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_tag_structure:11:row:66
 #, fuzzy
@@ -4938,7 +4931,7 @@ msgstr "Exemplaret omlånat"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_tag_structure:11:row:140
 msgid "Also Bound with This Volume"
-msgstr ""
+msgstr "Också sammanbunden med denna volym"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_tag_structure:11:row:141
 #, fuzzy
