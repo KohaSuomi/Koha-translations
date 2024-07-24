@@ -1,18 +1,18 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.11.04.000\n"
+"Project-Id-Version: Koha 24.05.01.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2023-12-27 12:07+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
+"PO-Revision-Date: 2024-07-23 04:05+0000\n"
+"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-installer.po\n"
 "X-POOTLE-MTIME: 1695118958.904701\n"
@@ -419,21 +419,19 @@ msgstr "Etsii alustalta"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:69
 msgid "Total item investigations"
-msgstr ""
+msgstr "Yhteensä teoksen kyselyjä"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:70
 msgid "Total item requests"
 msgstr "Kokonaisnidepyynnöt"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:71
-#, fuzzy
 msgid "Unique item investigations"
-msgstr "Myöhästymismaksun kuvaus"
+msgstr "Uniikkeja teoksen kyselyjä"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:72
-#, fuzzy
 msgid "Unique item requests"
-msgstr "Artikkelipyyntö odottaa"
+msgstr "Uniikkeja teoksen pyyntöjä"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:73
 msgid "Unique title investigations"
@@ -446,16 +444,15 @@ msgstr "Artikkelipyyntö odottaa"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:75
 msgid "Searches automated"
-msgstr ""
+msgstr "Automatisoituja hakuja"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:76
 msgid "Searches federated"
-msgstr ""
+msgstr "Yhdistettyjä hakuja"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:77
-#, fuzzy
 msgid "Searches regular"
-msgstr "Epäsäännöllinen"
+msgstr "Tavallisia hakuja"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:84
 msgid "No license"
@@ -479,11 +476,11 @@ msgstr "Raportit"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:103
 msgid "Maintenance"
-msgstr ""
+msgstr "Huoltotoimenpide"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:104
 msgid "Outage"
-msgstr ""
+msgstr "Katkos"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:1
 msgid "Andorra"
@@ -3451,7 +3448,7 @@ msgstr "Kuvataiteilija, graafikko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:9
 msgid "Assignee"
-msgstr "Valtuutettu"
+msgstr "Käsittelijä"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:10
 msgid "Associated name"
@@ -4448,6 +4445,10 @@ msgstr "Varaus noudettavissa kirjastosta <<branches.branchname>>"
 msgid "Hold(s) available for pickup"
 msgstr "Varaus noudettavissa"
 
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69
+msgid "Hold available for pickup at [% branch.branchname %]"
+msgstr "Varaus noudettavissa kirjastosta [% branch.branchname %]"
+
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Hold available for pickup (print notice)"
 msgstr "Varaus noudettavissa (tuloste)"
@@ -4610,9 +4611,8 @@ msgstr "Korisi"
 
 # Siirrot? Kuljetukset? Kuljetukset ja siirrot?
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96
-#, fuzzy
 msgid "Train item slip"
-msgstr "Kuljetuskuitti"
+msgstr "Käsittelyeräkuitti"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Hold is confirmed"
@@ -5111,14 +5111,12 @@ msgid "Thank you for joining %s%s%sthe library%s%s"
 msgstr "Tervetuloa asiakkaaksi %s%skirjasto%s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:6
-#, fuzzy
 msgid "You can search for all our materials in our %scatalog%s.%s"
-msgstr "Voit etsiä kaikkia aineistojamme %skirjaston haulla%s."
+msgstr "Voit etsiä kaikkia aineistojamme %skirjaston haulla%s.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:8
-#, fuzzy
 msgid "Your library card number is %s%s"
-msgstr "Kirjastokorttisi numero on %s"
+msgstr "Kirjastokorttisi numero on %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:10
 msgid "If you have any problems or questions regarding your account, please contact the library."
@@ -5257,18 +5255,16 @@ msgid "You have a hold available for pickup as of %s:"
 msgstr "Sinulla on varaus noudettavissa %s:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:1
-#, fuzzy
 msgid "You have one or more holds available for pickup:"
-msgstr "Sinulla on varaus noudettavissa %s:"
+msgstr "Sinulla on varaus noudettavissa:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:6
 msgid "Waiting since: %s"
 msgstr "Odottaa alkaen: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:7
-#, fuzzy
 msgid "Waiting at: %s"
-msgstr "Odottaa alkaen: %s"
+msgstr "Odottaa kirjastossa: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:3
 msgid "Your hold for %s is available for pickup."
@@ -5432,55 +5428,55 @@ msgstr "%sHyväksymistä odottava hankintaehdotus%s"
 msgid "    %s%sSuggested by%s"
 msgstr "    %s%sEhdottaja%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:14
 msgid "    %s%sTitle suggested%s"
 msgstr "    %s%sEhdotetun aineiston nimeke%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:16
 msgid "    %s%sLibrary:%s %s%s"
 msgstr "    %s%sKirjasto:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:17
 msgid "    %s%sTitle:%s %s%s"
 msgstr "    %s%sNimi:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:14
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:18
 msgid "    %s%sAuthor:%s %s%s"
 msgstr "    %s%sTekijä:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:15
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:19
 msgid "    %s%sCopyright date:%s %s%s"
 msgstr "    %s%sTekijänoikeusvuosi:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:16
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:20
 msgid "    %s%sStandard number (ISBN, ISSN or other):%s %s%s"
 msgstr "    %s%sStandardoitu numero (ISBN, ISSN tai muu):%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:21
 msgid "    %s%sPublisher:%s %s%s"
 msgstr "    %s%sJulkaisija:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:18
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:22
 msgid "    %s%sCollection title:%s %s%s"
 msgstr "    %s%sKokoelman nimi:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:19
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:23
 msgid "    %s%sPublication place:%s %s%s"
 msgstr "    %s%sJulkaisu-/kustannuspaikka:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:20
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:24
 msgid "    %s%sQuantity:%s %s%s"
 msgstr "    %s%sMäärä:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:21
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:25
 msgid "    %s%sItem type:%s  %s%s"
 msgstr "    %s%sNidetyyppi:%s  %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:22
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:26
 msgid "    %s%sReason for suggestion:%s %s%s"
 msgstr "    %s%sHankintaperusteet:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:27
 msgid "    %s%sNotes:%s %s%s"
 msgstr "    %s%sHuomautukset:%s %s%s"
 
@@ -5561,13 +5557,12 @@ msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "Seuraava nide, %s, on uusittu oikein ja erääntyy nyt %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:4
-#, fuzzy
 msgid "This item has reached the maximum number of automatic renewals and will no longer be renewed."
-msgstr "Lainan uusimiskerrat ovat tulleet täyteen."
+msgstr "Lainan uusimiskerrat ovat tulleet täyteen eikä uusinta ole enää mahdollista."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
 msgid "This item has reached the maximum number of unseen renewals and will need to be renewed at the library."
-msgstr ""
+msgstr "Lainan verkkokirjastouusimiskerrat ovat tulleet täyteen ja laina on uusittava kirjastossa."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:9
 msgid "The following item, %s, has not been renewed because:"
@@ -5625,7 +5620,7 @@ msgstr "%s nidettä ei uusittu."
 msgid "There were %s items that were renewed."
 msgstr "%s nidettä uusittiin."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:11
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:12
 msgid "was renewed until %s"
 msgstr "on uusittu %s asti"
 
@@ -5810,34 +5805,28 @@ msgid "%sView in online catalog%s"
 msgstr "%sKatso verkkokirjastossa%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:4
-#, fuzzy
 msgid "Train name: %s"
-msgstr "Käyttäjätunnus: %s"
+msgstr "Käsittelyerän nimi: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:5
-#, fuzzy
 msgid "Sent on: %s"
-msgstr "Lainassa?: %s"
+msgstr "Lähetetty: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:9
-#, fuzzy
 msgid "Item number #%s"
-msgstr "Luokka: %s"
+msgstr "Niteen numero käsittelyerässä #%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:1
-#, fuzzy
 msgid "Hello %s %s (%s),"
-msgstr "Hei %s %s %s."
+msgstr "Hei %s %s (%s),"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:2
-#, fuzzy
 msgid "Your hold on %s (%s) has been confirmed."
-msgstr " Tilaus %s (%s) on vastaanotettu."
+msgstr "Varauksesi %s (%s) on vahvistettu."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:3
-#, fuzzy
 msgid "You will be notified by the library when your item is available for pickup."
-msgstr "Saat sähköpostin, kun aineisto on saatavana."
+msgstr "Saat ilmoituksen kun nide on noudettavissa."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:2
 msgid "An account writeoff of %s has been applied to your account."
@@ -6637,16 +6626,15 @@ msgstr "Yksityiskohdat täältä: https://www.niso.org/publications/standards."
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:1
 msgid "Abridger"
-msgstr ""
+msgstr "Lyhentäjä"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:2
 msgid "Art copyist"
 msgstr "Taidekopioija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:4
-#, fuzzy
 msgid "Art director"
-msgstr "Taiteellinen johtaja"
+msgstr "Lavastaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:6
 msgid "Author of afterword, colophon, etc."
@@ -6654,21 +6642,19 @@ msgstr "Jälkisanojen, kolofonin yms. tekijä"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:7
 msgid "Announcer"
-msgstr ""
+msgstr "Kuuluttaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:8
 msgid "Analyst"
 msgstr "Analyytikko"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:12
-#, fuzzy
 msgid "Appellee"
-msgstr "kpelle"
+msgstr "Muutoksenhakijan vastapuoli"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:13
-#, fuzzy
 msgid "Appellant"
-msgstr "Kunnianloukkaustuomiosta valittaja"
+msgstr "Muutoksenhakija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:14
 msgid "Applicant"
@@ -6687,9 +6673,8 @@ msgid "Artistic director"
 msgstr "Taiteellinen johtaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:22
-#, fuzzy
 msgid "Autographer"
-msgstr "Kartoittaja"
+msgstr "Nimikirjoituksen kirjoittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:23
 msgid "Attributed name"
@@ -6700,23 +6685,20 @@ msgid "Author of dialog"
 msgstr "Dialogin tekijä"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:26
-#, fuzzy
 msgid "Audio engineer"
-msgstr "Äänittäjä"
+msgstr "Ääniteknikko"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:28
-#, fuzzy
 msgid "Audio producer"
-msgstr "Kirjan tuottaja"
+msgstr "Äänituottaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:29
 msgid "Screenwriter"
-msgstr ""
+msgstr "Käsikirjoittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:33
-#, fuzzy
 msgid "Book artist"
-msgstr "Tänään palautetut"
+msgstr "Kirjataitelija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:35
 msgid "Book producer"
@@ -6732,20 +6714,19 @@ msgstr "Sitoja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:39
 msgid "Broadcaster"
-msgstr ""
+msgstr "Lähetyksestä vastaava"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:40
 msgid "Braille embosser"
-msgstr ""
+msgstr "Pistekirjoituksen valmistaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:42
-#, fuzzy
 msgid "Casting director"
-msgstr "Päätoimittaja"
+msgstr "Roolittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:43
 msgid "Caster"
-msgstr ""
+msgstr "Valaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:46
 msgid "Client"
@@ -6777,14 +6758,12 @@ msgid "Conservator"
 msgstr "Konservaattori"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:60
-#, fuzzy
 msgid "Camera operator"
-msgstr "Tekijä"
+msgstr "Kameraoperaattori"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:61
-#, fuzzy
 msgid "Collection registrar"
-msgstr "Keräilijä"
+msgstr "Kokoelman luetteloija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:62
 msgid "Contestant"
@@ -6797,7 +6776,7 @@ msgstr "Kilpailija valittajana"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:64
 msgid "Court governed"
-msgstr ""
+msgstr "Voimassaoleva tuomioistuin"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:65
 msgid "Cover designer"
@@ -6828,9 +6807,8 @@ msgid "Correspondent"
 msgstr "Kirjeenvaihtaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:74
-#, fuzzy
 msgid "Court reporter"
-msgstr "Ilmoitit: %s"
+msgstr "Tuomioistuimen kirjuri"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:75
 msgid "Consultant"
@@ -6865,9 +6843,8 @@ msgid "Curator"
 msgstr "Kuraattori"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:86
-#, fuzzy
 msgid "Dubbing director"
-msgstr "Päätoimittaja"
+msgstr "Dubbausohjaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:87
 msgid "Distribution place"
@@ -6887,21 +6864,19 @@ msgstr "Vastaaja valittajana"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:91
 msgid "Degree committee member"
-msgstr ""
+msgstr "Opinnäytteen tarkastaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:92
-#, fuzzy
 msgid "Degree granting institution"
-msgstr "Arvosanan antaja"
+msgstr "Oppiarvon myöntävä yhteisö"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:93
-#, fuzzy
 msgid "Degree supervisor"
-msgstr "Arvosanan antaja"
+msgstr "Opinnäytteen ohjaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:95
 msgid "DJ"
-msgstr ""
+msgstr "DJ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:96
 msgid "Delineator"
@@ -6936,14 +6911,12 @@ msgid "Editor of compilation"
 msgstr ""
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:111
-#, fuzzy
 msgid "Editorial director"
-msgstr "Kuoronjohtaja"
+msgstr "Toimituspäällikkö"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:112
-#, fuzzy
 msgid "Editor of moving image work"
-msgstr "Pääteoksen säveltäjä"
+msgstr "Leikkaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:115
 msgid "Electrician"
@@ -6959,7 +6932,7 @@ msgstr "Insinööri"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:118
 msgid "Enacting jurisdiction"
-msgstr ""
+msgstr "Säätävä lainkäyttöalue"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:120
 msgid "Event place"
@@ -6970,504 +6943,481 @@ msgid "Facsimilist"
 msgstr "Jäljenteen toteuttaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:123
-#, fuzzy
 msgid "Film distributor"
-msgstr "Jakaja"
+msgstr "Elokuvan jakelija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:124
 msgid "Field director"
 msgstr "Kenttäjohtaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:126
-#, fuzzy
 msgid "Film director"
-msgstr "Kenttäjohtaja"
+msgstr "Elokuvaohjaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:127
-#, fuzzy
 msgid "Filmmaker"
-msgstr "Painolaatan valmistaja"
+msgstr "Elokuvantekijä"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:129
-#, fuzzy
 msgid "Film producer"
-msgstr "Kirjan tuottaja"
+msgstr "Elokuvantuottaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:131
 msgid "First party"
 msgstr "Ensimmäinen osapuoli"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:134
+msgid "Game developer"
+msgstr "Pelikehittäjä"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:135
 msgid "Geographic information specialist"
 msgstr "Paikkatietoasiantuntija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:135
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:136
 msgid "Host institution"
-msgstr ""
+msgstr "Isäntäorganisaatio"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:137
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:138
 msgid "Host"
 msgstr "Palvelin"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:141
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:142
 msgid "Inventor"
 msgstr "Keksijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:143
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:144
 msgid "Instrumentalist"
 msgstr "Soittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:146
-msgid "Judge"
-msgstr ""
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:147
-#, fuzzy
-msgid "Jurisdiction governed"
-msgstr "Hankintatilaus"
+msgid "Judge"
+msgstr "Tuomari"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:148
+msgid "Jurisdiction governed"
+msgstr "Soveltava lainkäyttöalue"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:149
 msgid "Laboratory"
 msgstr "Laboratorio"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:150
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:151
 msgid "Laboratory director"
 msgstr "Laboratoriopäällikkö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:151
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:152
 msgid "Lead"
 msgstr "Vetäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:152
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:153
 msgid "Libelee-appellee"
 msgstr "Kunnianloukkaustuomiosta valituksen vastaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:153
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:154
 msgid "Libelee"
 msgstr "Kunnianloukkausasian vastaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:154
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:155
 msgid "Lender"
 msgstr "Lainaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:155
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:156
 msgid "Libelee-appellant"
 msgstr "Kunnianloukkaustuomiosta valittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:156
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:157
 msgid "Lighting designer"
 msgstr "Valosuunnittelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:157
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:158
 msgid "Libelant-appellee"
 msgstr "Kunnianaloukkautuomion haastaja vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:158
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:159
 msgid "Libelant"
 msgstr "Kunnianaloukkausasian haastaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:159
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:160
 msgid "Libelant-appellant"
 msgstr "Kunnianaloukkaustuomion haastaja valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:160
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:161
 msgid "Landscape architect"
 msgstr "Maisema-arkkitehti"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:165
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:166
 msgid "Music copyist"
 msgstr "Musiikin kopioija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:166
-msgid "Medium"
-msgstr ""
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:167
+msgid "Medium"
+msgstr "Meedio"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:168
 msgid "Manufacture place"
 msgstr "Valmistuspaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:168
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:169
 msgid "Manufacturer"
 msgstr "Valmistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:169
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:170
 msgid "Metadata contact"
 msgstr "Metadatakontakti"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:170
-#, fuzzy
-msgid "Makeup artist"
-msgstr "Miimikko"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:171
+msgid "Makeup artist"
+msgstr "Meikkitaiteilija"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:172
 msgid "Moderator"
 msgstr "Moderoija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:173
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:174
 msgid "Marbler"
 msgstr "Marmoroija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:174
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:175
 msgid "Markup editor"
 msgstr "Koodaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:175
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:176
 msgid "Musical director"
 msgstr "Musiikkijohtaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:177
-#, fuzzy
-msgid "Minute taker"
-msgstr "Kuvalaatan valmistaja"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:178
-#, fuzzy
-msgid "Music programmer"
-msgstr "Ohjelmoija"
+msgid "Minute taker"
+msgstr "Pöytäkirjan laatija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:180
-#, fuzzy
-msgid "Mixing engineer"
-msgstr "Äänittäjä"
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:179
+msgid "Music programmer"
+msgstr "Musiikkiohjelmoija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:181
-#, fuzzy
+msgid "Mixing engineer"
+msgstr "Miksaaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:182
 msgid "News anchor"
-msgstr "Sanomalehti"
+msgstr "Uutisankkuri"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:183
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:184
 msgid "Onscreen participant"
-msgstr ""
+msgstr "Osallistuja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:186
-#, fuzzy
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:187
 msgid "Organizer"
 msgstr "Järjestäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:187
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:188
 msgid "Onscreen presenter"
-msgstr ""
+msgstr "Esittelijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:189
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:190
 msgid "Owner"
 msgstr "Omistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:190
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:191
 msgid "Place of address"
 msgstr ""
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:191
-#, fuzzy
-msgid "Panelist"
-msgstr "Laulusolisti"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:192
+msgid "Panelist"
+msgstr "Panelisti"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:193
 msgid "Patron"
 msgstr "Asiakas"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:195
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:196
 msgid "Project director"
 msgstr "Projektipäällikkö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:196
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:197
 msgid "Proofreader"
 msgstr "Oikolukija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:198
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:199
 msgid "Platemaker"
 msgstr "Painolaatan valmistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:199
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:200
 msgid "Permitting agency"
 msgstr "Luvanantaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:200
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:201
 msgid "Production manager"
 msgstr "Tuotantopäällikkö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:204
-msgid "Praeses"
-msgstr ""
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:205
+msgid "Praeses"
+msgstr "Preeses"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:206
 msgid "Process contact"
 msgstr "Prosessin yhteyshenkilö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:206
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:207
 msgid "Production personnel"
 msgstr "Tuotantohenkilökunta"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:209
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:210
 msgid "Programmer"
 msgstr "Ohjelmoija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:210
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:211
 msgid "Printmaker"
 msgstr "Kuvalaatan valmistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:211
-#, fuzzy
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:212
 msgid "Production company"
-msgstr "Tuotantopäällikkö"
+msgstr "Tuotantoyhtiö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:213
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:214
 msgid "Production place"
 msgstr "Tuotantopaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:214
-#, fuzzy
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:215
 msgid "Production designer"
-msgstr "Tuotantohenkilökunta"
+msgstr "Tuotantosuunnittelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:216
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:217
 msgid "Provider"
 msgstr "Tarjoaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:218
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:219
 #, fuzzy
 msgid "Plaintiff-appellee"
 msgstr "Kantaja valituksen vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:219
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:220
 msgid "Plaintiff"
 msgstr "Kantaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:220
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:221
 msgid "Patent holder"
 msgstr "Patentinhaltija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:221
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:222
 msgid "Plaintiff-appellant"
 msgstr "Kantaja valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:222
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:223
 msgid "Publication place"
 msgstr "Julkaisu-/kustannuspaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:223
-#, fuzzy
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:224
 msgid "Rapporteur"
-msgstr "Toimittaja"
+msgstr "Kokouksen raportoija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:225
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:226
 msgid "Recordist"
-msgstr ""
-
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:227
-#, fuzzy
-msgid "Addressee"
-msgstr "Osoitteen huomautukset"
+msgstr "Taltioija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:228
-#, fuzzy
-msgid "Radio director"
-msgstr "Kenttäjohtaja"
+msgid "Addressee"
+msgstr "Vastaanottaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:229
+msgid "Radio director"
+msgstr "Radio-ohjelman ohjaaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:230
 #, fuzzy
 msgid "Redaktor"
 msgstr "Toimittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:230
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:231
 msgid "Renderer"
 msgstr "Renderoija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:231
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:232
 msgid "Researcher"
 msgstr "Tutkija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:233
-#, fuzzy
-msgid "Radio producer"
-msgstr "Äänitetuottaja"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:234
+msgid "Radio producer"
+msgstr "Radiotuottaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:235
 msgid "Repository"
 msgstr "Säilytyspaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:235
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:236
 msgid "Reporter"
 msgstr "Toimittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:236
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:237
 msgid "Responsible party"
 msgstr "Vastaava toimittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:237
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:238
 msgid "Respondent-appellee"
 msgstr "Vastaaja valituksen vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:238
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:239
 msgid "Restager"
 msgstr "Uudelleenesittäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:239
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:240
 msgid "Respondent"
 msgstr "Respondentti"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:241
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:242
 msgid "Respondent-appellant"
 msgstr "Vastaaja valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:244
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:245
 #, fuzzy
 msgid "Remix artist"
 msgstr "Miimikko"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:249
-#, fuzzy
-msgid "Sound engineer"
-msgstr "Äänisuunnittelija"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:250
-#, fuzzy
-msgid "Stage director"
-msgstr "Kenttäjohtaja"
+msgid "Sound engineer"
+msgstr "Ääniteknikko"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:251
+msgid "Stage director"
+msgstr "Näyttämöohjaaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:252
 msgid "Sound designer"
 msgstr "Äänisuunnittelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:253
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:254
 msgid "Special effects provider"
-msgstr ""
+msgstr "Erikoistehosteiden tekijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:255
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:256
 msgid "Supporting host"
 msgstr "Tukija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:256
-#, fuzzy
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:257
 msgid "Seller"
-msgstr "Tarinankertoja"
+msgstr "Myyjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:258
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:259
 msgid "Speaker"
 msgstr "Puhuja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:260
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:261
 msgid "Second party"
 msgstr "Toinen osapuoli"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:261
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:262
 msgid "Surveyor"
 msgstr "Kartoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:262
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:263
 msgid "Set designer"
 msgstr "Lavastaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:263
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:264
 msgid "Setting"
 msgstr ""
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:264
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:265
 msgid "Storyteller"
 msgstr "Tarinankertoja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:265
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:266
 msgid "Stage manager"
 msgstr "Näyttämömestari"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:267
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:268
 msgid "Stereotyper"
 msgstr "Laakapainaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:268
-msgid "Software developer"
-msgstr ""
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:269
+msgid "Software developer"
+msgstr "Ohjelmistokehittäjä"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:270
 msgid "Television writer"
 msgstr ""
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:270
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:271
 msgid "Technical director"
 msgstr "Tekninen johtaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:271
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:272
 msgid "Teacher"
 msgstr "Opettaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:273
-#, fuzzy
-msgid "Television director"
-msgstr "Päätoimittaja"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:274
+msgid "Television director"
+msgstr "Televisio-ohjaaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:275
 msgid "Television guest"
 msgstr ""
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:275
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
 msgid "Television host"
 msgstr ""
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
-#, fuzzy
-msgid "Television producer"
-msgstr "Äänitetuottaja"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:277
+msgid "Television producer"
+msgstr "Televisiotuottaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:278
 msgid "Transcriber"
 msgstr "Transkriboija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:281
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:282
 msgid "University place"
 msgstr "Yliopiston kotipaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:282
-#, fuzzy
-msgid "Voice actor"
-msgstr "Toimittaja"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:283
+msgid "Voice actor"
+msgstr "Ääninäyttelijä"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:284
 msgid "Videographer"
 msgstr "Kuvaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:284
-msgid "Visual effects provider"
-msgstr ""
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:285
-msgid "Writer of added commentary"
-msgstr ""
+msgid "Visual effects provider"
+msgstr "Visuaalisten tehosteiden tekijä"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:286
-#, fuzzy
-msgid "Writer of added lyrics"
-msgstr "Laattojen painaja"
+msgid "Writer of added commentary"
+msgstr "Kommentaarin kirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:288
-#, fuzzy
-msgid "Writer of added text"
-msgstr "Laattojen painaja"
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:287
+msgid "Writer of added lyrics"
+msgstr "Lisätyn sanoituksen kirjoittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:289
+msgid "Writer of added text"
+msgstr "Lisätyn tekstin kirjoittaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:290
 msgid "Woodcutter"
 msgstr "Puupiirtäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:290
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
 #, fuzzy
 msgid "Wood engraver"
 msgstr "Puupiirtäjä (ksylografia)"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
-#, fuzzy
-msgid "Writer of introduction"
-msgstr "Esipuheen tekijä"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:292
+msgid "Writer of introduction"
+msgstr "Johdannon kirjoittaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
 msgid "Witness"
 msgstr "Todistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
 #, fuzzy
 msgid "Writer of preface"
 msgstr "Laattojen painaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:295
 msgid "Writer of supplementary textual content"
-msgstr ""
+msgstr "Ohiestekstin kirjoittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:description:1
 msgid "MARC code list for relators, as of http://www.loc.gov/marc/relators/relaterm.html"
@@ -7721,6 +7671,14 @@ msgstr "Kuvailutietojen virheiden ohjeteksti"
 msgid "Catalog concern template text"
 msgstr "Kuvailutietojen virheiden tekstipohja"
 
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:5
+msgid "Cookie policy bar"
+msgstr "Evästepalkki"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6
+msgid "Cookie information"
+msgstr "Evästetiedot"
+
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:1:mul:1
 msgid "Welcome to Koha. Koha is a full-featured open-source ILS. Developed initially in New Zealand by Katipo Communications Ltd and first deployed in January of 2000 for Horowhenua Library Trust, Koha is currently maintained by a team of software providers and library technology staff from around the globe."
 msgstr "Tervetuloa Kohaan. Koha on monipuolinen avoimen lähdekoodin kirjastojärjestelmä, jonka Katipo Communications Ltd on kehittänyt alun perin Uudessa-Seelannissa. Kohan otti ensimmäisen kerran käyttöön Horowhenua Library Trust tammikuussa 2000. Tällä hetkellä Kohaa ylläpitää tiimi ohjelmistojen tarjoajia ja kirjastojen tekniikkahenkilökuntaa ympäri maailmaa."
@@ -7796,6 +7754,162 @@ msgstr "**Odotettu toiminta**"
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:4:mul:12
 msgid "A clear and concise description of what you expected to happen."
 msgstr "Selkeä ja kompakti kuvaus, mitä pitäisi tapahtua."
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:5:mul:1
+msgid "%sThe online catalog uses functional cookies: these are essential to make the site work.%s"
+msgstr "%sVerkkokirjasto käyttää toiminnallisia evästeitä: Nämä ovat välttämättömiä sivuston toiminnallisuuden kannalta.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:1
+msgid "%sWhat are cookies?%s"
+msgstr "%sMitä evästeet ovat?%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:2
+msgid "%sCookies are small text files placed on your browser by websites. They help make websites work, or work more efficiently. They also \"remember\" some of your preferences, so you don't have to set a preference again every time you switch to a different page on the same website.%s"
+msgstr "%sEvästeet ovat pieniä tekstitiedostoja, joita verkkosivut tallentavat verkkoselaimeesi. Evästeet auttavat verkkosivuja toimimaan ja tehostamaan toimivuutta. Ne myös \"muistava\" joitakin asetuksiasi, jotta sinun ei tarvitse asettaa asetuksia joka kerta uudelleen kun siirryt eri näkymään samalla verkkosivulla.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:3
+msgid "%sIf cookies are a concern for you, you may like to regularly clear your cookies on your browser or use a private browser mode. Check your browser settings for these options.%s"
+msgstr "%sJos evästeet aiheuttavat huolta, suosittelemme tyhjentämään evästeet säännöllisesti verkkoselaimestasi, tai käyttämään yksityistä selaustilaa. Mikäli haluat vaikuttaa evästeisiin, tarkista selaimesi asetukset.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:4
+msgid "%sEssential cookies%s"
+msgstr "%sVälttämättömät evästeet%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:5
+msgid "%sHere is the list of essential cookies used on the Koha online catalog.%s"
+msgstr "%sTässä on lista välttämättömistä evästeistä, joita verkkokirjasto käyttää.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:6
+msgid "%sSome of these depend on settings chosen by the library team; therefore all the cookies listed may not apply to this site.%s"
+msgstr "%sJotkut evästeistä riippuvat kirjaston henkilökunnan määrittelemistä asetuksista. Tällöin kaikki listatut evästeet eivät ehkä ole käytössä tällä sivustolla.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:10
+msgid "      %sStorage%s"
+msgstr "      %sTallennuspaikka%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:11
+msgid "      %sName%s"
+msgstr "      %sNimi%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:12
+msgid "      %sValue%s"
+msgstr "      %sArvo%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:13
+msgid "      %sExpiration%s"
+msgstr "      %sVanhentuminen%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:14
+msgid "      %sDescription%s"
+msgstr "      %sKuvaus%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:19
+msgid "      %sCookie%s"
+msgstr "      %sEväste%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:20
+msgid "      %sCGISESSID%s"
+msgstr "      %sCGISESSID%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:21
+msgid "      %sSession ID%s"
+msgstr "      %sIstunnon tunniste%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:22
+msgid "      %sUntil logout or end of session%s"
+msgstr "      %sUloskirjautumisen tai istunnon päättymisen yhteydessä%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:23
+msgid "      %sSession cookie%s"
+msgstr "      %sIstuntoeväste%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:27
+msgid "      %sKohaOpacLanguage%s"
+msgstr "      %sKohaOpacLanguage%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:28
+msgid "      %sLanguage code%s"
+msgstr "      %sKielikoodi%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:29
+msgid "      %s3 years%s"
+msgstr "      %s3 vuotta%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:30
+msgid "      %sStores the language the user selected, so the online catalog will appear in that same language the next time it is visited.%s"
+msgstr "      %sTallentaa valitun kieliasetuksen, jotta verkkokirjasto näkyy valitulla kielellä joka kerta kun käyttäjä vierailee verkkokirjastossa.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:35
+msgid "        %sform_serialized%s"
+msgstr "        %sform_serialized%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:36
+msgid "        %sform_serialized_limits%s"
+msgstr "        %sform_serialized_limits%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:38
+msgid "      %sSearch terms and limits%s"
+msgstr "      %sHakutermit ja rajoitukset%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:39
+msgid "      %sEnd of session or when the advanced search page is accessed again.%s"
+msgstr "      %sIstunnon päättyessä tai kun käyttäjä vierailee tarkennettu haku -sivulla.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:40
+msgid "      %sjQuery cookie. Stores search terms and limits of the last advanced search. Set when an advanced search is submitted.%s"
+msgstr "      %sjQuery eväste. Tallentaa tarkennetun haun hakutermit ja rajoitukset. Asetetaan kun tarkennettu haku tehdään.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:44
+msgid "      %ssearch_path_code%s"
+msgstr "      %ssearch_path_code%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:45
+msgid "      %sads (fewer) or exs (more)%s"
+msgstr "      %sads (vähemmän) tai exs (enemmän)%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:47
+msgid "      %sjQuery cookie. Related to serialized_form* cookies. Stores if the advanced search form was used with 'More options' or 'Fewer options'.%s"
+msgstr "      %sjQuery eväste. Liittyy serialized_form* evästeeseen. Tallentaa tiedon siitä, käytettiinkö tarkennettua hakua vaihtoehdoilla \"enemmän\"- vai \"vähemmän\" valintoja.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:51
+msgid "      %snum_paragraph%s"
+msgstr "      %snum_paragraph%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:52
+msgid "      %sCount of search options added%s"
+msgstr "      %sValittujen hakuvalintojen lukumäärä%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:54
+msgid "      %sjQuery cookie. Used to store the number of created options when user selects 'More options' in advanced search to increase search boxes.%s"
+msgstr "      %sjQuery eväste. Käytetään tallentamaan tieto luotujen valintojen lukumäärästä, kun käyttäjä valitsee enemmän hakuehtoja tarkennettu haku -näkymässä.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:58
+msgid "      %sbib_list%s"
+msgstr "      %sbib_list%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:59
+msgid "      %sList of record IDs (biblionumbers) separated by /%s"
+msgstr "      %sLista tietueiden tunnisteista (biblionumeroista) erottelumerkillä /%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:60
+msgid "      %sEnd of session or until the cart is emptied.%s"
+msgstr "      %sIstunnon päättyessä tai kun kori tyhjennetään.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:61
+msgid "      %sStores cart contents in the online catalog. Set when records are added to the cart for the first time.%s"
+msgstr "      %sTallentaa korin sisällön verkkokirjastossa. Asetetaan kun teoksia lisätään koriin ensimmäistä kertaa.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:65
+msgid "%sNon-essential cookies%s"
+msgstr "%sValinnaiset evästeet%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:66
+msgid "%sThe library team may create additional cookies. These are optional and will require your agreement before they are used.%s"
+msgstr "%sKirjaston henkilökunta saattaa luoda ylimääräisiä evästeitä. Nämä evästeet ovat valinnaisia ja vaatii sinun hyväksynnän ennen kuin niitä käytetään.%s"
+
+#: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:67
+msgid "%sIf any non-essential cookies are created, they will appear below.%s"
+msgstr "%sJos valinnaisia evästeitä on luotu, näkyvät ne alla.%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:description:1
 msgid "Sample news items"

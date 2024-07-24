@@ -1,18 +1,18 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.11.04.000\n"
+"Project-Id-Version: Koha 24.05.01.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-06-20 12:00+0300\n"
-"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
+"PO-Revision-Date: 2024-07-23 04:05+0000\n"
+"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: fi_FI\n"
+"Language: fi-FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-POOTLE-MTIME: 1698392361.707486\n"
@@ -193,6 +193,14 @@ msgstr "Asetukset"
 msgid "acquisitions.pref Printing"
 msgstr "Tulostus"
 
+# Acquisitions > Printing > 1PageOrderPDFText
+msgid "acquisitions.pref#1PageOrderPDFText# <br><strong>NOTE:</strong> To prevent the bottom of your text from being cut off by the order table please do not save more than 3 lines of text in this system preference.</span>"
+msgstr "<br><strong>Huomioi:</strong> Jotta tekstin alareuna ei leikkaudu pois tilaustaululla, älä lisää tähän asetukseen enempää kuin kolme riviä tekstiä.</span>"
+
+# Acquisitions > Printing > 1PageOrderPDFText
+msgid "acquisitions.pref#1PageOrderPDFText# Text to be used above the order table in the English 1-page order PDF file. Note: Press enter to add line breaks to your sentence."
+msgstr "Teksti, joka lisätään tilaustauluun englantilaisessa yhden sivun PDF-muotoisessa tilaustiedostossa. Huomioi: Käytä enteriä lisätäksesi rivinvaihtoja lauseisiin."
+
 # Acquisitions > Policy > AcqCreateItem
 # Acquisitions > Policy
 msgid "acquisitions.pref#AcqCreateItem# Create an item when"
@@ -280,16 +288,16 @@ msgstr "jos virkailija yrittää luoda laskua samalle numerolle."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Circulation > Checkin policy > StoreLastBorrower
-msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston osoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgid "acquisitions.pref#AcquisitionsDefaultEmailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "<br>Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston osoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > AcquisitionsDefaultEMailAddress
-msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# Use the from email address"
+msgid "acquisitions.pref#AcquisitionsDefaultEmailAddress# Use the from email address"
 msgstr "Käytä lähettäjäosoitteena"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# when sending acquisitions order and claim notices."
+msgid "acquisitions.pref#AcquisitionsDefaultEmailAddress# when sending acquisitions order and claim notices."
 msgstr "kun lähetetään tilaus- ja reklamointiviestejä."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
@@ -463,23 +471,27 @@ msgstr "ei mitään"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcFieldsToOrder# <br/>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a"
-msgstr "<br/>Esimerkiksi:<br/>hinta: 947$a|947$c<br/>määrä: 969$h<br/>tilikoodi: 922$a"
+msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
+msgstr "<p>Esimerkiksi:<br/>hinta: 947$a|947$c<br/>määrä: 969$h<br/>tilikoodi: 922$a</p>"
+
+# Acquisitions > Policy > MarcFieldsToOrder
+# Acquisitions > Policy
+msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
+msgstr "<p>Voit käyttää seuraavia kenttiä: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcFieldsToOrder# Set the mapping values for a new order line created from a MARC record in a staged file."
 msgstr "Aseta vertailuarvot uudelle tilausriville, joka on luotu välivarastoidusta MARC-tietueesta."
 
-# Acquisitions > Policy > MarcFieldsToOrder
-# Acquisitions > Policy
-msgid "acquisitions.pref#MarcFieldsToOrder# You can use the following fields: price, quantity, budget_code, discount, sort1, sort2"
-msgstr "Voit käyttää seuraavia kenttiä: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <br/>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
 msgstr "<br/>Esimerkiksi:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
+
+# Acquisitions > Policy > MarcItemFieldsToOrder
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
+msgstr "<p>Jos kenttä puuttuu tai sitä ei ole mäpätty, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> tarkistetaan ja käytetään sille kentälle (paitsi määrä).</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -488,8 +500,8 @@ msgstr "Määrittele arvojen vastaavuudet uusille nidetietueille, jotka luodaan 
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code"
-msgstr "Voit käyttää seuraavia kenttiä: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice ja itemcallnumber. Erityiskentät: quantity and budget_code"
+msgid "acquisitions.pref#MarcItemFieldsToOrder# You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice, itemcallnumber, coded_location_qualifier, barcode, and enumchron. Special fields: quantity and budget_code"
+msgstr "Voit käyttää seuraavia kenttiä: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice, itemcallnumber, coded_location_qualifier, barcode ja enumchron. Erityiskentät: quantity and budget_code"
 
 # Acquisitions > Printing > OrderPdfFormat
 # Acquisitions > Printing
@@ -546,6 +558,20 @@ msgstr "Pyöristä"
 msgid "acquisitions.pref#OrderPriceRounding# to nearest cent.<br>"
 msgstr "lähimpään senttiin.<br>"
 
+# Acquisitions > Policy > EmailPurchaseSuggestions
+# Acquisitions > Policy
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# Do"
+msgstr "Tee varaus"
+
+# Acquisitions > Policy > EmailPurchaseSuggestions
+# Acquisitions > Policy
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# Don't"
+msgstr "Älä tee varausta"
+
+# Acquisitions > Policy > CancelOrdersInClosedBaskets
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# place a hold when ordering from a suggestion."
+msgstr "kun tilaus tehdään hankintaehdotuksen pohjalta."
+
 # Acquisitions > Policy > PurgeSuggestionsOlderThan
 # Acquisitions > Policy
 msgid "acquisitions.pref#PurgeSuggestionsOlderThan# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/purge_suggestions.pl</code> cronjob. Ask your system administrator to schedule it."
@@ -565,35 +591,6 @@ msgstr "Säilytä hyväksytyt tai hylätyt hankintaehdotukset"
 # Acquisitions > Policy
 msgid "acquisitions.pref#PurgeSuggestionsOlderThan# days. Example: [30] Sets purgation of suggestions for those older than 30 days."
 msgstr "päivän ajan. Esimerkki: [30] Tyhjentää hankintaehdotukset, jotka tehtiin yli 30 päivää sitten."
-
-# Administration > Interface options > AddressForFailedOverdueNotices
-# Circulation > Checkin policy > StoreLastBorrower
-msgid "acquisitions.pref#SerialsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-
-# Administration > Interface options > ReplytoDefault
-# Administration > Interface options
-msgid "acquisitions.pref#SerialsDefaultEMailAddress# Use the from email address"
-msgstr "Käytä lähettäjäosoitteena"
-
-# Acquisitions > Policy > ClaimsBccCopy
-# Acquisitions > Policy
-msgid "acquisitions.pref#SerialsDefaultEMailAddress# when sending serial claim notices."
-msgstr "kun lähetetään reklamaatioita kausijulkaisuista."
-
-# Administration > Interface options > AddressForFailedOverdueNotices
-# Circulation > Checkin policy > StoreLastBorrower
-msgid "acquisitions.pref#SerialsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston vastausosoite, kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-
-# Acquisitions > Policy > SerialsDefaultReplyTo
-msgid "acquisitions.pref#SerialsDefaultReplyTo# Use the reply-to email address"
-msgstr "Käytä vastaussähköpostina"
-
-# Acquisitions > Policy > ClaimsBccCopy
-# Acquisitions > Policy
-msgid "acquisitions.pref#SerialsDefaultReplyTo# when sending serial claim notices."
-msgstr "kun lähetetään reklamaatioita kausijulkaisuista."
 
 # Acquisitions > Policy > TaxRates
 # Acquisitions > Policy
@@ -702,26 +699,6 @@ msgstr "Ei mitään"
 # Administration > SSL client certificate authentication
 msgid "admin.pref#AllowPKIAuth# emailAddress"
 msgstr "Sähköpostiosoite (emailAddress)"
-
-# Administration > Login options > AutoLocation
-# Administration > Login options
-msgid "admin.pref#AutoLocation# <a href=\"/cgi-bin/koha/admin/branches.pl\">Link to library administration</a>"
-msgstr "<a href=\"/cgi-bin/koha/admin/branches.pl\">Linkki kirjastojen ylläpitoon</a>"
-
-# Administration > Login options > AutoLocation
-# Administration > Login options
-msgid "admin.pref#AutoLocation# No"
-msgstr "Ei"
-
-# Administration > Login options > AutoLocation
-# Administration > Login options
-msgid "admin.pref#AutoLocation# Require staff to log in from a computer in the IP address range specified by their library (if any): "
-msgstr "Vaadi henkilökuntaa kirjautumaan sellaiselta tietokoneelta, joka on kirjastolle määritellyssä IP-avaruudessa (jos on määritelty). "
-
-# Administration > Login options > AutoLocation
-# Administration > Login options
-msgid "admin.pref#AutoLocation# Yes"
-msgstr "Kyllä"
 
 # Administration > Interface options > CSVDelimiter
 # Administration > Interface options
@@ -1106,6 +1083,52 @@ msgstr "Kirjautuneiden istuntojen tiedot tallennetaan: "
 msgid "admin.pref#SessionStorage# Temporary files"
 msgstr "Väliaikaistiedostoon"
 
+# Administration > Login options > AutoLocation
+# Administration > Login options
+msgid "admin.pref#StaffLoginLibraryBasedOnIP# No"
+msgstr "Ei"
+
+# Administration > Login options > StaffLoginLibraryBasedOnIP
+msgid "admin.pref#StaffLoginLibraryBasedOnIP# Note: If IPs overlap, the first found match will be used."
+msgstr "Huomioi: Jos IP-osoitteet ovat osittain päällekäisiä, käytetään ensimmäistä vastaavaa."
+
+# Administration > Login options > StaffLoginLibraryBasedOnIP
+msgid "admin.pref#StaffLoginLibraryBasedOnIP# Set logged in library for staff by matching their current IP to the library configuration: "
+msgstr "Aseta henkilökunnan kirjautumiskirjasto automaattisesti, jos heidän nykyinen IP-osoitteensa vastaa kirjaston asetuksia: "
+
+# OPAC > Suggestions > AnonSuggestions
+# OPAC > Privacy
+msgid "admin.pref#StaffLoginLibraryBasedOnIP# This setting will be overridden by <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=StaffLoginRestrictLibraryByIP\">StaffLoginRestrictLibraryByIP</a> system preference. In the event of multiple libraries with matching IPs, branchcode (alphabetically) will be the tie breaker."
+msgstr "Tämä asetus ohitetaan <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=StaffLoginRestrictLibraryByIP\">StaffLoginRestrictLibraryByIP</a> -järjestelmäasetuksella. Jos useammalla kirjastoyksiköllä on sama IP-osoite, käytetään aakkosissa ensimmäistä kirjastoyksikköä."
+
+# Administration > Login options > AutoLocation
+# Administration > Login options
+msgid "admin.pref#StaffLoginLibraryBasedOnIP# Yes"
+msgstr "Kyllä"
+
+# Administration > Login options > AutoLocation
+# Administration > Login options
+msgid "admin.pref#StaffLoginRestrictLibraryByIP# <a href=\"/cgi-bin/koha/admin/branches.pl\">Link to library administration</a>"
+msgstr "<a href=\"/cgi-bin/koha/admin/branches.pl\">Linkki kirjastojen ylläpitoon</a>"
+
+# Administration > Login options > StaffLoginRestrictLibraryByIP
+msgid "admin.pref#StaffLoginRestrictLibraryByIP# Limit the libraries staff can select at login to those where their computer's IP address is within the library's specified range or to libraries without an IP restriction: "
+msgstr "Rajoita kirjautumisessa Kirjasto-valikon sisältö käyttäjän tietokoneen IP-osoitteen perusteella. Rajoita kirjastoihin, jotka ovat kirjastojen ylläpidossa kirjastolle määritetyn IP-osoiteavaruuden sisällä ja kirjastoihin, joilla ei ole IP-osoiterajoitusta: "
+
+# Administration > Login options > SessionRestrictionByIP
+# Administration > Login options
+msgid "admin.pref#StaffLoginRestrictLibraryByIP# No"
+msgstr "Ei"
+
+# Circulation > Checkout policy > HoldsInNoissuesCharge
+msgid "admin.pref#StaffLoginRestrictLibraryByIP# Staff can only choose their library at login if they have the \"loggedinlibrary\" permission. This setting will override the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=StaffLoginLibraryBasedOnIP\">StaffLoginLibraryBasedOnIP</a> system preference. In the event of multiple libraries with matching IPs, branchcode (alphabetically) will be the tie breaker."
+msgstr "Käyttäjät voivat valita kirjautumiskirjastonsa vain, jos heillä on \"loggedinlibrary\"-käyttäjäoikeus. Tämä asetus ohittaa <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=StaffLoginLibraryBasedOnIP\">StaffLoginLibraryBasedOnIP</a> -järjestelmäasetuksen. Jos useammalla kirjastoyksiköllä on sama IP-osoite, käytetään aakkosissa ensimmäistä kirjastoyksikköä."
+
+# Administration > Login options > SessionRestrictionByIP
+# Administration > Login options
+msgid "admin.pref#StaffLoginRestrictLibraryByIP# Yes"
+msgstr "Kyllä"
+
 # Administration > Share anonymous usage statistics > UsageStats
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStats# ."
@@ -1152,11 +1175,6 @@ msgstr "Kyllä"
 
 # Administration > Share anonymous usage statistics > UsageStatsCountry
 # Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# "
-msgstr "  "
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsCountry# . This will be shown on the <a href=\"https://hea.koha-community.org\">Hea Koha community website</a>."
 msgstr "Tämä näkyy osoitteessa <a href=\"https://hea.koha-community.org\">Hea Koha community website</a>."
 
@@ -1167,978 +1185,8 @@ msgstr "<br><strong>HUOM:</strong> Arvolla ei ole vaikutusta, jos <a href=\"/cgi
 
 # Administration > Share anonymous usage statistics > UsageStatsCountry
 # Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Afghanistan"
-msgstr "Afganistan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Albania"
-msgstr "Albania"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Algeria"
-msgstr "Algeria"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Andorra"
-msgstr "Andorra"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Angola"
-msgstr "Angola"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Antigua & Deps"
-msgstr "Antigua ja Barbuda"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Argentina"
-msgstr "Argentiina"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Armenia"
-msgstr "Armenia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Australia"
-msgstr "Australia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Austria"
-msgstr "Itävalta"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Azerbaijan"
-msgstr "Azerbaidžan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Bahamas"
-msgstr "Bahama"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Bahrain"
-msgstr "Bahrain"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Bangladesh"
-msgstr "Bangladesh"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Barbados"
-msgstr "Barbados"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Belarus"
-msgstr "Valko-Venäjä"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Belgium"
-msgstr "Belgia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Belize"
-msgstr "Belize"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Benin"
-msgstr "Benin"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Bhutan"
-msgstr "Bhutan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Bolivia"
-msgstr "Bolivia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Bosnia Herz."
-msgstr "Bosnia ja Hertsegovina"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Botswana"
-msgstr "Botswana"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Brazil"
-msgstr "Brasilia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Brunei"
-msgstr "Brunei"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Bulgaria"
-msgstr "Bulgaria"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Burkina"
-msgstr "Burkina Faso"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Burundi"
-msgstr "Burundi"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Cambodia"
-msgstr "Kambodža"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Cameroon"
-msgstr "Kamerun"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Canada"
-msgstr "Kanada"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Cape Verde"
-msgstr "Kap Verde"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Centr. Afr. Rep"
-msgstr "Keski-Afrikan tasavalta"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Chad"
-msgstr "Tšad"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Chile"
-msgstr "Chile"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# China"
-msgstr "Kiina"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Colombia"
-msgstr "Kolumbia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Comoros"
-msgstr "Komorit"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Congo"
-msgstr "Kongon tasavalta"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Costa Rica"
-msgstr "Costa Rica"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Croatia"
-msgstr "Kroatia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Cuba"
-msgstr "Kuuba"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Cyprus"
-msgstr "Kypros"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Czech Republic"
-msgstr "Tšekki"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Denmark"
-msgstr "Tanska"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Djibouti"
-msgstr "Djibouti"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Dominica"
-msgstr "Dominica"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Dominican Rep."
-msgstr "Dominikaaninen tasavalta"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# East Timor"
-msgstr "Itä-Timor"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Ecuador"
-msgstr "Ecuador"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Egypt"
-msgstr "Egypti"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# El Salvador"
-msgstr "El Salvador"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Equator. Guinea"
-msgstr "Päiväntasaajan Guinea"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Eritrea"
-msgstr "Eritrea"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Estonia"
-msgstr "Viro"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Ethiopia"
-msgstr "Etiopia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Fiji"
-msgstr "Fidži"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Finland"
-msgstr "Suomi"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# France"
-msgstr "Ranska"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Gabon"
-msgstr "Gabon"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Gambia"
-msgstr "Gambia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Georgia"
-msgstr "Georgia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Germany"
-msgstr "Saksa"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Ghana"
-msgstr "Ghana"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Greece"
-msgstr "Kreikka"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Grenada"
-msgstr "Grenada"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Guatemala"
-msgstr "Guatemala"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Guinea"
-msgstr "Guinea"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Guinea-Bissau"
-msgstr "Guinea-Bissau"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Guyana"
-msgstr "Guyana"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Haiti"
-msgstr "Haiti"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Honduras"
-msgstr "Honduras"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Hungary"
-msgstr "Unkari"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Iceland"
-msgstr "Islanti"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# India"
-msgstr "Intia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Indonesia"
-msgstr "Indonesia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Iran"
-msgstr "Iran"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Iraq"
-msgstr "Irak"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Ireland"
-msgstr "Irlanti"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Israel"
-msgstr "Israel"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Italy"
-msgstr "Italia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Ivory Coast"
-msgstr "Norsunluurannikko"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Jamaica"
-msgstr "Jamaika"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Japan"
-msgstr "Japani"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Jordan"
-msgstr "Jordania"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Kazakhstan"
-msgstr "Kazakstan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Kenya"
-msgstr "Kenia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Kiribati"
-msgstr "Kiribati"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Korea North"
-msgstr "Pohjois-Korea"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Korea South"
-msgstr "Etelä-Korea"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Kosovo"
-msgstr "Kosovo"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Kuwait"
-msgstr "Kuwait"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Kyrgyzstan"
-msgstr "Kirgisia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Laos"
-msgstr "Laos"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Latvia"
-msgstr "Latvia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Lebanon"
-msgstr "Libanon"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Lesotho"
-msgstr "Lesotho"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Liberia"
-msgstr "Liberia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Libya"
-msgstr "Libya"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Liechtenstein"
-msgstr "Liechtenstein"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Lithuania"
-msgstr "Liettua"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Luxembourg"
-msgstr "Luxemburg"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Macedonia"
-msgstr "Makedonia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Madagascar"
-msgstr "Madagaskar"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Malawi"
-msgstr "Malawi"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Malaysia"
-msgstr "Malesia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Maldives"
-msgstr "Malediivit"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Mali"
-msgstr "Mali"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Malta"
-msgstr "Malta"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Marshall Isl."
-msgstr "Marshallinsaaret"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Mauritania"
-msgstr "Mauritania"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Mauritius"
-msgstr "Mauritius"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Mexico"
-msgstr "Meksiko"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Micronesia"
-msgstr "Mikronesia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Moldova"
-msgstr "Moldova"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Monaco"
-msgstr "Monaco"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Mongolia"
-msgstr "Mongolia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Montenegro"
-msgstr "Montenegro"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Morocco"
-msgstr "Marokko"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Mozambique"
-msgstr "Mosambik"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Myanmar"
-msgstr "Myanmar"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Namibia"
-msgstr "Namibia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Nauru"
-msgstr "Nauru"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Nepal"
-msgstr "Nepal"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Netherlands"
-msgstr "Alankomaat"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# New Zealand"
-msgstr "Uusi-Seelanti"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Nicaragua"
-msgstr "Nicaragua"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Niger"
-msgstr "Niger"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Nigeria"
-msgstr "Nigeria"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Norway"
-msgstr "Norja"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Oman"
-msgstr "Oman"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Pakistan"
-msgstr "Pakistan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Palau"
-msgstr "Palau"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Panama"
-msgstr "Panama"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Papua N. Guinea"
-msgstr "Papua-Uusi-Guinea"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Paraguay"
-msgstr "Paraguay"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Peru"
-msgstr "Peru"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Philippines"
-msgstr "Filippiinit"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Poland"
-msgstr "Puola"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Portugal"
-msgstr "Portugali"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Qatar"
-msgstr "Qatar"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Romania"
-msgstr "Romania"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Russian Fed."
-msgstr "Venäjä"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Rwanda"
-msgstr "Ruanda"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Saint Vincent"
-msgstr "Saint Vincent ja Grenadiinit"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Samoa"
-msgstr "Samoa"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# San Marino"
-msgstr "San Marino"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Sao Tome"
-msgstr "São Tomé ja Príncipe"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Saudi Arabia"
-msgstr "Saudi-Arabia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Senegal"
-msgstr "Senegal"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Serbia"
-msgstr "Serbia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Seychelles"
-msgstr "Seychellit"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Sierra Leone"
-msgstr "Sierra Leone"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Singapore"
-msgstr "Singapore"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Slovakia"
-msgstr "Slovakia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Slovenia"
-msgstr "Slovenia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Solomon Islands"
-msgstr "Salomonsaaret"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Somalia"
-msgstr "Somalia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# South Africa"
-msgstr "Etelä-Afrikka"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Spain"
-msgstr "Espanja"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Sri Lanka"
-msgstr "Sri Lanka"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# St Kitts & Nev."
-msgstr "Saint Kitts ja Nevis"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# St Lucia"
-msgstr "Saint Lucia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Sudan"
-msgstr "Sudan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Suriname"
-msgstr "Suriname"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Swaziland"
-msgstr "Swazimaa"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Sweden"
-msgstr "Ruotsi"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Switzerland"
-msgstr "Sveitsi"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Syria"
-msgstr "Syyria"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Taiwan"
-msgstr "Taiwan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Tajikistan"
-msgstr "Tadžikistan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Tanzania"
-msgstr "Tansania"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Thailand"
-msgstr "Thaimaa"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsCountry# The country where your library is located to be shown on the Hea Community website: "
 msgstr "Maa, jossa kirjastosi sijaitee näytettäväksi Hea Communityn verkkosivuilla: "
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Togo"
-msgstr "Togo"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Tonga"
-msgstr "Tonga"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Trinidad & Tob."
-msgstr "Trinidad ja Tobago"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Tunisia"
-msgstr "Tunisia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Turkey"
-msgstr "Turkki"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Turkmenistan"
-msgstr "Turkmenistan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Tuvalu"
-msgstr "Tuvalu"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# UAE"
-msgstr "Yhdistyneet arabiemiirikunnat"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# USA"
-msgstr "Yhdysvallat"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Uganda"
-msgstr "Uganda"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Ukraine"
-msgstr "Ukraina"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# United Kingdom"
-msgstr "Yhdistynyt kuningaskunta"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Uruguay"
-msgstr "Uruguay"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Uzbekistan"
-msgstr "Uzbekistan"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Vanuatu"
-msgstr "Vanuatu"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Vatican City"
-msgstr "Vatikaanivaltio"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Venezuela"
-msgstr "Venezuela"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Vietnam"
-msgstr "Vietnam"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Yemen"
-msgstr "Jemen"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Zambia"
-msgstr "Sambia"
-
-# Administration > Share anonymous usage statistics > UsageStatsCountry
-# Administration > Share anonymous usage statistics
-msgid "admin.pref#UsageStatsCountry# Zimbabwe"
-msgstr "Zimbabwe"
 
 # Administration > Share anonymous usage statistics > UsageStatsGeolocation
 # Circulation > Checkin policy > CalculateFinesOnReturn
@@ -2193,7 +1241,7 @@ msgstr "Käytä seuraavaa nimeä kirjastollesi Hea Communityn verkkosivuilla: "
 # Administration > Share anonymous usage statistics > UsageStatsLibraryType
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsLibraryType# "
-msgstr "  "
+msgstr " "
 
 # Administration > Share anonymous usage statistics > UsageStatsLibraryType
 # Circulation > Checkin policy > CalculateFinesOnReturn
@@ -2341,8 +1389,8 @@ msgstr "Kirjaa passiiviset käyttäjät automaattisesti ulos näin monen sekunni
 
 # Administration > Interface options > virtualshelves
 # Administration > Interface options
-msgid "admin.pref#virtualshelves# Allow staff and patrons to create and view saved lists of books: "
-msgstr "Salli henkilökunnan ja asiakkaiden luoda ja katsella tallennettuja listoja: "
+msgid "admin.pref#virtualshelves# Allow staff and patrons to create and view saved lists of bibliographic records: "
+msgstr "Salli henkilökunnan ja asiakkaiden luoda ja katsella tallennettuja nimekelistoja: "
 
 # Administration > Interface options > virtualshelves
 # Administration > Interface options
@@ -2835,16 +1883,6 @@ msgstr "(vain non-XSLT näkymä)."
 msgid "cataloguing.pref#AuthoritySeparator# Separate main entry and subdivisions with "
 msgstr "Erota päänäkymä ja alemmat kohteet merkillä "
 
-# Cataloging > Record structure > autoBarcode
-# Cataloging > Record structure
-msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
-msgstr "Määrittele kirjastokohtaiset viivakoodin prefiksit:"
-
-# Cataloging > Record structure > autoBarcode
-# Cataloging > Record structure
-msgid "cataloguing.pref#BarcodePrefix# This is a YAML config."
-msgstr "Tämä on YAML-määritys."
-
 # Cataloging > Exporting > BibtexExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#BibtexExportAdditionalFields# <br/>"
@@ -3275,50 +2313,6 @@ msgstr "uuden niteen tietoja ei esitäytetä edellisen luodun niteen tiedoilla."
 msgid "cataloguing.pref#PrefillItem# the new item is prefilled with last created item values."
 msgstr "uuden niteen tiedot esitäytetään edellisen luodun niteen tiedoilla."
 
-# Cataloging > Display > MergeReportFields
-# Cataloging > Display
-msgid "cataloguing.pref#PrepareHostField# 001: 773$w<br/>"
-msgstr "001: 773$w<br/>"
-
-# Cataloging > Display > MergeReportFields
-# Cataloging > Display
-msgid "cataloguing.pref#PrepareHostField# 020$a: 773$z<br/>"
-msgstr "020$a: 773$z<br/>"
-
-# Cataloging > Display > MergeReportFields
-# Cataloging > Display
-msgid "cataloguing.pref#PrepareHostField# 022$a: 773$x<br/>"
-msgstr "022$a: 773$x<br/>"
-
-# Cataloging > Display > MergeReportFields
-# Cataloging > Display
-msgid "cataloguing.pref#PrepareHostField# 028$ba: 773$o<br/>"
-msgstr "028$ba: 773$o<br/>"
-
-# Cataloging > Display > MergeReportFields
-# Cataloging > Display
-msgid "cataloguing.pref#PrepareHostField# 245$abnpc: 773$t<br/>"
-msgstr "245$abnpc: 773$t<br/>"
-
-# Cataloging > Display > MergeReportFields
-# Cataloging > Display
-msgid "cataloguing.pref#PrepareHostField# 264$abc: 773$d<br/>"
-msgstr "264$abc: 773$d<br/>"
-
-# Cataloging > Record structure > AlternateHoldingsField
-# Cataloging > Record structure
-msgid "cataloguing.pref#PrepareHostField# 300$ae: 773$h"
-msgstr "773$h"
-
-# Cataloging > Display > PrepareHostField
-msgid "cataloguing.pref#PrepareHostField# Define rules for copying host data to component parts.<br/>"
-msgstr "Määrittele säännöt, joiden mukaan kopioidaan tietoja emotietueesta osakohteeseen.<br/>"
-
-# Cataloging > Display > MergeReportFields
-# Cataloging > Display
-msgid "cataloguing.pref#PrepareHostField# Example:<br/>"
-msgstr "Esimerkki:<br/>"
-
 # Cataloging > Exporting > RisExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#RisExportAdditionalFields# <br/>"
@@ -3695,11 +2689,6 @@ msgstr "muotoa <year>-0001, <year>-0002."
 
 # Cataloging > Record structure > autoBarcode
 # Cataloging > Record structure
-msgid "cataloguing.pref#autoBarcode# generated in the from <prefix>yyyymm0001."
-msgstr "muotoa <prefix>yyyymm0001."
-
-# Cataloging > Record structure > autoBarcode
-# Cataloging > Record structure
 msgid "cataloguing.pref#autoBarcode# incremental EAN-13 barcodes."
 msgstr "EAN-13 -muodossa, nouseva numerointi."
 
@@ -3851,10 +2840,6 @@ msgstr "Noutopalvelumoduuli"
 # Circulation > Fines Policy
 msgid "circulation.pref Fines Policy"
 msgstr "Maksuasetukset"
-
-# Circulation
-msgid "circulation.pref Floating"
-msgstr "Kellutus"
 
 # Circulation
 # Circulation > Holds Policy
@@ -4106,31 +3091,6 @@ msgstr "\"Salli\" sallii itsepalvelulainauksen noille niteille. Jos käytetään
 # Circulation > Checkout policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# checkouts of items reserved to someone else via SIP checkout messages."
 msgstr "varattujen niteiden lainaaminen toiselle asiakkaalle automaatin kautta."
-
-# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
-# Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# Allow"
-msgstr "Salli"
-
-# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
-# Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# Don't allow"
-msgstr "Älä salli"
-
-# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
-# Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# If allowed do not generate ISSUED_TO_ANOTHER warning."
-msgstr "Jos sallittu, älä generoi ISSUED_TO_ANOTHER-varoitusta."
-
-# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
-# Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# This allows self checkouts for those items."
-msgstr "Tämä sallii niiden niteiden lainaamisen automaatilla."
-
-# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
-# Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# checkouts of items already checked out to someone else via SIP checkout messages."
-msgstr "lainassa olevien niteiden lainaaminen toiselle asiakkaalle automaatin kautta."
 
 # Circulation > Checkout policy > AllowMultipleIssuesOnABiblio
 # Circulation > Checkout policy
@@ -4435,6 +3395,26 @@ msgstr "(Kelvolliset vaihtoehdot: PHOTOCOPY ja SCAN. Erottele tuetut muodot pyst
 msgid "circulation.pref#ArticleRequestsSupportedFormats# The following article request formats are supported:"
 msgstr "Seuraavat artikkelipyyntöjen muodot on tuettu:"
 
+# Circulation > Return claims > ClaimReturnedLostValue
+# Circulation > Return claims
+msgid "circulation.pref#AutoClaimReturnStatusOnCheckin# Automatically resolve the claim and change the resolution to the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=RETURN_CLAIM_RESOLUTION\">RETURN_CLAIM_RESOLUTION</a> authorized value"
+msgstr "Ratkaise palautusilmoitus automaattisesti ja muuta ratkaisuksi <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=RETURN_CLAIM_RESOLUTION\">RETURN_CLAIM_RESOLUTION</a> -auktorisoitu arvo"
+
+# Circulation > Return claims > ClaimReturnedChargeFee
+# Circulation > Return claims
+msgid "circulation.pref#AutoClaimReturnStatusOnCheckin# upon check in."
+msgstr "kun nide palautetaan."
+
+# Circulation > Return claims > ClaimReturnedLostValue
+# Circulation > Return claims
+msgid "circulation.pref#AutoClaimReturnStatusOnCheckout# Automatically resolve the claim and change the resolution to the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=RETURN_CLAIM_RESOLUTION\">RETURN_CLAIM_RESOLUTION</a> authorized value"
+msgstr "Ratkaise palautusilmoitus automaattisesti ja muuta ratkaisuksi <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=RETURN_CLAIM_RESOLUTION\">RETURN_CLAIM_RESOLUTION</a> -auktorisoitu arvo"
+
+# Circulation > Checkout policy > RecordStaffUserOnCheckout
+# Circulation > Interface
+msgid "circulation.pref#AutoClaimReturnStatusOnCheckout# upon check out."
+msgstr "kun nide lainataan."
+
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout Policy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# When returning items"
@@ -4536,12 +3516,12 @@ msgstr "Salli"
 
 # Circulation > Interface > AutoSwitchPatron
 # Circulation > Interface
-msgid "circulation.pref#AutoSwitchPatron# This should not be enabled if you have overlapping patron and book barcodes."
-msgstr "Tätä ei pitäisi sallia, jos järjestelmässäsi on samanlaisia asiakkaiden ja niteiden viivakoodeja."
+msgid "circulation.pref#AutoSwitchPatron# This should not be enabled if you have overlapping patron cardnumbers and item barcodes."
+msgstr "Tätä ei pitäisi sallia, jos järjestelmässäsi on samoja viivakoodeja asiakkaille ja niteille."
 
 # Circulation > Interface > AutoSwitchPatron
 # Circulation > Interface
-msgid "circulation.pref#AutoSwitchPatron# the automatic redirection to another patron when a patron barcode is scanned instead of a book."
+msgid "circulation.pref#AutoSwitchPatron# the automatic redirection to another patron when a patron cardnumber is scanned instead of an item barcode."
 msgstr "automaattinen vaihto toiseen asiakkaaseen, kun asiakkaan viivakoodi luetaan niteen viivakoodin sijaan."
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
@@ -4737,6 +3717,11 @@ msgstr "tyhjennä näyttö"
 
 # Circulation > Interface > CircAutoPrintQuickSlip
 # Circulation > Interface
+msgid "circulation.pref#CircAutoPrintQuickSlip# do nothing"
+msgstr "älä tee mitään"
+
+# Circulation > Interface > CircAutoPrintQuickSlip
+# Circulation > Interface
 msgid "circulation.pref#CircAutoPrintQuickSlip# open a print quick slip window"
 msgstr "avaa 'tänään lainatut' -kuitin tulostusikkuna"
 
@@ -4882,6 +3867,23 @@ msgstr "Vahvista viivästetyt varaukset (jotka alkavat myöhemmin kuin"
 # Circulation > Holds policy
 msgid "circulation.pref#ConfirmFutureHolds# days from now) at checkin time. Note that this number of days will be used too in calculating the default end date for the Holds to pull-report. But it does not interfere with issuing, renewing or transferring items."
 msgstr "päivää tästä päivästä) palautushetkellä. Huomaa, että tätä päivien määrää käytetään myös laskettaessa oletusloppumispäivämäärää Hyllyvaraukset-raportille. Mutta se ei vaikuta lainaukseen, uusintaan tai kuljetuksiin."
+
+# Circulation > Checkout policy > RentalFeesCheckoutConfirmation
+# Circulation > Checkout policy
+msgid "circulation.pref#ConsiderLibraryHoursInCirculation# When checking out an hourly loan that will be due after the library closes,"
+msgstr "Kun lainataan tuntilainaperustainen nide, joka erääntyy kirjaston aukioloaikojen ulkopuolella,"
+
+# Circulation > Checkout policy > ConsiderLibraryHoursInCirculation
+msgid "circulation.pref#ConsiderLibraryHoursInCirculation# do not consider the library's opening hours."
+msgstr "älä huomioi kirjaston aukioloaikoja."
+
+# Circulation > Checkout policy > ConsiderLibraryHoursInCirculation
+msgid "circulation.pref#ConsiderLibraryHoursInCirculation# extend the loan period and set the checkout to be due at the library's open time."
+msgstr "pidennä laina-aikaa ja aseta eräpäiväksi kirjaston avautumisaika."
+
+# Circulation > Checkout policy > ConsiderLibraryHoursInCirculation
+msgid "circulation.pref#ConsiderLibraryHoursInCirculation# shorten the loan period and set the checkout to be due at the library's close time."
+msgstr "lyhennä laina-aikaa ja aseta eräpäiväksi kirjaston sulkemisaika."
 
 # Circulation > Checkout policy > ConsiderOnSiteCheckoutsAsNormalCheckouts
 # Circulation > Checkout policy
@@ -5058,6 +4060,50 @@ msgstr "kun nide on myöhässä enemmän kuin"
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
+msgid "circulation.pref#DefaultLongOverduePatronCategories# <br>"
+msgstr "<br>"
+
+# Circulation > Checkout policy > DefaultLongOverdueChargeValue
+# Circulation > Checkout policy
+msgid "circulation.pref#DefaultLongOverduePatronCategories# <br>(Used when the longoverdue.pl script is called without the --category parameter)"
+msgstr "<br>(Käytetään kun longoverdue.pl-skriptiä kutsutaan ilman --category-parametria)"
+
+# Circulation > Checkout policy > DefaultLongOverdueChargeValue
+# Circulation > Checkout policy
+msgid "circulation.pref#DefaultLongOverduePatronCategories# <br>(Used when the longoverdue.pl script is called without the --skip-category parameter)"
+msgstr "<br>(Käytetään kun longoverdue.pl-skriptiä kutsutaan ilman --skip-category-parametria)"
+
+# Circulation > Checkout policy > DefaultLongOverdueChargeValue
+# Circulation > Checkout policy
+msgid "circulation.pref#DefaultLongOverduePatronCategories# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/longoverdue.pl</code> cronjob. Ask your system administrator to schedule it."
+msgstr "<br><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/longoverdue.pl</code> ajastetun ajon. Pyydä kehittäjiä ajastamaan se."
+
+# Circulation > Checkout policy > DefaultLongOverdueChargeValue
+# Circulation > Checkout policy
+msgid "circulation.pref#DefaultLongOverduePatronCategories# <br>Leave this field empty if you want to process overdues for all patron categories."
+msgstr "<br>Jätä tämä tyhjäksi, jos haluat käsitellä kaikkien asiakastyyppien myöhässä olevat niteet."
+
+# Circulation > Checkout policy > DefaultLongOverduePatronCategories
+msgid "circulation.pref#DefaultLongOverduePatronCategories# <br>WARNING - This preference overrides the DefaultLongOverduePatronCategories preference, so the DefaultLongOverduePatronCategories filter will not take effect."
+msgstr "<br> Varoitus - Tämä järjestelmäsetus ohittaa DefaultLongOverduePatronCategories -järjestelmäasetuksen, eikä sitä oteta huomioon."
+
+# Circulation > Checkout policy > DefaultLongOverdueLostValue
+# Circulation > Checkout policy
+msgid "circulation.pref#DefaultLongOverduePatronCategories# <br>WARNING — This preference will be active only if DefaultLongOverdueSkipPatronCategories is empty."
+msgstr "<br>Varoitus - Tämä asetusta käytetään vain, jos DefaultLongOverdueSkipPatronCategories-järjestelmäasetus on tyhjä."
+
+# Circulation > Checkout policy > DefaultLongOverdueLostValue
+# Circulation > Checkout policy
+msgid "circulation.pref#DefaultLongOverduePatronCategories# Set the default patron categories to <i>not</i> receive overdues to"
+msgstr "Valitse asiakastyypit, joille <i>ei</i> lähetetä myöhästymisilmoituksia"
+
+# Circulation > Checkout policy > DefaultLongOverdueLostValue
+# Circulation > Checkout policy
+msgid "circulation.pref#DefaultLongOverduePatronCategories# Set the default patron categories to receive overdues to"
+msgstr "Valitse asiakastyypit, joille lähetetään myöhästymisilmoitukset"
+
+# Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
+# Circulation > Checkout policy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# ."
 msgstr "."
 
@@ -5095,6 +4141,21 @@ msgstr "Näytä 'tulosta kuitti' ja 'tyhjennä näyttö' -painikkeet"
 # Circulation > Interface
 msgid "circulation.pref#DisplayClearScreenButton# to clear the current patron from the screen on the circulation screen."
 msgstr "tyhjentääksesi asiakastietonäytön lainauksessa."
+
+# Circulation > Holds policy > DisplayMultiPlaceHold
+# Circulation > Holds policy
+msgid "circulation.pref#DisplayMultiItemHolds# Don't enable"
+msgstr "Älä salli"
+
+# Circulation > Holds policy > DisplayMultiPlaceHold
+# Circulation > Holds policy
+msgid "circulation.pref#DisplayMultiItemHolds# Enable"
+msgstr "Salli"
+
+# Circulation > Holds policy > DisplayMultiPlaceHold
+# Circulation > Holds policy
+msgid "circulation.pref#DisplayMultiItemHolds# the ability to place holds on different items at the same time in staff interface and OPAC."
+msgstr "nidevarauksen tekeminen useampaan eri niteeseen kerrallaan virkailijaliittymässä ja verkkokirjastossa."
 
 # Circulation > Holds policy > DisplayMultiPlaceHold
 # Circulation > Holds policy
@@ -5297,95 +4358,6 @@ msgstr "Sisällytä"
 msgid "circulation.pref#FinesIncludeGracePeriod# the grace period when calculating the fine for an overdue item."
 msgstr "anteeksiantoaika kun lasketaan myöhässä olevan aineiston maksua."
 
-# Circulation > Article requests > ArticleRequests
-# Circulation > Article requests
-msgid "circulation.pref#FloatRules# </ul>"
-msgstr "</ul>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <code>#A->B: itemtype eq \"KIRJA\"</code>"
-msgstr "<code>#A->B: itemtype eq \"KIRJA\"</code>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means that rule applies when item is from library B and is checked in from library A.</br>"
-msgstr "<code>A->B</code> - missä <code>-></code> tarkoittaa, että sääntöä käytetään, kun nide on kirjastosta B ja palautetaan kirjastossa A.</br>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> means that rule applies to both libraries.</br></br>"
-msgstr "<code>A<>B</code> - missä <code><></code> tarkoittaa, että sääntöä käytetään kummassakin kirjastossa.</br></br>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, == and !=</code> for numeric values and <code>=~</code> for regular expressions.</br>"
-msgstr "<code>eq and ne</code> merkkijonoille,<code> <, >, == ja !=</code> numeerisille arvoille ja <code>=~</code> säännöllisille lausekkeille.</br>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items with a collection code \"FLOAT\" will float </li>"
-msgstr "<li><code>ccode eq \"FLOAT\"</code> - kaikki niteet, joilla on kokoelmakoodi \"FLOAT\" kelluvat </li>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - using a regular expression to match against the item attribute, floats item types \"CD\" or \"DVD\" or \"KIRJA\"</li>"
-msgstr "<li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - käyttämällä säännönmukaista lauseketta täsmäyttämään niteen ominaisuuteen, kellutetaan aineistotyyppejä \"CD\" tai \"DVD\" tai \"KIRJA\"</li>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\" || itemtype eq \"CD\"</code> - all items with item type \"KIRJA\" or \"CD\" will float </li>"
-msgstr "<li><code>itemtype eq \"KIRJA\" || itemtype eq \"CD\"</code> - kaikki niteet, joilla on aineistotyyppi \"KIRJA\" tai \"CD\" kelluvat </li>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\"</code> - all items with item type \"KIRJA\" will float</li>"
-msgstr "<li><code>itemtype eq \"KIRJA\"</code> - kaikki niteet, joiden aineistotyyppi on \"KIRJA\" kelluvat</li>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - all items not of item type \"CD\" and whose permanent location is \"CART\" will float</li>"
-msgstr "<li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - kaikki niteet, joiden aineistotyyppi ei ole \"CD\" ja joiden permanent location on \"CART\" kelluvat</li>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
-msgstr "<li><code>notforloan == 0</code> </li>"
-
-# Circulation > Article requests > ArticleRequests
-# Circulation > Article requests
-msgid "circulation.pref#FloatRules# <ul>"
-msgstr "<ul>"
-
-# Circulation > Self check-out module > AutoSelfCheckAllowed
-# Circulation > Self check-out module
-msgid "circulation.pref#FloatRules# Allowed operators are following:</br>"
-msgstr "</br>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# Define float rules by columns of items table and biblioitems column itemtype. NOTE! Rules can't be applied to other columns from biblioitems table.</br>"
-msgstr "Määritä kellutussääntöjä nidetaulun sarakkeiden ja biblioitems-taulun itemtype-sarakkeen perusteella. Huomaa! Sääntöjä ei voi tehdä muiden biblioitems-taulun sarakkeiden mukaan.</br>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# Example rule: <code>A->B: itemtype eq \"KIRJA\"</code></br></br>"
-msgstr "Esimerkkisääntö: <code>A->B: itemtype eq \"KIRJA\"</code></br></br>"
-
-# Circulation > SIP2 > SIP2SortBinMapping
-# Circulation > Checkin policy
-msgid "circulation.pref#FloatRules# Examples:</br>"
-msgstr "Esimerkkejä:<br/>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# Rules should start with following syntax:</br>"
-msgstr "Säännöt pitäisi alkaa seuraavalla syntaksilla:</br>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together.</br>"
-msgstr "Käytä <code>&& ja ||</code> operaattoreita yhdistämään lauseita yhteen.</br>"
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies."
-msgstr "Voit myös käyttää %-merkkiä jokerimerkkinä, kun määrittelet, mitä kirjastoja sääntö koskee."
-
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# You can also use comments to disable unused rules, just add <code>#</code> before the rule:</br>"
-msgstr "Voit myös kommentoida sääntöjä pois käytöstä, lisää vain <code>#</code> ennen sääntöä:</br>"
-
-# Circulation > Article requests > ArticleRequests
-# Circulation > Article requests
-msgid "circulation.pref#FloatRules# or: </br>"
-msgstr "</br>"
-
 # Circulation > Checkin policy > HidePersonalPatronDetailOnCirculation
 # Circulation > Checkin policy
 msgid "circulation.pref#HidePersonalPatronDetailOnCirculation# Don't hide"
@@ -5420,6 +4392,16 @@ msgstr "aina, kun tehdään varaus."
 # Circulation > Fines Policy
 msgid "circulation.pref#HoldFeeMode# only if all items are checked out and the record has at least one hold already."
 msgstr "vain, jos kaikki niteet ovat lainassa ja tietueessa on ennestään vähintään yksi varaus."
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+msgid "circulation.pref#HoldRatioDefault# ."
+msgstr "."
+
+# Circulation > Interface > HoldsToPullStartDate
+# Circulation > Interface
+msgid "circulation.pref#HoldRatioDefault# Default the holds ratio report to"
+msgstr "Aseta Varauksia per nide -raportin varausten suhteeksi oletuksena"
 
 # Circulation > Checkin policy > HoldsAutoFill
 # Circulation > Checkin policy
@@ -6368,6 +5350,11 @@ msgstr "Älä salli"
 msgid "circulation.pref#SCOAllowCheckin# patrons to return items through web-based self checkout system."
 msgstr "asiakkaiden palauttaa itse aineistoa itsepalvelulainauksella."
 
+# Circulation > Batch checkout > BatchCheckoutsValidCategories
+# Circulation > Batch checkout
+msgid "circulation.pref#SCOBatchCheckoutsValidCategories# Patron categories allowed to check out in a batch while logged into the self checkout system:"
+msgstr "Asiakastyypit, joille on sallittu erälainaus Kohan itsepalvelulainauksessa:"
+
 # Circulation > Interface > ShowAllCheckins
 # Circulation > Interface
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# Don't show"
@@ -6395,22 +5382,17 @@ msgstr "Käytä seuraavia JavaScript-komentoja kaikilla sivuilla itsepalvelulain
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
-msgstr "Lähetä"
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't send"
+msgstr "Älä lähetä"
 
-# Circulation > Interface > AllowAllMessageDeletion
-# Circulation > Interface
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't"
-msgstr "Näytä"
+# Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# OPAC patron messages in the SIP2 screen message field."
+msgstr "asiakkaan Huomautus verkkokirjastossa -kentän tieto(a) SIP2-näyttöviestikentässä."
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Course reserves
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Use"
-msgstr "Älä näytä"
-
-# Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# send OPAC patron messages in the SIP2 screen message field."
-msgstr "asiakkaan Huomautus verkkokirjastossa -kentän tieto(a) SIP2-näyttöviestikentässä."
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Send"
+msgstr "Lähetä"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -6972,6 +5954,24 @@ msgstr "_ALL_: FIC - kaikkien niteiden hyllypaikaksi päivitetään FIC lainates
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _BLANK_: FIC - causes an item that has no location to be updated into the Fiction location on check out.<br/>"
 msgstr "_BLANK_: FIC - nide, jolla ei ole mitään hyllypaikkaa, päivitetään FIC-hyllypaikkaan lainatessa.<br/>"
 
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+msgid "circulation.pref#UpdateItemLostStatusWhenPaid# Update item status to"
+msgstr "Päivitä niteen tilaksi"
+
+# Circulation > Checkout policy > MarkLostItemsAsReturned
+# Circulation > Checkout policy
+msgid "circulation.pref#UpdateItemLostStatusWhenPaid# when the outstanding balance is paid."
+msgstr "kun maksut maksetaan."
+
+# Circulation > Checkout policy > UpdateItemLostStatusWhenWriteoff
+msgid "circulation.pref#UpdateItemLostStatusWhenWriteoff# Update item status to"
+msgstr "Päivitä niteen tilaksi"
+
+# Circulation > Checkout policy > UpdateItemLostStatusWhenWriteoff
+msgid "circulation.pref#UpdateItemLostStatusWhenWriteoff# when the outstanding balance is written off."
+msgstr "kun maksut poistetaan."
+
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# A list of values to update an item's values with when it is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> from the 'Holds to pull' page."
@@ -7191,6 +6191,21 @@ msgstr "Huomauta"
 msgid "circulation.pref#WaitingNotifyAtCheckin# librarians of waiting holds for the patron whose items they are checking in."
 msgstr "henkilökunnalle lainojaan palauttavan asiakkaan odottavista varauksista."
 
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+msgid "circulation.pref#WaitingNotifyAtCheckout# Don't notify"
+msgstr "Älä huomauta"
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+msgid "circulation.pref#WaitingNotifyAtCheckout# Notify"
+msgstr "Huomauta"
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+msgid "circulation.pref#WaitingNotifyAtCheckout# librarians of waiting holds for the patron whose items they are checking out."
+msgstr "henkilökuntaa lainattaessa, jos asiakkaalla on noudettavia varauksia."
+
 # Circulation > Self check-out module > WebBasedSelfCheck
 # Circulation > Self check-out module
 msgid "circulation.pref#WebBasedSelfCheck# Don't enable"
@@ -7325,10 +6340,15 @@ msgstr "Älä lähetä"
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "Lähetä"
 
+# Administration > Interface options > AddressForFailedOverdueNotices
+# Circulation > Checkin policy > StoreLastBorrower
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
+msgstr "Käytetään listan ensimmäistä määriteltyä osoitetta: kirjaston vastausosoite, kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the Koha administrator email address whenever a hold request is placed."
-msgstr "ylläpidon sähköpostiin ilmoitus(ta) aina, kun tehdään varaus."
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
+msgstr "sähköpostin lähettäminen asiakkaan kirjastoon aina, kun tehdään varaus."
 
 # Circulation > Fines Policy > finesCalendar
 # Circulation > Fines Policy
@@ -7625,7 +6645,7 @@ msgstr "Syndetics"
 msgid "enhanced_content.pref Tagging"
 msgstr "Tagit"
 
-# Enhanced content > All >
+# Enhanced content > All > 
 # Enhanced content > All
 msgid "enhanced_content.pref## <strong>NOTE:</strong> you can only choose one source of cover images from below, otherwise Koha will show the images from all sources selected."
 msgstr "<strong>HUOM:</strong> voit valita vain yhden kansikuvalähteen alapuolelta, muuten Koha näyttää kuvat kaikista valituista lähteistä."
@@ -8346,7 +7366,7 @@ msgstr "vaaditaan"
 
 # Enhanced content > OverDrive > OverDriveCirculation
 # Enhanced content > OverDrive
-msgid "enhanced_content.pref#OverDriveCirculation# cardnumber"
+msgid "enhanced_content.pref#OverDriveCirculation# card number"
 msgstr "kirjastokortin numeron"
 
 # Enhanced content > OverDrive > OverDriveCirculation
@@ -8541,8 +7561,8 @@ msgstr "Näytä"
 
 # Enhanced content > Syndetics > SyndeticsSeries
 # Enhanced content > Syndetics
-msgid "enhanced_content.pref#SyndeticsSeries# information on other books in a title's series from Syndetics on item detail pages on the OPAC."
-msgstr "Synteticsin tietoja teossarjan muista osista verkkokirjaston perustiedot-näytöllä."
+msgid "enhanced_content.pref#SyndeticsSeries# information on other titles in a series from Syndetics on the record detail pages on the OPAC."
+msgstr "Syndeticsin tietoja teossarjan muista osista verkkokirjaston perustiedot-näytöllä."
 
 # Enhanced content > Syndetics > SyndeticsSummary
 # Enhanced content > Syndetics
@@ -9007,11 +8027,6 @@ msgstr "Käytä"
 msgid "interlibrary_loans.pref#ILLModule# the interlibrary loans module (master switch)."
 msgstr "kaukolaina-moduulia (\"master switch\")."
 
-# Interlibrary loans > Features > ILLModuleCopyrightClearance
-# Circulation > Interlibrary loans
-msgid "interlibrary_loans.pref#ILLModuleCopyrightClearance# Adding text will enable the copyright clearance stage in request creation. The text you enter will be the text displayed. OPAC only."
-msgstr "Tekstin lisääminen mahdollistaa tekijänoikeus-ilmoituksen (copyright clearance stage) kun tehdään pyyntöä. Lisätty teksti näytetään. Vain verkkokirjastossa."
-
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;h2&gt;HTML title&lt;/h2&gt;<br>"
 msgstr "&nbsp;&nbsp;&lt;h2&gt;HTML-otsikko&lt;/h2&gt;<br>"
@@ -9137,7 +8152,7 @@ msgstr "Paikalliskäyttö"
 msgid "local_use.pref Local use"
 msgstr "Paikalliset tiedot"
 
-# Local use > Local use >
+# Local use > Local use > 
 # Local Use
 msgid "local_use.pref## Nothing defined yet."
 msgstr "Mitään ei ole vielä määritelty."
@@ -9236,23 +8251,8 @@ msgstr "Kerää loki"
 
 # Logging > Logging > BorrowersLog
 # Logging > Logging
-msgid "logs.pref#BorrowersLog# changes to patron records."
-msgstr "asiakastietojen muutoksista."
-
-# Logging > Logging > BorrowersLog
-# Logging > Logging
-msgid "logs.pref#BorrowersViewLog# Don't log"
-msgstr "Älä kerää lokia"
-
-# Logging > Logging > BorrowersLog
-# Logging > Logging
-msgid "logs.pref#BorrowersViewLog# Log"
-msgstr "Kerää loki"
-
-# Logging > Logging > BorrowersLog
-# Logging > Logging
-msgid "logs.pref#BorrowersViewLog# when patron data is viewed."
-msgstr "asiakastietojen katseluista."
+msgid "logs.pref#BorrowersLog# changes to patron records and patron restrictions."
+msgstr "asiakastietojen ja asiakkaiden rajoitusten muutoksista."
 
 # Logging > Logging > CataloguingLog
 # Logging > Logging
@@ -9812,28 +8812,14 @@ msgstr "Näytä"
 msgid "opac.pref#OPACAcquisitionDetails# the acquisition details on OPAC detail pages."
 msgstr "tilauksen tietoja verkkokirjaston perustiedot-näytöllä."
 
-# OPAC > Features > OPACAuthorIdentifiers
-# OPAC > Features
-msgid "opac.pref#OPACAuthorIdentifiers# Display"
-msgstr "Näytä"
-
-# OPAC > Features > OPACAuthorIdentifiers
-# OPAC > Features
-msgid "opac.pref#OPACAuthorIdentifiers# Don't display"
-msgstr "Älä näytä"
-
-# OPAC > Features > OPACAuthorIdentifiers
-msgid "opac.pref#OPACAuthorIdentifiers# This feature requires authorities with 024$2 and 024$a."
-msgstr "Tämä ominaisuus vaatii auktoriteetteja 024$2 ja 024$a."
-
-# OPAC > Features > OPACAuthorIdentifiers
-msgid "opac.pref#OPACAuthorIdentifiers# Valid source codes in $2 are currently: orcid, scopus, loop, rid and viaf."
-msgstr "Sallitut lähdekoodin kentälle $2 ovat tällä hetkellä: orcid, scopus, loop, rid ja viaf."
+# OPAC > Features > OPACAuthorIdentifiersAndInformation
+msgid "opac.pref#OPACAuthorIdentifiersAndInformation# <strong>NOTE:</strong> Identifiers for authors and contributors - valid codes to use in the source subfield (024$2) are currently: orcid (ORCID), scopus (ScopusID), loop (Loop ID), rid (Publons ID), and viaf (VIAF ID)."
+msgstr "<strong>Huomioi:</strong> Tekijöiden ja muiden tekijöiden tunnisteet - osakentässä (024$2) käytettävät koodit ovat tällä hetkellä: orcid (ORCID), scopus (ScopusID), loop (Loop ID), rid (Publons ID), and viaf (VIAF ID)."
 
 # OPAC > Features > OPACAuthorIdentifiers
 # OPAC > Appearance
-msgid "opac.pref#OPACAuthorIdentifiers# identifiers for authors and contributors to the detail pages in the OPAC."
-msgstr "tekijöiden tunnisteita verkkokirjaston perustiedot-näytössä."
+msgid "opac.pref#OPACAuthorIdentifiersAndInformation# Display this information about authors and contributors on OPAC detail pages:"
+msgstr "Näytä nämä tekijöiden ja muiden tekijöiden tiedot verkkokirjaston perustiedot-näytöllä:"
 
 # OPAC > Appearance > OPACBaseURL
 # OPAC > Appearance
@@ -9927,8 +8913,8 @@ msgstr "teemaa varateemana verkkokirjastossa."
 
 # OPAC > Policy > OPACFineNoRenewals
 # OPAC > Policy
-msgid "opac.pref#OPACFineNoRenewals# Only allow patrons to renew their own books on the OPAC if they have less than"
-msgstr "Salli asiakkaan uusia lainoja verkkokirjastossa vain, jos hänellä on vähemmän kuin"
+msgid "opac.pref#OPACFineNoRenewals# Only allow patrons to renew their own checkouts on the OPAC if they have less than"
+msgstr "Salli asiakkaan uusia vain omat lainansa verkkokirjastossa, jos hänellä on vähemmän kuin"
 
 # OPAC > Policy > OPACFineNoRenewals
 # OPAC > Policy
@@ -10411,8 +9397,8 @@ msgstr "<br><strong>Huomioi:</strong> Kirjastokohtaisen JS:n voi määrittää <
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
-msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC. You may need to ask your system administrator to rehash userjs checksums after changing this."
-msgstr "Sisällytä seuraava JavaScript kaikille sivuille verkkokirjastossa. Pyydä järjestelmän ylläpitäjää päivittämään järjestelmän tarkistussumma, kun muutat tätä asetusta."
+msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC:"
+msgstr "Sisällytä seuraava JavaScript kaikille sivuille verkkokirjastossa:"
 
 # OPAC > Appearance > OPACUserSummary
 # OPAC > Shelf browser
@@ -11086,8 +10072,8 @@ msgstr "Älä salli"
 
 # OPAC > Policy > OpacRenewalAllowed
 # OPAC > Policy
-msgid "opac.pref#OpacRenewalAllowed# patrons to renew their own books on the OPAC."
-msgstr "asiakkaiden uusia lainojaan verkkokirjastossa."
+msgid "opac.pref#OpacRenewalAllowed# patrons to renew their own checkouts on the OPAC."
+msgstr "asiakkaiden uusia omat lainansa verkkokirjastossa."
 
 # OPAC > Policy > OpacRenewalBranch
 # OPAC > Policy
@@ -11452,6 +10438,47 @@ msgstr "Vaadi"
 msgid "opac.pref#PatronSelfRegistrationVerifyByEmail# that a self-registering patron verify themselves via email."
 msgstr "itserekisteröityneen asiakkaan vahvistavan rekisteröitymisensä sähköpostitse."
 
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
+msgstr "</ul>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
+msgstr "<li>Ensimmäinen prioriteetti: Käytä --list-invites -parametriä, kun cleanup_datebase.pl ajastettu ajo käynnistetään, --list-invites -parametrin määrittäessä päivien määrän.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
+msgstr "<li>Toinen prioriteetti: Käytä PurgeListShareInvitesOlderThan -järjestelmäasetusta, kun siihen on määritetty arvo.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
+msgstr "<li>Kolmas prioriteetti: Käytä oletusarvoa 14 päivää, kun cleanup_database.pl -ajastettu ajo ajetaan --list-invites -parametrilla ilman arvoa JA PurgeListShareInvitesOlderThan -järjestelmäasetus on tyhjä.</li>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
+msgstr "<p><strong>Varoitus</strong>: Hyväksymättömät yksityisten listojen jaot poistetaan käyttäen näitä prioriteettejä:"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
+msgstr "<p>Esimerkki: [14] Poistaa hyväksymättömät yksityiset listajaot, jotka ovat vanhempia kuin 14 päivää.</p>"
+
+# OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
+# Patrons > General > LockExpiredDelay
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
+msgstr "<br><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/cleanup_database.pl</code> -cronjobin. Pyydä ylläpitäjiä ajastamaan se."
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
+msgstr "<ul>"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
+msgstr "cleanup_database.pl -ajastettu ajo poistaa automaattisesti hyväksymättömät yksityisten listojen jaot"
+
+# OPAC > Policy > PurgeListShareInvitesOlderThan
+msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
+msgstr "päivän jälkeen."
+
 # OPAC > Features > QuoteOfTheDay
 # OPAC > Features
 msgid "opac.pref#QuoteOfTheDay# OPAC"
@@ -11727,7 +10754,7 @@ msgstr "Älä salli"
 
 # OPAC > Privacy > opacreadinghistory
 # OPAC > Privacy
-msgid "opac.pref#opacreadinghistory# patrons to see what books they have checked out in the past."
+msgid "opac.pref#opacreadinghistory# patrons to see what items they have checked out in the past."
 msgstr "asiakkaiden nähdä lainahistoriaansa."
 
 # OPAC > Appearance > opacthemes
@@ -12052,11 +11079,6 @@ msgstr "Yhteystiedot"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-msgid "patrons.pref#CollapseFieldsPatronAddForm# Guarantor information"
-msgstr "Takaajan tiedot"
-
-# Patrons > Patron forms > CollapseFieldsPatronAddForm
-# Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Housebound roles"
 msgstr "Kotipalvelu"
 
@@ -12077,6 +11099,11 @@ msgstr "Osoite"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
+msgid "patrons.pref#CollapseFieldsPatronAddForm# Non-patron guarantor"
+msgstr "Ei-asiakas -takaaja"
+
+# Patrons > Patron forms > CollapseFieldsPatronAddForm
+# Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# OPAC/Staff interface login"
 msgstr "Kirjautumistunnus ja salasanan vaihto"
 
@@ -12084,6 +11111,11 @@ msgstr "Kirjautumistunnus ja salasanan vaihto"
 # Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron account flags (existing patrons)"
 msgstr "Asiakkaan huomautukset"
+
+# Patrons > Patron forms > CollapseFieldsPatronAddForm
+# Patrons > Patron forms
+msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
+msgstr "Asiakastakaaja"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -12148,7 +11180,7 @@ msgid "patrons.pref#DefaultPatronSearchMethod# Contains"
 msgstr "Sisältää"
 
 # Patrons > General > DefaultPatronSearchMethod
-msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use Starts with or Contains for autocomplete patron searches."
+msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use 'starts with' or 'contains' for all patron searches, including auto-complete."
 msgstr "Määritä, käytetäänkö asiakashakutoiminnossa Alkaa vai Sisältää -tyyppistä hakua, myös automaattisessa täydennyksessä."
 
 # Patrons > General > DefaultPatronSearchMethod
@@ -12176,6 +11208,10 @@ msgstr "Kun <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=Em
 msgid "patrons.pref#EmailFieldPrimary# <br><strong>NOTE:</strong> If set to \"first valid\", the order in which the email addresses are checked is set in <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailFieldPrecedence\">EmailFieldPrecedence</a>."
 msgstr "<br><strong>HUOM:</strong> Jos asetettu \"ensimmäistä toimivaa sähköpostia\", sähköpostit tarkistetaan järjestelmäasetuksessa <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailFieldPrecedence\">EmailFieldPrecedence</a> määritetyssä järjestyksessä."
 
+# Patrons > Notices and notifications > EnhancedMessagingPreferences
+msgid "patrons.pref#EmailFieldPrimary# <br><strong>NOTE:</strong> If set to \"selected addresses\", the selection refers to the email address fields set in <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailFieldSelection\">EmailFieldSelection</a>."
+msgstr "<br><strong>Huomioi:</strong> Jos asetettu \"valittuja sähköpostiosoitteita\", viitataan järjestelmäasetuksessa <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailFieldSelection\">EmailFieldSelection</a> valittuun sähköpostiosoitteeseen."
+
 # Patrons > Notices and notifications > EmailFieldPrimary
 msgid "patrons.pref#EmailFieldPrimary# Use the patron's"
 msgstr "Käytä asiakkaan"
@@ -12185,7 +11221,7 @@ msgid "patrons.pref#EmailFieldPrimary# alternate email"
 msgstr "vaihtoehtoista sähköpostia"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
-msgid "patrons.pref#EmailFieldPrimary# cardnumber"
+msgid "patrons.pref#EmailFieldPrimary# card number"
 msgstr "kirjastokortin numeroa"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
@@ -12202,6 +11238,26 @@ msgstr "sähköpostia"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
 msgid "patrons.pref#EmailFieldPrimary# secondary email"
+msgstr "toissijaista sähköpostia"
+
+# Patrons > Notices and notifications > EmailFieldPrimary
+msgid "patrons.pref#EmailFieldPrimary# selected addresses"
+msgstr "valittuja sähköpostiosoitteita"
+
+# Acquisitions > Policy > EmailPurchaseSuggestions
+msgid "patrons.pref#EmailFieldSelection# When <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailFieldPrimary'>EmailFieldPrimary</a> is set to '<strong>selected addresses</strong>', send email to all valid email addresses in the selected fields:"
+msgstr "Kun <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailFieldPrimary'>EmailFieldPrimary</a> on asetettu '<strong>valittuja sähköpostiosoitteita</strong>', lähetä sähköpostit kaikkiin sähköpostiosoitteisiin valituista kentistä:"
+
+# Patrons > Notices and notifications > EmailFieldPrimary
+msgid "patrons.pref#EmailFieldSelection# alternate email"
+msgstr "vaihtoehtoista sähköpostia"
+
+# Patrons > Notices and notifications > EmailFieldPrimary
+msgid "patrons.pref#EmailFieldSelection# primary email"
+msgstr "sähköpostia"
+
+# Patrons > Notices and notifications > EmailFieldPrimary
+msgid "patrons.pref#EmailFieldSelection# secondary email"
 msgstr "toissijaista sähköpostia"
 
 # Patrons > General > EnableBorrowerFiles
@@ -12674,8 +11730,8 @@ msgstr "Sukunimi"
 
 # Patrons > Patron relationships > PrefillGuaranteeField
 # Patrons > Patron relationships
-msgid "patrons.pref#PrefillGuaranteeField# When adding a guarantee to a guarantor patron fill the following fields in the guarantee's member entry form from the guarantors record:"
-msgstr "Kun takaajalle lisätään taattava, täytä seuraavat kentät takaajan lomakkeesta taattavan asiakastietoihin:"
+msgid "patrons.pref#PrefillGuaranteeField# When adding a guarantee to a guarantor, whether it's from the guarantor's form or the guarantee's form, fill the following fields in the guarantee's member entry form from the guarantors record:"
+msgstr "Kun takaajalle lisätään taattava, tehdään se sitten takaajan lisäyksen kautta tai taattavan lisäyksen kautta, täytä seuraavat kentät takaajan lomakkeesta taattavan asiakastietoihin:"
 
 # Patrons > Privacy > GDPR_Policy
 # Patrons > Privacy
@@ -12938,6 +11994,10 @@ msgid "patrons.pref#SMSSendUsername# Define a username/login"
 msgstr "Määrittele käyttäjätunnus/kirjautumistunnus"
 
 # Patrons > Notices and notifications > SMSSendUsername
+msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options that just username/login and password, entire them here as YAML key/value pairs:"
+msgstr "Jos SMS:Send-ajuri vaatii muitakin asetuksia kuin käyttäjänimen ja salasanan, lisää ne alle YAML-muotoisina avain/arvopareina:"
+
+# Patrons > Notices and notifications > SMSSendUsername
 # Enhanced content > Baker and Taylor
 msgid "patrons.pref#SMSSendUsername# and a password"
 msgstr "ja salasana"
@@ -13072,8 +12132,8 @@ msgstr "oletuksena järjestyksessä seuraavaa käytettävissä olevaa kirjastoko
 
 # Patrons > Patron relationships > borrowerRelationship
 # Patrons > Patron relationships
-msgid "patrons.pref#borrowerRelationship# (input multiple choices separated by |). Leave empty to deactivate."
-msgstr "(erota useampi vaihtoehto |-merkillä). Jätä tyhjäksi, jos ei käytössä."
+msgid "patrons.pref#borrowerRelationship# (input multiple choices separated by |)."
+msgstr "(erota useampi vaihtoehto |-merkillä)."
 
 # Patrons > Patron relationships > borrowerRelationship
 # Patrons > Patron relationships
@@ -13335,6 +12395,11 @@ msgstr "selata hakutulosta nimekkeen perustiedot-näytöllä virkailijatyökalus
 
 # Searching > Results display > DisplayLibraryFacets
 # Searching > Results display
+msgid "searching.pref#DisplayLibraryFacets# (Zebra only)."
+msgstr "(Vain Zebra)."
+
+# Searching > Results display > DisplayLibraryFacets
+# Searching > Results display
 msgid "searching.pref#DisplayLibraryFacets# Show facets for"
 msgstr "Näytä fasetit"
 
@@ -13352,6 +12417,10 @@ msgstr "sijaintikirjastolle"
 # Searching > Results display
 msgid "searching.pref#DisplayLibraryFacets# home library"
 msgstr "kotikirjastolle"
+
+# Searching > Features > ESPreventAutoTruncate
+msgid "searching.pref#ESPreventAutoTruncate# List of search fields (separated by | or ,) that should not be autotruncated by Elasticsearch even if <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=QueryAutoTruncate'>QueryAutoTruncate</a> is set to 'Yes':"
+msgstr "Lista hakukentistä (indekseistä) (erotettuna | tai , -merkeillä), joita ei saa katkaista automaattisesti Elasticsearchissä vaikka <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=QueryAutoTruncate'>QueryAutoTruncate</a> olisi päällä:"
 
 # Searching > Features > ElasticsearchCrossFields
 # Searching > Features
@@ -13655,6 +12724,10 @@ msgid "searching.pref#QueryAutoTruncate# <br />(The * character would be used li
 msgstr "<br />(Jokerimerkkiä * käytetään sanojen katkaisuun, esimerkiksi: <cite>Har*</cite> tai <cite>*logging</cite>.)"
 
 # Searching > Features > QueryAutoTruncate
+msgid "searching.pref#QueryAutoTruncate# <strong>NOTE:</strong> Record identifiers (biblionumber, authid) will never be autotruncated."
+msgstr "<strong>Huomioi:</strong> Tietuetunnisteita (biblionumber, authid) ei koskaan katkaista automaattisesti."
+
+# Searching > Features > QueryAutoTruncate
 # Searching > Features
 msgid "searching.pref#QueryAutoTruncate# Perform wildcard searching (where, for example, <cite>Har</cite> would match <cite>Harry</cite> and <cite>harp</cite>)"
 msgstr "Muodosta hakusanoista jokerihakuja (jolloin esimerkiksi hakusana <cite>Har</cite> poimisi hakutulokseen kaikki tietueet, joissa esiintyvät merkkijonot <cite>Harry</cite> tai <cite>harp</cite>)"
@@ -13733,6 +12806,21 @@ msgstr "Yritä soveltaa"
 # Searching > Features
 msgid "searching.pref#QueryWeightFields# ranking of search results by relevance (REQUIRES ZEBRA)."
 msgstr "hakutulosten osumatarkkuusjärjestystä hakutuloslistauksessa (Vaatii Zebra-hakumoottorin käyttöä)."
+
+# Searching > Results display > RetainCatalogSearchTerms
+# Searching > Features
+msgid "searching.pref#RedirectToSoleResult# Don't redirect"
+msgstr "Älä ohjaa"
+
+# Searching > Results display > RetainCatalogSearchTerms
+# Searching > Features
+msgid "searching.pref#RedirectToSoleResult# Redirect"
+msgstr "Ohjaa"
+
+# Searching > Results display > numSearchResults
+# Searching > Results display
+msgid "searching.pref#RedirectToSoleResult# to the result if a catalog search via the OPAC or staff interface returns only one record."
+msgstr "hakutulos teoksen tietoihin verkkokirjastossa ja virkailijaliittymässä, jos haku palauttaa vain yhden tuloksen."
 
 # Searching > Results display > RetainCatalogSearchTerms
 # Searching > Features
@@ -14052,6 +13140,10 @@ msgstr "Kausijulkaisut"
 msgid "serials.pref Features"
 msgstr "Ominaisuudet"
 
+# Interlibrary loans
+msgid "serials.pref Notifications"
+msgstr "Ilmoitukset"
+
 # Serials > Features > OPACSerialIssueDisplayCount
 # Serials
 msgid "serials.pref#OPACSerialIssueDisplayCount# Show the"
@@ -14126,6 +13218,35 @@ msgstr "Käytä"
 # Serials
 msgid "serials.pref#RoutingSerials# the routing list feature in the serials module."
 msgstr "kiertolistaominaisuutta kausijulkaisuissa."
+
+# Administration > Interface options > AddressForFailedOverdueNotices
+# Circulation > Checkin policy > StoreLastBorrower
+msgid "serials.pref#SerialsDefaultEmailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "<br>Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+
+# Administration > Interface options > ReplytoDefault
+# Administration > Interface options
+msgid "serials.pref#SerialsDefaultEmailAddress# Use the from email address"
+msgstr "Käytä lähettäjäosoitteena"
+
+# Acquisitions > Policy > ClaimsBccCopy
+# Acquisitions > Policy
+msgid "serials.pref#SerialsDefaultEmailAddress# when sending serial claim notices."
+msgstr "kun lähetetään reklamaatioita kausijulkaisuista."
+
+# Administration > Interface options > AddressForFailedOverdueNotices
+# Circulation > Checkin policy > StoreLastBorrower
+msgid "serials.pref#SerialsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "<br>Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston vastausosoite, kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+
+# Acquisitions > Policy > SerialsDefaultReplyTo
+msgid "serials.pref#SerialsDefaultReplyTo# Use the reply-to email address"
+msgstr "Käytä vastaussähköpostina"
+
+# Acquisitions > Policy > ClaimsBccCopy
+# Acquisitions > Policy
+msgid "serials.pref#SerialsDefaultReplyTo# when sending serial claim notices."
+msgstr "kun lähetetään reklamaatioita kausijulkaisuista."
 
 # Serials > Features > OPACSerialIssueDisplayCount
 # Serials
@@ -14210,6 +13331,11 @@ msgstr "kausijulkaisun kokoelmatiedot"
 # Serials
 msgid "serials.pref#opacSerialDefaultTab# subscriptions tab"
 msgstr "kausijulkaisutilaustiedot"
+
+# Serials > Features > opacSerialDefaultTab
+# Serials
+msgid "serials.pref#opacSerialDefaultTab# title notes tab"
+msgstr "nimekkeen huomautukset -välilehteä"
 
 # Staff Client
 msgid "staff_interface.pref"
@@ -14380,8 +13506,8 @@ msgstr "Käytä seuraavaa CSS-tyylitiedostoa virkailijaliittymän kaikilla sivui
 
 # Staff interface > Appearance > IntranetUserJS
 # Staff interface > Appearance
-msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface. You may need to ask your system administrator to rehash userjs checksums after changing this."
-msgstr "Sisällytä seuraava JavaScript kaikille virkailijaliittymän sivuille. Pyydä järjestelmän ylläpitäjää päivittämään järjestelmän tarkistussumma, kun muutat tätä asetusta."
+msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface:"
+msgstr "Sisällytä seuraava JavaScript kaikille virkailijaliittymän sivuille:"
 
 # Staff interface > Appearance > IntranetmainUserblock
 # Staff interface > Appearance
@@ -15047,6 +14173,46 @@ msgstr "Lisää tämän tietokannan tietueiden eteen tunniste"
 
 # Web services > REST API > RESTBasicAuth
 # Web services > REST API
+msgid "web_services.pref#RESTAPIRenewalBranch# 'APIRenew'"
+msgstr "'APIRenew'"
+
+# Web services
+# Web services > ILS-DI
+msgid "web_services.pref#RESTAPIRenewalBranch# NULL"
+msgstr "NULL"
+
+# Web services > REST API > RESTBasicAuth
+# Web services > REST API
+msgid "web_services.pref#RESTAPIRenewalBranch# Use"
+msgstr "Käytä"
+
+# OPAC > Policy > OpacRenewalBranch
+# OPAC > Policy
+msgid "web_services.pref#RESTAPIRenewalBranch# as branchcode to store in the statistics table."
+msgstr "REST APIn kautta tehdyn uusinnan kirjastokoodina tilastoinnissa."
+
+# OPAC > Policy > OpacRenewalBranch
+# OPAC > Policy
+msgid "web_services.pref#RESTAPIRenewalBranch# the item's home library"
+msgstr "niteen kotikirjastoa"
+
+# Web services > REST API > RESTPublicAPI
+# Web services > REST API
+msgid "web_services.pref#RESTAPIRenewalBranch# the library of the API user"
+msgstr "API-käyttäjän kotikirjastoa"
+
+# OPAC > Policy > OpacRenewalBranch
+# OPAC > Policy
+msgid "web_services.pref#RESTAPIRenewalBranch# the library the item was checked out from"
+msgstr "niteen lainannutta kirjastoa"
+
+# OPAC > Policy > OpacRenewalBranch
+# OPAC > Policy
+msgid "web_services.pref#RESTAPIRenewalBranch# the patron's home library"
+msgstr "asiakkaan kotikirjastoa"
+
+# Web services > REST API > RESTBasicAuth
+# Web services > REST API
 msgid "web_services.pref#RESTBasicAuth# <a href=\"https://www.w3.org/Protocols/HTTP/1.0/spec.html#BasicAA\" target=\"_blank\">Basic authentication</a> for the REST API."
 msgstr "<a href=\"https://www.w3.org/Protocols/HTTP/1.0/spec.html#BasicAA\" target=\"_blank\">Autentikointi</a> REST APIa varten."
 
@@ -15125,9 +14291,995 @@ msgstr "Palauta vain"
 msgid "web_services.pref#SvcMaxReportRows# rows of a report requested via the reports web service."
 msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 
-# Acquisitions > Policy > MarcItemFieldsToOrder
-#~ msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-#~ msgstr "<p>Jos kenttä puuttuu tai sitä ei ole mäpätty, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> tarkistetaan ja käytetään sille kentälle (paitsi määrä).</p>"
+# Administration > Login options > AutoLocation
+# Administration > Login options
+#~ msgid "admin.pref#AutoLocation# No"
+#~ msgstr "Ei"
+
+# Administration > Login options > AutoLocation
+# Administration > Login options
+#~ msgid "admin.pref#AutoLocation# Require staff to log in from a computer in the IP address range specified by their library (if any): "
+#~ msgstr "Vaadi henkilökuntaa kirjautumaan sellaiselta tietokoneelta, joka on kirjastolle määritellyssä IP-avaruudessa (jos on määritelty). "
+
+# Administration > Login options > AutoLocation
+# Administration > Login options
+#~ msgid "admin.pref#AutoLocation# Yes"
+#~ msgstr "Kyllä"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# "
+#~ msgstr " "
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Afghanistan"
+#~ msgstr "Afganistan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Albania"
+#~ msgstr "Albania"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Algeria"
+#~ msgstr "Algeria"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Andorra"
+#~ msgstr "Andorra"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Angola"
+#~ msgstr "Angola"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Antigua & Deps"
+#~ msgstr "Antigua ja Barbuda"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Argentina"
+#~ msgstr "Argentiina"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Armenia"
+#~ msgstr "Armenia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Australia"
+#~ msgstr "Australia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Austria"
+#~ msgstr "Itävalta"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Azerbaijan"
+#~ msgstr "Azerbaidžan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Bahamas"
+#~ msgstr "Bahama"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Bahrain"
+#~ msgstr "Bahrain"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Bangladesh"
+#~ msgstr "Bangladesh"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Barbados"
+#~ msgstr "Barbados"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Belarus"
+#~ msgstr "Valko-Venäjä"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Belgium"
+#~ msgstr "Belgia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Belize"
+#~ msgstr "Belize"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Benin"
+#~ msgstr "Benin"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Bhutan"
+#~ msgstr "Bhutan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Bolivia"
+#~ msgstr "Bolivia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Bosnia Herz."
+#~ msgstr "Bosnia ja Hertsegovina"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Botswana"
+#~ msgstr "Botswana"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Brazil"
+#~ msgstr "Brasilia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Brunei"
+#~ msgstr "Brunei"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Bulgaria"
+#~ msgstr "Bulgaria"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Burkina"
+#~ msgstr "Burkina Faso"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Burundi"
+#~ msgstr "Burundi"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Cambodia"
+#~ msgstr "Kambodža"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Cameroon"
+#~ msgstr "Kamerun"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Canada"
+#~ msgstr "Kanada"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Cape Verde"
+#~ msgstr "Kap Verde"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Centr. Afr. Rep"
+#~ msgstr "Keski-Afrikan tasavalta"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Chad"
+#~ msgstr "Tšad"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Chile"
+#~ msgstr "Chile"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# China"
+#~ msgstr "Kiina"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Colombia"
+#~ msgstr "Kolumbia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Comoros"
+#~ msgstr "Komorit"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Congo"
+#~ msgstr "Kongon tasavalta"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Costa Rica"
+#~ msgstr "Costa Rica"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Croatia"
+#~ msgstr "Kroatia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Cuba"
+#~ msgstr "Kuuba"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Cyprus"
+#~ msgstr "Kypros"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Czech Republic"
+#~ msgstr "Tšekki"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Denmark"
+#~ msgstr "Tanska"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Djibouti"
+#~ msgstr "Djibouti"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Dominica"
+#~ msgstr "Dominica"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Dominican Rep."
+#~ msgstr "Dominikaaninen tasavalta"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# East Timor"
+#~ msgstr "Itä-Timor"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Ecuador"
+#~ msgstr "Ecuador"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Egypt"
+#~ msgstr "Egypti"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# El Salvador"
+#~ msgstr "El Salvador"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Equator. Guinea"
+#~ msgstr "Päiväntasaajan Guinea"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Eritrea"
+#~ msgstr "Eritrea"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Estonia"
+#~ msgstr "Viro"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Ethiopia"
+#~ msgstr "Etiopia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Fiji"
+#~ msgstr "Fidži"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Finland"
+#~ msgstr "Suomi"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# France"
+#~ msgstr "Ranska"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Gabon"
+#~ msgstr "Gabon"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Gambia"
+#~ msgstr "Gambia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Georgia"
+#~ msgstr "Georgia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Germany"
+#~ msgstr "Saksa"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Ghana"
+#~ msgstr "Ghana"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Greece"
+#~ msgstr "Kreikka"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Grenada"
+#~ msgstr "Grenada"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Guatemala"
+#~ msgstr "Guatemala"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Guinea"
+#~ msgstr "Guinea"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Guinea-Bissau"
+#~ msgstr "Guinea-Bissau"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Guyana"
+#~ msgstr "Guyana"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Haiti"
+#~ msgstr "Haiti"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Honduras"
+#~ msgstr "Honduras"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Hungary"
+#~ msgstr "Unkari"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Iceland"
+#~ msgstr "Islanti"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# India"
+#~ msgstr "Intia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Indonesia"
+#~ msgstr "Indonesia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Iran"
+#~ msgstr "Iran"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Iraq"
+#~ msgstr "Irak"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Ireland"
+#~ msgstr "Irlanti"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Israel"
+#~ msgstr "Israel"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Italy"
+#~ msgstr "Italia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Ivory Coast"
+#~ msgstr "Norsunluurannikko"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Jamaica"
+#~ msgstr "Jamaika"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Japan"
+#~ msgstr "Japani"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Jordan"
+#~ msgstr "Jordania"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Kazakhstan"
+#~ msgstr "Kazakstan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Kenya"
+#~ msgstr "Kenia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Kiribati"
+#~ msgstr "Kiribati"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Korea North"
+#~ msgstr "Pohjois-Korea"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Korea South"
+#~ msgstr "Etelä-Korea"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Kosovo"
+#~ msgstr "Kosovo"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Kuwait"
+#~ msgstr "Kuwait"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Kyrgyzstan"
+#~ msgstr "Kirgisia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Laos"
+#~ msgstr "Laos"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Latvia"
+#~ msgstr "Latvia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Lebanon"
+#~ msgstr "Libanon"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Lesotho"
+#~ msgstr "Lesotho"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Liberia"
+#~ msgstr "Liberia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Libya"
+#~ msgstr "Libya"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Liechtenstein"
+#~ msgstr "Liechtenstein"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Lithuania"
+#~ msgstr "Liettua"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Luxembourg"
+#~ msgstr "Luxemburg"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Macedonia"
+#~ msgstr "Makedonia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Madagascar"
+#~ msgstr "Madagaskar"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Malawi"
+#~ msgstr "Malawi"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Malaysia"
+#~ msgstr "Malesia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Maldives"
+#~ msgstr "Malediivit"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Mali"
+#~ msgstr "Mali"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Malta"
+#~ msgstr "Malta"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Marshall Isl."
+#~ msgstr "Marshallinsaaret"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Mauritania"
+#~ msgstr "Mauritania"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Mauritius"
+#~ msgstr "Mauritius"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Mexico"
+#~ msgstr "Meksiko"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Micronesia"
+#~ msgstr "Mikronesia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Moldova"
+#~ msgstr "Moldova"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Monaco"
+#~ msgstr "Monaco"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Mongolia"
+#~ msgstr "Mongolia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Montenegro"
+#~ msgstr "Montenegro"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Morocco"
+#~ msgstr "Marokko"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Mozambique"
+#~ msgstr "Mosambik"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Myanmar"
+#~ msgstr "Myanmar"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Namibia"
+#~ msgstr "Namibia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Nauru"
+#~ msgstr "Nauru"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Nepal"
+#~ msgstr "Nepal"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Netherlands"
+#~ msgstr "Alankomaat"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# New Zealand"
+#~ msgstr "Uusi-Seelanti"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Nicaragua"
+#~ msgstr "Nicaragua"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Niger"
+#~ msgstr "Niger"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Nigeria"
+#~ msgstr "Nigeria"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Norway"
+#~ msgstr "Norja"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Oman"
+#~ msgstr "Oman"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Pakistan"
+#~ msgstr "Pakistan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Palau"
+#~ msgstr "Palau"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Panama"
+#~ msgstr "Panama"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Papua N. Guinea"
+#~ msgstr "Papua-Uusi-Guinea"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Paraguay"
+#~ msgstr "Paraguay"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Peru"
+#~ msgstr "Peru"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Philippines"
+#~ msgstr "Filippiinit"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Poland"
+#~ msgstr "Puola"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Portugal"
+#~ msgstr "Portugali"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Qatar"
+#~ msgstr "Qatar"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Romania"
+#~ msgstr "Romania"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Russian Fed."
+#~ msgstr "Venäjä"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Rwanda"
+#~ msgstr "Ruanda"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Saint Vincent"
+#~ msgstr "Saint Vincent ja Grenadiinit"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Samoa"
+#~ msgstr "Samoa"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# San Marino"
+#~ msgstr "San Marino"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Sao Tome"
+#~ msgstr "São Tomé ja Príncipe"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Saudi Arabia"
+#~ msgstr "Saudi-Arabia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Senegal"
+#~ msgstr "Senegal"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Serbia"
+#~ msgstr "Serbia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Seychelles"
+#~ msgstr "Seychellit"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Singapore"
+#~ msgstr "Singapore"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Slovakia"
+#~ msgstr "Slovakia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Slovenia"
+#~ msgstr "Slovenia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Solomon Islands"
+#~ msgstr "Salomonsaaret"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Somalia"
+#~ msgstr "Somalia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# South Africa"
+#~ msgstr "Etelä-Afrikka"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Spain"
+#~ msgstr "Espanja"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# St Kitts & Nev."
+#~ msgstr "Saint Kitts ja Nevis"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# St Lucia"
+#~ msgstr "Saint Lucia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Sudan"
+#~ msgstr "Sudan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Suriname"
+#~ msgstr "Suriname"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Swaziland"
+#~ msgstr "Swazimaa"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Sweden"
+#~ msgstr "Ruotsi"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Switzerland"
+#~ msgstr "Sveitsi"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Syria"
+#~ msgstr "Syyria"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Taiwan"
+#~ msgstr "Taiwan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Tajikistan"
+#~ msgstr "Tadžikistan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Tanzania"
+#~ msgstr "Tansania"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Thailand"
+#~ msgstr "Thaimaa"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Togo"
+#~ msgstr "Togo"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Tonga"
+#~ msgstr "Tonga"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Trinidad & Tob."
+#~ msgstr "Trinidad ja Tobago"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Tunisia"
+#~ msgstr "Tunisia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Turkey"
+#~ msgstr "Turkki"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Turkmenistan"
+#~ msgstr "Turkmenistan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Tuvalu"
+#~ msgstr "Tuvalu"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# UAE"
+#~ msgstr "Yhdistyneet arabiemiirikunnat"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# USA"
+#~ msgstr "Yhdysvallat"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Uganda"
+#~ msgstr "Uganda"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Ukraine"
+#~ msgstr "Ukraina"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# United Kingdom"
+#~ msgstr "Yhdistynyt kuningaskunta"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Uruguay"
+#~ msgstr "Uruguay"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Uzbekistan"
+#~ msgstr "Uzbekistan"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Vanuatu"
+#~ msgstr "Vanuatu"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Vatican City"
+#~ msgstr "Vatikaanivaltio"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Venezuela"
+#~ msgstr "Venezuela"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Vietnam"
+#~ msgstr "Vietnam"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Yemen"
+#~ msgstr "Jemen"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Zambia"
+#~ msgstr "Sambia"
+
+# Administration > Share anonymous usage statistics > UsageStatsCountry
+# Administration > Share anonymous usage statistics
+#~ msgid "admin.pref#UsageStatsCountry# Zimbabwe"
+#~ msgstr "Zimbabwe"
 
 # Administration > Interface options
 #~ msgid "admin.pref#noItemTypeImages# Yes"
@@ -15183,11 +15335,6 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 #~ msgid "circulation.pref#AutoRemoveOverduesRestrictions# allow OVERDUES restrictions triggered by sent notices to be cleared automatically when all overdue items are returned by a patron."
 #~ msgstr "MYÖHÄSSÄ-rajoitusten poistua automaattisesti lähetetystä myöhästymismuistutuksesta, kun asiakas palauttaa kaikki myöhässä olevat niteet."
 
-# Circulation > Checkout policy > DefaultLongOverdueLostValue
-# Circulation > Checkout policy
-#~ msgid "circulation.pref#DefaultLongOverdueLostValue# By default, set the LOST value of an item to"
-#~ msgstr "Oletuksena, aseta KADONNUT-tila niteelle"
-
 # Circulation > Holds policy > EnableItemGroupHolds
 # Circulation > Holds policy
 #~ msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups."
@@ -15202,10 +15349,6 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 # Circulation > Checkout policy
 #~ msgid "circulation.pref#HoldsInNoissuesCharge# Include"
 #~ msgstr "Sisällytä"
-
-# Circulation > Checkout policy > HoldsInNoissuesCharge
-#~ msgid "circulation.pref#HoldsInNoissuesCharge# hold charges when summing up charges for limit set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> system preference."
-#~ msgstr "varausmaksuja, kun lasketaan yhteen asiakkaan maksuja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> järjestelmäasetuksen summaan."
 
 # Circulation > Checkout policy > ManInvInNoissuesCharge
 # Circulation > Checkout policy
@@ -15246,8 +15389,8 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#~ msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't send"
-#~ msgstr "Älä lähetä"
+#~ msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
+#~ msgstr "Lähetä"
 
 # Circulation > Self check-out module > SelfCheckHelpMessage
 # Circulation > Self check-out module
@@ -15278,11 +15421,6 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 # Circulation > Checkin policy
 #~ msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
 #~ msgstr "Tämä on lista arvopareista. Kun nide palautetaan ja niteen 'ei lainattavissa' -arvo vastaa tässä vasemmalla olevaa 'ei lainattavissa' -arvoa, päivitetään se oikealla olevaan arvoon."
-
-# Administration > Interface options > AddressForFailedOverdueNotices
-# Circulation > Checkin policy > StoreLastBorrower
-#~ msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
-#~ msgstr "Käytetään listan ensimmäistä määriteltyä osoitetta: kirjaston vastausosoite, kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Circulation > Interface
 #~ msgid "circulation.pref#itemBarcodeInputFilter# scanned item barcodes."
@@ -15331,9 +15469,32 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 #~ msgid "enhanced_content.pref#RecordedBooksLibraryID# Show items from the RecordedBooks catalog of library ID"
 #~ msgstr "Näytä niteet kirjaston RecordedBooks-luettelosta #"
 
+# Interlibrary loans > Features > ILLModuleCopyrightClearance
+# Circulation > Interlibrary loans
+#~ msgid "interlibrary_loans.pref#ILLModuleCopyrightClearance# Adding text will enable the copyright clearance stage in request creation. The text you enter will be the text displayed. OPAC only."
+#~ msgstr "Tekstin lisääminen mahdollistaa tekijänoikeus-ilmoituksen (copyright clearance stage) kun tehdään pyyntöä. Lisätty teksti näytetään. Vain verkkokirjastossa."
+
 # Logging > Debugging > DumpSearchQueryTemplate
 #~ msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=DumpTemplateVars\">DumpTemplateVars</a>[interface] to be visible."
 #~ msgstr "hakulauseketta sivupohjan parametriksi, vaatii <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=DumpTemplateVars\">DumpTemplateVars</a>[käyttöliittymä] näkyäkseen."
+
+# OPAC > Features > OPACAuthorIdentifiers
+# OPAC > Features
+#~ msgid "opac.pref#OPACAuthorIdentifiers# Display"
+#~ msgstr "Näytä"
+
+# OPAC > Features > OPACAuthorIdentifiers
+# OPAC > Features
+#~ msgid "opac.pref#OPACAuthorIdentifiers# Don't display"
+#~ msgstr "Älä näytä"
+
+# OPAC > Features > OPACAuthorIdentifiers
+#~ msgid "opac.pref#OPACAuthorIdentifiers# This feature requires authorities with 024$2 and 024$a."
+#~ msgstr "Tämä ominaisuus vaatii auktoriteetteja 024$2 ja 024$a."
+
+# OPAC > Features > OPACAuthorIdentifiers
+#~ msgid "opac.pref#OPACAuthorIdentifiers# Valid source codes in $2 are currently: orcid, scopus, loop, rid and viaf."
+#~ msgstr "Sallitut lähdekoodin kentälle $2 ovat tällä hetkellä: orcid, scopus, loop, rid ja viaf."
 
 # OPAC > Appearance > OPACResultsSidebar
 # OPAC > Appearance
@@ -15353,47 +15514,6 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 # OPAC > Self registration and modification
 #~ msgid "opac.pref#PatronSelfRegistrationAdditionalInstructions# Display the following additional instructions for patrons who self register via the OPAC ( HTML is allowed ):"
 #~ msgstr "Näytä seuraava lisäohje asiakkaille, jotka rekisteröityvät itse verkkokirjaston kautta (HTML on sallittu):"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
-#~ msgstr "</ul>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
-#~ msgstr "<li>Ensimmäinen prioriteetti: Käytä --list-invites -parametriä, kun cleanup_datebase.pl ajastettu ajo käynnistetään, --list-invites -parametrin määrittäessä päivien määrän.</li>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
-#~ msgstr "<li>Toinen prioriteetti: Käytä PurgeListShareInvitesOlderThan -järjestelmäasetusta, kun siihen on määritetty arvo.</li>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
-#~ msgstr "<li>Kolmas prioriteetti: Käytä oletusarvoa 14 päivää, kun cleanup_database.pl -ajastettu ajo ajetaan --list-invites -parametrilla ilman arvoa JA PurgeListShareInvitesOlderThan -järjestelmäasetus on tyhjä.</li>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
-#~ msgstr "<p><strong>Varoitus</strong>: Hyväksymättömät yksityisten listojen jaot poistetaan käyttäen näitä prioriteettejä:"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
-#~ msgstr "<p>Esimerkki: [14] Poistaa hyväksymättömät yksityiset listajaot, jotka ovat vanhempia kuin 14 päivää.</p>"
-
-# OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
-# Patrons > General > LockExpiredDelay
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
-#~ msgstr "<br><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/cleanup_database.pl</code> -cronjobin. Pyydä ylläpitäjiä ajastamaan se."
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
-#~ msgstr "<ul>"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
-#~ msgstr "cleanup_database.pl -ajastettu ajo poistaa automaattisesti hyväksymättömät yksityisten listojen jaot"
-
-# OPAC > Policy > PurgeListShareInvitesOlderThan
-#~ msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
-#~ msgstr "päivän jälkeen."
 
 # OPAC > Features
 #~ msgid "opac.pref#ShowReviewerPhoto# Hide"
@@ -15438,10 +15558,5 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#~ msgid "patrons.pref#CollapseFieldsPatronAddForm# Non-patron guarantor"
-#~ msgstr "Ei-asiakas -takaaja"
-
-# Patrons > Patron forms > CollapseFieldsPatronAddForm
-# Patrons > Patron forms
-#~ msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
-#~ msgstr "Asiakastakaaja"
+#~ msgid "patrons.pref#CollapseFieldsPatronAddForm# Guarantor information"
+#~ msgstr "Takaajan tiedot"
