@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-20 11:32+0300\n"
-"PO-Revision-Date: 2024-08-05 11:01+0300\n"
+"PO-Revision-Date: 2024-08-05 15:26+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -12783,7 +12783,7 @@ msgstr "Palautusilmoitukset:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:102
 #, c-format
 msgid "Patron's guarantors and their other guarantees collectively owe %s. Total (incl. non-blocking): %s. %s "
-msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on maksuja yhteensä %s. Yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. %s "
+msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on lainauskieltoon vaikuttavia maksuja yhteensä %s. Yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. %s "
 
 #. %1$s:  chargesamount_guarantees | $Price with_symbol => 1
 #. %2$s:  chargesamount_guarantees_total | $Price with_symbol => 1
@@ -12792,7 +12792,7 @@ msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on maksuja yhteens�
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:111
 #, c-format
 msgid "Patron's guarantees collectively owe %s. Total (incl. non-blocking ): %s. Guarantees total (incl. non-blocking ): %s. %s "
-msgstr "Asiakkaan taattavilla on yhteensä maksuja %s. Yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. Taattavilla yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. %s "
+msgstr "Asiakkaan taattavilla on lainauskieltoon vaikuttavia maksuja yhteensä %s. Yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. Taattavilla yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:123
 #, c-format
@@ -43676,7 +43676,7 @@ msgstr "Asiakkaan taattavilla on lainauskieltoon vaikuttavia maksuja yhteensä %
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:451
 #, c-format
 msgid "The patron's guarantors and their other guarantees collectively have a debt of %s."
-msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on maksuja yhteensä %s."
+msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on lainauskieltoon vaikuttavia maksuja yhteensä %s."
 
 #. %1$s:  RENTALCHARGE | $Price
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:141
@@ -44336,14 +44336,14 @@ msgstr "Ei voi lainata! %s %s %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:69
 #, c-format
 msgid "Patron's guarantors and their other guarantees collectively owe %s. %s "
-msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on maksuja yhteensä %s. %s "
+msgstr "Asiakkaan takaajilla ja heidän muilla taattavillaan on lainauskieltoon vaikuttavia maksuja yhteensä %s. %s "
 
 #. %1$s:  chargesamount_guarantees | $Price
 #. %2$s:  IF noissues
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:77
 #, c-format
 msgid "Patron's guarantees collectively owe %s. %s "
-msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €. %s "
+msgstr "Asiakkaan taattavilla on lainauskieltoon vaikuttavia maksuja yhteensä %s. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:89
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:48
@@ -52732,7 +52732,7 @@ msgstr "Näytä maksut takaajalle:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:216
 #, c-format
 msgid "Patron's guarantees collectively owe %s. Total (incl. non-blocking): %s. "
-msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €. Taattavilla yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. "
+msgstr "Asiakkaan taattavilla on lainauskieltoon vaikuttavia maksuja yhteensä %s. Taattavilla yhteensä (sis. maksut, jotka eivät vaikuta lainakieltoon): %s. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:218
 #, c-format
