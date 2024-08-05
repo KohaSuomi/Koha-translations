@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-20 11:32+0300\n"
-"PO-Revision-Date: 2024-06-20 12:32+0300\n"
+"PO-Revision-Date: 2024-08-05 11:01+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -43668,7 +43668,7 @@ msgstr "Asiakkaalla on velkoja %s."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:133
 #, c-format
 msgid "The patron's guarantees collectively have a debt of %s."
-msgstr "Asiakkaan taattavilla on yhteensä maksuja %s €."
+msgstr "Asiakkaan taattavilla on lainauskieltoon vaikuttavia maksuja yhteensä %s."
 
 #. For the first occurrence,
 #. %1$s:  DEBT_GUARANTORS | $Price
