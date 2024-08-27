@@ -1,11 +1,11 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-07-23 04:05+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
+"PO-Revision-Date: 2024-08-16 03:04+0000\n"
+"Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -289,7 +289,7 @@ msgstr "jos virkailija yrittää luoda laskua samalle numerolle."
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Circulation > Checkin policy > StoreLastBorrower
 msgid "acquisitions.pref#AcquisitionsDefaultEmailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "<br>Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston osoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston osoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > AcquisitionsDefaultEMailAddress
 msgid "acquisitions.pref#AcquisitionsDefaultEmailAddress# Use the from email address"
@@ -857,7 +857,7 @@ msgstr "käyttäjä(ä) valitsemaan kirjautumiskirjasto virkailijaliittymään k
 # Administration > Google OpenID Connect > GoogleOAuth2ClientID
 # OPAC > Appearance
 msgid "admin.pref#GoogleOAuth2ClientID# Along with <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GoogleOAuth2ClientSecret\">GoogleOAuth2ClientSecret</a>, enables <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GoogleOpenIDConnect\">GoogleOpenIDConnect.</a>"
-msgstr "Käytettynä yhdessä <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GoogleOAuth2ClientSecret\">GoogleOAuth2ClientSecret</a>:n kanssa mahdollistaa <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GoogleOpenIDConnect\">GoogleOpenIDConnect</a>:n käytön."
+msgstr "Käytettynä yhdessä <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GoogleOAuth2ClientSecret\">GoogleOAuth2ClientSecret</a>:n kanssa mahdollistaa <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GoogleOpenIDConnect\">GoogleOpenIDConnect</a>:n käytön"
 
 # Administration > Google OpenID Connect > GoogleOAuth2ClientID
 # Administration > Google OpenID Connect
@@ -1995,7 +1995,7 @@ msgstr "Täytä oletuskieli kenttään 008 merkkipaikkoihin 35-37 MARC21-tietuee
 
 # Cataloging > Interface > DefaultSaveRecordFileID
 msgid "cataloguing.pref#DefaultSaveRecordFileID# When saving in a MARC/MARCXML file in the advanced cataloging editor or exporting from the detail page in the staff interface, use the"
-msgstr "Kun tallennetaan MARC/MARCXML-tietue kehittyneessä kuvailueditorissa tai se viedään virkailijatyökalun perusnäytöltä, käytä"
+msgstr "Kun tallennetaan MARC/MARCXML-tietue kehittyneessä kuvailueditorissa tai se viedään virkailijaliittymän perusnäytöltä, käytä"
 
 # Cataloging > Interface > DefaultSaveRecordFileID
 # Cataloging > Record structure
@@ -2261,7 +2261,7 @@ msgstr "(Jätä tyhjäksi, jos tätä ei käytetä. Määrittele alue muodossa <
 
 # Cataloging > Display > OpacSuppression
 msgid "cataloguing.pref#OpacSuppression# <br /> A custom message can be shown on the redirect page for suppressed bibliographic records by creating an <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML customization</a> in the OpacSuppressionMessage region."
-msgstr "Lisäohje voidaan näyttää kaikilla piilotettujen tietueiden uudelleenohjaussivuilla lisäämällä se <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML-muokkauksissa</a> OpacSuppressionMessage-osiossa."
+msgstr "<br /> Lisäohje voidaan näyttää kaikilla piilotettujen tietueiden uudelleenohjaussivuilla lisäämällä se <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML-muokkauksissa</a> OpacSuppressionMessage-osiossa."
 
 # Cataloging > Display > OpacSuppression
 # Cataloging > Display
@@ -2596,7 +2596,7 @@ msgstr "UNIMARC: \"995$f 995$h 995$j\""
 # Cataloging > Record structure > SubfieldsToUseWhenPrefill
 # Cataloging > Record structure
 msgid "cataloguing.pref#SubfieldsToUseWhenPrefill# Define a list of subfields to use when prefilling items (separated by space):"
-msgstr "Listaa esitäytettävät niteen osakentät (erottele välilyönnein)"
+msgstr "Listaa esitäytettävät niteen osakentät (erottele välilyönnein):"
 
 # Cataloging > Record structure > SubfieldsToUseWhenPrefill
 # Cataloging > Record structure
@@ -3388,7 +3388,7 @@ msgstr "Salli"
 
 # Circulation > Article requests > ArticleRequestsSupportedFormats
 msgid "circulation.pref#ArticleRequestsSupportedFormats# (Valid choices are currently: PHOTOCOPY and SCAN. Separate the supported formats by a vertical bar. The first listed format is selected by default when you request via the OPAC.)"
-msgstr "(Kelvolliset vaihtoehdot: PHOTOCOPY ja SCAN. Erottele tuetut muodot pystyviivalla. Ensimmäinen listattu muoto on oletus verkkokirjaston puolella."
+msgstr "(Kelvolliset vaihtoehdot: PHOTOCOPY ja SCAN. Erottele tuetut muodot pystyviivalla. Ensimmäinen listattu muoto on oletus verkkokirjaston puolella.)"
 
 # Circulation > Article requests > ArticleRequestsSupportedFormats
 # Circulation > Article requests
@@ -4470,7 +4470,7 @@ msgstr "."
 # Circulation > Holds policy > HoldsSplitQueue
 # Circulation > Holds policy
 msgid "circulation.pref#HoldsSplitQueue# In the staff interface, split the holds queue into separate tables by"
-msgstr "Virkailijatyökalussa, jaa varausjono eri tauluihin seuraavasti"
+msgstr "Virkailijaliittymässä, jaa varausjono eri tauluihin seuraavasti"
 
 # Circulation > Holds policy > HoldsSplitQueue
 # Circulation > Holds policy
@@ -4651,7 +4651,7 @@ msgstr "Priorisoi"
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# holding library"
-msgstr "noutokirjastoa"
+msgstr "sijaintikirjasto(a)"
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
@@ -5318,7 +5318,7 @@ msgstr "estä"
 # Circulation > Patron restrictions > RestrictionBlockRenewing
 # Circulation > Checkout policy
 msgid "circulation.pref#RestrictionBlockRenewing# renewing of items from the staff interface and via the <code>misc/cronjobs/automatic_renewals.pl</code> cronjob."
-msgstr "Niteiden uusinta virkailijatyökalulla ja cronjobin <code>misc/cronjobs/automatic_renewals.pl</code> avulla."
+msgstr "Niteiden uusinta virkailijaliittymässä ja cronjobin <code>misc/cronjobs/automatic_renewals.pl</code> avulla."
 
 # Circulation > Checkout policy > ReturnBeforeExpiry
 # Circulation > Checkout policy
@@ -5620,7 +5620,7 @@ msgstr "henkilökunnan määrittää palautuspäivä palautettaessa."
 # Circulation > Checkout policy > StaffSearchResultsDisplayBranch
 # Circulation > Checkout policy
 msgid "circulation.pref#StaffSearchResultsDisplayBranch# For search results in the staff interface, display"
-msgstr "Virkailijatyökalun hakutuloksissa, näytä"
+msgstr "Virkailijaliittymän hakutuloksissa, näytä"
 
 # Circulation > Checkout policy > StaffSearchResultsDisplayBranch
 # Circulation > Checkout policy
@@ -6219,7 +6219,7 @@ msgstr "Mahdollista käyttäjille"
 # Circulation > Self check-out module > WebBasedSelfCheck
 # Circulation > Self check-out module
 msgid "circulation.pref#WebBasedSelfCheck# the web-based self checkout system (available at: /cgi-bin/koha/sco/sco-main.pl)."
-msgstr "itsepalvelulainaus. (osoitteessa: /cgi-bin/koha/sco/sco-main.pl)"
+msgstr "itsepalvelulainaus (osoitteessa: /cgi-bin/koha/sco/sco-main.pl)."
 
 # Circulation > Fines Policy > WhenLostChargeReplacementFee
 # Circulation > Fines Policy
@@ -6888,7 +6888,7 @@ msgstr "Näytä"
 # Enhanced content > All > FRBRizeEditions
 # Enhanced content > All
 msgid "enhanced_content.pref#FRBRizeEditions# other editions of an item on the staff interface (if found by one of the services below)."
-msgstr "muut teoksen painokset virkailijatyökalussa (jos löytyy alla olevista palveluista)."
+msgstr "muut teoksen painokset virkailijaliittymässä (jos löytyy alla olevista palveluista)."
 
 # Enhanced content > Google > GoogleJackets
 # Enhanced content > Google
@@ -7202,7 +7202,7 @@ msgstr "."
 # Enhanced content > Novelist Select > NovelistSelectView
 # Enhanced content > Novelist Select
 msgid "enhanced_content.pref#NovelistSelectView# Display Novelist Select content"
-msgstr "Näytä Novelist Select -sisältö."
+msgstr "Näytä Novelist Select -sisältö"
 
 # Enhanced content > Novelist Select > NovelistSelectView
 # Enhanced content > Novelist Select
@@ -8091,7 +8091,7 @@ msgstr "Jokaiselle pyyntötyypille on mahdollista tehdä kolme asetusmäärityst
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# If the ILL backend supports it, adding YAML will enable the request type disclaimer stage in request creation, prompting the user with a request type specific disclaimer as defined (staff interface and OPAC)."
-msgstr "Jos kaukalainayhteys tukee sitä, YAML sallii pyyntötyypin vastuunvapausvaiheen pyyntöä luotaessa antaen käyttäjälle pyyntötyyppiä vastaavan vastuunvapausilmoituksen (virkailijaliittymä ja verkkokirjasto)."
+msgstr "Jos kaukolainayhteys tukee sitä, YAML sallii pyyntötyypin vastuunvapausvaiheen pyyntöä luotaessa antaen käyttäjälle pyyntötyyppiä vastaavan vastuunvapausilmoituksen (virkailijaliittymä ja verkkokirjasto)."
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Housebound module
@@ -8116,7 +8116,7 @@ msgstr "asiakkaiden lähettämät kaukolainapyynnöt. Jos sallittu ja kaukolaina
 # Interlibrary loans > OPAC > ILLOpacbackends
 # Circulation > Interlibrary loans
 msgid "interlibrary_loans.pref#ILLOpacbackends# (separated with |). If left empty, all installed backends will be enabled."
-msgstr "(erotetaan | -merkillä). Jos jätetään tyhjäksi, kaikki kaikki määritetyt kaukolainayhteydet sallitaan."
+msgstr "(erotetaan | -merkillä). Jos jätetään tyhjäksi, kaikki määritetyt kaukolainayhteydet sallitaan."
 
 # Interlibrary loans > OPAC > ILLOpacbackends
 # Circulation > Interlibrary loans
@@ -8780,7 +8780,7 @@ msgstr "Asiakkaalla voi olla korkeintaan"
 # OPAC > Suggestions > MaxOpenSuggestions
 # OPAC > Policy
 msgid "opac.pref#MaxOpenSuggestions# open suggestions. Leave empty for no limit. **Note: this setting does not affect anonymous suggestions."
-msgstr "avointa hankintaehdotusta. Jätä tyhjäksi, jos ei rajoiteta. **Huomaa: tämä asetus ei vaikuta nimettömiin hankintaehdotuksiin"
+msgstr "avointa hankintaehdotusta. Jätä tyhjäksi, jos ei rajoiteta. **Huomaa: tämä asetus ei vaikuta nimettömiin hankintaehdotuksiin."
 
 # OPAC > Suggestions > MaxTotalSuggestions
 # OPAC > Policy
@@ -9523,7 +9523,7 @@ msgstr "Julkaisuaika"
 # OPAC > Advanced search options > OpacAdvSearchMoreOptions
 # OPAC > Advanced Search Options
 msgid "opac.pref#OpacAdvSearchMoreOptions# Show search options for the expanded view:"
-msgstr "Näytä seuraavat hakuvaihtoehdot 'Enemmän vaihtoehtoja' -näkymässä"
+msgstr "Näytä seuraavat hakuvaihtoehdot 'Enemmän vaihtoehtoja' -näkymässä:"
 
 # OPAC > Advanced search options > OpacAdvSearchMoreOptions
 # OPAC > Advanced Search Options
@@ -9643,7 +9643,7 @@ msgstr "Ota käyttöön"
 # OPAC > Features > OpacBrowseResults
 # OPAC > Features
 msgid "opac.pref#OpacBrowseResults# browsing and paging search results from the OPAC detail page."
-msgstr "hakutulosten selailu ja sivutus verkkokirjaston perustiedot-näytöllä"
+msgstr "hakutulosten selailu ja sivutus verkkokirjaston perustiedot-näytöllä."
 
 # OPAC > Features > OpacBrowseSearch
 # OPAC > Features
@@ -10465,7 +10465,7 @@ msgstr "<p>Esimerkki: [14] Poistaa hyväksymättömät yksityiset listajaot, jot
 # OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
 # Patrons > General > LockExpiredDelay
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/cleanup_database.pl</code> -cronjobin. Pyydä ylläpitäjiä ajastamaan se."
+msgstr "<strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/cleanup_database.pl</code> -cronjobin. Pyydä ylläpitäjiä ajastamaan se."
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
@@ -10530,7 +10530,7 @@ msgstr "Käytä"
 # OPAC > Restricted page > RestrictedPageTitle
 # OPAC > Restricted page
 msgid "opac.pref#RestrictedPageTitle# as title of your restricted page (appears in the breadcrumb and on the top of the restricted page)."
-msgstr "rajoitetun sivun nimenä (näkyy murupolussa ja rajoitetun sivun yläreunassa)"
+msgstr "rajoitetun sivun nimenä (näkyy murupolussa ja rajoitetun sivun yläreunassa)."
 
 # OPAC > Policy > SearchMyLibraryFirst
 # OPAC > Policy
@@ -11410,7 +11410,7 @@ msgstr "Älä salli"
 # Patrons > General > intranetreadinghistory
 # Patrons > General
 msgid "patrons.pref#IntranetReadingHistoryHolds# staff to access a patron's hold history (hold history is still stored, regardless of staff being allowed access or not)."
-msgstr "henkilökunnan nähdä asiakkaan varaushistoria(a) (varaushistoria tallennetaan, vaikka henkilökunnalla ei olisikaan oikeutta nähdä sitä.)"
+msgstr "henkilökunnan nähdä asiakkaan varaushistoria(a) (varaushistoria tallennetaan, vaikka henkilökunnalla ei olisikaan oikeutta nähdä sitä)."
 
 # Patrons > General > ListOwnershipUponPatronDeletion
 msgid "patrons.pref#ListOwnershipUponPatronDeletion# <br/>When changing owner at patron deletion, use borrowernumber "
@@ -11422,7 +11422,7 @@ msgstr "Kaikki poistettavan asiakkaan julkiset tai jaetut listat joko poistetaan
 
 # Patrons > General > ListOwnershipUponPatronDeletion
 msgid "patrons.pref#ListOwnershipUponPatronDeletion# When deleting a patron who owns public or shared lists,"
-msgstr "Kun poistetaan asiakasta, joka omistaa julkisia tai jaettuja listoja:"
+msgstr "Kun poistetaan asiakasta, joka omistaa julkisia tai jaettuja listoja"
 
 # Patrons > General > ListOwnershipUponPatronDeletion
 msgid "patrons.pref#ListOwnershipUponPatronDeletion# as new list owner, or leave this field empty in order to change owner to the active staff member who deletes the patron."
@@ -11930,7 +11930,7 @@ msgstr "Postinumero"
 # Patrons > Security > Pseudonymization
 # Patrons > Security
 msgid "patrons.pref#Pseudonymization# pseudonymization to comply with data privacy policies and regulations like GDPR for managing personal information."
-msgstr "pseudonymisointi(a) noudattamaan GPDR-sääntöjä henkilökohtaisista tiedoista."
+msgstr "pseudonymisointi(a) noudattamaan GDPR-sääntöjä henkilökohtaisista tiedoista."
 
 # Patrons > Patron relationships > PrefillGuaranteeField
 # Patrons > Patron relationships
@@ -12391,7 +12391,7 @@ msgstr "Salli"
 # Searching > Features > BrowseResultSelection
 # Searching > Features
 msgid "searching.pref#BrowseResultSelection# browsing search results from the bibliographic record detail page in staff interface."
-msgstr "selata hakutulosta nimekkeen perustiedot-näytöllä virkailijatyökalussa."
+msgstr "selata hakutulosta nimekkeen perustiedot-näytöllä virkailijaliittymässä."
 
 # Searching > Results display > DisplayLibraryFacets
 # Searching > Results display
@@ -12698,7 +12698,7 @@ msgstr "Näytä"
 # Searching > Results display > OPACnumSearchResultsDropdown
 # Searching > Results display
 msgid "searching.pref#OPACnumSearchResultsDropdown# results per page dropdown on OPAC search results."
-msgstr "tuloksia sivulla -pudotusvalikko(a) virkailijaliittymän hakutulossivulla."
+msgstr "tuloksia sivulla -pudotusvalikko(a) asiakasliittymän hakutulossivulla."
 
 # Searching > Results display > PassItemMarcToXSLT
 msgid "searching.pref#PassItemMarcToXSLT# <br/>Default is \"Don't\", items are displayed using other methods."
@@ -13577,7 +13577,7 @@ msgstr "yläreunassa"
 # Staff interface > Appearance > StaffLoginInstructions
 # Staff interface > Appearance
 msgid "staff_interface.pref#StaffLoginInstructions# Show the following HTML on the staff interface login page"
-msgstr "Näytä seuraava HTML virkailijatyökalun kirjautumissivulla"
+msgstr "Näytä seuraava HTML virkailijaliittymän kirjautumissivulla"
 
 # Staff interface > Authentication > TwoFactorAuthentication
 # Staff interface > Options

@@ -1,11 +1,11 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 03:07+0000\n"
-"PO-Revision-Date: 2024-07-23 04:05+0000\n"
-"Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
+"POT-Creation-Date: 2024-08-17 03:33+0000\n"
+"PO-Revision-Date: 2024-08-22 03:50+0000\n"
+"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -1735,7 +1735,7 @@ msgstr "Perusasetukset"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:210
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:58
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2569
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2573
 #, c-format
 msgid "Libraries"
 msgstr "Kirjastot"
@@ -1756,7 +1756,7 @@ msgstr "Kirjastoryhmät"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:390
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:516
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2568
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2572
 #, c-format
 msgid "Item types"
 msgstr "Nidetyypit"
@@ -1766,7 +1766,7 @@ msgstr "Nidetyypit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:229
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2564
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2568
 #, c-format
 msgid "Authorized values"
 msgstr "Auktorisoidut arvot"
@@ -1785,7 +1785,7 @@ msgstr "Asiakkaat ja lainaus"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:553
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:141
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2575
 #, c-format
 msgid "Patron categories"
 msgstr "Asiakastyypit"
@@ -1874,7 +1874,7 @@ msgstr "Maksut"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:164
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2573
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2577
 #, c-format
 msgid "Debit types"
 msgstr "Maksutyypit"
@@ -1884,7 +1884,7 @@ msgstr "Maksutyypit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:160
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2574
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2578
 #, c-format
 msgid "Credit types"
 msgstr "Credit-tyypit"
@@ -1894,7 +1894,7 @@ msgstr "Credit-tyypit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:162
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2572
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2576
 #, c-format
 msgid "Cash registers"
 msgstr "Kassat"
@@ -2802,7 +2802,7 @@ msgstr "Rekisteröidy kaksivaiheisella sovelluksella"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:190
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1311
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1424
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1544
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1548
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1465
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:158
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:89
@@ -3157,7 +3157,7 @@ msgstr "×"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:159
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:178
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:165
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1502
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1506
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:562
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:568
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:457
@@ -4584,7 +4584,7 @@ msgstr "Hae tileistä"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:171
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:170
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:209
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:180
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:58
@@ -5576,7 +5576,7 @@ msgstr "Muunna selaimessa olevia makroja"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:136
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:384
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:110
 #, c-format
 msgid "Duplicate"
@@ -5665,7 +5665,7 @@ msgstr "Kopioi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:99
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:121
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:383
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:135
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:62
@@ -5873,7 +5873,7 @@ msgstr "Rivi "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:281
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:204
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:151
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:305
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:450
 msgid "Loading"
@@ -6367,7 +6367,7 @@ msgstr "Aineistotyyppi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:182
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:210
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:135
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:167
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:196
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:102
@@ -7098,7 +7098,7 @@ msgstr "Lataa kuva"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:103
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:127
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:397
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:105
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:119
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:70
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:70
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:70
@@ -7543,8 +7543,8 @@ msgstr "Kuntahaku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:91
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:110
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2527
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2554
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2531
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2558
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:68
@@ -8563,7 +8563,7 @@ msgstr "Aja raportteja"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:106
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:215
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1452
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1456
 #, c-format
 msgid "Saved reports"
 msgstr "Tallennetut raportit"
@@ -8952,8 +8952,8 @@ msgstr "Asiakas"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/readingrec.tt:66
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:272
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2567
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2571
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:236
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:499
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:139
@@ -12823,7 +12823,7 @@ msgstr "Hakutyyppi:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1677
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:230
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1487
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1491
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:384
 #, c-format
 msgid "Clear"
@@ -12979,8 +12979,8 @@ msgstr "Asiakas '%s' on jo listalla."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:117
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:81
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2511
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2533
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2515
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2537
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:50
 #, c-format
@@ -13292,7 +13292,7 @@ msgstr "Vaihda luokka"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:116
 #, c-format
 msgid "The patron's current category (%s) is limited to other libraries."
-msgstr "Asiakkaan nykyinen asiakastyyppi (%s) ei ole käytettävissä tälle kirjastolle."
+msgstr "Asiakkaan nykyinen asiakastyyppi (%s) ei ole käytössä tässä kirjastossa."
 
 #. For the first occurrence,
 #. %1$s:  charges_guarantors_guarantees | $Price 
@@ -13705,12 +13705,12 @@ msgstr "Lainata ja palauttaa niteitä"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:10
 #, c-format
 msgid "Staff access, allows viewing of catalogue in staff interface"
-msgstr "Virkailijatyökaluun pääsy, sallii luettelon katselemisen virkailijatyökalussa"
+msgstr "Virkailijaliittymään pääsy, sallii luettelon katselemisen virkailijaliittymässä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:11
 #, c-format
 msgid "Required for staff login."
-msgstr "Vaaditaan virkailijatyökaluun kirjautumisessa."
+msgstr "Vaaditaan virkailijaliittymään kirjautumisessa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:13
 #, c-format
@@ -14013,7 +14013,7 @@ msgstr "Hallinnoida äänihälytyksiä "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:271
 #, c-format
 msgid "Manage additional fields (requires the corresponding permission, one of edit_subscription, order_manage, edit_invoices, or remaining_permissions under updatecharges) "
-msgstr "Hallinnoida lisäkenttiä (vaaditaan lisäksi osiota vastaava käyttäjäoikeus eli joko edit_subscription, order_manage, edit_invoices tai remaining_permissions oikeuden updatecharges alta) "
+msgstr "Hallinnoida tilauskorien tai kausijulkaisutilausten lisäkenttiä (vaaditaan oikeuksia joko edit_subscription, order_manage, edit_invoices tai remaining_permissions asiakkaan maksujen osalta) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:276
 #, c-format
@@ -14281,7 +14281,7 @@ msgstr "Määritellä kirjaston kiinniolopäiviä "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:536
 #, c-format
 msgid "Write additional contents for the OPAC and staff interfaces (news and HTML customizations) "
-msgstr "Kirjoitaa lisäsisältöä verkkokirjastoon ja virkailijatyökaluun (uutiset ja HTML muokkaukset) "
+msgstr "Kirjoitaa lisäsisältöä verkkokirjastoon ja virkailijaliittymään (uutiset ja HTML muokkaukset) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:541
 #, c-format
@@ -15128,7 +15128,7 @@ msgid "Statistics wizards"
 msgstr "Tilastovelho"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:27
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:68
 #, c-format
 msgid "Cash register"
@@ -16485,8 +16485,8 @@ msgstr "Tyhjennä muotoilu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:196
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/update-child.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:78
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2526
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2553
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2530
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2557
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:210
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:542
 #, c-format
@@ -17876,7 +17876,7 @@ msgstr "Tallenna (jos tallennus-liitännäinen on aktivoitu)"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 msgid "Scope"
-msgstr "Scope"
+msgstr "Laajuus"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -17891,7 +17891,7 @@ msgstr "Valinta"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 msgid "Sharpen"
-msgstr "Sharpen"
+msgstr "Tarkentaa"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -18068,7 +18068,7 @@ msgstr "Mallipohjat"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:358
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:135
 #, c-format
 msgid "Text"
@@ -19993,7 +19993,7 @@ msgstr "Järjestelmäasetus 'RequireChoosingExistingAuthority' ei ole käytöss�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:452
 #, c-format
 msgid "System preference 'EasyAnalyticalRecords' set, but UseControlNumber preference is set to 'Use'. Set it to 'Don't use' or else the 'Show analytics' links in the staff interface and the OPAC will be broken."
-msgstr "Järjestelmäasetus 'EasyAnalyticalRecords' on asetettu, mutta UseControlNumber -asetukseksi on valittu 'Käytä'. Valitse 'Älä käytä' tai 'Show analytics' -linkki virkailijatyökalussa ja verkkokirjastossa rikkoontuu."
+msgstr "Järjestelmäasetus 'EasyAnalyticalRecords' on asetettu, mutta UseControlNumber -asetukseksi on valittu 'Käytä'. Valitse 'Älä käytä' tai 'Show analytics' -linkki virkailijaliittymässä ja verkkokirjastossa rikkoontuu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:458
 #, c-format
@@ -22316,7 +22316,7 @@ msgstr "kotikirjasto"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:263
 #, c-format
 msgid "holdingbranch"
-msgstr "holdingbranch"
+msgstr "sijaintikirjasto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:275
 #, c-format
@@ -22366,12 +22366,12 @@ msgstr "budget_code"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:367
 #, c-format
 msgid "price"
-msgstr "price"
+msgstr "hinta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:371
 #, c-format
 msgid "replacement price"
-msgstr "replacement price"
+msgstr "korvaushinta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:375
 #, c-format
@@ -24255,7 +24255,7 @@ msgstr "Tiliä ei ole valittu."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:319
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:617
 msgid "Nothing is selected."
-msgstr "Ei valittuja kohteita"
+msgstr "Ei valittuja kohteita."
 
 #. %1$s:  basketno | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edi_ean.tt:23
@@ -24931,7 +24931,7 @@ msgstr "ISBN / EAN / ISSN:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:471
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:134
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:225
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1476
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1480
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:126
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:369
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1075
@@ -25162,7 +25162,7 @@ msgstr "Arvioitu saapumispäivä alkaen: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:118
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:110
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1468
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1472
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:99
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:124
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:123
@@ -27202,12 +27202,12 @@ msgstr "Ongelman poistossa tapahtui virhe. Tarkista lokit."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:77
 #, c-format
 msgid "Issue updated successfully."
-msgstr "Ongelma on päivitetty"
+msgstr "Lehtinumero on päivitetty."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:79
 #, c-format
 msgid "Issue created successfully."
-msgstr "Ongelma luotiin"
+msgstr "Lehtinumero luotiin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:81
 #, c-format
@@ -28548,7 +28548,7 @@ msgstr "Päivitä tämän omistajan kaikki alitilit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:363
 #, c-format
 msgid "Selecting this option will overwrite existing fund owners, if any"
-msgstr "Valitsemalla tämän vaihtoehdon korvaat tilin nykyisen omistajan, mikäli tilille on jo määritelty omistaja."
+msgstr "Valitsemalla tämän vaihtoehdon korvaat tilin nykyiset omistajat, mikäli tilille on jo määritelty omistaja."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:368
 #, c-format
@@ -29071,7 +29071,7 @@ msgstr "Valitsin"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/audio_alerts.tt:112
 #, c-format
 msgid "Sound"
-msgstr "Äänite"
+msgstr "Ääni"
 
 #. BUTTON
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/audio_alerts.tt:128
@@ -29676,7 +29676,7 @@ msgid "Show category: "
 msgstr "Näytä luokka: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:295
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #, c-format
 msgid "Authorized value"
 msgstr "Auktorisoitu arvo"
@@ -29906,7 +29906,7 @@ msgstr "Artikkelitilausten perumissyyt"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:517
 #, c-format
 msgid "Frequencies used by the housebound module. They are displayed on the housebound tab in the patron account in staff."
-msgstr "Kotipalvelumodulissa käytetyt aikataulut. Ne näytetään asiakkaan tiedoissa virkailijatyökalussa kotipalvelu-välilehdellä."
+msgstr "Kotipalvelumodulissa käytetyt aikataulut. Ne näytetään asiakkaan tiedoissa virkailijaliittymässä kotipalvelu-välilehdellä."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:519
 #, c-format
@@ -31141,7 +31141,7 @@ msgstr "Asiakastyypin päivityksessä tapahtui virhe. Ehkä asiakastyyppi on jo 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:46
 #, c-format
 msgid "An error occurred when inserting this patron category. The patron category might already exist."
-msgstr "Asiakastyypin lisäyksessä tapahtui virhe. Asiakastyyppi on jo olemassa"
+msgstr "Asiakastyypin lisäyksessä tapahtui virhe. Asiakastyyppi on jo olemassa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:48
@@ -32330,7 +32330,7 @@ msgid "Test the regular expressions:"
 msgstr "Testaa säännöllisiä lausekkeita:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:341
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2566
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2570
 #, c-format
 msgid "Classification sources"
 msgstr "Luokitusjärjestelmät"
@@ -34014,7 +34014,7 @@ msgstr "Salli virkailijoiden kirjautua tällä domainilla tältä tunnistustieto
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:217
 #, c-format
 msgid "Allow users to auto register on login."
-msgstr "Salli käyttäjiä rekisteröitymään automaattisesti kirjauduttaessa"
+msgstr "Salli käyttäjiä rekisteröitymään automaattisesti kirjauduttaessa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:225
 #, c-format
@@ -35069,7 +35069,7 @@ msgstr "Jos alkuperäisessä tietueessa on sääntöön sopiva kenttä, mutta tu
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:82
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_out.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:110
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:154
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:184
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:199
@@ -35170,7 +35170,7 @@ msgstr "Käyttäjäkategoria"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:292
 #, c-format
 msgid "Staff interface MARC editor"
-msgstr "Virkailijatyökalun MARC-editori"
+msgstr "Virkailijaliittymän MARC-editori"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:240
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:292
@@ -35982,7 +35982,7 @@ msgstr "Salli asiakkaiden muokata tätä määrettä verkkokirjastossa. (Vaatii 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:181
 #, c-format
 msgid "Check to make this attribute searchable in staff patron searches. If checked, this attribute will appear in patron search dropdowns. "
-msgstr "Tällä asiakasmääreellä voi hakea asiakasta virkailijatyökalun asiakashaussa. Jos tässä on valinta, tulee määre näkyville asiakashaun alasvetovalikoihin. "
+msgstr "Tällä asiakasmääreellä voi hakea asiakasta virkailijaliittymän asiakashaussa. Jos tässä on valinta, tulee määre näkyville asiakashaun alasvetovalikoihin. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:186
 #, c-format
@@ -36007,7 +36007,7 @@ msgstr "Näytä asiakkaan suppeissa tiedoissa: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:211
 #, c-format
 msgid "Check to show this attribute in the brief information panel in the patron's record (staff interface)."
-msgstr "Valitse tämä, jos haluat määreen näkyvän (virkailijatyökalussa) asiakkaan tietueessa näkyvässä tietoikkunassa."
+msgstr "Valitse tämä, jos haluat määreen näkyvän (virkailijaliittymässä) asiakkaan tietueessa näkyvässä tietoikkunassa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:216
 #, c-format
@@ -38822,7 +38822,7 @@ msgstr "sekuntia "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:178
 #, c-format
 msgid "Enter 0 to disable."
-msgstr "Syötä 0 poistaaksesi käytöstä"
+msgstr "Syötä 0 poistaaksesi käytöstä."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:182
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:234
@@ -38991,7 +38991,7 @@ msgstr "IP-osoitteesi on muuttunut. Kirjaudu uudelleen "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:69
 #, c-format
 msgid "StaffLoginRestrictLibraryByIP is switched on and you are logging in with an IP address that doesn't match your library. "
-msgstr "StaffLoginRestrictLibraryByIP-järjestelmäasetus on päällä ja yrität kirjautua IP-osoitteesta, joka ei täsmää kirjastosi sallittujen osoitteiden kanssa. "
+msgstr "StaffLoginRestrictLibraryByIP-asetus on päällä ja yrität kirjautua IP-osoitteesta, joka ei täsmää kirjastosi osoitteiden kanssa. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:73
 #, c-format
@@ -39034,7 +39034,7 @@ msgstr "Shibboleth-kirjautuminen epäonnistui"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:102
 #, c-format
 msgid "Log in using a Shibboleth account"
-msgstr "Kirjaudu sisään käyttäen Shibboleth-tiliä."
+msgstr "Kirjaudu sisään käyttäen Shibboleth-tiliä"
 
 #. %1$s:  END 
 #. %2$s:  provider.description | html 
@@ -39063,7 +39063,7 @@ msgstr "Oma kirjasto"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:162
 #, c-format
 msgid "Note: Your selection may be overridden if your current IP matches a specified IP for a branch in Koha"
-msgstr "Huomioi: Valintasi voi vaihtua automaattisesti, jos nykyinen IP-osoitteesi vastaa jollekin kirjastolle määritettyä IP-osoitetta"
+msgstr "Huomaa: Valintasi voidaan ylikirjoittaa, jos nykyinen IP-osoitteesi vastaa tiettyä kirjaston IP-osoitetta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:168
 #, c-format
@@ -43431,7 +43431,7 @@ msgstr "Numero:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:474
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:222
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1471
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1475
 #, c-format
 msgid "Date:"
 msgstr "Pvm:"
@@ -43884,7 +43884,7 @@ msgstr "Suosittu nide. "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:94
 #, c-format
 msgid "Loan period was not shortened due to override."
-msgstr "Laina-ajan lyhennys peruttiin"
+msgstr "Laina-ajan lyhennys peruttiin."
 
 #. %1$s:  alert.HIGHHOLDS.returndate | $KohaDates 
 #. %2$s:  alert.HIGHHOLDS.duration  | html 
@@ -44444,7 +44444,7 @@ msgstr "Rajoitus ohitetaan väliaikaisesti."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:619
 #, c-format
 msgid "The item is booked for another patron"
-msgstr "Tämä nide on ennakkovarattu toiselle asiakkaalle"
+msgstr "Tämä aineisto varattu toiselle asiakkaalle."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:632
 #, c-format
@@ -44734,7 +44734,7 @@ msgstr "Asiakkaalla on %s nidettä myöhässä."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:242
 #, c-format
 msgid "This item has been lost with a status of \"%s.\""
-msgstr "Tämä nide on merkitty kadonneeksi tilalla \"%s\"."
+msgstr "Tämä nide on merkitty kadonneeksi tilaan \"%s\"."
 
 #. %1$s:  checkout_info.HIGHHOLDS.duration | html 
 #. %2$s:  checkout_info.HIGHHOLDS.returndate | html 
@@ -45263,7 +45263,7 @@ msgstr "Asiakkaan kirjasto:"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:280
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1486
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1490
 msgid "Apply filter"
 msgstr "Suodata"
 
@@ -46562,7 +46562,7 @@ msgstr "Aineistotyyppi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1270
 #, c-format
 msgid "Item was not checked in"
-msgstr "Nidettä ei palautettu"
+msgstr "Nidettä ei ole palautettu"
 
 #. %1$s:  riloo.duedate | $KohaDates as_due_date => 1 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1274
@@ -46808,7 +46808,7 @@ msgstr "tai jokin nide nideryhmästä "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:205
 #, c-format
 msgid "or any available"
-msgstr "tai mikä tahansa saatavana oleva."
+msgstr "tai mikä tahansa saatavana oleva"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:284
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:136
@@ -47788,7 +47788,7 @@ msgstr "Rajaukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:228
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1480
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1484
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:168
 #, c-format
 msgid "Keyword:"
@@ -50602,7 +50602,7 @@ msgstr "Asiakkaalla on %s lainaa."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:49
 #, c-format
 msgid "Patron has %s in fines."
-msgstr "Asiakkaalla on %s maksuja"
+msgstr "Asiakkaalla on %s maksuja."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:52
 #, c-format
@@ -51944,12 +51944,12 @@ msgstr "Tämä viesti näkyy asiakkaan sivulla verkkokirjastossa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1232
 #, c-format
 msgid "%s Circulation note: "
-msgstr "%s Huomautus (näkyy virkailijatyökalussa): "
+msgstr "%s Huomautus (näkyy virkailijaliittymässä): "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1237
 #, c-format
 msgid "This message displays when checking out to this patron"
-msgstr "Tämä viesti näkyy, kun asiakkaalle lainataan virkailijatyökalussa"
+msgstr "Tämä viesti näkyy, kun asiakkaalle lainataan virkailijaliittymässä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1250
 #, c-format
@@ -52332,7 +52332,7 @@ msgid "%s %s %s %s %s %s %s%s, %s%s - %s (%s) (%s) - Requested on %s %s %s "
 msgstr "%s %s %s %s %s %s %s%s, %s%s - %s (%s) (%s) - Pyyntö tehty %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:130
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:100
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:179
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:195
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:214
@@ -53143,7 +53143,7 @@ msgstr "Ei huomautuksia SMS-ohjaimelta"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:106
 #, c-format
 msgid "The SMS driver could not be loaded"
-msgstr "SMS-ajuria ei voitu ladata"
+msgstr "SMS-ohjainta ei voitu ladata"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:107
 #, c-format
@@ -55779,7 +55779,7 @@ msgstr "Tuntematon suodatin"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:151
 #, c-format
 msgid "To "
-msgstr " - "
+msgstr "- "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:135
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:158
@@ -56930,7 +56930,7 @@ msgstr "Jaa raporttisi Mana-tietämyskannassa"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:389
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 #, c-format
 msgid "Schedule"
 msgstr "Ajastus"
@@ -57340,265 +57340,276 @@ msgid "The database returned the following error:"
 msgstr "Tietokannassa tapahtui virhe:"
 
 #. %1$s:  ELSIF ( error.cache_expiry ) 
-#. %2$s:  ELSE 
-#. %3$s:  END 
+#. %2$s:  ELSIF ( error.passworderr ) 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1440
 #, c-format
-msgid "Please check the log for further details. %s Please select a cache expiry less than 30 days. %s %s "
-msgstr "Tarkista loki lisätietoja varten. %s Valitse välimuistin keston ajaksi vähemmän kuin 30 päivää. %s %s "
+msgid "Please check the log for further details. %s Please select a cache expiry less than 30 days. %s The column selection in this report includes a password field."
+msgstr "Tarkista loki lisätietoja varten. %s Valitse välimuistin keston ajaksi vähemmän kuin 30 päivää. %s Raportin sarakevalinta sisältää salasanakentän."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1446
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1444
+#, c-format
+msgid "The report cannot be executed due to security risks."
+msgstr "Raporttia ei voida ajaa turvallisuusriskin vuoksi."
+
+#. %1$s:  ELSE 
+#. %2$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1445
+#, c-format
+msgid "Please edit this report and ensure no password columns have been selected. %s %s "
+msgstr "Muokkaa raporttia ja varmista, ettei salasana-kenttää ole valittuna. %s %s "
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1450
 #, c-format
 msgid "Return to previous page"
 msgstr "Palaa edelliselle sivulle"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1503
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1507
 #, c-format
 msgid "Runtime parameter options"
 msgstr "Ajonaikaisten parametrien valinnat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1509
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1513
 #, c-format
 msgid "Parameter label: "
 msgstr "Parametrit: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1511
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1515
 #, c-format
 msgid "The label for the field shown when the report is run, e.g. \"Select a library.\""
 msgstr "Kentälle näkyvä otsikko, kun raporttia ajetaan, esim. \"Valitse kirjasto.\""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1514
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1518
 #, c-format
 msgid "Authorized value category:"
 msgstr "Auktorisoidun arvon luokka:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1519
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1523
 #, c-format
 msgid "Select which authorized value category the user will choose from."
 msgstr "Valitse mistä auktorisoidun arvon luokasta käyttäjän tulee valita."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1522
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1526
 #, c-format
 msgid "Parameter options:"
 msgstr "Parametrivaihtoehdot:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1525
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1529
 #, c-format
 msgid "Single parameter only"
 msgstr "Vain yksi parametri"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1526
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1530
 #, c-format
 msgid "- Query expression should use ="
 msgstr "- Kyselyn lausekkeen pitäisi käyttää = -merkkiä"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1531
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1535
 #, c-format
 msgid "Include option for all"
 msgstr "Sisällytä vaihtoehto kaikille"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1532
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1536
 #, c-format
 msgid "- Query expression must use LIKE"
 msgstr "- Kyselyn lauseke pitää käyttää LIKE -käskyä"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1537
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1541
 #, c-format
 msgid "Allow multiple selections"
 msgstr "Salli useita valintoja"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1538
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1542
 #, c-format
 msgid "- Query expression must use IN"
 msgstr "- Kyselyn lauseke pitää käyttää IN -käskyä"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1543
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1547
 #, c-format
 msgid "Insert parameter"
 msgstr "Lisää parametri"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Are you sure you want to delete the selected reports?"
 msgstr "Haluatko varmasti poistaa valitut raportit?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Are you sure you want to delete this report? This cannot be undone."
 msgstr "Haluatko varmasti poistaa tämän raportin? Poistoa ei voi peruuttaa."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Credit type"
 msgstr "Hyvitystyyppi"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Debit type"
 msgstr "Debit-tyyppi"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Fetching full chart data for reports with many rows can cause performance issues. Are you sure you want to chart this report?"
 msgstr "Tietojen hakeminen kaavioon voi aiheuttaa suorituskykyongelmia. Haluatko varmasti tehdä kaavion tästä raportista?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Framework"
 msgstr "Kuvailupohja"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert authorized value parameter"
 msgstr "Lisää auktorisoidun arvon parametri"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert bibliographic framework parameter"
 msgstr "Lisää kuvailupohjan parametri"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert cash register parameter"
 msgstr "Lisää kassan parametri"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert classification source parameter"
 msgstr "Lisää luokitusjärjestelmän parametri"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert credit type parameter"
 msgstr "Lisää hyvitystyyppien parametrit"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert date parameter"
 msgstr "Lisää päivämäärä"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert debit type parameter"
 msgstr "Lisää debit-tyyppien parametrit"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert item types parameter"
 msgstr "Lisää nidetyyppien parametrit"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert libraries parameter"
 msgstr "Lisää kirjastot"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert list parameter"
 msgstr "Lisää listaparametri"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert patron category parameter"
 msgstr "Lisää asiakastyypin parametri"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Insert text parameter"
 msgstr "Lisää tekstin parametri"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "List of values"
 msgstr "Arvolista"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "No columns selected!"
 msgstr "Valitse sarakkeet."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "No matching reports found"
 msgstr "Vastaavia raportteja ei löytynyt"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Results from Mana Knowledge Base"
 msgstr "Tulokset Mana-tietämyskannasta"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "Source of classification or shelving scheme"
 msgstr "Luokitusjärjestelmä"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1575
 msgid "You must select one or more reports to delete"
 msgstr "Valitse yksi tai useampia raportteja poistettavaksi"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2508
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2512
 #, c-format
 msgid "Report group:"
 msgstr "Raportin ryhmä:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2513
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2535
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2517
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2539
 #, c-format
 msgid "(None)"
 msgstr "(Ei mitään)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2525
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2529
 #, c-format
 msgid "or create:"
 msgstr "tai luo:"
 
 #. INPUT type=text name=group
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2526
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2530
 msgid "Group code"
 msgstr "Ryhmäkoodi"
 
 #. INPUT type=text name=groupdesc
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2527
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2531
 msgid "Group name"
 msgstr "Ryhmänimi"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2530
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2534
 #, c-format
 msgid "Report subgroup:"
 msgstr "Raportin aliryhmä:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2552
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2556
 #, c-format
 msgid "or create"
 msgstr "tai luo"
 
 #. INPUT type=text name=subgroup
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2553
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2557
 msgid "Subgroup code"
 msgstr "Alaryhmän tunnus"
 
 #. INPUT type=text name=subgroupdesc
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2554
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2558
 msgid "Subgroup name"
 msgstr "Alaryhmän nimi"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2560
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2564
 #, c-format
 msgid "Insert runtime parameter "
 msgstr "Lisää ajoajan parametri "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2565
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2569
 #, c-format
 msgid "Bibliographic framework"
 msgstr "Kuvailupohja"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2570
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2574
 #, c-format
 msgid "List"
 msgstr "Lista"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2575
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2579
 #, c-format
 msgid "Text field"
 msgstr "Tekstikenttä"
@@ -58632,12 +58643,12 @@ msgstr "Varaus pitää tehdä tietueeseen "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:739
 #, c-format
 msgid "Holdable items"
-msgstr "Varattavia niteitä"
+msgstr "Varattavissa olevat niteet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:767
 #, c-format
 msgid "No holdable items in this item group."
-msgstr "Ei varattavia niteitä nideryhmässä."
+msgstr "Ei varattavissa olevia niteitä tässä nideryhmässä."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:803
 #, c-format
@@ -58882,7 +58893,7 @@ msgstr "Varaa tämä?"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1493
 msgid "Please make sure all selected titles have a pickup location set"
-msgstr "Varmista, että kaikilla valituilla nimekkeillä on noutopaikka asetettuna"
+msgstr "Varmista, että kaikilla valituilla nimekkeillä on noutopaikka"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1493
@@ -58933,23 +58944,23 @@ msgstr "Nimeke "
 msgid "%s(deleted patron)%s "
 msgstr "%s(poistettu asiakas)%s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:100
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:105
 #, c-format
 msgid "Unapprove"
 msgstr "Hylkää"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:113
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:127
 #, c-format
 msgid "No comments have been approved."
 msgstr "Ei hyväksyttyjä kommentteja."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:113
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:127
 #, c-format
 msgid "No comments to moderate."
 msgstr "Ei hyväksymättömiä kommentteja."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:131
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:145
 msgid "Are you sure you want to delete this comment?"
 msgstr "Haluatko varmasti poistaa tämän kommentin?"
 
@@ -60517,7 +60528,7 @@ msgid "Details for subscription #%s &rsaquo; Serials &rsaquo; Koha"
 msgstr "Kausijulkaisutilauksen#%s tiedot &rsaquo; Kausijulkaisut &rsaquo; Koha"
 
 #. %1$s:  INCLUDE 'biblio-title.inc' biblio=subscription.biblio link = 0 
-#. %2$s:  IF closed 
+#. %2$s:  IF subscription.closed 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:47
 #, c-format
@@ -66972,7 +66983,7 @@ msgstr "Selaa järjestelmän lokeja"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:136
 #, c-format
 msgid "Write news for the OPAC and staff interfaces"
-msgstr "Kirjoita uutisia verkkokirjastoon ja virkailijatyökaluun"
+msgstr "Kirjoita uutisia verkkokirjastoon ja virkailijaliittymään"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:139
 #, c-format

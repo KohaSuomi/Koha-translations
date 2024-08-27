@@ -1,11 +1,11 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-07-23 04:05+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
+"PO-Revision-Date: 2024-07-30 03:05+0000\n"
+"Last-Translator: pknuuti <paivi.knuutinen@joensuu.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -3691,7 +3691,7 @@ msgstr "Qualifications"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:2028
 msgid "Uniform title"
-msgstr "Nimeke"
+msgstr "Yhtenäistetty nimeke"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:2052
 msgid "Date of Transaction"

@@ -1,18 +1,18 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 03:02+0000\n"
-"PO-Revision-Date: 2024-06-27 13:43+0000\n"
-"Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
+"PO-Revision-Date: 2024-08-27 04:06+0000\n"
+"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-marc-MARC21.po\n"
 "X-POOTLE-MTIME: 1691473713.814600\n"
@@ -186,7 +186,7 @@ msgstr "Mallikappale tai näyte"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:130
 #, c-format
 msgid "Phonodisc, phonowire, etc."
-msgstr "Äänitys"
+msgstr "Äänite (phonodisc, phonowire ym.)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:26
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:74
@@ -1908,7 +1908,7 @@ msgstr "Peli"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:717
 #, c-format
 msgid "Sound"
-msgstr "Äänite"
+msgstr "Ääni"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:173
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:444
@@ -1934,7 +1934,7 @@ msgstr "Yhdistelmä"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:451
 #, c-format
 msgid "One-character code that contains a blank (#) or a fill character (|)."
-msgstr "Yksimerkkinen koodi joka sisältää tyhjämerkin (#) tai täyttömerkin (|)"
+msgstr "Yksimerkkinen koodi joka sisältää tyhjämerkin (#) tai täyttömerkin (|)."
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:181
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:452
@@ -2342,7 +2342,7 @@ msgstr "Trapetsoidi (Lambert conformal)"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:1269
 #, c-format
 msgid "Undefined; contains a blank (#) or a fill character (|)."
-msgstr "Määrittelemätön; sisältää tyhjämerkin (#) tai täyttömerkin (|)"
+msgstr "Määrittelemätön; sisältää tyhjämerkin (#) tai täyttömerkin (|)."
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:269
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:612
@@ -3629,7 +3629,7 @@ msgstr "Sisältääkö kuvailun kohde kokouksen tai konferenssin pöytäkirjat, 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:1435
 #, c-format
 msgid "Undefined; each contains a blank (#) or a fill character (|)."
-msgstr "Määrittelemätön; kukin merkkipaikka sisältää tyhjämerkin (#) tai täyttömerkin (|)"
+msgstr "Määrittelemätön; kukin merkkipaikka sisältää tyhjämerkin (#) tai täyttömerkin (|)."
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:667
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:1160
@@ -4537,7 +4537,7 @@ msgstr "Mitat"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:114
 #, c-format
 msgid "Dimensions of the medium used to encode the electronic resource. Only the most common dimensions are indicated. In many cases the dimensions apply to the container in which a magnetic or optical medium is encased. The field 007/04 code corresponding to the dimensions given in the description of the item are used. If no code exactly matches the dimensions of the medium (or container), code z is used. "
-msgstr "Elektronisen aineiston mitat. Vain yleisimmät mitat on ilmoitettu. Usein mitat sisältävät kotelon, jonka sisällä on magneettinen tai optinen media. Kentän 007/04 koodi ilmoittaa median muodon. Jos mikään koodi ei vastaa median (tai kotelon) mittoja, käytä koodia z."
+msgstr "Elektronisen aineiston mitat. Vain yleisimmät mitat on ilmoitettu. Usein mitat sisältävät kotelon, jonka sisällä on magneettinen tai optinen media. Kentän 007/04 koodi ilmoittaa median muodon. Jos mikään koodi ei vastaa median (tai kotelon) mittoja, käytä koodia z. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:116
 #, c-format
@@ -4639,7 +4639,7 @@ msgstr "Laadunvarmistus"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:147
 #, c-format
 msgid "Whether quality assurance targets have been included appropriately at the time of reformatting/creation of the electronic resource. "
-msgstr "Onko elektronisen aineiston laadunvarmistus olemassa."
+msgstr "Onko elektronisen aineiston laadunvarmistus olemassa. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:148
 #, c-format
@@ -5102,7 +5102,7 @@ msgstr "Ääni mukana tai erikseen"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:367
 #, c-format
 msgid "Whether the sound is on or is separate from the projected graphic (i.e., on the accompanying material). "
-msgstr "Onko heijastettavassa kuvassa ääni mukana tai erikseen."
+msgstr "Onko heijastettavassa kuvassa ääni mukana tai erikseen. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:369
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:649
@@ -5522,7 +5522,7 @@ msgstr "Sekalainen emulsio"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:711
 #, c-format
 msgid "Generation"
-msgstr "Generation"
+msgstr "Sukupolvi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:497
 #, c-format
@@ -5694,7 +5694,7 @@ msgstr "Valokuva, tyyppi määrittelemätön"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:559
 #, c-format
 msgid "Primary support material"
-msgstr "Primary support material"
+msgstr "Kuvan pohjan ensisijainen materiaali"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:559
 #, c-format
@@ -5809,7 +5809,7 @@ msgstr "Mykkäelokuva, ei ääntä"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:647
 #, c-format
 msgid "Whether the sound is on the item or separate from the item. "
-msgstr "Onko elokuvassa ääni mukana tai erikseen."
+msgstr "Onko elokuvassa ääni mukana tai erikseen. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:654
 #, c-format
@@ -5877,7 +5877,7 @@ msgstr "Kaksikanavainen (stereo)"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:691
 #, c-format
 msgid "Production elements"
-msgstr "Production elements"
+msgstr "Tuotantoon liittyviä tietoja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:691
 #, c-format
@@ -5952,7 +5952,7 @@ msgstr "Referenssikappale/katselukopio"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:734
 #, c-format
 msgid "More specific color characteristics of the moving image than are contained in 007/03 (Color). "
-msgstr "Tarkempi elokuvan määritys kuin kohdassa 007/03 (Väritys). Koodeilla b-m on ainoastaan historiallista merkitystä."
+msgstr "Tarkempi elokuvan määritys kuin kohdassa 007/03 (Väritys). Koodeilla b-m on ainoastaan historiallista merkitystä. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:734
 #, c-format
@@ -6082,7 +6082,7 @@ msgstr "Kaksipuolinen emulsio"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:769
 #, c-format
 msgid "Deterioration stage"
-msgstr "Deterioration stage"
+msgstr "Heikentymisaste"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:769
 #, c-format
@@ -6147,7 +6147,7 @@ msgstr "Nitraatiton: käyttökelvoton"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:783
 #, c-format
 msgid "Completeness"
-msgstr "Completeness"
+msgstr "Elokuvan täydellisyysaste"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:783
 #, c-format
@@ -6167,7 +6167,7 @@ msgstr "Epätäydellinen"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:790
 #, c-format
 msgid "Film inspection date"
-msgstr "Film inspection date"
+msgstr "Filmin tarkastuspäivä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:790
 #, c-format
@@ -7026,7 +7026,7 @@ msgstr "Äänentoiston erityisominaisuudet"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1067
 #, c-format
 msgid "NAB standard"
-msgstr "NAB standard"
+msgstr "NAB-standardi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1068
 #, c-format
@@ -7036,7 +7036,7 @@ msgstr "CCIR-standardi"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1069
 #, c-format
 msgid "Dolby-B encoded"
-msgstr "Dolby-B encoded"
+msgstr "Dolby-B"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1070
 #, c-format
@@ -7051,17 +7051,17 @@ msgstr "Digitaalinen"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1072
 #, c-format
 msgid "Dolby-A encoded"
-msgstr "Dolby-A encoded"
+msgstr "Dolby-A"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1073
 #, c-format
 msgid "Dolby-C encoded"
-msgstr "Dolby-C encoded"
+msgstr "Dolby-C"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1074
 #, c-format
 msgid "CX encoded"
-msgstr "CX encoded"
+msgstr "CX"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1080
 #, c-format
@@ -7242,7 +7242,7 @@ msgstr "DVD"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1151
 #, c-format
 msgid "Whether the sound is on the item or separate from the item (i.e., on the accompanying material). "
-msgstr "Onko videotallenteessa ääni mukana tai erikseen."
+msgstr "Onko videotallenteessa ääni mukana tai erikseen. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1158
 #, c-format
@@ -8212,12 +8212,12 @@ msgstr "Bibliografinen taso"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:28
 #, c-format
 msgid "a - Monographic component part"
-msgstr "a - Osakohde monografiassa"
+msgstr "a - Monografinen osakohde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:29
 #, c-format
 msgid "b - Serial component part"
-msgstr "b - Osakohde kausijulkaisussa"
+msgstr "b - Sarjamainen osakohde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:30
 #, c-format
@@ -8282,28 +8282,28 @@ msgstr "Koodaustaso"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:44
 #, c-format
 msgid "_ - Full level"
-msgstr "_ - Täydellinen taso"
+msgstr "_ - Kattava taso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:45
 #, c-format
 msgid "1 - Full level, material not examined"
-msgstr "1 - Täydellinen taso, kuvailun kohde ei ole ollut käsillä"
+msgstr "1 - Kattava taso, kuvailun kohde ei ole ollut käsillä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:219
 #, c-format
 msgid "2 - Less-than-full level, material not examined"
-msgstr "2- Täydellistä tasoa niukempi, kuvailun kohde ei ole ollut käsillä"
+msgstr "2 - Kattavaa tasoa niukempi, kuvailun kohde ei ole ollut käsillä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:47
 #, c-format
 msgid "3 - Abbreviated level"
-msgstr "3 - Vähimmäistasoa niukempi"
+msgstr "3 - Ydintasoa niukempi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:48
 #, c-format
 msgid "4 - Core level"
-msgstr "4 - Välitaso"
+msgstr "4 - Perustaso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:49
 #, c-format
@@ -8313,7 +8313,7 @@ msgstr "5 - Osittainen (alustava) taso"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:50
 #, c-format
 msgid "7 - Minimal level"
-msgstr "7 - Vähimmäistaso"
+msgstr "7 - Ydintaso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:51
 #, c-format
@@ -8372,7 +8372,7 @@ msgstr "_ - Ei-ISBD"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:63
 #, c-format
 msgid "a - AACR 2"
-msgstr "a - AACR 2"
+msgstr "a - AACR 2 / Suomalaiset luettelointisäännöt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:64
 #, c-format
@@ -12787,13 +12787,13 @@ msgstr "7- Tietueen bibliografinen taso"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:142
 #, c-format
 msgid "a- Monographic component part"
-msgstr "a- Osakohde monografiassa"
+msgstr "a- Monografinen osakohde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:145
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:147
 #, c-format
 msgid "b- Serial component part"
-msgstr "b- Osakohde kausijulkaisussa"
+msgstr "b- Sarjamainen osakohde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:152
@@ -12867,35 +12867,35 @@ msgstr "17- Koodaustaso"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:209
 #, c-format
 msgid "full level"
-msgstr "täydellinen taso"
+msgstr "kattava taso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:211
 #, c-format
 msgid "Full level"
-msgstr "Täydellinen taso"
+msgstr "Kattava taso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:214
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:216
 #, c-format
 msgid "1- Full level, material not examined"
-msgstr "1- Täydellinen taso, kuvailun kohde ei ole ollut käsillä"
+msgstr "1- Kattava taso, kuvailun kohde ei ole ollut käsillä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:221
 #, c-format
 msgid "2- Less-than-full level, material not examined"
-msgstr "2- Täyttä tasoa vähemmän, aineistoa ei ole tutkittu"
+msgstr "2- Kattavaa tasoa niukempi, kuvailun kohde ei ole ollut käsillä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:224
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:226
 #, c-format
 msgid "3- Abbreviated level"
-msgstr "3- Vähimmäistasoa niukempi"
+msgstr "3- Ydintasoa niukempi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:229
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:231
 #, c-format
 msgid "4- Core level"
-msgstr "4- Välitaso"
+msgstr "4- Perustaso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:234
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:236
@@ -12907,7 +12907,7 @@ msgstr "5- Osittainen (alustava) taso"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:241
 #, c-format
 msgid "7- Minimal level"
-msgstr "7- Vähimmäistaso"
+msgstr "7- Ydintaso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:244
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:246
@@ -19327,7 +19327,7 @@ msgstr "videokela "
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:309
 #, c-format
 msgid "title"
-msgstr "title"
+msgstr "nimeke"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:349
 #, c-format

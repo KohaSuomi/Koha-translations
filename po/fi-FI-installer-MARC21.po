@@ -1,11 +1,11 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-07-23 04:05+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
+"PO-Revision-Date: 2024-07-31 03:05+0000\n"
+"Last-Translator: pknuuti <paivi.knuutinen@joensuu.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -731,7 +731,7 @@ msgstr "Hallintoalueen nimeä seuraava kokouksen nimi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:406
 msgid "Uniform title"
-msgstr "Nimeke"
+msgstr "Yhtenäistetty nimeke"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:407
 msgid "Date of treaty signing"
@@ -2231,7 +2231,7 @@ msgstr "LINKKIKENTTÄ - LAJITYYPPIÄ/MUOTOA ILMAISEVA TERMI"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:162
 msgid "ADD OR DIVIDE LIKE INSTRUCTIONS [CLASSIFICATION FORMAT]"
-msgstr "OHJEITA LUOKKIEN LISÄÄMISEEN TAI JAKAMISEEN  [LUOKITUSFORMAATTI]"
+msgstr "OHJEITA LUOKKIEN LISÄÄMISEEN TAI JAKAMISEEN [LUOKITUSFORMAATTI]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:163
 msgid "ESTABLISHED HEADING LINKING ENTRY-MEDIUM OF PERFORMANCE TERM"
@@ -2343,7 +2343,7 @@ msgstr "Kontrolloidun asiasanaston asiasana"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_types:1:row:9
 msgid "Uniform Title"
-msgstr "Yhtenäistetty nimeke:"
+msgstr "Yhtenäistetty nimeke"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:description:1
 msgid "Default MARC21 Standard Authority types:"
@@ -3075,7 +3075,7 @@ msgstr "Akronyymi tai lyhennetty nimeke [POISTETTU]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:526
 msgid "Variant access title"
-msgstr "Variant access title"
+msgstr "Varianttinimeke"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:528
 msgid "Augmented title"
@@ -3531,7 +3531,7 @@ msgstr "Välineen tekniset tiedot"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:845
 msgid "Generation"
-msgstr "Generation"
+msgstr "Sukupolvi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:846
 msgid "Layout"
@@ -4371,7 +4371,7 @@ msgstr "Lisätieto"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1400
 msgid "Summary, etc."
-msgstr "Tiivistelmä, yhteenveto tms. ja tiivistelmän nimeke"
+msgstr "Tiivistelmä, yhteenveto tms."
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1401
 msgid "Expansion of summary note"

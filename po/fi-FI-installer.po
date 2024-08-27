@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-07-23 04:05+0000\n"
+"PO-Revision-Date: 2024-07-27 03:33+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -435,12 +435,11 @@ msgstr "Uniikkeja teoksen pyyntöjä"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:73
 msgid "Unique title investigations"
-msgstr ""
+msgstr "Unique title investigations"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:74
-#, fuzzy
 msgid "Unique title requests"
-msgstr "Artikkelipyyntö odottaa"
+msgstr "Unique title requests"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:75
 msgid "Searches automated"
@@ -4391,7 +4390,7 @@ msgstr "Jaetaan lista <<listname>>"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
 msgid "Welcome notice "
-msgstr "Tervetuloilmoitus"
+msgstr "Tervetuloilmoitus "
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
 msgid "[% USE Koha %][% IF Koha.Preference('LibraryName') %]Welcome to [% Koha.Preference('LibraryName') %][% ELSE %]Welcome to the library[% END %]"
@@ -4628,7 +4627,7 @@ msgstr "Hyvä %s %s (%s),"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:3
 msgid "Your request for an article from %s (%s) has been canceled for the following reason:"
-msgstr "Artikkelipyyntösi %s (%s) on peruutettu, koska: "
+msgstr "Artikkelipyyntösi %s (%s) on peruutettu, koska:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:7
 msgid "Article requested:"
@@ -5722,7 +5721,7 @@ msgstr "%s%sToissijainen sähköpostiosoite: %s%s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:11
 msgid "%s%sSecondary phone: %s%s%s"
-msgstr "%s%sToissijainen puh.nro:  %s%s%s"
+msgstr "%s%sToissijainen puh.nro: %s%s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:12
 msgid "%s%sHome library: %s%s%s"
@@ -6745,7 +6744,6 @@ msgid "Cinematographer"
 msgstr "Kuvaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:56
-#, fuzzy
 msgid "Contestant-appellee"
 msgstr "Kilpailija valituksen vastaajana"
 
@@ -6770,7 +6768,6 @@ msgid "Contestant"
 msgstr "Kilpailija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:63
-#, fuzzy
 msgid "Contestant-appellant"
 msgstr "Kilpailija valittajana"
 
@@ -6908,7 +6905,7 @@ msgstr "Tiedonhallinnoija"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:110
 msgid "Editor of compilation"
-msgstr ""
+msgstr "Kokoomateoksen toimittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:111
 msgid "Editorial director"
@@ -7120,7 +7117,7 @@ msgstr "Omistaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:191
 msgid "Place of address"
-msgstr ""
+msgstr "Osoite"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:192
 msgid "Panelist"
@@ -7187,7 +7184,6 @@ msgid "Provider"
 msgstr "Tarjoaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:219
-#, fuzzy
 msgid "Plaintiff-appellee"
 msgstr "Kantaja valituksen vastaajana"
 
@@ -7224,7 +7220,6 @@ msgid "Radio director"
 msgstr "Radio-ohjelman ohjaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:230
-#, fuzzy
 msgid "Redaktor"
 msgstr "Toimittaja"
 
@@ -7269,9 +7264,8 @@ msgid "Respondent-appellant"
 msgstr "Vastaaja valittajana"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:245
-#, fuzzy
 msgid "Remix artist"
-msgstr "Miimikko"
+msgstr "Uudelleenmiksaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:250
 msgid "Sound engineer"
@@ -7315,7 +7309,7 @@ msgstr "Lavastaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:264
 msgid "Setting"
-msgstr ""
+msgstr "Kehys"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:265
 msgid "Storyteller"
@@ -7335,7 +7329,7 @@ msgstr "Ohjelmistokehittäjä"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:270
 msgid "Television writer"
-msgstr ""
+msgstr "Televisiokäsikirjoittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:271
 msgid "Technical director"
@@ -7351,11 +7345,11 @@ msgstr "Televisio-ohjaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:275
 msgid "Television guest"
-msgstr ""
+msgstr "Ohjelmavieras"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
 msgid "Television host"
-msgstr ""
+msgstr "Ohjelmaisäntä"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:277
 msgid "Television producer"
@@ -7398,7 +7392,6 @@ msgid "Woodcutter"
 msgstr "Puupiirtäjä"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
-#, fuzzy
 msgid "Wood engraver"
 msgstr "Puupiirtäjä (ksylografia)"
 
@@ -7411,9 +7404,8 @@ msgid "Witness"
 msgstr "Todistaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
-#, fuzzy
 msgid "Writer of preface"
-msgstr "Laattojen painaja"
+msgstr "Esipuheen kirjoittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:295
 msgid "Writer of supplementary textual content"
@@ -8069,7 +8061,7 @@ msgstr "Älä pelkää täydellisyyttä. Et koskaan saavuta sitä."
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:37
 msgid "You cannot shake hands with a clenched fist."
-msgstr "Et voi kätellä käsi nyrkissä. "
+msgstr "Et voi kätellä käsi nyrkissä."
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:38
 msgid "If you don't like something, change it. If you can't change it, change your attitude."

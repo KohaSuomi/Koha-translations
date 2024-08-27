@@ -1,11 +1,11 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-20 03:07+0000\n"
-"PO-Revision-Date: 2024-07-23 04:05+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
+"PO-Revision-Date: 2024-07-30 03:05+0000\n"
+"Last-Translator: pknuuti <paivi.knuutinen@joensuu.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -5251,7 +5251,7 @@ msgstr "Vahvista auktoriteettityypin '{authority_type_code}' poisto"
 msgid "This authority type is used {count} time."
 msgid_plural "This authority type is used {count} times."
 msgstr[0] "Tätä auktoriteettityyppiä on käytetty {count} kerran."
-msgstr[1] "Tätä auktoriteettityyppiä on käytetty {count} kertaa"
+msgstr[1] "Tätä auktoriteettityyppiä on käytetty {count} kertaa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:10
 #, perl-brace-format
@@ -5965,7 +5965,7 @@ msgstr "Uusi SMTP-palvelin"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:150
 #, perl-brace-format
 msgid "Modify SMTP server '{smtp_server}'"
-msgstr "Muokkaa SMTP-palvelinta '{smtp_server }'"
+msgstr "Muokkaa SMTP-palvelinta '{smtp_server}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:12
 msgid "SMTP servers"
@@ -6837,7 +6837,7 @@ msgstr "Lainataan asiakkaalle {patron}"
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
 msgstr[0] "{count} niteen paketti"
-msgstr[1] "{count} niteen paketti"
+msgstr[1] "{count} niteen pakettia"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:15
 #, perl-brace-format
@@ -6965,7 +6965,7 @@ msgstr "Asiakaskerhot"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:11
 #, perl-brace-format
 msgid "Modify club {club_name}"
-msgstr "Muokkaa kerhoa (club_name)"
+msgstr "Muokkaa kerhoa {club_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:13
 #, perl-brace-format

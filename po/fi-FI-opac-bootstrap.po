@@ -1,11 +1,11 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-20 03:07+0000\n"
-"PO-Revision-Date: 2024-07-23 04:05+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
+"PO-Revision-Date: 2024-08-03 04:06+0000\n"
+"Last-Translator: pknuuti <paivi.knuutinen@joensuu.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -5646,7 +5646,7 @@ msgstr "Tyhjennä kaikki"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
 #, c-format
 msgid "Select titles to: "
-msgstr "Valitse teokset: "
+msgstr "Valitse nide listalle: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:60
 #, c-format
@@ -5782,7 +5782,7 @@ msgstr "%sTeoksella ei ole niteitä.%s "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-tags.tt:198
 msgid "No item was selected"
-msgstr "Ei valittua teosta"
+msgstr "Nimekettä ei valittu"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -5791,7 +5791,7 @@ msgstr "Ei valittua teosta"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:583
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
 msgid "No tag was specified."
-msgstr "Ei määriteltyjä tageja."
+msgstr "Valintaa ei ole tehty."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -8719,7 +8719,7 @@ msgstr "Haku "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-opensearch.tt:12
 #, c-format
 msgid "%s Search the %s catalog %s Search the Koha library catalog %s "
-msgstr "Hae kirjastosta %s%s%sKohan verkkokirjasto%s "
+msgstr "Hae kirjastosta %s %s %s Kohan verkkokirjasto%s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-opensearch.tt:19
 #, c-format
@@ -10897,7 +10897,7 @@ msgstr "Haetaan %s..."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:583
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
 msgid "You must be logged in to create or add to lists"
-msgstr "Kirjaudu sisään luodaksesi listan tai lisätäksesi teoksia listalle"
+msgstr "Sinun pitää olla kirjautuneena sisään, jos muokkaat listoja"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-retrieve-file.tt:4
 #, c-format

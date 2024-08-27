@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.03.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-20 03:07+0000\n"
-"PO-Revision-Date: 2024-07-23 04:05+0000\n"
+"PO-Revision-Date: 2024-08-01 03:07+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/acq.js:10
 msgid "ERROR: Price is not a valid number, please check the price and try again!"
-msgstr "Virhe: Hinta ei ole numeromuodossa, tarkista hinta ja yritä uudelleen."
+msgstr "VIRHE: Hinta ei ole numeromuodossa, tarkista hinta ja yritä uudelleen."
 
 #: koha-tmpl/intranet-tmpl/prog/js/acq.js:314
 msgid "Fund amount exceeds parent allocation"
@@ -243,7 +243,7 @@ msgstr "%s on jo korissasi"
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:6
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:28
 msgid "No item was selected"
-msgstr "Valitse nimeke"
+msgstr "Nimekettä ei valittu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:221
 msgid "No item was added to your cart (already in your cart)!"
@@ -833,7 +833,7 @@ msgstr "Taulukossa ei ole tietoja"
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:16
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:17
 msgid "Showing _START_ to _END_ of _TOTAL_ entries"
-msgstr "Näytetään _START_ - _END_ / _TOTAL_"
+msgstr "Näytetään _START_ - _END_ / _TOTAL_ rivistä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:17
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:18
@@ -848,7 +848,7 @@ msgstr "(suodatettu _MAX_ tuloksesta)"
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:19
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:20
 msgid "Show _MENU_ entries"
-msgstr "Näytä _MENU_ kenttää"
+msgstr "Näytä _MENU_ riviä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:21
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:22
@@ -3728,7 +3728,7 @@ msgstr "Valinnat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:132
 msgid "DOES NOT EXIST!"
-msgstr "ei ole olemassa"
+msgstr "EI OLE OLEMASSA"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:178
 msgid "Add new attribute"
