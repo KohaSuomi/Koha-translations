@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 13:28+0300\n"
-"PO-Revision-Date: 2024-05-02 15:37+0300\n"
+"PO-Revision-Date: 2024-09-12 12:10+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -8212,12 +8212,12 @@ msgstr "Bibliografinen taso"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:28
 #, c-format
 msgid "a - Monographic component part"
-msgstr "a - Osakohde monografiassa"
+msgstr "a - Monografinen osakohde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:29
 #, c-format
 msgid "b - Serial component part"
-msgstr "b - Osakohde kausijulkaisussa"
+msgstr "b - Sarjamainen osakohde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:30
 #, c-format
@@ -8282,12 +8282,12 @@ msgstr "Koodaustaso"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:44
 #, c-format
 msgid "_ - Full level"
-msgstr "_ - Täydellinen taso"
+msgstr "_ - Kattava taso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:45
 #, c-format
 msgid "1 - Full level, material not examined"
-msgstr "1 - Täydellinen taso, kuvailun kohde ei ole ollut käsillä"
+msgstr "1 - Kattava taso, kuvailun kohde ei ole ollut käsillä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:219
@@ -8298,12 +8298,12 @@ msgstr "2- Täydellistä tasoa niukempi, kuvailun kohde ei ole ollut käsillä"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:47
 #, c-format
 msgid "3 - Abbreviated level"
-msgstr "3 - Vähimmäistasoa niukempi"
+msgstr "3 - Ydintasoa niukempi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:48
 #, c-format
 msgid "4 - Core level"
-msgstr "4 - Välitaso"
+msgstr "4 - Perustaso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:49
 #, c-format
@@ -8313,7 +8313,7 @@ msgstr "5 - Osittainen (alustava) taso"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:50
 #, c-format
 msgid "7 - Minimal level"
-msgstr "7 - Vähimmäistaso"
+msgstr "7 - Ydintaso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-widgets-marc21.inc:51
 #, c-format
@@ -12788,13 +12788,13 @@ msgstr "7- Tietueen bibliografinen taso"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:142
 #, c-format
 msgid "a- Monographic component part"
-msgstr "a- Osakohde monografiassa"
+msgstr "a- Monografinen osakohde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:145
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:147
 #, c-format
 msgid "b- Serial component part"
-msgstr "b- Osakohde kausijulkaisussa"
+msgstr "b- Sarjamainen osakohde"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:152
@@ -12868,35 +12868,35 @@ msgstr "17- Koodaustaso"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:209
 #, c-format
 msgid "full level"
-msgstr "täydellinen taso"
+msgstr "kattava taso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:211
 #, c-format
 msgid "Full level"
-msgstr "Täydellinen taso"
+msgstr "Kattava taso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:214
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:216
 #, c-format
 msgid "1- Full level, material not examined"
-msgstr "1- Täydellinen taso, kuvailun kohde ei ole ollut käsillä"
+msgstr "1- Kattava taso, kuvailun kohde ei ole ollut käsillä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:221
 #, c-format
 msgid "2- Less-than-full level, material not examined"
-msgstr "2- Täyttä tasoa vähemmän, aineistoa ei ole tutkittu"
+msgstr "2- Kattavaa tasoa niukempi, kuvailun kohde ei ole ollut käsillä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:224
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:226
 #, c-format
 msgid "3- Abbreviated level"
-msgstr "3- Vähimmäistasoa niukempi"
+msgstr "3- Ydintasoa niukempi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:229
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:231
 #, c-format
 msgid "4- Core level"
-msgstr "4- Välitaso"
+msgstr "4- Perustaso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:234
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:236
@@ -12908,7 +12908,7 @@ msgstr "5- Osittainen (alustava) taso"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:241
 #, c-format
 msgid "7- Minimal level"
-msgstr "7- Vähimmäistaso"
+msgstr "7- Ydintaso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:244
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:246
@@ -13113,9 +13113,9 @@ msgstr "&lt;&lt; Edellinen"
 msgid "Next&gt;&gt;"
 msgstr "Seuraava&gt;&gt;"
 
-#. %1$s:  from | html 
-#. %2$s:  to | html 
-#. %3$s:  total | html 
+#. %1$s:  from | html
+#. %2$s:  to | html
+#. %3$s:  total | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:62
 #, c-format
 msgid "Results %s to %s of %s"
