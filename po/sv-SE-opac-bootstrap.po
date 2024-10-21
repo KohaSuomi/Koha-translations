@@ -1,10 +1,10 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 03:07+0000\n"
-"PO-Revision-Date: 2024-05-24 03:00+0000\n"
+"POT-Creation-Date: 2024-10-10 03:06+0000\n"
+"PO-Revision-Date: 2024-10-17 03:22+0000\n"
 "Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4-dev\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-opac-bootstrap.po\n"
 "X-POOTLE-MTIME: 1698058011.903146\n"
@@ -37,7 +37,7 @@ msgstr "Uppdaterad"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:13
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:117
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:746
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:755
 #, c-format
 msgid "Type"
 msgstr "Typ"
@@ -668,7 +668,7 @@ msgstr "unAPI"
 #. %1$s:  HOLDS.count | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:7
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:720
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:348
 #, c-format
 msgid "(%s total)"
@@ -695,8 +695,8 @@ msgstr "Reservationer "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:119
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recalls.tt:37
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:294
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:604
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:606
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:613
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:615
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-tags.tt:139
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:86
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:335
@@ -809,7 +809,7 @@ msgstr "Nytt avhämtningsbibliotek:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:78
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:145
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:255
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:658
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:667
 #, c-format
 msgid "Save"
 msgstr "Spara"
@@ -841,9 +841,9 @@ msgstr "Spara"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt:97
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt:127
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:382
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:660
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:662
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:687
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:669
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:671
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:696
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:304
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:601
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:912
@@ -913,7 +913,7 @@ msgstr "Väntar på nästa tillgängliga exemplar av exemplartypen '%s'"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1004
 #, c-format
 msgid "Pending"
-msgstr "Väntar"
+msgstr "I kö"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:174
 #, c-format
@@ -1054,8 +1054,8 @@ msgstr "Källa"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:144
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:120
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:282
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:609
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:611
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:618
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:620
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:336
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:934
 #, c-format
@@ -1245,9 +1245,6 @@ msgstr "Din minneslista är tom."
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:39
-msgid "Collect items you are interested in"
-msgstr "Samla exemplar du är intresserad av"
-
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:40
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:222
 #, c-format
@@ -1255,33 +1252,35 @@ msgid "Cart"
 msgstr "Minneslista"
 
 #. A
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:39
+msgid "Collect items you are interested in"
+msgstr "Samla exemplar du är intresserad av"
+
+#. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:47
-msgid "Show dropdown with detailed list information"
-msgstr "Visa rullgardinsmeny med detaljerad listinformation"
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:48
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:122
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt:20
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:79
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:83
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:702
+#, c-format
+msgid "Lists"
+msgstr "Listor"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:47
 msgid "Show lists"
 msgstr "Visa listor"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:48
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:122
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt:20
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:79
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:83
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:693
-#, c-format
-msgid "Lists"
-msgstr "Listor"
-
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:52
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:42
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:22
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:100
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:104
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:709
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:713
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:740
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:718
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:722
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:749
 #, c-format
 msgid "Public lists"
 msgstr "Offentliga listor"
@@ -1296,9 +1295,9 @@ msgstr "Visa alla"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:24
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:90
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:94
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:699
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:703
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:738
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:708
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:712
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:747
 #, c-format
 msgid "Your lists"
 msgstr "Dina listor"
@@ -1310,8 +1309,8 @@ msgstr "Inga privata listor"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:82
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:225
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:553
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:727
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:562
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:736
 #, c-format
 msgid "New list"
 msgstr "Ny lista"
@@ -1344,6 +1343,7 @@ msgstr "Välkommen, %s"
 msgid "Log out"
 msgstr "Logga ut"
 
+#. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:118
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:120
@@ -1437,8 +1437,8 @@ msgstr "Serie"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:190
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:397
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:306
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:619
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:621
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:628
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:630
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:344
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:677
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:728
@@ -1486,7 +1486,7 @@ msgstr "Grupper"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:199
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:241
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:293
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:508
 #, c-format
 msgid "Search"
@@ -1635,7 +1635,7 @@ msgstr "Om du inte har ett externt konto, men har ett lokalt konto, kan du änd�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:228
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:202
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:135
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:111
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:112
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reset-password.tt:78
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:464
 #, c-format
@@ -1648,7 +1648,7 @@ msgstr "Inloggning:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:204
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:955
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:73
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:117
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:118
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:466
 #, c-format
 msgid "Password:"
@@ -1659,7 +1659,7 @@ msgstr "Lösenord:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:26
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:236
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:208
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:124
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:125
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:469
 #, c-format
 msgid "Log in"
@@ -1677,7 +1677,7 @@ msgstr "Har du glömt lösenordet?"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:453
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:258
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:223
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:128
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:129
 #, c-format
 msgid "Create an account"
 msgstr "Registrera ett nytt konto"
@@ -1790,63 +1790,63 @@ msgid "Submit"
 msgstr "Skicka"
 
 #. A
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:14
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:15
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-tags.tt:138
 #, c-format
 msgid "Term"
 msgstr "Term"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:27
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:28
 #, c-format
 msgid "Earlier heading"
 msgstr "(Tidigare rubrik)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:28
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:29
 #, c-format
 msgid "Later heading"
 msgstr "(Senare rubrik)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:29
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:30
 #, c-format
 msgid "Acronym"
 msgstr "Akronym"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:30
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:31
 #, c-format
 msgid "Musical composition"
 msgstr "Musikalisk komposition"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:31
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:32
 #, c-format
 msgid "Broader heading"
 msgstr "(Bredare term)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:32
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:33
 #, c-format
 msgid "Narrower heading"
 msgstr "Smalare term"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:63
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:64
 #, c-format
 msgid "English"
 msgstr "Engelska"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:64
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:65
 #, c-format
 msgid "French"
 msgstr "Franska"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:65
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:66
 #, c-format
 msgid "Italian"
 msgstr "Italienska"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:66
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:67
 #, c-format
 msgid "German"
 msgstr "Tyska"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:67
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-authorities.inc:68
 #, c-format
 msgid "Spanish"
 msgstr "Spanska"
@@ -3389,7 +3389,7 @@ msgstr "bib"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:163
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:170
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:756
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:765
 #, c-format
 msgid "item"
 msgstr "artikel"
@@ -4363,23 +4363,23 @@ msgstr "Listnamn:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:84
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:304
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:632
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:641
 #, c-format
 msgid "Category:"
 msgstr "Kategori:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:86
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:635
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:637
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:759
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:644
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:646
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:768
 #, c-format
 msgid "Private"
 msgstr "Privat"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-addbybiblionumber.tt:88
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:640
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:642
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:761
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:649
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:651
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:770
 #, c-format
 msgid "Public"
 msgstr "Offentlig"
@@ -5012,7 +5012,7 @@ msgstr "Vill du få ett e-postmeddelande när det kommer ett nytt nummer för de
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:125
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:128
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:828
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #, c-format
 msgid "Yes"
 msgstr "Ja"
@@ -5028,7 +5028,7 @@ msgstr "Ja"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:127
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:523
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:830
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #, c-format
 msgid "No"
 msgstr "Nej"
@@ -5650,7 +5650,7 @@ msgstr "Rensa alla"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:369
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:583
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:359
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 #, c-format
 msgid "Select titles to: "
 msgstr "Välj titlar: "
@@ -5752,8 +5752,8 @@ msgid "Items in your cart"
 msgstr "Exemplar i din minneslista"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:289
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:614
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:616
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:623
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:625
 #, c-format
 msgid "Year"
 msgstr "År"
@@ -5786,7 +5786,7 @@ msgstr "%sDenna post har inga exemplar.%s "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:369
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:519
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:583
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-tags.tt:198
 msgid "No item was selected"
 msgstr "Inget exemplar valdes"
@@ -5796,7 +5796,7 @@ msgstr "Inget exemplar valdes"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:369
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1464
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:583
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "No tag was specified."
 msgstr "Ingen tagg har angetts."
 
@@ -5804,7 +5804,7 @@ msgstr "Ingen tagg har angetts."
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:369
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:583
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "With selected titles: "
 msgstr "Med valda titlar: "
 
@@ -6217,7 +6217,7 @@ msgstr "Du har redan en planerad hämtning för det här biblioteket."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:146
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:317
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:599
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:608
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:98
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:112
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:128
@@ -6789,7 +6789,7 @@ msgid "Your comment (preview, pending approval)"
 msgstr "Din kommentar (förhandsgranskning - inväntar godkännande)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:820
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:772
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:781
 #, c-format
 msgid "Edit"
 msgstr "Redigera"
@@ -6929,7 +6929,7 @@ msgid "by"
 msgstr "av"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1086
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:779
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:788
 #, c-format
 msgid "Share"
 msgstr "Dela"
@@ -7736,7 +7736,7 @@ msgstr "Kommentar:"
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:56
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:600
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #, c-format
 msgid "Submit note"
 msgstr "Spara ändringar"
@@ -7834,7 +7834,7 @@ msgid "Quote of the day"
 msgstr "Dagens citat"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:179
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:110
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:111
 #, c-format
 msgid "Log in to your account:"
 msgstr "Logga in på ditt konto:"
@@ -8263,7 +8263,7 @@ msgstr "Telefonnummer:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:577
 #, c-format
 msgid "Secondary phone:"
-msgstr "Annan telefon:"
+msgstr "Sekundärt telefonnummer:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:586
 #, c-format
@@ -8273,12 +8273,12 @@ msgstr "Annan telefon:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:595
 #, c-format
 msgid "Primary email:"
-msgstr "Primär e-postadress:"
+msgstr "Primär e-post:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:603
 #, c-format
 msgid "Confirm primary email:"
-msgstr "Bekräfta primär e-postadress:"
+msgstr "Bekräfta primär e-post:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:613
 #, c-format
@@ -8300,7 +8300,7 @@ msgstr "Föredraget kontaktsätt:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:643
 #, c-format
 msgid "Primary phone"
-msgstr "Primärt telefonnummer"
+msgstr "Primär telefon"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:648
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:650
@@ -8652,9 +8652,9 @@ msgid "SMS number:"
 msgstr "SMS-nummer:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:194
-#, fuzzy, c-format
+#, c-format
 msgid "Please enter numbers only. Prefix the number with + or 00 if including the country code."
-msgstr "Ange endast siffrorna. Börja med + om landskoden ingår."
+msgstr "Ange endast siffror. Börja med + om landskoden ingår."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:199
 #, c-format
@@ -8668,7 +8668,7 @@ msgstr "Vänligen kontakta bibliotekspersonalen om du är osäker på vilken din
 
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:245
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Submit changes"
 msgstr "Spara ändringar"
 
@@ -8869,7 +8869,7 @@ msgstr "Tillgängliga exemplar:"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt:77
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Loading..."
 msgstr "Laddar..."
 
@@ -9821,7 +9821,7 @@ msgstr "Inga återkrav har skapats."
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recalls.tt:145
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Are you sure you want to remove this recall?"
 msgstr "Är du säker på att du vill ta bort det här återkravet?"
 
@@ -10729,7 +10729,7 @@ msgid "suggestions"
 msgstr "förslag"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:149
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 #, c-format
 msgid "Sort"
 msgstr "Sortera"
@@ -10903,7 +10903,7 @@ msgstr "Söker i %s..."
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:583
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "You must be logged in to create or add to lists"
 msgstr "Du måste vara inloggad för att skapa eller lägga till i listor"
 
@@ -11770,7 +11770,7 @@ msgid "Print list"
 msgstr "Skriv ut lista"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:253
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:561
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:570
 #, c-format
 msgid "Edit list"
 msgstr "Redigera lista"
@@ -11821,8 +11821,8 @@ msgstr "Datum för utgivning/copyright (äldst till nyast)"
 
 #. OPTGROUP
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:330
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:624
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:626
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:633
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:635
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-tags.tt:140
 #, c-format
 msgid "Date added"
@@ -11855,184 +11855,186 @@ msgstr "Lägg till i lista"
 msgid "tagsel_button"
 msgstr "tagsel_button"
 
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:386
+#, c-format
+msgid "Remove from list"
+msgstr "Ta bort från lista"
+
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:547
 msgid "Remove selected items"
 msgstr "Ta bort markerade artiklar"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:571
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:580
 #, c-format
 msgid "This list is empty."
 msgstr "Listan är tom."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:573
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:582
 #, c-format
 msgid "You can add to your lists from the results of any "
 msgstr "Du kan utöka dina listor med resultat från "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:573
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:582
 #, c-format
 msgid "search"
 msgstr "sök"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:586
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:595
 #, c-format
 msgid "Create a new list"
 msgstr "Skapa en ny lista"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:589
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:598
 #, c-format
 msgid "Editing "
 msgstr "Redigerar "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:597
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:606
 #, c-format
 msgid "List name: "
 msgstr "Listnamn: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:601
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:610
 #, c-format
 msgid "Sort this list by: "
 msgstr "Sortera denna lista efter: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:646
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:655
 #, c-format
 msgid "The library has disabled the ability for patrons to create new public lists. If you make your list private, you will not be able to make it public again."
 msgstr "Biblioteket har stängt av funktionen att dela offentliga listor. Om du gör listan privat kommer du inte att kunna göra den offentlig igen."
 
 #. %1$s:  shelf.shelfname | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:668
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:677
 #, c-format
 msgid "Transfer ownership of shared list '%s'"
 msgstr "Överför ägarskap av den delade listan '%s'"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:677
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:686
 #, c-format
 msgid "New owner: "
 msgstr "Ny ägare: "
 
 #. INPUT type=submit
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:686
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:787
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:695
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:796
 #, c-format
 msgid "Transfer"
 msgstr "Överföring"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:730
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:818
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:739
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:827
 #, c-format
 msgid "Log in to create a new list"
 msgstr "Logga in för att skapa en ny lista"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:744
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:753
 #, c-format
 msgid "List name"
 msgstr "Listnamn"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:745
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:754
 #, c-format
 msgid "Contents"
 msgstr "Innehåll"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:747
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:756
 #, c-format
 msgid "Modification date"
 msgstr "Redigeringsdatum"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:756
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:765
 #, c-format
 msgid "Empty"
 msgstr "Tom"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:756
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:765
 #, c-format
 msgid "items"
 msgstr "exemplar"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:759
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:768
 #, c-format
 msgid "Shared"
 msgstr "Delad"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:798
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:807
 #, c-format
 msgid "Remove share"
 msgstr "Ta bort delning"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:809
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:818
 #, c-format
 msgid "No public lists."
 msgstr "Inga publika listor."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:811
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:820
 #, c-format
 msgid "No private lists."
 msgstr "Inga privata listor."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "Are you sure you want to delete this list?"
 msgstr "Är du säker på att du vill ta bort denna lista?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "Are you sure you want to remove sharing? You will no longer have access to the list."
 msgstr "Är du säker på att du vill ta bort den här delningen? Du kommer inte längre ha tillgång till listan."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "Are you sure you want to remove these items from the list?"
 msgstr "Är du säker på att du vill ta bort de här artiklarna från listan?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "Are you sure you want to remove this item from the list?"
 msgstr "Är du säker på att du vill ta bort detta exemplar från listan?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "Items on this list:"
 msgstr "Exemplar på denna lista:"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "No, do not delete"
 msgstr "Nej, ta inte bort den"
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
-msgid "No, do not delete from list"
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
+#, fuzzy
+msgid "No, do not remove from list"
 msgstr "Nej, ta inte bort från listan"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "No, do not remove sharing"
 msgstr "Nej, ta inte bort delning"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
-msgid "Remove from list"
-msgstr "Ta bort från lista"
-
-#. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "This list is shared. Other users will lose access to it."
 msgstr "Den här listan är delad. Andra användare kommer att förlora tillgång till den."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "Yes, delete"
 msgstr "Ja, ta bort"
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
-msgid "Yes, delete from list"
-msgstr "Ja, ta bort från lista"
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
+#, fuzzy
+msgid "Yes, remove from list"
+msgstr "Ta bort från lista"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:848
 msgid "Yes, remove sharing"
 msgstr "Ja, ta bort delning"
 
@@ -13140,7 +13142,7 @@ msgstr "OverDrive-konto"
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:327
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:554
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #, c-format
 msgid "Renew selected"
 msgstr "Låna om markerade"
@@ -13170,7 +13172,7 @@ msgstr "Återlämnas"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:356
 #, c-format
 msgid "Renew"
-msgstr "Förnya"
+msgstr "Låna om"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:349
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:734
@@ -13272,12 +13274,12 @@ msgstr "(reserverad)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:474
 #, c-format
 msgid "Not renewable "
-msgstr "Kan ej omlånas "
+msgstr "Kan inte lånas om "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:476
 #, c-format
 msgid "Not renewable"
-msgstr "Kan ej omlånas"
+msgstr "Kan inte lånas om"
 
 #. %1$s:  ISSUE.renewsleft | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:478
@@ -13344,7 +13346,7 @@ msgstr "Ja (Hyresavgifter)"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:540
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #, c-format
 msgid "Edit note"
 msgstr "Redigera anteckning"
@@ -13352,7 +13354,7 @@ msgstr "Redigera anteckning"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:542
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #, c-format
 msgid "Add note"
 msgstr "Lägg till kommentar"
@@ -13361,7 +13363,7 @@ msgstr "Lägg till kommentar"
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:556
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:572
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 #, c-format
 msgid "Renew all"
 msgstr "Låna om alla"
@@ -13538,103 +13540,103 @@ msgid "Do not suspend"
 msgstr "Pausa inte"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "All holds will be suspended."
 msgstr "Alla reservationer kommer att pausas."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "All holds will resume."
 msgstr "Alla reservationer kommer återupptas."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Are you sure you want to cancel this article request?"
 msgstr "Är du säker på att du vill ta bort den här artikelförfrågan?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Are you sure you want to cancel this hold?"
 msgstr "Är du säker på att du vill annullera den här reservationen?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Are you sure you want to dismiss this message?"
 msgstr "Är du säker på att du vill ta bort detta meddelande?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Are you sure you want to request cancelling this hold?"
 msgstr "Är du säker på att du vill ta bort den här reservationen?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Are you sure you want to resume all suspended holds?"
 msgstr "Är du säker på att du vill återuppta alla pausade reservationer?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Are you sure you want to suspend all holds?"
 msgstr "Är du säker på att du vill pausa alla reservationer?"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "No, do not cancel article request"
 msgstr "Nej, ta inte bort den här artikelbeställningen"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "No, do not cancel hold"
 msgstr "Nej, ta inte bort reservationen"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "No, do not resume holds"
 msgstr "Nej, återuppta inte reservationerna"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Nothing has been selected. Check the box for each item you want to renew"
 msgstr "Inget har markerats. Markera kryssrutan för det du vill låna om"
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Something went wrong. The note has not been saved"
 msgstr "Något gick fel. Anteckningen har inte sparats"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Yes, cancel article request"
 msgstr "Avbryt artikelbeställning"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Yes, cancel hold"
 msgstr "Ja, ta bort reservation"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Yes, resume all holds"
 msgstr "Ja, återuppta alla pausade reservationer"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Yes, suspend all holds"
 msgstr "Ja, pausa alla reservationer"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Your note about %s could not be saved."
 msgstr "Din anteckning om %s kunde inte sparas."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Your note about %s has been saved and sent to the library."
 msgstr "Din notering om %s har sparats och skickats till biblioteket."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1090
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1091
 msgid "Your note about %s was removed."
 msgstr "Din notering om %s togs bort."
 
@@ -14626,6 +14628,9 @@ msgstr "000 "
 #~ msgid "Show _MENU_ entries"
 #~ msgstr "Visa _MENU_-objekt"
 
+#~ msgid "Show dropdown with detailed list information"
+#~ msgstr "Visa rullgardinsmeny med detaljerad listinformation"
+
 #~ msgid "Showing _START_ to _END_ of _TOTAL_"
 #~ msgstr "Visar _START_ till _END_ av _TOTAL_"
 
@@ -14678,6 +14683,9 @@ msgstr "000 "
 #, c-format
 #~ msgid "Yes, I agree."
 #~ msgstr "Ja, jag samtycker. "
+
+#~ msgid "Yes, delete from list"
+#~ msgstr "Ja, ta bort från lista"
 
 #~ msgid "You have checked out too many items and can't check out any more."
 #~ msgstr "Du har lånat fler exemplar än tillåtet och kan inte låna fler just nu."

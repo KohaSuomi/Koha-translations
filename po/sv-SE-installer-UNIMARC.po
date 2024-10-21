@@ -1,18 +1,18 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2024-05-01 03:00+0000\n"
-"Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
+"PO-Revision-Date: 2024-08-15 03:05+0000\n"
+"Last-Translator: \"jessica.andersson\" <jessica.andersson@alingsas.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-installer-UNIMARC.po\n"
 "X-POOTLE-MTIME: 1695633362.380363\n"
@@ -4321,7 +4321,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:8:row:2
 msgid "Source of classification or shelving scheme"
-msgstr "Källa för klassifikation eller hylla"
+msgstr "Källa för klassifikation/hyllsignaturer"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:8:row:3
 msgid "Koha normalized classification for sorting"

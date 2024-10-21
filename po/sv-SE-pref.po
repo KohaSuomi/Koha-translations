@@ -1,10 +1,10 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2024-07-05 03:04+0000\n"
+"PO-Revision-Date: 2024-09-12 03:04+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-pref.po\n"
 "X-POOTLE-MTIME: 1696315079.348994\n"
@@ -1082,13 +1082,12 @@ msgstr "Tillfälliga filer"
 
 # Administration > Login options > AutoLocation
 # Administration > Login options
-#, fuzzy
 msgid "admin.pref#StaffLoginLibraryBasedOnIP# No"
 msgstr "Nej"
 
 # Administration > Login options > StaffLoginLibraryBasedOnIP
 msgid "admin.pref#StaffLoginLibraryBasedOnIP# Note: If IPs overlap, the first found match will be used."
-msgstr ""
+msgstr "OBS: Om IP-nummer överlappar kommer den första överensstämmande att användas."
 
 # Administration > Login options > StaffLoginLibraryBasedOnIP
 msgid "admin.pref#StaffLoginLibraryBasedOnIP# Set logged in library for staff by matching their current IP to the library configuration: "
@@ -2721,7 +2720,7 @@ msgstr "Använd exemplartypen för"
 # Cataloging > Record structure > item-level_itypes
 # Cataloging > Record structure
 msgid "cataloguing.pref#item-level_itypes# as the authoritative item type (for determining circulation and fine rules, for displaying an item type icon on either opac detail or results page, etc)."
-msgstr "som den auktoritativa exemplartypen (för att bestämma regler för cirkulation och böter, för visning av ikoner för en exemplartyp i detaljinformation eller resultat för opac, osv.)."
+msgstr "som den auktoritativa exemplartypen (för att bestämma regler för cirkulation och avgifter, för visning av ikoner för en exemplartyp i detaljinformation eller resultat för opac, osv.)."
 
 # Cataloging > Record structure > item-level_itypes
 # Cataloging > Record structure
@@ -2823,7 +2822,7 @@ msgstr "Upphämtningsmodulen"
 # Circulation
 # Circulation > Fines Policy
 msgid "circulation.pref Fines Policy"
-msgstr "Böter- och avgiftspolicy"
+msgstr "Avgiftspolicy"
 
 # Circulation
 # Circulation > Holds Policy
@@ -2915,7 +2914,7 @@ msgstr "Kräv"
 
 # Circulation > Checkout policy > AllFinesNeedOverride
 msgid "circulation.pref#AllFinesNeedOverride# staff to manually override all fines, even fines less than set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> system preference. Enabling this system preference will block all checkouts for patrons with fines both via the web-based self checkout system and via SIP."
-msgstr "att personal manuellt åsidosätter alla böter, även böter som är mindre än vad som anges i systeminställningen <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a>. Aktivering av denna systeminställning kommer att blockera alla lån för låntagare med böter både via den webbaserade självbetjäningen och via SIP."
+msgstr "att personal manuellt åsidosätter alla avgifter, även avgifter som är mindre än vad som anges i systeminställningen <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a>. Aktivering av denna systeminställning kommer att blockera alla lån för låntagare med avgifter både via den webbaserade självbetjäningen och via SIP."
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
@@ -2960,7 +2959,7 @@ msgstr "Tillåt inte"
 # Circulation > Checkout policy > AllowFineOverride
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowFineOverride# staff to manually override and check out items to patrons who have more in fines than set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> system preference."
-msgstr "personal att manuellt åsidosätta och låna ut exemplar till låntagare som har högre böter än enligt systeminställningen <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a>."
+msgstr "personal att manuellt åsidosätta och låna ut exemplar till låntagare som har högre avgifter än enligt systeminställningen <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a>."
 
 # Circulation > Holds policy > AllowHoldDateInFuture
 # Circulation > Holds policy
@@ -3423,7 +3422,7 @@ msgstr "om låntagaren inte har kvarvarande försenade exemplar"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# remove OVERDUES restriction triggered by sent notices. The difference between removing restriction when no remaining overdue items exists and doing so only when any of the items would result in debarment is that the latter option will respect possible grace periods of overdue rules also on returns and not only when generating overdue notices."
-msgstr "OVERDUES-begränsningen som utlöses av skickade meddelanden. Skillnaden mellan att ta bort begränsningen när inga kvarvarande sena exemplar finns, och att göra det när något exemplar leder till avstängning är att det senare alternativet tar hänsyns till respittider hos övertidsregler även för återlämningar och inte bara när övertidsmeddelanden genereras."
+msgstr "ta bort OVERDUES-begränsningen som utlöses av skickade meddelanden. Skillnaden mellan att ta bort begränsningen när inga kvarvarande sena exemplar finns, och att göra det när något exemplar leder till avstängning är att det senare alternativet tar hänsyns till respittider hos övertidsregler även för återlämningar och inte bara när övertidsmeddelanden genereras."
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
@@ -5155,7 +5154,7 @@ msgstr "exemplarets hembibliotek."
 
 # Circulation > Checkout policy > RenewAccruingItemInOpac
 msgid "circulation.pref#RenewAccruingItemInOpac# If a patron pays off all fines on an overdue item that is accruing fines in the OPAC via a payment plugin,"
-msgstr "Om en låntagare betalar av alla böter i OPAC via en betalningsplugin på ett försenat exemplar som löpande samlar på sig mer böter,"
+msgstr "Om en låntagare betalar av alla avgifter i OPAC via en betalningsplugin på ett försenat exemplar som löpande samlar på sig mer avgifter,"
 
 # Circulation > Checkout policy > RenewAccruingItemInOpac
 # Circulation > Checkout policy
@@ -5174,7 +5173,7 @@ msgstr "exemplaret automatiskt. Om systeminställningen <a href=\"/cgi-bin/koha/
 
 # Circulation > Checkout policy > RenewAccruingItemWhenPaid
 msgid "circulation.pref#RenewAccruingItemWhenPaid# If a patron pays off all fines on an overdue item that is accruing fines,"
-msgstr "Om en låntagare betalar av alla böter på ett försenat exemplar som löpande samlar på sig mer böter,"
+msgstr "Om en låntagare betalar av alla avgifter på ett försenat exemplar som löpande samlar på sig mer avgifter,"
 
 # Circulation > Checkout policy > RenewAccruingItemWhenPaid
 # Circulation > Checkout policy
@@ -11963,7 +11962,8 @@ msgid "patrons.pref#SMSSendUsername# Define a username/login"
 msgstr "Ange användarnamn/inloggning"
 
 # Patrons > Notices and notifications > SMSSendUsername
-msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options that just username/login and password, entire them here as YAML key/value pairs:"
+#, fuzzy
+msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options than just username/login and password, enter them here as YAML key/value pairs:"
 msgstr "Om SMS::Send kräver fler alternativ än endast användarnamn/login, ange dem här som YAML-värdepar:"
 
 # Patrons > Notices and notifications > SMSSendUsername

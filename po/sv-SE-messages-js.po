@@ -1,10 +1,10 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 03:07+0000\n"
-"PO-Revision-Date: 2024-05-24 03:00+0000\n"
+"POT-Creation-Date: 2024-09-13 03:12+0000\n"
+"PO-Revision-Date: 2024-10-17 03:21+0000\n"
 "Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4-dev\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-messages-js.po\n"
 "X-POOTLE-MTIME: 1695111164.407902\n"
@@ -32,10 +32,6 @@ msgstr "Belopp för budgetställe överskrider periodens tilldelning"
 #: koha-tmpl/intranet-tmpl/prog/js/acq.js:348
 msgid "New budget-parent is beneath budget"
 msgstr "Ny övergripande budget är under budget"
-
-#: koha-tmpl/intranet-tmpl/prog/js/acq.js:393
-msgid "Are you sure you want to delete this vendor?"
-msgstr "Är du säker på att du vill ta bort leverantören?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:31
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:64
@@ -637,7 +633,7 @@ msgstr "Reserverad"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:256
 msgid "Not renewable"
-msgstr "Kan ej omlånas"
+msgstr "Kan inte lånas om"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:263
 msgid "Must be renewed at the library"
@@ -795,8 +791,8 @@ msgstr "Uppdatering"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:402
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:124
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:355
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:362
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:361
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:368
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:74
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:188
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:85
@@ -1308,7 +1304,7 @@ msgstr "Privat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:171
 #: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:109
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:696
 msgid "years"
 msgstr "år"
 
@@ -1450,12 +1446,12 @@ msgstr "Namn"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:67
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:60
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:160
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:187
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:210
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:233
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:258
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:281
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:166
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:193
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:216
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:239
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:264
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:287
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:49
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:94
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:140
@@ -1484,7 +1480,7 @@ msgstr "Obligatoriskt"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:178
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:40
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:12
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:80
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:86
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:321
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:26
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:113
@@ -1548,13 +1544,13 @@ msgid "Coce image from Open Library"
 msgstr "Coce-bild från Open Library"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:98
-#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:8
 #: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:10
-#: koha-tmpl/opac-tmpl/bootstrap/js/bakertaylorimages.js:7
-#: koha-tmpl/opac-tmpl/bootstrap/js/google-jackets.js:77
-#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:25
-#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:54
-#: koha-tmpl/opac-tmpl/bootstrap/js/openlibrary.js:63
+#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:12
+#: koha-tmpl/opac-tmpl/bootstrap/js/bakertaylorimages.js:9
+#: koha-tmpl/opac-tmpl/bootstrap/js/google-jackets.js:78
+#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:26
+#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:56
+#: koha-tmpl/opac-tmpl/bootstrap/js/openlibrary.js:66
 msgid "No cover image available"
 msgstr "Ingen omslagsbild finns tillgänglig"
 
@@ -1608,7 +1604,7 @@ msgid "Clear all"
 msgstr "Rensa alla"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:144
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:161
 msgid "Select all"
 msgstr "Välj alla"
@@ -1628,7 +1624,7 @@ msgstr "Godkänd"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:136
 msgid "Approve"
-msgstr "Godkänna"
+msgstr "Godkänn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:141
@@ -1814,12 +1810,12 @@ msgstr "Är du säker på att du vill ta bort %s? %s låntagare använder det!"
 msgid "Are you sure you want to delete %s?"
 msgstr "Är du säker på att du vill ta bort %s?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:289
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:290
 #: koha-tmpl/opac-tmpl/bootstrap/js/global.js:323
 msgid "Back to top"
 msgstr "Tillbaka till början"
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:629
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:630
 msgid "An error occurred. Check the logs for details."
 msgstr "Ett fel inträffade. Titta i loggarna."
 
@@ -3166,12 +3162,12 @@ msgid "Data provider name"
 msgstr "Dataleverantörsnamn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:24
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:106
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:112
 msgid "Service type"
 msgstr "Servicetyp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:118
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:124
 msgid "Report types"
 msgstr "Rapporttyper"
 
@@ -3180,40 +3176,39 @@ msgid "SUSHI credentials"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:41
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:175
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:181
 msgid "Service URL"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:47
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:198
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:204
 msgid "Report release"
 msgstr "Rapportsläpp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:53
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:221
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:227
 msgid "Customer ID"
 msgstr "Kund-ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:59
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:244
-#, fuzzy
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:250
 msgid "Requestor ID"
-msgstr "Obligatoriskt"
+msgstr "Beställar-ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:65
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:269
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:275
 msgid "API key"
 msgstr "API-nyckel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:71
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:286
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:292
 msgid "Requestor name"
-msgstr ""
+msgstr "Beställarnamn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:77
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:303
 msgid "Requestor email"
-msgstr ""
+msgstr "Beställarepost"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:13
 msgid "There are no import logs defined"
@@ -3279,65 +3274,64 @@ msgstr "Skriv in minst två tecken för att söka"
 msgid "Searching..."
 msgstr "Söker..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:67
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:70
 msgid "Create manually"
 msgstr "Skapa manuellt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:75
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:81
 msgid "Create from registry"
 msgstr "Skapa från register"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:93
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:99
 msgid "Harvester status"
 msgstr "Skördningsstatus"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:145
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:151
 msgid "Unselect all"
 msgstr "Välj bort alla"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:164
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:170
 msgid "Sushi credentials"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:308
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:314
 #, fuzzy
 msgid "Credentials information"
 msgstr "Resursinformation"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:311
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:317
 msgid "Customer ID info"
 msgstr "Information om kund-ID"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:321
-#, fuzzy
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:327
 msgid "Requestor ID info"
-msgstr "Obligatoriskt"
+msgstr "Information om beställare"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:331
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:337
 msgid "API key info"
 msgstr "API-nyckelinfo"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:340
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:346
 msgid "Please refer to the "
 msgstr "Hänvisa till "
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:342
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:348
 msgid "COUNTER registry"
 msgstr "COUNTER-registrering"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:344
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:350
 msgid "for more information."
 msgstr "för mer information."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:509
 msgid "This provider does not currently support any COUNTER 5 reports via SUSHI."
 msgstr "Denna leverantör stöder för närvarande inte några rapporter från COUNTER 5 via SUSHI."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:572
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:581
 msgid "Data provider updated"
 msgstr "Dataleverantör uppdaterad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:588
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:597
 #, fuzzy
 msgid "Data provider created"
 msgstr "Paket skapat"
@@ -4500,6 +4494,9 @@ msgstr "Det går inte att lägga till en eller flera taggar."
 
 #~ msgid "An error occurred on deleting this image"
 #~ msgstr "Ett fel inträffade när bilden togs bort"
+
+#~ msgid "Are you sure you want to delete this vendor?"
+#~ msgstr "Är du säker på att du vill ta bort leverantören?"
 
 #, fuzzy
 #~ msgid "Click to expand"

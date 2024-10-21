@@ -1,18 +1,18 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 03:07+0000\n"
-"PO-Revision-Date: 2024-05-25 03:00+0000\n"
-"Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
+"POT-Creation-Date: 2024-10-10 03:06+0000\n"
+"PO-Revision-Date: 2024-10-17 03:22+0000\n"
+"Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4-dev\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-messages.po\n"
 "X-POOTLE-MTIME: 1692879232.228045\n"
@@ -2002,7 +2002,7 @@ msgstr "Lösenord"
 #: Koha/Database/Columns.pm:175
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:25
 msgid "Primary phone"
-msgstr "Primärt telefonnummer"
+msgstr "Primär telefon"
 
 #: Koha/Database/Columns.pm:176
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:29
@@ -2133,9 +2133,8 @@ msgid "Koha normalized classification for sorting"
 msgstr "Koha normaliserad klassificering för sortering"
 
 #: Koha/Database/Columns.pm:207 Koha/Database/Columns.pm:274
-#, fuzzy
 msgid "Source of classification or shelving scheme"
-msgstr "Källa för klassifikation/hylla"
+msgstr "Källa för klassifikation/hyllsignaturer"
 
 #: Koha/Database/Columns.pm:208
 msgid "Coded location qualifier"
@@ -2405,9 +2404,8 @@ msgid "Edition statement"
 msgstr "Lägg till ytterligare innehåll"
 
 #: Koha/Database/Columns.pm:282
-#, fuzzy
 msgid "Other physical details"
-msgstr "Leverantörens adress"
+msgstr "Övriga fysiska detaljer"
 
 #: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:328
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
@@ -4863,14 +4861,13 @@ msgid "Modify vendor '{vendor}'"
 msgstr "Leverantör {vendor}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:153
-#, fuzzy
 msgid "Add vendor"
-msgstr "Lägg till användare"
+msgstr "Lägg till leverantör"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:156
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Vendor '{vendor}'"
-msgstr "Leverantör {vendor}"
+msgstr "Leverantör '{vendor}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/transferorder.tt:6
 msgid "Transfer order"
@@ -5097,22 +5094,22 @@ msgstr "Avtal borttaget"
 msgid "Contracts"
 msgstr "Avtal"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:213
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:216
 msgctxt "Budget planning"
 msgid "by months"
 msgstr "efter månader"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:214
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:217
 msgctxt "Budget planning"
 msgid "by item types"
 msgstr "efter exemplartyper"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:215
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:218
 msgctxt "Budget planning"
 msgid "by libraries"
 msgstr "efter bibliotek"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:216
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:219
 #, perl-brace-format
 msgctxt "Budget planning"
 msgid "by {type}"
@@ -6370,23 +6367,23 @@ msgstr "{title} av {author}"
 msgid "(Record #{biblionumber})"
 msgstr "(Post #{biblionumber})"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:56
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:57
 #, perl-brace-format
 msgid "Edit {title} by {author}"
 msgstr "Redigera {title} av {author}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:56
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:58
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:57
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:59
 msgctxt "Bibliographic record number"
 msgid "Record #"
 msgstr "Post #"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:58
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:59
 #, perl-brace-format
 msgid "Edit {title}"
 msgstr "Redigera {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:63
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:64
 msgctxt "Items attached to a bibliographic record"
 msgid "Items"
 msgstr "Exemplar"
@@ -6930,7 +6927,7 @@ msgstr "Kvitto för återkrav"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:10
 #, perl-brace-format
 msgid "Renew {title}"
-msgstr "Förnya {title}"
+msgstr "Låna om {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:20
 msgid "Request article"
@@ -7190,18 +7187,18 @@ msgid "Label creator"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:128
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Are you sure you want to delete batch {batch_number}?"
-msgstr "Är du säker på att du vill ta bort den här justeringen?"
+msgstr "Är du säker på att du vill ta bort satsen {batch_number}?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:16
 #, perl-brace-format
 msgid "Edit label layout {layout_id}"
-msgstr ""
+msgstr "Redigera etikettlayout {layout_id}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:18
 msgid "New label layout"
-msgstr ""
+msgstr "Ny etikettlayout"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:20
 msgid "Layouts"
@@ -7387,12 +7384,12 @@ msgctxt "gender"
 msgid "Other"
 msgstr "Annat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1498
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1500
 msgctxt "patron restriction created on"
 msgid "Created"
 msgstr "Skapad"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2081
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2076
 msgid "Add guarantor"
 msgstr "Lägg till vårdnadshavare"
 
@@ -7802,7 +7799,7 @@ msgstr "Bekräfta reservationer"
 msgid "Holds"
 msgstr "Reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1278
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1280
 msgid "Hold"
 msgid_plural "Holds"
 msgstr[0] "Reservera"
@@ -7868,7 +7865,7 @@ msgstr "Överför samling"
 msgid "Transfer collection '{collection_title}'"
 msgstr "Överför samling '{collection_title}'"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:146
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:166
 msgid "Add recipients"
 msgstr "Lägg till mottagare"
 
@@ -7925,7 +7922,7 @@ msgstr "Godkänd"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:68
 msgid "Pending"
-msgstr "Väntar"
+msgstr "I kö"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:72

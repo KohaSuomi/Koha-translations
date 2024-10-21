@@ -1,18 +1,18 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.01.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2024-05-04 03:00+0000\n"
-"Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
+"PO-Revision-Date: 2024-10-17 03:21+0000\n"
+"Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-installer.po\n"
 "X-POOTLE-MTIME: 1697186979.948590\n"
@@ -195,7 +195,7 @@ msgstr "För granskning"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:8
 msgid "Renew"
-msgstr "Förnya"
+msgstr "Låna om"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:9
 msgid "Cancel"
