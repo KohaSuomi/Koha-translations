@@ -1,9 +1,9 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.03.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 03:07+0000\n"
+"POT-Creation-Date: 2024-10-10 03:06+0000\n"
 "PO-Revision-Date: 2024-07-30 03:05+0000\n"
 "Last-Translator: pknuuti <paivi.knuutinen@joensuu.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -5085,22 +5085,22 @@ msgstr "Sopimus poistettu"
 msgid "Contracts"
 msgstr "Sopimukset"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:213
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:216
 msgctxt "Budget planning"
 msgid "by months"
 msgstr "kuukausittain"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:214
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:217
 msgctxt "Budget planning"
 msgid "by item types"
 msgstr "nidetyypeittäin"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:215
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:218
 msgctxt "Budget planning"
 msgid "by libraries"
 msgstr "kirjastoittain"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:216
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:219
 #, perl-brace-format
 msgctxt "Budget planning"
 msgid "by {type}"
@@ -6358,23 +6358,23 @@ msgstr "{title} / {author}"
 msgid "(Record #{biblionumber})"
 msgstr "(Tietue #{biblionumber})"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:56
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:57
 #, perl-brace-format
 msgid "Edit {title} by {author}"
 msgstr "Muokkaa {title} / {author}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:56
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:58
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:57
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:59
 msgctxt "Bibliographic record number"
 msgid "Record #"
 msgstr "Tietue #"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:58
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:59
 #, perl-brace-format
 msgid "Edit {title}"
 msgstr "Muokkaa {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:63
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:64
 msgctxt "Items attached to a bibliographic record"
 msgid "Items"
 msgstr "Niteet"
@@ -7375,12 +7375,12 @@ msgctxt "gender"
 msgid "Other"
 msgstr "Muu"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1498
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1500
 msgctxt "patron restriction created on"
 msgid "Created"
 msgstr "Luotu"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2081
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2076
 msgid "Add guarantor"
 msgstr "Lisää takaaja"
 
@@ -7790,7 +7790,7 @@ msgstr "Vahvista varaukset"
 msgid "Holds"
 msgstr "Varaukset"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1278
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1280
 msgid "Hold"
 msgid_plural "Holds"
 msgstr[0] "Varaus"
@@ -7856,7 +7856,7 @@ msgstr "Siirrä kokoelma"
 msgid "Transfer collection '{collection_title}'"
 msgstr "Siirrä kokoelma '{collection_title}'"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:146
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:166
 msgid "Add recipients"
 msgstr "Lisää vastaanottajia"
 

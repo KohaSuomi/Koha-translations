@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.03.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-20 03:07+0000\n"
-"PO-Revision-Date: 2024-08-01 03:07+0000\n"
+"POT-Creation-Date: 2024-09-13 03:12+0000\n"
+"PO-Revision-Date: 2024-10-17 10:02+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -32,10 +32,6 @@ msgstr "Tilin käyttösumma ylittää jakson budjetoinnin"
 #: koha-tmpl/intranet-tmpl/prog/js/acq.js:348
 msgid "New budget-parent is beneath budget"
 msgstr "Uusi emobudjetti on alle budjetin"
-
-#: koha-tmpl/intranet-tmpl/prog/js/acq.js:393
-msgid "Are you sure you want to delete this vendor?"
-msgstr "Haluatko varmasti poistaa tämän toimittajan?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:31
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:64
@@ -233,7 +229,7 @@ msgstr "%s teosta lisätty koriin"
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:210
 #, javascript-format
 msgid "%s already in your cart"
-msgstr "%s on jo korissasi"
+msgstr "%s oli jo korissasi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:218
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:311
@@ -799,8 +795,8 @@ msgstr "Päivitä"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:402
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:124
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:355
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:362
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:361
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:368
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:74
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:188
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:85
@@ -1313,7 +1309,7 @@ msgstr "Yksityinen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:171
 #: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:109
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:696
 msgid "years"
 msgstr "vuotta"
 
@@ -1455,12 +1451,12 @@ msgstr "Nimi"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:67
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:60
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:160
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:187
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:210
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:233
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:258
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:281
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:166
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:193
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:216
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:239
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:264
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:287
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:49
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:94
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:140
@@ -1489,7 +1485,7 @@ msgstr "Pakollinen tieto"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:178
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:40
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:12
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:80
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:86
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:321
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:26
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:113
@@ -1553,13 +1549,13 @@ msgid "Coce image from Open Library"
 msgstr "Coce-kuva Open Librarysta"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:98
-#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:8
 #: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:10
-#: koha-tmpl/opac-tmpl/bootstrap/js/bakertaylorimages.js:7
-#: koha-tmpl/opac-tmpl/bootstrap/js/google-jackets.js:77
-#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:25
-#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:54
-#: koha-tmpl/opac-tmpl/bootstrap/js/openlibrary.js:63
+#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:12
+#: koha-tmpl/opac-tmpl/bootstrap/js/bakertaylorimages.js:9
+#: koha-tmpl/opac-tmpl/bootstrap/js/google-jackets.js:78
+#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:26
+#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:56
+#: koha-tmpl/opac-tmpl/bootstrap/js/openlibrary.js:66
 msgid "No cover image available"
 msgstr "Ei kansikuvaa saatavana"
 
@@ -1613,7 +1609,7 @@ msgid "Clear all"
 msgstr "Tyhjennä kaikki"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:144
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:161
 msgid "Select all"
 msgstr "Valitse kaikki"
@@ -1819,12 +1815,12 @@ msgstr "Haluatko varmasti poistaa %s? %s asiakas(ta) käyttää sitä."
 msgid "Are you sure you want to delete %s?"
 msgstr "Oletko varma, että haluat poistaa %s?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:289
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:290
 #: koha-tmpl/opac-tmpl/bootstrap/js/global.js:323
 msgid "Back to top"
 msgstr "Takaisin alkuun"
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:629
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:630
 msgid "An error occurred. Check the logs for details."
 msgstr "Tapahtui virhe. Tarkista lokit."
 
@@ -3166,12 +3162,12 @@ msgid "Data provider name"
 msgstr "Tiedontarjoajan nimi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:24
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:106
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:112
 msgid "Service type"
 msgstr "Palvelun tyyppi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:118
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:124
 msgid "Report types"
 msgstr "Raporttityypit"
 
@@ -3180,37 +3176,37 @@ msgid "SUSHI credentials"
 msgstr "SUSHI-pääsytiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:41
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:175
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:181
 msgid "Service URL"
 msgstr "Palvelun URL"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:47
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:198
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:204
 msgid "Report release"
 msgstr "Raportin julkaisu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:53
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:221
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:227
 msgid "Customer ID"
 msgstr "Asiakastunnus"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:59
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:244
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:250
 msgid "Requestor ID"
 msgstr "Pyytäjän tunnus"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:65
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:269
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:275
 msgid "API key"
 msgstr "API-avain"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:71
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:286
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:292
 msgid "Requestor name"
 msgstr "Pyytäjän nimi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:77
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:303
 msgid "Requestor email"
 msgstr "Pyytäjän sähköposti"
 
@@ -3278,63 +3274,63 @@ msgstr "Kirjoita vähintään kaksi merkkiä hakeaksesi"
 msgid "Searching..."
 msgstr "Haetaan..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:67
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:70
 msgid "Create manually"
 msgstr "Luo käsin"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:75
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:81
 msgid "Create from registry"
 msgstr "Luo rekisteristä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:93
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:99
 msgid "Harvester status"
 msgstr "Haravoijan tila"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:145
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:151
 msgid "Unselect all"
 msgstr "Poista kaikista valinta"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:164
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:170
 msgid "Sushi credentials"
 msgstr "Sushi-pääsytiedot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:308
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:314
 msgid "Credentials information"
 msgstr "Pääsytietojen tiedot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:311
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:317
 msgid "Customer ID info"
 msgstr "Asiakastunnuksen tiedot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:321
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:327
 msgid "Requestor ID info"
 msgstr "Pyytäjätunnuksen tiedot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:331
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:337
 msgid "API key info"
 msgstr "API-avaimen tiedot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:340
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:346
 msgid "Please refer to the "
 msgstr "Käy osoitteessa "
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:342
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:348
 msgid "COUNTER registry"
 msgstr "COUNTER-rekisteri"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:344
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:350
 msgid "for more information."
 msgstr "saadaksesi lisätietoja."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:509
 msgid "This provider does not currently support any COUNTER 5 reports via SUSHI."
 msgstr "Tämä palveluntarjoaja ei tue tällä hetkellä mitään COUNTER 5 -raportteja SUSHIn kautta."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:572
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:581
 msgid "Data provider updated"
 msgstr "Tiedontarjoaja päivitetty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:588
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:597
 msgid "Data provider created"
 msgstr "Tiedontarjoaja luotu"
 
@@ -4485,6 +4481,9 @@ msgstr "Yhtä tai useampaa tagia ei voida lisätä."
 
 #~ msgid "An error occurred on deleting this image"
 #~ msgstr "Kuvaa poistettaessa tapahtui virhe"
+
+#~ msgid "Are you sure you want to delete this vendor?"
+#~ msgstr "Haluatko varmasti poistaa tämän toimittajan?"
 
 #~ msgid "Click to expand"
 #~ msgstr "Valitse aukaistaksesi"

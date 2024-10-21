@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.03.000\n"
+"Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-08-16 03:04+0000\n"
+"PO-Revision-Date: 2024-10-03 04:02+0000\n"
 "Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -2286,7 +2286,7 @@ msgstr "Piilota"
 # Cataloging > Display > OpacSuppression
 # Cataloging > Display
 msgid "cataloguing.pref#OpacSuppression# an explanatory page ('This record is blocked')."
-msgstr "selityssivu ('Tämä tietue on rajoitettu')."
+msgstr "selityssivu ('Tämä tietue on estetty')."
 
 # Cataloging > Display > OpacSuppression
 # Cataloging > Display
@@ -11994,7 +11994,8 @@ msgid "patrons.pref#SMSSendUsername# Define a username/login"
 msgstr "Määrittele käyttäjätunnus/kirjautumistunnus"
 
 # Patrons > Notices and notifications > SMSSendUsername
-msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options that just username/login and password, entire them here as YAML key/value pairs:"
+#, fuzzy
+msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options than just username/login and password, enter them here as YAML key/value pairs:"
 msgstr "Jos SMS:Send-ajuri vaatii muitakin asetuksia kuin käyttäjänimen ja salasanan, lisää ne alle YAML-muotoisina avain/arvopareina:"
 
 # Patrons > Notices and notifications > SMSSendUsername
