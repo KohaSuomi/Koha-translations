@@ -1869,6 +1869,18 @@ msgstr "(icke-XSLT-vy enbart)."
 msgid "cataloguing.pref#AuthoritySeparator# Separate main entry and subdivisions with "
 msgstr "Separera huvuduppgift och underavdelningar med "
 
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record structure
+#, fuzzy
+msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
+msgstr "Streckkoder är"
+
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record Structure
+#, fuzzy
+msgid "cataloguing.pref#BarcodePrefix# This is a YAML config."
+msgstr "inkrementella EAN-13-streckkoder."
+
 # Cataloging > Exporting > BibtexExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#BibtexExportAdditionalFields# <br/>"
@@ -2296,6 +2308,58 @@ msgstr "förifylls det nya exemplaret inte med de senast skapade exemplarvärden
 msgid "cataloguing.pref#PrefillItem# the new item is prefilled with last created item values."
 msgstr "förifylls det nya exemplaret med de senast skapade exemplarvärdena."
 
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 001: 773$w<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 020$a: 773$z<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 022$a: 773$x<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 028$ba: 773$o<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 245$abnpc: 773$t<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 264$abc: 773$d<br/>"
+msgstr "<ul>"
+
+# Cataloging > Record structure > AlternateHoldingsField
+# Cataloging > Record structure
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 300$ae: 773$h"
+msgstr "."
+
+# Cataloging > Display > PrepareHostField
+msgid "cataloguing.pref#PrepareHostField# Define rules for copying host data to component parts.<br/>"
+msgstr ""
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# Example:<br/>"
+msgstr "<ul>"
+
 # Cataloging > Exporting > RisExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#RisExportAdditionalFields# <br/>"
@@ -2674,6 +2738,12 @@ msgstr "genererade i formatet <year>0001, <year>-0002."
 
 # Cataloging > Record structure > autoBarcode
 # Cataloging > Record Structure
+#, fuzzy
+msgid "cataloguing.pref#autoBarcode# generated in the from <prefix>yyyymm0001."
+msgstr "genererade i formatet <branchcode>ååmm0001."
+
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# incremental EAN-13 barcodes."
 msgstr "inkrementella EAN-13-streckkoder."
 
@@ -2823,6 +2893,11 @@ msgstr "Upphämtningsmodulen"
 # Circulation > Fines Policy
 msgid "circulation.pref Fines Policy"
 msgstr "Avgiftspolicy"
+
+# Circulation
+#, fuzzy
+msgid "circulation.pref Floating"
+msgstr "circulation.pref"
 
 # Circulation
 # Circulation > Holds Policy
@@ -3073,6 +3148,36 @@ msgstr "Detta tillåter självutlåning för dessa exemplar. Om du använder res
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# checkouts of items reserved to someone else via SIP checkout messages."
+msgstr "utlån av exemplar som är reserverade av någon annan via SIP utlåningsmeddelanden."
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# Allow"
+msgstr "Tillåt"
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# Don't allow"
+msgstr "Tillåt inte"
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# If allowed do not generate ISSUED_TO_ANOTHER warning."
+msgstr "Om tillåtet, generera ingen RESERVED-varning."
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# This allows self checkouts for those items."
+msgstr "Tillåt"
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout Policy
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# checkouts of items already checked out to someone else via SIP checkout messages."
 msgstr "utlån av exemplar som är reserverade av någon annan via SIP utlåningsmeddelanden."
 
 # Circulation > Checkout policy > AllowMultipleIssuesOnABiblio
@@ -4346,6 +4451,100 @@ msgstr "Inkludera"
 # Circulation > Fines Policy
 msgid "circulation.pref#FinesIncludeGracePeriod# the grace period when calculating the fine for an overdue item."
 msgstr "respittiden vid beräkning av avgifterna för ett försenat exemplar."
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# </ul>"
+msgstr "."
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>#A->B: itemtype eq \"KIRJA\"</code>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means that rule applies when item is from library B and is checked in from library A.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> means that rule applies to both libraries.</br></br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, == and !=</code> for numeric values and <code>=~</code> for regular expressions.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items with a collection code \"FLOAT\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - using a regular expression to match against the item attribute, floats item types \"CD\" or \"DVD\" or \"KIRJA\"</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\" || itemtype eq \"CD\"</code> - all items with item type \"KIRJA\" or \"CD\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\"</code> - all items with item type \"KIRJA\" will float</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - all items not of item type \"CD\" and whose permanent location is \"CART\" will float</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
+msgstr ""
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# <ul>"
+msgstr "."
+
+# Circulation > Self check-out module > AutoSelfCheckAllowed
+# Circulation > Self check-out module
+#, fuzzy
+msgid "circulation.pref#FloatRules# Allowed operators are following:</br>"
+msgstr "Tillåt inte"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Define float rules by columns of items table and biblioitems column itemtype. NOTE! Rules can't be applied to other columns from biblioitems table.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Example rule: <code>A->B: itemtype eq \"KIRJA\"</code></br></br>"
+msgstr ""
+
+# Circulation > SIP2 > SIP2SortBinMapping
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# Examples:</br>"
+msgstr "Exempel:<br/>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Rules should start with following syntax:</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies."
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# You can also use comments to disable unused rules, just add <code>#</code> before the rule:</br>"
+msgstr ""
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# or: </br>"
+msgstr "."
 
 # Circulation > Checkin policy > HidePersonalPatronDetailOnCirculation
 # Circulation > Checkin policy
@@ -8230,6 +8429,24 @@ msgstr "Logga"
 msgid "logs.pref#BorrowersLog# changes to patron records and patron restrictions."
 msgstr "ändringar av låntagarposter och låntagarbegränsningar."
 
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# Don't log"
+msgstr "Logga inte"
+
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# Log"
+msgstr "Logga"
+
+# Logging > Logging > RenewalLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# when patron data is viewed."
+msgstr "när exemplar lånas om."
+
 # Logging > Logging > CataloguingLog
 # Logging > Logging
 msgid "logs.pref#CataloguingLog# Don't log"
@@ -9372,7 +9589,8 @@ msgstr "<br><strong>OBS:</strong> Biblioteksspecifik javascriptkod kan definiera
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
-msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC:"
+#, fuzzy
+msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC. You may need to ask your system administrator to rehash userjs checksums after changing this."
 msgstr "Inkludera följande JavaScript på alla sidor i OPAC:"
 
 # OPAC > Appearance > OPACUserSummary
@@ -10723,7 +10941,7 @@ msgstr "Tillåt inte"
 # OPAC > Privacy > opacreadinghistory
 # OPAC > Privacy
 #, fuzzy
-msgid "opac.pref#opacreadinghistory# patrons to see what items they have checked out in the past."
+msgid "opac.pref#opacreadinghistory# patrons to see what itms they have checked out in the past."
 msgstr "låntagare att se vilka böcker de lånat tidigare."
 
 # OPAC > Appearance > opacthemes
@@ -11963,7 +12181,7 @@ msgstr "Ange användarnamn/inloggning"
 
 # Patrons > Notices and notifications > SMSSendUsername
 #, fuzzy
-msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options than just username/login and password, enter them here as YAML key/value pairs:"
+msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options that just username/login and password, entire them here as YAML key/value pairs:"
 msgstr "Om SMS::Send kräver fler alternativ än endast användarnamn/login, ange dem här som YAML-värdepar:"
 
 # Patrons > Notices and notifications > SMSSendUsername
@@ -13469,7 +13687,8 @@ msgstr "Inkludera följande CSS på alla sidor i personalklienten:"
 
 # Staff interface > Appearance > IntranetUserJS
 # Staff interface > Appearance
-msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface:"
+#, fuzzy
+msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface. You may need to ask your system administrator to rehash userjs checksums after changing this."
 msgstr "Inkludera följande JavaScript på alla sidor i personalklienten:"
 
 # Staff interface > Appearance > IntranetmainUserblock
