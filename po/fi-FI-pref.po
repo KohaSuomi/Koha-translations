@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-10-03 04:02+0000\n"
+"PO-Revision-Date: 2024-11-01 12:59+0200\n"
 "Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: fi-FI\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-POOTLE-MTIME: 1698392361.707486\n"
@@ -1241,7 +1241,7 @@ msgstr "Käytä seuraavaa nimeä kirjastollesi Hea Communityn verkkosivuilla: "
 # Administration > Share anonymous usage statistics > UsageStatsLibraryType
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsLibraryType# "
-msgstr " "
+msgstr "  "
 
 # Administration > Share anonymous usage statistics > UsageStatsLibraryType
 # Circulation > Checkin policy > CalculateFinesOnReturn
@@ -1883,6 +1883,16 @@ msgstr "(vain non-XSLT näkymä)."
 msgid "cataloguing.pref#AuthoritySeparator# Separate main entry and subdivisions with "
 msgstr "Erota päänäkymä ja alemmat kohteet merkillä "
 
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record structure
+msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
+msgstr "Määrittele kirjastokohtaiset viivakoodin prefiksit:"
+
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record structure
+msgid "cataloguing.pref#BarcodePrefix# This is a YAML config."
+msgstr "Tämä on YAML-määritys."
+
 # Cataloging > Exporting > BibtexExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#BibtexExportAdditionalFields# <br/>"
@@ -2313,6 +2323,50 @@ msgstr "uuden niteen tietoja ei esitäytetä edellisen luodun niteen tiedoilla."
 msgid "cataloguing.pref#PrefillItem# the new item is prefilled with last created item values."
 msgstr "uuden niteen tiedot esitäytetään edellisen luodun niteen tiedoilla."
 
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 001: 773$w<br/>"
+msgstr "001: 773$w<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 020$a: 773$z<br/>"
+msgstr "020$a: 773$z<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 022$a: 773$x<br/>"
+msgstr "022$a: 773$x<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 028$ba: 773$o<br/>"
+msgstr "028$ba: 773$o<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 245$abnpc: 773$t<br/>"
+msgstr "245$abnpc: 773$t<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# 264$abc: 773$d<br/>"
+msgstr "264$abc: 773$d<br/>"
+
+# Cataloging > Record structure > AlternateHoldingsField
+# Cataloging > Record structure
+msgid "cataloguing.pref#PrepareHostField# 300$ae: 773$h"
+msgstr "300$ae: 773$h"
+
+# Cataloging > Display > PrepareHostField
+msgid "cataloguing.pref#PrepareHostField# Define rules for copying host data to component parts.<br/>"
+msgstr "Määrittele säännöt, joiden mukaan emotietueesta kopioidaan tietoja osakohteeseen.<br/>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+msgid "cataloguing.pref#PrepareHostField# Example:<br/>"
+msgstr "Esimerkki:<br/>"
+
 # Cataloging > Exporting > RisExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#RisExportAdditionalFields# <br/>"
@@ -2689,6 +2743,11 @@ msgstr "muotoa <year>-0001, <year>-0002."
 
 # Cataloging > Record structure > autoBarcode
 # Cataloging > Record structure
+msgid "cataloguing.pref#autoBarcode# generated in the from <prefix>yyyymm0001."
+msgstr "muotoa <prefix>yyyymm0001."
+
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record structure
 msgid "cataloguing.pref#autoBarcode# incremental EAN-13 barcodes."
 msgstr "EAN-13 -muodossa, nouseva numerointi."
 
@@ -2840,6 +2899,10 @@ msgstr "Noutopalvelumoduuli"
 # Circulation > Fines Policy
 msgid "circulation.pref Fines Policy"
 msgstr "Maksuasetukset"
+
+# Circulation
+msgid "circulation.pref Floating"
+msgstr "Kellutus"
 
 # Circulation
 # Circulation > Holds Policy
@@ -3091,6 +3154,31 @@ msgstr "\"Salli\" sallii itsepalvelulainauksen noille niteille. Jos käytetään
 # Circulation > Checkout policy
 msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# checkouts of items reserved to someone else via SIP checkout messages."
 msgstr "varattujen niteiden lainaaminen toiselle asiakkaalle automaatin kautta."
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# Allow"
+msgstr "Salli"
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# Don't allow"
+msgstr "Älä salli"
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# If allowed do not generate ISSUED_TO_ANOTHER warning."
+msgstr "Jos sallittu, älä generoi ISSUED_TO_ANOTHER-varoitusta."
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# This allows self checkouts for those items."
+msgstr "Tämä sallii niiden niteiden lainaamisen automaatilla."
+
+# Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
+# Circulation > Checkout policy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# checkouts of items already checked out to someone else via SIP checkout messages."
+msgstr "lainassa olevien niteiden lainaaminen toiselle asiakkaalle automaatin kautta."
 
 # Circulation > Checkout policy > AllowMultipleIssuesOnABiblio
 # Circulation > Checkout policy
@@ -4357,6 +4445,95 @@ msgstr "Sisällytä"
 # Circulation > Fines Policy
 msgid "circulation.pref#FinesIncludeGracePeriod# the grace period when calculating the fine for an overdue item."
 msgstr "anteeksiantoaika kun lasketaan myöhässä olevan aineiston maksua."
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+msgid "circulation.pref#FloatRules# </ul>"
+msgstr "</ul>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>#A->B: itemtype eq \"KIRJA\"</code>"
+msgstr "<code>#A->B: itemtype eq \"KIRJA\"</code>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means that rule applies when item is from library B and is checked in from library A.</br>"
+msgstr "<code>A->B</code> - missä <code>-></code> tarkoittaa, että sääntöä käytetään, kun nide on kirjastosta B ja palautetaan kirjastossa A.</br>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> means that rule applies to both libraries.</br></br>"
+msgstr "<code>A<>B</code> - missä <code><></code> tarkoittaa, että sääntöä käytetään kummassakin kirjastossa.</br></br>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, == and !=</code> for numeric values and <code>=~</code> for regular expressions.</br>"
+msgstr "<code>eq and ne</code> merkkijonoille,<code> <, >, == ja !=</code> numeerisille arvoille ja <code>=~</code> säännöllisille lausekkeille.</br>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items with a collection code \"FLOAT\" will float </li>"
+msgstr "<li><code>ccode eq \"FLOAT\"</code> - kaikki niteet, joilla on kokoelmakoodi \"FLOAT\" kelluvat </li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - using a regular expression to match against the item attribute, floats item types \"CD\" or \"DVD\" or \"KIRJA\"</li>"
+msgstr "<li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - käyttämällä säännönmukaista lauseketta täsmäyttämään niteen ominaisuuteen, kellutetaan aineistotyyppejä \"CD\" tai \"DVD\" tai \"KIRJA\"</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\" || itemtype eq \"CD\"</code> - all items with item type \"KIRJA\" or \"CD\" will float </li>"
+msgstr "<li><code>itemtype eq \"KIRJA\" || itemtype eq \"CD\"</code> - kaikki niteet, joilla on aineistotyyppi \"KIRJA\" tai \"CD\" kelluvat </li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\"</code> - all items with item type \"KIRJA\" will float</li>"
+msgstr "<li><code>itemtype eq \"KIRJA\"</code> - kaikki niteet, joiden aineistotyyppi on \"KIRJA\" kelluvat</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - all items not of item type \"CD\" and whose permanent location is \"CART\" will float</li>"
+msgstr "<li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - kaikki niteet, joiden aineistotyyppi ei ole \"CD\" ja joiden permanent location on \"CART\" kelluvat</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
+msgstr "<li><code>notforloan == 0</code> </li>"
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+msgid "circulation.pref#FloatRules# <ul>"
+msgstr "<ul>"
+
+# Circulation > Self check-out module > AutoSelfCheckAllowed
+# Circulation > Self check-out module
+msgid "circulation.pref#FloatRules# Allowed operators are following:</br>"
+msgstr "Sallitut operaattorit ovat:</br>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Define float rules by columns of items table and biblioitems column itemtype. NOTE! Rules can't be applied to other columns from biblioitems table.</br>"
+msgstr "Määritä kellutussääntöjä nidetaulun sarakkeiden ja biblioitems-taulun itemtype-sarakkeen perusteella. Huomaa! Sääntöjä ei voi tehdä muiden biblioitems-taulun sarakkeiden mukaan.</br>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Example rule: <code>A->B: itemtype eq \"KIRJA\"</code></br></br>"
+msgstr "Esimerkkisääntö: <code>A->B: itemtype eq \"KIRJA\"</code></br></br>"
+
+# Circulation > SIP2 > SIP2SortBinMapping
+# Circulation > Checkin policy
+msgid "circulation.pref#FloatRules# Examples:</br>"
+msgstr "Esimerkkejä:<br/>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Rules should start with following syntax:</br>"
+msgstr "Säännöt pitäisi alkaa seuraavalla syntaksilla:</br>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together.</br>"
+msgstr "Käytä <code>&& ja ||</code> operaattoreita yhdistämään lauseita yhteen.</br>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies."
+msgstr "Voit myös käyttää %-merkkiä jokerimerkkinä, kun määrittelet, mitä kirjastoja sääntö koskee."
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# You can also use comments to disable unused rules, just add <code>#</code> before the rule:</br>"
+msgstr "Voit myös kommentoida sääntöjä pois käytöstä, lisää vain <code>#</code> ennen sääntöä:</br>"
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+msgid "circulation.pref#FloatRules# or: </br>"
+msgstr "tai: </br>"
 
 # Circulation > Checkin policy > HidePersonalPatronDetailOnCirculation
 # Circulation > Checkin policy
@@ -6645,7 +6822,7 @@ msgstr "Syndetics"
 msgid "enhanced_content.pref Tagging"
 msgstr "Tagit"
 
-# Enhanced content > All > 
+# Enhanced content > All >
 # Enhanced content > All
 msgid "enhanced_content.pref## <strong>NOTE:</strong> you can only choose one source of cover images from below, otherwise Koha will show the images from all sources selected."
 msgstr "<strong>HUOM:</strong> voit valita vain yhden kansikuvalähteen alapuolelta, muuten Koha näyttää kuvat kaikista valituista lähteistä."
@@ -8152,7 +8329,7 @@ msgstr "Paikalliskäyttö"
 msgid "local_use.pref Local use"
 msgstr "Paikalliset tiedot"
 
-# Local use > Local use > 
+# Local use > Local use >
 # Local Use
 msgid "local_use.pref## Nothing defined yet."
 msgstr "Mitään ei ole vielä määritelty."
@@ -8253,6 +8430,21 @@ msgstr "Kerää loki"
 # Logging > Logging
 msgid "logs.pref#BorrowersLog# changes to patron records and patron restrictions."
 msgstr "asiakastietojen ja asiakkaiden rajoitusten muutoksista."
+
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+msgid "logs.pref#BorrowersViewLog# Don't log"
+msgstr "Älä kerää lokia"
+
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+msgid "logs.pref#BorrowersViewLog# Log"
+msgstr "Kerää loki"
+
+# Logging > Logging > RenewalLog
+# Logging > Logging
+msgid "logs.pref#BorrowersViewLog# when patron data is viewed."
+msgstr "asiakastietojen katseluista."
 
 # Logging > Logging > CataloguingLog
 # Logging > Logging
@@ -9397,8 +9589,8 @@ msgstr "<br><strong>Huomioi:</strong> Kirjastokohtaisen JS:n voi määrittää <
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
-msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC:"
-msgstr "Sisällytä seuraava JavaScript kaikille sivuille verkkokirjastossa:"
+msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC. You may need to ask your system administrator to rehash userjs checksums after changing this."
+msgstr "Sisällytä seuraava JavaScript kaikille sivuille verkkokirjastossa. Pyydä järjestelmän ylläpitäjää päivittämään järjestelmän tarkistussumma, kun muutat tätä asetusta."
 
 # OPAC > Appearance > OPACUserSummary
 # OPAC > Shelf browser
@@ -10754,7 +10946,7 @@ msgstr "Älä salli"
 
 # OPAC > Privacy > opacreadinghistory
 # OPAC > Privacy
-msgid "opac.pref#opacreadinghistory# patrons to see what items they have checked out in the past."
+msgid "opac.pref#opacreadinghistory# patrons to see what itms they have checked out in the past."
 msgstr "asiakkaiden nähdä lainahistoriaansa."
 
 # OPAC > Appearance > opacthemes
@@ -11994,8 +12186,7 @@ msgid "patrons.pref#SMSSendUsername# Define a username/login"
 msgstr "Määrittele käyttäjätunnus/kirjautumistunnus"
 
 # Patrons > Notices and notifications > SMSSendUsername
-#, fuzzy
-msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options than just username/login and password, enter them here as YAML key/value pairs:"
+msgid "patrons.pref#SMSSendUsername# If the SMS::Send driver requires more options that just username/login and password, entire them here as YAML key/value pairs:"
 msgstr "Jos SMS:Send-ajuri vaatii muitakin asetuksia kuin käyttäjänimen ja salasanan, lisää ne alle YAML-muotoisina avain/arvopareina:"
 
 # Patrons > Notices and notifications > SMSSendUsername
@@ -13507,8 +13698,8 @@ msgstr "Käytä seuraavaa CSS-tyylitiedostoa virkailijaliittymän kaikilla sivui
 
 # Staff interface > Appearance > IntranetUserJS
 # Staff interface > Appearance
-msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface:"
-msgstr "Sisällytä seuraava JavaScript kaikille virkailijaliittymän sivuille:"
+msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface. You may need to ask your system administrator to rehash userjs checksums after changing this."
+msgstr "Sisällytä seuraava JavaScript kaikille virkailijaliittymän sivuille. Pyydä järjestelmän ylläpitäjää päivittämään järjestelmän tarkistussumma, kun muutat tätä asetusta."
 
 # Staff interface > Appearance > IntranetmainUserblock
 # Staff interface > Appearance
