@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2024-11-01 14:11+0200\n"
+"PO-Revision-Date: 2024-11-04 08:11+0200\n"
 "Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -8651,7 +8651,7 @@ msgid "SMS number:"
 msgstr "SMS-nummer:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:194
-#, fuzzy, c-format
+#, c-format
 msgid "Please enter numbers only. Prefix the number with + if including the country code."
 msgstr "Ange endast siffror. Börja med + om landskoden ingår."
 
@@ -12001,7 +12001,6 @@ msgstr "Nej, ta inte bort den"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:839
-#, fuzzy
 msgid "No, do not delete from list"
 msgstr "Nej, ta inte bort från listan"
 
@@ -13987,9 +13986,9 @@ msgstr "Exemplaret går ej att återlämna, kontakta personal för hjälp"
 
 #. %1$s:  title | html
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:240
-#, fuzzy, c-format
+#, c-format
 msgid "Item checked in: %s "
-msgstr "Exemplaret återlämnat "
+msgstr "Återlämnat exemplar %s "
 
 #. %1$s:  borrowername | html
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:248
@@ -14160,9 +14159,9 @@ msgstr "Läs streckkoden"
 
 #. %1$s:  checkinmessage
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:540
-#, fuzzy, c-format
+#, c-format
 msgid "Returned %s"
-msgstr "Återlämna till %s"
+msgstr "Återlämnat %s"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:557
