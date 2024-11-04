@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2024-11-04 08:11+0200\n"
+"PO-Revision-Date: 2024-11-04 08:14+0200\n"
 "Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -13988,7 +13988,7 @@ msgstr "Exemplaret går ej att återlämna, kontakta personal för hjälp"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:240
 #, c-format
 msgid "Item checked in: %s "
-msgstr "Återlämnat exemplar %s "
+msgstr "Återlämnat exemplar: %s "
 
 #. %1$s:  borrowername | html
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:248
