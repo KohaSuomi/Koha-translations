@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2024-11-01 12:18+0200\n"
+"PO-Revision-Date: 2024-11-04 14:31+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -8189,7 +8189,7 @@ msgstr "Saatavuus "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:34
 #, c-format
 msgid "Showing only records with available items"
-msgstr "Näytetään vain saatavilla olevat tietueet"
+msgstr "Näytetään vain niteet, jotka eivät ole lainassa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:37
 #, c-format
@@ -8199,7 +8199,7 @@ msgstr "Näytä kaikki tietueet"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:39
 #, c-format
 msgid "Limit to records with available items"
-msgstr "Rajoita tietueisiin, joissa on niteitä saatavana"
+msgstr "Rajoita vain niteisiin, jotka eivät ole lainassa"
 
 #. %1$s:  FOREACH relate IN related
 #. %2$s:  relate.related_search | html
