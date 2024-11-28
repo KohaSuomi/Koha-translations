@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2024-11-01 12:24+0200\n"
+"PO-Revision-Date: 2024-11-28 15:03+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-messages-js.po\n"
 "X-POOTLE-MTIME: 1699019957.327455\n"
@@ -1344,7 +1344,7 @@ msgstr "Osakenttä ei ole toistettavissa ja on jo olemassa kohdetietueessa. Et v
 
 #: koha-tmpl/intranet-tmpl/prog/js/messaging-preference-form.js:20
 msgid "Change messaging preferences to default for this category?"
-msgstr "Vaihda viestiasetukset oletusasetukseksi tälle ryhmälle?"
+msgstr "Vaihdetaanko asiakkaan viestiasetukset asiakastyypin oletusarvoiksi? Valitse Peruuta, jos haluat säilyttää nykyiset valinnat."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:41
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:56
