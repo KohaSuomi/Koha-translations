@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2024-11-04 08:14+0200\n"
+"PO-Revision-Date: 2024-12-03 15:12+0200\n"
 "Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-opac-bootstrap.po\n"
 "X-POOTLE-MTIME: 1698058011.903146\n"
@@ -13982,7 +13982,7 @@ msgstr "Exemplaret har inte lånats om"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:235
 #, c-format
 msgid "Item not checked in: please see circulation staff for assistance"
-msgstr "Exemplaret går ej att återlämna, kontakta personal för hjälp"
+msgstr "Det återlämnade exemplaret var inte utlånat"
 
 #. %1$s:  title | html
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:240
