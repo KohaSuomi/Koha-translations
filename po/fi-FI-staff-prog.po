@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2025-01-20 11:20+0200\n"
+"PO-Revision-Date: 2025-01-23 12:37+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -68285,7 +68285,7 @@ msgstr "Vain omistaja"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:47
 #, c-format
 msgid "Permitted staff only"
-msgstr "Vain henkilökunta"
+msgstr "Vain henkilökunta, jolla on käyttöoikeus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:52
@@ -68302,7 +68302,7 @@ msgstr "Kuka tahansa listan katsoja"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:62
 #, c-format
 msgid "The Permitted staff only permission has no actual effect while this list is strictly private."
-msgstr "Koska lista on yksityinen, sitä ei voi asettaa henkilökunnan muokattavaksi."
+msgstr "Koska lista on yksityinen, sitä ei voi asettaa käyttöoikeuksellisen henkilökunnan muokattavaksi."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:63
 #, c-format
