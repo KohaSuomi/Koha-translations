@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2025-02-10 12:15+0200\n"
+"PO-Revision-Date: 2025-02-13 13:06+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -20296,7 +20296,7 @@ msgstr "Sinulta puuttuu &lt;log4perl_conf&gt; sisältö koha-conf.xml-tiedostost
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:688
 #, c-format
 msgid "You are missing the &lt;lockdir&gt; entry in your koha-conf.xml file. Please add it, pointing to your Koha instance's lock dir. "
-msgstr "Sinulta puuttuu &lt;lockdir&gt; sisältö koha-conf.xml-tiedostosta. Lisää se sinne ja osoita lockdir-tiedostoon Kohan asennuksessasi. "
+msgstr "Sinulta puuttuu &lt;lockdir&gt; sisältö koha-conf.xml-tiedostosta. Lisää se sinne ja osoita lockdir-hakemistoon Kohan asennuksessasi. "
 
 #. %1$s:  config_entry.lockdir | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:696
@@ -20318,7 +20318,7 @@ msgstr "koha-conf.xml -tiedostostasi puuttuu &lt;upload_path&gt; -muuttuja. Lis�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:721
 #, c-format
 msgid "You are missing the &lt;tmp_path&gt; entry in your koha-conf.xml file. Please add it, pointing to the configured temporary directory for your Koha instance. The effective temporary directory is '%s'. "
-msgstr "koha-conf.xml-tiedostostasi puuttuu &lt;upload_path&gt; -muuttuja. Lisää ja osoita se määritettyyn ladattujen tiedostojen hakemistoon Koha-asennuksessasi. Voimassa oleva väliaikaishakemisto on '%s'. "
+msgstr "koha-conf.xml-tiedostostasi puuttuu &lt;tmp_path&gt; -muuttuja. Lisää ja osoita se määritettyyn ladattujen tiedostojen hakemistoon Koha-asennuksessasi. Voimassa oleva väliaikaishakemisto on '%s'. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:730
 #, c-format
