@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2025-02-13 13:06+0200\n"
+"PO-Revision-Date: 2025-02-13 14:51+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -42101,7 +42101,7 @@ msgstr "Ei yhtään saatavilla"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:613
 #, c-format
 msgid "available:"
-msgstr "saatavana:"
+msgstr "ei lainassa:"
 
 #. %1$s:  SEARCH_RESULT.${status_count} | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:623
@@ -42113,7 +42113,7 @@ msgstr "%s lainassa:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:627
 #, c-format
 msgid "%s unavailable:"
-msgstr "%s ei saatavilla:"
+msgstr "%s tarkista saatavuus:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:666
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:75
