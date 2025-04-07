@@ -4462,6 +4462,12 @@ msgstr "."
 msgid "circulation.pref#FloatRules# <code>#A->B: itemtype eq \"KIRJA\"</code>"
 msgstr ""
 
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# <code>A%->B%: itemtype eq \"KIRJA\"</code></br></br>"
+msgstr "."
+
 # Circulation > Floating > FloatRules
 msgid "circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means that rule applies when item is from library B and is checked in from library A.</br>"
 msgstr ""
@@ -4471,11 +4477,35 @@ msgid "circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> me
 msgstr ""
 
 # Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, == and !=</code> for numeric values and <code>=~</code> for regular expressions.</br>"
+msgid "circulation.pref#FloatRules# <li><code>!=</code> - if the left numeric value argument shouldn't match the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>&&</code> is an \"AND\" operator, use if both expressions should be true</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code><</code>  - if the left numeric value argument should be less than the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>==</code> - if the left numeric value argument should match the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>=~</code> - if the left string argument should match regular expression on the right</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>></code>  - if the left numeric value argument should be greater than the right argument</li>"
 msgstr ""
 
 # Circulation > Floating > FloatRules
 msgid "circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items with a collection code \"FLOAT\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>eq</code> - if the left string argument should match the right argument</li>"
 msgstr ""
 
 # Circulation > Floating > FloatRules
@@ -4495,7 +4525,15 @@ msgid "circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && permanent_lo
 msgstr ""
 
 # Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>ne</code> - if the left string argument shouldn't match the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
 msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>||</code> is an \"OR\" operator, use if either one of the expressions should be true</li>"
 msgstr ""
 
 # Circulation > Holds policy > HoldsSplitQueue
@@ -4528,12 +4566,14 @@ msgstr "Exempel:<br/>"
 msgid "circulation.pref#FloatRules# Rules should start with following syntax:</br>"
 msgstr ""
 
-# Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together.</br>"
-msgstr ""
+# Circulation > Self check-out module > AutoSelfCheckAllowed
+# Circulation > Self check-out module
+#, fuzzy
+msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together:</br>"
+msgstr "Tillåt inte"
 
 # Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies."
+msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies:</br>"
 msgstr ""
 
 # Circulation > Floating > FloatRules
@@ -4580,6 +4620,24 @@ msgstr "när en reservation görs."
 # Circulation > Fines Policy
 msgid "circulation.pref#HoldFeeMode# only if all items are checked out and the record has at least one hold already."
 msgstr "endast om samtliga exemplar är utlånade och posten redan har minst en reservation."
+
+# Circulation > Self check-in module > SelfCheckInModule
+# Circulation > Self check-in module
+#, fuzzy
+msgid "circulation.pref#HoldPickupShelves# Don't enable"
+msgstr "Aktivera inte"
+
+# Circulation > Curbside pickup module > CurbsidePickup
+# Circulation > Self check-out module
+#, fuzzy
+msgid "circulation.pref#HoldPickupShelves# Enable"
+msgstr "Aktivera"
+
+# Circulation > Holds policy > EnableItemGroupHolds
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#HoldPickupShelves# the ability to define hold pickup shelves for libraries."
+msgstr "funktionen att lägga reservationer i exemplargrupper."
 
 # Circulation > Holds policy > HoldsSplitQueue
 # Circulation > Holds policy
@@ -5136,6 +5194,36 @@ msgstr "Aktivera"
 # Circulation > Checkout policy
 msgid "circulation.pref#OnSiteCheckoutsForce# the on-site checkout for all cases (even if a patron is debarred, etc.)."
 msgstr "lån på plats i alla situationer (även om en användare är spärrad, osv.)."
+
+# Circulation > Checkout policy > OverduesBlockCirc
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# Don't include branchcodes"
+msgstr "Blockera inte"
+
+# Circulation > Checkout policy > OverdueNoticeFrom
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# Include patron's home library as branchcode"
+msgstr "låntagarens hembibliotek"
+
+# Circulation > Checkout policy > HomeOrHoldingBranch
+# Circulation > Checkout Policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# Include the item's home library as branchcode"
+msgstr "exemplarets hembibliotek."
+
+# Circulation > Checkout policy > AllowReturnToBranch
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# Include the library the item was checked out from as branchcode"
+msgstr "endast på det bibliotek exemplaret lånades ut från."
+
+# Circulation > Checkout policy > HomeOrHoldingBranch
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# when generating OVERDUE fines."
+msgstr "Använd utlånings- och avgiftsreglerna för"
 
 # Circulation > Checkout policy > OverdueNoticeCalendar
 # Circulation > Checkout policy
@@ -12240,7 +12328,19 @@ msgstr "Uppkoppling mot Koha via SIP eller ILSDI"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
+#, fuzzy
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Creating a patron"
+msgstr "Omlån"
+
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Logging in"
+msgstr "Inloggning"
+
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
+#, fuzzy
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Modifying a patron"
 msgstr "Inloggning"
 
 # Patrons > General > TrackLastPatronActivity
@@ -12315,7 +12415,8 @@ msgstr "som standard kortnummerfältet till nästa tillgängliga kortnummer på 
 
 # Patrons > Patron relationships > borrowerRelationship
 # Patrons > Patron relationships
-msgid "patrons.pref#borrowerRelationship# (input multiple choices separated by |)."
+#, fuzzy
+msgid "patrons.pref#borrowerRelationship# (input multiple choices separated by |, leave a | at the end to allow for librarians to leave it blank)."
 msgstr "(mata in flera värden separerade med |)."
 
 # Patrons > Patron relationships > borrowerRelationship
@@ -15506,11 +15607,6 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 # Circulation > Checkout policy
 #~ msgid "circulation.pref#AutoRemoveOverduesRestrictions# allow OVERDUES restrictions triggered by sent notices to be cleared automatically when all overdue items are returned by a patron."
 #~ msgstr "FÖRSENINGS-begränsningar som utlösts av skickade meddelanden att upphävas automatiskt när alla försenade exemplar återlämnats av en låntagare."
-
-# Circulation > Holds policy > EnableItemGroupHolds
-# Circulation > Holds policy
-#~ msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups."
-#~ msgstr "funktionen att lägga reservationer i exemplargrupper."
 
 # Circulation > Checkout policy > HoldsInNoissuesCharge
 # Circulation > Checkout policy
