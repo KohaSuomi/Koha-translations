@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-11-01 12:59+0200\n"
+"PO-Revision-Date: 2025-04-07 14:54+0300\n"
 "Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-POOTLE-MTIME: 1698392361.707486\n"
@@ -4456,6 +4456,10 @@ msgid "circulation.pref#FloatRules# <code>#A->B: itemtype eq \"KIRJA\"</code>"
 msgstr "<code>#A->B: itemtype eq \"KIRJA\"</code>"
 
 # Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A%->B%: itemtype eq \"KIRJA\"</code></br></br>"
+msgstr "<code>A%->B%: itemtype eq \"KIRJA\"</code></br></br>"
+
+# Circulation > Floating > FloatRules
 msgid "circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means that rule applies when item is from library B and is checked in from library A.</br>"
 msgstr "<code>A->B</code> - missä <code>-></code> tarkoittaa, että sääntöä käytetään, kun nide on kirjastosta B ja palautetaan kirjastossa A.</br>"
 
@@ -4464,12 +4468,36 @@ msgid "circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> me
 msgstr "<code>A<>B</code> - missä <code><></code> tarkoittaa, että sääntöä käytetään kummassakin kirjastossa.</br></br>"
 
 # Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, == and !=</code> for numeric values and <code>=~</code> for regular expressions.</br>"
-msgstr "<code>eq and ne</code> merkkijonoille,<code> <, >, == ja !=</code> numeerisille arvoille ja <code>=~</code> säännöllisille lausekkeille.</br>"
+msgid "circulation.pref#FloatRules# <li><code>!=</code> - if the left numeric value argument shouldn't match the right argument</li>"
+msgstr "<li><code>!=</code> - jos vasen numeerinen arvoehto ei saa täsmätä oikeanpuoleisen ehdon kanssa</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>&&</code> is an \"AND\" operator, use if both expressions should be true</li>"
+msgstr "<li><code>&&</code> on \"AND\"-operaattori, käytä mikäli kummankin ehdon pitää täyttyä</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code><</code>  - if the left numeric value argument should be less than the right argument</li>"
+msgstr "<li><code><</code>  - jos vasemmanpuoleinen numeerinen ehto pitää olla pienempi kuin oikeanpuoleinen ehto</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>==</code> - if the left numeric value argument should match the right argument</li>"
+msgstr "<li><code>==</code> - jos vasemmanpuoleisen numeerisen ehdon pitää täsmätä oikeanpuoleisen ehdon kanssa</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>=~</code> - if the left string argument should match regular expression on the right</li>"
+msgstr "<li><code>=~</code> - jos vasemmanpuoleisen merkkijonon pitää täsmätä oikeanpuoleista säännöllistä lauseketta (regex)</li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>></code>  - if the left numeric value argument should be greater than the right argument</li>"
+msgstr "<li><code>></code>  - jos vasemmanpuoleinen numeerinen ehto pitää olla suurempi kuin oikeanpuoleinen ehto</li>"
 
 # Circulation > Floating > FloatRules
 msgid "circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items with a collection code \"FLOAT\" will float </li>"
 msgstr "<li><code>ccode eq \"FLOAT\"</code> - kaikki niteet, joilla on kokoelmakoodi \"FLOAT\" kelluvat </li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>eq</code> - if the left string argument should match the right argument</li>"
+msgstr "<li><code>eq</code> - jos vasemmanpuoleinen merkkijono pitää täsmätä oikeanpuoleisen ehdon kanssa</li>"
 
 # Circulation > Floating > FloatRules
 msgid "circulation.pref#FloatRules# <li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - using a regular expression to match against the item attribute, floats item types \"CD\" or \"DVD\" or \"KIRJA\"</li>"
@@ -4488,8 +4516,16 @@ msgid "circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && permanent_lo
 msgstr "<li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - kaikki niteet, joiden aineistotyyppi ei ole \"CD\" ja joiden permanent location on \"CART\" kelluvat</li>"
 
 # Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>ne</code> - if the left string argument shouldn't match the right argument</li>"
+msgstr "<li><code>ne</code> - jos vasemmanpuoleinen merkkijono pitää täsmätä oikeanpuoleisen ehdon kanssa</li>"
+
+# Circulation > Floating > FloatRules
 msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
 msgstr "<li><code>notforloan == 0</code> </li>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>||</code> is an \"OR\" operator, use if either one of the expressions should be true</li>"
+msgstr "<li><code>||</code> on \"OR\"-operaattori, käytä mikäli jomman kumman ehdon pitää täyttyä</li>"
 
 # Circulation > Holds policy > HoldsSplitQueue
 # Circulation > Holds policy
@@ -4519,12 +4555,12 @@ msgid "circulation.pref#FloatRules# Rules should start with following syntax:</b
 msgstr "Säännöt pitäisi alkaa seuraavalla syntaksilla:</br>"
 
 # Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together.</br>"
-msgstr "Käytä <code>&& ja ||</code> operaattoreita yhdistämään lauseita yhteen.</br>"
+msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together:</br>"
+msgstr "Käytä <code>&& ja ||</code> -operaattoreita yhdistämään lauseita yhteen:</br>"
 
 # Circulation > Floating > FloatRules
-msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies."
-msgstr "Voit myös käyttää %-merkkiä jokerimerkkinä, kun määrittelet, mitä kirjastoja sääntö koskee."
+msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies:</br>"
+msgstr "Voit myös käyttää %-merkkiä jokerimerkkinä, kun määrittelet, mitä kirjastoja sääntö koskee:</br>"
 
 # Circulation > Floating > FloatRules
 msgid "circulation.pref#FloatRules# You can also use comments to disable unused rules, just add <code>#</code> before the rule:</br>"
@@ -4569,6 +4605,21 @@ msgstr "aina, kun tehdään varaus."
 # Circulation > Fines Policy
 msgid "circulation.pref#HoldFeeMode# only if all items are checked out and the record has at least one hold already."
 msgstr "vain, jos kaikki niteet ovat lainassa ja tietueessa on ennestään vähintään yksi varaus."
+
+# Circulation > Self check-in module > SelfCheckInModule
+# Circulation > Self check-in module
+msgid "circulation.pref#HoldPickupShelves# Don't enable"
+msgstr "Älä ota käyttöön"
+
+# Circulation > Curbside pickup module > CurbsidePickup
+# Circulation > Self check-out module
+msgid "circulation.pref#HoldPickupShelves# Enable"
+msgstr "Ota käyttöön"
+
+# Circulation > Holds policy > EnableItemGroupHolds
+# Circulation > Holds policy
+msgid "circulation.pref#HoldPickupShelves# the ability to define hold pickup shelves for libraries."
+msgstr "toiminnallisuus, jolla voidaan määrittää kirjastoille noutohyllyjä."
 
 # Circulation > Holds policy > HoldsSplitQueue
 # Circulation > Holds policy
@@ -5128,6 +5179,31 @@ msgstr "Salli"
 # Circulation > Checkout policy
 msgid "circulation.pref#OnSiteCheckoutsForce# the on-site checkout for all cases (even if a patron is debarred, etc.)."
 msgstr "on-site-lainaus kaikissa tapauksissa (vaikka asiakas olisi kiellossa tms.)."
+
+# Circulation > Checkout policy > OverduesBlockCirc
+# Circulation > Checkout policy
+msgid "circulation.pref#OverdueFineBranch# Don't include branchcodes"
+msgstr "Älä tallenna kirjastotietoa"
+
+# Circulation > Checkout policy > OverdueNoticeFrom
+# Circulation > Holds policy
+msgid "circulation.pref#OverdueFineBranch# Include patron's home library as branchcode"
+msgstr "Käytä asiakkaan kotikirjastoa kirjastotietona"
+
+# Circulation > Checkout policy > HomeOrHoldingBranch
+# Circulation > Checkout policy
+msgid "circulation.pref#OverdueFineBranch# Include the item's home library as branchcode"
+msgstr "Käytä niteen kotikirjastoa kirjastotietona"
+
+# Circulation > Checkout policy > AllowReturnToBranch
+# Circulation > Checkout policy
+msgid "circulation.pref#OverdueFineBranch# Include the library the item was checked out from as branchcode"
+msgstr "Käytä niteen lainauskirjastoa kirjastotietona"
+
+# Circulation > Checkout policy > HomeOrHoldingBranch
+# Circulation > Checkout policy
+msgid "circulation.pref#OverdueFineBranch# when generating OVERDUE fines."
+msgstr "kun luodaan OVERDUE-tyyppisiä maksuja."
 
 # Circulation > Checkout policy > OverdueNoticeCalendar
 # Circulation > Checkout policy
@@ -12246,8 +12322,18 @@ msgstr "Kun ollaan yhteydessä Kohaan SIP:n tai ILSDI:n kautta"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Creating a patron"
+msgstr "Asiakasta luodessa"
+
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Logging in"
 msgstr "Kirjauduttaessa"
+
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Modifying a patron"
+msgstr "Asiakasta muokatessa"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
@@ -12324,8 +12410,8 @@ msgstr "oletuksena järjestyksessä seuraavaa käytettävissä olevaa kirjastoko
 
 # Patrons > Patron relationships > borrowerRelationship
 # Patrons > Patron relationships
-msgid "patrons.pref#borrowerRelationship# (input multiple choices separated by |)."
-msgstr "(erota useampi vaihtoehto |-merkillä)."
+msgid "patrons.pref#borrowerRelationship# (input multiple choices separated by |, leave a | at the end to allow for librarians to leave it blank)."
+msgstr "(erota useampi vaihtoehto |-merkillä, lisää viimeiseksi |-merkki, jotta suhteen voi jättää tyhjäksi)."
 
 # Patrons > Patron relationships > borrowerRelationship
 # Patrons > Patron relationships
@@ -15527,10 +15613,9 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 #~ msgid "circulation.pref#AutoRemoveOverduesRestrictions# allow OVERDUES restrictions triggered by sent notices to be cleared automatically when all overdue items are returned by a patron."
 #~ msgstr "MYÖHÄSSÄ-rajoitusten poistua automaattisesti lähetetystä myöhästymismuistutuksesta, kun asiakas palauttaa kaikki myöhässä olevat niteet."
 
-# Circulation > Holds policy > EnableItemGroupHolds
-# Circulation > Holds policy
-#~ msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups."
-#~ msgstr "varauksen tekeminen nideryhmiin."
+# Circulation > Floating > FloatRules
+#~ msgid "circulation.pref#FloatRules# <code>eq and ne</code> for strings,<code> <, >, == and !=</code> for numeric values and <code>=~</code> for regular expressions.</br>"
+#~ msgstr "<code>eq and ne</code> merkkijonoille,<code> <, >, == ja !=</code> numeerisille arvoille ja <code>=~</code> säännöllisille lausekkeille.</br>"
 
 # Circulation > Checkout policy > HoldsInNoissuesCharge
 # Circulation > Checkout policy

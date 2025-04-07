@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 12:26+0200\n"
-"PO-Revision-Date: 2024-11-01 12:27+0200\n"
+"POT-Creation-Date: 2025-04-03 13:35+0300\n"
+"PO-Revision-Date: 2025-04-07 13:29+0300\n"
 "Last-Translator: pknuuti <paivi.knuutinen@joensuu.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-messages.po\n"
 "X-POOTLE-MTIME: 1695118454.573755\n"
@@ -3876,6 +3876,7 @@ msgstr "Raportit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/didyoumean.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/hold_pickup_shelves.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:10
@@ -3928,7 +3929,7 @@ msgstr "Raportit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:35
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:160
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:161
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:34
@@ -4167,7 +4168,7 @@ msgstr "Raportit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:18
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:18
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:19
@@ -4502,6 +4503,7 @@ msgstr "Työkalut"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/didyoumean.tt:30
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/hold_pickup_shelves.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:9
@@ -4723,6 +4725,10 @@ msgstr "Tiedostot"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:18
 msgid "Invoice"
 msgstr "Lasku"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:144
+msgid "Are you sure you want to delete this invoice?"
+msgstr "Haluatko varmasti poistaa tämän laskun?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:233
 msgid "Are you sure you want to delete this adjustment?"
@@ -5580,6 +5586,10 @@ msgstr "Vahvista EANin '{ean}' poisto?"
 msgid "Library EANs"
 msgstr "Kirjasto-EANit"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/hold_pickup_shelves.tt:12
+msgid "Hold pickup shelves"
+msgstr "Varausten noutohyllyt"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:10
 msgid "New identity provider domain"
 msgstr "Uusi tunnistustietojen tarjoajan domain"
@@ -6115,7 +6125,7 @@ msgstr "Korisi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:159
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:160
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:33
@@ -6186,7 +6196,7 @@ msgstr "Kuvat"
 msgid "Checkout history for {title}"
 msgstr "Lainahistoria nimekkeelle {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:158
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:159
 msgid "Item search"
 msgstr "Nidehaku"
 
@@ -6269,7 +6279,7 @@ msgstr "MARC-tuonti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-home.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:14
@@ -6794,8 +6804,8 @@ msgstr "Lainahuomautukset"
 msgid "Checking out to {patron}"
 msgstr "Lainataan asiakkaalle {patron}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:876
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:337
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:880
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:342
 #, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -7320,21 +7330,21 @@ msgstr "Lisää asiakas"
 msgid "Modify patron"
 msgstr "Muokkaa asiakasta"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:467
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:469
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:479
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:470
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:472
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:482
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:190
 msgctxt "gender"
 msgid "Other"
 msgstr "Muu"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1524
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1573
 msgctxt "patron restriction created on"
 msgid "Created"
 msgstr "Luotu"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2115
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2168
 msgid "Add guarantor"
 msgstr "Lisää takaaja"
 
@@ -7978,8 +7988,8 @@ msgstr "Vahvista valinta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:46
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:47
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:11
@@ -7996,14 +8006,14 @@ msgstr "Työ jonossa"
 msgid "Batch item deletion"
 msgstr "Niteiden poisto eräajona"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:52
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:42
 msgid "Modifications"
 msgstr "Muutokset"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:10
 msgid "Batch item modification"
 msgstr "Niteiden muokkaus eräajona"
