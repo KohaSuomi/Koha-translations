@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2025-04-07 14:54+0300\n"
+"PO-Revision-Date: 2025-05-15 15:07+0300\n"
 "Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -1241,7 +1241,7 @@ msgstr "Käytä seuraavaa nimeä kirjastollesi Hea Communityn verkkosivuilla: "
 # Administration > Share anonymous usage statistics > UsageStatsLibraryType
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsLibraryType# "
-msgstr "  "
+msgstr "   "
 
 # Administration > Share anonymous usage statistics > UsageStatsLibraryType
 # Circulation > Checkin policy > CalculateFinesOnReturn
@@ -3788,6 +3788,20 @@ msgstr "Älä merkitse niteitä kadonneeksi"
 msgid "circulation.pref#CanMarkHoldsToPullAsLost# from the 'Holds to pull' page. Values to be applied must be defined in <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UpdateItemWhenLostFromHoldList\">UpdateItemWhenLostFromHoldList</a>."
 msgstr "suoraan 'Hyllyvaraukset'-listalta. Kadonneiden arvot määritellään <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UpdateItemWhenLostFromHoldList\">UpdateItemWhenLostFromHoldList</a> järjestelmäasetuksessa."
 
+# Circulation > Checkin policy > CalculateFinesOnBackdate
+# Circulation > Checkin policy
+msgid "circulation.pref#CancelTransitWhenItemFloats# Do"
+msgstr "Peru"
+
+# Circulation > Checkin policy > CalculateFinesOnBackdate
+# Circulation > Checkin policy
+msgid "circulation.pref#CancelTransitWhenItemFloats# Don't"
+msgstr "Älä peru"
+
+# Circulation > Checkin policy > CancelTransitWhenItemFloats
+msgid "circulation.pref#CancelTransitWhenItemFloats# cancel transit automatically when item arrives to branch where it can float."
+msgstr "kuljetus automaattisesti, kun nide palautetaan kirjastossa, jossa se voi kellua."
+
 # Circulation > Interface > CircAutoPrintQuickSlip
 # Circulation > Interface
 msgid "circulation.pref#CircAutoPrintQuickSlip# ."
@@ -4605,6 +4619,11 @@ msgstr "aina, kun tehdään varaus."
 # Circulation > Fines Policy
 msgid "circulation.pref#HoldFeeMode# only if all items are checked out and the record has at least one hold already."
 msgstr "vain, jos kaikki niteet ovat lainassa ja tietueessa on ennestään vähintään yksi varaus."
+
+# Circulation > Self check-in module > SelfCheckInModule
+# Circulation > Self check-in module
+msgid "circulation.pref#HoldPickupShelves# Define 'itemtypes' or authorised value."
+msgstr "Määritä 'itemtypes' tai auktorisoitu arvo."
 
 # Circulation > Self check-in module > SelfCheckInModule
 # Circulation > Self check-in module
