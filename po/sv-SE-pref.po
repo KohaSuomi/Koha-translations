@@ -3792,6 +3792,22 @@ msgstr "Tillåt inte att exemplar markeras som försvunna"
 msgid "circulation.pref#CanMarkHoldsToPullAsLost# from the 'Holds to pull' page. Values to be applied must be defined in <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UpdateItemWhenLostFromHoldList\">UpdateItemWhenLostFromHoldList</a>."
 msgstr "från sidan \"Plocklista reservationer\". Värden som ska användas måste definieras i <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UpdateItemWhenLostFromHoldList\">UpdateItemWhenLostFromHoldList</a>."
 
+# Circulation > Checkin policy > CalculateFinesOnBackdate
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#CancelTransitWhenItemFloats# Do"
+msgstr "Beräkna och uppdatera"
+
+# Circulation > Checkin policy > CalculateFinesOnBackdate
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#CancelTransitWhenItemFloats# Don't"
+msgstr "Beräkna och uppdatera inte"
+
+# Circulation > Checkin policy > CancelTransitWhenItemFloats
+msgid "circulation.pref#CancelTransitWhenItemFloats# cancel transit automatically when item arrives to branch where it can float."
+msgstr ""
+
 # Circulation > Interface > CircAutoPrintQuickSlip
 # Circulation > Interface
 msgid "circulation.pref#CircAutoPrintQuickSlip# ."
@@ -4620,6 +4636,12 @@ msgstr "när en reservation görs."
 # Circulation > Fines Policy
 msgid "circulation.pref#HoldFeeMode# only if all items are checked out and the record has at least one hold already."
 msgstr "endast om samtliga exemplar är utlånade och posten redan har minst en reservation."
+
+# Circulation > Self check-in module > SelfCheckInModule
+# Circulation > Self check-in module
+#, fuzzy
+msgid "circulation.pref#HoldPickupShelves# Define 'itemtypes' or authorised value."
+msgstr "Aktivera inte"
 
 # Circulation > Self check-in module > SelfCheckInModule
 # Circulation > Self check-in module
