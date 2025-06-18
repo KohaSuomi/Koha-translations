@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 24.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-15 14:28+0300\n"
-"PO-Revision-Date: 2024-11-01 14:02+0200\n"
+"PO-Revision-Date: 2025-06-18 08:32+0300\n"
 "Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-messages-js.po\n"
 "X-POOTLE-MTIME: 1695111164.407902\n"
@@ -1150,12 +1150,11 @@ msgstr "Nästa tillgängliga %s exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:730
 msgid "Revert transit status"
-msgstr ""
+msgstr "Ångra överföring"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:730
-#, fuzzy
 msgid "Revert waiting status"
-msgstr "Status för val"
+msgstr "Ångra väntestatus"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:743
 #, fuzzy
