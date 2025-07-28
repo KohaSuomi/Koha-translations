@@ -1,11 +1,11 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.04.000\n"
+"Project-Id-Version: Koha 25.05.02.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2024-07-30 03:05+0000\n"
-"Last-Translator: pknuuti <paivi.knuutinen@joensuu.fi>\n"
+"PO-Revision-Date: 2025-05-23 07:23+0000\n"
+"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "kontrollikenttä"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:5
 msgid "Interfield linking data"
-msgstr "Interfield linking data"
+msgstr "Kenttien välinen linkitysdata"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:6
 msgid "Number (ISNI)"
@@ -39,11 +39,11 @@ msgstr "Peruttu ISNI-tunnus"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:8
 msgid "Erroneous ISNI"
-msgstr "Erroneous ISNI"
+msgstr "Virheellinen ISNI"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:9
 msgid "tag 015"
-msgstr "tag 015"
+msgstr "kenttä 015"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:10
 msgid "System Code"
@@ -51,7 +51,7 @@ msgstr "Järjestelmäkoodi"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:11
 msgid "Identifier"
-msgstr "Identifier"
+msgstr "Tunniste"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:12
 msgid "Qualification"
@@ -59,11 +59,11 @@ msgstr "Qualification"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:13
 msgid "Erroneous Identifier"
-msgstr "Erroneous Identifier"
+msgstr "Virheellinen tunniste"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:15
 msgid "Cancelled or Invalid Persistent Record Identifier"
-msgstr "Cancelled or Invalid Persistent Record Identifier"
+msgstr "Peruttu tai virheellinen pysyvä tunniste (PID)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:16
 msgid "System control number"
@@ -139,7 +139,7 @@ msgstr "URI"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:34
 msgid "Language of text"
-msgstr "Language of text"
+msgstr "Tekstin kieli"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:35
 msgid "Number"
@@ -147,11 +147,11 @@ msgstr "Numero"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:36
 msgid "Erroneous ISTC"
-msgstr "Erroneous ISTC"
+msgstr "Virheellinen ISTC"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:38
 msgid "Erroneous ISWC"
-msgstr "Erroneous ISWC"
+msgstr "Virheellinen ISWC"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:40
 msgid "Erroneous ISAN"
@@ -427,7 +427,7 @@ msgstr "Koko"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:138
 msgid "Date"
-msgstr "Pvm"
+msgstr "Päivämäärä"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:139
 msgid "Iconographic term"
@@ -675,7 +675,7 @@ msgstr "City, etc."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:326
 msgid "Venue"
-msgstr "Venue"
+msgstr "Tapahtumapaikka"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:328
 msgid "Season"
@@ -2111,7 +2111,7 @@ msgstr "Hankintapvm"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:10:row:7
 msgid "Copy number"
-msgstr "Nidenumero"
+msgstr "Kappaleen numero"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:10:row:8
 msgid "Uniform resource identifier"
