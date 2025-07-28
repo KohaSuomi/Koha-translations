@@ -1,11 +1,11 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.04.000\n"
+"Project-Id-Version: Koha 25.05.02.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2024-08-15 03:05+0000\n"
-"Last-Translator: \"jessica.andersson\" <jessica.andersson@alingsas.se>\n"
+"PO-Revision-Date: 2025-05-12 12:58+0000\n"
+"Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "Systemkod"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:11
 msgid "Identifier"
-msgstr "Identifikator"
+msgstr "Identifierare"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:12
 msgid "Qualification"
@@ -1189,9 +1189,8 @@ msgid "Explanatory Term"
 msgstr "Förklaring: "
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1536
-#, fuzzy
 msgid "URI"
-msgstr "RIS"
+msgstr "URI"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1537
 #, fuzzy
@@ -2386,7 +2385,7 @@ msgstr "Postlängd (automatiskt genererad) "
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:10:row:11
 msgid "Source of acquisition"
-msgstr "Leverantör"
+msgstr "Inköpskanal"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:10:row:12
 msgid "Home library"

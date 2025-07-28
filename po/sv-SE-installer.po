@@ -1,10 +1,10 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 24.05.04.000\n"
+"Project-Id-Version: Koha 25.05.02.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2024-10-17 03:21+0000\n"
+"PO-Revision-Date: 2025-05-22 03:00+0000\n"
 "Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -123,7 +123,7 @@ msgstr "Reservationsavgift"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:15
 msgid "Hold waiting too long"
-msgstr "Reservation väntat för länge"
+msgstr "Reservation har väntat för länge"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:16
 msgid "Credit has been voided"
@@ -258,7 +258,7 @@ msgid "Complete"
 msgstr "Komplett"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:28
-msgid "Aggregated full"
+msgid "Aggregated full text"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:29
@@ -291,7 +291,7 @@ msgstr "Strömmande media"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:36
 msgid "Unknown"
-msgstr "Okänt"
+msgstr "Okänd"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:37
 msgid "Journal"
@@ -3453,7 +3453,7 @@ msgstr "Konstnär"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:9
 msgid "Assignee"
-msgstr "Innehavare av tryckeri- eller utgivarlicens"
+msgstr "Uppdragstagare"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:10
 msgid "Associated name"
@@ -4040,6 +4040,28 @@ msgstr ""
 msgid "Default Koha system patron restriction types"
 msgstr "Skapa ett nytt auktoriserat värde"
 
+#: installer/data/mysql/en/mandatory/patron_restriction_types.yml:restriction_types:1:row:1
+#, fuzzy
+msgid "Manual restriction"
+msgstr "Standardsortering"
+
+#: installer/data/mysql/en/mandatory/patron_restriction_types.yml:restriction_types:1:row:2
+#, fuzzy
+msgid "Overdues"
+msgstr "%sFörseningar%s"
+
+#: installer/data/mysql/en/mandatory/patron_restriction_types.yml:restriction_types:1:row:3
+msgid "Suspension"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/patron_restriction_types.yml:restriction_types:1:row:4
+msgid "Discharge"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/patron_restriction_types.yml:restriction_types:1:row:5
+msgid "Notice failure suspension"
+msgstr ""
+
 #: installer/data/mysql/en/mandatory/sample_frequencies.yml:description:1
 msgid "Sample frequencies for subscriptions"
 msgstr "Förslag på frekvenser för prenumerationer"
@@ -4109,655 +4131,1068 @@ msgid "Order received"
 msgstr "Beställning mottagen"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2
+msgid "A library booking was cancelled"
+msgstr "En bokning har avbrutits"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2
+msgid "Booking cancellation notice"
+msgstr "Meddelande om avbruten bokning"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3
+msgid "A library booking was modified"
+msgstr "En bokning ändrades eller uppdaterades"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3
+msgid "Booking modification notice"
+msgstr "Meddelande om ändrad eller uppdaterad bokning"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:4
+msgid "A library booking was confirmed"
+msgstr "En bokning bekräftades"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:4
+msgid "Booking confirmation notice"
+msgstr "Meddelande om bekräftad bokning"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5
 msgid "Catalog concern acknowledgment"
 msgstr "Katalogärende - bekräftelse"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5
 msgid "Concern acknowledgement"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6
+#, fuzzy
+msgid "Catalog concern assigned"
+msgstr "Katalogärende uppdaterat"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6
+#, fuzzy
+msgid "Concern assigned notification"
+msgstr "Ärendeavisering"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7
 msgid "Catalog concern resolved"
 msgstr "Katalogärende löst"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7
 msgid "Concern resolved"
 msgstr "Ärende löst"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8
 msgid "Catalog concern updated"
 msgstr "Katalogärende uppdaterat"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8
 msgid "Concern updated"
 msgstr "Ärende uppdaterat"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9
 msgid "Catalog concern reported"
 msgstr "Katalogärende rapporterat"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9
 msgid "Concern notification"
 msgstr "Ärendeavisering"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10
 msgid "Account payment"
 msgstr "Din betalning"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11
 msgid "Account fee"
 msgstr "Avgift för konto"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13
 msgid "Account writeoff"
 msgstr "Kontoavskrivning"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14
 msgid "Article request - canceled"
 msgstr "Artikelbeställning - avbruten"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14
 msgid "Article request canceled"
 msgstr "Artikelbeställning har avbrutits"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15
 msgid "Article request - completed"
 msgstr "Artikelbeställning - fullföljd"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15
 msgid "Article request completed"
 msgstr "Artikelbeställning är fullföljd"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16
 msgid "Article request - pending"
 msgstr "Artikelbeställning - väntande"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16
 msgid "Pending article request"
 msgstr "Väntande artikelbeställning"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17
 msgid "Article request - new"
 msgstr "Artikelbeställning - ny"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17
 msgid "Article request received"
 msgstr "Artikelbeställning mottagen"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18
 msgid "Article request - processing"
 msgstr "Artikelbeställning - under behandling"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18
 msgid "Article request processing"
 msgstr "Artikelbeställning under behandling"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19
 msgid "Article request"
 msgstr "Artikelbeställning"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19
 msgid "Article request - print slip"
 msgstr "Artikelbeställning - kvitto"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20
 msgid "Check-ins"
 msgstr "Återlämningar"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20
 msgid "Item check-in (digest)"
 msgstr "Återlämning av exemplar (sammanfattning)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:22
 msgid "Checkouts"
 msgstr "Lån"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:22
 msgid "Item check-out (digest)"
 msgstr "Utlån av exemplar (sammanfattning)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:24
 msgid "Checkout note"
 msgstr "Utlåningsmeddelande"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:24
 msgid "Checkout note on item set by patron"
 msgstr "Kommentar för utlånat exemplar (lämnad av låntagare)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:21
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25
 msgid "Item due reminder"
 msgstr "Påminnelse om förfallodatum"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27
 msgid "Item due reminder (digest)"
 msgstr "Påminnelse om förfallodatum (sammanfattning)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:29
 msgid "Hold slip"
 msgstr "Reservationslapp"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:26
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30
 msgid "Issue quick slip"
 msgstr "Snabbkvitto"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:31
 msgid "Issue slip"
 msgstr "Utlån - kvitto"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32
 msgid "Item overdue"
 msgstr "Exemplaret är försenat"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32
 msgid "Overdue notice"
 msgstr "Förseningsmeddelande"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:29
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:33
 msgid "Overdues slip"
 msgstr "Förseningslapp"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:34
 msgid "Advance notice of item due"
 msgstr "Utskick i förväg om förfallodatum"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:36
 msgid "Advance notice of item due (digest)"
 msgstr "Utskick i förväg om förfallodatum (sammanfattning)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:34
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:38
 msgid "Item renewals"
 msgstr "Omlånade exemplar"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39
 msgid "Stock rotation report"
 msgstr "Rapport för beståndsrotation"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39
 msgid "Stock rotation slip"
 msgstr "Kvitto för beståndsrotation"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:36
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:40
 msgid "Transfer slip"
 msgstr "Överföringslapp"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:37
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41
 msgid "Acquisition claim"
 msgstr "Inköpsreklamation"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:37
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41
 msgid "Item not received"
 msgstr "Exemplaret inte mottaget"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:38
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42
+msgid "File SFTP failed"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42
+msgid "The SFTP by sftp_file.pl failed"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43
+msgid "File SFTP success"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43
+msgid "The SFTP by sftp_file.pl was successful"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44
 msgid "ILL request ready for pickup"
 msgstr "Fjärrlånebeställning klar att hämta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:38
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44
 msgid "Interlibrary loan request ready for pickup"
 msgstr "Fjärrlånebeställning finns att hämta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45
 msgid "ILL request unavailable"
 msgstr "Fjärrlånebeställning ej tillgänglig"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45
 #, fuzzy
 msgid "Interlibrary loan request unavailable"
 msgstr "Beställningsinformation"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:40
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:46
 msgid "ILL request cancelled"
 msgstr "Fjärrlånebeställning avbruten"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:40
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:46
 msgid "Interlibrary loan request cancelled"
 msgstr "Fjärrlånebeställning avbruten"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:47
 msgid "ILL request modified"
 msgstr "Fjärrlånebeställning har ändrats"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:47
 msgid "Interlibrary loan request modified"
 msgstr "Fjärrlånebeställning ändrad"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48
 #, fuzzy
 msgid "ILL request to partners"
 msgstr "Fjärrlån är begärt från partnerbibliotek"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48
 #, fuzzy
 msgid "Interlibrary loan request to partners"
 msgstr "Beställningsinformation"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:49
 msgid "ILL request update"
 msgstr "Fjärrlånebeställning uppdaterad"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:49
 msgid "Interlibrary loan request update"
 msgstr "Fjärrlånebeställning uppdaterad"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:50
-msgid "Discharge confirmation"
-msgstr "Bekräfta godkännande av begäran om att bli borttagen"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:50
-msgid "Discharge for <<borrowers.firstname>> <<borrowers.surname>>"
-msgstr "Godkänn begäran om borttagning för <<borrowers.firstname>> <<borrowers.surname>>"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:51
-#, fuzzy
-msgid "Account expiration"
-msgstr "Kontrollera utgångsdatum"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52
-msgid "Account renewal"
-msgstr "Förnyelse av konto"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53
-msgid "OPAC self-registration verification email"
-msgstr "Verifieringsmail för självregistrering i OPAC"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53
-msgid "Verify your account"
-msgstr "Verifiera ditt konto"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:54
-msgid "Library account password change notification"
-msgstr "Avisering om ändring av lösenord"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:54
-msgid "Notification of password change"
-msgstr "Meddelande om ändring av lösenord"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55
-msgid "Koha password recovery"
-msgstr "Återställning av lösenord i Koha"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55
-msgid "Online password reset"
-msgstr "Återställning av lösenord"
-
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56
-msgid "Koha password reset"
-msgstr "Återställning av lösenord i Koha"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57
 #, fuzzy
 msgid "Notification about an accepted share"
 msgstr "Meddelandedatum"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56
 msgid "Share on list <<listname>> accepted"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57
 msgid "Invitation for sharing a list"
 msgstr "En inbjudan att dela lista"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57
 msgid "Share list <<listname>>"
 msgstr "Dela listan <<listname>"
 
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58
+#, fuzzy
+msgid "A list has been transferred to you"
+msgstr "Du har ett inköpsförslag att hantera"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58
+#, fuzzy
+msgid "Transfer ownership"
+msgstr "Överföringslapp"
+
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
+msgid "Discharge confirmation"
+msgstr "Bekräfta godkännande av begäran om att bli borttagen"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
+msgid "Discharge for <<borrowers.firstname>> <<borrowers.surname>>"
+msgstr "Godkänn begäran om borttagning för <<borrowers.firstname>> <<borrowers.surname>>"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60
+#, fuzzy
+msgid "Account expiration"
+msgstr "Kontrollera utgångsdatum"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61
+msgid "Account renewal"
+msgstr "Förnyelse av konto"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
+msgid "OPAC self-registration verification email"
+msgstr "Verifieringsmail för självregistrering i OPAC"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
+msgid "Verify your account"
+msgstr "Verifiera ditt konto"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63
+msgid "Library account password change notification"
+msgstr "Avisering om ändring av lösenord"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63
+msgid "Notification of password change"
+msgstr "Meddelande om ändring av lösenord"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64
+msgid "Koha password recovery"
+msgstr "Återställning av lösenord i Koha"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64
+msgid "Online password reset"
+msgstr "Återställning av lösenord"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65
+msgid "Koha password reset"
+msgstr "Återställning av lösenord i Koha"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
 msgid "Welcome notice "
 msgstr "Välkomstmeddelande "
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
 msgid "[% USE Koha %][% IF Koha.Preference('LibraryName') %]Welcome to [% Koha.Preference('LibraryName') %][% ELSE %]Welcome to the library[% END %]"
 msgstr "[% USE Koha %][% IF Koha.Preference('LibraryName') %]Välkommen till [% Koha.Preference('LibraryName') %][% ELSE %]Välkommen till biblioteket[% END %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68
 msgid "Two-authentication token"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68
 msgid "two-authentication step token"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69
 msgid "Account balance slip"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69
 msgid "Account summary for [% borrower.firstname %] [% borrower.surname %]"
 msgstr "Kontosammanfattning för [% borrower.firstname %] [% borrower.surname %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Acquisition order"
 msgstr "Inköpsbeställning"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Order"
 msgstr "Beställning"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71
 msgid "Point of sale receipt"
 msgstr "Kvitto för försäljningsställe"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71
 msgid "Receipt"
 msgstr "Kvitto"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73
 msgid "Hold has been cancelled"
 msgstr "Reservation har avbrutits"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74
 msgid "Hold available for pickup"
 msgstr "Reservation finns att hämta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74
 msgid "Hold available for pickup at <<branches.branchname>>"
 msgstr "Reservation finns att hämta hos <<branches.branchname>>"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75
 msgid "Hold(s) available for pickup"
 msgstr "Reservation(er) finns att hämta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77
 #, fuzzy
 msgid "Hold available for pickup at [% branch.branchname %]"
 msgstr "Reservation finns att hämta hos <<branches.branchname>>"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78
 msgid "Hold available for pickup (print notice)"
 msgstr "Reservation finns att hämta (meddelandekvitto)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79
 msgid "Hold placed on item"
 msgstr "Reservation lagd"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80
 msgid "Canceled hold available for different patron"
 msgstr "Avbruten reservation tillgänglig för annan låntagare"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81
 msgid "Waiting hold reminder"
 msgstr "Påminnelse om reservation"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81
 msgid "You have waiting holds."
 msgstr "Du har väntande reservationer."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82
 msgid "New curbside pickup"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82
 msgid "You have scheduled a curbside pickup for [% branch.branchname %]"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83
 #, fuzzy
 msgid "New serial issue"
 msgstr "Reklamera nummer av periodika"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83
 #, fuzzy
 msgid "New serial issue is now available"
 msgstr "index is not available"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84
 msgid "Purchase suggestion accepted"
 msgstr "Inköpsförslag är accepterat"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84
 msgid "Suggestion accepted"
 msgstr "Förslag godkänt"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85
 msgid "Suggested purchase available"
 msgstr "Inköpsförslag är tillgängligt"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85
 msgid "Suggestion available"
 msgstr "Inköpsförslag tillgängligt"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86
 msgid "New suggestion"
 msgstr "Nytt inköpsförslag"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87
 msgid "Suggested item ordered"
 msgstr "Inköpsförslag beställt"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87
 msgid "Suggestion ordered"
 msgstr "Inköpsförslag beställt"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88
 msgid "Purchase suggestion declined"
 msgstr "Inköpsförslag avslaget"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88
 msgid "Suggestion rejected"
 msgstr "Förslag avslaget"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89
 msgid "A suggestion is ready to be processed"
 msgstr "Ett förslag är redo att behandlas"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89
 msgid "Notify fund owner"
 msgstr "Avisera ansvarig för budgetställe"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90
 msgid "A suggestion has been assigned to you"
 msgstr "Du har ett inköpsförslag att hantera"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90
 msgid "Notify manager of a suggestion"
 msgstr "Avisera hanterare av inköpsförslag"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91
 msgid "OPAC problem report"
 msgstr "OPAC-problemrapport"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92
 msgid "Automatic renewal notice"
 msgstr "Meddelande om automatiskt omlån"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92
 #, fuzzy
 msgid "Notification of automatic renewal"
 msgstr "Inget automatiskt omlån efter"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93
 msgid "Checkin slip"
 msgstr "Återlämningskvitto"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94
 #, fuzzy
 msgid "Overdue item fine description"
 msgstr "Standardsortering"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95
 msgid "Auto renewals (Digest)"
 msgstr "Automatiskt omlån (Förkortat)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95
 #, fuzzy
 msgid "Notification on auto renewals"
 msgstr "Meddelandedatum"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96
 msgid "Notification to return a recalled item"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 #, fuzzy
 msgid "Recalled item awaiting pickup"
 msgstr "Reservationer väntar på hämtning"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98
+msgid "Return recalled item"
+msgstr "Återlämna återkrävt exemplar"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100
 #, fuzzy
 msgid "Details of patron who recalled item"
 msgstr "Information om avgift"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101
 msgid "Confirmation of disabling two factor authentication"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:102
 msgid "Confirmation of enabling two factor authentication"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103
 #, fuzzy
 msgid "New OPAC self-registration"
 msgstr "PatronSelfRegistrationVerifyByEmail"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103
 msgid "New OPAC self-registration submitted"
 msgstr "Ny självregistrering i OPAC utförd"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104
 msgid "Send list"
 msgstr "Skicka lista"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104
 msgid "Your list: [% listname | html %]"
 msgstr "Din lista: [% listname | html %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105
 msgid "Send cart"
 msgstr "Skicka minnelista"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105
 msgid "Your cart"
 msgstr "Din minneslista"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106
 #, fuzzy
 msgid "Train item slip"
 msgstr "Överföringar"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107
 msgid "Hold is confirmed"
 msgstr "Reservation är bekräftad"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107
 msgid "Your hold on [% hold.biblio.title %] is confirmed"
 msgstr "Din reservation hos [% hold.biblio.title %] är bekräftad"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108
+#, fuzzy
+msgid "OAI harvest report"
+msgstr "OPAC-problemrapport"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108
+msgid "OAI harvest report for [% servername %]"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:3
+#, fuzzy
+msgid "Recall for pickup at %s%s"
+msgstr "Återkrav för upphämtning på %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:9
+#, fuzzy
+msgid "ITEM RECALLED%s"
+msgstr "EXEMPLAR ÅTERKRÄVT"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:10
+#, fuzzy
+msgid "%s%s by %s%s%s"
+msgstr "%s%sFax: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:12
+#, fuzzy
+msgid "%s Callnumber: %s%s%s"
+msgstr "%s%sKortnummer: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:13
+#, fuzzy
+msgid "Waiting since: %s%s"
+msgstr "Väntar sedan: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:14
+msgid "%sNotes: %s%s%s"
+msgstr "%sAnmärkning: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:1
+msgid "%sDear %s %s,%s"
+msgstr "%sHej %s %s,%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:2
+msgid "%sThis is to confirm that someone disabled two factor authentication on your account.%s"
+msgstr "%sDet här bekräftar att någon har inaktiverat tvåfaktorsautentiseringen för ditt konto.%s"
+
+# Uncertain what "clear" can refer to in this context - it's hardly the banking term
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:3
+msgid "%sIf you did not do this, someone else may be using your account. Please contact technical support.%s"
+msgstr "%som du inte har gjort detta så kan någon annan ha använt ditt konto. Var vänlig kontakta biblioteket.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:4
+msgid "%sYour library%s"
+msgstr "%sDitt bibliotek%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:102:mul:2
+msgid "%sThis is to confirm that someone enabled two factor authentication on your account.%s"
+msgstr "%sDet här bekräftar att någon har aktiverat tvåfaktorsautentiseringen för ditt konto.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:1
+msgid "%sNew OPAC self-registration%s"
+msgstr "%sNy självregistrering i OPAC%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:2
+msgid "%s%sSelf-registration made:%s"
+msgstr "%s%sSjälvregistrering utförd:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:5
+msgid "%s%sCardnumber: %s%s%s"
+msgstr "%s%sKortnummer: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:6
+msgid "%s%sEmail: %s%s%s"
+msgstr "%s%sE-post: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:7
+msgid "%s%sPhone: %s%s%s"
+msgstr "%s%sTelefon: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:8
+msgid "%s%sMobile: %s%s%s"
+msgstr "%s%sMobil: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:9
+msgid "%s%sFax: %s%s%s"
+msgstr "%s%sFax: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:10
+msgid "%s%sSecondary email: %s%s%s"
+msgstr "%s%sSekundär e-post: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:11
+msgid "%s%sSecondary phone: %s%s%s"
+msgstr "%s%sSekundärt telefonnummer: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:12
+msgid "%s%sHome library: %s%s%s"
+msgstr "%s%sHembibliotek: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:13
+msgid "%s%sTemporary patron category: %s%s%s"
+msgstr "%s%sTemporär låntagarkategori: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:5
+msgid "Hi,%s%s"
+msgstr "Hej,%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:6
+msgid "%s %s sent you a list from our online catalog called: %s.%s"
+msgstr "%s %s skickade en lista till dig, från vår onlinekatalog, som heter: %s.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:7
+msgid "Please note that the attached file is a MARC bibliographic records file which can be imported into personal bibliographic software like EndNote, Reference Manager or ProCite.%s"
+msgstr "Observera att den bifogade filen är en bibliografisk fil i MARC-format som kan importeras till bibliografisk programvara, t.ex. EndNote, Reference Manager eller ProCite.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:12
+msgid "%sAuthor(s): %s%s%s%s%s; %s%s%s%s%s%s%s;%s%s%s%s%s"
+msgstr "%sFörfattare: %s%s%s%s%s; %s%s%s%s%s%s%s;%s%s%s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:13
+msgid "%s%sISBN: %s%s%s; %s%s%s%s"
+msgstr "%s%sISBN: %s%s%s; %s%s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:14
+msgid "%sPublished by: %s%s in %s%s%s, %s%s%s%s"
+msgstr "%sUtigven av: %s%s i %s%s%s, %s%s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:15
+msgid "%sCollection: %s%s%s"
+msgstr "%Samling: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:16
+msgid "%sCopyright year: %s%s%s"
+msgstr "Utgivningsår: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:18
+msgid "%sUnified title: %s%s%s"
+msgstr "%sEnhetlig titel: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:19
+msgid "%sSerial: %s%s%s"
+msgstr "%sPeriodika: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:20
+msgid "%sLCCN: %s%s%s"
+msgstr "%sLCCN: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:21
+msgid "%sIn: %s%s %s%s%s%s%s%s"
+msgstr "%sI: %s%s %s%s%s%s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:22
+msgid "%sURL: %s%s%s"
+msgstr "%sURL: %s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:23
+msgid "[%sView in online catalog%s"
+msgstr "[%sSe i onlinekatalog%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:24
+msgid "%s%sItems: %s%s%s%s"
+msgstr "%s%sExemplar: %s%s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105:mul:6
+msgid "%s %s sent you a cart from our online catalog.%s"
+msgstr "%s %s skickade dig en minneslista från vår online-katalog.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105:mul:23
+msgid "%sView in online catalog%s"
+msgstr "%sSe i onlinekatalog%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:4
+#, fuzzy
+msgid "Train name: %s"
+msgstr "Användarnamn: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:5
+msgid "Sent on: %s"
+msgstr "Skickat den: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:9
+msgid "Item number #%s"
+msgstr "Exemplarnummer #%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:1
+msgid "Hello %s %s (%s),"
+msgstr "Hej %s %s (%s),"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:2
+msgid "Your hold on %s (%s) has been confirmed."
+msgstr "Din reservation på %s (%s) har bekräftats."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:3
+msgid "You will be notified by the library when your item is available for pickup."
+msgstr "Du får ett meddelande från biblioteket när ditt exemplar är tillgänglig för upphämtning."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:1
+#, fuzzy
+msgid "OAI harvest report for %s:"
+msgstr "Beståndsrotationsrapport för för %s:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:3
+#, fuzzy
+msgid "Endpoint: %s"
+msgstr "Skickat den: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:4
+#, fuzzy
+msgid "Set: %s"
+msgstr "Skickat den: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:5
+#, fuzzy
+msgid "Data format: %s"
+msgstr "Väntar hos: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:6
+#, fuzzy
+msgid "Record type: %s"
+msgstr "Streckkod: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:8
+msgid "%s records added"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:9
+#, fuzzy
+msgid "%s records updated"
+msgstr "har uppdaterats."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:10
+msgid "%s records deleted"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:11
+msgid "%s records skipped"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:12
+#, fuzzy
+msgid "%s records in error"
+msgstr "Ljudinspelning, rulle"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:13
+msgid "%s total"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:26
+msgid "      %sTransaction ID: %s"
+msgstr "      %sTransaktions-ID: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:30
+msgid "      %sOperator ID: %s"
+msgstr "      %sOperatörs-ID: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:35
+msgid "      %sPayment type: %s"
+msgstr "      %sBetalningstyp: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:41
+msgid "        %s%s%s receipt%s%s"
+msgstr "        %s%s%s kvitto%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:47
+msgid "        Received with thanks from  %s %s %s"
+msgstr "        Mottagen med tack från  %s %s %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:48
+msgid "        Card number: %s%s"
+msgstr "        Kortnummer: %s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:54
+msgid "        Credit added to account for %s %s %s"
+msgstr "        Kredit tillagd till konto för %s %s %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:61
+msgid "        Writeoff added to account for %s %s %s"
+msgstr "        Avskrivning tillagd till konto för %s %s %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:68
+msgid "      %sDescription of credit%s"
+msgstr "      %sBeskrivning av kredit%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:69
+msgid "      %sAmount%s"
+msgstr "      %sBelopp%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:76
+msgid "      %sTotal available:%s"
+msgstr "      %sTotalt tillgängligt:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:82
+msgid "      %sDescription of charges%s"
+msgstr "      %sBeskrivning av avgifter%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:94
+msgid "      %sTotal:%s"
+msgstr "      %sTotalt:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:99
+msgid "      %sChange given: %s"
+msgstr "      %sVäxel tillbaka: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:107
+msgid "      %sAccount balance as on date:%s"
+msgstr "      %sKontosaldo per datum:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:20
+msgid "      %sFee ID: %s"
+msgstr "      %sAvgifts-ID: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:31
+msgid "        %s%sInvoice%s%s"
+msgstr "        %s%sFaktura%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:36
+msgid "        Bill to: %s %s %s"
+msgstr "        Fakturera: %s %s %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:42
+msgid "      %sDate%s"
+msgstr "      %sDatum%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:52
+msgid "      %sTotal owed:%s"
+msgstr "      %sTotalt utestående:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:59
+msgid "      %sDescription of payments%s"
+msgstr "      %sBeskrivning av betalningar%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:70
+msgid "      %sTotal paid:%s"
+msgstr "      %sTotalt betalat:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:79
+msgid "      %sTotal outstanding:%s"
+msgstr "      %sTotalt utestående:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:2
+msgid "A payment of %s has been applied to your account."
+msgstr "En betalning på %s har gjorts på ditt konto."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:4
+msgid "This payment affected the following fees:"
+msgstr "Betalningen berör följande avgifter:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:6
+msgid "Description: %s"
+msgstr "Beskrivning: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:7
+msgid "Amount paid: %s"
+msgstr "Betalt belopp: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:8
+msgid "Amount remaining: %s"
+msgstr "Återstående belopp: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13:mul:2
+msgid "An account writeoff of %s has been applied to your account."
+msgstr "En avskrivning på %s har gjorts på ditt konto."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13:mul:4
+msgid "This writeoff affected the following fees:"
+msgstr "Betalningen berör följande avgifter:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:1
 msgid "Dear %s %s (%s),"
 msgstr "Hej %s %s (%s),"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:3
 msgid "Your request for an article from %s (%s) has been canceled for the following reason:"
 msgstr "Din artikelbeställning från %s (%s) har avbrutits av följande anledning:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:7
 msgid "Article requested:"
 msgstr "Artikel beställd:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:8
 msgid "Title: %s"
 msgstr "Titel: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:9
 msgid "Author: %s"
 msgstr "Författare: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:10
 msgid "Volume: %s"
 msgstr "Volym: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:11
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:11
 msgid "Issue: %s"
 msgstr "Nummer: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:12
 msgid "Date: %s"
 msgstr "Datum: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:13
 msgid "TOC: %sYes%sNo%s"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:14
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:14
 #, fuzzy
 msgid "Pages: %s"
 msgstr "Sida: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:15
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:15
 msgid "Chapters: %s"
 msgstr "Kapitel: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:16
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:16
 msgid "Notes: %s"
 msgstr "Kommentarer: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:17
 #, fuzzy
 msgid "Format: %sCopy%sScan%s"
 msgstr "%sKopiera%sScanna%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:19
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:19
 msgid "Your library"
 msgstr "Ditt bibliotek"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15:mul:3
 #, fuzzy
 msgid "We have completed your request for an article from %s (%s)."
 msgstr "Vi har mottagit din beställning av en artikel från %s (%s)."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15:mul:17
 msgid "%sYou may pick up your article at %s.%sYou can download the scanned materials via the following URL(s): %s.%s"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:19
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15:mul:19
 msgid "Thank you!"
 msgstr "Tack!"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16:mul:1
 #, fuzzy
 msgid "Dear %s %s (%s)"
 msgstr "Glöm %s %s (%s)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16:mul:3
 msgid "Your request for an article from %s (%s) is now in pending state."
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17:mul:3
 msgid "We have received your request for an article from %s (%s)."
 msgstr "Vi har mottagit din beställning av en artikel från %s (%s)."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18:mul:3
 #, fuzzy
 msgid "We are now processing your request for an article from %s (%s)."
 msgstr "Vi har mottagit din beställning av en artikel från %s (%s)."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19:mul:1
 #, fuzzy
 msgid "Article request:"
 msgstr "Artikelbeställningar:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19:mul:6
 msgid "Barcode: %s"
 msgstr "Streckkod: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16:mul:1
-#, fuzzy
-msgid "The following items have been checked in:"
-msgstr "Följande exemplar har blivit omlånade:"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16:mul:5
-msgid "Thank you."
-msgstr "Tack."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18:mul:1
-#, fuzzy
-msgid "The following items have been checked out:"
-msgstr "Följande exemplar har blivit omlånade:"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18:mul:5
-msgid "Thank you for visiting %s."
-msgstr "Tack för att du besöker %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:1:mul:1
 msgid "Dear %s %s,"
@@ -4772,287 +5207,400 @@ msgid "Your library."
 msgstr "Ditt bibliotek."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:1
-msgid "%s %s has added a note to the item %s - %s (%s)."
+#, fuzzy
+msgid "The following items have been checked in:"
+msgstr "Följande exemplar har blivit omlånade:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:5
+msgid "Thank you."
+msgstr "Tack."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:22:mul:1
+#, fuzzy
+msgid "The following items have been checked out:"
+msgstr "Följande exemplar har blivit omlånade:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:22:mul:5
+msgid "Thank you for visiting %s."
+msgstr "Tack för att du besöker %s."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:24:mul:1
+#, fuzzy
+msgid "%s %s has added a note to the item %s by %s (%s):"
 msgstr "%s %s har lagt till en anteckning till exemplaret %s - %s (%s)."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:21:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:3
 #, fuzzy
 msgid "The following item is now due:"
 msgstr "Följande exemplar modifierades:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:23:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27:mul:3
 #, fuzzy
 msgid "The following item(s) are now due:"
 msgstr "Följande exemplar är för tillfället försenade:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:24:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:3
 msgid "You have %s item(s) that are now due"
-msgstr ""
+msgstr "Du har %s exemplar som ska återlämnas idag"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:29:mul:1
 msgid "%sDate: %s%s"
 msgstr "%sDatum: %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:29:mul:3
 msgid "%s Transfer to/Hold in %s%s"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:29:mul:17
 msgid "%sITEM ON HOLD%s"
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:25
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:29:mul:25
 msgid "%sNotes:"
 msgstr "%sKommentarer:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:26:mul:3
-msgid "Checked out to %s %s %s %s %s"
-msgstr "Utlånad till %s %s %s %s %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:26:mul:8
-msgid "%sChecked out today%s"
-msgstr "%sUtlånade idag%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:26:mul:12
-msgid "Barcode: %s%s"
-msgstr "Streckkod: %s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:26:mul:13
-msgid "Date due: %s%s"
-msgstr "Förfallodatum: %s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27:mul:7
-msgid "%sChecked out%s"
-msgstr "%sUtlånad(%s)"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27:mul:16
-msgid "%sOverdues%s"
-msgstr "%sFörseningar%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27:mul:28
-msgid "%sNews%s"
-msgstr ""
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27:mul:33
-msgid "%sPosted on %s%s"
-msgstr ""
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:3
-#, fuzzy
-msgid "According to our current records, you have items that are overdue.Your library does not charge late fines, but please return or renew them at the branch below as soon as possible."
-msgstr "Enligt våra register hade du vid tiden för detta meddelande försenade lån. Lämna tillbaka eller låna om dem så snart som möjligt för att undvika högre förseningsavgifter."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:8
-msgid "Phone: %s"
-msgstr "Telefon: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:9
-msgid "Fax: %s"
-msgstr "Fax: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:10
-msgid "Email: %s"
-msgstr "E-post: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:12
-msgid "If you have registered a password with the library, and you have a renewal available, you may renew online. If an item becomes more than 30 days overdue, you will be unable to use your library card until the item is returned."
-msgstr ""
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:14
-msgid "The following item(s) is/are currently overdue:"
-msgstr "Följande exemplar är för tillfället försenade:"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:16
-msgid "%s\"%s\" by %s, %s, Barcode: %s Fine: %s%s"
-msgstr ""
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:18
-msgid "Thank-you for your prompt attention to this matter."
-msgstr ""
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:20
-msgid "%s Staff"
-msgstr "%s Personal"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:3
 msgid "Dear %s,%s"
 msgstr "Kära %s,%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:4
-msgid "Thank you for your report concerning %s.%s"
-msgstr "Tack för din rapport rörande %s.%s"
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:5
+msgid "We regret to inform you, that the following booking has been cancelled.%s"
+msgstr "Vi beklagar att meddelade dig att följande bokning har avbrutits.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:6
-msgid "You reported: %s"
-msgstr ""
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:7
+#, fuzzy
+msgid "Title: %s%s"
+msgstr "Titel: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:9
-msgid "Thank you"
-msgstr "Tack"
+#, fuzzy
+msgid "Dates: %s to %s%s"
+msgstr "%sDatum: %s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:11
+#, fuzzy
+msgid "Reason: %s%s"
+msgstr "Streckkod: %s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:13
+#, fuzzy
+msgid "Kind regards%s"
+msgstr "Hälsningar"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30:mul:3
+msgid "Checked out to %s %s %s %s %s"
+msgstr "Utlånad till %s %s %s %s %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30:mul:8
+msgid "%sChecked out today%s"
+msgstr "%sUtlånade idag%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30:mul:12
+msgid "Barcode: %s%s"
+msgstr "Streckkod: %s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30:mul:13
+msgid "Date due: %s%s"
+msgstr "Förfallodatum: %s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:31:mul:7
+msgid "%sChecked out%s"
+msgstr "%sUtlånad(%s)"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:31:mul:16
+msgid "%sOverdues%s"
+msgstr "%sFörseningar%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:31:mul:28
+msgid "%sNews%s"
+msgstr "%sNyheter%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:31:mul:33
+msgid "%sPosted on %s%s"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:4
+msgid "According to our current records, you have items that are overdue."
+msgstr "Enligt våra noteringar så har du exemplar som är försenade."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:5
+msgid "Please return or renew them at the branch below as soon as possible."
+msgstr "Återlämna eller låna om exemplaret hos filialen så snart som möjligt."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:10
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:11
+msgid "Fax: %s"
+msgstr "Fax: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:12
+msgid "Email: %s"
+msgstr "E-post: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:14
+msgid "If you have registered a password with the library, and you have a renewal available, you may renew online."
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:15
+msgid "If an item becomes more than 30 days overdue, you will be unable to use your library card until the item is returned."
+msgstr "Om ett exemplar blir mer än 30 dagar försenat, så kommer du inte kunna använda ditt lånekort förrän exemplaret är återlämnat."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:17
+msgid "%sThese items are overdue:%sThis item is overdue:%s"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:21
+msgid "\"%s\" by %s, %s, Barcode: %s, Fine: %s"
+msgstr "\"%s\" by %s, %s, Streckkod: %s, Avgift: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:24
+#, fuzzy
+msgid "Thank you for your prompt attention to this matter."
+msgstr "Tack för din rapport rörande %s.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:26
+#, fuzzy
+msgid "%s staff"
+msgstr "%s Personal"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:33:mul:2
+#, fuzzy
+msgid "The following %sitems are%sitem is%s currently overdue:"
+msgstr "Följande exemplar är för tillfället försenade:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:33:mul:6
+#, fuzzy
+msgid "by %s"
+msgstr "%s av %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:33:mul:12
+#, fuzzy
+msgid "Fine: %s"
+msgstr "Telefon: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:34:mul:3
 #, fuzzy
 msgid "The following item will be due soon:"
 msgstr "Följande exemplar modifierades:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:36:mul:3
 #, fuzzy
 msgid "The following item(s) will be due soon:"
 msgstr "Följande exemplar modifierades:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:33:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:37:mul:3
 msgid "You have %s item(s) that will be due soon."
-msgstr ""
+msgstr "Du har %s exemplar som snart ska återlämnas."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:34:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:38:mul:1
 msgid "The following items have been renewed:"
 msgstr "Följande exemplar har blivit omlånade:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:1
 msgid "Stock rotation report for %s:"
 msgstr "Beståndsrotationsrapport för för %s:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:3
 msgid "%s%s items to be processed for this branch."
 msgstr "%s%s exemplar är under behandling för detta bibliotek."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:4
 msgid "%sNo items to be processed for this branch"
 msgstr "%sInga exemplar är under behandling för denna enhet"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:5
 msgid "%s%s%sTitle: %s"
 msgstr "%s%s%sTitel: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:7
 msgid "Call number: %s"
 msgstr "Hyllsignatur: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:8
 msgid "Location: %s"
 msgstr "Plats: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:10
 msgid "On loan?: %s"
 msgstr "Utlånad?: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:11
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:11
 msgid "Status: %s"
 msgstr "Status: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:35:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:12
 msgid "Current library: %s %s"
 msgstr "Aktuellt bibliotek: %s %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:36:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3:mul:5
+msgid "Your booking of %s has been modified.%s"
+msgstr "Din bokning av %s har ändrats eller uppdaterats.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3:mul:7
+msgid "The new details are:%s"
+msgstr "De nya detaljerna är:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3:mul:11
+#, fuzzy
+msgid "Pickup at: %s%s"
+msgstr "Avhämtningsbibliotek: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:40:mul:3
 msgid "%sTransfer to %s%s"
 msgstr "%sÖverför till %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:36:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:40:mul:5
 msgid "%sITEM%s"
 msgstr "%sEXEMPLAR%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:37:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41:mul:8
 msgid "%sOrdernumber %s (%s) (%s ordered) ($%s each) has not been received.%s"
 msgstr "%sOrdernumber %s (%s) (%s beställt) (%s kr styck) har inte tagits emot.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:38:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42:mul:1
+msgid "SFTP upload failed:"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43:mul:1
+msgid "SFTP upload succeeded"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:3
 msgid "The Interlibrary loans request number %s you placed for:"
 msgstr "Fjärrlånebeställningsnummer %s för:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:38:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:7
 msgid "is ready for pick up from %s."
 msgstr "finns att hämta hos %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:38:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:9
 msgid "Kind regards"
 msgstr "Hälsningar"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:3
 msgid "The Interlibrary loans request number %s you placed for"
 msgstr "Fjärrlånebeställningsnummer %s för"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:39:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:7
 msgid "is unfortunately unavailable."
 msgstr "är dessvärre inte tillgänglig."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3:mul:4
-msgid "The library has now marked your concern with %s as resolved.%s"
-msgstr "Biblioteket har markerat ditt ärende angående %s som löst.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3:mul:6
-msgid "The following comment was left: %s"
-msgstr "Följande kommentar har lämnats: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:40:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:46:mul:1
 msgid "The patron for interlibrary loans request %s, with the following details, has requested cancellation of this ILL request:"
 msgstr "Låntagaren knuten till fjärrlånebeställning %s, med följande detaljer, har önskat avbryta denna beställning:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:47:mul:1
 msgid "The patron for interlibrary loans request %s, with the following details, has modified this ILL request:"
 msgstr "Låntagaren knuten till fjärrlånebeställning %s, med följande detaljer, har redigerat denna fjärrlånebeställning:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:1
 msgid "Dear Sir/Madam,"
 msgstr "Hej,"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:3
 msgid "We would like to request an interlibrary loan for a title matching the following description:"
 msgstr "Vi skulle vilja beställa ett fjärrlån på en titel som matchar följande beskrivning:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:7
 msgid "Please let us know if you are able to supply this to us."
 msgstr "Vänligen meddela oss om ni kan leverera detta till oss."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:49:mul:7
 msgid "has been updated."
 msgstr "har uppdaterats."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:49:mul:9
 msgid "Details of the update are below:"
 msgstr "Information om uppdateringen nedan:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:4:mul:4
-msgid "The library has added an update to the concern you reported against %s.%s"
-msgstr "Biblioteket har uppdaterat det ärende som du har rapporterat angående %s.%s"
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:4:mul:5
+msgid "Your booking of %s has been confirmed.%s"
+msgstr "Din bokning av %s har bekräftats.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:50:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:4:mul:7
+msgid "The details are:%s"
+msgstr "Detaljerna är:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56:mul:1
+msgid "Dear patron,"
+msgstr "Hej"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56:mul:3
+msgid "We want to inform you that %s %s accepted your invitation to share your list %s in our library catalog."
+msgstr "Vi vill informera dig om att %s %s tackade ja till din inbjudan att dela din lista %s i vår bibliotekskatalog."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57:mul:3
+msgid "One of our patrons, %s %s, invites you to share a list %s in our library catalog."
+msgstr "En av våra låntagare, %s %s, inbjuder dig att dela en lista %s i vår bibliotekskatalog."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57:mul:5
+msgid "To access this shared list, please click on the following URL or copy-and-paste it into your browser address bar."
+msgstr "För att komma åt denna delade lista, klicka på följande URL eller kopiera och klistra in den i webbläsarens adressfält."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57:mul:9
+msgid "In case you are not a patron in our library or do not want to accept this invitation, please ignore this mail. Note also that this invitation expires within two weeks."
+msgstr "Om du inte är beskyddare i vårt bibliotek eller inte vill acceptera denna inbjudan, vänligen ignorera detta mejl. Observera också att denna inbjudan går ut inom två veckor."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58:mul:3
+msgid "A public list, titled %s%s%s, has been transferred to you%s by %s%s.%s"
+msgstr "En offentlig lista, döpt %s%s%s, har flyttats över till dig%s av %s%s.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58:mul:5
+msgid "%sThe list was previously owned by %s.%s%s%s"
+msgstr "%sListan ägdes tidigare av %s.%s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58:mul:6
+#, fuzzy
+msgid "Thank you%s"
+msgstr "Tack"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:3
 msgid "%sDischarge confirmation%s"
 msgstr "%sBekräfta godkännande av begäran om att bli borttagen%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:50:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:4
 msgid "%s%s certifies that the following borrower:%s"
 msgstr "%s%s godkänner att följande låntagare:%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:50:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:5
 msgid "%s %s (cardnumber: %s)%s"
 msgstr "%s %s (kortnummer: %s)%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:50:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:6
 msgid "has returned all items.%s"
 msgstr "har återlämnat alla exemplar.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:51:mul:1
-msgid "Dear %s %s %s,"
-msgstr "Hej %s %s%s,"
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5:mul:4
+msgid "Thank you for your report concerning %s.%s"
+msgstr "Tack för din rapport rörande %s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:51:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5:mul:6
+msgid "You reported: %s"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5:mul:9
+msgid "Thank you"
+msgstr "Tack"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:3
 msgid "Your library card will expire soon, on:"
 msgstr "Ditt lånekort går ut snart:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:51:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:7
 msgid "Thank you,"
 msgstr "Tack,"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:51:mul:9
-msgid "Librarian"
-msgstr "Bibliotekarie"
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:2
+msgid "Dear %s %s %s,"
+msgstr "Hej %s %s%s,"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:4
 msgid "Your library account has been renewed. The new expiry date is: %s."
 msgstr "Ditt bibliotekskonto har förnyats. Nytt utgångsdatum är: %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:5
 msgid ""
 "%s\n"
 "An enrollment fee of %s has been applied.\n"
@@ -5062,333 +5610,289 @@ msgstr ""
 "En registreringsavgift på %s har lagts till.\n"
 "%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:8
 msgid "Your library,"
 msgstr "Ditt bibliotek,"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:1
 msgid "Hello!"
 msgstr "Hej!"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:3
 msgid "Your library account has been created. Please verify your email address by clicking this link to complete the signup process:"
 msgstr "Ditt bibliotekskonto har skapats. Vänligen verifiera din e-postadress genom att klicka på den här länken för att slutföra registreringsprocessen:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:5
 msgid "%s/cgi-bin/koha/opac-registration-verify.pl?token=%s"
 msgstr "%s/cgi-bin/koha/opac-registration-verify.pl?token=%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:7
 msgid "If you did not initiate this request, you may safely ignore this one-time message. The request will expire shortly."
 msgstr "Om du inte initierade denna begäran kan du säkert ignorera detta engångsmeddelande. Begäran löper ut inom kort."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:54:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:3
 msgid "We want to notify you that your password has been changed. If you did not change it yourself (or requested that change), please contact library staff."
 msgstr "Vi vill meddela dig att ditt lösenord har ändrats. Om du inte har ändrat det själv (eller begärt det), kontakta bibliotekspersonalen."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:1
 msgid "%sThis email has been sent in response to your password recovery request for the account %s%s%s."
 msgstr "%sEn förfrågan om att återställa lösenordet för det här konto har gjorts och därför får du det här e-postmeddelandet %s%s%s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:4
 msgid "You can now create your new password using the following link:"
 msgstr "Du kan nu skapa ditt nya lösenord med följande länk:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:7
 msgid "%sThis link will be valid for 2 days from this email's reception, then you must reapply if you do not change your password.%s"
 msgstr "%Den här länken kommer att vara giltig i 2 dagar från det här e-postmeddelandets mottagning, sedan måste du ansöka igen om du inte ändrar ditt lösenord.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:8
 msgid "%sThank you.%s"
 msgstr "%sTack.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:1
 msgid "%sA librarian has reset the password for the account %s%s%s."
 msgstr "%sPersonal har återställt lösenordet för kontot %s%s%s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:4
 msgid "Please create your new password using the following link:"
 msgstr "Vänligen skapa ditt nya lösenord med följande länk:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:7
 msgid "%sThis link will be valid for 5 days from this email's reception, then you must reapply if you do not change your password.%s"
 msgstr "%Den här länken kommer att vara giltig i 5 dagar från det att detta e-postmeddelande togs emot, sedan måste du ansöka igen om du inte ändrar ditt lösenord.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57:mul:1
-msgid "Dear patron,"
-msgstr "Hej"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57:mul:3
-msgid "We want to inform you that %s %s accepted your invitation to share your list %s in our library catalog."
-msgstr "Vi vill informera dig om att %s %s tackade ja till din inbjudan att dela din lista %s i vår bibliotekskatalog."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58:mul:3
-msgid "One of our patrons, %s %s, invites you to share a list %s in our library catalog."
-msgstr "En av våra låntagare, %s %s, inbjuder dig att dela en lista %s i vår bibliotekskatalog."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58:mul:5
-msgid "To access this shared list, please click on the following URL or copy-and-paste it into your browser address bar."
-msgstr "För att komma åt denna delade lista, klicka på följande URL eller kopiera och klistra in den i webbläsarens adressfält."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58:mul:9
-msgid "In case you are not a patron in our library or do not want to accept this invitation, please ignore this mail. Note also that this invitation expires within two weeks."
-msgstr "Om du inte är beskyddare i vårt bibliotek eller inte vill acceptera denna inbjudan, vänligen ignorera detta mejl. Observera också att denna inbjudan går ut inom två veckor."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:2
 msgid "Hello %s %s %s.%s"
 msgstr "Hej %s %s %s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:4
 msgid "Thank you for joining %s%s%sthe library%s%s"
 msgstr "Tack för att du har anslutit dig till %s%s%sbiblioteket%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:6
 msgid "You can search for all our materials in our %scatalog%s.%s"
 msgstr "Du kan söka efter allt vårt material i vår %skatalog%s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:8
 msgid "Your library card number is %s%s"
 msgstr "Ditt kortnummer är %s%s"
 
 # Uncertain what "clear" can refer to in this context - it's hardly the banking term
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:10
 msgid "If you have any problems or questions regarding your account, please contact the library."
 msgstr "Om du har några problem eller frågor om ditt konto, kontakta biblioteket."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5:mul:3
-msgid "Dear cataloger,%s"
-msgstr "Bästa katalogisatör, %s"
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:28
+#, fuzzy
+msgid "      %sHello %s %s %s%s"
+msgstr "Hej %s %s %s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5:mul:4
-msgid "%s reported the following concern with %s%s%s%s"
-msgstr "%s rapporterade följande problem med %s%s%s%s"
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:34
+#, fuzzy
+msgid "        Thank you for joining %s%s%sthe library%s%s"
+msgstr "Tack för att du har anslutit dig till %s%s%sbiblioteket%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:5:mul:8
-msgid "You can mark this concern as resolved from the %sconcern management page%s."
-msgstr "Du kan markera detta problem som löst från %problemhanteringssidan%s."
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:37
+#, fuzzy
+msgid "        You can search for all our materials in our %scatalog%s.%s"
+msgstr "Du kan söka efter allt vårt material i vår %skatalog%s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:40
+#, fuzzy
+msgid "        Your library card number is %s%s"
+msgstr "Ditt kortnummer är %s%s"
+
+# Uncertain what "clear" can refer to in this context - it's hardly the banking term
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:43
+#, fuzzy
+msgid "        If you have any problems or questions regarding your account, please contact the library.%s"
+msgstr "Om du har några problem eller frågor om ditt konto, kontakta biblioteket."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:3
 msgid "Your authentication token is %s."
 msgstr "Din autentiseringstoken är %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:4
 msgid "It is valid one minute."
 msgstr "Den är giltig en minut."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:23
 msgid "      %sOutstanding accounts%s"
 msgstr "      %sUtestående konton%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:29
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:29
 msgid "      %sDebts%s"
 msgstr "      %sAvgifter%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:34
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:34
 msgid "    %sDate%s"
 msgstr "    %sDatum%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:35
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:35
 msgid "    %sCharge%s"
 msgstr "    %sAvgift%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:36
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:36
 msgid "    %sAmount%s"
 msgstr "    %sBelopp%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:37
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:37
 msgid "    %sOutstanding%s"
 msgstr "    %sUtestående%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:52
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:52
 msgid "    %sThere are no outstanding debts on your account%s"
 msgstr "    %sDet finns inga utestående skulder på ditt konto%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:58
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:58
 msgid "      %sCredits%s"
 msgstr "      %Krediter%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:64
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:64
 msgid "    %sCredit%s"
 msgstr "    %sKredit%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:81
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:81
 msgid "    %sThere are no outstanding credits on your account%s"
 msgstr "    %sDet finns inga utestående krediter på ditt konto%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:88
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:88
 msgid "        Total credit as of %s:"
 msgstr "        Total kredit per %s:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:90
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:90
 msgid "        Total outstanding dues as of %s:"
 msgstr "        Totala utestående avgifter per %s:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:3
+msgid "Dear cataloger,%s"
+msgstr "Bästa katalogisatör, %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:4
+#, fuzzy
+msgid "%s has assigned the following concern with %s%s%s to you%s"
+msgstr "%s rapporterade följande problem med %s%s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:8
+#, fuzzy
+msgid "You can action this concern from the %sconcern management page%s."
+msgstr "Du kan markera detta problem som löst från %problemhanteringssidan%s."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:8
 msgid "Please order for the library:"
 msgstr "Beställ till biblioteket:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:10
 msgid "%sOrdernumber %s (%s) (quantity: %s) ($%s each).%s"
 msgstr "%sOrdernumber %s (%s) (antal: %s) (%s kr styck).%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:23
 msgid "  %sTransaction ID: %s"
 msgstr "  %sTransaktions-ID: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:27
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:27
 msgid "  %sOperator ID: %s"
 msgstr "  %sOperatörs-ID: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:31
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:31
 msgid "  %sPayment type: %s"
 msgstr "  %sBetalningstyp: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:37
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:37
 msgid "        %s%sFee receipt%s%s"
 msgstr "        %s%sKvitto för avgift%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:42
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:42
 msgid "    %sDescription of charges%s"
 msgstr "    %sBeskrivning av avgifter%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:55
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:55
 msgid "    %sTotal: %s"
 msgstr "    %sTotalt: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:59
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:59
 msgid "    %sTendered: %s"
 msgstr "    %sInlämnat: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:63
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:63
 msgid "    %sChange: %s"
 msgstr "    %sÄndring: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:39
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:39
 msgid "        %s%sPayment receipt%s%s"
 msgstr "        %s%sKvitto för avgift%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:58
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:58
 msgid "      %sTendered: %s"
 msgstr "      %sInlämnat: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:62
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:62
 msgid "      %sChange given:%s"
 msgstr "      %sVäxel tillbaka: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:3
 msgid "We regret to inform you, that the following item can not be provided due to it being missing. Your hold was cancelled."
 msgstr "Vi beklagar att meddela dig att följande exemplar inte kan tillhandahållas på grund av att den saknas. Din reservation har tagits bort."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:7
 msgid "Copy: %s"
 msgstr "Exemplar: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74:mul:3
 msgid "You have a hold available for pickup as of %s:"
 msgstr "Du har en reservation att hämta sedan %s:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:1
 msgid "You have one or more holds available for pickup:"
 msgstr "Du har en eller flera reservationer att hämta:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:6
 msgid "Waiting since: %s"
 msgstr "Väntar sedan: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:7
 msgid "Waiting at: %s"
 msgstr "Väntar hos: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77:mul:3
 msgid "Your hold for %s is available for pickup."
 msgstr "Din reservation för %s är tillgänglig för hämtning."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:26
-msgid "      %sTransaction ID: %s"
-msgstr "      %sTransaktions-ID: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:30
-msgid "      %sOperator ID: %s"
-msgstr "      %sOperatörs-ID: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:35
-msgid "      %sPayment type: %s"
-msgstr "      %sBetalningstyp: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:41
-msgid "        %s%s%s receipt%s%s"
-msgstr "        %s%s%s kvitto%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:47
-msgid "        Received with thanks from  %s %s %s"
-msgstr "        Mottagen med tack från  %s %s %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:48
-msgid "        Card number: %s%s"
-msgstr "        Kortnummer: %s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:54
-msgid "        Credit added to account for %s %s %s"
-msgstr "        Kredit tillagd till konto för %s %s %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:61
-msgid "        Writeoff added to account for %s %s %s"
-msgstr "        Avskrivning tillagd till konto för %s %s %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:68
-msgid "      %sDescription of credit%s"
-msgstr "      %sBeskrivning av kredit%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:69
-msgid "      %sAmount%s"
-msgstr "      %sBelopp%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:76
-msgid "      %sTotal available:%s"
-msgstr "      %sTotalt tillgängligt:%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:82
-msgid "      %sDescription of charges%s"
-msgstr "      %sBeskrivning av avgifter%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:94
-msgid "      %sTotal:%s"
-msgstr "      %sTotalt:%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:99
-msgid "      %sChange given: %s"
-msgstr "      %sVäxel tillbaka: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:107
-msgid "      %sAccount balance as on date:%s"
-msgstr "      %sKontosaldo per datum:%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:6
 #, fuzzy
 msgid "Change service requested"
 msgstr "Change service requested"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79:mul:1
 msgid "A hold has been placed on the following item : %s (%s) by the user %s %s (%s)."
 msgstr "En reservation har lagts på följande exemplar : %s (%s) av användare %s %s (%s)."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:4
+msgid "The library has now marked your concern with %s as resolved.%s"
+msgstr "Biblioteket har markerat ditt ärende angående %s som löst.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:6
+msgid "The following comment was left: %s"
+msgstr "Följande kommentar har lämnats: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:1
 msgid "The patron picking up %s (%s) has changed to %s %s (%s)."
 msgstr ""
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:2
 msgid "Please update the hold information for this item."
 msgstr "Uppdatera reservationsinformationen för det här exemplaret."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:5
 msgid "Item: %s"
 msgstr "Exemplar: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:6
 msgid "Pickup location: %s"
 msgstr "Avhämtningsbibliotek: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81:mul:1
 msgid ""
 "Dear %s %s,\n"
 "\n"
@@ -5406,11 +5910,11 @@ msgstr ""
 "    %s : väntar sedan %s\n"
 "%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82:mul:4
 msgid "You have a curbside pickup scheduled for %s at %s."
 msgstr "Du har en upphämtning är planerad till %s kl. %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82:mul:5
 msgid ""
 "Any holds waiting for you at the pickup time will be included in this pickup. At this time, that list includes:\n"
 "%s\n"
@@ -5426,453 +5930,244 @@ msgstr ""
 "%s\n"
 "%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82:mul:7
 msgid "Once you have arrived, please call your library or log into your account and click the \"Alert staff of your arrival\" button to let them know you are there."
 msgstr "När du har anlänt, ring ditt bibliotek eller logga in på ditt konto och klicka på knappen \"Uppmärksamma personal om din ankomst\" för att låta dem veta att du är där."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:3
 msgid "The following issue is now available:"
 msgstr "Följande nummer är nu tillgängligt:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:7
 msgid "Please pick it up at your convenience."
 msgstr "Vänligen hämta när det passar dig."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:3
 msgid "You have suggested that the library acquire %s by %s."
 msgstr "Du har föreslagit att biblioteket ska köpa in %s av %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:5
 msgid "The library has reviewed your suggestion today. The item will be ordered as soon as possible. You will be notified by mail when the order is completed, and again when the item arrives at the library."
 msgstr "Biblioteket har granskat ditt förslag idag. Titeln kommer att beställas så snart som möjligt. Du kommer att meddelas per epost när beställningen är klar, och igen när exemplaret anländer till biblioteket."
 
 # Uncertain what "clear" can refer to in this context - it's hardly the banking term
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
 msgid "If you have any questions, please email us at %s."
 msgstr "Om du har några frågor, mejla oss på %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:5
 msgid "We are pleased to inform you that the item you requested is now part of the collection."
 msgstr "Vi är glada att kunna meddela att titeln du efterfrågade nu finns på biblioteket."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:1
 msgid "%sSuggestion pending approval%s"
 msgstr "%sFörslag som väntar på godkännande%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:2
 msgid "    %s%sSuggested by%s"
 msgstr "    %s%sFöreslaget av%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:14
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:14
 msgid "    %s%sTitle suggested%s"
 msgstr "    %s%sFöreslagen titel%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:16
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:16
 msgid "    %s%sLibrary:%s %s%s"
 msgstr "    %s%sBibliotek:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:17
 msgid "    %s%sTitle:%s %s%s"
 msgstr "    %s%sTitlel:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:18
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:18
 msgid "    %s%sAuthor:%s %s%s"
 msgstr "    %s%sFörfattare:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:19
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:19
 msgid "    %s%sCopyright date:%s %s%s"
 msgstr "    %s%sCopyrightdatum:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:20
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:20
 msgid "    %s%sStandard number (ISBN, ISSN or other):%s %s%s"
 msgstr "    %s%sStandardnummer (ISBN, ISSN eller annat):%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:21
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:21
 msgid "    %s%sPublisher:%s %s%s"
 msgstr "    %s%sFörläggare:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:22
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:22
 msgid "    %s%sCollection title:%s %s%s"
 msgstr "    %s%sTitel på samling:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:23
 msgid "    %s%sPublication place:%s %s%s"
 msgstr "    %s%sUtgivningsort:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:24
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:24
 msgid "    %s%sQuantity:%s %s%s"
 msgstr "    %s%Antal:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:25
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:25
 msgid "    %s%sItem type:%s  %s%s"
 msgstr "    %s%sExemplartyp:%s  %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:26
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:26
 msgid "    %s%sReason for suggestion:%s %s%s"
 msgstr "    %s%sAnledning till förslag:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:27
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:27
 msgid "    %s%sNotes:%s %s%s"
 msgstr "    %s%sKommentarer:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:5
 msgid "We are pleased to inform you that the item you requested has now been ordered. It should arrive soon, at which time it will be processed for addition into the collection."
 msgstr "Vi är glada att kunna meddela att titeln du efterfrågade nu har beställts. Den bör anlända snart och kommer då att läggas in i bibliotekets bestånd."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:7
 msgid "You will be notified again when the book is available."
 msgstr "Du kommer att meddelas igen när boken är tillgänglig."
 
 # Uncertain what "clear" can refer to in this context - it's hardly the banking term
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:9
 msgid "If you have any questions, please email us at %s"
 msgstr "Om du har några frågor, mejla oss på %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:20
-msgid "      %sFee ID: %s"
-msgstr "      %sAvgifts-ID: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:31
-msgid "        %s%sInvoice%s%s"
-msgstr "        %s%sFaktura%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:36
-msgid "        Bill to: %s %s %s"
-msgstr "        Fakturera: %s %s %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:42
-msgid "      %sDate%s"
-msgstr "      %sDatum%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:52
-msgid "      %sTotal owed:%s"
-msgstr "      %sTotalt utestående:%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:59
-msgid "      %sDescription of payments%s"
-msgstr "      %sBeskrivning av betalningar%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:70
-msgid "      %sTotal paid:%s"
-msgstr "      %sTotalt betalat:%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:79
-msgid "      %sTotal outstanding:%s"
-msgstr "      %sTotalt utestående:%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88:mul:5
 msgid "The library has reviewed your request today, and has decided not to accept the suggestion at this time."
 msgstr "Biblioteket har granskat din begäran idag och har beslutat att inte acceptera förslaget för närvarande."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88:mul:7
 msgid "The reason given is: %s"
 msgstr "Den angivna orsaken är: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:3
 msgid "A new suggestion is ready to be processed: %s by %s."
 msgstr "Det finns ett nytt inköpsförslag att hantera: %s av %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:4
+msgid "The library has added an update to the concern you reported against %s.%s"
+msgstr "Biblioteket har uppdaterat det ärende som du har rapporterat angående %s.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:3
 msgid "A new suggestion has been assigned to you: %s."
 msgstr "Du har ett nytt inköpsförslag att hantera: %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:1
 msgid "Username: %s"
 msgstr "Användarnamn: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:3
 msgid "Problem page: %s"
 msgstr "Problemsida: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:7
 msgid "Message: %s"
 msgstr "Meddelande: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:3
 msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "Exemplaret %s har blivit omlånat och har fått återlämningsdatum %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:4
 msgid "This item has reached the maximum number of automatic renewals and will no longer be renewed."
 msgstr "Exemplaret har lånats om automatiskt maximalt antal gånger och kan inte längre lånas om."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:7
 msgid "This item has reached the maximum number of unseen renewals and will need to be renewed at the library."
 msgstr "Det här exemplaret har nått det maximala antalet osedda omlån och kommer att behöva lånas om på biblioteket."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:9
 msgid "The following item, %s, has not been renewed because:"
 msgstr "Exemplaret %s har inte blivit omlånat eftersom:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:11
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:11
 msgid "You have reached the maximum number of renewals possible."
 msgstr "Du har nått gränsen för max antal möjliga omlån för detta exemplar."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:13
 msgid "This item is on hold for another patron."
 msgstr "Exemplaret är reserverat för en annan låntagare."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:15
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:15
 msgid "You are currently restricted."
 msgstr "Du är för närvarande begränsad."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:17
 msgid "You have overdue items."
 msgstr "Du har försenade lån."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:19
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:19
 msgid "It's too late to renew this item."
 msgstr "Det är för sent att låna om det här exemplaret."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:21
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:21
 msgid "Your total unpaid fines are too high."
 msgstr "Du har för höga obetalda avgifter totalt."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:23
 msgid "This item must be renewed at the library."
 msgstr "Detta exemplar måste lånas om på biblioteket."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:25
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:25
 msgid "Your account has expired."
 msgstr "Kontot är inte längre giltigt."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:2
 msgid "Checked in items for %s %s %s %s %s"
 msgstr "Återlämnade exemplar för %s %s %s %s %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:7
 msgid "%sChecked in today%s"
 msgstr "%sÅterlämnade idag%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:12
 msgid "Barcode: %s %s"
 msgstr "Streckkod: %s %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:3
 msgid "There were %s items that were not renewed."
 msgstr "%s exemplar lånades inte om."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:6
 msgid "There were %s items that were renewed."
 msgstr "%s exemplar lånades om."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:12
 msgid "was renewed until %s"
 msgstr "lånades om till %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88:mul:5
-msgid "A recall has been placed on the following item: %s / %s (%s). The due date has been updated, and is now %s. Please return the item before the due date."
-msgstr "Ett återkrav har gjorts på följande exemplar: %s / %s (%s). Förfallodatumet har uppdaterats, och är nu %s. Vänligen återlämna exemplaret före detta datum."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:5
-msgid "A recall that you requested on the following item: %s / %s (%s) is now ready for you to pick up at %s. Please pick up your item by %s."
-msgstr "Ett krav som du har registrerat på följande exemplar: %s / %s (%s) finns nu att hämta hos %s. Hämta detta senast den %s."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:2
-msgid "A payment of %s has been applied to your account."
-msgstr "En betalning på %s har gjorts på ditt konto."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:4
-msgid "This payment affected the following fees:"
-msgstr "Betalningen berör följande avgifter:"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:6
-msgid "Description: %s"
-msgstr "Beskrivning: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:7
-msgid "Amount paid: %s"
-msgstr "Betalt belopp: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:8
-msgid "Amount remaining: %s"
-msgstr "Återstående belopp: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:3
-msgid "Recall for pickup at %s"
-msgstr "Återkrav för upphämtning på %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:9
-msgid "ITEM RECALLED"
-msgstr "EXEMPLAR ÅTERKRÄVT"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:10
-msgid "%s by %s"
-msgstr "%s av %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:12
-msgid "Callnumber: %s"
-msgstr "Hyllsignatur: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:1
-msgid "%sDear %s %s,%s"
-msgstr "%sHej %s %s,%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:2
-msgid "%sThis is to confirm that someone disabled two factor authentication on your account.%s"
-msgstr "%sDet här bekräftar att någon har inaktiverat tvåfaktorsautentiseringen för ditt konto.%s"
-
-# Uncertain what "clear" can refer to in this context - it's hardly the banking term
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:3
-msgid "%sIf you did not do this, someone else may be using your account. Please contact technical support.%s"
-msgstr "%som du inte har gjort detta så kan någon annan ha använt ditt konto. Var vänlig kontakta biblioteket.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:4
-msgid "%sYour library%s"
-msgstr "%sDitt bibliotek%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:2
-msgid "%sThis is to confirm that someone enabled two factor authentication on your account.%s"
-msgstr "%sDet här bekräftar att någon har aktiverat tvåfaktorsautentiseringen för ditt konto.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:1
-msgid "%sNew OPAC self-registration%s"
-msgstr "%sNy självregistrering i OPAC%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:2
-msgid "%s%sSelf-registration made:%s"
-msgstr "%s%sSjälvregistrering utförd:%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:5
-msgid "%s%sCardnumber: %s%s%s"
-msgstr "%s%sKortnummer: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:6
-msgid "%s%sEmail: %s%s%s"
-msgstr "%s%sE-post: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:7
-msgid "%s%sPhone: %s%s%s"
-msgstr "%s%sTelefon: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:8
-msgid "%s%sMobile: %s%s%s"
-msgstr "%s%sMobil: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:9
-msgid "%s%sFax: %s%s%s"
-msgstr "%s%sFax: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:10
-msgid "%s%sSecondary email: %s%s%s"
-msgstr "%s%sSekundär e-post: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:11
-msgid "%s%sSecondary phone: %s%s%s"
-msgstr "%s%sSekundärt telefonnummer: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:12
-msgid "%s%sHome library: %s%s%s"
-msgstr "%s%sHembibliotek: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:13
-msgid "%s%sTemporary patron category: %s%s%s"
-msgstr "%s%sTemporär låntagarkategori: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:5
-msgid "Hi,%s%s"
-msgstr "Hej,%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:6
-msgid "%s %s sent you a list from our online catalog called: %s.%s"
-msgstr "%s %s skickade en lista till dig, från vår onlinekatalog, som heter: %s.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:7
-msgid "Please note that the attached file is a MARC bibliographic records file which can be imported into personal bibliographic software like EndNote, Reference Manager or ProCite.%s"
-msgstr "Observera att den bifogade filen är en bibliografisk fil i MARC-format som kan importeras till bibliografisk programvara, t.ex. EndNote, Reference Manager eller ProCite.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:12
-msgid "%sAuthor(s): %s%s%s%s%s; %s%s%s%s%s%s%s;%s%s%s%s%s"
-msgstr "%sFörfattare: %s%s%s%s%s; %s%s%s%s%s%s%s;%s%s%s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:13
-msgid "%s%sISBN: %s%s%s; %s%s%s%s"
-msgstr "%s%sISBN: %s%s%s; %s%s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:14
-msgid "%sPublished by: %s%s in %s%s%s, %s%s%s%s"
-msgstr "%sUtigven av: %s%s i %s%s%s, %s%s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:15
-msgid "%sCollection: %s%s%s"
-msgstr "%Samling: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:16
-msgid "%sCopyright year: %s%s%s"
-msgstr "Utgivningsår: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:17
-msgid "%sNotes: %s%s%s"
-msgstr "%sAnmärkning: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:18
-msgid "%sUnified title: %s%s%s"
-msgstr "%sEnhetlig titel: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:19
-msgid "%sSerial: %s%s%s"
-msgstr "%sPeriodika: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:20
-msgid "%sLCCN: %s%s%s"
-msgstr "%sLCCN: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:21
-msgid "%sIn: %s%s %s%s%s%s%s%s"
-msgstr "%sI: %s%s %s%s%s%s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:22
-msgid "%sURL: %s%s%s"
-msgstr "%sURL: %s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:23
-msgid "[%sView in online catalog%s"
-msgstr "[%sSe i onlinekatalog%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:24
-msgid "%s%sItems: %s%s%s%s"
-msgstr "%s%sExemplar: %s%s%s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:6
-msgid "%s %s sent you a cart from our online catalog.%s"
-msgstr "%s %s skickade dig en minneslista från vår online-katalog.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:23
-msgid "%sView in online catalog%s"
-msgstr "%sSe i onlinekatalog%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:1
 #, fuzzy
-msgid "Train name: %s"
-msgstr "Användarnamn: %s"
+msgid "Date: %s%s"
+msgstr "%sDatum: %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:5
-msgid "Sent on: %s"
-msgstr "Skickat den: %s"
+#, fuzzy
+msgid "A recall has been placed on the following item:%s%s/ %s%s (%s). The due date has been updated, and is now %s. Please return the item before the due date.%s"
+msgstr "Ett återkrav har gjorts på följande exemplar: %s / %s (%s). Förfallodatumet har uppdaterats, och är nu %s. Vänligen återlämna exemplaret före detta datum."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:9
-msgid "Item number #%s"
-msgstr "Exemplarnummer #%s"
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:6
+#, fuzzy
+msgid "A recall that you requested on the following item: %s%s / %s%s (%s) is now ready for you to pick up at %s. Please pick up your item by %s.%s"
+msgstr "Ett krav som du har registrerat på följande exemplar: %s / %s (%s) finns nu att hämta hos %s. Hämta detta senast den %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:1
-msgid "Hello %s %s (%s),"
-msgstr "Hej %s %s (%s),"
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98:mul:1
+#, fuzzy
+msgid "Your item has been recalled: %s (%s). Please return by %s."
+msgstr "Ditt exemplar har blivit återkrävt: %s (%s). Vänligen återlämna det senast %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:2
-msgid "Your hold on %s (%s) has been confirmed."
-msgstr "Din reservation på %s (%s) har bekräftats."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:3
-msgid "You will be notified by the library when your item is available for pickup."
-msgstr "Du får ett meddelande från biblioteket när ditt exemplar är tillgänglig för upphämtning."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:2
-msgid "An account writeoff of %s has been applied to your account."
-msgstr "En avskrivning på %s har gjorts på ditt konto."
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:99:mul:1
+#, fuzzy
+msgid "A recalled item: %s(%s) is ready for you to pick up at %s. Please collect by %s."
+msgstr "Ett krav som du har registrerat på följande exemplar: %s / %s (%s) finns nu att hämta hos %s. Hämta detta senast den %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:4
-msgid "This writeoff affected the following fees:"
-msgstr "Betalningen berör följande avgifter:"
+msgid "%s reported the following concern with %s%s%s%s"
+msgstr "%s rapporterade följande problem med %s%s%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:8
+msgid "You can mark this concern as resolved from the %sconcern management page%s."
+msgstr "Du kan markera detta problem som löst från %problemhanteringssidan%s."
 
 #: installer/data/mysql/en/mandatory/sample_numberpatterns.yml:description:1
 msgid "Sample numbering patterns for subscriptions"
@@ -7529,101 +7824,121 @@ msgid "Software developer"
 msgstr "Programmerare"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:270
+#, fuzzy
+msgid "Technical advisor"
+msgstr "Technical reports"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:271
 msgid "Television writer"
 msgstr "Manusförfattare för TV"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:271
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:272
 #, fuzzy
 msgid "Technical director"
 msgstr "Technical reports"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:272
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:273
 #, fuzzy
 msgid "Teacher"
 msgstr "Thatcher Rea"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:274
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:275
 #, fuzzy
 msgid "Television director"
 msgstr ", förlagsansvarig"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:275
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
 msgid "Television guest"
 msgstr "TV-gäst"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:277
 msgid "Television host"
 msgstr "TV-värd"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:277
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:278
 #, fuzzy
 msgid "Television producer"
 msgstr "Inspelare"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:278
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:279
 #, fuzzy
 msgid "Transcriber"
 msgstr "Överföring"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:282
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:283
 #, fuzzy
 msgid "University place"
 msgstr "Leveransplats"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:283
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:284
 #, fuzzy
 msgid "Voice actor"
 msgstr ", redaktör"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:284
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:285
 msgid "Videographer"
 msgstr "Videograf"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:285
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:286
 msgid "Visual effects provider"
 msgstr "Leverantör av visuella effekter"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:286
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:287
 msgid "Writer of added commentary"
 msgstr "Analys, kommentar"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:287
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:288
 #, fuzzy
 msgid "Writer of added lyrics"
 msgstr "Skrivarprofiler"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:289
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:290
 #, fuzzy
 msgid "Writer of added text"
 msgstr "Skrivarprofiler"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:290
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
 #, fuzzy
 msgid "Woodcutter"
 msgstr "woodcut"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:292
 msgid "Wood engraver"
 msgstr "Xylograf"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:292
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
+#, fuzzy
+msgid "Writer of film story"
+msgstr "Form of reproduction"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
+#, fuzzy
+msgid "Writer of intertitles"
+msgstr "Form of reproduction"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:295
 #, fuzzy
 msgid "Writer of introduction"
 msgstr "Form of reproduction"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:296
 #, fuzzy
 msgid "Witness"
 msgstr "Ljusstyrka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:297
 #, fuzzy
 msgid "Writer of preface"
 msgstr "Skrivarprofiler"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:295
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:298
 msgid "Writer of supplementary textual content"
 msgstr "Tillagt textinnehåll"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:299
+#, fuzzy
+msgid "Writer of television story"
+msgstr "Analys, kommentar"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:description:1
 msgid "MARC code list for relators, as of http://www.loc.gov/marc/relators/relaterm.html"
@@ -7976,31 +8291,31 @@ msgstr "En klar och tydlig beskrivning av vad du förväntade skulle hända."
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:5:mul:1
 msgid "%sThe online catalog uses functional cookies: these are essential to make the site work.%s"
-msgstr ""
+msgstr "%sDen här katalogen använder funktionella cookies: de är nödvändiga för att den här sajten ska fungera.%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:1
 msgid "%sWhat are cookies?%s"
-msgstr ""
+msgstr "%sVad är kakor?%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:2
 msgid "%sCookies are small text files placed on your browser by websites. They help make websites work, or work more efficiently. They also \"remember\" some of your preferences, so you don't have to set a preference again every time you switch to a different page on the same website.%s"
-msgstr ""
+msgstr "%sKakor är små textfiler som webbplatser placerar i din webbläsare. De hjälper webbplatser att fungera, eller fungera mer effektivt. De \"kommer också ihåg\" några av dina inställningar, så att du inte behöver ställa in en inställning igen varje gång du byter till en annan sida på samma webbplats.%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:3
 msgid "%sIf cookies are a concern for you, you may like to regularly clear your cookies on your browser or use a private browser mode. Check your browser settings for these options.%s"
-msgstr ""
+msgstr "%sOm kakor är ett problem för dig kanske du vill rensa dina kakor regelbundet i din webbläsare eller använda ett privat webbläsarläge. Kontrollera dina webbläsarinställningar för dessa alternativ.%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:4
 msgid "%sEssential cookies%s"
-msgstr ""
+msgstr "%sNödvändiga kakor%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:5
 msgid "%sHere is the list of essential cookies used on the Koha online catalog.%s"
-msgstr ""
+msgstr "%sHär är listan med nödvändiga kakor som används i Kohas onlinekatalog.%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:6
 msgid "%sSome of these depend on settings chosen by the library team; therefore all the cookies listed may not apply to this site.%s"
-msgstr ""
+msgstr "%Några av dessa beror på inställningar som valts av bibliotekspersonalen; därför kanske alla listade kakor inte gäller för den här webbplatsen.%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:10
 #, fuzzy
@@ -8139,15 +8454,15 @@ msgstr ""
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:65
 msgid "%sNon-essential cookies%s"
-msgstr ""
+msgstr "%sIcke-nödvändiga kakor%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:66
 msgid "%sThe library team may create additional cookies. These are optional and will require your agreement before they are used.%s"
-msgstr ""
+msgstr "%sBibliotekspersonalen kan skapa ytterligare kakor. Dessa är valfria och kräver ditt samtycke innan de används.%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:6:mul:67
 msgid "%sIf any non-essential cookies are created, they will appear below.%s"
-msgstr ""
+msgstr "%sOm icke-nödvändiga kakor skapas kommer de att visas nedan.%s"
 
 #: installer/data/mysql/en/optional/sample_news.yml:description:1
 #, fuzzy
@@ -8356,7 +8671,7 @@ msgstr ""
 
 #: installer/data/mysql/en/optional/sample_z3950_servers.yml:description:1
 msgid "Allow access to the following servers to search and download record information:"
-msgstr ""
+msgstr "Tillåt åtkomst till följande servrar för att söka efter och ladda ner postinformation:"
 
 #: installer/data/mysql/en/optional/sample_z3950_servers.yml:description:3
 msgid "LIBRARY OF CONGRESS NAMES (authority records)"
@@ -8397,9 +8712,19 @@ msgstr ""
 #~ msgid "      Card number: %s%s"
 #~ msgstr "      Kortnummer: %s%s"
 
+#~ msgid "%s by %s"
+#~ msgstr "%s av %s"
+
+#, fuzzy
+#~ msgid "According to our current records, you have items that are overdue.Your library does not charge late fines, but please return or renew them at the branch below as soon as possible."
+#~ msgstr "Enligt våra register hade du vid tiden för detta meddelande försenade lån. Lämna tillbaka eller låna om dem så snart som möjligt för att undvika högre förseningsavgifter."
+
 #, fuzzy
 #~ msgid "AudioBook"
 #~ msgstr "bok"
+
+#~ msgid "Callnumber: %s"
+#~ msgstr "Hyllsignatur: %s"
 
 #, fuzzy
 #~ msgid "EBook"
@@ -8408,6 +8733,9 @@ msgstr ""
 #, fuzzy
 #~ msgid "Ebook"
 #~ msgstr "bok"
+
+#~ msgid "Librarian"
+#~ msgstr "Bibliotekarie"
 
 #, fuzzy
 #~ msgid "Organizer of meeting"
@@ -8420,3 +8748,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Thankyou"
 #~ msgstr "Tack! "
+
+#~ msgid "The following item(s) is/are currently overdue:"
+#~ msgstr "Följande exemplar är för tillfället försenade:"
