@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.02.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-25 03:06+0000\n"
-"PO-Revision-Date: 2025-07-31 09:07+0300\n"
+"PO-Revision-Date: 2025-07-31 09:18+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -32202,7 +32202,7 @@ msgstr "Jos "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:486
 #, c-format
 msgid "Checkout charge limit: "
-msgstr "Lainausmaksun rajoitus: "
+msgstr "Lainauskiellon raja: "
 
 #. For the first occurrence,
 #. %1$s: - pref_noissuescharge_link | $raw | $KohaSpan -
@@ -32216,12 +32216,12 @@ msgstr "Jos määritetty, tämä ylikirjoittaa yleisen määrityksen järjestelm
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:492
 #, c-format
 msgid "Guarantees checkout charge limit: "
-msgstr "Taattavien maksurajoitus: "
+msgstr "Taattavien lainauskiellon raja: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:498
 #, c-format
 msgid "Guarantors with guarantees checkout charge limit: "
-msgstr "Takaajien, joilla on taattavia, lainarajoituksen maksuraja: "
+msgstr "Takaajien, joilla on taattavia, lainauskiellon raja: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:512
 #, c-format
@@ -32378,17 +32378,17 @@ msgstr "Jätä pois paikallisten varausten jonosta"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:669
 #, c-format
 msgid "Checkout charge limit"
-msgstr "Lainauksen maksuraja"
+msgstr "Lainauskiellon raja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:670
 #, c-format
 msgid "Guarantees checkout charge limit"
-msgstr "Taattavien maksuraja"
+msgstr "Taattavien lainauskiellon raja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:671
 #, c-format
 msgid "Guarantors with guarantees checkout charge limit"
-msgstr "Takaajien, joilla on taattavia, lainarajoituksen maksuraja"
+msgstr "Takaajien, joilla on taattavia, lainauskiellon raja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:672
 #, c-format
