@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.02.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-25 03:06+0000\n"
-"PO-Revision-Date: 2025-07-29 15:33+0300\n"
+"PO-Revision-Date: 2025-07-31 09:07+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -45068,7 +45068,7 @@ msgstr "Ikärajoitus %s. %s Lainataanko silti? %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:333
 #, c-format
 msgid "The patron has a debt of %s."
-msgstr "Asiakkaalla on velkoja %s."
+msgstr "Asiakkaalla on maksuja %s."
 
 #. %1$s:  DEBT_GUARANTEES | $Price
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:160
