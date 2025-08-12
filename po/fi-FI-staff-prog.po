@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.02.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-25 03:06+0000\n"
-"PO-Revision-Date: 2025-08-07 10:09+0300\n"
+"PO-Revision-Date: 2025-08-12 15:54+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -68119,7 +68119,7 @@ msgstr "Tätä kenttää ei voi muokata lainaus- ja palautustoiminnon kautta."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:168
 #, c-format
 msgid "Object: "
-msgstr "Esine: "
+msgstr "ID-tunnus: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:173
 #, c-format
@@ -68169,7 +68169,7 @@ msgstr "Vertaa valittuja"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:244
 #, c-format
 msgid "Object"
-msgstr "Esine"
+msgstr "ID-tunnus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:245
 #, c-format
