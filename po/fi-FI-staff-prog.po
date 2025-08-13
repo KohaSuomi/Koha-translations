@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.02.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-25 03:06+0000\n"
-"PO-Revision-Date: 2025-08-12 15:54+0300\n"
+"PO-Revision-Date: 2025-08-13 10:41+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -1105,7 +1105,7 @@ msgstr "Uusi toimittaja"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/action-logs.inc:4
 #, c-format
 msgid "Authentication"
-msgstr "Todennus"
+msgstr "Tunnistautuminen"
 
 #. I
 #: koha-tmpl/intranet-tmpl/prog/en/includes/action-logs.inc:5
@@ -2196,7 +2196,7 @@ msgstr "Kausijulkaisureklamaatio"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/action-logs.inc:143
 #, c-format
 msgid "Acquisition claim"
-msgstr "Hankintavaatimus"
+msgstr "Hankinnan reklamaatio"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/action-logs.inc:145
 #, c-format
@@ -3324,7 +3324,7 @@ msgstr "Lainaus"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:67
 #, c-format
 msgid "Check in"
-msgstr "Palauta"
+msgstr "Palautus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/adv-search.inc:30
 #: koha-tmpl/intranet-tmpl/prog/en/includes/home-search.inc:44
@@ -12801,7 +12801,7 @@ msgstr "Lainauskuitti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:763
 #, c-format
 msgid "Patron account expiry"
-msgstr "Asiakastili on vanhentunut"
+msgstr "Ilmoitus asiakastilin vanhenemisesta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:753
@@ -13531,7 +13531,7 @@ msgstr "Taattavat"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:261
 #, c-format
 msgid "Amount outstanding"
-msgstr "Maksettava"
+msgstr "Maksettavaa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:119
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:264
@@ -40923,7 +40923,7 @@ msgstr "ISBD-tiedot"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:49
 #, c-format
 msgid "%s Unknown record %s ISBD details for %s %s "
-msgstr "%s Tuntematon tietue %s ISBD-tiedot kohteelle %s %s "
+msgstr "%s Tuntematon tietue %s ISBD-tiedot nimekkeelle %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:42
 #, c-format
@@ -42084,7 +42084,7 @@ msgstr "Paikalliset kuvat eivät ole käytössä."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:41
 #, c-format
 msgid "Checkout history for %s"
-msgstr "Lainahistoria kohteelle %s"
+msgstr "Lainahistoria nimekkeelle %s"
 
 #. For the first occurrence,
 #. %1$s:  biblio.author | html
@@ -42461,7 +42461,7 @@ msgstr "Niteen tiedot"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:71
 #, c-format
 msgid "Item details for %s"
-msgstr "Tiedot niteelle %s"
+msgstr "Tiedot nimekkeelle %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:85
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step1.tt:66
