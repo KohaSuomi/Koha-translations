@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.02.000\n"
+"Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2025-07-26 03:05+0000\n"
+"PO-Revision-Date: 2025-10-04 03:04+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.13.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-POOTLE-MTIME: 1698392361.707486\n"
@@ -2220,7 +2220,7 @@ msgstr "<br><br>"
 
 # Cataloging > Display > MarcFieldDocURL
 msgid "cataloguing.pref#MarcFieldDocURL# <li><code>{FIELD}</code>: field number, for example, \"000\" or \"048\"</li>"
-msgstr "<li><code>{FIELD}</code>: kenttänumero, esimerkiksi, \"000\" tai \"048\"</li>"
+msgstr "<li><code>{FIELD}</code>: kentän numero, esimerkiksi, \"000\" tai \"048\"</li>"
 
 # Cataloging > Display > MarcFieldDocURL
 msgid "cataloguing.pref#MarcFieldDocURL# <li><code>{LANG}</code>: language, for example, \"en\" or \"fi-FI\"</li></ul>"
@@ -2236,26 +2236,26 @@ msgstr "<li>https://www.marc21.ca/MaJ/BIB/B{FIELD}.pdf</li></ul>"
 
 # Cataloging > Display > MarcFieldDocURL
 msgid "cataloguing.pref#MarcFieldDocURL# <ul><li><code>{MARC}</code>: MARC flavor, \"MARC21\" or \"UNIMARC\"</li>"
-msgstr "<ul><li><code>{MARC}</code>: MARC-formaatti \"MARC21\" tai \"UNIMARC\"</li>"
+msgstr "<ul><li><code>{MARC}</code>: MARC-muoto, \"MARC21\" tai \"UNIMARC\"</li>"
 
 # Cataloging > Display > MarcFieldDocURL
 msgid "cataloguing.pref#MarcFieldDocURL# <ul><li>MARC21: field-level pages at https://www.loc.gov/marc/bibliographic/</li>"
-msgstr "<ul><li>MARC21: kenttätasoiset sivut osoitteessa https://www.loc.gov/marc/bibliographic/</li>"
+msgstr "<ul><li>MARC21: kenttäkohtaiset sivut osoitteessa https://www.loc.gov/marc/bibliographic/</li>"
 
 # Cataloging > Display > MarcFieldDocURL
 # Cataloging > Display
 msgid "cataloguing.pref#MarcFieldDocURL# Examples:<ul><li>https://www.example.com/marcdocs?marc={MARC}&field={FIELD}&language={LANG}</li>"
-msgstr "Esimerkkejä:<ul><li>https://www.example.com/marcdocs?marc={MARC}&field={FIELD}&language={LANG}</li>"
+msgstr "Esimerkit:<ul><li>https://www.example.com/marcdocs?marc={MARC}&field={FIELD}&language={LANG}</li>"
 
 # Cataloging > Display > MarcFieldDocURL
 # Cataloging > Record structure
 msgid "cataloguing.pref#MarcFieldDocURL# If left empty, the default URLs are:"
-msgstr "Jos jätetään tyhjäksi, oletus URLit ovat:"
+msgstr "Jos tyhjä, oletus-URLit ovat:"
 
 # Cataloging > Display > MarcFieldDocURL
 # Cataloging > Record structure
 msgid "cataloguing.pref#MarcFieldDocURL# Placeholders available for use in the URL:"
-msgstr "Parametrit, joita voi käyttää URLissa:"
+msgstr "Käytettävissä olevat paikkamerkit URLissa käytettäväksi:"
 
 # Cataloging > Display > MarcFieldDocURL
 # Cataloging > Record structure
@@ -2999,7 +2999,7 @@ msgstr "Itsepalvelupalautus"
 
 # Circulation
 # Circulation > Self Checkout
-msgid "circulation.pref Self check-out module"
+msgid "circulation.pref Self-checkout module"
 msgstr "Itsepalvelulainaus"
 
 # Circulation
@@ -3043,8 +3043,8 @@ msgid "circulation.pref#AllFinesNeedOverride# Require"
 msgstr "Edellytä"
 
 # Circulation > Checkout policy > AllFinesNeedOverride
-msgid "circulation.pref#AllFinesNeedOverride# staff to manually override all fines, even fines less than set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> system preference. Enabling this system preference will block all checkouts for patrons with fines both via the web-based self checkout system and via SIP."
-msgstr "henkilökuntaa käsin kumota kaikkia maksuja, vaikka maksut olisivat vähemmän kuin <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> järjestelmäasetukssa. Tämän järjestelmäasetuksen ollessa käytössä asiakas, jolla on maksuja, ei voi lainata itsepalvelulainauksen tai automaatin kautta."
+msgid "circulation.pref#AllFinesNeedOverride# staff to manually override all fines, even fines less than set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> system preference. Enabling this system preference will block all checkouts for patrons with fines both via the web-based self-checkout system and via SIP."
+msgstr "henkilökuntaa käsin kumota kaikkia maksuja, vaikka maksut olisivat vähemmän kuin <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> -järjestelmäasetuksessa. Tämän järjestelmäasetuksen ollessa käytössä asiakas, jolla on maksuja, ei voi lainata itsepalvelulainauksen tai automaatin kautta."
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
@@ -3177,8 +3177,8 @@ msgstr "Älä salli"
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSCO
 # Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnHoldCheckoutSCO# checkouts of items reserved to someone else in the SCO module. If allowed do not generate RESERVE_WAITING and RESERVED warning. This allows self checkouts for those items."
-msgstr "muille varattujen niteiden lainaaminen itsepalvelulainauksessa. Jos sallitaan, älä generoi RESERVE_WAITING- ja RESERVED-ilmoituksia."
+msgid "circulation.pref#AllowItemsOnHoldCheckoutSCO# checkouts of items reserved to someone else in the SCO module. If allowed do not generate RESERVE_WAITING and RESERVED warning. This allows self-checkouts for those items."
+msgstr "muille varattujen niteiden lainaaminen itsepalvelulainauksessa. Jos sallitaan, älä generoi RESERVE_WAITING- ja RESERVED-ilmoituksia. Tämä sallii kyseisten niteiden lainaamisen itsepalvelulainauksessa."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
 # Circulation > Checkout policy
@@ -3197,8 +3197,8 @@ msgstr "Jos sallittu, älä generoi VARATTU-varoitusta."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
 # Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# This allows self checkouts for those items. If using the holds queue items with pending holds will be marked as \"unavailable\" if this set to \"Don't allow\"."
-msgstr "\"Salli\" sallii itsepalvelulainauksen noille niteille. Jos käytetään varausjonoa, odottavat varaukset merkitään \"ei saatavana\" jos tämä asetus on \"Älä salli\"."
+msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# This allows self-checkouts for those items. If using the holds queue items with pending holds will be marked as \"unavailable\" if this set to \"Don't allow\"."
+msgstr "\"Salli\" sallii automaatilla lainaamisen noille niteille. Jos käytetään varausjonoa, odottavat varaukset merkitään \"ei saatavana\" jos tämä asetus on \"Älä salli\"."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
 # Circulation > Checkout policy
@@ -3222,8 +3222,8 @@ msgstr "Jos sallittu, älä generoi LAINATTU TOISELLE-varoitusta."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
 # Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# This allows self checkouts for those items."
-msgstr "Tämä sallii niteiden itsepalvelulainauksen."
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# This allows self-checkouts for those items."
+msgstr "Tämä sallii niiden niteiden lainaamisen automaatilla."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
 # Circulation > Checkout policy
@@ -3668,8 +3668,8 @@ msgstr "ja tällä salasanalla"
 
 # Circulation > Self check-out module > AutoSelfCheckAllowed
 # Circulation > Self check-out module
-msgid "circulation.pref#AutoSelfCheckAllowed# the web-based self checkout system to automatically log in with this staff login"
-msgstr "itsepalvelulainauspalvelun kirjautua automaattisesti tällä virkailijatunnuksella"
+msgid "circulation.pref#AutoSelfCheckAllowed# the web-based self-checkout system to automatically log in with this staff login"
+msgstr "itsepalvelulainauksen kirjautua automaattisesti tällä virkailijatunnuksella"
 
 # Circulation > Interface > AutoSwitchPatron
 # Circulation > Interface
@@ -4046,8 +4046,8 @@ msgstr "Vahvista viivästetyt varaukset (jotka alkavat myöhemmin kuin"
 
 # Circulation > Holds policy > ConfirmFutureHolds
 # Circulation > Holds policy
-msgid "circulation.pref#ConfirmFutureHolds# days from now) at checkin time. Note that this number of days will be used too in calculating the default end date for the Holds to pull-report. But it does not interfere with issuing, renewing or transferring items."
-msgstr "päivää tästä päivästä) palautushetkellä. Huomaa, että tätä päivien määrää käytetään myös laskettaessa oletusloppumispäivämäärää Hyllyvaraukset-raportille. Mutta se ei vaikuta lainaukseen, uusintaan tai kuljetuksiin."
+msgid "circulation.pref#ConfirmFutureHolds# days from now) at checkin time. Note that this number of days is used in determining which holds are considered as 'current holds'. It also sets the default end date for the Holds to pull-report. It still does not interfere with renewing items."
+msgstr "päivää tästä päivästä) palautushetkellä. Huomaa, että tätä päivien määrää käytetään myös määrittämään, mitkä varaukset ovat voimassa. Se asettaa myös oletusloppumispäivämäärän Hyllyvaraukset-raportille. Mutta se ei vaikuta lainaukseen, uusintaan tai kuljetuksiin."
 
 # Circulation > Checkout policy > RentalFeesCheckoutConfirmation
 # Circulation > Checkout policy
@@ -5330,6 +5330,20 @@ msgstr "Älä tee varausta"
 msgid "circulation.pref#PlaceHoldsOnOrdersFromSuggestions# place a hold when ordering from a suggestion."
 msgstr "kun tilaus tehdään hankintaehdotuksen pohjalta."
 
+# Circulation > Checkin policy > BlockReturnOfWithdrawnItems
+# Circulation > Checkin policy
+msgid "circulation.pref#PreventWithdrawingItemsStatus# Checked out"
+msgstr "Lainassa"
+
+# Circulation > Checkin policy > BlockReturnOfWithdrawnItems
+# Circulation > Checkin policy
+msgid "circulation.pref#PreventWithdrawingItemsStatus# In-transit"
+msgstr "Kuljetettavana"
+
+# Circulation > Checkin policy > PreventWithdrawingItemsStatus
+msgid "circulation.pref#PreventWithdrawingItemsStatus# Prevent the ability to withdraw items with the following statuses:"
+msgstr "Estä niteen merkitseminen pois kierrosta -tilaan, kun niteellä on seuraavat tilat:"
+
 # Circulation > Checkout policy > PrintNoticesMaxLines
 # Circulation > Checkout policy
 msgid "circulation.pref#PrintNoticesMaxLines# Include up to"
@@ -5610,12 +5624,12 @@ msgstr "Älä salli"
 
 # Circulation > Self check-out module > SCOAllowCheckin
 # Circulation > Self check-out module
-msgid "circulation.pref#SCOAllowCheckin# patrons to return items through web-based self checkout system."
+msgid "circulation.pref#SCOAllowCheckin# patrons to return items through web-based self-checkout system."
 msgstr "asiakkaiden palauttaa itse aineistoa itsepalvelulainauksella."
 
 # Circulation > Batch checkout > BatchCheckoutsValidCategories
 # Circulation > Batch checkout
-msgid "circulation.pref#SCOBatchCheckoutsValidCategories# Patron categories allowed to check out in a batch while logged into the self checkout system:"
+msgid "circulation.pref#SCOBatchCheckoutsValidCategories# Patron categories allowed to check out in a batch while logged into the self-checkout system:"
 msgstr "Asiakastyypit, joille on sallittu erälainaus Kohan itsepalvelulainauksessa:"
 
 # Circulation > Interface > ShowAllCheckins
@@ -5630,17 +5644,17 @@ msgstr "Näytä"
 
 # Circulation > Self check-out module > ShowPatronImageInWebBasedSelfCheck
 # Circulation > Self check-out module
-msgid "circulation.pref#SCOLoadCheckoutsByDefault# the patron's list of current checkouts by default when they log in to the self checkout module."
+msgid "circulation.pref#SCOLoadCheckoutsByDefault# the patron's list of current checkouts by default when they log in to the self-checkout module."
 msgstr "asiakkaan lainat, kun he kirjautuvat itsepalveluun."
 
 # Circulation > Self check-out module > SCOUserCSS
 # Circulation > Self check-out module
-msgid "circulation.pref#SCOUserCSS# Include the following CSS on all pages in the web-based self checkout:"
+msgid "circulation.pref#SCOUserCSS# Include the following CSS on all pages in the web-based self-checkout:"
 msgstr "Käytä seuraavaa CSS:ää kaikilla sivuilla itsepalvelulainauksessa:"
 
 # Circulation > Self check-out module > SCOUserJS
 # Circulation > Self check-out module
-msgid "circulation.pref#SCOUserJS# Include the following JavaScript on all pages in the web-based self checkout:"
+msgid "circulation.pref#SCOUserJS# Include the following JavaScript on all pages in the web-based self-checkout:"
 msgstr "Käytä seuraavia JavaScript-komentoja kaikilla sivuilla itsepalvelulainauksessa:"
 
 # Circulation > Interface > AllowAllMessageDeletion
@@ -5775,12 +5789,12 @@ msgstr "Näytä"
 
 # Circulation > Self check-out module > SelfCheckReceiptPrompt
 # Circulation > Self check-out module
-msgid "circulation.pref#SelfCheckReceiptPrompt# the print receipt popup dialog when self checkout is finished."
+msgid "circulation.pref#SelfCheckReceiptPrompt# the print receipt popup dialog when self-checkout is finished."
 msgstr "kuittitulostuksen ponnahdusikkuna, kun itsepalvelulainaus lopetetaan."
 
 # Circulation > Self check-out module > SelfCheckTimeout
 # Circulation > Self check-out module
-msgid "circulation.pref#SelfCheckTimeout# Time out the current patron's web-based self checkout system login after"
+msgid "circulation.pref#SelfCheckTimeout# Time out the current patron's web-based self-checkout system login after"
 msgstr "Katkaise asiakkaan istunto itsepalvelulainauksessa"
 
 # Circulation > Self check-out module > SelfCheckTimeout
@@ -5794,7 +5808,7 @@ msgstr ".</br>HUOM: Jos käytetään 'kirjastokortin numeroa' ja AutoSelfCheckAl
 
 # Circulation > Self check-out module > SelfCheckoutByLogin
 # Circulation > Self check-out module
-msgid "circulation.pref#SelfCheckoutByLogin# Have patrons log into the web-based self checkout system with their"
+msgid "circulation.pref#SelfCheckoutByLogin# Have patrons log into the web-based self-checkout system with their"
 msgstr "Asiakkaat voivat kirjautua itsepalvelulainaukseen"
 
 # Circulation > Self check-out module > SelfCheckoutByLogin
@@ -5834,7 +5848,7 @@ msgstr "Näytä"
 
 # Circulation > Self check-out module > ShowPatronImageInWebBasedSelfCheck
 # Circulation > Self check-out module
-msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture (if one has been added) when they use the web-based self checkout."
+msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture (if one has been added) when they use the web-based self-checkout."
 msgstr "asiakkaan kuva(a) itsepalvelulainauksessa (jos tallennettu)."
 
 # Circulation > Item bundles > BundleNotLoanValue
@@ -6481,7 +6495,7 @@ msgstr "Mahdollista käyttäjille"
 
 # Circulation > Self check-out module > WebBasedSelfCheck
 # Circulation > Self check-out module
-msgid "circulation.pref#WebBasedSelfCheck# the web-based self checkout system (available at: /cgi-bin/koha/sco/sco-main.pl)."
+msgid "circulation.pref#WebBasedSelfCheck# the web-based self-checkout system (available at: /cgi-bin/koha/sco/sco-main.pl)."
 msgstr "itsepalvelulainaus (osoitteessa: /cgi-bin/koha/sco/sco-main.pl)."
 
 # Circulation > Fines Policy > WhenLostChargeReplacementFee
@@ -8591,6 +8605,20 @@ msgstr "Lokitettaessa tapahtumia varastoi pinojäljitystä (stack trace), joka o
 msgid "logs.pref#ActionLogsTraceDepth# levels deep."
 msgstr "tasoa."
 
+# Logging > Logging > NewsLog
+# Logging > Logging
+msgid "logs.pref#AdditionalContentLog#  changes to HTML customizations, news entries, pages, and other content managed in the additional content tools."
+msgstr "HTML-muokkauksiin, uutisiin, sivuihin ja muihin sisältöihin uutistyökalulla tehdyistä muutoksista."
+
+# Logging > Logging > AcquisitionLog
+# Logging > Logging
+msgid "logs.pref#AdditionalContentLog# Don't log"
+msgstr "Älä kerää lokia"
+
+# Tools > News > AdditionalContentsEditor
+msgid "logs.pref#AdditionalContentLog# Log"
+msgstr "Kerää lokia"
+
 # Logging > Logging > AuthFailureLog
 # Logging > Logging
 msgid "logs.pref#AuthFailureLog#  authentication failures."
@@ -8815,21 +8843,6 @@ msgstr "Kerää lokia"
 # Logging > Logging
 msgid "logs.pref#IssueLog# when items are checked out."
 msgstr "lainatuista niteistä."
-
-# Logging > Logging > NewsLog
-# Logging > Logging
-msgid "logs.pref#NewsLog#  changes to news entries and other contents managed in the news tool."
-msgstr "uutisin tehdyistä muutoksista sekä muihin uutistyökalulla tehdyistä muutoksista."
-
-# Logging > Logging > NewsLog
-# Logging > Logging
-msgid "logs.pref#NewsLog# Don't log"
-msgstr "Älä kerää lokia"
-
-# Logging > Logging > NewsLog
-# Logging > Logging
-msgid "logs.pref#NewsLog# Log"
-msgstr "Kerää lokia"
 
 # Logging > Logging > NoticesLog
 # Logging > Logging
@@ -9270,7 +9283,7 @@ msgstr "tilauksen tietoja verkkokirjaston perustiedot-näytöllä."
 
 # OPAC > Features > OPACAuthorIdentifiersAndInformation
 msgid "opac.pref#OPACAuthorIdentifiersAndInformation# <strong>NOTE:</strong> Identifiers for authors and contributors - valid codes to use in the source subfield (024$2) are currently: isni (ISNI), orcid (ORCID), scopus (ScopusID), loop (Loop ID), rid (Publons ID), viaf (VIAF ID), and wikidata (WIKIDATA ID)."
-msgstr "<strong>Huomioi:</strong> Tekijöiden ja muiden tekijöiden tunnisteet - osakentässä (024$2) käytettävät koodit ovat tällä hetkellä: isni (ISNI), orcid (ORCID), scopus (ScopusID), loop (Loop ID), rid (Publons ID), viaf (VIAF ID) ja wikidata (WIKIDATA ID)."
+msgstr "<strong>Huomioi:</strong> Tekijöiden ja muiden tekijöiden tunnisteet - osakentässä (024$2) käytettävät koodit ovat tällä hetkellä: isni (ISNI), orcid (ORCID), scopus (ScopusID), loop (Loop ID), rid (Publons ID), viaf (VIAF ID), ja wikidata (WIKIDATA ID)."
 
 # OPAC > Features > OPACAuthorIdentifiers
 # OPAC > Features
@@ -9373,7 +9386,7 @@ msgstr "Älä salli"
 
 # OPAC > Features > OPACDisableSendList
 msgid "opac.pref#OPACDisableSendList# OPAC users to email lists via a 'Send list' button."
-msgstr "verkkokirjaston käyttäjien lähettää listoja 'Lähetä lista' -napista."
+msgstr "verkkokirjaston käyttäjien lähettää listoja sähköpostilla \"Lähetä lista\" -napilla."
 
 # OPAC > Appearance > OPACDisplay856uAsImage
 # OPAC > Appearance
@@ -12730,8 +12743,8 @@ msgstr "vahvaa salasanaa henkilökunnalta ja asiakkailta"
 
 # Patrons > Membership expiry > MembershipExpiryDaysNotice
 # Patrons > General > LockExpiredDelay
-msgid "patrons.pref#RestrictPatronsWithFailedNotices# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/restrict_patrons_with_failed_notices.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>Huomioi:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/restrict_patrons_with_failed_notices.pl</code> -ajastetun ajon. Pyydä kehittäjiä ajastamaan se."
+msgid "patrons.pref#RestrictPatronsWithFailedNotices# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/restrict_patrons_with_failed_notices.pl</code> cronjob. Ask your system administrator to schedule it. When run, the cronjob restricts any patron with a failed email or SMS message in the preceding 7 days."
+msgstr "<br><strong>Huomioi:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/restrict_patrons_with_failed_notices.pl</code> -ajastetun ajon. Pyydä kehittäjiä ajastamaan se. Ajettaessa ajo lisää rajoituksen kaikille asiakkaille, joilla on epäonnistunut sähköpostin tai sms-viestin lähetys edellisen seitsemän päivän aikana."
 
 # Patrons > General > patronimages
 # Patrons > General
@@ -12854,6 +12867,11 @@ msgstr "Asiakasta luodessa"
 # Patrons > General
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Logging in"
 msgstr "Kirjauduttaessa"
+
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Patron authentication via API"
+msgstr "Asiakkaan autentikoituessa APIn kautta"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
@@ -13097,10 +13115,14 @@ msgstr ","
 msgid "searching.pref#AuthorLinkSortBy# ."
 msgstr "."
 
+# Searching > Results display > AuthorLinkSortBy
+msgid "searching.pref#AuthorLinkSortBy# <br /><strong>NOTE:</strong> If you are using custom XSLT you need to make sure the system preference check is implemented."
+msgstr "<br /><strong>Huomioi:</strong> Jos käytössä on räätälöity XSLT, täytyy varmistaa, että toimitaan järjestelmäasetuksen mukaisesti."
+
 # Searching > Results display > defaultSortField
 # Searching > Results display
-msgid "searching.pref#AuthorLinkSortBy# By default, sort search results from author links in MARC21 detail pages and result lists by"
-msgstr "Tekijälinkkien hakutulosten oletusjärjestys on"
+msgid "searching.pref#AuthorLinkSortBy# By default, sort search results from author links in detail pages and result lists by"
+msgstr "Tekijälinkkien hakutulosten oletusjärjestys perustiedot-näytöllä ja hakutuloslistalla on"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
@@ -14291,6 +14313,20 @@ msgstr "Näytä"
 msgid "staff_interface.pref#DisplayIconsXSLT# the format, audience, and material type icons and descriptions in XSLT MARC21 results and detail pages in the staff interface."
 msgstr "muodon, kohdeyleisön ja aineistotyyppien kuvakkeet ja kuvaukset XSLT MARC21 -tuloksissa ja perustiedot-näytöllä virkailijaliittymässä."
 
+# Staff interface > Options > intranetbookbag
+# Staff interface > Options
+msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# Do"
+msgstr "Näytä"
+
+# Staff interface > Options > intranetbookbag
+# Staff interface > Options
+msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# Don't"
+msgstr "Älä näytä"
+
+# Staff interface > Options > FilterSearchResultsByLoggedInBranch
+msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# add a filter to the location column on staff interface search results to filter items by the logged in user branch."
+msgstr "hakutuloslistalla Sijainti-sarakkeen yläpuolella nappi, jolla voi suodattaa näkyville vain kirjautumiskirjaston niteet."
+
 # Staff interface > Options > HidePatronName
 # Staff interface > Options
 msgid "staff_interface.pref#HidePatronName# Don't show"
@@ -14355,11 +14391,6 @@ msgstr "virkailijaliittymän suosikkikuvakkeena (favicon). (Anna täydellinen UR
 # Staff interface > Appearance
 msgid "staff_interface.pref#IntranetNav# Show the following HTML to the left of the More menu at the top of each page on the staff interface (should be a list of links or blank):"
 msgstr "Näytä seuraava HTML-koodi virkailijaliittymän Muita toimintoja -valikon oikealla puolella (yleensä linkkilista tai tyhjä, jos ei käytössä):"
-
-# Staff interface > Appearance > IntranetReportsHomeHTML
-# Staff interface > Appearance
-msgid "staff_interface.pref#IntranetReportsHomeHTML# Show the following HTML in its own div on the bottom of the home page of the reports module:"
-msgstr "Näytä seuraava HTML-koodi omassa osiossansa Raportit-moduulin aloitussivun alareunassa:"
 
 # Staff interface > Appearance > IntranetSlipPrinterJS
 # Staff interface > Appearance
@@ -16361,6 +16392,16 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 #~ msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=DumpTemplateVars\">DumpTemplateVars</a>[interface] to be visible."
 #~ msgstr "hakulauseketta sivupohjan parametriksi, vaatii <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=DumpTemplateVars\">DumpTemplateVars</a>[käyttöliittymä] näkyäkseen."
 
+# Logging > Logging > NewsLog
+# Logging > Logging
+#~ msgid "logs.pref#NewsLog# Don't log"
+#~ msgstr "Älä kerää lokia"
+
+# Logging > Logging > NewsLog
+# Logging > Logging
+#~ msgid "logs.pref#NewsLog# Log"
+#~ msgstr "Kerää lokia"
+
 # OPAC > Policy > BlockExpiredPatronOpacActions
 # OPAC > Policy
 #~ msgid "opac.pref#BlockExpiredPatronOpacActions# Don't block"
@@ -16462,6 +16503,11 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 # Serials
 #~ msgid "serials.pref#RoutingSerials# the routing list feature in the serials module."
 #~ msgstr "kiertolistaominaisuutta kausijulkaisuissa."
+
+# Staff interface > Appearance > IntranetReportsHomeHTML
+# Staff interface > Appearance
+#~ msgid "staff_interface.pref#IntranetReportsHomeHTML# Show the following HTML in its own div on the bottom of the home page of the reports module:"
+#~ msgstr "Näytä seuraava HTML-koodi omassa osiossansa Raportit-moduulin aloitussivun alareunassa:"
 
 # Staff interface > Appearance > IntranetmainUserblock
 # Staff interface > Appearance
