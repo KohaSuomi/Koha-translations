@@ -1,7 +1,7 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.02.000\n"
+"Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
 "PO-Revision-Date: 2025-05-23 12:40+0000\n"
@@ -2980,7 +2980,8 @@ msgstr "Självbetjäningsmodulen"
 
 # Circulation
 # Circulation > Self check-out module
-msgid "circulation.pref Self check-out module"
+#, fuzzy
+msgid "circulation.pref Self-checkout module"
 msgstr "Självutcheckningsmodul"
 
 # Circulation
@@ -3024,7 +3025,8 @@ msgid "circulation.pref#AllFinesNeedOverride# Require"
 msgstr "Kräv"
 
 # Circulation > Checkout policy > AllFinesNeedOverride
-msgid "circulation.pref#AllFinesNeedOverride# staff to manually override all fines, even fines less than set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> system preference. Enabling this system preference will block all checkouts for patrons with fines both via the web-based self checkout system and via SIP."
+#, fuzzy
+msgid "circulation.pref#AllFinesNeedOverride# staff to manually override all fines, even fines less than set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> system preference. Enabling this system preference will block all checkouts for patrons with fines both via the web-based self-checkout system and via SIP."
 msgstr "att personal manuellt åsidosätter alla avgifter, även avgifter som är mindre än vad som anges i systeminställningen <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a>. Aktivering av denna systeminställning kommer att blockera alla lån för låntagare med avgifter både via den webbaserade självbetjäningen och via SIP."
 
 # Circulation > Interface > AllowAllMessageDeletion
@@ -3159,7 +3161,8 @@ msgstr "Tillåt inte"
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSCO
 # Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnHoldCheckoutSCO# checkouts of items reserved to someone else in the SCO module. If allowed do not generate RESERVE_WAITING and RESERVED warning. This allows self checkouts for those items."
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnHoldCheckoutSCO# checkouts of items reserved to someone else in the SCO module. If allowed do not generate RESERVE_WAITING and RESERVED warning. This allows self-checkouts for those items."
 msgstr "utlån av exemplar reserverade till någon annan i SCO-modulen. Om utlån tillåts, genera inte varningsmeddelandena RESERVE_WAITING och RESERVED. Det tillåter utlån av dessa exemplar."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
@@ -3178,7 +3181,8 @@ msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# If allowed do not generate 
 msgstr "Om tillåtet, generera ingen RESERVED-varning."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
-msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# This allows self checkouts for those items. If using the holds queue items with pending holds will be marked as \"unavailable\" if this set to \"Don't allow\"."
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnHoldCheckoutSIP# This allows self-checkouts for those items. If using the holds queue items with pending holds will be marked as \"unavailable\" if this set to \"Don't allow\"."
 msgstr "Detta tillåter självutlåning för dessa exemplar. Om du använder reservationskön kommer exemplar med väntande reservation att markeras som \"inte tillgänglig\" om detta är inställt på \"Tillåt inte\"."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
@@ -3203,7 +3207,8 @@ msgstr "Om tillåtet, generera inte varningen ISSUED_TO_ANOTHER."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
 # Circulation > Checkout policy
-msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# This allows self checkouts for those items."
+#, fuzzy
+msgid "circulation.pref#AllowItemsOnLoanCheckoutSIP# This allows self-checkouts for those items."
 msgstr "Detta tillåter självutlån av dessa exemplar."
 
 # Circulation > Checkout policy > AllowItemsOnHoldCheckoutSIP
@@ -3649,7 +3654,8 @@ msgstr "och detta lösenord"
 
 # Circulation > Self check-out module > AutoSelfCheckAllowed
 # Circulation > Self check-out module
-msgid "circulation.pref#AutoSelfCheckAllowed# the web-based self checkout system to automatically log in with this staff login"
+#, fuzzy
+msgid "circulation.pref#AutoSelfCheckAllowed# the web-based self-checkout system to automatically log in with this staff login"
 msgstr "det webbaserade självbetjäningssystemet att automatiskt logga in med denna personalinloggning"
 
 # Circulation > Interface > AutoSwitchPatron
@@ -4029,7 +4035,8 @@ msgstr "Bekräfta framtida reservationer (med start senast"
 
 # Circulation > Holds policy > ConfirmFutureHolds
 # Circulation > Holds Policy
-msgid "circulation.pref#ConfirmFutureHolds# days from now) at checkin time. Note that this number of days will be used too in calculating the default end date for the Holds to pull-report. But it does not interfere with issuing, renewing or transferring items."
+#, fuzzy
+msgid "circulation.pref#ConfirmFutureHolds# days from now) at checkin time. Note that this number of days is used in determining which holds are considered as 'current holds'. It also sets the default end date for the Holds to pull-report. It still does not interfere with renewing items."
 msgstr "dagar från nu) vid återlämning. Detta antal dagar kommer även att användas för att beräkna normalt slutdatum för rapporten Plocklista. Men det påverkar inte utlån, omlån eller överföring av böcker."
 
 # Circulation > Checkout policy > RentalFeesCheckoutConfirmation
@@ -5312,6 +5319,22 @@ msgstr "Lägg inte"
 msgid "circulation.pref#PlaceHoldsOnOrdersFromSuggestions# place a hold when ordering from a suggestion."
 msgstr "en reservation vid beställning baserad på inköpsförslag."
 
+# Circulation > Checkin policy > BlockReturnOfWithdrawnItems
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#PreventWithdrawingItemsStatus# Checked out"
+msgstr "Blockera"
+
+# Circulation > Checkin policy > BlockReturnOfWithdrawnItems
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#PreventWithdrawingItemsStatus# In-transit"
+msgstr "Blockera inte"
+
+# Circulation > Checkin policy > PreventWithdrawingItemsStatus
+msgid "circulation.pref#PreventWithdrawingItemsStatus# Prevent the ability to withdraw items with the following statuses:"
+msgstr ""
+
 # Circulation > Checkout policy > PrintNoticesMaxLines
 # Circulation > Checkout policy
 msgid "circulation.pref#PrintNoticesMaxLines# Include up to"
@@ -5591,12 +5614,14 @@ msgstr "Tillåt inte"
 
 # Circulation > Self check-out module > SCOAllowCheckin
 # Circulation > Self check-out module
-msgid "circulation.pref#SCOAllowCheckin# patrons to return items through web-based self checkout system."
+#, fuzzy
+msgid "circulation.pref#SCOAllowCheckin# patrons to return items through web-based self-checkout system."
 msgstr "låntagare att återlämna exemplar via det webbaserade självutlåningssystemet."
 
 # Circulation > Batch checkout > BatchCheckoutsValidCategories
 # Circulation > Batch checkout
-msgid "circulation.pref#SCOBatchCheckoutsValidCategories# Patron categories allowed to check out in a batch while logged into the self checkout system:"
+#, fuzzy
+msgid "circulation.pref#SCOBatchCheckoutsValidCategories# Patron categories allowed to check out in a batch while logged into the self-checkout system:"
 msgstr "Låntagarkategorier som får låna satsvis när de är inloggade i självbetjäningssystemet:"
 
 # Circulation > Interface > ShowAllCheckins
@@ -5611,17 +5636,20 @@ msgstr "Visa"
 
 # Circulation > Self check-out module > ShowPatronImageInWebBasedSelfCheck
 # Circulation > Self check-out module
-msgid "circulation.pref#SCOLoadCheckoutsByDefault# the patron's list of current checkouts by default when they log in to the self checkout module."
+#, fuzzy
+msgid "circulation.pref#SCOLoadCheckoutsByDefault# the patron's list of current checkouts by default when they log in to the self-checkout module."
 msgstr "låntagarens bild (om en sådan lagts till) när de använder den webbaserade självutlåningen."
 
 # Circulation > Self check-out module > SCOUserCSS
 # Circulation > Self check-out module
-msgid "circulation.pref#SCOUserCSS# Include the following CSS on all pages in the web-based self checkout:"
+#, fuzzy
+msgid "circulation.pref#SCOUserCSS# Include the following CSS on all pages in the web-based self-checkout:"
 msgstr "Inkludera följande CSS på alla sidor i den webbaserade självutlåningen:"
 
 # Circulation > Self check-out module > SCOUserJS
 # Circulation > Self check-out module
-msgid "circulation.pref#SCOUserJS# Include the following JavaScript on all pages in the web-based self checkout:"
+#, fuzzy
+msgid "circulation.pref#SCOUserJS# Include the following JavaScript on all pages in the web-based self-checkout:"
 msgstr "Inkludera följande JavaScript på alla sidor i den webbaserade självutlåningen:"
 
 # Circulation > Interface > AllowAllMessageDeletion
@@ -5756,12 +5784,14 @@ msgstr "Visa"
 
 # Circulation > Self check-out module > SelfCheckReceiptPrompt
 # Circulation > Self check-out module
-msgid "circulation.pref#SelfCheckReceiptPrompt# the print receipt popup dialog when self checkout is finished."
+#, fuzzy
+msgid "circulation.pref#SelfCheckReceiptPrompt# the print receipt popup dialog when self-checkout is finished."
 msgstr "popup-rutan för kvittoutskrift när självutlåning slutförts."
 
 # Circulation > Self check-out module > SelfCheckTimeout
 # Circulation > Self check-out module
-msgid "circulation.pref#SelfCheckTimeout# Time out the current patron's web-based self checkout system login after"
+#, fuzzy
+msgid "circulation.pref#SelfCheckTimeout# Time out the current patron's web-based self-checkout system login after"
 msgstr "Ställ in timeouten för den aktuella låntagarens inloggning i det webbaserade självlånesystemet till"
 
 # Circulation > Self check-out module > SelfCheckTimeout
@@ -5775,7 +5805,8 @@ msgstr ".</br>OBS: Om du använder 'cardnumber' och AutoSelfCheckAllowed bör du
 
 # Circulation > Self check-out module > SelfCheckoutByLogin
 # Circulation > Self check-out module
-msgid "circulation.pref#SelfCheckoutByLogin# Have patrons log into the web-based self checkout system with their"
+#, fuzzy
+msgid "circulation.pref#SelfCheckoutByLogin# Have patrons log into the web-based self-checkout system with their"
 msgstr "Låt låntagare logga in i det webbaserade självlånesystemet med sina"
 
 # Circulation > Self check-out module > SelfCheckoutByLogin
@@ -5815,7 +5846,8 @@ msgstr "Visa"
 
 # Circulation > Self check-out module > ShowPatronImageInWebBasedSelfCheck
 # Circulation > Self check-out module
-msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture (if one has been added) when they use the web-based self checkout."
+#, fuzzy
+msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture (if one has been added) when they use the web-based self-checkout."
 msgstr "låntagarens bild (om en sådan lagts till) när de använder den webbaserade självutlåningen."
 
 # Circulation > Item bundles > BundleNotLoanValue
@@ -6467,7 +6499,8 @@ msgstr "Aktivera"
 
 # Circulation > Self check-out module > WebBasedSelfCheck
 # Circulation > Self Checkout
-msgid "circulation.pref#WebBasedSelfCheck# the web-based self checkout system (available at: /cgi-bin/koha/sco/sco-main.pl)."
+#, fuzzy
+msgid "circulation.pref#WebBasedSelfCheck# the web-based self-checkout system (available at: /cgi-bin/koha/sco/sco-main.pl)."
 msgstr "det webbaserade självutlåningssystemet (finns här: /cgi-bin/koha/sco/sco-main.pl)."
 
 # Circulation > Fines Policy > WhenLostChargeReplacementFee
@@ -8566,6 +8599,23 @@ msgstr "När åtgärder loggas, lagra en stackspårning som går högst"
 msgid "logs.pref#ActionLogsTraceDepth# levels deep."
 msgstr "nivåer ned."
 
+# Logging > Logging > NewsLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#AdditionalContentLog#  changes to HTML customizations, news entries, pages, and other content managed in the additional content tools."
+msgstr "när nyheter eller annat innehåll som hanteras i Verktyg › Nyheter ändras."
+
+# Logging > Logging > AcquisitionLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#AdditionalContentLog# Don't log"
+msgstr "Logga inte"
+
+# Tools > News > AdditionalContentsEditor
+#, fuzzy
+msgid "logs.pref#AdditionalContentLog# Log"
+msgstr "."
+
 # Logging > Logging > AuthFailureLog
 # Logging > Logging
 msgid "logs.pref#AuthFailureLog#  authentication failures."
@@ -8790,21 +8840,6 @@ msgstr "Logga"
 # Logging > Logging
 msgid "logs.pref#IssueLog# when items are checked out."
 msgstr "när exemplar lånas ut."
-
-# Logging > Logging > NewsLog
-# Logging > Logging
-msgid "logs.pref#NewsLog#  changes to news entries and other contents managed in the news tool."
-msgstr "när nyheter eller annat innehåll som hanteras i Verktyg › Nyheter ändras."
-
-# Logging > Logging > NewsLog
-# Logging > Logging
-msgid "logs.pref#NewsLog# Don't log"
-msgstr "Logga inte"
-
-# Logging > Logging > NewsLog
-# Logging > Logging
-msgid "logs.pref#NewsLog# Log"
-msgstr "Logga"
 
 # Logging > Logging > NoticesLog
 # Logging > Logging
@@ -12745,7 +12780,8 @@ msgstr "ett starkt lösenord för personal och låntagare"
 
 # Patrons > Membership expiry > MembershipExpiryDaysNotice
 # Cataloging > Record Structure
-msgid "patrons.pref#RestrictPatronsWithFailedNotices# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/restrict_patrons_with_failed_notices.pl</code> cronjob. Ask your system administrator to schedule it."
+#, fuzzy
+msgid "patrons.pref#RestrictPatronsWithFailedNotices# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/restrict_patrons_with_failed_notices.pl</code> cronjob. Ask your system administrator to schedule it. When run, the cronjob restricts any patron with a failed email or SMS message in the preceding 7 days."
 msgstr "<br><strong>OBS:</strong> Denna systeminställning kräver cronjobbet <code>misc/cronjobs/restrict_patrons_with_failed_notices.pl</code>. Be din systemadministratör att schemalägga det."
 
 # Patrons > General > patronimages
@@ -12869,6 +12905,12 @@ msgstr "Omlån"
 # Patrons > General
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Logging in"
 msgstr "Inloggning"
+
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
+#, fuzzy
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Patron authentication via API"
+msgstr "Omlån"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
@@ -13110,9 +13152,14 @@ msgstr ","
 msgid "searching.pref#AuthorLinkSortBy# ."
 msgstr "."
 
+# Searching > Results display > AuthorLinkSortBy
+msgid "searching.pref#AuthorLinkSortBy# <br /><strong>NOTE:</strong> If you are using custom XSLT you need to make sure the system preference check is implemented."
+msgstr ""
+
 # Searching > Results display > defaultSortField
 # Searching > Results display
-msgid "searching.pref#AuthorLinkSortBy# By default, sort search results from author links in MARC21 detail pages and result lists by"
+#, fuzzy
+msgid "searching.pref#AuthorLinkSortBy# By default, sort search results from author links in detail pages and result lists by"
 msgstr "Sortera som standard sökresultat från författarlänkar i formatet MARC21 i personalgränssnittet enligt"
 
 # Searching > Results display > defaultSortField
@@ -14305,6 +14352,22 @@ msgstr "Visa"
 msgid "staff_interface.pref#DisplayIconsXSLT# the format, audience, and material type icons and descriptions in XSLT MARC21 results and detail pages in the staff interface."
 msgstr "ikonerna för format, målgrupp och materialtyp i XSLT MARC21-resultaten och i detaljsidorna i personalklienten."
 
+# Staff interface > Options > intranetbookbag
+# Staff interface > Options
+#, fuzzy
+msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# Do"
+msgstr "Visa"
+
+# Staff interface > Options > intranetbookbag
+# Staff interface > Options
+#, fuzzy
+msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# Don't"
+msgstr "Visa inte"
+
+# Staff interface > Options > FilterSearchResultsByLoggedInBranch
+msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# add a filter to the location column on staff interface search results to filter items by the logged in user branch."
+msgstr ""
+
 # Staff interface > Options > HidePatronName
 # Staff interface > Options
 msgid "staff_interface.pref#HidePatronName# Don't show"
@@ -14369,11 +14432,6 @@ msgstr "som personalklientens favicon. (Detta bör vara en komplett URL, som bö
 # Staff interface > Appearance
 msgid "staff_interface.pref#IntranetNav# Show the following HTML to the left of the More menu at the top of each page on the staff interface (should be a list of links or blank):"
 msgstr "Visa följande HTML till vänster om menyn Mer längst upp i varje sida på personalklienten (ska vara en lista med länkar eller tom):"
-
-# Staff interface > Appearance > IntranetReportsHomeHTML
-# Staff interface > Appearance
-msgid "staff_interface.pref#IntranetReportsHomeHTML# Show the following HTML in its own div on the bottom of the home page of the reports module:"
-msgstr "Visa följande HTML i sin egen div längst ner på sidan bland Rapporter:"
 
 # Staff interface > Appearance > IntranetSlipPrinterJS
 # Staff interface > Appearance
@@ -16371,6 +16429,16 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 #~ msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=DumpTemplateVars\">DumpTemplateVars</a>[interface] to be visible."
 #~ msgstr "Kräver att <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OPACPatronDetails\">OPACPatronDetails</a> är aktiverat."
 
+# Logging > Logging > NewsLog
+# Logging > Logging
+#~ msgid "logs.pref#NewsLog# Don't log"
+#~ msgstr "Logga inte"
+
+# Logging > Logging > NewsLog
+# Logging > Logging
+#~ msgid "logs.pref#NewsLog# Log"
+#~ msgstr "Logga"
+
 # OPAC > Policy > BlockExpiredPatronOpacActions
 # OPAC > Policy
 #~ msgid "opac.pref#BlockExpiredPatronOpacActions# Don't block"
@@ -16472,6 +16540,11 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 # Serials
 #~ msgid "serials.pref#RoutingSerials# the routing list feature in the serials module."
 #~ msgstr "funktionen för mottagarlista i periodikamodulen."
+
+# Staff interface > Appearance > IntranetReportsHomeHTML
+# Staff interface > Appearance
+#~ msgid "staff_interface.pref#IntranetReportsHomeHTML# Show the following HTML in its own div on the bottom of the home page of the reports module:"
+#~ msgstr "Visa följande HTML i sin egen div längst ner på sidan bland Rapporter:"
 
 # Staff interface > Appearance > IntranetmainUserblock
 # Staff interface > Appearance
