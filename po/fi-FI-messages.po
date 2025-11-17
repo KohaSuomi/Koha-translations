@@ -1,9 +1,9 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.04.000\n"
+"Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 03:05+0000\n"
+"POT-Creation-Date: 2025-11-04 03:06+0000\n"
 "PO-Revision-Date: 2025-10-04 03:04+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1951,19 +1951,19 @@ msgstr "Selitys"
 
 #: Koha/Database/Columns.pm:166
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:49
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:918
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:929
 msgid "Primary email"
 msgstr "Sähköposti"
 
 #: Koha/Database/Columns.pm:167
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:57
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:920
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:931
 msgid "Secondary email"
 msgstr "Toissijainen sähköpostiosoite"
 
 #: Koha/Database/Columns.pm:168
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:55
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:922
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:933
 msgid "Fax"
 msgstr "Faksi"
 
@@ -2008,7 +2008,7 @@ msgid "Middle name"
 msgstr "Toinen nimi"
 
 #: Koha/Database/Columns.pm:178
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:916
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:927
 msgid "Other phone"
 msgstr "Muu puhelin"
 
@@ -2036,13 +2036,13 @@ msgstr "Salasana"
 
 #: Koha/Database/Columns.pm:184
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:51
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:912
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:923
 msgid "Primary phone"
 msgstr "Puhelinnumero"
 
 #: Koha/Database/Columns.pm:185
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:59
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:914
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:925
 msgid "Secondary phone"
 msgstr "Toissijainen puh.nro"
 
@@ -2371,7 +2371,7 @@ msgstr "Meedio"
 
 #: Koha/Database/Columns.pm:267 Koha/Database/Columns.pm:297
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:878
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:889
 msgid "Notes"
 msgstr "Huomautukset"
 
@@ -4178,50 +4178,50 @@ msgstr "Vain nide {barcode}"
 msgid "Only item [No barcode]"
 msgstr "Vain nide [Ei viivakoodia]"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:365
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:361
 msgid "Item is checked out"
 msgstr "Nide on lainassa"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:367
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:363
 msgid "Item does not belong to your library"
 msgstr "Nide ei kuulu kirjastoosi"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:369
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:365
 msgid "Item has a waiting hold"
 msgstr "Niteeseen on odottava varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:371
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:367
 msgid "Item has linked analytics"
 msgstr "Niteestä on analyyttisia tietoja"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:373
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:369
 msgid "Last item for bibliographic record with biblio-level hold on it"
 msgstr "Viimeinen nide nimeketietueelle, jossa on nimeketason varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:375
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:371
 msgid "Unknown reason"
 msgstr "Tuntematon syy"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:394
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:390
 #, perl-brace-format
 msgid "Holds on this item: {item_holds} / Total holds on this record: {total_holds}"
 msgstr "Varauksia tähän niteeseen: {item_holds} / Varauksia tähän tietueeseen: {total_holds}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:396
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:392
 #, perl-brace-format
 msgid "No holds on this item / Total holds on this record: {total_holds}"
 msgstr "Tähän niteeseen ei ole varauksia / Varauksia yhteensä tähän tietueeseen: {total_holds}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:400
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:396
 #, perl-brace-format
 msgid "Holds on this record: {total_holds}"
 msgstr "Varauksia tähän tietueeseen: {total_holds}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:402
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:398
 msgid "No holds on this record"
 msgstr "Ei varauksia tähän tietueeseen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:709
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:705
 msgid "OK"
 msgstr "OK"
 
@@ -5104,19 +5104,19 @@ msgstr "Tilaa välivarastoituja MARC-tietueita"
 msgid "Basket {basketname} ({basketnumber}) for {vendor}"
 msgstr "Tilauskori {basketname} ({basketnumber}) toimittajalle {vendor}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:342
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:368
 msgctxt "basket created by"
 msgid "Created by:"
 msgstr "Luonut:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:404
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:430
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:283
 msgctxt "Acquisitions basket managed by user"
 msgid "Managed by:"
 msgstr "Käsittelijä:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:567
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:873
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:593
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:899
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/ordered.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:270
@@ -5129,13 +5129,13 @@ msgctxt "noun"
 msgid "Order"
 msgstr "Tilaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:811
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:837
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersuggestion.tt:103
 msgctxt "verb"
 msgid "Link suggestion"
 msgstr "Liitä hankintaehdotus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:1346
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:1379
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:797
 msgid "Add user"
 msgstr "Lisää käyttäjä"
@@ -5236,7 +5236,7 @@ msgstr "Lasku"
 msgid "Are you sure you want to delete this invoice?"
 msgstr "Haluatko varmasti poistaa tämän laskun?"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:240
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:237
 msgid "Are you sure you want to delete this adjustment?"
 msgstr "Haluatko varmasti poistaa tämän oikaisun?"
 
@@ -5307,6 +5307,7 @@ msgid "Receipt summary for {vendor}"
 msgstr "Vastaanoton yhteenveto toimittajalle {vendor}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:293
+#, perl-brace-format
 msgid "{budget_description} (Inactive)"
 msgstr "{budget_description} (Suljettu)"
 
@@ -6894,7 +6895,7 @@ msgstr "Muokataan nimekettä {title} (Record number {biblionumber})"
 msgid "Add MARC record"
 msgstr "Lisää MARC-tietue"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:787
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:788
 msgctxt "Editing MARC record titled:"
 msgid "Editing"
 msgstr "Muokataan"
@@ -7387,7 +7388,7 @@ msgstr "Lainahuomautukset"
 msgid "Checking out to {patron}"
 msgstr "Lainataan asiakkaalle {patron}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:968
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:963
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:166
 #, perl-brace-format
 msgid "Bundle of {count} item"
@@ -7494,51 +7495,51 @@ msgstr "Varauksia per nide"
 msgid "Check in {title}"
 msgstr "Palauta {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:862
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:873
 msgid "Confirm hold and transfer"
 msgstr "Vahvista varaus ja kuljetus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:863
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:874
 msgid "Print slip, transfer, and confirm"
 msgstr "Tulosta kuitti, kuljeta ja vahvista"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:865
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:876
 msgid "Confirm hold"
 msgstr "Vahvista varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:866
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:877
 msgid "Print slip and confirm"
 msgstr "Tulosta kuitti ja vahvista"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:872
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:883
 msgid "Hold found"
 msgstr "Teoksessa varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:872
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:883
 msgid "Ignore"
 msgstr "Älä huomioi"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:882
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:893
 msgid "Hold for"
 msgstr "Varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:909
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:920
 msgid "Main contact method"
 msgstr "Ensisijainen yhteydenottotapa"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:929
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:940
 msgid "Patron is RESTRICTED"
 msgstr "Asiakkaalla on rajoite"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:933
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:944
 msgid "Patron's address is in doubt"
 msgstr "Tarkista asiakkaan osoite"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:937
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:948
 msgid "Transfer to"
 msgstr "Kuljeta pisteeseen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:939
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:950
 msgid "Hold at"
 msgstr "Varaus"
 
@@ -9735,39 +9736,39 @@ msgstr "Hakuhistoriasi"
 msgid "{renewals_left} of {renewals_allowed} renewals remaining"
 msgstr "{renewals_left} / {renewals_allowed} uusintakertaa jäljellä"
 
-#: tools/inventory.pl:449
+#: tools/inventory.pl:455
 msgid "Problem"
 msgstr "Ongelma"
 
-#: tools/inventory.pl:464
+#: tools/inventory.pl:470
 msgid "wrong place"
 msgstr "väärä paikka"
 
-#: tools/inventory.pl:466
+#: tools/inventory.pl:472
 msgid "unselected notforloan status"
 msgstr "valitsematon ei lainattavissa -tila"
 
-#: tools/inventory.pl:468
+#: tools/inventory.pl:474
 msgid "missing"
 msgstr "puuttuu"
 
-#: tools/inventory.pl:470
+#: tools/inventory.pl:476
 msgid "no barcode"
 msgstr "ei viivakoodia"
 
-#: tools/inventory.pl:472
+#: tools/inventory.pl:478
 msgid "checked out"
 msgstr "lainassa"
 
-#: tools/inventory.pl:474
+#: tools/inventory.pl:480
 msgid "shelved out of order"
 msgstr "hyllytetty väärään paikkaan"
 
-#: tools/inventory.pl:476
+#: tools/inventory.pl:482
 msgid "item was lost"
 msgstr "nide oli kadonnut"
 
-#: tools/inventory.pl:491
+#: tools/inventory.pl:497
 msgid "barcode not found"
 msgstr "viivakoodia ei löytynyt"
 

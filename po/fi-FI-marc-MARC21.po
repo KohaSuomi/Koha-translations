@@ -1,18 +1,18 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.04.000\n"
+"Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-26 03:05+0000\n"
-"PO-Revision-Date: 2025-10-04 03:04+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
+"PO-Revision-Date: 2025-10-16 03:05+0000\n"
+"Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Weblate 5.13.3\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-marc-MARC21.po\n"
 "X-POOTLE-MTIME: 1691473713.814600\n"
@@ -18367,7 +18367,7 @@ msgstr "avxyz"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:869
 #, c-format
 msgid "(index-term-genre"
-msgstr "(hakutermi-lajityyppi"
+msgstr "(index-term-genre"
 
 # index-term-genre-sana osoitteessa on indeksin nimi, joten sitä ei saa suomentaa, jotta linkin kautta tehtävä haku toimii.
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:756
@@ -19889,7 +19889,7 @@ msgstr "Huomaa: Merkkijonossa on epäkelpo merkki. Sen tilalla käytetään kysy
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slimUtils.xsl:70
 #, c-format
 msgid "newline"
-msgstr "Uusi rivi"
+msgstr "newline"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl:98
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slimUtils.xsl:110

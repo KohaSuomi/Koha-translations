@@ -1,9 +1,9 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.04.000\n"
+"Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 03:05+0000\n"
+"POT-Creation-Date: 2025-11-04 03:05+0000\n"
 "PO-Revision-Date: 2025-10-03 03:05+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -341,7 +341,7 @@ msgstr "Tuodaan kuvailupohjaan: %s. Tuodaan tiedostosta: %s."
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:146
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:151
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:13
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:459
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:458
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:14
 msgid "Previous"
 msgstr "Edellinen"
@@ -349,7 +349,7 @@ msgstr "Edellinen"
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:160
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:165
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:12
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:460
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:459
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:13
 msgid "Next"
 msgstr "Seuraava"
@@ -606,7 +606,7 @@ msgstr "(valitse luodaksesi)"
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Jokin meni pieleen. Ehkä arvo on jo olemassa?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:223
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:221
 msgid "Template name is required."
 msgstr "Pohja on nimettävä."
 
@@ -893,21 +893,21 @@ msgid "Copied to clipboard"
 msgstr "Kopioitu leikepöydälle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:10
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:458
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:457
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:11
 msgid "First"
 msgstr "Ensimmäinen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:11
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:461
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:460
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:12
 msgid "Last"
 msgstr "Viimeinen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:15
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1395
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1438
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:16
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:595
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:622
 msgid "No data available in table"
 msgstr "Taulukossa ei ole tietoja"
 
@@ -970,20 +970,20 @@ msgstr "Yksi rivi kopioitu leikepöydälle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:33
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:34
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:464
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:491
 msgid "Print"
 msgstr "Tulosta"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:34
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:695
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:35
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:456
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:483
 msgid "Copy"
 msgstr "Kopioi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:35
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:36
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:448
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:475
 msgid "CSV"
 msgstr "CSV"
 
@@ -994,10 +994,10 @@ msgstr "Excel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:44
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:48
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:841
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:845
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:435
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:439
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:847
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:851
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:462
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:466
 msgid "Clear filter"
 msgstr "Tyhjennä suodatin"
 
@@ -1034,47 +1034,47 @@ msgstr ""
 msgid "Something went wrong when loading the table."
 msgstr "Jotain meni pieleen taulua ladattaessa."
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:877
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:496
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:883
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:523
 msgid "Columns settings"
 msgstr "Sarakeasetukset"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:880
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:499
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:886
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:526
 msgid "Columns"
 msgstr "Sarakkeet"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:893
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:899
 msgid "Export or print"
 msgstr "Vie tai tulosta"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:896
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:902
 msgid "Export"
 msgstr "Vie"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:905
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:911
 msgid "Copied!"
 msgstr "Kopioitu!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:912
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:915
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:918
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:921
 msgid "Copy shareable link"
 msgstr "Kopioi jaettava linkki"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:939
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:945
 msgid "Configure table"
 msgstr "Määrittele"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:942
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:948
 msgid "Configure"
 msgstr "Määrittele"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1074
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1114
 #, javascript-format
 msgid "%s search"
 msgstr "%s haku"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1271
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1314
 #, javascript-format
 msgid "Anywhere: %s"
 msgstr "Missä tahansa: %s"
@@ -1435,7 +1435,7 @@ msgstr "Yksityinen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:193
 #: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:110
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:804
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:803
 msgid "years"
 msgstr "vuotta"
 
@@ -1819,7 +1819,7 @@ msgid "The recall may have already been expired. Please refresh the page."
 msgstr "Palautuspyynto on ehkä jo vanhentunut. Ole hyvä ja päivitä sivu."
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:37
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:820
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:819
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:138
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:163
 msgid "Expired"
@@ -1963,16 +1963,16 @@ msgstr "Valitse sulkeaksesi tämä osio"
 msgid "Please enter a decimal number in the format: 0.0"
 msgstr "Syötä desimaaliluku muodossa: 0.0"
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:340
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:339
 #: koha-tmpl/opac-tmpl/bootstrap/js/global.js:349
 msgid "Back to top"
 msgstr "Takaisin alkuun"
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:732
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:731
 msgid "An error occurred. Check the logs for details."
 msgstr "Tapahtui virhe. Tarkista lokit."
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:825
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:824
 msgid "Restricted"
 msgstr "Rajoitettu"
 
@@ -5145,8 +5145,8 @@ msgctxt "Bibliographic record"
 msgid "The item has been removed from your cart"
 msgstr "Teos on poistettu koristasi"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:633
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:635
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:660
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:662
 msgid "Expand or collapse row details"
 msgstr "Avaa tai sulje rivin tiedot"
 

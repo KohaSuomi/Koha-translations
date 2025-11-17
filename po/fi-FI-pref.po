@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.04.000\n"
+"Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2025-10-04 03:04+0000\n"
+"PO-Revision-Date: 2025-11-15 03:04+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Weblate 5.13.3\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-POOTLE-MTIME: 1698392361.707486\n"
@@ -4860,7 +4860,7 @@ msgstr "sekuntia, kun \"Näytä lainat reaaliaikaisesti\" -toiminto tai <a href=
 
 # Circulation > Holds policy > LocalHoldsPriority
 msgid "circulation.pref#LocalHoldsPriority# <br/><strong>Note:</strong> If a group option is selected, LocalHoldsPriorityPatronControl and LocalHoldsPriorityItemControl will use the <a href=\"/cgi-bin/koha/admin/library_groups.pl\">library hold group</a> of the selected libraries."
-msgstr "<br/><strong>Huomioi:</strong> Jos ryhmä-asetus valitaan, LocalHoldsPriorityPatronControl ja LocalHoldsPriorityItemControl käyttävät valittujen kirjastojen <a href=\"/cgi-bin/koha/admin/library_groups.pl\">varausryhmiä</a>."
+msgstr "<br/><strong>Huomioi:</strong> Jos valitaan kirjastoryhmä-asetus, LocalHoldsPriorityPatronControl ja LocalHoldsPriorityItemControl käyttävät valittujen kirjastojen <a href=\"/cgi-bin/koha/admin/library_groups.pl\">varausryhmiä</a>."
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
@@ -4870,27 +4870,27 @@ msgstr "Älä priorisoi"
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# Give library"
-msgstr "Anna kirjastolle"
+msgstr "Priorisoi kirjaston mukaan"
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# Give library group"
-msgstr "Anna kirjastoryhmälle"
+msgstr "Priorisoi kirjastoryhmän mukaan"
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# Give library then library group"
-msgstr "Anna kirjastolle ja kirjastoryhmälle"
+msgstr "Priorisoi kirjaston ja kirjastoryhmän mukaan"
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# holding library"
-msgstr "sijaintikirjasto(a)"
+msgstr "sijaintikirjastoa"
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# home library"
-msgstr "kotikirjasto(a)"
+msgstr "kotikirjastoa"
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
@@ -4905,7 +4905,7 @@ msgstr "noutokirjasto"
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# priority for filling holds to patrons whose"
-msgstr "asiakkaat, joiden varausten"
+msgstr "varaukset, joiden"
 
 # Circulation > Checkout policy > MarkLostItemsAsReturned
 # Circulation > Checkout policy
@@ -8489,7 +8489,7 @@ msgstr "Käytä asiakastyypin"
 # Interlibrary loans > Features > CirculateILL
 # Circulation > Interface
 msgid "interlibrary_loans.pref#ILLPartnerCode# as partners to place ILL requests with."
-msgstr "asiakkaita kaukolainapyyntöjen tekijöinä."
+msgstr "kaukolainapyyntöjen kohdekirjastoina."
 
 # Interlibrary loans > Features > ILLRequestsTabs
 msgid "interlibrary_loans.pref#ILLRequestsTabs# <pre>    - ANOTHER_ORDER_STATUS</pre>"
