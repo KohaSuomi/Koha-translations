@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-16 12:01+0200\n"
-"PO-Revision-Date: 2026-01-29 10:13+0200\n"
+"PO-Revision-Date: 2026-01-29 10:18+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -60085,14 +60085,14 @@ msgstr "Varausta ei voi peruuttaa kuljetuksen aikana"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:965
 #, c-format
 msgid "Waiting for %s at %s since %s"
-msgstr "Odottaa asiakasta %s kirjastossa %s lähtien %s"
+msgstr "Odottaa asiakasta %s kirjastossa %s %s lähtien"
 
 #. %1$s:  Branches.GetName( itemloo.ExpectedAtLibrary ) | html
 #. %2$s:  itemloo.waitingdate | $KohaDates
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:969
 #, c-format
 msgid "Waiting at %s since %s"
-msgstr "Odottaa kirjastossa %s lähtien %s"
+msgstr "Odottaa kirjastossa %s %s lähtien"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron=itemloo.ReservedFor
 #. %2$s:  Branches.GetName( itemloo.ExpectedAtLibrary ) | html
@@ -60114,7 +60114,7 @@ msgstr "Varausta odotetaan kirjastossa %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:979
 #, c-format
 msgid "On hold expected at %s since %s"
-msgstr "Varausta odotetaan kirjastossa %s lähtien %s"
+msgstr "Varausta odotetaan kirjastossa %s %s lähtien"
 
 #. %1$s:  END
 #. %2$s:  END
