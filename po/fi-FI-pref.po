@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2025-12-18 10:30+0200\n"
+"PO-Revision-Date: 2026-01-29 12:18+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -8762,22 +8762,22 @@ msgstr "<pre>    - REQ</pre>"
 # Interlibrary loans > Features > ILLModule
 # Circulation > Housebound module
 msgid "interlibrary_loans.pref#ILLRequestsTabs# <pre>  status:</pre>"
-msgstr "<pre>  tila:</pre>"
+msgstr "<pre>  status:</pre>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Self check-in module
 msgid "interlibrary_loans.pref#ILLRequestsTabs# <pre>- name: Closed</pre>"
-msgstr "<pre>- nimi: Suljettu</pre>"
+msgstr "<pre>- name: Suljettu</pre>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Self check-in module
 msgid "interlibrary_loans.pref#ILLRequestsTabs# <pre>- name: On loan</pre>"
-msgstr "<pre>- nimi: Lainassa</pre>"
+msgstr "<pre>- name: Lainassa</pre>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Self check-in module
 msgid "interlibrary_loans.pref#ILLRequestsTabs# <pre>- name: Ordered</pre>"
-msgstr "<pre>- nimi: Tilattu</pre>"
+msgstr "<pre>- name: Tilattu</pre>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Housebound module
