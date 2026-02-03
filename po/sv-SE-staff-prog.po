@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-16 12:01+0200\n"
-"PO-Revision-Date: 2025-12-18 14:58+0200\n"
-"Last-Translator: \"jessica.andersson\" <jessica.andersson@alingsas.se>\n"
+"PO-Revision-Date: 2026-02-03 14:23+0200\n"
+"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -11188,7 +11188,7 @@ msgstr "Om du fortsätter med denna åtgärd kommer denna begäran att ställas 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/cancel.inc:8
 #, c-format
 msgid "This means that actions have been taken to cancel this request at the source with whom the request was placed."
-msgstr ""
+msgstr "Fjärrlånets avsändare har informerats om att beställningen kommer att avbrytas."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/cancel.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/confirm.inc:9
@@ -11214,7 +11214,7 @@ msgstr "Om du fortsätter med denna åtgärd kommer denna begäran att ställas 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/confirm.inc:8
 #, c-format
 msgid "This means that actions have been taken to request this request from a source."
-msgstr ""
+msgstr "Det här innebär att en begäran om fjärrlån har gjorts."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/confirm.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:70
@@ -11439,9 +11439,9 @@ msgid "Mandatory field 'type' is missing."
 msgstr "Det obligatoriska fältet \"typ\" saknas."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/edititem.inc:12
-#, fuzzy, c-format
+#, c-format
 msgid "Edit ILL request item metadata"
-msgstr "Redigera begäran "
+msgstr "Redigera detaljer om verket"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/edititem.inc:77
@@ -14982,7 +14982,7 @@ msgstr "Snabb katalogisering "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:288
 #, c-format
 msgid "Delete bibliographic records from catalogue "
-msgstr ""
+msgstr "Ta bort bibliografiska poster "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:291
 #, c-format
@@ -25270,9 +25270,9 @@ msgid "EDIFACT message"
 msgstr "EDIFACT-meddelande"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:61
-#, fuzzy, c-format
+#, c-format
 msgid "EDIFACT processing errors for "
-msgstr "EDIFACT-meddelanden"
+msgstr "Fel vid hantering av EDIFACT-meddelande "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:78
@@ -28141,9 +28141,9 @@ msgstr "%sAvtal%s %sLicenser%s %sPaket%s "
 #. %11$s:  END
 #. %12$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:152
-#, fuzzy, c-format
+#, c-format
 msgid "%s %sAccount lines (credit)%s %sAccount lines (debit)%s %s %s %sAccount credit types%s %sAccount debit types%s %s "
-msgstr "%s %s %s %sKontorader (kredit)%s %sKontorader (debit)%s %s %s %sERM-licenser%s %s ERM-avtal%s%s ERM-samlingar%s%s "
+msgstr "%s %sKontorader (kredit)%s %sKontorader (debit)%s %s %s %sKredittyper%s %sDebiteringstyper%s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:166
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:359
@@ -28571,9 +28571,9 @@ msgid "Define which external servers to query for MARC data"
 msgstr "Definiera vilka externa servrar som ska tillfrågas om MARC-data"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:274
-#, fuzzy, c-format
+#, c-format
 msgid "Define which OAI repositories to harvest data from"
-msgstr "Ange postkällor att importera ifrån"
+msgstr "Ange från vilka OAI-uppsättningar data ska samlas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:278
 #, c-format
@@ -32187,7 +32187,7 @@ msgstr "Maxtak för avgifter för person under förmyndarskap: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:498
 #, c-format
 msgid "Guarantors with guarantees checkout charge limit: "
-msgstr ""
+msgstr "Maxtak för avgifter för förmyndare: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:512
 #, c-format
@@ -32354,7 +32354,7 @@ msgstr "Avgiftsbelopp som begränsar lån för person under förmyndarskap"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:671
 #, c-format
 msgid "Guarantors with guarantees checkout charge limit"
-msgstr ""
+msgstr "Maxtak för avgifter för förmyndare"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:672
 #, c-format
@@ -35011,7 +35011,7 @@ msgid "MARC subfield"
 msgstr "MARC-delfält"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:71
-#, fuzzy, c-format
+#, c-format
 msgid "Authorized values category"
 msgstr "Auktoriserad värdekategori"
 
@@ -36000,9 +36000,9 @@ msgid "(Optional): This is the value that will be checked against the match fiel
 msgstr "(Valfritt): Detta är värdet som kommer att kontrolleras mot matchningsfältet för att se om filen matchar det här kontot. Om den gör det kommer den att bearbetas av det här kontot, annars hoppas den över."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_order_accounts.tt:138
-#, fuzzy, c-format
+#, c-format
 msgid "Basket name field: "
-msgstr "Korgnamn: "
+msgstr "Namnge fältet för beställningskorgen: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_order_accounts.tt:140
 #, c-format
@@ -36629,9 +36629,9 @@ msgstr "Tröskelvärde saknas"
 #. %4$s:  IF op ==  'add'
 #. %5$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:9
-#, fuzzy, c-format
+#, c-format
 msgid "%s Modify OAI repository %s &rsaquo; %s %s New OAI repository &rsaquo; %s OAI repositories &rsaquo; Administration &rsaquo; Koha "
-msgstr "%s Redigera %s server %s &rsaquo; %s %s Ny %s server &rsaquo; %s Z39.50/SRU-servrar &rsaquo; Administration &rsaquo; Koha "
+msgstr "%s Redigera OAI-uppsättning %s &rsaquo; %s %s Ny OAI-uppsättning &rsaquo; %s OAI-uppsättningar &rsaquo; Administration &rsaquo; Koha "
 
 #. %1$s:  server.servername | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:41
@@ -36748,9 +36748,8 @@ msgstr "Rapportnamn"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:187
-#, fuzzy
 msgid "Are you sure you want to delete repository %s?"
-msgstr "Är du säker på att du vill ta bort servern %s?"
+msgstr "Är du säker på att du vill ta bort OAI-uppsättningen %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_set_mappings.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:36
@@ -41819,9 +41818,8 @@ msgstr "Löst av"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:67
-#, fuzzy
 msgid "as"
-msgstr "är"
+msgstr "as"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1439
@@ -43407,7 +43405,7 @@ msgstr "Ja, redigera befintliga exemplar"
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:861
 msgid "Yes: View existing items (you may not add items to existing records)"
-msgstr ""
+msgstr "Ja: Visa befintliga exemplar (du kan inte lägga till exemplar till befintliga poster)"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:866
@@ -43648,7 +43646,7 @@ msgstr ": exemplaret har en väntande reservation."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:96
 #, c-format
 msgid ": item has item level holds."
-msgstr ""
+msgstr ": exemplaret är reserverat."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:97
 #, c-format
@@ -44488,9 +44486,9 @@ msgstr "%s post %s: %s"
 #. %3$s:  errcon.server | html
 #. %4$s:  errcon.seq | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:118
-#, fuzzy, c-format
+#, c-format
 msgid "%s (ref. %s) for %s result %s"
-msgstr "%s Ja %s Nej %s Ärvd %s "
+msgstr "%s (%s) för %s resultat %s"
 
 #. %1$s:  current_page | html
 #. %2$s:  total_pages | html
@@ -45116,7 +45114,7 @@ msgstr "Detta är en anonym låntagare, så utlån är inaktiverat."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:58
 #, c-format
 msgid "System preference 'ChildNeedsGuarantor' is enabled and this patron does not have a guarantor."
-msgstr ""
+msgstr "Systeminställningen 'ChildNeedsGuarantor' är aktiverad, låntagaren saknar förmyndare."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:144
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:136
@@ -47336,17 +47334,17 @@ msgstr "%s Tillgängliga för lån. %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:299
 #, c-format
 msgid "Error updating patron's last seen date"
-msgstr ""
+msgstr "Fel vid uppdatering av låntagarens senaste aktivitet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:300
 #, c-format
 msgid "The item has been checked in, but the issue below must be corrected:"
-msgstr ""
+msgstr "Exemplaret har återlämnats, men följande fel bör korrigeras:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:301
 #, c-format
 msgid "The system encountered an error when updating the patron's last seen date:"
-msgstr ""
+msgstr "Fel vid uppdatering av låntagarens senaste aktivitet:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:306
 #, c-format
@@ -47918,9 +47916,9 @@ msgstr "%s%sav %s%s %s("
 #. %3$s:  ELSE
 #. %4$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:70
-#, fuzzy, c-format
+#, c-format
 msgid "%sDue %s%sNot checked out%s"
-msgstr "%s %s Inte utlånad %s "
+msgstr "%sFörfallodag %s%sInte utlånad%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:78
 #, c-format
@@ -49052,9 +49050,9 @@ msgstr "Bekräfta beställning %s"
 
 #. %1$s:  request.id_prefix _ request.illrequest_id | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:49
-#, fuzzy, c-format
+#, c-format
 msgid "Complete request request %s"
-msgstr "Uppfyll beställning "
+msgstr "Slutför beställning %s"
 
 #. %1$s:  request.id_prefix _ request.illrequest_id | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:51
@@ -49106,9 +49104,9 @@ msgstr "Ansvarsfriskrivning för typ av begäran"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:68
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:1019
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm switch provider"
-msgstr "Låntagare som använder denna leverantör"
+msgstr "Bekräfta byte av avsändare"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:957
@@ -49152,9 +49150,9 @@ msgid "Confirm ILL request"
 msgstr "Bekräfta fjärrlånebeställning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "Complete ILL request"
-msgstr "Uppfyll beställning "
+msgstr "Slutför beställning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:122
 #, fuzzy, c-format
@@ -49164,7 +49162,7 @@ msgstr "Om du fortsätter med denna åtgärd kommer denna begäran att ställas 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:123
 #, c-format
 msgid "You can select a status alias from the available options:"
-msgstr ""
+msgstr "Välj statusalias från de tillgängliga alternativen:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:137
 #, c-format
@@ -60548,9 +60546,9 @@ msgstr "Reklamationer för %s"
 #. %2$s:  suppliername | html
 #. %3$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:49
-#, fuzzy, c-format
+#, c-format
 msgid "Claims %sfor %s%s"
-msgstr "Reklamationer %s för %s %s"
+msgstr "Reklamationer %ssom gäller %s%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:53
 #, c-format
