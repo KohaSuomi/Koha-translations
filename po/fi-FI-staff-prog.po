@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-16 12:01+0200\n"
-"PO-Revision-Date: 2026-01-29 10:18+0200\n"
+"PO-Revision-Date: 2026-02-17 16:12+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -57910,22 +57910,22 @@ msgstr "Nimeä uusi määritelmä"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:63
 #, c-format
 msgid "Step 2: Choose the area"
-msgstr "Kohta 2: Valitse alue"
+msgstr "Vaihe 2: Valitse alue"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:67
 #, c-format
 msgid "Step 3: Choose a column"
-msgstr "Kohta 3: Valitse sarake"
+msgstr "Vaihe 3: Valitse sarake"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:71
 #, c-format
 msgid "Step 4: Specify a value"
-msgstr "Kohta 4: Määrittele arvo"
+msgstr "Vaihe 4: Määrittele arvo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:75
 #, c-format
 msgid "Step 5: Confirm definition"
-msgstr "Kohta 5: Vahvista tiedot"
+msgstr "Vaihe 5: Vahvista tiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:89
 #, c-format
@@ -58001,7 +58001,7 @@ msgstr "Muokkaa raporttia ja varmista, ettei salasana-kenttiä ole valittuna. "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:164
 #, c-format
 msgid "Step 1 of 5: Name the new definition"
-msgstr "Kohta 1/5: Nimeä uusi määritelmä"
+msgstr "Vaihe 1/5: Nimeä uusi määritelmä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:167
 #, c-format
@@ -58016,7 +58016,7 @@ msgstr "Määritelmän kuvaus:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:188
 #, c-format
 msgid "Step 2 of 5: Choose the area"
-msgstr "Kohta 2/5: Valitse alue"
+msgstr "Vaihe 2/5: Valitse alue"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:194
 #, c-format
@@ -58026,12 +58026,12 @@ msgstr "Valitse taulu:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:212
 #, c-format
 msgid "Step 3 of 5: Choose a column"
-msgstr "Kohta 3/5: Valitse sarake"
+msgstr "Vaihe 3/5: Valitse sarake"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:245
 #, c-format
 msgid "Step 4 of 5: Specify a value"
-msgstr "Kohta 4/5: Määrittele arvo"
+msgstr "Vaihe 4/5: Määrittele arvo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:254
 #, c-format
@@ -58073,7 +58073,7 @@ msgstr "Hakusanatulokset: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:305
 #, c-format
 msgid "Step 5 of 5: Confirm details"
-msgstr "Kohta 5/5: Vahvista tiedot"
+msgstr "Vaihe 5/5: Vahvista tiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:309
 #, c-format
@@ -58114,36 +58114,36 @@ msgstr "Luo raportti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:158
 #, c-format
 msgid "Step 1 of 6: Choose a module"
-msgstr "Kohta 1/6: Valitse raportin moduuli"
+msgstr "Vaihe 1/6: Valitse raportin moduuli"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:160
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:542
 #, c-format
 msgid "Step 2 of 6: Pick a report type"
-msgstr "Kohta 2/6: Valitse raportin tyyppi"
+msgstr "Vaihe 2/6: Valitse raportin tyyppi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:162
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:565
 #, c-format
 msgid "Step 3 of 6: Select columns for display"
-msgstr "Kohta 3/6: Valitse näytettävät sarakkeet"
+msgstr "Vaihe 3/6: Valitse näytettävät sarakkeet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:164
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:627
 #, c-format
 msgid "Step 4 of 6: Select criteria to limit on"
-msgstr "Kohta 4/6: Valitse rajoituskriteerit"
+msgstr "Vaihe 4/6: Valitse rajoituskriteerit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:166
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:712
 #, c-format
 msgid "Step 5 of 6: Pick which columns to total"
-msgstr "Kohta 5/6: Valitse yhteenlaskettavat tiedot"
+msgstr "Vaihe 5/6: Valitse yhteenlaskettavat tiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:168
 #, c-format
 msgid "Step 6 of 6: Select how you want the report ordered"
-msgstr "Kohta 6/6: Valitse raportin järjestys"
+msgstr "Vaihe 6/6: Valitse raportin järjestys"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:179
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:370
@@ -58300,7 +58300,7 @@ msgstr "Valitse cache_expiry ajaksi vähemmän kuin 30 päivää "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:484
 #, c-format
 msgid "Step 1 of 6: Choose a module to report on,%sSet cache expiry,%s and choose report visibility "
-msgstr "Vaihe 1/6: Valitse Koha osio, johon raportti liittyy,%sAseta välimuistin kesto,%s ja valitse raportin näkyvyys "
+msgstr "Vaihe 1/6: Valitse Kohan osio, johon raportti liittyy, %saseta välimuistin kesto,%s ja valitse raportin näkyvyys "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:496
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:504
@@ -58388,7 +58388,7 @@ msgstr "Sanastomääritelmät"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:752
 #, c-format
 msgid "Step 6 of 6: Choose how you want the report ordered"
-msgstr "Kohta 6/6: Valitse raportin järjestys"
+msgstr "Vaihe 6/6: Valitse raportin järjestys"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:790
 #, c-format
