@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-16 12:01+0200\n"
-"PO-Revision-Date: 2026-02-03 14:23+0200\n"
+"PO-Revision-Date: 2026-02-18 14:27+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -4672,9 +4672,9 @@ msgid "Item has a waiting hold"
 msgstr "Exemplaret har en väntande reservation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:53
-#, fuzzy, c-format
+#, c-format
 msgid "Item has item level holds"
-msgstr "Reservationer på exemplarnivå"
+msgstr "Exemplaret är reserverat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:55
 #, c-format
@@ -13168,9 +13168,8 @@ msgstr "Sök efter orter"
 
 #. INPUT type=text name=searchfield
 #: koha-tmpl/intranet-tmpl/prog/en/includes/oai-admin-search.inc:12
-#, fuzzy
 msgid "OAI repository search"
-msgstr "Beställningssökning"
+msgstr "Sök OAI-uppsättningar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:4
 #, c-format
@@ -14820,9 +14819,9 @@ msgid "Manage MARC overlay rules configuration "
 msgstr "Hantera konfiguration för regler för överskrivning av MARC-fält "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:188
-#, fuzzy, c-format
+#, c-format
 msgid "Manage Z39.50 and SRU servers, OAI repositories configuration "
-msgstr "Hantera administration av Z39.50/SRU-server "
+msgstr "Hantera administration av Z39.50/SRU-servrar, konfiguration av OAI-uppsättningar "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:191
 #, c-format
@@ -14885,9 +14884,9 @@ msgid "Delete patrons "
 msgstr "Ta bort låntagare "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:229
-#, fuzzy, c-format
+#, c-format
 msgid "Merge patrons "
-msgstr "Sammanfoga låntagare"
+msgstr "Sammanfoga låntagare "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:232
 #, c-format
@@ -15437,9 +15436,9 @@ msgid "Manage EDIFACT transmissions "
 msgstr "Hantera EDIFACT-sändningar "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:560
-#, fuzzy, c-format
+#, c-format
 msgid "Manage MARC ordering "
-msgstr "Hantera beställningar"
+msgstr "Hantera MARC-beställningar "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:563
 #, c-format
@@ -36635,14 +36634,14 @@ msgstr "%s Redigera OAI-uppsättning %s &rsaquo; %s %s Ny OAI-uppsättning &rsaq
 
 #. %1$s:  server.servername | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:41
-#, fuzzy, c-format
+#, c-format
 msgid "Modify OAI repository %s"
-msgstr "Redigera kassaregister %s"
+msgstr "Redigera OAI-uppsättning %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:124
-#, fuzzy, c-format
+#, c-format
 msgid "New OAI repository"
 msgstr "Ny OAI-uppsättning"
 
@@ -36654,9 +36653,9 @@ msgstr "OAI-uppsättning borttagen (%s)"
 
 #. %1$s:  msg_add | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:60
-#, fuzzy, c-format
+#, c-format
 msgid "OAI repository updated (%s)"
-msgstr "Order uppdaterad"
+msgstr "OAI-uppsättning uppdaterad (%s)"
 
 #. %1$s:  msg_add | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:62
@@ -36673,9 +36672,9 @@ msgid "Error: Server with ID %s not found"
 msgstr "Fel: Server med id %s hittas inte"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:71
-#, fuzzy, c-format
+#, c-format
 msgid "Modify OAI repository"
-msgstr "Ändra begränsning"
+msgstr "Redigera OAI-uppsättning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:81
 #, fuzzy, c-format
@@ -37238,9 +37237,9 @@ msgid "%s. %s (Unable to provide availability)"
 msgstr "%s. %s (Kan inte ange tillgänglighet)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:187
-#, fuzzy, c-format
+#, c-format
 msgid "No available backends"
-msgstr "Inga tillgängliga överordnade typer"
+msgstr "Inga tillgängliga backends"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:244
 #, c-format
@@ -48220,14 +48219,14 @@ msgid "Create a new %s club"
 msgstr "Skapa en ny %s klubb"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:77
-#, fuzzy, c-format
+#, c-format
 msgid "Enrollment start date:"
-msgstr "Startdatum för avtal:"
+msgstr "Anmälningsdag börjar:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "Enrollment end date:"
-msgstr "Registreringsavgift: "
+msgstr "Anmälningsdag slutar:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:43
@@ -49514,9 +49513,9 @@ msgid "Order ID:"
 msgstr "Beställnings ID:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:675
-#, fuzzy, c-format
+#, c-format
 msgid "History check requests:"
-msgstr "Artikelbeställningar:"
+msgstr "Kontrollbegäran om historik:"
 
 #. For the first occurrence,
 #. %1$s:  historycheck_request.id_prefix | html
@@ -54134,9 +54133,9 @@ msgid "Pick up location"
 msgstr "Hämtningsplats"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-print.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "Hold priority"
-msgstr "Reservationspolicy"
+msgstr "Köplats"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-print.tt:124
 #, c-format
@@ -58945,21 +58944,21 @@ msgstr "Period till %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:101
-#, fuzzy, c-format
+#, c-format
 msgid "Issuing library:"
-msgstr "Lånegivande bibliotek"
+msgstr "Utlåningsbibliotek:"
 
 #. %1$s:  loopfilte.filter | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:87
-#, fuzzy, c-format
+#, c-format
 msgid "Item call number &gt; %s "
-msgstr "Hyllsignatur för exemplar &gt; %s "
+msgstr "Hyllsignatur &gt; %s "
 
 #. %1$s:  loopfilte.filter | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:89
-#, fuzzy, c-format
+#, c-format
 msgid "Item call number &lt; %s "
-msgstr "Hyllsignatur för exemplar &lt; %s"
+msgstr "Hyllsignatur &lt; %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:91
 #, fuzzy, c-format
@@ -58977,9 +58976,9 @@ msgid "Patron library:"
 msgstr "Låntagarens bibliotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:103
-#, fuzzy, c-format
+#, c-format
 msgid "Event:"
-msgstr "Kväll"
+msgstr "Aktivitet:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:110
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:199
@@ -58999,9 +58998,9 @@ msgid "Select month:"
 msgstr "Välj månad:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:119
-#, fuzzy, c-format
+#, c-format
 msgid "Group by:"
-msgstr "gruppera efter"
+msgstr "Grupperad enligt:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:128
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:208
