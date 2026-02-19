@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-10 14:55+0200\n"
+"POT-Creation-Date: 2026-02-19 12:28+0200\n"
 "PO-Revision-Date: 2025-12-18 09:46+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -2345,7 +2345,7 @@ msgid "Abstract"
 msgstr "Tiivistelmä"
 
 #: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:335
-#: Koha/ILL/Backend/Standard.pm:937
+#: Koha/ILL/Backend/Standard.pm:939
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:39
@@ -2400,7 +2400,7 @@ msgid "Remainder of title"
 msgstr "Muut nimeketiedot"
 
 #: Koha/Database/Columns.pm:275 Koha/Database/Columns.pm:346
-#: Koha/ILL/Backend/Standard.pm:964
+#: Koha/ILL/Backend/Standard.pm:966
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
@@ -2468,7 +2468,7 @@ msgid "Other physical details"
 msgstr "Muut fyysiset ominaisuudet"
 
 #: Koha/Database/Columns.pm:294 Koha/Database/Columns.pm:339
-#: Koha/ILL/Backend/Standard.pm:946
+#: Koha/ILL/Backend/Standard.pm:948
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
@@ -2481,7 +2481,7 @@ msgstr "Muut fyysiset ominaisuudet"
 msgid "ISBN"
 msgstr "ISBN"
 
-#: Koha/Database/Columns.pm:295 Koha/ILL/Backend/Standard.pm:947
+#: Koha/Database/Columns.pm:295 Koha/ILL/Backend/Standard.pm:949
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:55
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:14
@@ -2508,7 +2508,7 @@ msgid "Number of pages"
 msgstr "Sivujen määrä"
 
 #: Koha/Database/Columns.pm:301 Koha/Database/Columns.pm:343
-#: Koha/ILL/Backend/Standard.pm:958
+#: Koha/ILL/Backend/Standard.pm:960
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:42
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:8
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:42
@@ -2516,7 +2516,7 @@ msgstr "Sivujen määrä"
 msgid "Place of publication"
 msgstr "Julkaisupaikka"
 
-#: Koha/Database/Columns.pm:302 Koha/ILL/Backend/Standard.pm:957
+#: Koha/Database/Columns.pm:302 Koha/ILL/Backend/Standard.pm:959
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:7
@@ -2526,7 +2526,7 @@ msgid "Publication date"
 msgstr "Julkaisuvuosi"
 
 #: Koha/Database/Columns.pm:303 Koha/Database/Columns.pm:344
-#: Koha/ILL/Backend/Standard.pm:959
+#: Koha/ILL/Backend/Standard.pm:961
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
@@ -2622,55 +2622,55 @@ msgstr "Huomautus"
 msgid "Patron reason"
 msgstr "Asiakkaan perustelut"
 
-#: Koha/ILL/Backend/Standard.pm:177
+#: Koha/ILL/Backend/Standard.pm:179
 msgid "Switched provider"
 msgstr "Toimittaja vaihdettu"
 
-#: Koha/ILL/Backend/Standard.pm:178
+#: Koha/ILL/Backend/Standard.pm:180
 msgid "Switch provider"
 msgstr "Vaihda toimittajaa"
 
-#: Koha/ILL/Backend/Standard.pm:186
+#: Koha/ILL/Backend/Standard.pm:188
 msgid "Edited item metadata"
 msgstr "Teoksen metatieto muokattu"
 
-#: Koha/ILL/Backend/Standard.pm:187
+#: Koha/ILL/Backend/Standard.pm:189
 msgid "Edit item metadata"
 msgstr "Muokkaa teoksen metatietoja"
 
-#: Koha/ILL/Backend/Standard.pm:934
+#: Koha/ILL/Backend/Standard.pm:936
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:11
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:11
 msgid "Article author"
 msgstr "Artikkelin tekijä"
 
-#: Koha/ILL/Backend/Standard.pm:935
+#: Koha/ILL/Backend/Standard.pm:937
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:10
 msgid "Article title"
 msgstr "Artikkelin nimeke"
 
-#: Koha/ILL/Backend/Standard.pm:936
+#: Koha/ILL/Backend/Standard.pm:938
 msgid "Associated ID"
 msgstr "Liittyvä ID"
 
-#: Koha/ILL/Backend/Standard.pm:938
+#: Koha/ILL/Backend/Standard.pm:940
 msgid "Chapter author"
 msgstr "Luvun tekijä"
 
-#: Koha/ILL/Backend/Standard.pm:939
+#: Koha/ILL/Backend/Standard.pm:941
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/chapter.inc:11
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/chapter.inc:11
 msgid "Chapter"
 msgstr "Luku"
 
-#: Koha/ILL/Backend/Standard.pm:940
+#: Koha/ILL/Backend/Standard.pm:942
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:6
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:6
 msgid "Conference date"
 msgstr "Kokouksen päivämäärä"
 
-#: Koha/ILL/Backend/Standard.pm:941
+#: Koha/ILL/Backend/Standard.pm:943
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:47
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:14
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/journal.inc:5
@@ -2684,7 +2684,7 @@ msgstr "Kokouksen päivämäärä"
 msgid "DOI"
 msgstr "DOI"
 
-#: Koha/ILL/Backend/Standard.pm:942
+#: Koha/ILL/Backend/Standard.pm:944
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:40
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:8
@@ -2693,39 +2693,39 @@ msgstr "DOI"
 msgid "Editor"
 msgstr "Editori"
 
-#: Koha/ILL/Backend/Standard.pm:943
+#: Koha/ILL/Backend/Standard.pm:945
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:9
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:9
 msgid "Format"
 msgstr "Aineistotyyppi"
 
-#: Koha/ILL/Backend/Standard.pm:944
+#: Koha/ILL/Backend/Standard.pm:946
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:7
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:7
 msgid "Genre"
 msgstr "Lajityyppi"
 
-#: Koha/ILL/Backend/Standard.pm:945
+#: Koha/ILL/Backend/Standard.pm:947
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:6
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/thesis.inc:6
 msgid "Institution"
 msgstr "Instituutio"
 
-#: Koha/ILL/Backend/Standard.pm:948
+#: Koha/ILL/Backend/Standard.pm:950
 msgid "Issue"
 msgstr "Numero"
 
-#: Koha/ILL/Backend/Standard.pm:949
+#: Koha/ILL/Backend/Standard.pm:951
 msgid "Date"
 msgstr "Päivämäärä"
 
-#: Koha/ILL/Backend/Standard.pm:950
+#: Koha/ILL/Backend/Standard.pm:952
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:10
 msgid "Language"
 msgstr "Kieli"
 
-#: Koha/ILL/Backend/Standard.pm:951
+#: Koha/ILL/Backend/Standard.pm:953
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/chapter.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:12
@@ -2737,23 +2737,23 @@ msgstr "Kieli"
 msgid "Pages"
 msgstr "Sivut"
 
-#: Koha/ILL/Backend/Standard.pm:952
+#: Koha/ILL/Backend/Standard.pm:954
 msgid "Pagination"
 msgstr "Sivunumerointi"
 
-#: Koha/ILL/Backend/Standard.pm:953
+#: Koha/ILL/Backend/Standard.pm:955
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:14
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:14
 msgid "Paper author"
 msgstr "Julkaisun tekijä"
 
-#: Koha/ILL/Backend/Standard.pm:954
+#: Koha/ILL/Backend/Standard.pm:956
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:13
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:13
 msgid "Paper title"
 msgstr "Julkaisun nimeke"
 
-#: Koha/ILL/Backend/Standard.pm:955
+#: Koha/ILL/Backend/Standard.pm:957
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:44
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:44
@@ -2761,40 +2761,40 @@ msgstr "Julkaisun nimeke"
 msgid "Part / Edition"
 msgstr "Osa / Painos"
 
-#: Koha/ILL/Backend/Standard.pm:956
+#: Koha/ILL/Backend/Standard.pm:958
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:5
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:5
 msgid "Publication"
 msgstr "Julkaisu"
 
-#: Koha/ILL/Backend/Standard.pm:960 Koha/ILL/Backend/Standard.pm:961
+#: Koha/ILL/Backend/Standard.pm:962 Koha/ILL/Backend/Standard.pm:963
 msgid "PubMed ID"
 msgstr "PubMed ID"
 
-#: Koha/ILL/Backend/Standard.pm:962
+#: Koha/ILL/Backend/Standard.pm:964
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:8
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:8
 msgid "Sponsor"
 msgstr "Sponsori"
 
-#: Koha/ILL/Backend/Standard.pm:963
+#: Koha/ILL/Backend/Standard.pm:965
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:6
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:6
 msgid "Studio"
 msgstr "Studio"
 
-#: Koha/ILL/Backend/Standard.pm:965
+#: Koha/ILL/Backend/Standard.pm:967
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/create.inc:52
 msgid "Type"
 msgstr "Tyyppi"
 
-#: Koha/ILL/Backend/Standard.pm:966
+#: Koha/ILL/Backend/Standard.pm:968
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:7
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:7
 msgid "Venue"
 msgstr "Tapahtumapaikka"
 
-#: Koha/ILL/Backend/Standard.pm:967
+#: Koha/ILL/Backend/Standard.pm:969
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:45
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:52
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:9
@@ -2806,7 +2806,7 @@ msgstr "Tapahtumapaikka"
 msgid "Volume"
 msgstr "Osa"
 
-#: Koha/ILL/Backend/Standard.pm:968
+#: Koha/ILL/Backend/Standard.pm:970
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:43
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:54
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:8
@@ -4459,6 +4459,7 @@ msgstr "Mana-tietämyskantaraporttihaku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:24
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:14
@@ -4604,7 +4605,7 @@ msgstr "Mana-tietämyskantaraporttihaku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-home.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:18
@@ -4623,7 +4624,7 @@ msgstr "Mana-tietämyskantaraporttihaku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:22
@@ -5110,7 +5111,7 @@ msgid "Created by:"
 msgstr "Luonut:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:404
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:283
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:288
 msgctxt "Acquisitions basket managed by user"
 msgid "Managed by:"
 msgstr "Käsittelijä:"
@@ -5136,7 +5137,7 @@ msgid "Link suggestion"
 msgstr "Liitä hankintaehdotus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:1342
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:785
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:790
 msgid "Add user"
 msgstr "Lisää käyttäjä"
 
@@ -5302,6 +5303,7 @@ msgid "Receipt summary for {vendor}"
 msgstr "Vastaanoton yhteenveto toimittajalle {vendor}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:293
+#, perl-brace-format
 msgid "{budget_description} (Inactive)"
 msgstr "{budget_description} (Suljettu)"
 
@@ -6828,7 +6830,7 @@ msgstr "MARC-tuonti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-home.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:18
@@ -6857,7 +6859,7 @@ msgstr "Muokataan nimekettä {title} (Record number {biblionumber})"
 msgid "Add MARC record"
 msgstr "Lisää MARC-tietue"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:787
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:788
 msgctxt "Editing MARC record titled:"
 msgid "Editing"
 msgstr "Muokataan"
@@ -6880,23 +6882,23 @@ msgstr "{title} / {author}"
 msgid "(Record #{biblionumber})"
 msgstr "(Tietue #{biblionumber})"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:67
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:68
 #, perl-brace-format
 msgid "Edit {title} by {author}"
 msgstr "Muokkaa {title} / {author}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:68
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:71
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:69
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:72
 msgctxt "Bibliographic record number"
 msgid "Record #"
 msgstr "Tietue #"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:70
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:71
 #, perl-brace-format
 msgid "Edit {title}"
 msgstr "Muokkaa {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:76
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:77
 msgctxt "Items attached to a bibliographic record"
 msgid "Items"
 msgstr "Niteet"
@@ -7297,6 +7299,7 @@ msgstr "Artikkelipyynnöt"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:14
@@ -7367,6 +7370,11 @@ msgstr "Erälainaus asiakkaalle {patron}"
 msgid "Curbside pickups"
 msgstr "Noutopalvelu"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:14
+msgid "Holds to pull"
+msgstr "Hyllyvaraukset"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:12
 msgid "Pending on-site checkouts"
 msgstr "Odottavat on-site -lainat"
@@ -7379,10 +7387,6 @@ msgstr "Nidettä myöhässä päivämäärällä {date}"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:13
 msgid "Bookings to collect"
 msgstr "Kerättävät käyttövaraukset"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:14
-msgid "Holds to pull"
-msgstr "Hyllyvaraukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:12
 msgid "Hold transfer print receipt"
@@ -7977,12 +7981,12 @@ msgstr "Ammattilainen"
 msgid "Statistical"
 msgstr "Tilasto"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1382
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1431
 msgctxt "patron restriction created on"
 msgid "Created"
 msgstr "Luotu"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1979
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2028
 msgid "Add guarantor"
 msgstr "Lisää takaaja"
 
@@ -8515,7 +8519,7 @@ msgstr "Toimittajahaun tulokset"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:13
@@ -8579,7 +8583,7 @@ msgstr "Lisää vastaanottajia"
 msgid "Serial collection information"
 msgstr "Kausijulkaisun tiedot"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:10
 msgid "Serial edition"
 msgstr "Kausijulkaisu"
 
@@ -8822,8 +8826,8 @@ msgstr "Vahvista valinta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:53
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:16
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:54
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:14
@@ -8840,14 +8844,14 @@ msgstr "Työ jonossa"
 msgid "Batch item deletion"
 msgstr "Niteiden poisto eräajona"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:59
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:60
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:45
 msgid "Modifications"
 msgstr "Muutokset"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:12
 msgid "Batch item modification"
 msgstr "Niteiden muokkaus eräajona"

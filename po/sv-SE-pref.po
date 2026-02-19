@@ -1944,6 +1944,18 @@ msgstr "(icke-XSLT-vy enbart)."
 msgid "cataloguing.pref#AuthoritySeparator# Separate main entry and subdivisions with "
 msgstr "Separera huvuduppgift och underavdelningar med "
 
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record structure
+#, fuzzy
+msgid "cataloguing.pref#BarcodePrefix# Define branch specific barcode prefix:"
+msgstr "Streckkoder är"
+
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record Structure
+#, fuzzy
+msgid "cataloguing.pref#BarcodePrefix# This is a YAML config."
+msgstr "inkrementella EAN-13-streckkoder."
+
 # Cataloging > Exporting > BibtexExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#BibtexExportAdditionalFields# <br/>"
@@ -2402,6 +2414,58 @@ msgstr "förifylls det nya exemplaret inte med de senast skapade exemplarvärden
 msgid "cataloguing.pref#PrefillItem# the new item is prefilled with last created item values."
 msgstr "förifylls det nya exemplaret med de senast skapade exemplarvärdena."
 
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 001: 773$w<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 020$a: 773$z<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 022$a: 773$x<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 028$ba: 773$o<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 245$abnpc: 773$t<br/>"
+msgstr "<ul>"
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 264$abc: 773$d<br/>"
+msgstr "<ul>"
+
+# Cataloging > Record structure > AlternateHoldingsField
+# Cataloging > Record structure
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# 300$ae: 773$h"
+msgstr "."
+
+# Cataloging > Display > PrepareHostField
+msgid "cataloguing.pref#PrepareHostField# Define rules for copying host data to component parts.<br/>"
+msgstr ""
+
+# Cataloging > Display > MergeReportFields
+# Cataloging > Display
+#, fuzzy
+msgid "cataloguing.pref#PrepareHostField# Example:<br/>"
+msgstr "<ul>"
+
 # Cataloging > Exporting > RisExportAdditionalFields
 # Cataloging > Exporting
 msgid "cataloguing.pref#RisExportAdditionalFields# <br/>"
@@ -2775,6 +2839,12 @@ msgstr "genererade i formatet <branchcode>ååmm0001."
 
 # Cataloging > Record structure > autoBarcode
 # Cataloging > Record Structure
+#, fuzzy
+msgid "cataloguing.pref#autoBarcode# generated in the form <prefix>yymmdd<timestamp>."
+msgstr "genererade i formatet <branchcode>ååmm0001."
+
+# Cataloging > Record structure > autoBarcode
+# Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# generated in the form <year>-0001, <year>-0002."
 msgstr "genererade i formatet <year>0001, <year>-0002."
 
@@ -2929,6 +2999,11 @@ msgstr "Upphämtningsmodulen"
 # Circulation > Fines Policy
 msgid "circulation.pref Fines policy"
 msgstr "Avgiftspolicy"
+
+# Circulation
+#, fuzzy
+msgid "circulation.pref Floating"
+msgstr "circulation.pref"
 
 # Circulation
 # Circulation > Holds Policy
@@ -3856,6 +3931,22 @@ msgstr "Tillåt inte att exemplar markeras som försvunna"
 msgid "circulation.pref#CanMarkHoldsToPullAsLost# from the 'Holds to pull' page. Values to be applied must be defined in <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UpdateItemWhenLostFromHoldList\">UpdateItemWhenLostFromHoldList</a>."
 msgstr "från sidan \"Plocklista reservationer\". Värden som ska användas måste definieras i <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UpdateItemWhenLostFromHoldList\">UpdateItemWhenLostFromHoldList</a>."
 
+# Circulation > Checkin policy > CalculateFinesOnBackdate
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#CancelTransitWhenItemFloats# Do"
+msgstr "Beräkna och uppdatera"
+
+# Circulation > Checkin policy > CalculateFinesOnBackdate
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#CancelTransitWhenItemFloats# Don't"
+msgstr "Beräkna och uppdatera inte"
+
+# Circulation > Checkin policy > CancelTransitWhenItemFloats
+msgid "circulation.pref#CancelTransitWhenItemFloats# cancel transit automatically when item arrives to branch where it can float."
+msgstr ""
+
 # Circulation > Interface > CircAutoPrintQuickSlip
 # Circulation > Interface
 msgid "circulation.pref#CircAutoPrintQuickSlip# ."
@@ -4036,7 +4127,7 @@ msgstr "Bekräfta framtida reservationer (med start senast"
 # Circulation > Holds policy > ConfirmFutureHolds
 # Circulation > Holds Policy
 #, fuzzy
-msgid "circulation.pref#ConfirmFutureHolds# days from now) at checkin time. Note that this number of days is used in determining which holds are considered as 'current holds'. It also sets the default end date for the Holds to pull-report. It still does not interfere with renewing items."
+msgid "circulation.pref#ConfirmFutureHolds# days from now) at checkin time. Note that this number of days will be used too in calculating the default end date for the Holds to pull-report. But it does not interfere with issuing, renewing or transferring items."
 msgstr "dagar från nu) vid återlämning. Detta antal dagar kommer även att användas för att beräkna normalt slutdatum för rapporten Plocklista. Men det påverkar inte utlån, omlån eller överföring av böcker."
 
 # Circulation > Checkout policy > RentalFeesCheckoutConfirmation
@@ -4541,6 +4632,136 @@ msgstr "Inkludera"
 msgid "circulation.pref#FinesIncludeGracePeriod# the grace period when calculating the fine for an overdue item."
 msgstr "respittiden vid beräkning av avgifterna för ett försenat exemplar."
 
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# </ul>"
+msgstr "."
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>#A->B: itemtype eq \"KIRJA\"</code>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A%->B%: itemtype eq \"KIRJA\"</code></br></br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A->B</code> - where <code>-></code> means that rule applies when item is from library B and is checked in from library A.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <code>A<>B</code> - where <code><></code> means that rule applies to both libraries.</br></br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>!=</code> - if the left numeric value argument shouldn't match the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>&&</code> is an \"AND\" operator, use if both expressions should be true</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code><</code>  - if the left numeric value argument should be less than the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>==</code> - if the left numeric value argument should match the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>=~</code> - if the left string argument should match regular expression on the right</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>></code>  - if the left numeric value argument should be greater than the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>ccode eq \"FLOAT\"</code> - all items with a collection code \"FLOAT\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>eq</code> - if the left string argument should match the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype =~ \"(CD|DVD|KIRJA)\"</code> - using a regular expression to match against the item attribute, floats item types \"CD\" or \"DVD\" or \"KIRJA\"</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\" || itemtype eq \"CD\"</code> - all items with item type \"KIRJA\" or \"CD\" will float </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype eq \"KIRJA\"</code> - all items with item type \"KIRJA\" will float</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>itemtype ne \"CD\" && permanent_location eq \"CART\"</code> - all items not of item type \"CD\" and whose permanent location is \"CART\" will float</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>ne</code> - if the left string argument shouldn't match the right argument</li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>notforloan == 0</code> </li>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# <li><code>||</code> is an \"OR\" operator, use if either one of the expressions should be true</li>"
+msgstr ""
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# <ul>"
+msgstr "."
+
+# Circulation > Self check-out module > AutoSelfCheckAllowed
+# Circulation > Self check-out module
+#, fuzzy
+msgid "circulation.pref#FloatRules# Allowed operators are following:</br>"
+msgstr "Tillåt inte"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Define float rules by columns of items table and biblioitems column itemtype. NOTE! Rules can't be applied to other columns from biblioitems table.</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Example rule: <code>A->B: itemtype eq \"KIRJA\"</code></br></br>"
+msgstr ""
+
+# Circulation > SIP2 > SIP2SortBinMapping
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# Examples:</br>"
+msgstr "Exempel:<br/>"
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Rules should start with following syntax:</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# Use <code>&& and ||</code> operators to join statements together:</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# You can also use % as a wildcard when defining which libraries rule applies:</br>"
+msgstr ""
+
+# Circulation > Floating > FloatRules
+msgid "circulation.pref#FloatRules# You can also use comments to disable unused rules, just add <code>#</code> before the rule:</br>"
+msgstr ""
+
+# Circulation > Holds policy > HoldsSplitQueue
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#FloatRules# or: </br>"
+msgstr "."
+
 # Circulation > Checkin policy > HidePersonalPatronDetailOnCirculation
 # Circulation > Checkin policy
 msgid "circulation.pref#HidePersonalPatronDetailOnCirculation# Don't hide"
@@ -4590,6 +4811,30 @@ msgstr "när en reservation görs."
 # Circulation > Fines Policy
 msgid "circulation.pref#HoldFeeMode# only if all items are checked out and the record has at least one hold already."
 msgstr "endast om samtliga exemplar är utlånade och posten redan har minst en reservation."
+
+# Circulation > Fines Policy > HoldFeeMode
+# Circulation > Fines Policy
+#, fuzzy
+msgid "circulation.pref#HoldPickupShelves# Define 'itemtypes' or authorised value."
+msgstr "när en reservation görs."
+
+# Circulation > Self check-in module > SelfCheckInModule
+# Circulation > Self check-in module
+#, fuzzy
+msgid "circulation.pref#HoldPickupShelves# Don't enable"
+msgstr "Aktivera inte"
+
+# Circulation > Curbside pickup module > CurbsidePickup
+# Circulation > Self check-out module
+#, fuzzy
+msgid "circulation.pref#HoldPickupShelves# Enable"
+msgstr "Aktivera"
+
+# Circulation > Holds policy > EnableItemGroupHolds
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#HoldPickupShelves# the ability to define hold pickup shelves for libraries."
+msgstr "funktionen att lägga reservationer i exemplargrupper."
 
 # Circulation > Holds policy > HoldsSplitQueue
 # Circulation > Holds policy
@@ -4872,6 +5117,14 @@ msgid "circulation.pref#LocalHoldsPriority# Give library then library group"
 msgstr "Prioritera bibliotek, därefter biblioteksgrupp"
 
 # Circulation > Holds policy > LocalHoldsPriority
+msgid "circulation.pref#LocalHoldsPriority# Maximum number of holds to consider when calculating LocalHoldsPriority. Set to 0 for no limit."
+msgstr ""
+
+# Circulation > Holds policy > LocalHoldsPriority
+msgid "circulation.pref#LocalHoldsPriority# Maximum number of times LocalHoldsPriority can skip a hold for fulfillment. Set to 0 for no limit."
+msgstr ""
+
+# Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# holding library"
 msgstr "aktuellt bibliotek"
@@ -4895,6 +5148,22 @@ msgstr "avhämtningsbibliotek"
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# priority for filling holds to patrons whose"
 msgstr "för reservationer åt låntagare vars"
+
+# Circulation > Holds policy > LocalHoldsPriority
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#LocalHoldsPriorityMinItems# Define minimum number of available items"
+msgstr "matchar exemplarets"
+
+# Circulation > Holds policy > LocalHoldsPriorityMinItems
+msgid "circulation.pref#LocalHoldsPriorityMinItems# for LocalHoldsPriority. Set to 0 for no limit. (Activate only one option, LocalHoldsPriorityMinItems or LocalHoldsPriorityHoldsPerItemThreshold)."
+msgstr ""
+
+# Circulation > Holds policy > LocalHoldsPriority
+# Circulation > Holds policy
+#, fuzzy
+msgid "circulation.pref#LocalHoldsPriorityMinItems# or how many holds per available items"
+msgstr "matchar exemplarets"
 
 # Circulation > Checkout policy > MarkLostItemsAsReturned
 # Circulation > Checkout policy
@@ -5185,6 +5454,36 @@ msgstr "Aktivera"
 msgid "circulation.pref#OnSiteCheckoutsForce# the on-site checkout for all cases (even if a patron is debarred or under similar restrictions)."
 msgstr "lån på plats i alla situationer (även om en låntagare är spärrad, osv.)."
 
+# Circulation > Checkout policy > OverduesBlockCirc
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# Don't include branchcodes"
+msgstr "Blockera inte"
+
+# Circulation > Checkout policy > HomeOrHoldingBranch
+# Circulation > Checkout Policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# Include patron's home library as branchcode"
+msgstr "exemplarets hembibliotek (homebranch)"
+
+# Circulation > Checkout policy > HomeOrHoldingBranch
+# Circulation > Checkout Policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# Include the item's home library as branchcode"
+msgstr "exemplarets hembibliotek (homebranch)"
+
+# Circulation > Checkout policy > AllowReturnToBranch
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# Include the library the item was checked out from as branchcode"
+msgstr "endast på det bibliotek exemplaret lånades ut från"
+
+# Circulation > Checkout policy > HomeOrHoldingBranch
+# Circulation > Checkout policy
+#, fuzzy
+msgid "circulation.pref#OverdueFineBranch# when generating OVERDUE fines."
+msgstr "Använd utlånings- och avgiftsreglerna för"
+
 # Circulation > Checkout policy > OverdueNoticeCalendar
 # Circulation > Checkout policy
 msgid "circulation.pref#OverdueNoticeCalendar# Ignore calendar"
@@ -5318,22 +5617,6 @@ msgstr "Lägg inte"
 # Acquisitions > Policy > CancelOrdersInClosedBaskets
 msgid "circulation.pref#PlaceHoldsOnOrdersFromSuggestions# place a hold when ordering from a suggestion."
 msgstr "en reservation vid beställning baserad på inköpsförslag."
-
-# Circulation > Checkin policy > BlockReturnOfWithdrawnItems
-# Circulation > Checkin policy
-#, fuzzy
-msgid "circulation.pref#PreventWithdrawingItemsStatus# Checked out"
-msgstr "Blockera"
-
-# Circulation > Checkin policy > BlockReturnOfWithdrawnItems
-# Circulation > Checkin policy
-#, fuzzy
-msgid "circulation.pref#PreventWithdrawingItemsStatus# In-transit"
-msgstr "Blockera inte"
-
-# Circulation > Checkin policy > PreventWithdrawingItemsStatus
-msgid "circulation.pref#PreventWithdrawingItemsStatus# Prevent the ability to withdraw items with the following statuses:"
-msgstr ""
 
 # Circulation > Checkout policy > PrintNoticesMaxLines
 # Circulation > Checkout policy
@@ -8599,22 +8882,21 @@ msgstr "När åtgärder loggas, lagra en stackspårning som går högst"
 msgid "logs.pref#ActionLogsTraceDepth# levels deep."
 msgstr "nivåer ned."
 
-# Logging > Logging > NewsLog
-# Logging > Logging
-#, fuzzy
-msgid "logs.pref#AdditionalContentLog#  changes to HTML customizations, news entries, pages, and other content managed in the additional content tools."
-msgstr "när nyheter eller annat innehåll som hanteras i Verktyg › Nyheter ändras."
+# Logging > Logging > ApiKeyLog
+msgid "logs.pref#ApiKeyLog# API key creation, deletion, revocation and activation actions."
+msgstr ""
 
-# Logging > Logging > AcquisitionLog
+# Logging > Logging > FinesLog
 # Logging > Logging
 #, fuzzy
-msgid "logs.pref#AdditionalContentLog# Don't log"
+msgid "logs.pref#ApiKeyLog# Don't log"
 msgstr "Logga inte"
 
-# Tools > News > AdditionalContentsEditor
+# Logging > Logging > FinesLog
+# Logging > Logging
 #, fuzzy
-msgid "logs.pref#AdditionalContentLog# Log"
-msgstr "."
+msgid "logs.pref#ApiKeyLog# Log"
+msgstr "Logga"
 
 # Logging > Logging > AuthFailureLog
 # Logging > Logging
@@ -8675,6 +8957,24 @@ msgstr "Logga"
 # Logging > Logging
 msgid "logs.pref#BorrowersLog# changes to patron records and patron restrictions."
 msgstr "ändringar av låntagarposter och låntagarbegränsningar."
+
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# Don't log"
+msgstr "Logga inte"
+
+# Logging > Logging > BorrowersLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# Log"
+msgstr "Logga"
+
+# Logging > Logging > RenewalLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#BorrowersViewLog# when patron data is viewed."
+msgstr "när exemplar lånas om."
 
 # Logging > Logging > CronjobLog
 # Logging > Logging
@@ -8840,6 +9140,22 @@ msgstr "Logga"
 # Logging > Logging
 msgid "logs.pref#IssueLog# when items are checked out."
 msgstr "när exemplar lånas ut."
+
+# Logging > Logging > NewsLog
+# Logging > Logging
+#, fuzzy
+msgid "logs.pref#NewsLog#  changes to news entries and other contents managed in the news tool."
+msgstr "när nyheter eller annat innehåll som hanteras i Verktyg › Nyheter ändras."
+
+# Logging > Logging > NewsLog
+# Logging > Logging
+msgid "logs.pref#NewsLog# Don't log"
+msgstr "Logga inte"
+
+# Logging > Logging > NewsLog
+# Logging > Logging
+msgid "logs.pref#NewsLog# Log"
+msgstr "Logga"
 
 # Logging > Logging > NoticesLog
 # Logging > Logging
@@ -9999,7 +10315,8 @@ msgstr "<br><strong>OBS:</strong> Biblioteksspecifik javascriptkod kan definiera
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
-msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC:"
+#, fuzzy
+msgid "opac.pref#OPACUserJS# Include the following JavaScript on all pages in the OPAC. You may need to ask your system administrator to rehash userjs checksums after changing this."
 msgstr "Inkludera följande JavaScript på alla sidor i OPAC:"
 
 # OPAC > Appearance > OPACUserSummary
@@ -12882,6 +13199,12 @@ msgstr "telefonmeddelanden till låntagare med Talking Tech i-tiva (förseningar
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
+#, fuzzy
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Adding patron a charge or credit"
+msgstr "Artikelbeställning"
+
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Checking in an item"
 msgstr "Återlämning"
 
@@ -12909,7 +13232,13 @@ msgstr "Inloggning"
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
 #, fuzzy
-msgid "patrons.pref#TrackLastPatronActivityTriggers# Patron authentication via API"
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Modifying a patron"
+msgstr "Omlån"
+
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
+#, fuzzy
+msgid "patrons.pref#TrackLastPatronActivityTriggers# Modifying a patron's charge or credit"
 msgstr "Omlån"
 
 # Patrons > General > TrackLastPatronActivity
@@ -14352,22 +14681,6 @@ msgstr "Visa"
 msgid "staff_interface.pref#DisplayIconsXSLT# the format, audience, and material type icons and descriptions in XSLT MARC21 results and detail pages in the staff interface."
 msgstr "ikonerna för format, målgrupp och materialtyp i XSLT MARC21-resultaten och i detaljsidorna i personalklienten."
 
-# Staff interface > Options > intranetbookbag
-# Staff interface > Options
-#, fuzzy
-msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# Do"
-msgstr "Visa"
-
-# Staff interface > Options > intranetbookbag
-# Staff interface > Options
-#, fuzzy
-msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# Don't"
-msgstr "Visa inte"
-
-# Staff interface > Options > FilterSearchResultsByLoggedInBranch
-msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# add a filter to the location column on staff interface search results to filter items by the logged in user branch."
-msgstr ""
-
 # Staff interface > Options > HidePatronName
 # Staff interface > Options
 msgid "staff_interface.pref#HidePatronName# Don't show"
@@ -14433,6 +14746,11 @@ msgstr "som personalklientens favicon. (Detta bör vara en komplett URL, som bö
 msgid "staff_interface.pref#IntranetNav# Show the following HTML to the left of the More menu at the top of each page on the staff interface (should be a list of links or blank):"
 msgstr "Visa följande HTML till vänster om menyn Mer längst upp i varje sida på personalklienten (ska vara en lista med länkar eller tom):"
 
+# Staff interface > Appearance > IntranetReportsHomeHTML
+# Staff interface > Appearance
+msgid "staff_interface.pref#IntranetReportsHomeHTML# Show the following HTML in its own div on the bottom of the home page of the reports module:"
+msgstr "Visa följande HTML i sin egen div längst ner på sidan bland Rapporter:"
+
 # Staff interface > Appearance > IntranetSlipPrinterJS
 # Staff interface > Appearance
 msgid "staff_interface.pref#IntranetSlipPrinterJS# Use the following JavaScript for printing slips. See detailed description on the <a href='https://wiki.koha-community.org/wiki/Setting_up_slip_printer_to_print_silently'>Koha Wiki</a> and eventually Firefox add-on <a href='https://github.com/edabg/jsprintsetup/wiki'>jsPrintSetup documentation</a>:"
@@ -14445,7 +14763,8 @@ msgstr "Inkludera följande CSS på alla sidor i personalklienten:"
 
 # Staff interface > Appearance > IntranetUserJS
 # Staff interface > Appearance
-msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface:"
+#, fuzzy
+msgid "staff_interface.pref#IntranetUserJS# Include the following JavaScript on all pages in the staff interface. You may need to ask your system administrator to rehash userjs checksums after changing this."
 msgstr "Inkludera följande JavaScript på alla sidor i personalklienten:"
 
 # Staff interface > Authentication > staffShibOnly
@@ -16276,11 +16595,6 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 #~ msgid "circulation.pref#AutoRemoveOverduesRestrictions# allow OVERDUES restrictions triggered by sent notices to be cleared automatically when all overdue items are returned by a patron."
 #~ msgstr "FÖRSENINGS-begränsningar som utlösts av skickade meddelanden att upphävas automatiskt när alla försenade exemplar återlämnats av en låntagare."
 
-# Circulation > Holds policy > EnableItemGroupHolds
-# Circulation > Holds policy
-#~ msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups."
-#~ msgstr "funktionen att lägga reservationer i exemplargrupper."
-
 # Circulation > Checkout policy > HoldsInNoissuesCharge
 # Circulation > Checkout policy
 #~ msgid "circulation.pref#HoldsInNoissuesCharge# Don't include"
@@ -16310,6 +16624,18 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 # Administration > Share anonymous usage statistics > UsageStatsCountry
 #~ msgid "circulation.pref#ManInvInNoissuesCharge# custom debit type charges when summing up charges for limit set in the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a> system preference."
 #~ msgstr "circulation.pref#ManInvInNoissuesCharge# diverse debiteringsavgifter när du lägger ihop avgifter för gränsen som anges i systeminställningen <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=noissuescharge\">noissuescharge</a>."
+
+# Circulation > Checkin policy > BlockReturnOfWithdrawnItems
+# Circulation > Checkin policy
+#, fuzzy
+#~ msgid "circulation.pref#PreventWithdrawingItemsStatus# Checked out"
+#~ msgstr "Blockera"
+
+# Circulation > Checkin policy > BlockReturnOfWithdrawnItems
+# Circulation > Checkin policy
+#, fuzzy
+#~ msgid "circulation.pref#PreventWithdrawingItemsStatus# In-transit"
+#~ msgstr "Blockera inte"
 
 # Circulation > Checkout policy > RentalsInNoissuesCharge
 # Circulation > Checkout policy
@@ -16424,20 +16750,21 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 #~ msgid "interlibrary_loans.pref#ILLModuleCopyrightClearance# Adding text will enable the copyright clearance stage in request creation. The text you enter will be the text displayed. OPAC only."
 #~ msgstr "Textfält för upphovsrättsinformation i samband med beställning. Texten som skrivs in här blir den text som visas. Gäller endast OPAC."
 
+# Logging > Logging > AcquisitionLog
+# Logging > Logging
+#, fuzzy
+#~ msgid "logs.pref#AdditionalContentLog# Don't log"
+#~ msgstr "Logga inte"
+
+# Tools > News > AdditionalContentsEditor
+#, fuzzy
+#~ msgid "logs.pref#AdditionalContentLog# Log"
+#~ msgstr "."
+
 # Patrons > General > AutoApprovePatronProfileSettings
 #, fuzzy
 #~ msgid "logs.pref#DumpSearchQueryTemplate# dump search query as a template parameter, requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=DumpTemplateVars\">DumpTemplateVars</a>[interface] to be visible."
 #~ msgstr "Kräver att <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OPACPatronDetails\">OPACPatronDetails</a> är aktiverat."
-
-# Logging > Logging > NewsLog
-# Logging > Logging
-#~ msgid "logs.pref#NewsLog# Don't log"
-#~ msgstr "Logga inte"
-
-# Logging > Logging > NewsLog
-# Logging > Logging
-#~ msgid "logs.pref#NewsLog# Log"
-#~ msgstr "Logga"
 
 # OPAC > Policy > BlockExpiredPatronOpacActions
 # OPAC > Policy
@@ -16531,6 +16858,12 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 #~ msgid "patrons.pref#CollapseFieldsPatronAddForm# Guarantor information"
 #~ msgstr "Information om målsman"
 
+# Patrons > General > TrackLastPatronActivity
+# Patrons > General
+#, fuzzy
+#~ msgid "patrons.pref#TrackLastPatronActivityTriggers# Patron authentication via API"
+#~ msgstr "Omlån"
+
 # Serials > Features > RoutingListNote
 # Serials
 #~ msgid "serials.pref#RoutingListNote# Include the following note on all routing lists:"
@@ -16541,10 +16874,17 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 #~ msgid "serials.pref#RoutingSerials# the routing list feature in the serials module."
 #~ msgstr "funktionen för mottagarlista i periodikamodulen."
 
-# Staff interface > Appearance > IntranetReportsHomeHTML
-# Staff interface > Appearance
-#~ msgid "staff_interface.pref#IntranetReportsHomeHTML# Show the following HTML in its own div on the bottom of the home page of the reports module:"
-#~ msgstr "Visa följande HTML i sin egen div längst ner på sidan bland Rapporter:"
+# Staff interface > Options > intranetbookbag
+# Staff interface > Options
+#, fuzzy
+#~ msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# Do"
+#~ msgstr "Visa"
+
+# Staff interface > Options > intranetbookbag
+# Staff interface > Options
+#, fuzzy
+#~ msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# Don't"
+#~ msgstr "Visa inte"
 
 # Staff interface > Appearance > IntranetmainUserblock
 # Staff interface > Appearance

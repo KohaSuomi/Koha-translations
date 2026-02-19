@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 03:05+0000\n"
+"POT-Creation-Date: 2026-02-19 12:28+0200\n"
 "PO-Revision-Date: 2025-10-02 03:04+0000\n"
 "Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1581,7 +1581,7 @@ msgid "Basket ID (internal)"
 msgstr "Korg-ID (internt)"
 
 #: Koha/Database/Columns.pm:74 Koha/Database/Columns.pm:212
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:280
+#: Koha/Database/Columns.pm:263 Koha/Database/Columns.pm:281
 msgid "Biblio number (internal)"
 msgstr "Biblio-nummer (internt)"
 
@@ -1633,7 +1633,7 @@ msgstr "Budgeterad kostnad, inkl. skatt."
 msgid "Budgeted cost"
 msgstr "Budgeterad kostnad"
 
-#: Koha/Database/Columns.pm:86 Koha/Database/Columns.pm:264
+#: Koha/Database/Columns.pm:86 Koha/Database/Columns.pm:265
 msgid "Creation date"
 msgstr "Skapad den"
 
@@ -1678,7 +1678,7 @@ msgstr "Orderstatus"
 msgid "Parent order number (internal)"
 msgstr "Överordnat ordernummer (internt)"
 
-#: Koha/Database/Columns.pm:97 Koha/Database/Columns.pm:344
+#: Koha/Database/Columns.pm:97 Koha/Database/Columns.pm:345
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
@@ -1689,7 +1689,7 @@ msgstr "Kvantitet"
 msgid "Quantity received"
 msgstr "Mottagen kvantitet"
 
-#: Koha/Database/Columns.pm:99 Koha/Database/Columns.pm:248
+#: Koha/Database/Columns.pm:99 Koha/Database/Columns.pm:249
 msgid "Replacement price"
 msgstr "Ersättningspris"
 
@@ -1880,7 +1880,7 @@ msgstr "Alternativ adress: Postnummer"
 msgid "Circulation note"
 msgstr "Kommentar"
 
-#: Koha/Database/Columns.pm:149 Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:149 Koha/Database/Columns.pm:313
 msgid "Borrower number"
 msgstr "Låntagarnummer"
 
@@ -1895,7 +1895,7 @@ msgstr "Hembibliotek"
 msgid "Card number"
 msgstr "Kortnummer"
 
-#: Koha/Database/Columns.pm:152 Koha/Database/Columns.pm:314
+#: Koha/Database/Columns.pm:152 Koha/Database/Columns.pm:315
 msgid "Patron category"
 msgstr "Låntagarkategori"
 
@@ -1950,19 +1950,19 @@ msgstr "Kommentar"
 
 #: Koha/Database/Columns.pm:166
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:49
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:918
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:923
 msgid "Primary email"
 msgstr "Primär e-post"
 
 #: Koha/Database/Columns.pm:167
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:57
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:920
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:925
 msgid "Secondary email"
 msgstr "Sekundär e-post"
 
 #: Koha/Database/Columns.pm:168
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:55
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:922
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:927
 msgid "Fax"
 msgstr "Fax"
 
@@ -2007,7 +2007,7 @@ msgid "Middle name"
 msgstr "Mellannamn"
 
 #: Koha/Database/Columns.pm:178
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:916
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:921
 msgid "Other phone"
 msgstr "Annan telefon"
 
@@ -2035,13 +2035,13 @@ msgstr "Lösenord"
 
 #: Koha/Database/Columns.pm:184
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:51
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:912
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:917
 msgid "Primary phone"
 msgstr "Primär telefon"
 
 #: Koha/Database/Columns.pm:185
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:59
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:914
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:919
 msgid "Secondary phone"
 msgstr "Sekundärt telefonnummer"
 
@@ -2152,7 +2152,7 @@ msgstr "Postnummer"
 msgid "Barcode"
 msgstr "Streckkod"
 
-#: Koha/Database/Columns.pm:211 Koha/Database/Columns.pm:279
+#: Koha/Database/Columns.pm:211 Koha/Database/Columns.pm:280
 msgid "Biblio item number (internal)"
 msgstr "Nummer för biblio-exemplar (internt)"
 
@@ -2164,16 +2164,16 @@ msgstr "Bokningsbar"
 msgid "Source of acquisition"
 msgstr "Inköpskanal"
 
-#: Koha/Database/Columns.pm:215 Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:215 Koha/Database/Columns.pm:316
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Collection"
 msgstr "Avdelning"
 
-#: Koha/Database/Columns.pm:216 Koha/Database/Columns.pm:283
+#: Koha/Database/Columns.pm:216 Koha/Database/Columns.pm:284
 msgid "Koha normalized classification for sorting"
 msgstr "Koha normaliserad klassificering för sortering"
 
-#: Koha/Database/Columns.pm:217 Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:217 Koha/Database/Columns.pm:285
 msgid "Source of classification or shelving scheme"
 msgstr "Källa för klassifikation/hyllsignaturer"
 
@@ -2231,7 +2231,7 @@ msgstr "Permanent bibliotek"
 msgid "Total checkouts"
 msgstr "Totalt antal lån"
 
-#: Koha/Database/Columns.pm:231 Koha/Database/Columns.pm:327
+#: Koha/Database/Columns.pm:231 Koha/Database/Columns.pm:328
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Call number"
 msgstr "Hyllsignatur"
@@ -2254,8 +2254,8 @@ msgstr "Offentlig anmärkning"
 msgid "Koha item number (autogenerated)"
 msgstr "Nummer för biblio-exemplar (internt)"
 
-#: Koha/Database/Columns.pm:237 Koha/Database/Columns.pm:319
-#: Koha/Database/Columns.pm:339
+#: Koha/Database/Columns.pm:237 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:340
 msgid "Koha item type"
 msgstr "Koha exemplartyp"
 
@@ -2263,7 +2263,7 @@ msgstr "Koha exemplartyp"
 msgid "Total local uses"
 msgstr "Total lokal användning"
 
-#: Koha/Database/Columns.pm:239 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:239 Koha/Database/Columns.pm:321
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Shelving location"
 msgstr "Placering"
@@ -2290,58 +2290,63 @@ msgid "Permanent shelving location"
 msgstr "Permanent placering"
 
 #: Koha/Database/Columns.pm:246
+#, fuzzy
+msgid "Sublocation"
+msgstr "Utgivningsdatum"
+
+#: Koha/Database/Columns.pm:247
 msgid "Price"
 msgstr "Pris"
 
-#: Koha/Database/Columns.pm:247
+#: Koha/Database/Columns.pm:248
 msgid "Total renewals"
 msgstr "Totalt antal omlån"
 
-#: Koha/Database/Columns.pm:249
+#: Koha/Database/Columns.pm:250
 msgid "Price effective from"
 msgstr "Pris gäller från"
 
-#: Koha/Database/Columns.pm:250
+#: Koha/Database/Columns.pm:251
 msgid "Total holds"
 msgstr "Totalt antal reservationer"
 
-#: Koha/Database/Columns.pm:251
+#: Koha/Database/Columns.pm:252
 msgid "Use restrictions"
 msgstr "Begränsningar"
 
-#: Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:253
 msgid "Shelving control number"
 msgstr "Kontrollnummer för hyllplats"
 
-#: Koha/Database/Columns.pm:253
+#: Koha/Database/Columns.pm:254
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Inventory number"
 msgstr "Accessionsnummer"
 
-#: Koha/Database/Columns.pm:254 Koha/Database/Columns.pm:273
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:274
+#: Koha/Database/Columns.pm:305
 msgid "Modification date"
 msgstr "Modifieringsdatum"
 
-#: Koha/Database/Columns.pm:255
+#: Koha/Database/Columns.pm:256
 msgid "Uniform Resource Identifier"
 msgstr "Uniform Resource Identifier"
 
-#: Koha/Database/Columns.pm:256
+#: Koha/Database/Columns.pm:257
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Withdrawn status"
 msgstr "Särskild status"
 
-#: Koha/Database/Columns.pm:257
+#: Koha/Database/Columns.pm:258
 msgid "Withdrawn on"
 msgstr "Återkallad den"
 
-#: Koha/Database/Columns.pm:260
+#: Koha/Database/Columns.pm:261
 msgid "Abstract"
 msgstr "Sammanfattning"
 
-#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:334
-#: Koha/ILL/Backend/Standard.pm:937
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:335
+#: Koha/ILL/Backend/Standard.pm:939
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:39
@@ -2357,46 +2362,46 @@ msgstr "Sammanfattning"
 msgid "Author"
 msgstr "Författare"
 
-#: Koha/Database/Columns.pm:263 Koha/Database/Columns.pm:337
+#: Koha/Database/Columns.pm:264 Koha/Database/Columns.pm:338
 msgid "Copyright date"
 msgstr "Utgivningsår"
 
-#: Koha/Database/Columns.pm:265
+#: Koha/Database/Columns.pm:266
 msgid "Framework code"
 msgstr "Ramverkskod"
 
-#: Koha/Database/Columns.pm:266
+#: Koha/Database/Columns.pm:267
 msgid "Medium"
 msgstr "Allmän medieterm"
 
-#: Koha/Database/Columns.pm:267 Koha/Database/Columns.pm:297
+#: Koha/Database/Columns.pm:268 Koha/Database/Columns.pm:298
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:878
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:883
 msgid "Notes"
 msgstr "Kommentarer"
 
-#: Koha/Database/Columns.pm:268
+#: Koha/Database/Columns.pm:269
 msgid "Name of part/section of a work"
 msgstr "Deltitel"
 
-#: Koha/Database/Columns.pm:269
+#: Koha/Database/Columns.pm:270
 msgid "Number of part/section of a work"
 msgstr "Delbeteckning"
 
-#: Koha/Database/Columns.pm:270
+#: Koha/Database/Columns.pm:271
 msgid "Is a serial?"
 msgstr "Är periodika?"
 
-#: Koha/Database/Columns.pm:271
+#: Koha/Database/Columns.pm:272
 msgid "Series title"
 msgstr "Serietitel"
 
-#: Koha/Database/Columns.pm:272
+#: Koha/Database/Columns.pm:273
 msgid "Remainder of title"
 msgstr "Övrig titelinformation"
 
-#: Koha/Database/Columns.pm:274 Koha/Database/Columns.pm:345
-#: Koha/ILL/Backend/Standard.pm:964
+#: Koha/Database/Columns.pm:275 Koha/Database/Columns.pm:346
+#: Koha/ILL/Backend/Standard.pm:966
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
@@ -2415,58 +2420,58 @@ msgstr "Övrig titelinformation"
 msgid "Title"
 msgstr "Titel"
 
-#: Koha/Database/Columns.pm:275
+#: Koha/Database/Columns.pm:276
 msgid "Uniform title"
 msgstr "Uniform titel"
 
-#: Koha/Database/Columns.pm:278
+#: Koha/Database/Columns.pm:279
 msgid "Age restriction"
 msgstr "Åldersbegränsning"
 
-#: Koha/Database/Columns.pm:281
+#: Koha/Database/Columns.pm:282
 msgid "Classification part"
 msgstr "Klassificering"
 
-#: Koha/Database/Columns.pm:282
+#: Koha/Database/Columns.pm:283
 msgid "Item part"
 msgstr "Exemplardel"
 
-#: Koha/Database/Columns.pm:285
+#: Koha/Database/Columns.pm:286
 msgid "Call number suffix"
 msgstr "Hyllsignatur"
 
-#: Koha/Database/Columns.pm:286
+#: Koha/Database/Columns.pm:287
 #, fuzzy
 msgid "Series statement"
 msgstr "Serietitel"
 
-#: Koha/Database/Columns.pm:287
+#: Koha/Database/Columns.pm:288
 msgid "Series ISSN"
 msgstr "ISSN för serie"
 
-#: Koha/Database/Columns.pm:288
+#: Koha/Database/Columns.pm:289
 msgid "Series volume"
 msgstr "Serievolym"
 
-#: Koha/Database/Columns.pm:289
+#: Koha/Database/Columns.pm:290
 msgid "EAN"
 msgstr "EAN"
 
-#: Koha/Database/Columns.pm:290
+#: Koha/Database/Columns.pm:291
 msgid "Edition responsibility"
 msgstr ""
 
-#: Koha/Database/Columns.pm:291
+#: Koha/Database/Columns.pm:292
 #, fuzzy
 msgid "Edition statement"
 msgstr "Lägg till ytterligare innehåll"
 
-#: Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:293
 msgid "Other physical details"
 msgstr "Övriga fysiska detaljer"
 
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:338
-#: Koha/ILL/Backend/Standard.pm:946
+#: Koha/Database/Columns.pm:294 Koha/Database/Columns.pm:339
+#: Koha/ILL/Backend/Standard.pm:948
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
@@ -2479,7 +2484,7 @@ msgstr "Övriga fysiska detaljer"
 msgid "ISBN"
 msgstr "ISBN"
 
-#: Koha/Database/Columns.pm:294 Koha/ILL/Backend/Standard.pm:947
+#: Koha/Database/Columns.pm:295 Koha/ILL/Backend/Standard.pm:949
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:55
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:14
@@ -2489,24 +2494,24 @@ msgstr "ISBN"
 msgid "ISSN"
 msgstr "ISSN"
 
-#: Koha/Database/Columns.pm:295
+#: Koha/Database/Columns.pm:296
 msgid "Biblio-level item type"
 msgstr "Exemplartyp på biblio-nivå"
 
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:297
 msgid "LCCN"
 msgstr "LCCN"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:299
 msgid "Number"
 msgstr "Antal"
 
-#: Koha/Database/Columns.pm:299
+#: Koha/Database/Columns.pm:300
 msgid "Number of pages"
 msgstr "Antal sidor"
 
-#: Koha/Database/Columns.pm:300 Koha/Database/Columns.pm:342
-#: Koha/ILL/Backend/Standard.pm:958
+#: Koha/Database/Columns.pm:301 Koha/Database/Columns.pm:343
+#: Koha/ILL/Backend/Standard.pm:960
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:42
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:8
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:42
@@ -2514,7 +2519,7 @@ msgstr "Antal sidor"
 msgid "Place of publication"
 msgstr "Utgivningsort"
 
-#: Koha/Database/Columns.pm:301 Koha/ILL/Backend/Standard.pm:957
+#: Koha/Database/Columns.pm:302 Koha/ILL/Backend/Standard.pm:959
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:7
@@ -2523,8 +2528,8 @@ msgstr "Utgivningsort"
 msgid "Publication date"
 msgstr "Utgivningsdatum"
 
-#: Koha/Database/Columns.pm:302 Koha/Database/Columns.pm:343
-#: Koha/ILL/Backend/Standard.pm:959
+#: Koha/Database/Columns.pm:303 Koha/Database/Columns.pm:344
+#: Koha/ILL/Backend/Standard.pm:961
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
@@ -2535,146 +2540,146 @@ msgstr "Utgivningsdatum"
 msgid "Publisher"
 msgstr "Förlag"
 
-#: Koha/Database/Columns.pm:303
+#: Koha/Database/Columns.pm:304
 msgid "Size"
 msgstr "Storlek"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:306
 msgid "Total checkouts, all items"
 msgstr "Totalt antal lån, alla exemplar"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:307
 msgid "URL"
 msgstr "URL"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:308
 msgid "Volume number"
 msgstr "Volymnummer"
 
-#: Koha/Database/Columns.pm:308
+#: Koha/Database/Columns.pm:309
 msgid "Volume date"
 msgstr "Volymdatum"
 
-#: Koha/Database/Columns.pm:309
+#: Koha/Database/Columns.pm:310
 msgid "Volume information"
 msgstr "Volyminformation"
 
-#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:326
-#: Koha/Database/Columns.pm:335 Koha/ILL/Request/Workflow/HistoryCheck.pm:91
+#: Koha/Database/Columns.pm:314 Koha/Database/Columns.pm:327
+#: Koha/Database/Columns.pm:336 Koha/ILL/Request/Workflow/HistoryCheck.pm:91
 msgid "Library"
 msgstr "Bibliotek"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:317
 msgid "Statistics date and time"
 msgstr "Datum och tid för statistik"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:318
 msgid "Interface"
 msgstr "Gränssnitt"
 
-#: Koha/Database/Columns.pm:318
+#: Koha/Database/Columns.pm:319
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Item number"
 msgstr "Exemplarnummer"
 
-#: Koha/Database/Columns.pm:321
+#: Koha/Database/Columns.pm:322
 msgid "SIP mode"
 msgstr "SIP-läge"
 
-#: Koha/Database/Columns.pm:322
+#: Koha/Database/Columns.pm:323
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
 msgid "Transaction type"
 msgstr "Transaktionstyp"
 
-#: Koha/Database/Columns.pm:323
+#: Koha/Database/Columns.pm:324
 msgid "Value"
 msgstr "Värde"
 
-#: Koha/Database/Columns.pm:328
+#: Koha/Database/Columns.pm:329
 msgid "End date"
 msgstr "Slutdatum"
 
-#: Koha/Database/Columns.pm:329
+#: Koha/Database/Columns.pm:330
 msgid "Location"
 msgstr "Plats"
 
-#: Koha/Database/Columns.pm:330
+#: Koha/Database/Columns.pm:331
 msgid "Periodicity"
 msgstr "Periodicitet"
 
-#: Koha/Database/Columns.pm:331
+#: Koha/Database/Columns.pm:332
 msgid "Start date"
 msgstr "Startdatum"
 
-#: Koha/Database/Columns.pm:336
+#: Koha/Database/Columns.pm:337
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Collection title"
 msgstr "Titel på samling"
 
-#: Koha/Database/Columns.pm:340
+#: Koha/Database/Columns.pm:341
 msgid "Note"
 msgstr "Kommentar"
 
-#: Koha/Database/Columns.pm:341
+#: Koha/Database/Columns.pm:342
 msgid "Patron reason"
 msgstr "Låntagarens motivering"
 
-#: Koha/ILL/Backend/Standard.pm:177
+#: Koha/ILL/Backend/Standard.pm:179
 #, fuzzy
 msgid "Switched provider"
 msgstr "SMS-leverantör"
 
-#: Koha/ILL/Backend/Standard.pm:178
+#: Koha/ILL/Backend/Standard.pm:180
 #, fuzzy
 msgid "Switch provider"
 msgstr "SMS-leverantör"
 
-#: Koha/ILL/Backend/Standard.pm:186
+#: Koha/ILL/Backend/Standard.pm:188
 msgid "Edited item metadata"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:187
+#: Koha/ILL/Backend/Standard.pm:189
 msgid "Edit item metadata"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:934
+#: Koha/ILL/Backend/Standard.pm:936
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:11
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:11
 #, fuzzy
 msgid "Article author"
 msgstr "Artikelbeställningar"
 
-#: Koha/ILL/Backend/Standard.pm:935
+#: Koha/ILL/Backend/Standard.pm:937
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:10
 #, fuzzy
 msgid "Article title"
 msgstr "Serietitel"
 
-#: Koha/ILL/Backend/Standard.pm:936
+#: Koha/ILL/Backend/Standard.pm:938
 msgid "Associated ID"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:938
+#: Koha/ILL/Backend/Standard.pm:940
 #, fuzzy
 msgid "Chapter author"
 msgstr "Visa färre författare"
 
-#: Koha/ILL/Backend/Standard.pm:939
+#: Koha/ILL/Backend/Standard.pm:941
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/chapter.inc:11
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/chapter.inc:11
 msgid "Chapter"
 msgstr "Kapitel"
 
-#: Koha/ILL/Backend/Standard.pm:940
+#: Koha/ILL/Backend/Standard.pm:942
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:6
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:6
 #, fuzzy
 msgid "Conference date"
 msgstr "Skapad den"
 
-#: Koha/ILL/Backend/Standard.pm:941
+#: Koha/ILL/Backend/Standard.pm:943
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:47
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:14
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/journal.inc:5
@@ -2688,7 +2693,7 @@ msgstr "Skapad den"
 msgid "DOI"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:942
+#: Koha/ILL/Backend/Standard.pm:944
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:40
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:8
@@ -2697,70 +2702,70 @@ msgstr ""
 msgid "Editor"
 msgstr "Redaktör"
 
-#: Koha/ILL/Backend/Standard.pm:943
+#: Koha/ILL/Backend/Standard.pm:945
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:9
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:9
 msgid "Format"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:944
+#: Koha/ILL/Backend/Standard.pm:946
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:7
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:7
 msgid "Genre"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:945
+#: Koha/ILL/Backend/Standard.pm:947
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:6
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/thesis.inc:6
 msgid "Institution"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:948
+#: Koha/ILL/Backend/Standard.pm:950
 msgid "Issue"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:949
+#: Koha/ILL/Backend/Standard.pm:951
 msgid "Date"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:950
+#: Koha/ILL/Backend/Standard.pm:952
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:10
 msgid "Language"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:951
+#: Koha/ILL/Backend/Standard.pm:953
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/chapter.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:32
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:358
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:37
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:370
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:13
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/chapter.inc:12
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:12
 msgid "Pages"
 msgstr "Sidor"
 
-#: Koha/ILL/Backend/Standard.pm:952
+#: Koha/ILL/Backend/Standard.pm:954
 #, fuzzy
 msgid "Pagination"
 msgstr "Lokalisering"
 
-#: Koha/ILL/Backend/Standard.pm:953
+#: Koha/ILL/Backend/Standard.pm:955
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:14
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:14
 #, fuzzy
 msgid "Paper author"
 msgstr "författare "
 
-#: Koha/ILL/Backend/Standard.pm:954
+#: Koha/ILL/Backend/Standard.pm:956
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:13
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:13
 #, fuzzy
 msgid "Paper title"
 msgstr "Serietitel"
 
-#: Koha/ILL/Backend/Standard.pm:955
+#: Koha/ILL/Backend/Standard.pm:957
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:44
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:44
@@ -2768,41 +2773,41 @@ msgstr "Serietitel"
 msgid "Part / Edition"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:956
+#: Koha/ILL/Backend/Standard.pm:958
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:5
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:5
 #, fuzzy
 msgid "Publication"
 msgstr "Utgivningsdatum"
 
-#: Koha/ILL/Backend/Standard.pm:960 Koha/ILL/Backend/Standard.pm:961
+#: Koha/ILL/Backend/Standard.pm:962 Koha/ILL/Backend/Standard.pm:963
 msgid "PubMed ID"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:962
+#: Koha/ILL/Backend/Standard.pm:964
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:8
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:8
 msgid "Sponsor"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:963
+#: Koha/ILL/Backend/Standard.pm:965
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:6
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:6
 msgid "Studio"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:965
+#: Koha/ILL/Backend/Standard.pm:967
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/create.inc:52
 msgid "Type"
 msgstr "Typ"
 
-#: Koha/ILL/Backend/Standard.pm:966
+#: Koha/ILL/Backend/Standard.pm:968
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:7
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:7
 msgid "Venue"
 msgstr ""
 
-#: Koha/ILL/Backend/Standard.pm:967
+#: Koha/ILL/Backend/Standard.pm:969
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:45
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:52
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:9
@@ -2815,7 +2820,7 @@ msgstr ""
 msgid "Volume"
 msgstr "Volymdatum"
 
-#: Koha/ILL/Backend/Standard.pm:968
+#: Koha/ILL/Backend/Standard.pm:970
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:43
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:54
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:8
@@ -3149,14 +3154,14 @@ msgctxt "Budget planning"
 msgid "Planning for '{fund}' by {type}"
 msgstr "Planering för '{fund}' per {type}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:135
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:136
 #, perl-brace-format
 msgid "There is an item attached to this record. You must delete all items before deleting this record"
 msgid_plural "There are {count} items attached to this record. You must delete all items before deleting this record"
 msgstr[0] "Det finns ett exemplar kopplat till den här posten. Du måste ta bort det innan du kan ta bort den här posten"
 msgstr[1] "Det finns {count} exemplar kopplade till den här posten. Du måste ta bort dem innan du kan ta bort den här posten"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:144
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:147
 #, perl-brace-format
 msgid "There is a subscription attached to this record. You must delete all subscriptions before deleting this record"
 msgid_plural "There are {subscriptions_count} subscriptions attached to this record. You must delete all subscriptions before deleting this record"
@@ -4184,60 +4189,56 @@ msgstr "Ställ in kassaregister"
 msgid "Set desk"
 msgstr "Ställ in informationsdisk"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:237
-#, perl-brace-format
-msgid "Only item {barcode}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:239
-msgid "Only item [No barcode]"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:365
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:361
 msgid "Item is checked out"
 msgstr "Exemplaret är utlånat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:367
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:363
 msgid "Item does not belong to your library"
 msgstr "Exemplaret tillhör inte ditt bibliotek"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:369
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:365
 msgid "Item has a waiting hold"
 msgstr "Exemplaret har en väntande reservation"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:371
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:367
+#, fuzzy
+msgid "Item has item level holds"
+msgstr "Exemplaret har en väntande reservation"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:369
 msgid "Item has linked analytics"
 msgstr "Exemplaret har länkade analysdata"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:373
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:371
 msgid "Last item for bibliographic record with biblio-level hold on it"
 msgstr "Sista exemplaret för en bibliografisk post med reservation på postnivå"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:375
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:373
 msgid "Unknown reason"
 msgstr "Okänd anledning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:394
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:392
 #, perl-brace-format
 msgid "Holds on this item: {item_holds} / Total holds on this record: {total_holds}"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:396
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:394
 #, perl-brace-format
 msgid "No holds on this item / Total holds on this record: {total_holds}"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:400
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:398
 #, perl-brace-format
 msgid "Holds on this record: {total_holds}"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:402
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:400
 #, fuzzy
 msgid "No holds on this record"
 msgstr "Länk till värdpost"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:709
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:707
 msgid "OK"
 msgstr ""
 
@@ -4281,7 +4282,6 @@ msgstr "Sök rapporter i Mana Knowledge Base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/moddeliverydate.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/modordernotes.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty_duplicate.tt:8
@@ -4329,6 +4329,7 @@ msgstr "Sök rapporter i Mana Knowledge Base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/didyoumean.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/hold_pickup_shelves.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:11
@@ -4381,16 +4382,16 @@ msgstr "Sök rapporter i Mana Knowledge Base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:35
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:203
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:209
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showelastic.tt:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showmarc.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:13
@@ -4478,6 +4479,7 @@ msgstr "Sök rapporter i Mana Knowledge Base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:24
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:14
@@ -4553,7 +4555,7 @@ msgstr "Sök rapporter i Mana Knowledge Base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printnotice.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/purchase-suggestions.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/readingrec.tt:16
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/routing-lists.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/statistics.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:10
@@ -4605,10 +4607,10 @@ msgstr "Sök rapporter i Mana Knowledge Base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemtypes.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:37
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:25
@@ -4623,7 +4625,7 @@ msgstr "Sök rapporter i Mana Knowledge Base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-home.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:18
@@ -4639,13 +4641,14 @@ msgstr "Sök rapporter i Mana Knowledge Base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/access_files.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:44
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:22
@@ -4696,7 +4699,7 @@ msgstr "Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemtypes.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:12
 msgid "Reports"
@@ -4787,8 +4790,8 @@ msgid "Category (code)"
 msgstr "Kategori (kod)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:91
-msgid "Address correction needed"
-msgstr "Adress i behov av kontroll"
+msgid "Gone no address"
+msgstr "Ogiltig adress"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:93
 msgid "Lost card"
@@ -4894,7 +4897,7 @@ msgstr "Senast sedd"
 msgid "Check previous checkout"
 msgstr "Kontrollera tidigare lån"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:165
+#: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:166
 msgid "Hide SQL code"
 msgstr "Dölj SQL-kod"
 
@@ -4911,7 +4914,6 @@ msgid "Suspension"
 msgstr "Avstängd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:13
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-discharge.tt:12
 msgid "Discharge"
 msgstr "Begär borttagning"
 
@@ -4953,8 +4955,9 @@ msgstr "Plugins"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:21
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:44
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:12
@@ -5006,6 +5009,7 @@ msgstr "Verktyg"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/didyoumean.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/hold_pickup_shelves.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:11
@@ -5046,21 +5050,21 @@ msgstr "Administration"
 msgid "About Koha"
 msgstr "Om Koha"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:290
+#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:289
 #, fuzzy
 msgid "Module current"
 msgstr "Ny valuta"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:293
+#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:292
 msgid "Module upgrade needed"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:297
+#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:296
 #, fuzzy
 msgid "Required module missing"
 msgstr "Saknade Perl-moduler"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:300
+#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:299
 #, fuzzy
 msgid "Optional module missing"
 msgstr "Saknade Perl-moduler"
@@ -5077,7 +5081,6 @@ msgstr "Saknade Perl-moduler"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/moddeliverydate.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty_duplicate.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:12
@@ -5133,13 +5136,13 @@ msgid "Created by:"
 msgstr "Skapad av:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:404
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:283
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:288
 msgctxt "Acquisitions basket managed by user"
 msgid "Managed by:"
 msgstr "Hanterad av:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:567
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:873
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:885
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/ordered.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:270
@@ -5152,15 +5155,15 @@ msgctxt "noun"
 msgid "Order"
 msgstr "Beställning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:811
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:827
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersuggestion.tt:103
 #, fuzzy
 msgctxt "verb"
 msgid "Link suggestion"
 msgstr "Lägg till förslag"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:1346
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:797
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:1342
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:790
 msgid "Add user"
 msgstr "Lägg till användare"
 
@@ -5233,12 +5236,11 @@ msgstr "Beställningssökning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:13
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:41
 msgid "Search results"
 msgstr "Sökresultat"
 
@@ -5272,10 +5274,6 @@ msgstr "Fakturor"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:13
 msgid "Late orders"
 msgstr "Sena beställningar"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/moddeliverydate.tt:9
-msgid "Change estimated delivery date"
-msgstr "Ändra uppskattat leveransdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/modordernotes.tt:8
 msgid "Change order vendor note"
@@ -5332,7 +5330,7 @@ msgid "Receipt summary for {vendor}"
 msgstr "Sammanfattat kvitto för {vendor}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:293
-#, fuzzy
+#, fuzzy, perl-brace-format
 msgid "{budget_description} (Inactive)"
 msgstr "Budget '{budget_period_description}' stängd"
 
@@ -5781,7 +5779,7 @@ msgstr "Är du säker på att du vill ta bort det här?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:49
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:110
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:109
 #, perl-brace-format
 msgid "Modify framework '{framework}' ({frameworkcode})"
 msgstr "Modifiera ramverk '{framework}' ({frameworkcode})"
@@ -5808,7 +5806,7 @@ msgstr "Bekräfta borttagning av '{framework}' ({frameworkcode})"
 msgid "MARC bibliographic frameworks"
 msgstr "MARC-bibliografiskt ramverk"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:158
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:157
 #, perl-brace-format
 msgid "Confirm deletion of framework '{framework}' ({frameworkcode})?"
 msgstr "Bekräfta borttagning av '{framework}' ({frameworkcode})?"
@@ -5838,7 +5836,6 @@ msgid "Confirm deletion of library '{library}'"
 msgstr "Bekräfta borttagning av bibliotek '{library}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:25
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-library.tt:18
 msgid "Libraries"
 msgstr "Bibliotek"
 
@@ -6130,6 +6127,10 @@ msgstr "Bekräfta borttagning av EAN '{ean}'?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:25
 msgid "Library EANs"
 msgstr "Biblioteks-EAN"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/hold_pickup_shelves.tt:12
+msgid "Hold pickup shelves"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:12
 msgid "New identity provider domain"
@@ -6697,10 +6698,10 @@ msgstr "Din minneslista"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:35
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:203
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:209
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showelastic.tt:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:12
@@ -6709,7 +6710,6 @@ msgid "Catalog"
 msgstr "Katalog"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:6
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadcart.tt:6
 msgid "Download cart"
 msgstr "Ladda ner minneslista"
 
@@ -6725,32 +6725,6 @@ msgstr "Utskriftsmeddelanden för {today}"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:10
 msgid "Bookings"
 msgstr "Bokningar"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:44
-msgid "Exclude cancelled"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:44
-#, fuzzy
-msgid "Exclude completed"
-msgstr "Markera som avslutad"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:44
-msgid "Exclude expired"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:44
-msgid "Include cancelled"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:44
-#, fuzzy
-msgid "Include completed"
-msgstr "Markera som avslutad"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:44
-msgid "Include expired"
-msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:10
@@ -6775,7 +6749,6 @@ msgid "Advanced search"
 msgstr "Avancerad sökning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:33
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:39
 #, perl-brace-format
 msgid "Details for {title}"
 msgstr "Detaljer för {title}"
@@ -6797,12 +6770,12 @@ msgstr "Bilder"
 msgid "Checkout history for {title}"
 msgstr "Utlåningshistorik för {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:202
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:208
 msgid "Item search"
 msgstr "Exemplarsökning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:354
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:356
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:357
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:359
 msgctxt "On specific date"
 msgid "On"
 msgstr "På"
@@ -6817,44 +6790,35 @@ msgstr ""
 msgid "Item details for {title}"
 msgstr "Exemplarinformation för {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:19
 #, perl-brace-format
 msgid "Results of search for {query_desc} with limit(s): '{limit_desc}'"
 msgstr "Sökresultat för {query_desc} med begränsning(ar): '{limit_desc}'"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:21
 #, perl-brace-format
 msgid "Results of search for {query_desc}"
 msgstr "Sökresultat för {query_desc}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:25
 #, perl-brace-format
 msgid "Results of search for {limit_desc}"
 msgstr "Sökresultat för {limit_desc}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:28
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:27
 msgid "Results of search"
 msgstr "Sökresultat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:32
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:44
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:31
 msgid "You did not specify any search criteria"
 msgstr "Du har inte angett några söktermer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:763
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:781
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:750
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:757
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:18
 #, perl-brace-format
 msgid "{count} item"
 msgid_plural "{count} items"
-msgstr[0] "{count} exemplar"
-msgstr[1] "{count} exemplar"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:771
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:789
-#, fuzzy, perl-brace-format
-msgid "{count} local item"
-msgid_plural "{count} local items"
 msgstr[0] "{count} exemplar"
 msgstr[1] "{count} exemplar"
 
@@ -6868,7 +6832,7 @@ msgstr "MARC-import"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showmarc.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:18
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:13
@@ -6896,7 +6860,7 @@ msgstr "MARC-import"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-home.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:18
@@ -6925,12 +6889,12 @@ msgstr "Redigerar {title} (Katalogpostnummer) {biblionumber})"
 msgid "Add MARC record"
 msgstr "Lägg till MARC-post"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:787
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:788
 msgctxt "Editing MARC record titled:"
 msgid "Editing"
 msgstr "Redigerar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:14
 msgid "No results found"
 msgstr "Inga resultat hittades"
 
@@ -6948,23 +6912,23 @@ msgstr "{title} av {author}"
 msgid "(Record #{biblionumber})"
 msgstr "(Post #{biblionumber})"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:67
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:68
 #, perl-brace-format
 msgid "Edit {title} by {author}"
 msgstr "Redigera {title} av {author}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:68
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:71
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:69
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:72
 msgctxt "Bibliographic record number"
 msgid "Record #"
 msgstr "Post #"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:70
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:71
 #, perl-brace-format
 msgid "Edit {title}"
 msgstr "Redigera {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:76
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:77
 msgctxt "Items attached to a bibliographic record"
 msgid "Items"
 msgstr "Exemplar"
@@ -7365,6 +7329,7 @@ msgstr "Artikelbeställningar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:14
@@ -7389,7 +7354,7 @@ msgstr "Artikelbeställningar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_queue.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:37
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:36
 msgid "Circulation"
 msgstr "Cirkulation"
 
@@ -7434,6 +7399,11 @@ msgstr "Satsutlåning till {patron}"
 msgid "Curbside pickups"
 msgstr "Upphämtningar"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:14
+msgid "Holds to pull"
+msgstr "Plocklista reservationer"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:12
 msgid "Pending on-site checkouts"
 msgstr "Pågående utlån på plats"
@@ -7446,10 +7416,6 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:13
 msgid "Bookings to collect"
 msgstr "Bokningar att hämta"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:14
-msgid "Holds to pull"
-msgstr "Plocklista reservationer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:12
 msgid "Hold transfer print receipt"
@@ -7494,7 +7460,7 @@ msgstr "Kvitto för {borrowernumber}"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printnotice.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/purchase-suggestions.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/readingrec.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/routing-lists.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/statistics.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:10
@@ -7524,56 +7490,57 @@ msgstr "Reservationsförhållanden"
 msgid "Check in {title}"
 msgstr "Återlämna {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:862
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:863
 #, fuzzy
 msgid "Confirm hold and transfer"
 msgstr "Bekräfta reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:863
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:864
 msgid "Print slip, transfer, and confirm"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:865
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:866
 #, fuzzy
 msgid "Confirm hold"
 msgstr "Bekräfta reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:866
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:868
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:870
 msgid "Print slip and confirm"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:872
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:877
 msgid "Hold found"
 msgstr "Reservation funnen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:872
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:877
 msgid "Ignore"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:882
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:887
 #, fuzzy
 msgid "Hold for"
 msgstr "Reservera"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:909
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:914
 #, fuzzy
 msgid "Main contact method"
 msgstr "Primär kontaktmetod"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:929
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:934
 msgid "Patron is RESTRICTED"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:933
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:938
 msgid "Patron's address is in doubt"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:937
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:942
 #, fuzzy
 msgid "Transfer to"
 msgstr "Överför"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:939
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:944
 msgid "Hold at"
 msgstr "Reservation på"
 
@@ -8048,12 +8015,12 @@ msgstr "Professionell"
 msgid "Statistical"
 msgstr "Statistisk"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1380
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1431
 msgctxt "patron restriction created on"
 msgid "Created"
 msgstr "Skapad"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1963
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2028
 msgid "Add guarantor"
 msgstr "Lägg till vårdnadshavare"
 
@@ -8108,7 +8075,7 @@ msgstr "Inköpsförslag för"
 msgid "Circulation history for"
 msgstr "Utlåningshistorik för"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:10
 msgid "Recalls history for"
 msgstr "Återkravshistorik för"
 
@@ -8482,20 +8449,20 @@ msgstr "Reservationsstatistik"
 msgid "Serials subscriptions stats"
 msgstr "Prenumerationsstatistik för periodika"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:30
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:29
 #, perl-brace-format
 msgid "Place a hold on {title}"
 msgstr "Reservera {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:32
 msgid "Confirm holds"
 msgstr "Bekräfta reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:36
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:35
 msgid "Holds"
 msgstr "Reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1258
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1250
 msgid "Hold"
 msgid_plural "Holds"
 msgstr[0] "Reservera"
@@ -8587,7 +8554,7 @@ msgstr "Sökresultat leverantör"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:13
@@ -8652,7 +8619,7 @@ msgstr "Lägg till mottagare"
 msgid "Serial collection information"
 msgstr "Volyminformation"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:10
 #, fuzzy
 msgid "Serial edition"
 msgstr "Numrering för serie"
@@ -8824,41 +8791,57 @@ msgstr "Väntar"
 msgid "Access files"
 msgstr "Kom åt filer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:13
 msgid "Modify news item"
 msgstr "Redigera nyhet"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:15
 msgid "Modify page"
 msgstr "Redigera sida"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:17
+#, fuzzy
+msgid "Modify record display customization"
+msgstr "Redigera HTML-anpassning"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:19
 msgid "Modify HTML customization"
 msgstr "Redigera HTML-anpassning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:23
 msgid "New news item"
 msgstr "Ny nyhet"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:25
 msgid "New page"
 msgstr "Ny sida"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:24
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:27
+#, fuzzy
+msgid "New record display customization"
+msgstr "Ny HTML-anpassning"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:29
 msgid "New HTML customization"
 msgstr "Ny HTML-anpassning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:30
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:356
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:35
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:368
 msgid "News"
 msgstr "Nyheter"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:34
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:360
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:39
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:372
+#, fuzzy
+msgid "Record display customizations"
+msgstr "Redigera HTML-anpassning"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:41
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:374
 msgid "HTML customizations"
 msgstr "HTML-anpassningar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:44
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:51
 msgid "Additional content"
 msgstr "Lägg till ytterligare innehåll"
 
@@ -8883,8 +8866,8 @@ msgstr "Bekräfta val"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:53
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:16
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:54
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:14
@@ -8901,14 +8884,14 @@ msgstr "Jobb lagt i kö"
 msgid "Batch item deletion"
 msgstr "Satsvis borttagning av exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:59
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:60
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:45
 msgid "Modifications"
 msgstr "Ändringar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:12
 msgid "Batch item modification"
 msgstr "Satsvis redigering av exemplar"
@@ -8920,6 +8903,10 @@ msgstr "Satsvis borttagning av poster"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:21
 msgid "Batch extend due dates"
 msgstr "Förläng återlämningsdatum satsvis"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:14
+msgid "Batch modify holds"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:17
 msgid "Batch record modification"
@@ -8968,8 +8955,8 @@ msgid "Export data"
 msgstr "Exportera data"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:33
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:39
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:29
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:35
 #, perl-brace-format
 msgid "{library} calendar"
 msgstr "{library} kalender"
@@ -9062,7 +9049,7 @@ msgid "Notices and slips"
 msgstr "Meddelanden och kvitton"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:635
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:99
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:100
 msgctxt "Message transport type"
 msgid "Print"
 msgstr "Utskrift"
@@ -9103,7 +9090,6 @@ msgid "Overdue notice/status triggers"
 msgstr "Inställningar för förseningsmeddelande/status"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/page.tt:12
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-page.tt:14
 msgid "Page error"
 msgstr "Sidfel"
 
@@ -9277,12 +9263,12 @@ msgstr "Ta bort"
 msgid "Transfer"
 msgstr "Överför"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:209
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:206
 msgctxt "Cancel hold button"
 msgid "Cancel"
 msgstr "Ta bort"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:219
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:216
 msgctxt "Request to cancel hold button"
 msgid "Request to cancel"
 msgstr "Begär att avbryta"
@@ -9600,249 +9586,56 @@ msgstr "Sök i vår katalog"
 msgid "Course reserves for '{course_name}'"
 msgstr "Kurslistor för {course_name}"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:14
-#, fuzzy
-msgid "Your curbside pickups"
-msgstr "Upphämtningar"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:12
-#, fuzzy, perl-brace-format
-msgid "Download list {list}"
-msgstr "Ladda ner lista"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:14
-#, fuzzy, perl-brace-format
-msgid "Full subscription history for {title}"
-msgstr "Utlåningshistorik för {title}"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:17
-#, fuzzy
-msgid "Your holds history"
-msgstr "Reservationshistorik för"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-idref.tt:6
-#, perl-brace-format
-msgid "Your search IDREF for ppn {ppn}"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:15
-msgid "Your interlibrary loan requests"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-imageviewer.tt:12
-#, fuzzy, perl-brace-format
-msgid "Images for {title}"
-msgstr "Exemplarinformation för {title}"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:13
-#, fuzzy, perl-brace-format
-msgid "Editing checkout note for {title}"
-msgstr "Utlåningshistorik för {title}"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:239
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:234
 msgid "checkout"
 msgid_plural "checkouts"
 msgstr[0] "utlån"
 msgstr[1] "utlån"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:247
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:242
 msgid "overdue"
 msgid_plural "overdues"
 msgstr[0] "försenad"
 msgstr[1] "försenade"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:255
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:250
 msgid "hold pending"
 msgid_plural "holds pending"
 msgstr[0] "avvaktande reservation"
 msgstr[1] "avvaktande reservationer"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:263
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:258
 msgid "hold waiting"
 msgid_plural "holds waiting"
 msgstr[0] "väntande reservation"
 msgstr[1] "väntande reservationer"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:280
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:287
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:275
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:282
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "meddelande"
 msgstr[1] "meddelanden"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:11
-msgid "Updates submitted"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:40
-#, fuzzy
-msgid "Update your personal details"
-msgstr "Övriga fysiska detaljer"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:42
-#, fuzzy
-msgid "Register a new account"
-msgstr "Registreringsdatum"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:554
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:544
 msgctxt "gender"
 msgid "Other:"
 msgstr "Annat:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:11
-msgid "Your messaging settings"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-news-rss.tt:11
-#, fuzzy, perl-brace-format
-msgid "News from {library} catalog"
-msgstr "{library} katalog"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-news-rss.tt:13
-#, fuzzy
-msgid "News from the library"
-msgstr "Nytt bibliotek"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt:12
-#, fuzzy, perl-brace-format
-msgid "OverDrive search for '{keyword}'"
-msgstr "Sökresultat för '{search_keyword}'"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-passwd.tt:12
-#, fuzzy
-msgid "Change your password"
-msgstr "Ogiltigt användarnamn eller lösenord"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:12
-#, fuzzy
-msgid "Forgotten password recovery"
-msgstr "Uppdatera lösenord för"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:13
-#, fuzzy
-msgid "Your consents"
-msgstr "Dina avgifter"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:11
-#, fuzzy
-msgid "Your privacy management"
-msgstr "Din betalning"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:15
-#, fuzzy
-msgid "Your checkout history"
-msgstr "Sökhistorik"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:13
-#, fuzzy
-msgid "Recall"
-msgstr "Återkrav"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recalls.tt:9
-#, fuzzy
-msgid "Your recalls history"
-msgstr "Återkravshistorik för"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-email-sent.tt:11
-msgid "Please confirm your registration"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reportproblem.tt:11
-msgid "Report a problem"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:14
-#, fuzzy, perl-brace-format
-msgid "Request article from {title}"
-msgstr "Beställ artikel"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:17
-msgid "Placing a hold"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reset-password.tt:10
-msgid "Reset your password"
-msgstr ""
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-restrictedpage.tt:14
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-restrictedpage.tt:32
-#, fuzzy
-msgid "Restricted page"
-msgstr "Begränsad"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:39
-#, fuzzy, perl-brace-format
-msgid "Results of search for '{keyword}'"
-msgstr "Sökresultat för {query_desc}"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-review.tt:7
-#, fuzzy, perl-brace-format
-msgid "Comments on {title}"
-msgstr "Återlämna {title}"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-routing-lists.tt:13
-#, fuzzy
-msgid "Your routing lists"
-msgstr "Ny mottagarlista"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:14
-#, fuzzy
-msgid "Your search history"
-msgstr "Sökhistorik"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:438
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:457
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:447
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:466
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:475
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:791
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:484
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:790
 #, perl-brace-format
 msgid "{renewals_left} of {renewals_allowed} renewals remaining"
 msgstr "{renewals_left} av {renewals_allowed} kvarstående omlån"
 
-#: tools/inventory.pl:449
-msgid "Problem"
-msgstr ""
-
-#: tools/inventory.pl:464
-#, fuzzy
-msgid "wrong place"
-msgstr "Faktureringsplats"
-
-#: tools/inventory.pl:466
-#, fuzzy
-msgid "unselected notforloan status"
-msgstr "status «Ej för utlån»"
-
-#: tools/inventory.pl:468
-msgid "missing"
-msgstr ""
-
-#: tools/inventory.pl:470
-#, fuzzy
-msgid "no barcode"
-msgstr "Streckkod"
-
-#: tools/inventory.pl:472
-#, fuzzy
-msgid "checked out"
-msgstr "Utlånad"
-
-#: tools/inventory.pl:474
-#, fuzzy
-msgid "shelved out of order"
-msgstr "Skatt på beställning"
-
-#: tools/inventory.pl:476
-#, fuzzy
-msgid "item was lost"
-msgstr "Exemplar förlorat"
-
-#: tools/inventory.pl:491
-msgid "barcode not found"
-msgstr ""
-
 #~ msgid "Add vendor"
 #~ msgstr "Lägg till leverantör"
+
+#~ msgid "Address correction needed"
+#~ msgstr "Adress i behov av kontroll"
 
 #~ msgid "Biblioitem number"
 #~ msgstr "Nummer för biblio-exemplar"
@@ -9853,6 +9646,17 @@ msgstr ""
 #, fuzzy
 #~ msgid "Bookseller name"
 #~ msgstr "Användarnamn"
+
+#~ msgid "Change estimated delivery date"
+#~ msgstr "Ändra uppskattat leveransdatum"
+
+#, fuzzy
+#~ msgid "Change your password"
+#~ msgstr "Ogiltigt användarnamn eller lösenord"
+
+#, fuzzy, perl-brace-format
+#~ msgid "Comments on {title}"
+#~ msgstr "Återlämna {title}"
 
 #, fuzzy, perl-brace-format
 #~ msgid "Confirm deletion of cash register ''{cash_register}''"
@@ -9867,8 +9671,25 @@ msgstr ""
 #~ msgid "Dewey/classification"
 #~ msgstr "Dewey/klassificering"
 
-#~ msgid "Gone no address"
-#~ msgstr "Ogiltig adress"
+#, fuzzy, perl-brace-format
+#~ msgid "Download list {list}"
+#~ msgstr "Ladda ner lista"
+
+#, fuzzy, perl-brace-format
+#~ msgid "Editing checkout note for {title}"
+#~ msgstr "Utlåningshistorik för {title}"
+
+#, fuzzy
+#~ msgid "Exclude completed"
+#~ msgstr "Markera som avslutad"
+
+#, fuzzy
+#~ msgid "Forgotten password recovery"
+#~ msgstr "Uppdatera lösenord för"
+
+#, fuzzy, perl-brace-format
+#~ msgid "Full subscription history for {title}"
+#~ msgstr "Utlåningshistorik för {title}"
 
 #, perl-brace-format
 #~ msgid "Holds waiting over {count} days:"
@@ -9876,6 +9697,14 @@ msgstr ""
 
 #~ msgid "Illustrations"
 #~ msgstr "Illustrationer"
+
+#, fuzzy, perl-brace-format
+#~ msgid "Images for {title}"
+#~ msgstr "Exemplarinformation för {title}"
+
+#, fuzzy
+#~ msgid "Include completed"
+#~ msgstr "Markera som avslutad"
 
 #~ msgid "Itemtype"
 #~ msgstr "Exemplartyp"
@@ -9894,6 +9723,18 @@ msgstr ""
 #~ msgid "Modify vendor '{vendor}'"
 #~ msgstr "Redigera leverantör {vendor}"
 
+#, fuzzy
+#~ msgid "News from the library"
+#~ msgstr "Nytt bibliotek"
+
+#, fuzzy, perl-brace-format
+#~ msgid "News from {library} catalog"
+#~ msgstr "{library} katalog"
+
+#, fuzzy, perl-brace-format
+#~ msgid "OverDrive search for '{keyword}'"
+#~ msgstr "Sökresultat för '{search_keyword}'"
+
 #, fuzzy, perl-brace-format
 #~ msgid "Overdues at with fines {library}"
 #~ msgstr "Förfallna hos {library}"
@@ -9903,21 +9744,89 @@ msgstr ""
 #~ msgid "Quotes"
 #~ msgstr "Kommentarer"
 
+#, fuzzy
+#~ msgid "Recall"
+#~ msgstr "Återkrav"
+
+#, fuzzy
+#~ msgid "Register a new account"
+#~ msgstr "Registreringsdatum"
+
+#, fuzzy, perl-brace-format
+#~ msgid "Request article from {title}"
+#~ msgstr "Beställ artikel"
+
+#, fuzzy
+#~ msgid "Restricted page"
+#~ msgstr "Begränsad"
+
+#, fuzzy, perl-brace-format
+#~ msgid "Results of search for '{keyword}'"
+#~ msgstr "Sökresultat för {query_desc}"
+
 #~ msgid "Sub classification"
 #~ msgstr "Sub-klassificering"
+
+#, fuzzy
+#~ msgid "Update your personal details"
+#~ msgstr "Övriga fysiska detaljer"
 
 #, perl-brace-format
 #~ msgid "Vendor '{vendor}'"
 #~ msgstr "Leverantör '{vendor}'"
 
+#, fuzzy
+#~ msgid "Your checkout history"
+#~ msgstr "Sökhistorik"
+
+#, fuzzy
+#~ msgid "Your consents"
+#~ msgstr "Dina avgifter"
+
+#, fuzzy
+#~ msgid "Your curbside pickups"
+#~ msgstr "Upphämtningar"
+
+#, fuzzy
+#~ msgid "Your holds history"
+#~ msgstr "Reservationshistorik för"
+
+#, fuzzy
+#~ msgid "Your privacy management"
+#~ msgstr "Din betalning"
+
+#, fuzzy
+#~ msgid "Your recalls history"
+#~ msgstr "Återkravshistorik för"
+
+#, fuzzy
+#~ msgid "Your routing lists"
+#~ msgstr "Ny mottagarlista"
+
+#, fuzzy
+#~ msgid "Your search history"
+#~ msgstr "Sökhistorik"
+
 #~ msgid "branchcode"
 #~ msgstr "branchcode"
+
+#, fuzzy
+#~ msgid "checked out"
+#~ msgstr "Utlånad"
 
 #~ msgid "isbn"
 #~ msgstr "isbn"
 
+#, fuzzy
+#~ msgid "item was lost"
+#~ msgstr "Exemplar förlorat"
+
 #~ msgid "itemtype"
 #~ msgstr "exemplartyp"
+
+#, fuzzy
+#~ msgid "no barcode"
+#~ msgstr "Streckkod"
 
 #~ msgid "note"
 #~ msgstr "Lägg till kommentar"
@@ -9929,5 +9838,23 @@ msgstr ""
 #~ msgid "publishercode"
 #~ msgstr "förlagskod"
 
+#, fuzzy
+#~ msgid "shelved out of order"
+#~ msgstr "Skatt på beställning"
+
 #~ msgid "title"
 #~ msgstr "title"
+
+#, fuzzy
+#~ msgid "unselected notforloan status"
+#~ msgstr "status «Ej för utlån»"
+
+#, fuzzy
+#~ msgid "wrong place"
+#~ msgstr "Faktureringsplats"
+
+#, fuzzy, perl-brace-format
+#~ msgid "{count} local item"
+#~ msgid_plural "{count} local items"
+#~ msgstr[0] "{count} exemplar"
+#~ msgstr[1] "{count} exemplar"

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2026-01-29 12:18+0200\n"
+"PO-Revision-Date: 2026-02-19 15:09+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -5081,14 +5081,6 @@ msgid "circulation.pref#LoadCheckoutsTableDelay# seconds when \"Always show chec
 msgstr "sekuntia, kun \"Näytä lainat reaaliaikaisesti\" -toiminto tai <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=AlwaysLoadCheckoutsTable\">AlwaysLoadCheckoutsTable</a>-järjestelmäasetus on päällä."
 
 # Circulation > Holds policy > LocalHoldsPriority
-msgid "circulation.pref#LocalHoldsPriority# . Define minimum number of available items an item must have to be considered for LocalHoldsPriority. Set to 0 for no limit."
-msgstr "Määrittele minimimäärä niteitä, joita tietueella pitää olla, jotta se otetaan huomioon LocalHolsdPriority-asetuksella. Aseta arvoksi 0, jos nidemäärärajoitusta ei ole."
-
-# Circulation > Holds policy > LocalHoldsPriority
-msgid "circulation.pref#LocalHoldsPriority# . Maximum number of times LocalHoldsPriority can skip a hold for fulfillment. Set to 0 for no limit."
-msgstr "Maksimimäärä ohituksia, jonka LocalHoldsPriority voi tehdä varausta kohti, kun varauksia tärppäytetään. Aseta arvoksi 0, jos määrää ei haluta rajoittaa."
-
-# Circulation > Holds policy > LocalHoldsPriority
 msgid "circulation.pref#LocalHoldsPriority# <br/><strong>Note:</strong> If a group option is selected, LocalHoldsPriorityPatronControl and LocalHoldsPriorityItemControl will use the <a href=\"/cgi-bin/koha/admin/library_groups.pl\">library hold group</a> of the selected libraries."
 msgstr "<br/><strong>Huomioi:</strong> Jos valitaan kirjastoryhmä-asetus, LocalHoldsPriorityPatronControl ja LocalHoldsPriorityItemControl käyttävät valittujen kirjastojen <a href=\"/cgi-bin/koha/admin/library_groups.pl\">varausryhmiä</a>."
 
@@ -5117,6 +5109,10 @@ msgid "circulation.pref#LocalHoldsPriority# Maximum number of holds to consider 
 msgstr "Varausjonon alusta huomioitavien varausten määrä, kun LocalHoldsPriority-järjestelmäasetus on aktivoitu. Aseta arvoksi 0, jos kaikki varaukset otetaan huomioon jonosijasta riippumatta."
 
 # Circulation > Holds policy > LocalHoldsPriority
+msgid "circulation.pref#LocalHoldsPriority# Maximum number of times LocalHoldsPriority can skip a hold for fulfillment. Set to 0 for no limit."
+msgstr "Maksimimäärä ohituksia, jonka LocalHoldsPriority voi tehdä varausta kohti, kun varauksia tärppäytetään. Aseta arvoksi 0, jos et haluta rajoittaa."
+
+# Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# holding library"
 msgstr "sijaintikirjastoa"
@@ -5132,10 +5128,6 @@ msgid "circulation.pref#LocalHoldsPriority# matches the item's"
 msgstr "vastaa niteen"
 
 # Circulation > Holds policy > LocalHoldsPriority
-msgid "circulation.pref#LocalHoldsPriority# or how many items against holds ratio to consider for LocalHoldsPriority. Set to 0 for no limit."
-msgstr "tai niteiden ja varausten välinen suhde, kun käytössä on LocalHoldsPriority-järjestelmäasetus. Aseta arvoksi 0, jos suhdearvoa ei haluta määrittää."
-
-# Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# pickup library"
 msgstr "noutokirjasto"
@@ -5144,6 +5136,20 @@ msgstr "noutokirjasto"
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# priority for filling holds to patrons whose"
 msgstr "varaukset, joiden"
+
+# Circulation > Holds policy > LocalHoldsPriority
+# Circulation > Holds policy
+msgid "circulation.pref#LocalHoldsPriorityMinItems# Define minimum number of available items"
+msgstr "Määritä vähimmäismäärä saatavana olevia niteitä"
+
+# Circulation > Holds policy > LocalHoldsPriorityMinItems
+msgid "circulation.pref#LocalHoldsPriorityMinItems# for LocalHoldsPriority. Set to 0 for no limit. (Activate only one option, LocalHoldsPriorityMinItems or LocalHoldsPriorityHoldsPerItemThreshold)."
+msgstr "LocalHoldsPriorityMinItems-järjestelmäasetukselle. Aseta arvoksi 0, jos et halua rajoittaa. (Määritä vain toinen vaihtoehdoista LocalHoldsPriorityMinItems tai LocalHoldsPriorityHoldsPerItemThreshold)"
+
+# Circulation > Holds policy > LocalHoldsPriority
+# Circulation > Holds policy
+msgid "circulation.pref#LocalHoldsPriorityMinItems# or how many holds per available items"
+msgstr "tai kuinka monta varausta voi olla saatavana olevaa nidettä kohti"
 
 # Circulation > Checkout policy > MarkLostItemsAsReturned
 # Circulation > Checkout policy
@@ -8853,6 +8859,20 @@ msgstr "Lokitettaessa tapahtumia varastoi pinojäljitystä (stack trace), joka o
 # Logging > Debugging > ActionLogsTraceDepth
 msgid "logs.pref#ActionLogsTraceDepth# levels deep."
 msgstr "tasoa."
+
+# Logging > Logging > ApiKeyLog
+msgid "logs.pref#ApiKeyLog# API key creation, deletion, revocation and activation actions."
+msgstr "API-avainten lisäämisestä, poistamisesta, peruuttamisesta ja aktivoinneista."
+
+# Logging > Logging > FinesLog
+# Logging > Logging
+msgid "logs.pref#ApiKeyLog# Don't log"
+msgstr "Älä kerää lokia"
+
+# Logging > Logging > FinesLog
+# Logging > Logging
+msgid "logs.pref#ApiKeyLog# Log"
+msgstr "Kerää lokia"
 
 # Logging > Logging > AuthFailureLog
 # Logging > Logging
@@ -16521,9 +16541,17 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 #~ msgstr "Sisällytä"
 
 # Circulation > Holds policy > LocalHoldsPriority
+#~ msgid "circulation.pref#LocalHoldsPriority# . Define minimum number of available items an item must have to be considered for LocalHoldsPriority. Set to 0 for no limit."
+#~ msgstr "Määrittele minimimäärä niteitä, joita tietueella pitää olla, jotta se otetaan huomioon LocalHolsdPriority-asetuksella. Aseta arvoksi 0, jos nidemäärärajoitusta ei ole."
+
+# Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 #~ msgid "circulation.pref#LocalHoldsPriority# Give"
 #~ msgstr "Priorisoi"
+
+# Circulation > Holds policy > LocalHoldsPriority
+#~ msgid "circulation.pref#LocalHoldsPriority# or how many items against holds ratio to consider for LocalHoldsPriority. Set to 0 for no limit."
+#~ msgstr "tai niteiden ja varausten välinen suhde, kun käytössä on LocalHoldsPriority-järjestelmäasetus. Aseta arvoksi 0, jos suhdearvoa ei haluta määrittää."
 
 # Circulation > Checkout policy > ManInvInNoissuesCharge
 # Circulation > Checkout policy
