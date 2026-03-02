@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 12:28+0200\n"
-"PO-Revision-Date: 2026-02-19 15:20+0200\n"
+"PO-Revision-Date: 2026-03-02 14:27+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -13197,9 +13197,9 @@ msgstr "Lägg till en låntagarkategori"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/oai-admin-search.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/includes/oai-admin-search.inc:28
 #: koha-tmpl/intranet-tmpl/prog/en/includes/oai-admin-search.inc:29
-#, fuzzy, c-format
+#, c-format
 msgid "Search OAI repositories"
-msgstr "Sök efter orter"
+msgstr "Sök efter OAI-uppsättningar"
 
 #. INPUT type=text name=searchfield
 #: koha-tmpl/intranet-tmpl/prog/en/includes/oai-admin-search.inc:12
@@ -14173,9 +14173,9 @@ msgid "Patron has outstanding credits %sof "
 msgstr "Låntagaren har krediter på %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:181
-#, fuzzy, c-format
+#, c-format
 msgid "Override restrictions temporarily"
-msgstr "Ignorera begränsning tillfälligt"
+msgstr "Ignorera begränsningar tillfälligt"
 
 #. %1$s:  waiting_here | html
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:201
@@ -15537,9 +15537,9 @@ msgid "Perform cash register cashup action "
 msgstr "Utför kassaregisteråtgärd "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:601
-#, fuzzy, c-format
+#, c-format
 msgid "Perform refunds of point of sale transactions "
-msgstr "Utföra anonyma återbetalningsåtgärder "
+msgstr "Gör återbetalningar på försäljningsstället"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:605
 #, c-format
@@ -21084,14 +21084,14 @@ msgid "System preference 'StatisticsFields' contains field names not belonging t
 msgstr "Systeminställningenen 'StatisticsFields' innehåller fältnamn som inte hör till databasens items-tabell: %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:574
-#, fuzzy, c-format
+#, c-format
 msgid "The patron used for the self-checkout module at the OPAC does not have the self_check => self_checkout_module permission. "
-msgstr "Låntagaren som används för självutlåningsmodulen i OPAC har inte rättigheten utlåning => self_checkout_module. "
+msgstr "Låntagaren som används för självutlåningsmodulen i OPAC har inte rättigheten self_check => self_checkout_module permission. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:580
-#, fuzzy, c-format
+#, c-format
 msgid "The patron used for the self-checkout module at the OPAC has too many permissions. They should only have self_check => self_checkout_module. "
-msgstr "Låntagaren som används för självutlåningsmodulen i OPAC har för mycket rättigheter. De ska endast ha utlåning => self_checkout_module. "
+msgstr "Låntagaren som används för självutlåningsmodulen i OPAC har för många rättigheter. Låntagaren ska endast ha self_check => self_checkout_module. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:586
 #, c-format
@@ -34014,9 +34014,9 @@ msgid "Upload port: "
 msgstr "Ladda upp port: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:164
-#, fuzzy, c-format
+#, c-format
 msgid "The upload port will default to 22 (for SFTP) or 21 (for FTP) if not set."
-msgstr "Porten för uppladdning är 22 om inget annat anges."
+msgstr "Porten för uppladdning är 22 (för SFTP) eller 21 (för FTP) om inget annat anges."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:167
 #, c-format
@@ -34024,9 +34024,9 @@ msgid "Download port: "
 msgstr "Ladda ned port: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:169
-#, fuzzy, c-format
+#, c-format
 msgid "The download port will default to 22 (for SFTP) or 21 (for FTP) if not set."
-msgstr "Porten för nedladdning är 22 om inget annat anges."
+msgstr "Porten för nedladdning är 22 (för SFTP) eller 21 (för FTP) om inget annat anges."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:172
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_order_accounts.tt:120
@@ -36002,9 +36002,9 @@ msgid "MARC order accounts "
 msgstr "Konton för MARC-beställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_order_accounts.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "There are no MARC order accounts. "
-msgstr "Det finns inga EDI-konton. "
+msgstr "Det finns inga konton för MARC-beställningar. "
 
 #. %1$s:  IF account
 #. %2$s:  ELSE
@@ -36729,9 +36729,9 @@ msgid "Modify OAI repository"
 msgstr "Redigera OAI-uppsättning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:81
-#, fuzzy, c-format
+#, c-format
 msgid "Repository name: "
-msgstr "Rapportnamn: "
+msgstr "Uppsättningens namn: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:91
 #, c-format
@@ -36793,9 +36793,9 @@ msgid "Record type"
 msgstr "Posttyp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:136
-#, fuzzy, c-format
+#, c-format
 msgid "Repository name"
-msgstr "Rapportnamn"
+msgstr "Uppsättningens namn"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:187
@@ -44766,9 +44766,9 @@ msgstr "Antal utlån"
 
 #. %1$s:  Branches.GetLoggedInBranchname | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:33
-#, fuzzy, c-format
+#, c-format
 msgid "Overdues with fines at %s"
-msgstr "Försenade med avgifter"
+msgstr "Försenade med avgifter på %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:333
@@ -49296,9 +49296,9 @@ msgid "Complete ILL request"
 msgstr "Slutför beställning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:122
-#, fuzzy, c-format
+#, c-format
 msgid "Proceeding with this action will set this request to 'Completed'."
-msgstr "Om du fortsätter med denna åtgärd kommer denna begäran att ställas in på \"Avbruten\"."
+msgstr "Fortsätt för att ställa in status som 'Avslutad'."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:123
 #, c-format
@@ -51827,19 +51827,19 @@ msgid "This API key is already active."
 msgstr "Den här informationsdisken finns redan."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:47
-#, fuzzy, c-format
+#, c-format
 msgid "The specified API key was not found."
-msgstr "Exemplaret hittades inte"
+msgstr "API-nyckeln hittades inte."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:49
-#, fuzzy, c-format
+#, c-format
 msgid "An unexpected error occurred while processing your request."
-msgstr "Ett fel inträffade vid återställning av exemplar %s"
+msgstr "Ett oväntat fel uppstod under behandlingen av din begäran."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:51
-#, fuzzy, c-format
+#, c-format
 msgid "Error details:"
-msgstr "Mer detaljer"
+msgstr "Mer detaljer:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:61
 #, c-format
@@ -58414,9 +58414,9 @@ msgstr "Välj ett värde för cache_expiry som är kortare än 30 dagar "
 #. %1$s:  IF (usecache)
 #. %2$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:484
-#, fuzzy, c-format
+#, c-format
 msgid "Step 1 of 6: Choose a module to report on,%sSet cache expiry,%s and choose report visibility "
-msgstr "Steg 1 av 6: välj en modul att köra rapporten mot,%s ställ in när cachen löper ut %s och välj vilken synlighet rapporten ska ha "
+msgstr "Steg 1 av 6: välj en modul dit rapporten hör,%s ställ in när cachen löper ut %s och välj vilken synlighet rapporten ska ha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:496
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:504
@@ -58637,9 +58637,8 @@ msgstr "Skicka synliga resultat till satsvis redigering av låntagare"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1144
-#, fuzzy
 msgid "Send visible results to a new patron card batch"
-msgstr "Skicka synliga resultat till satsvis redigering av låntagare"
+msgstr "Skicka synliga resultat till ny sats med lånekort"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1160
@@ -59091,14 +59090,14 @@ msgid "Returns"
 msgstr "Återlämnade"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:73
-#, fuzzy, c-format
+#, c-format
 msgid "Period from:"
-msgstr "Period från %s"
+msgstr "Period från:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:75
-#, fuzzy, c-format
+#, c-format
 msgid "Period to:"
-msgstr "Period till %s"
+msgstr "Period till:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:101
@@ -59119,19 +59118,19 @@ msgid "Item call number &lt; %s "
 msgstr "Hyllsignatur &lt; %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:91
-#, fuzzy, c-format
+#, c-format
 msgid "Patron sort1:"
-msgstr "Låntagarsortering 1"
+msgstr "Låntagarsortering 1:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:93
-#, fuzzy, c-format
+#, c-format
 msgid "Patron sort2:"
-msgstr "Låntagarsortering 2"
+msgstr "Låntagarsortering 2:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:99
-#, fuzzy, c-format
+#, c-format
 msgid "Patron library:"
-msgstr "Låntagarens bibliotek"
+msgstr "Låntagarens bibliotek:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:103
 #, c-format
@@ -59348,9 +59347,9 @@ msgstr "Förlorad-status: "
 #. %2$s:  Branches.GetName( branch ) | html
 #. %3$s:  END
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemtypes.tt:49
-#, fuzzy, c-format
+#, c-format
 msgid "Reports on item types %sheld at %s%s"
-msgstr "Rapporter för exemplartyper %s i %s%s"
+msgstr "Rapporter för exemplartyper %si %s%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemtypes.tt:77
 #, c-format
@@ -60765,9 +60764,9 @@ msgid "Claim date"
 msgstr "Reklamationsdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:103
-#, fuzzy, c-format
+#, c-format
 msgid "Serial notes"
-msgstr "Tidskriftstabeller"
+msgstr "Anmärkningar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:148
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:156
@@ -60781,9 +60780,9 @@ msgid "Select CSV profile:"
 msgstr "Välj CSV-profil:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:167
-#, fuzzy, c-format
+#, c-format
 msgid "Send claim notification"
-msgstr "Skicka notifiering"
+msgstr "Skicka meddelande om reklamation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:168
 #, c-format
@@ -62454,29 +62453,29 @@ msgid "There are no patrons subscribed to this subscription serial alert."
 msgstr "Inga låntagare prenumererar på denna notifikation för periodika."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/stop.tt:135
-#, fuzzy, c-format
+#, c-format
 msgid "Please wait..."
-msgstr "Var vänlig välj ..."
+msgstr "Vänta..."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/stop.tt:137
 #, c-format
 msgid "This service has been temporarily suspended for security reasons"
-msgstr ""
+msgstr "Denna tjänst har tillfälligt stängts av på grund av säkerhetsskäl."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/stop.tt:139
 #, c-format
 msgid "Unconfirmed changes have been detected in one of the critical system preferences."
-msgstr ""
+msgstr "Obekräftade ändringar har upptäckts i en av de kritiska systeminställningarna."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/stop.tt:140
 #, c-format
 msgid "Please ask your system administrator to review the changes and confirm or discard them. After that you can retry loading the page you were trying to access. "
-msgstr ""
+msgstr "Be din systemadministratör att granska ändringarna och bekräfta eller avvisa dem. Därefter kan du försöka ladda sidan du försökte komma åt på nytt. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/stop.tt:142
 #, c-format
 msgid "Retry"
-msgstr ""
+msgstr "Försök igen"
 
 #. %1$s:  suggestionid | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:79
@@ -63085,9 +63084,9 @@ msgstr "Lägg till ytterligare innehåll"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:111
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:382
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:149
-#, fuzzy, c-format
+#, c-format
 msgid "Record display customizations"
-msgstr "Skriv HTML-anpassningar"
+msgstr "Anpassa postens informationsvy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:142
 #, c-format
@@ -68956,9 +68955,9 @@ msgstr "visa detaljer för denna bibliotekarie."
 #. %2$s:  loopro.patron.surname | html
 #. %3$s:  loopro.object | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:269
-#, fuzzy, c-format
+#, c-format
 msgid "API keys for %s %s (%s) "
-msgstr "API nycklar för %s"
+msgstr "API-nycklar för %s %s (%s) "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:269
@@ -68987,9 +68986,9 @@ msgstr "Medlem"
 #. %9$s:  ELSIF ( loopro.module == 'CATALOGUING' )
 #. %10$s:  IF ( loopro.info.substr(0, 4) == 'item' )
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:281
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s API keys for patron %s %s %s %s %s %s %s "
-msgstr "%s%s %s %s AT %s %% %s %s %s %s%s "
+msgstr "%s %s %s API-nycklar för användare %s %s %s %s %s %s %s "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:297
