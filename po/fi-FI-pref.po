@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2026-02-19 15:09+0200\n"
+"PO-Revision-Date: 2026-03-16 10:31+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -5981,7 +5981,7 @@ msgstr "Määrityksen tulee olla muodossa 'branchcode:item field:comparator:item
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# Use the following mappings to determine the sort_bin of a returned item.<br/>"
-msgstr "Käytä seuraavia arvoja määritääksesi palautuksessa lajittelupaikan 'sort_bin'.<br/>"
+msgstr "Käytä seuraavia arvoja määrittääksesi palautuksessa lajittelupaikan 'sort_bin'.<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# i.e. \\$holdingbranch<br/></br>"
