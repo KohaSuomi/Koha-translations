@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 12:28+0200\n"
-"PO-Revision-Date: 2026-03-19 12:10+0200\n"
+"PO-Revision-Date: 2026-04-13 13:33+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -49683,9 +49683,9 @@ msgid "Type disclaimer date:"
 msgstr "Ange datum för varning:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:727
-#, fuzzy, c-format
+#, c-format
 msgid "Unauthenticated request details"
-msgstr "Återgå till detaljer för förfrågan"
+msgstr "Detaljer om oautentiserad begäran"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:732
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:351
@@ -51817,14 +51817,14 @@ msgid "API keys for %s"
 msgstr "API nycklar för %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:43
-#, fuzzy, c-format
+#, c-format
 msgid "This API key is already revoked."
-msgstr "Den här informationsdisken finns redan."
+msgstr "Denna API-nyckel har redan återkallats."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "This API key is already active."
-msgstr "Den här informationsdisken finns redan."
+msgstr "Denna API-nyckel är redan aktiv."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:47
 #, c-format
@@ -63086,7 +63086,7 @@ msgstr "Lägg till ytterligare innehåll"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:149
 #, c-format
 msgid "Record display customizations"
-msgstr "Anpassa postens informationsvy"
+msgstr "Anpassa posters informationsvyer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:142
 #, c-format
@@ -66619,9 +66619,8 @@ msgstr "Matchar bibliografisk post %s (poäng=%s):%s"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:460
-#, fuzzy
 msgid "This batch contains imported records. Are you sure you wish to clear all the reservoir records? This cannot be undone."
-msgstr "Är du säker på att du vill ta bort rapporten? Du kan inte ångra dig efteråt."
+msgstr "Den här satsen innehåller importerade poster. Är du säker på att du vill rensa bland alla poster i reservoaren? Detta går inte att ångra."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:460
@@ -68515,9 +68514,9 @@ msgid "Write custom pages"
 msgstr "Skriv anpassade sidor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:150
-#, fuzzy, c-format
+#, c-format
 msgid "Write record display customizations"
-msgstr "Skriv HTML-anpassningar"
+msgstr "Gör anpassningar till posters informationsvyer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:155
 #, c-format
@@ -68961,9 +68960,8 @@ msgstr "API-nycklar för %s %s (%s) "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:269
-#, fuzzy
 msgid "View API keys for this patron"
-msgstr "Importera låntagare"
+msgstr "Visa API-nycklar för denna användare"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:273
