@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 12:28+0200\n"
-"PO-Revision-Date: 2025-10-02 03:04+0000\n"
-"Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
+"PO-Revision-Date: 2026-04-22 14:28+0300\n"
+"Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: sv-SE\n"
+"Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Poedit 3.8\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-messages.po\n"
 "X-POOTLE-MTIME: 1692879232.228045\n"
@@ -1564,7 +1564,7 @@ msgstr "Det installerade databasschemat är korrekt."
 
 #: Koha/Database/Auditor.pm:89
 msgid "All is well"
-msgstr ""
+msgstr "Allt väl"
 
 #: Koha/Database/Auditor.pm:111
 #, perl-format
@@ -2659,7 +2659,7 @@ msgstr "Serietitel"
 
 #: Koha/ILL/Backend/Standard.pm:938
 msgid "Associated ID"
-msgstr ""
+msgstr "Associerat ID"
 
 #: Koha/ILL/Backend/Standard.pm:940
 #, fuzzy
@@ -6345,7 +6345,7 @@ msgstr "Regler för postmatchning"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:93
 msgctxt "OAI"
 msgid "Set:"
-msgstr ""
+msgstr "Set:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:136
 #, fuzzy
@@ -7015,17 +7015,17 @@ msgstr "Navigeringsverktyg för hyllsignaturer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_006.tt:8
 msgid "006 builder"
-msgstr ""
+msgstr "006-verktyg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:7
 msgid "007 builder"
-msgstr ""
+msgstr "007-verktyg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_classifications.tt:7
 msgid "008 builder"
-msgstr ""
+msgstr "008-verktyg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_classifications.tt:8
 msgid "Classifications"
@@ -7033,7 +7033,7 @@ msgstr "Klassificeringar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:8
 msgid "000 - Leader builder"
-msgstr ""
+msgstr "000 - Postetikettsverktyg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt:7
 msgid "Leader builder"
