@@ -501,9 +501,10 @@ extract_installer() {
 
 extract_installer_marc() {
   local marc_type="${1#installer-}"
+  local marc_dir="${marc_type,,}"  # Convert to lowercase for directory name
   local files_list=$(mktemp)
   
-  find "installer/data/mysql/en/marcflavour/$marc_type" -name "*.yml" -type f > "$files_list" 2>/dev/null || true
+  find "installer/data/mysql/en/marcflavour/$marc_dir" -name "*.yml" -type f > "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
     echo "No installer files found for $marc_type" >&2
