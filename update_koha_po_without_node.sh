@@ -444,7 +444,7 @@ extract_messages() {
   local perl_pot="$POT_DIR/Koha-perl.pot.tmp"
   local tt_pot="$POT_DIR/Koha-tt.pot.tmp"
   
-  find . -name "*.pl" -o -name "*.pm" | grep -v "/blib/" | grep -v "/\.git/" > "$perl_list" 2>/dev/null || true
+  find . \( -name "*.pl" -o -name "*.pm" \) -type f | grep -v "/blib/" | grep -v "/\.git/" > "$perl_list" 2>/dev/null || true
   
   find koha-tmpl/intranet-tmpl/prog/en -name "*.tt" -o -name "*.inc" > "$tt_list" 2>/dev/null || true
   find koha-tmpl/opac-tmpl/bootstrap/en -name "*.tt" -o -name "*.inc" >> "$tt_list" 2>/dev/null || true
@@ -483,8 +483,8 @@ extract_messages() {
 extract_installer() {
   local files_list=$(mktemp)
   
-  find installer/data/mysql/en/mandatory -name "*.yml" -type f > "$files_list" 2>/dev/null || true
-  find installer/data/mysql/en/optional -name "*.yml" -type f >> "$files_list" 2>/dev/null || true
+  find installer/data/mysql/en/mandatory -maxdepth 1 -name "*.yml" -type f > "$files_list" 2>/dev/null || true
+  find installer/data/mysql/en/optional -maxdepth 1 -name "*.yml" -type f >> "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
     echo "No installer YAML files found" >&2
