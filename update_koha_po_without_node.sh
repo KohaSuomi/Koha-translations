@@ -516,6 +516,13 @@ extract_installer_marc() {
     -o "$POT_DIR/Koha-installer-$marc_type.pot" \
     -f "$files_list" || die "Failed to extract installer-$marc_type"
   
+  # Normalize paths to use uppercase MARC flavor names
+  if [[ -f "$POT_DIR/Koha-installer-$marc_type.pot" ]]; then
+    sed -i 's|marcflavour/marc21/|marcflavour/MARC21/|g' "$POT_DIR/Koha-installer-$marc_type.pot"
+    sed -i 's|marcflavour/unimarc/|marcflavour/UNIMARC/|g' "$POT_DIR/Koha-installer-$marc_type.pot"
+    sed -i 's|marcflavour/normarc/|marcflavour/NORMARC/|g' "$POT_DIR/Koha-installer-$marc_type.pot"
+  fi
+  
   rm "$files_list"
 }
 
