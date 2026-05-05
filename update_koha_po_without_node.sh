@@ -324,7 +324,11 @@ extract_staff_prog() {
     ! -iname "*marc21*" ! -iname "*unimarc*" \
     -type f > "$files_list" 2>/dev/null || true
   
-  find koha-tmpl/intranet-tmpl/prog/en/xslt -name "*.xsl" -type f >> "$files_list" 2>/dev/null || true
+  find koha-tmpl/intranet-tmpl/prog/en/xslt -name "*.xsl" \
+    ! -iname "*MARC21*" ! -iname "*UNIMARC*" \
+    ! -iname "*marc21*" ! -iname "*unimarc*" \
+    ! -iname "*NORMARC*" ! -iname "*normarc*" \
+    -type f >> "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
     echo "No files found for staff-prog" >&2
@@ -348,7 +352,11 @@ extract_opac_bootstrap() {
     ! -iname "*marc21*" ! -iname "*unimarc*" \
     -type f > "$files_list" 2>/dev/null || true
   
-  find koha-tmpl/opac-tmpl/bootstrap/en/xslt -name "*.xsl" -type f >> "$files_list" 2>/dev/null || true
+  find koha-tmpl/opac-tmpl/bootstrap/en/xslt -name "*.xsl" \
+    ! -iname "*MARC21*" ! -iname "*UNIMARC*" \
+    ! -iname "*marc21*" ! -iname "*unimarc*" \
+    ! -iname "*NORMARC*" ! -iname "*normarc*" \
+    -type f >> "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
     echo "No files found for opac-bootstrap" >&2
