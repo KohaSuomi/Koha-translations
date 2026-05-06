@@ -8882,22 +8882,6 @@ msgstr "När åtgärder loggas, lagra en stackspårning som går högst"
 msgid "logs.pref#ActionLogsTraceDepth# levels deep."
 msgstr "nivåer ned."
 
-# Logging > Logging > ApiKeyLog
-msgid "logs.pref#ApiKeyLog# API key creation, deletion, revocation and activation actions."
-msgstr ""
-
-# Logging > Logging > FinesLog
-# Logging > Logging
-#, fuzzy
-msgid "logs.pref#ApiKeyLog# Don't log"
-msgstr "Logga inte"
-
-# Logging > Logging > FinesLog
-# Logging > Logging
-#, fuzzy
-msgid "logs.pref#ApiKeyLog# Log"
-msgstr "Logga"
-
 # Logging > Logging > AuthFailureLog
 # Logging > Logging
 msgid "logs.pref#AuthFailureLog#  authentication failures."
@@ -12153,6 +12137,22 @@ msgstr "behöver inte"
 #, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# requires"
 msgstr "måste ha"
+
+# Patrons > General > ExtendedPatronAttributes
+# Patrons > General
+#, fuzzy
+msgid "patrons.pref#ClearPermissionsAutomatically# Don't enable"
+msgstr "Aktivera inte"
+
+# Acquisitions > Printing > OrderPdfFormat
+# Acquisitions > Printing
+#, fuzzy
+msgid "patrons.pref#ClearPermissionsAutomatically# Enable"
+msgstr "Aktivera"
+
+# Patrons > Security > ClearPermissionsAutomatically
+msgid "patrons.pref#ClearPermissionsAutomatically# the ability for staff permissions to be automatically cleared when a staff member's category is changed to one that does not have permissions."
+msgstr ""
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -16760,6 +16760,18 @@ msgstr "rader av en rapport som begärts via webbtjänsten för rapporter."
 #, fuzzy
 #~ msgid "logs.pref#AdditionalContentLog# Log"
 #~ msgstr "."
+
+# Logging > Logging > FinesLog
+# Logging > Logging
+#, fuzzy
+#~ msgid "logs.pref#ApiKeyLog# Don't log"
+#~ msgstr "Logga inte"
+
+# Logging > Logging > FinesLog
+# Logging > Logging
+#, fuzzy
+#~ msgid "logs.pref#ApiKeyLog# Log"
+#~ msgstr "Logga"
 
 # Patrons > General > AutoApprovePatronProfileSettings
 #, fuzzy
