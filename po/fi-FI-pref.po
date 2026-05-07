@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2026-03-16 10:31+0200\n"
+"PO-Revision-Date: 2026-05-07 15:43+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -8860,20 +8860,6 @@ msgstr "Lokitettaessa tapahtumia varastoi pinojäljitystä (stack trace), joka o
 msgid "logs.pref#ActionLogsTraceDepth# levels deep."
 msgstr "tasoa."
 
-# Logging > Logging > ApiKeyLog
-msgid "logs.pref#ApiKeyLog# API key creation, deletion, revocation and activation actions."
-msgstr "API-avainten lisäämisestä, poistamisesta, peruuttamisesta ja aktivoinneista."
-
-# Logging > Logging > FinesLog
-# Logging > Logging
-msgid "logs.pref#ApiKeyLog# Don't log"
-msgstr "Älä kerää lokia"
-
-# Logging > Logging > FinesLog
-# Logging > Logging
-msgid "logs.pref#ApiKeyLog# Log"
-msgstr "Kerää lokia"
-
 # Logging > Logging > AuthFailureLog
 # Logging > Logging
 msgid "logs.pref#AuthFailureLog#  authentication failures."
@@ -12091,6 +12077,20 @@ msgstr "ei tarvitse"
 # Patrons > Patron relationships
 msgid "patrons.pref#ChildNeedsGuarantor# requires"
 msgstr "tarvitsee"
+
+# Patrons > General > ExtendedPatronAttributes
+# Patrons > General
+msgid "patrons.pref#ClearPermissionsAutomatically# Don't enable"
+msgstr "Älä käytä"
+
+# Acquisitions > Printing > OrderPdfFormat
+# Acquisitions > Printing
+msgid "patrons.pref#ClearPermissionsAutomatically# Enable"
+msgstr "Käytä"
+
+# Patrons > Security > ClearPermissionsAutomatically
+msgid "patrons.pref#ClearPermissionsAutomatically# the ability for staff permissions to be automatically cleared when a staff member's category is changed to one that does not have permissions."
+msgstr "ominaisuutta, jossa käyttäjäoikeudet poistetaan automaattisesti käyttäjältä, kun virkailijatunnuksen asiakastyyppi vaihdetaan sellaiseen, jossa ei sallita käyttäjäoikeuksia."
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -16698,6 +16698,20 @@ msgstr "riviä raportista, joka on tehty nettipalvelun kautta."
 
 # Tools > News > AdditionalContentsEditor
 #~ msgid "logs.pref#AdditionalContentLog# Log"
+#~ msgstr "Kerää lokia"
+
+# Logging > Logging > ApiKeyLog
+#~ msgid "logs.pref#ApiKeyLog# API key creation, deletion, revocation and activation actions."
+#~ msgstr "API-avainten lisäämisestä, poistamisesta, peruuttamisesta ja aktivoinneista."
+
+# Logging > Logging > FinesLog
+# Logging > Logging
+#~ msgid "logs.pref#ApiKeyLog# Don't log"
+#~ msgstr "Älä kerää lokia"
+
+# Logging > Logging > FinesLog
+# Logging > Logging
+#~ msgid "logs.pref#ApiKeyLog# Log"
 #~ msgstr "Kerää lokia"
 
 # Logging > Debugging > DumpSearchQueryTemplate
