@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-19 12:27+0200\n"
-"PO-Revision-Date: 2026-04-22 14:09+0300\n"
+"POT-Creation-Date: 2026-05-06 09:38+0300\n"
+"PO-Revision-Date: 2026-05-08 09:56+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -1102,7 +1102,7 @@ msgid "This pickup location is not allowed according to circulation rules"
 msgstr "Det här avhämtningsbiblioteket är inte tillåtet enligt lånereglerna"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:275
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:987
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:981
 msgid " (current) "
 msgstr " (aktuell) "
 
@@ -1142,7 +1142,7 @@ msgstr "Återuppta"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:381
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:617
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1175
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1169
 msgid "Suspend"
 msgstr "Pausa"
 
@@ -1215,87 +1215,118 @@ msgstr "Lämna tomt för att pausa utan slutdatum"
 msgid "Unable to suspend, hold not found."
 msgstr "Kunde inte pausa reservation, reservation ej funnen."
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:910
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:785
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:824
+msgid "In transit"
+msgstr "Under transport"
+
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:790
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:827
+msgid "In processing"
+msgstr "Under bearbetning"
+
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:795
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:830
+msgid "Waiting"
+msgstr "Väntar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:869
+msgid "Move hold up"
+msgstr "Flytta reservation uppåt"
+
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:875
+msgid "Move hold to top"
+msgstr "Flytta högst upp i kön"
+
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:881
+msgid "Move hold to bottom"
+msgstr "Flytta längst ned i kön"
+
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:887
+msgid "Move hold down"
+msgstr "Flytta reservation nedåt"
+
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:904
 #, javascript-format
 msgid "A patron from library %s"
 msgstr "En låntagare från biblioteket %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1008
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1002
 #, javascript-format
 msgid "Item being transferred to <strong>%s</strong>"
 msgstr "Exemplaret är under transport till <strong>%s</strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1012
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1006
 #, javascript-format
 msgid "Item being processed at <strong>%s</strong>"
 msgstr "Exemplaret är under behandling i <strong>%s</strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1015
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1009
 #, javascript-format
 msgid "Item waiting at <strong>%s</strong>"
 msgstr "Exemplaret väntar på avhämtning från <strong>%s </strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1017
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1011
 #, javascript-format
 msgid ", on the pickup shelf <strong>%s</strong>"
 msgstr ", väntar i avhämtningshylla <strong>%s</strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1019
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1013
 #, javascript-format
 msgid " since %s"
 msgstr " sedan %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1042
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1052
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1036
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1046
 msgid "No barcode"
 msgstr "Ingen streckkod"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1054
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1057
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1048
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1051
 msgid "Only item"
 msgstr "Endast exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1058
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1069
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1074
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1052
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1063
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1068
 msgid "Next available"
 msgstr "Nästa tillgängliga"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1064
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1058
 #, javascript-format
 msgid "Next available item from group <strong>%s</strong>"
 msgstr "Nästa tillgängliga exemplar från exemplargrupp <strong>%s</strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1070
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1064
 msgid "Non priority hold"
 msgstr "Vilande reservation"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1135
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1129
 msgid "Revert transit status"
 msgstr "Ångra överföring"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1136
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1130
 msgid "Revert waiting status"
 msgstr "Ångra väntestatus"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1170
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1164
 msgid "Unsuspend"
 msgstr "Aktivera"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1184
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1178
 msgid "Suspend on"
 msgstr "Pausad"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1191
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1185
 msgid "Suspend until"
 msgstr "Pausa t.o.m."
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1224
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1218
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:716
 msgid "Print slip"
 msgstr "Skriv ut kvitto"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1240
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1234
 #, javascript-format
 msgid "Cancel selected (%s)"
 msgstr "Radera valda (%s)"
@@ -2630,7 +2661,6 @@ msgstr "Skicka"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:82
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:108
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:276
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/hold_pickup_shelves.js:7
 msgid "Close"
 msgstr "Stäng"
 
@@ -4268,167 +4298,113 @@ msgid "Loading more options..."
 msgstr "Laddar fler alternativ..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:22
 msgid "Acquisitions"
 msgstr "Inköp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:7
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Acquisitions home"
 msgstr "Inköp startsida"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:12
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Advanced search"
 msgstr "Avancerad sökning"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:22
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Late orders"
 msgstr "Sena beställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:42
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Suggestions"
 msgstr "Förslag"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:47
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:56
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Invoices"
 msgstr "Fakturor"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:60
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "EDIFACT messages"
 msgstr "EDIFACT-meddelanden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:74
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:344
 msgid "Reports"
 msgstr "Rapporter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:81
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Acquisitions statistics wizard"
 msgstr "Statistikguide för inköp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:88
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Orders by fund"
 msgstr "Sortera efter kostnadsställe"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:103
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Hold ratios"
 msgstr "Reservationsförhållanden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:128
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:7
 msgid "Administration"
 msgstr "Administration"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:139
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Budgets"
 msgstr "Budgetar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:151
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Funds"
 msgstr "Budgetställen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:163
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Currencies"
 msgstr "Valutor"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:177
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "EDI accounts"
 msgstr "EDI-konton"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:184
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Library EANs"
 msgstr "Biblioteks-EAN"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:201
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "MARC order accounts"
 msgstr "Konton för MARC-beställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:218
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Manage invoice fields"
 msgstr "Hantera faktureringsfält"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:237
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Manage order basket fields"
 msgstr "Hantera fält i beställningskorg"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:244
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Manage order line fields"
 msgstr "Hantera rader i beställning"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:238
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Baskets"
 msgstr "Korgar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:25
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Basket groups"
 msgstr "Korggrupper"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:37
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Contracts"
 msgstr "Avtal"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:49
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Vendor issues"
 msgstr "Leverantörsärenden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:69
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:75
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Uncertain prices"
 msgstr "Osäkra priser"
 

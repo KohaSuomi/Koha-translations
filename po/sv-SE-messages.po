@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-19 12:28+0200\n"
-"PO-Revision-Date: 2026-04-22 14:28+0300\n"
+"POT-Creation-Date: 2026-05-06 09:38+0300\n"
+"PO-Revision-Date: 2026-05-08 10:27+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -1602,7 +1602,6 @@ msgid "Borrower number of creator"
 msgstr "Låntagarnummer för skapare"
 
 #: Koha/Database/Columns.pm:79
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
 msgid "Currency"
 msgstr "Valuta"
 
@@ -1611,12 +1610,10 @@ msgid "Cancellation date"
 msgstr "Annulleringsdatum"
 
 #: Koha/Database/Columns.pm:81
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
 msgid "Date received"
 msgstr "Mottagningsdatum"
 
 #: Koha/Database/Columns.pm:82
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Discount"
 msgstr "Rabatt"
 
@@ -1629,7 +1626,6 @@ msgid "Budgeted cost, tax incl."
 msgstr "Budgeterad kostnad, inkl. skatt."
 
 #: Koha/Database/Columns.pm:85
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
 msgid "Budgeted cost"
 msgstr "Budgeterad kostnad"
 
@@ -1650,23 +1646,18 @@ msgid "Line item ID (EDIFACT)"
 msgstr ""
 
 #: Koha/Database/Columns.pm:91
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
 msgid "Vendor price"
 msgstr "Leverantörspris"
 
 #: Koha/Database/Columns.pm:92 Koha/Database/Columns.pm:235
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
 msgid "Internal note"
 msgstr "Intern kommentar"
 
 #: Koha/Database/Columns.pm:93
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
 msgid "Vendor note"
 msgstr "Leverantörskommentar"
 
 #: Koha/Database/Columns.pm:94
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Order number"
 msgstr "Ordernummer"
 
@@ -1679,9 +1670,6 @@ msgid "Parent order number (internal)"
 msgstr "Överordnat ordernummer (internt)"
 
 #: Koha/Database/Columns.pm:97 Koha/Database/Columns.pm:345
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
 msgid "Quantity"
 msgstr "Kvantitet"
 
@@ -1778,12 +1766,10 @@ msgid "Actual cost"
 msgstr "Verklig kostnad"
 
 #: Koha/Database/Columns.pm:124
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:37
 msgid "Address"
 msgstr "Adress"
 
 #: Koha/Database/Columns.pm:125
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:39
 msgid "Address 2"
 msgstr "Adress 2"
 
@@ -1876,7 +1862,6 @@ msgid "Alternate address: ZIP/Postal code"
 msgstr "Alternativ adress: Postnummer"
 
 #: Koha/Database/Columns.pm:148
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:107
 msgid "Circulation note"
 msgstr "Kommentar"
 
@@ -1885,13 +1870,10 @@ msgid "Borrower number"
 msgstr "Låntagarnummer"
 
 #: Koha/Database/Columns.pm:150
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Home library"
 msgstr "Hembibliotek"
 
 #: Koha/Database/Columns.pm:151
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:15
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:179
 msgid "Card number"
 msgstr "Kortnummer"
 
@@ -1904,7 +1886,6 @@ msgid "Check for previous checkouts"
 msgstr "Leta efter tidigare lån"
 
 #: Koha/Database/Columns.pm:154
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:41
 msgid "City"
 msgstr "Ort"
 
@@ -1917,7 +1898,6 @@ msgid "Alternate contact: Title"
 msgstr "Alternativ kontakt: Titel"
 
 #: Koha/Database/Columns.pm:159
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:47
 msgid "Country"
 msgstr "Land"
 
@@ -1926,17 +1906,14 @@ msgid "Account renewal date"
 msgstr "Datum för förnyande av konto"
 
 #: Koha/Database/Columns.pm:161
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:87
 msgid "Registration date"
 msgstr "Registreringsdatum"
 
 #: Koha/Database/Columns.pm:162
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:89
 msgid "Expiry date"
 msgstr "Utgångsdatum"
 
 #: Koha/Database/Columns.pm:163
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:81
 msgid "Date of birth"
 msgstr "Födelsedatum"
 
@@ -1949,26 +1926,18 @@ msgid "Comment"
 msgstr "Kommentar"
 
 #: Koha/Database/Columns.pm:166
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:49
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:923
 msgid "Primary email"
 msgstr "Primär e-post"
 
 #: Koha/Database/Columns.pm:167
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:57
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:925
 msgid "Secondary email"
 msgstr "Sekundär e-post"
 
 #: Koha/Database/Columns.pm:168
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:55
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:927
 msgid "Fax"
 msgstr "Fax"
 
 #: Koha/Database/Columns.pm:169
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:19
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/create.inc:33
 msgid "First name"
 msgstr "Förnamn"
 
@@ -1981,7 +1950,6 @@ msgid "Gone no address flag"
 msgstr "Ogiltig adress"
 
 #: Koha/Database/Columns.pm:172
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:29
 msgid "Initials"
 msgstr "Initialer"
 
@@ -2002,22 +1970,18 @@ msgid "Lost card flag"
 msgstr "Markör för förlorat kort"
 
 #: Koha/Database/Columns.pm:177
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:23
 msgid "Middle name"
 msgstr "Mellannamn"
 
 #: Koha/Database/Columns.pm:178
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:921
 msgid "Other phone"
 msgstr "Annan telefon"
 
 #: Koha/Database/Columns.pm:179
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:117
 msgid "OPAC note"
 msgstr "OPAC-kommentar"
 
 #: Koha/Database/Columns.pm:180
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:27
 msgid "Other name"
 msgstr "Annat namn"
 
@@ -2034,19 +1998,14 @@ msgid "Password"
 msgstr "Lösenord"
 
 #: Koha/Database/Columns.pm:184
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:51
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:917
 msgid "Primary phone"
 msgstr "Primär telefon"
 
 #: Koha/Database/Columns.pm:185
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:59
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:919
 msgid "Secondary phone"
 msgstr "Sekundärt telefonnummer"
 
 #: Koha/Database/Columns.pm:186
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:21
 msgid "Preferred name"
 msgstr "Föredraget namn"
 
@@ -2067,7 +2026,6 @@ msgid "Privacy settings"
 msgstr "Sekretessinställningar"
 
 #: Koha/Database/Columns.pm:191
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:31
 msgid "Pronouns"
 msgstr "Pronomen"
 
@@ -2084,7 +2042,6 @@ msgid "Secret (2FA)"
 msgstr "Hemlig nyckel (2FA)"
 
 #: Koha/Database/Columns.pm:195
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:111
 msgid "Gender"
 msgstr "Kön"
 
@@ -2097,37 +2054,30 @@ msgid "Mobile phone number"
 msgstr "Mobiltelefonnummer"
 
 #: Koha/Database/Columns.pm:198
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:121
 msgid "Sort 1"
 msgstr "Sortering 1"
 
 #: Koha/Database/Columns.pm:199
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:123
 msgid "Sort 2"
 msgstr "Sortering 2"
 
 #: Koha/Database/Columns.pm:200
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:43
 msgid "State"
 msgstr "Delstat"
 
 #: Koha/Database/Columns.pm:201
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:33
 msgid "Street number"
 msgstr "Gatunummer"
 
 #: Koha/Database/Columns.pm:202
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:35
 msgid "Street type"
 msgstr "Gatutyp"
 
 #: Koha/Database/Columns.pm:203
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:17
 msgid "Surname"
 msgstr "Efternamn"
 
 #: Koha/Database/Columns.pm:204
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:25
 msgid "Salutation"
 msgstr "Hälsning"
 
@@ -2136,19 +2086,14 @@ msgid "Last update date"
 msgstr "Datum för senaste uppdateringen"
 
 #: Koha/Database/Columns.pm:206
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:115
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:181
 msgid "Username"
 msgstr "Användarnamn"
 
 #: Koha/Database/Columns.pm:207
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:45
 msgid "ZIP/Postal code"
 msgstr "Postnummer"
 
 #: Koha/Database/Columns.pm:210
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
 msgid "Barcode"
 msgstr "Streckkod"
 
@@ -2165,7 +2110,6 @@ msgid "Source of acquisition"
 msgstr "Inköpskanal"
 
 #: Koha/Database/Columns.pm:215 Koha/Database/Columns.pm:316
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Collection"
 msgstr "Avdelning"
 
@@ -2186,7 +2130,6 @@ msgid "Copy number"
 msgstr "Ex.nummer"
 
 #: Koha/Database/Columns.pm:220
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Damaged status"
 msgstr "Skadestatus"
 
@@ -2219,7 +2162,6 @@ msgid "Exclude from local holds priority"
 msgstr "Exkludera från prioritet för lokala reservationer"
 
 #: Koha/Database/Columns.pm:228
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Current library"
 msgstr "Aktuellt bibliotek"
 
@@ -2232,12 +2174,10 @@ msgid "Total checkouts"
 msgstr "Totalt antal lån"
 
 #: Koha/Database/Columns.pm:231 Koha/Database/Columns.pm:328
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Call number"
 msgstr "Hyllsignatur"
 
 #: Koha/Database/Columns.pm:232
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Lost status"
 msgstr "Förlorad-status"
 
@@ -2264,7 +2204,6 @@ msgid "Total local uses"
 msgstr "Total lokal användning"
 
 #: Koha/Database/Columns.pm:239 Koha/Database/Columns.pm:321
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Shelving location"
 msgstr "Placering"
 
@@ -2281,7 +2220,6 @@ msgid "New status"
 msgstr "Ny status"
 
 #: Koha/Database/Columns.pm:244
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Due date"
 msgstr "Återlämningsdatum"
 
@@ -2319,7 +2257,6 @@ msgid "Shelving control number"
 msgstr "Kontrollnummer för hyllplats"
 
 #: Koha/Database/Columns.pm:254
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Inventory number"
 msgstr "Accessionsnummer"
 
@@ -2333,7 +2270,6 @@ msgid "Uniform Resource Identifier"
 msgstr "Uniform Resource Identifier"
 
 #: Koha/Database/Columns.pm:257
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Withdrawn status"
 msgstr "Särskild status"
 
@@ -2347,18 +2283,6 @@ msgstr "Sammanfattning"
 
 #: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:335
 #: Koha/ILL/Backend/Standard.pm:939
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:39
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/chapter.inc:10
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:5
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:5
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:5
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:39
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/chapter.inc:10
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:5
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:5
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/thesis.inc:5
 msgid "Author"
 msgstr "Författare"
 
@@ -2375,8 +2299,6 @@ msgid "Medium"
 msgstr "Allmän medieterm"
 
 #: Koha/Database/Columns.pm:268 Koha/Database/Columns.pm:298
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:883
 msgid "Notes"
 msgstr "Kommentarer"
 
@@ -2402,21 +2324,6 @@ msgstr "Övrig titelinformation"
 
 #: Koha/Database/Columns.pm:275 Koha/Database/Columns.pm:346
 #: Koha/ILL/Backend/Standard.pm:966
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:38
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:51
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:4
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:4
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:4
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:38
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:51
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:4
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:4
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/thesis.inc:4
 msgid "Title"
 msgstr "Titel"
 
@@ -2472,25 +2379,10 @@ msgstr "Övriga fysiska detaljer"
 
 #: Koha/Database/Columns.pm:294 Koha/Database/Columns.pm:339
 #: Koha/ILL/Backend/Standard.pm:948
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:46
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:10
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:13
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:46
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:10
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:13
 msgid "ISBN"
 msgstr "ISBN"
 
 #: Koha/Database/Columns.pm:295 Koha/ILL/Backend/Standard.pm:949
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:55
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:11
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:14
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:55
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:11
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:14
 msgid "ISSN"
 msgstr "ISSN"
 
@@ -2512,31 +2404,15 @@ msgstr "Antal sidor"
 
 #: Koha/Database/Columns.pm:301 Koha/Database/Columns.pm:343
 #: Koha/ILL/Backend/Standard.pm:960
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:42
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:8
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:42
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:8
 msgid "Place of publication"
 msgstr "Utgivningsort"
 
 #: Koha/Database/Columns.pm:302 Koha/ILL/Backend/Standard.pm:959
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:12
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:7
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:12
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/thesis.inc:7
 msgid "Publication date"
 msgstr "Utgivningsdatum"
 
 #: Koha/Database/Columns.pm:303 Koha/Database/Columns.pm:344
 #: Koha/ILL/Backend/Standard.pm:961
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:41
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:7
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:41
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:7
 msgid "Publisher"
 msgstr "Förlag"
 
@@ -2578,7 +2454,6 @@ msgid "Interface"
 msgstr "Gränssnitt"
 
 #: Koha/Database/Columns.pm:319
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Item number"
 msgstr "Exemplarnummer"
 
@@ -2587,7 +2462,6 @@ msgid "SIP mode"
 msgstr "SIP-läge"
 
 #: Koha/Database/Columns.pm:323
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
 msgid "Transaction type"
 msgstr "Transaktionstyp"
 
@@ -2612,8 +2486,6 @@ msgid "Start date"
 msgstr "Startdatum"
 
 #: Koha/Database/Columns.pm:337
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Collection title"
 msgstr "Titel på samling"
 
@@ -2644,15 +2516,11 @@ msgid "Edit item metadata"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:936
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:11
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:11
 #, fuzzy
 msgid "Article author"
 msgstr "Artikelbeställningar"
 
 #: Koha/ILL/Backend/Standard.pm:937
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:10
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:10
 #, fuzzy
 msgid "Article title"
 msgstr "Serietitel"
@@ -2667,56 +2535,31 @@ msgid "Chapter author"
 msgstr "Visa färre författare"
 
 #: Koha/ILL/Backend/Standard.pm:941
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/chapter.inc:11
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/chapter.inc:11
 msgid "Chapter"
 msgstr "Kapitel"
 
 #: Koha/ILL/Backend/Standard.pm:942
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:6
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:6
 #, fuzzy
 msgid "Conference date"
 msgstr "Skapad den"
 
 #: Koha/ILL/Backend/Standard.pm:943
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:47
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:14
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/journal.inc:5
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:15
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:8
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:47
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:14
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/journal.inc:5
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:15
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/thesis.inc:8
 msgid "DOI"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:944
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:40
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:6
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:8
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:40
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:6
 msgid "Editor"
 msgstr "Redaktör"
 
 #: Koha/ILL/Backend/Standard.pm:945
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:9
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:9
 msgid "Format"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:946
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:7
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:7
 msgid "Genre"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:947
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/thesis.inc:6
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/thesis.inc:6
 msgid "Institution"
 msgstr ""
 
@@ -2726,23 +2569,13 @@ msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:951
 msgid "Date"
-msgstr ""
+msgstr "Datum "
 
 #: Koha/ILL/Backend/Standard.pm:952
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:10
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:10
 msgid "Language"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:953
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/article.inc:13
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/chapter.inc:12
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:37
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:370
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/article.inc:13
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/chapter.inc:12
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:12
 msgid "Pages"
 msgstr "Sidor"
 
@@ -2752,30 +2585,20 @@ msgid "Pagination"
 msgstr "Lokalisering"
 
 #: Koha/ILL/Backend/Standard.pm:955
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:14
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:14
 #, fuzzy
 msgid "Paper author"
 msgstr "författare "
 
 #: Koha/ILL/Backend/Standard.pm:956
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:13
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:13
 #, fuzzy
 msgid "Paper title"
 msgstr "Serietitel"
 
 #: Koha/ILL/Backend/Standard.pm:957
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:44
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:10
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:44
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:10
 msgid "Part / Edition"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:958
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:5
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:5
 #, fuzzy
 msgid "Publication"
 msgstr "Utgivningsdatum"
@@ -2785,50 +2608,27 @@ msgid "PubMed ID"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:964
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:8
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:8
 msgid "Sponsor"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:965
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:6
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:6
 msgid "Studio"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:967
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/create.inc:52
 msgid "Type"
 msgstr "Typ"
 
 #: Koha/ILL/Backend/Standard.pm:968
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:7
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:7
 msgid "Venue"
 msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:969
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:45
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:52
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:9
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:11
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:45
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:52
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:9
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:11
 #, fuzzy
 msgid "Volume"
 msgstr "Volymdatum"
 
 #: Koha/ILL/Backend/Standard.pm:970
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:43
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:54
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/dvd.inc:8
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/resource.inc:9
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:43
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:54
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/dvd.inc:8
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/resource.inc:9
 msgid "Year"
 msgstr ""
 
@@ -2884,7 +2684,6 @@ msgid "Delete request"
 msgstr "Ta bort beställning"
 
 #: Koha/ILL/Request.pm:708
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:547
 msgid "Check out"
 msgstr "Låna ut"
 
@@ -3984,7 +3783,7 @@ msgstr "Kontonummer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Basket billing place"
-msgstr ""
+msgstr "Faktureringsplats för korg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Basket delivery place"
@@ -3992,11 +3791,11 @@ msgstr "Leveransplats av korg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Basket group billing place"
-msgstr ""
+msgstr "Faktureringsplats för korggrupp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Basket group delivery place"
-msgstr ""
+msgstr "Leveransplats för korggrupp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
@@ -5277,7 +5076,7 @@ msgstr "Sena beställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/modordernotes.tt:8
 msgid "Change order vendor note"
-msgstr ""
+msgstr "Ändra leverantörskommentar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/modordernotes.tt:10
 msgid "Change order internal note"
@@ -5699,11 +5498,11 @@ msgstr "{authtypecode} ramverk"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:113
 #, perl-brace-format
 msgid "Authority MARC framework for '{authtypecode}'"
-msgstr ""
+msgstr "Auktoritetsramverk för '{authtypecode}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:115
 msgid "Default authority MARC framework"
-msgstr ""
+msgstr "Standard-auktoritetsramverk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:12
 msgid "Modify authorized value"
@@ -5869,14 +5668,14 @@ msgstr "Modifera kategori '{categorycode}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:24
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:79
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:543
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:556
 #, perl-brace-format
 msgid "Cannot delete category '{categorycode}'"
 msgstr "Kan inte ta bort kategori '{categorycode}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:83
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:545
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:558
 #, perl-brace-format
 msgid "Confirm deletion of category '{categorycode}'"
 msgstr "Bekräfta borttagning av kategori '{categorycode}'"
@@ -6641,7 +6440,7 @@ msgstr "Logga in i Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:10
 msgid "Cataloging authority plugin"
-msgstr ""
+msgstr "Insticksprogram för katalogiseringsauktoritet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:14
@@ -7570,7 +7369,7 @@ msgstr "Reservationer som väntar på hämtning"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:12
 #, perl-brace-format
 msgid "Club enrollments for {club_name}"
-msgstr ""
+msgstr "Klubbregistreringar för {club_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:17
@@ -7766,7 +7565,7 @@ msgstr "Väljer standardinställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:34
 msgid "Default data loaded"
-msgstr ""
+msgstr "Standarddata laddad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:37
 msgid "Installation complete"
@@ -8268,7 +8067,7 @@ msgstr "Transaktionshistorik för {register}"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:11
 #, perl-brace-format
 msgid "Cash summary for {library}"
-msgstr ""
+msgstr "Kontantöversikt för {library}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_old_queue.tt:10
 msgid "Old recalls"
@@ -8590,7 +8389,7 @@ msgstr "Reklamationer för {vendor}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:16
 msgid "Claims"
-msgstr ""
+msgstr "Reklamationer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:24
@@ -8906,7 +8705,7 @@ msgstr "Förläng återlämningsdatum satsvis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:14
 msgid "Batch modify holds"
-msgstr ""
+msgstr "Satsvis redigering av reservationer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:17
 msgid "Batch record modification"
