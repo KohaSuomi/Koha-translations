@@ -15,7 +15,7 @@ fi
 
 KOHA_PATH="${KOHA_PATH:-$DEFAULT_KOHA_PATH}"
 TRANSLATIONS_PATH="${TRANSLATIONS_PATH:-$DEFAULT_TRANSLATIONS_PATH}"
-LANG_FILTER=""
+LANG_FILTER="${LANG_FILTER:-fi-FI,sv-SE}" # Default languages to install if not specified. Can be overridden with --lang or LANG_FILTER env var.
 DRY_RUN=0
 
 usage() {
