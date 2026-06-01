@@ -362,3 +362,41 @@ cd /home/koha/Koha-translations
 - Kevyempi (säästää levytilaa)
 - Helpompi automatisoida (vähemmän riippuvuuksia)
 - Toimii vanhemmilla järjestelmillä ilman Node-päivityksiä
+
+## Nopea PO-kopiointi ja asennus Kohalle
+
+Jos haluat vain kopioida valmiit PO-tiedostot Koha-repoon ja asentaa ne (ilman POT/PO-päivitystä), käytä skriptiä `copy_and_install_translations.sh`.
+
+Skripti tekee kaksi asiaa:
+1. Kopioi `po/*.po` -> `Koha/misc/translator/po/`
+2. Ajaa Koha-asennuksen: `misc/translator/translate install`
+
+### Esimerkit
+
+**Asenna kaikki kielet:**
+```bash
+cd /home/koha/Koha-translations
+./copy_and_install_translations.sh --koha-path /home/koha/Koha
+```
+
+**Asenna vain tietyt kielet:**
+```bash
+./copy_and_install_translations.sh \
+  --koha-path /home/koha/Koha \
+  --lang fi-FI,sv-SE
+```
+
+**Dry-run (näytä mitä tapahtuisi):**
+```bash
+./copy_and_install_translations.sh --koha-path /home/koha/Koha --dry-run
+```
+
+### Parametrit
+
+```bash
+  -k, --koha-path PATH          Polku Koha-repoon
+  -r, --translations-path PATH  Polku Koha-translations-repoon
+  -l, --lang LANGS              Kielet pilkulla erotettuna (esim. fi-FI,sv-SE)
+  -n, --dry-run                 Testaa ilman muutoksia
+  -h, --help                    Näytä ohje
+```
