@@ -1,13 +1,12 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.05.001\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 09:38+0300\n"
-"PO-Revision-Date: 2025-12-18 09:49+0200\n"
-"Last-Translator: Lari Taskula <lari.taskula@hypernova.fi>\n"
-"Language-Team: Koha Translation Team\n"
-"Language: fi_FI\n"
+"Project-Id-Version: Koha 21.05\n"
+"POT-Creation-Date: 2023-01-11 14:49+0200\n"
+"PO-Revision-Date: 2023-01-11 15:26+0200\n"
+"Last-Translator: pknuuti <paivi.knuutinen@joensuu.fi>\n"
+"Language-Team: \n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -454,17 +453,11 @@ msgstr "Yksimerkkinen aakkosellinen koodi, joka kuvaa, millaiselle kohderyhmäll
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:853
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:1270
 #, c-format
-msgid "Target audience"
-msgstr "Kohderyhmä"
+msgid "(index-term-genre"
+msgstr "(hakutermi-lajityyppi"
 
-#: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:31
-#: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:146
-#: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:158
-#: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_006.xml:708
-#: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:136
-#: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:417
-#: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:429
-#: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_008.xml:1271
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:744
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:753
 #, c-format
 msgid "Unknown or not specified"
 msgstr "Tuntematon tai ei määritelty"
@@ -4170,8 +4163,8 @@ msgstr "Monivärinen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:30
 #, c-format
-msgid "Material out of which the cartographic item is made."
-msgstr "Kartan valmistusmateriaali."
+msgid "Captions language: "
+msgstr "Tekstityksen kieli: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:30
 #, c-format
@@ -13495,8 +13488,8 @@ msgstr "bislama"
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:67
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:67
 #, c-format
-msgid "Blissymbolics"
-msgstr "Bliss-symbolit"
+msgid "Performance medium: "
+msgstr "Esityskokoonpano"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21Languages.xsl:68
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21Languages.xsl:68
