@@ -28,7 +28,7 @@ Usage:
 Options:
   -k, --koha-path PATH          Path to Koha repository
   -r, --translations-path PATH  Path to Koha-translations repository
-  -l, --lang LANGS              Comma-separated language tags (e.g. fi-FI or fi-FI,sv-SE)
+  -l, --lang LANGS              Comma-separated language tags (e.g. fi-FI or fi-FI,sv-SE) to install (default: fi-FI,sv-SE)
   -n, --dry-run                 Print actions without changing files
   -h, --help                    Show this help
 
