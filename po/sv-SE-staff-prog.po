@@ -9427,7 +9427,27 @@ msgstr "Mina medgivanden"
 msgid "Log out"
 msgstr "Logga ut"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:254
+#. A
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:253
+msgid "Debug controls"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:258
+#, fuzzy, c-format
+msgid "Toggle User CSS"
+msgstr "Växla tangentbord"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:261
+#, fuzzy, c-format
+msgid "Toggle User JS"
+msgstr "Växla tangentbord"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:264
+#, c-format
+msgid "Toggle Custom Stylesheets"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:272
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:230
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:81
 #, c-format
@@ -12469,7 +12489,13 @@ msgid "Set permissions"
 msgstr "Ställ in rättigheter"
 
 #. LI
-#: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:92
+#: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:93
+#, fuzzy
+msgid "Patron category does not allow permissions"
+msgstr "Låntagarkategorikod är %s"
+
+#. LI
+#: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:98
 msgid "You are not authorized to set permissions"
 msgstr "Du har inte behörighet att ställa in rättigheter"
 
@@ -12560,9 +12586,9 @@ msgid "Staff - Internal note"
 msgstr "Personal - Intern kommentar"
 
 #. For the first occurrence,
-#. %1$s:  patron.firstname | html
-#. %2$s:  patron.surname | html
-#: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:188
+#. %1$s:  patron.firstname | html 
+#. %2$s:  patron.surname | html 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:194
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:423
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:425
 #, c-format
@@ -12644,6 +12670,11 @@ msgid "Phone"
 msgstr "Telefon"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:13
+#, c-format
+msgid "Suomi.fi"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:155
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:325
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:327
@@ -14703,7 +14734,12 @@ msgstr "Tillåt personal att ändra inloggat bibliotek"
 msgid "Manage the preservation module"
 msgstr "Hantera bokvårdsmodulen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:96
+#: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:91
+#, c-format
+msgid "Display the debug interface"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:99
 #, c-format
 msgid "Remaining circulation permissions "
 msgstr "Kvarvarande lånerättigheter "
@@ -32255,7 +32291,18 @@ msgstr "Skicka meddelande om kontots utgång till låntagare:"
 msgid "Make the account expiry notice mandatory for all patrons in this category and prevent patrons from opting out in the messaging preferences"
 msgstr "Gör meddelandet om lånekontots utgångstid obligatoriskt för alla låntagare i denna kategorin och hindra låntagare från att välja bort det i meddelandeinställningarna"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:529
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:525
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:605
+#, fuzzy, c-format
+msgid "Can have permissions:"
+msgstr "Klistra in rättigheter"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:535
+#, c-format
+msgid "Determine if patrons in this category can have permissions assigned."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:542
 #, c-format
 msgid "Default messaging preferences for this patron category"
 msgstr "Standardinställningar för meddelanden för denna låntagarkategori"
@@ -32265,28 +32312,28 @@ msgstr "Standardinställningar för meddelanden för denna låntagarkategori"
 msgid ". Deletion not possible "
 msgstr ". Borttagning är inte möjlig "
 
-#. %1$s:  patrons_in_category | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:550
+#. %1$s:  patrons_in_category | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:563
 #, c-format
 msgid "This category is used %s times"
 msgstr "Denna kategori används %s gånger"
 
 #. For the first occurrence,
-#. %1$s:  IF category.enrolmentperiod
-#. %2$s:  category.enrolmentperiod | html
-#. %3$s:  ELSE
-#. %4$s:  category.enrolmentperioddate | $KohaDates
-#. %5$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:559
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:699
+#. %1$s:  IF category.enrolmentperiod 
+#. %2$s:  category.enrolmentperiod | html 
+#. %3$s:  ELSE 
+#. %4$s:  category.enrolmentperioddate | $KohaDates 
+#. %5$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:572
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:713
 #, c-format
 msgid "%s %s months %s until %s %s "
 msgstr "%s %s månader %s tills %s %s "
 
 #. For the first occurrence,
-#. %1$s:  category.password_expiry_days | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:568
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:708
+#. %1$s:  category.password_expiry_days | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:581
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:722
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:229
 #, c-format
 msgid "%s days"
@@ -32297,10 +32344,10 @@ msgstr "%s dagar"
 msgid "Receives overdue notices: "
 msgstr "Tar emot förseningsmeddelanden: "
 
-#. %1$s:  IF category.hidelostitems
-#. %2$s:  ELSE
-#. %3$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:573
+#. %1$s:  IF category.hidelostitems 
+#. %2$s:  ELSE 
+#. %3$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:586
 #, c-format
 msgid "%sHidden by default%sShown%s"
 msgstr "%sDold som standard%sVisas%s"
@@ -32334,8 +32381,8 @@ msgid "Delete this category"
 msgstr "Ta bort kategorin"
 
 #. For the first occurrence,
-#. %1$s:  searchfield | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:639
+#. %1$s:  searchfield | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:653
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:222
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:130
 #, c-format
@@ -32427,10 +32474,10 @@ msgstr "Prof."
 msgid "Org."
 msgstr "Org."
 
-#. %1$s:  IF ( category.hidelostitems )
-#. %2$s:  ELSE
-#. %3$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:728
+#. %1$s:  IF ( category.hidelostitems ) 
+#. %2$s:  ELSE 
+#. %3$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:742
 #, c-format
 msgid "%sHidden%sShown%s"
 msgstr "%sDold%sVisas%s"
@@ -46369,8 +46416,8 @@ msgstr "Välj ett datum och en hämtningstid"
 msgid "Refresh in %s seconds"
 msgstr "Ladda om om %s sekunder"
 
-#. %1$s:  reporteddate | $KohaDates with_hours => 1
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:41
+#. %1$s:  reporteddate | $KohaDates with_hours => 1 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:65
 #, c-format
 msgid "Holds to pull reported on %s"
 msgstr "Reservationer att plocka %s"
@@ -46455,17 +46502,17 @@ msgstr "Datum"
 msgid "series"
 msgstr "serie"
 
-#. %1$s:  END
-#. %2$s:  IF ( reserveloo.editionstatement )
-#. %3$s:  reserveloo.editionstatement | html
-#. %4$s:  END
-#. %5$s:  IF ( reserveloo.publicationyear )
-#. %6$s:  reserveloo.publicationyear | html
-#. %7$s:  END
-#. %8$s:  IF ( reserveloo.enumchron )
-#. %9$s:  reserveloo.enumchron | html
-#. %10$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:124
+#. %1$s:  END 
+#. %2$s:  IF ( reserveloo.editionstatement ) 
+#. %3$s:  reserveloo.editionstatement | html 
+#. %4$s:  END 
+#. %5$s:  IF ( reserveloo.publicationyear ) 
+#. %6$s:  reserveloo.publicationyear | html 
+#. %7$s:  END 
+#. %8$s:  IF ( reserveloo.enumchron ) 
+#. %9$s:  reserveloo.enumchron | html 
+#. %10$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:163
 #, c-format
 msgid "%s %s%s%s %s %s%s %sIssues %s%s "
 msgstr "%s %s%s%s %s %s%s %sNummer %s%s "
@@ -61052,13 +61099,13 @@ msgstr "Du måste välja minst en serie att redigera"
 msgid "Serial edition"
 msgstr "Periodikautgåva"
 
-#. %1$s:  IF location
-#. %2$s:  AuthorisedValues.GetByCode('LOC', location) | html
-#. %3$s:  END
-#. %4$s:  IF ( callnumber )
-#. %5$s:  callnumber | html
-#. %6$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:152
+#. %1$s:  IF location 
+#. %2$s:  AuthorisedValues.GetByCode('LOC', location) | html 
+#. %3$s:  END 
+#. %4$s:  IF ( callnumber ) 
+#. %5$s:  callnumber | html 
+#. %6$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:153
 #, c-format
 msgid "%s(%s)%s %scallnumber: %s%s"
 msgstr "%s(%s)%s %shyllsignatur: %s%s"
@@ -61068,15 +61115,15 @@ msgstr "%s(%s)%s %shyllsignatur: %s%s"
 msgid "Serial edition "
 msgstr "Periodikautgåva "
 
-#. %1$s:  internalnotes | html | html_line_break
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:158
+#. %1$s:  internalnotes | html | html_line_break 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:159
 #, c-format
 msgid "Nonpublic note: %s"
 msgstr "Intern anmärkning: %s"
 
-#. %1$s:  FOREACH errse IN errseq
-#. %2$s:  errse.serialseq | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:165
+#. %1$s:  FOREACH errse IN errseq 
+#. %2$s:  errse.serialseq | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:166
 #, c-format
 msgid "Error: Barcode not unique for %sserialseq %s"
 msgstr "Fel: Streckkod inte unik för %sserialseq %s"
@@ -61138,8 +61185,8 @@ msgstr "Periodikalänkar"
 msgid "Serial collection for %s"
 msgstr "Periodikasamling för %s"
 
-#. %1$s:  subscription.subscriptionid | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:647
+#. %1$s:  subscription.subscriptionid | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:648
 #, c-format
 msgid "Serial collection #%s"
 msgstr "Periodikasamling #%s"
@@ -61149,14 +61196,14 @@ msgstr "Periodikasamling #%s"
 msgid "Detail of the subscription"
 msgstr "Information om prenumerationen"
 
-#. %1$s:  subscription.subscriptionid | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:650
+#. %1$s:  subscription.subscriptionid | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:651
 #, c-format
 msgid "Subscription #%s"
 msgstr "Prenumeration #%s"
 
-#. %1$s:  subscription.subscriptionid | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:653
+#. %1$s:  subscription.subscriptionid | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:654
 #, c-format
 msgid "Renew #%s"
 msgstr "Förnya #%s"
@@ -64070,13 +64117,43 @@ msgstr "Pausad t.o.m.:"
 msgid "Hold note:"
 msgstr "Kommentar:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:122
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:259
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:109
+#, fuzzy, c-format
+msgid "Modified holds report"
+msgstr "Redigerade reservationer"
+
+#. %1$s:  total_updated | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:113
+#, fuzzy, c-format
+msgid "Updated holds (%s)"
+msgstr "Uppdaterad %s"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:124
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:183
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:329
 #, c-format
 msgid "Suspended until"
 msgstr "Pausad t.o.m."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:162
+#. %1$s:  total_failed | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:171
+#, fuzzy, c-format
+msgid "Failed holds (%s)"
+msgstr "infångade reservationer"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:172
+#, fuzzy, c-format
+msgid "Important: The following holds were not modified."
+msgstr "Följande exemplar redigerades:"
+
+#. %1$s:  IF failure.reason == 'pickupLocationNotAllowed' 
+#. %2$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:219
+#, fuzzy, c-format
+msgid "%s New pickup location is invalid %s "
+msgstr "Det valda hämtstället är inte tillåtet"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:234
 #, c-format
 msgid "Return to batch hold modification"
 msgstr "Gå tillbaka till satsvis redigering av reservationer"
@@ -66967,10 +67044,10 @@ msgstr "Begränsning upphör"
 msgid "Restriction comment"
 msgstr "Begränsningskommentar"
 
-#. %1$s:  IF (patron_message.message_type == 'B')
-#. %2$s:  ELSE
-#. %3$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:304
+#. %1$s:  IF (patron_message.message_type == 'B') 
+#. %2$s:  ELSE 
+#. %3$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:300
 #, c-format
 msgid "%s ( OPAC ) %s ( Staff ) %s "
 msgstr "%s ( OPAC ) %s ( Personal) %s "
@@ -67030,12 +67107,12 @@ msgstr "Begränsning upphör:"
 msgid "Restriction comment:"
 msgstr "Begränsningskommentar:"
 
-#. %1$s:  ELSE
-#. %2$s:  field.name | html
-#. %3$s:  END
-#. %4$s:  END
-#. %5$s:  IF ( field.type == 'bool' )
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:418
+#. %1$s:  ELSE 
+#. %2$s:  field.name | html 
+#. %3$s:  END 
+#. %4$s:  END 
+#. %5$s:  IF ( field.type == 'bool' ) 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:414
 #, c-format
 msgid "%s There is no value defined for %s %s %s %s "
 msgstr "%s Inget värde är definierat för %s %s %s %s "
@@ -68965,22 +69042,22 @@ msgid "Display detail for this bibliographic record"
 msgstr "Visa detaljer för den här bibliografiska posten"
 
 #. For the first occurrence,
-#. %1$s:  loopro.biblionumber | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:298
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:301
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:385
+#. %1$s:  loopro.biblionumber | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:288
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:291
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:375
 #, c-format
 msgid "Bibliographic record %s"
 msgstr "Bibliografisk post %s"
 
-#. %1$s:  loopro.object | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:306
+#. %1$s:  loopro.object | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:296
 #, c-format
 msgid "Subscription %s "
 msgstr "Prenumeration %s "
 
-#. %1$s:  loopro.object | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:308
+#. %1$s:  loopro.object | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:298
 #, c-format
 msgid "Authority %s"
 msgstr "Auktoritet %s"
@@ -68990,19 +69067,19 @@ msgstr "Auktoritet %s"
 msgid "Display detail for this authority"
 msgstr "Visa detaljer för denna auktoritet"
 
-#. %1$s:  loopro.notice.title | html
-#. %2$s:  loopro.notice.code | html
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:313
+#. %1$s:  loopro.notice.title | html 
+#. %2$s:  loopro.notice.code | html 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:303
 #, c-format
 msgid "Notice %s (%s)"
 msgstr "Meddelande %s (%s)"
 
-#. %1$s:  ELSE
-#. %2$s:  loopro.object | html
-#. %3$s:  END
-#. %4$s:  ELSIF ( loopro.module == 'RECALLS' )
-#. %5$s:  IF loopro.recall.item_level
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:314
+#. %1$s:  ELSE 
+#. %2$s:  loopro.object | html 
+#. %3$s:  END 
+#. %4$s:  ELSIF ( loopro.module == 'RECALLS' ) 
+#. %5$s:  IF loopro.recall.item_level 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:304
 #, c-format
 msgid "%s %s %s %s %s Item-level recall on "
 msgstr "%s %s %s %s %s Återkrav på exemplarnivå för "
@@ -69012,16 +69089,16 @@ msgstr "%s %s %s %s %s Återkrav på exemplarnivå för "
 msgid "item"
 msgstr "exemplar"
 
-#. %1$s:  ELSE
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:323
+#. %1$s:  ELSE 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:313
 #, c-format
 msgid "%s Bibliographic record-level recall on "
 msgstr "%s Återkrav på postnivå "
 
-#. %1$s:  END
-#. %2$s:  ELSIF ( loopro.module == 'ACQUISITIONS' && loopro.action == 'ACQUISITION ORDER' && loopro.object )
-#. %3$s:  IF ( CAN_user_acquisition_order_manage )
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:325
+#. %1$s:  END 
+#. %2$s:  ELSIF ( loopro.module == 'ACQUISITIONS' && loopro.action == 'ACQUISITION ORDER' && loopro.object ) 
+#. %3$s:  IF ( CAN_user_acquisition_order_manage ) 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:315
 #, c-format
 msgid "%s %s %s Basket "
 msgstr "%s %s %s Korg "
@@ -69031,11 +69108,11 @@ msgstr "%s %s %s Korg "
 msgid "biblio"
 msgstr "bibliografisk post"
 
-#. %1$s:  ELSE
-#. %2$s:  loopro.object | html
-#. %3$s:  END
-#. %4$s:  ELSIF ( loopro.module == "SUGGESTION" )
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:329
+#. %1$s:  ELSE 
+#. %2$s:  loopro.object | html 
+#. %3$s:  END 
+#. %4$s:  ELSIF ( loopro.module == "SUGGESTION" ) 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:319
 #, c-format
 msgid "%s Basket %s %s %s "
 msgstr "%s Korg %s %s %s "
@@ -69051,21 +69128,21 @@ msgstr "Visa detaljer för detta exemplar"
 msgid "Compare"
 msgstr "Jämför"
 
-#. %1$s:  IF ( CATALOGUING )
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:383
+#. %1$s:  IF ( CATALOGUING ) 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:373
 #, c-format
 msgid "%s No log found for "
 msgstr "%s Ingen logg hittades för "
 
-#. %1$s:  ELSIF ( MEMBERS )
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:385
+#. %1$s:  ELSIF ( MEMBERS ) 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:375
 #, c-format
 msgid ". %s No log found for "
 msgstr ". %s Ingen logg hittades för "
 
-#. %1$s:  ELSE
-#. %2$s:  END
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:387
+#. %1$s:  ELSE 
+#. %2$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:377
 #, c-format
 msgid ". %s No log found. %s "
 msgstr ". %s Ingen beställning hittades. %s "
