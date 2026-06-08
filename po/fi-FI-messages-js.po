@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-06 09:38+0300\n"
-"PO-Revision-Date: 2025-12-30 13:53+0200\n"
+"PO-Revision-Date: 2026-05-07 15:46+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -1224,37 +1224,33 @@ msgstr "Varausta ei voitu keskeyttää, koska sitä ei löytynyt."
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:785
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:824
 msgid "In transit"
-msgstr ""
+msgstr "Kuljetettavana"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:790
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:827
-#, fuzzy
 msgid "In processing"
-msgstr "Uusi käsittelypohja"
+msgstr "Käsiteltävänä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:795
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:830
-#, fuzzy
 msgid "Waiting"
-msgstr "Odotuslista"
+msgstr "Noudettavissa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:869
-#, fuzzy
 msgid "Move hold up"
-msgstr "varattu"
+msgstr "Siirrä varaus ylöspäin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:875
 msgid "Move hold to top"
-msgstr ""
+msgstr "Siirrä varaus jonon alkuun"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:881
 msgid "Move hold to bottom"
-msgstr ""
+msgstr "Siirrä varaus jonon loppuun"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:887
-#, fuzzy
 msgid "Move hold down"
-msgstr "Keskeytä varaus"
+msgstr "Siirrä varaus alaspäin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:904
 #, javascript-format
@@ -4284,9 +4280,8 @@ msgid "Error selecting pickup shelf"
 msgstr "Virhe noutohyllyä valitessa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:201
-#, fuzzy
 msgid "Error releasing pickup shelf"
-msgstr "Virhe noutohyllyä valitessa"
+msgstr "Virhe noutohyllyä vapautettaessa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:217
 msgid "Error locking pickup shelf"

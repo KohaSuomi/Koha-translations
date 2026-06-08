@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-06 09:38+0300\n"
-"PO-Revision-Date: 2026-04-22 14:09+0300\n"
+"PO-Revision-Date: 2026-05-08 09:56+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -1218,37 +1218,33 @@ msgstr "Kunde inte pausa reservation, reservation ej funnen."
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:785
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:824
 msgid "In transit"
-msgstr ""
+msgstr "Under transport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:790
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:827
-#, fuzzy
 msgid "In processing"
-msgstr "Ny process"
+msgstr "Under bearbetning"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:795
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:830
-#, fuzzy
 msgid "Waiting"
-msgstr "Väntelista"
+msgstr "Väntar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:869
-#, fuzzy
 msgid "Move hold up"
-msgstr "reserverad"
+msgstr "Flytta reservation uppåt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:875
 msgid "Move hold to top"
-msgstr ""
+msgstr "Flytta högst upp i kön"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:881
 msgid "Move hold to bottom"
-msgstr ""
+msgstr "Flytta längst ned i kön"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:887
-#, fuzzy
 msgid "Move hold down"
-msgstr "Pausa reservationen fr.o.m."
+msgstr "Flytta reservation nedåt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:904
 #, javascript-format

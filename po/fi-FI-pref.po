@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2026-03-16 10:31+0200\n"
+"PO-Revision-Date: 2026-05-07 15:43+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -12080,19 +12080,17 @@ msgstr "tarvitsee"
 
 # Patrons > General > ExtendedPatronAttributes
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#ClearPermissionsAutomatically# Don't enable"
-msgstr "Poista käytöstä"
+msgstr "Älä käytä"
 
 # Acquisitions > Printing > OrderPdfFormat
 # Acquisitions > Printing
-#, fuzzy
 msgid "patrons.pref#ClearPermissionsAutomatically# Enable"
 msgstr "Käytä"
 
 # Patrons > Security > ClearPermissionsAutomatically
 msgid "patrons.pref#ClearPermissionsAutomatically# the ability for staff permissions to be automatically cleared when a staff member's category is changed to one that does not have permissions."
-msgstr ""
+msgstr "ominaisuutta, jossa käyttäjäoikeudet poistetaan automaattisesti käyttäjältä, kun virkailijatunnuksen asiakastyyppi vaihdetaan sellaiseen, jossa ei sallita käyttäjäoikeuksia."
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms

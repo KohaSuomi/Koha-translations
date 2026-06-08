@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-06 09:38+0300\n"
-"PO-Revision-Date: 2026-04-22 14:28+0300\n"
+"PO-Revision-Date: 2026-05-08 10:27+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -2569,7 +2569,7 @@ msgstr ""
 
 #: Koha/ILL/Backend/Standard.pm:951
 msgid "Date"
-msgstr ""
+msgstr "Datum "
 
 #: Koha/ILL/Backend/Standard.pm:952
 msgid "Language"
@@ -3783,7 +3783,7 @@ msgstr "Kontonummer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Basket billing place"
-msgstr ""
+msgstr "Faktureringsplats för korg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Basket delivery place"
@@ -3791,11 +3791,11 @@ msgstr "Leveransplats av korg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Basket group billing place"
-msgstr ""
+msgstr "Faktureringsplats för korggrupp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Basket group delivery place"
-msgstr ""
+msgstr "Leveransplats för korggrupp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
@@ -5076,7 +5076,7 @@ msgstr "Sena beställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/modordernotes.tt:8
 msgid "Change order vendor note"
-msgstr ""
+msgstr "Ändra leverantörskommentar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/modordernotes.tt:10
 msgid "Change order internal note"
@@ -5498,11 +5498,11 @@ msgstr "{authtypecode} ramverk"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:113
 #, perl-brace-format
 msgid "Authority MARC framework for '{authtypecode}'"
-msgstr ""
+msgstr "Auktoritetsramverk för '{authtypecode}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:115
 msgid "Default authority MARC framework"
-msgstr ""
+msgstr "Standard-auktoritetsramverk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:12
 msgid "Modify authorized value"
@@ -6440,7 +6440,7 @@ msgstr "Logga in i Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:10
 msgid "Cataloging authority plugin"
-msgstr ""
+msgstr "Insticksprogram för katalogiseringsauktoritet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:14
@@ -7369,7 +7369,7 @@ msgstr "Reservationer som väntar på hämtning"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:12
 #, perl-brace-format
 msgid "Club enrollments for {club_name}"
-msgstr ""
+msgstr "Klubbregistreringar för {club_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:17
@@ -7565,7 +7565,7 @@ msgstr "Väljer standardinställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:34
 msgid "Default data loaded"
-msgstr ""
+msgstr "Standarddata laddad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:37
 msgid "Installation complete"
@@ -8067,7 +8067,7 @@ msgstr "Transaktionshistorik för {register}"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:11
 #, perl-brace-format
 msgid "Cash summary for {library}"
-msgstr ""
+msgstr "Kontantöversikt för {library}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_old_queue.tt:10
 msgid "Old recalls"
@@ -8389,7 +8389,7 @@ msgstr "Reklamationer för {vendor}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:16
 msgid "Claims"
-msgstr ""
+msgstr "Reklamationer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:24
@@ -8705,7 +8705,7 @@ msgstr "Förläng återlämningsdatum satsvis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:14
 msgid "Batch modify holds"
-msgstr ""
+msgstr "Satsvis redigering av reservationer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:17
 msgid "Batch record modification"
