@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 09:38+0300\n"
+"POT-Creation-Date: 2026-06-09 13:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,890 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:3
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:22
+msgid "Acquisitions"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:7
+msgid "Acquisitions home"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:12
+msgid "Advanced search"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:22
+msgid "Late orders"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:42
+msgid "Suggestions"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:47
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:56
+msgid "Invoices"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:60
+msgid "EDIFACT messages"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:74
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:344
+msgid "Reports"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:81
+msgid "Acquisitions statistics wizard"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:88
+msgid "Orders by fund"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:103
+msgid "Hold ratios"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:128
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:7
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:7
+msgid "Administration"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:139
+msgid "Budgets"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:151
+msgid "Funds"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:163
+msgid "Currencies"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:177
+msgid "EDI accounts"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:184
+msgid "Library EANs"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:201
+msgid "MARC order accounts"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:218
+msgid "Manage invoice fields"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:237
+msgid "Manage order basket fields"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:244
+msgid "Manage order line fields"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:238
+msgid "Baskets"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:25
+msgid "Basket groups"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:37
+msgid "Contracts"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:49
+msgid "Vendor issues"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:69
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:75
+msgid "Uncertain prices"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Main.vue:73
+msgid ""
+"The preservation module is disabled, turn on <a href=\"/cgi-bin/koha/admin/"
+"preferences.pl?"
+"tab=&op=search&searchfield=PreservationModule\">PreservationModule</a> to "
+"use it"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:73
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:134
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorFormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:5
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:3
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalResourcesShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:3
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsProviderDataList.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:111
+#: koha-tmpl/intranet-tmpl/prog/js/z3950_search.js:118
+msgid "Loading"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:5
+msgid "Edit preservation settings"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:83
+msgid "General settings"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:21
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:88
+msgid "Status for item added to waiting list"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:51
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:101
+msgid "Default status for item added to train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:78
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:192
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:89
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:106
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:142
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:100
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:48
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:179
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:86
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:408
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:133
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:371
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:378
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:110
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1647
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:620
+msgid "Cancel"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:171
+msgid "Settings updated"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:3
+msgid "Processings"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:23
+msgid "Remove this processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:32
+msgid "Edit this processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:42
+msgid "Add new processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:77
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:146
+msgid "Are you sure you want to remove this processing?"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:80
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:149
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:159
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:427
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:155
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:121
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:257
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:245
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:416
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:192
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:190
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:145
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:344
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:169
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:224
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:98
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:137
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:212
+msgid "Yes, delete"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:150
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:428
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:161
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:156
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:122
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:258
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:246
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:417
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:193
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:191
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:345
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:170
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:225
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:99
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:213
+msgid "No, do not delete"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:88
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:159
+#, javascript-format
+msgid "Processing %s deleted"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:105
+msgid "This processing cannot be deleted, it is already in used."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:5
+#, javascript-format
+msgid "Edit processing #%s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:7
+msgid "New processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:14
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:25
+msgid "Processing name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:22
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:83
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:111
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:171
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:22
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:36
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:125
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:51
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:111
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:89
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:24
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:42
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:53
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:40
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:64
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:22
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:69
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:41
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:22
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:40
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:56
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:22
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:45
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:67
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:89
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:60
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:176
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:203
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:226
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:249
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:274
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:55
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:100
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:178
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:40
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:32
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:54
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:505
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:519
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:549
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:563
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:577
+msgid "Required"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:33
+msgid "Letter template for printing slip"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:41
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:48
+msgid "Attributes"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:49
+msgid ""
+"Be careful when removing attributes from this processing: the items using it "
+"will be impacted as well!"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:60
+#, javascript-format
+msgid "Attribute %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:65
+msgid "Remove this attribute"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:73
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:229
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:130
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:46
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorInterfaces.vue:82
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:197
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:17
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:46
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:317
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:126
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:154
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:155
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:186
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:104
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageTitlesList.vue:58
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlePackagesList.vue:43
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:91
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:209
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:77
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:306
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:498
+msgid "Name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:90
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:8
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorInterfaces.vue:9
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorInterfaces.vue:90
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:223
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:34
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:247
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:49
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:246
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:49
+msgid "Type"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:118
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:153
+msgid "Options"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:132
+msgid "DOES NOT EXIST!"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:178
+msgid "Add new attribute"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:229
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:56
+msgid "Authorized value"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:233
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:59
+msgid "Free text"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:237
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:62
+msgid "Database column"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:294
+msgid "Processing updated"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:302
+msgid "Processing created"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:14
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:102
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:93
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:91
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:70
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:67
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:18
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:18
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:16
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:16
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:24
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:193
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:607
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1509
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
+#: koha-tmpl/intranet-tmpl/prog/js/additem.js:188
+msgid "Delete"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:19
+#, javascript-format
+msgid "Processing #%s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:41
+msgid "Edit this template"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:65
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:160
+msgid "Unknown"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:72
+msgid "There are no attributes defined for this processing."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:82
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:108
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:276
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:336
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageAgreements.vue:34
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:108
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:238
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:115
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:258
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:150
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:113
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Dialog.vue:19
+msgid "Close"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:5
+#, javascript-format
+msgid "Edit train #%s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:7
+msgid "New train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:26
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:136
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:57
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:347
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:45
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:35
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:240
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:43
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:87
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:323
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:512
+msgid "Description"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:162
+msgid "Status for item added to this train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:57
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:170
+msgid "Default processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:181
+msgid "Train updated"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:189
+msgid "Train created"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:5
+#, javascript-format
+msgid "Edit item #%s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:7
+#, javascript-format
+msgid "Add new item to %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:14
+msgid "Itemnumber"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:20
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:16
+msgid "Processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:84
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:78
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:152
+#: koha-tmpl/intranet-tmpl/prog/js/additem.js:301
+msgid "Add"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:91
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:85
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:672
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:166
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:199
+msgid "Remove"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:117
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:367
+msgid "Barcode"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:241
+msgid "Cannot find item with this barcode. It must be in the waiting list."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:364
+msgid "Item updated"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:375
+msgid "Item added to train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:4
+#, javascript-format
+msgid "Add new items to %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:10
+msgid "Itemnumbers"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:61
+#, javascript-format
+msgid "Cannot be edited now, the value will be retrieved from %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:266
+#, javascript-format
+msgid "%s items have been added to train %s."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:275
+msgid "No items have been added to the train."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:12
+msgid "Filter by"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:18
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:20
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:16
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:163
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:65
+msgid "All"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:24
+msgid "Closed"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:30
+msgid "Sent"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:36
+msgid "Received"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:56
+msgid "There are no trains defined"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:113
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:91
+msgid "Add items"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:156
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:424
+msgid "Are you sure you want to remove this train?"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:167
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:435
+#, javascript-format
+msgid "Train %s deleted"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:179
+msgid "Cannot add items to a closed train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:238
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:77
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:275
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:66
+msgid "Created on"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:247
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:142
+msgid "Closed on"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:256
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:148
+msgid "Sent on"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:265
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:154
+msgid "Received on"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:14
+msgid "Copy item to the following train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:30
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:88
+msgid "Select a train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:114
+msgid "Send"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:120
+msgid "Receive"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:124
+#, javascript-format
+msgid "Train #%s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:178
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:174
+msgid "Items"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:184
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:154
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:84
+#: koha-tmpl/intranet-tmpl/prog/js/ill-list-table.js:651
+msgid "Select all"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:187
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:86
+msgid "Clear all"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:189
+msgid "Actions: "
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:194
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:197
+msgid "Print slips"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:617
+msgid ""
+"Cannot print slip, this item does not have a processing with a letter "
+"template defined."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:381
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:41
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:55
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:302
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:194
+msgid "ID"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:398
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:103
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:161
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:99
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1525
+msgid "Actions"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:491
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:14
+msgid "Are you sure you want to remove this item?"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:493
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:323
+msgid "Yes, remove"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:494
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:324
+msgid "No, do not remove"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:502
+msgid "Item removed"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:537
+msgid "Item copied successfully."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:543
+msgid ""
+"Item cannot be copied to a train, it is already in a non-received train."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:653
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:89
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:187
+#: koha-tmpl/intranet-tmpl/prog/js/additem.js:179
+msgid "Edit"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:695
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:34
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:35
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:487
+msgid "Copy"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:716
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1218
+msgid "Print slip"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:14
+msgid "Add items to waiting list"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:30
+msgid "Barcode list"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:72
+msgid "Add items to a train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:139
+msgid "You need to configure this module first."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:149
+msgid "Add to waiting list"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:159
+#, javascript-format
+msgid "Add last %s items to a train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:173
+msgid "There are no items in the waiting list"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:279
+#, javascript-format
+msgid "%s new items added. %s items not found."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:288
+#, javascript-format
+msgid "%s new items added."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:303
+msgid "No items added"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:320
+msgid "Are you sure you want to remove this item from the waiting list?"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:331
+msgid "Item removed from the waiting list"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:346
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:215
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:171
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:51
+msgid "Title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:355
+msgid "Author"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:361
+msgid "Call number"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContacts.vue:4
 msgid "Contact"
@@ -145,49 +1029,6 @@ msgstr ""
 msgid "Contract(s)"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:46
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:81
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorInterfaces.vue:82
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:197
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:17
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:46
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:317
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:126
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:154
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:155
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:186
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:104
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageTitlesList.vue:58
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:217
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlePackagesList.vue:43
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:91
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:209
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:77
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:306
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:73
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:229
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:130
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:498
-msgid "Name"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:57
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:347
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:45
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:35
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:240
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:43
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:12
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:87
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:323
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:26
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:136
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:512
-msgid "Description"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:61
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:20
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:54
@@ -205,58 +1046,8 @@ msgstr ""
 msgid "End date"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:81
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:103
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:398
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:161
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:99
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1525
-msgid "Actions"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:89
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:653
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:187
-#: koha-tmpl/intranet-tmpl/prog/js/additem.js:179
-msgid "Edit"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:93
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:91
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:70
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:67
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:160
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:18
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:18
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:16
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:16
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:24
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:14
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:102
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:193
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:607
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1509
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
-#: koha-tmpl/intranet-tmpl/prog/js/additem.js:188
-msgid "Delete"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:4
 msgid "Vendor details"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:8
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorInterfaces.vue:9
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorInterfaces.vue:90
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:223
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:217
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:34
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:247
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:49
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:246
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:49
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:90
-msgid "Type"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:14
@@ -297,123 +1088,8 @@ msgstr ""
 msgid "Company details"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:89
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:24
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:31
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:42
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:53
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:64
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:22
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:41
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:22
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:31
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesKBARTImport.vue:56
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:22
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:45
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:67
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:89
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:60
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:176
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:203
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:226
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:249
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:274
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:55
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:100
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:146
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:178
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:32
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:54
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:22
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:83
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:111
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:146
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:171
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:22
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:36
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:125
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:51
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:111
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:505
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:519
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:549
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:563
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:577
-msgid "Required"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:133
 msgid "Vendor type"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:152
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:84
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:78
-#: koha-tmpl/intranet-tmpl/prog/js/additem.js:301
-msgid "Add"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorDetails.vue:166
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:91
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:85
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:672
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:199
-msgid "Remove"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorFormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:5
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalResourcesShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsProviderDataList.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:73
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:134
-#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:111
-#: koha-tmpl/intranet-tmpl/prog/js/z3950_search.js:118
-msgid "Loading"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorFormAdd.vue:5
@@ -526,50 +1202,6 @@ msgstr ""
 msgid "Are you sure you want to remove this vendor?"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:160
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:155
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:121
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:257
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:245
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:416
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:192
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:190
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:145
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:344
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:169
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:224
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:98
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:137
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:212
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:80
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:149
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:159
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:427
-msgid "Yes, delete"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:161
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:156
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:122
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:258
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:246
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:417
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:193
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:191
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:146
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:345
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:170
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:225
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:99
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:138
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:213
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:81
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:150
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:160
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:428
-msgid "No, do not delete"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:168
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:163
 #, javascript-format
@@ -593,11 +1225,6 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:232
 msgid "Invoice currency"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:238
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:13
-msgid "Baskets"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:248
@@ -751,26 +1378,6 @@ msgstr ""
 msgid "Can be edited"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:48
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:138
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:179
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:86
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:408
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:133
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:371
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:378
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:78
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:192
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:89
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:106
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:142
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:100
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:110
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1647
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:620
-msgid "Cancel"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:110
 msgid "Record source updated!"
 msgstr ""
@@ -786,14 +1393,6 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:36
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:14
 msgid "Record sources"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:41
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:55
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:302
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:194
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:381
-msgid "ID"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:118
@@ -1238,21 +1837,6 @@ msgstr ""
 msgid "Uploaded on"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:336
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageAgreements.vue:34
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:108
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:238
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:115
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:258
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:150
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:113
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:82
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:108
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:276
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Dialog.vue:19
-msgid "Close"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:11
 #, javascript-format
 msgid "Document %s"
@@ -1319,14 +1903,6 @@ msgstr ""
 msgid "Show filters"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:215
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:171
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:346
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:51
-msgid "Title"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:177
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:57
@@ -1339,19 +1915,6 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:203
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:157
 msgid "Publication type"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:20
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:27
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:16
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:27
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:18
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:163
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:65
-msgid "All"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:38
@@ -1424,13 +1987,6 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:44
 msgid "Package type"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:77
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:275
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:66
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:238
-msgid "Created on"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:91
@@ -2134,13 +2690,6 @@ msgstr ""
 msgid "Harvester status"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:154
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:184
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:84
-#: koha-tmpl/intranet-tmpl/prog/js/ill-list-table.js:651
-msgid "Select all"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:161
 msgid "Unselect all"
 msgstr ""
@@ -2304,11 +2853,6 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:172
 msgid "Platforms"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:174
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:178
-msgid "Items"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:178
@@ -2574,550 +3118,6 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:64
 msgid "Add new user"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:22
-msgid "Acquisitions"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:7
-msgid "Acquisitions home"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:12
-msgid "Advanced search"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:22
-msgid "Late orders"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:42
-msgid "Suggestions"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:47
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:56
-msgid "Invoices"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:60
-msgid "EDIFACT messages"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:74
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:344
-msgid "Reports"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:81
-msgid "Acquisitions statistics wizard"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:88
-msgid "Orders by fund"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:103
-msgid "Hold ratios"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:128
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:7
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:7
-msgid "Administration"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:139
-msgid "Budgets"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:151
-msgid "Funds"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:163
-msgid "Currencies"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:177
-msgid "EDI accounts"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:184
-msgid "Library EANs"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:201
-msgid "MARC order accounts"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:218
-msgid "Manage invoice fields"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:237
-msgid "Manage order basket fields"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:244
-msgid "Manage order line fields"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:25
-msgid "Basket groups"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:37
-msgid "Contracts"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:49
-msgid "Vendor issues"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:75
-msgid "Uncertain prices"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Main.vue:73
-msgid ""
-"The preservation module is disabled, turn on <a href=\"/cgi-bin/koha/admin/"
-"preferences.pl?"
-"tab=&op=search&searchfield=PreservationModule\">PreservationModule</a> to "
-"use it"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:5
-msgid "Edit preservation settings"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:13
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:83
-msgid "General settings"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:21
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:88
-msgid "Status for item added to waiting list"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:51
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:101
-msgid "Default status for item added to train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:171
-msgid "Settings updated"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:3
-msgid "Processings"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:23
-msgid "Remove this processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:32
-msgid "Edit this processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:42
-msgid "Add new processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:77
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:146
-msgid "Are you sure you want to remove this processing?"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:88
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:159
-#, javascript-format
-msgid "Processing %s deleted"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:105
-msgid "This processing cannot be deleted, it is already in used."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:5
-#, javascript-format
-msgid "Edit processing #%s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:7
-msgid "New processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:14
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:25
-msgid "Processing name"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:27
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:33
-msgid "Letter template for printing slip"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:41
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:48
-msgid "Attributes"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:49
-msgid ""
-"Be careful when removing attributes from this processing: the items using it "
-"will be impacted as well!"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:60
-#, javascript-format
-msgid "Attribute %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:65
-msgid "Remove this attribute"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:118
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:153
-msgid "Options"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:132
-msgid "DOES NOT EXIST!"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:178
-msgid "Add new attribute"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:229
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:56
-msgid "Authorized value"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:233
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:59
-msgid "Free text"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:237
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:62
-msgid "Database column"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:294
-msgid "Processing updated"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:302
-msgid "Processing created"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:19
-#, javascript-format
-msgid "Processing #%s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:41
-msgid "Edit this template"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:65
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:160
-msgid "Unknown"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:72
-msgid "There are no attributes defined for this processing."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:5
-#, javascript-format
-msgid "Edit train #%s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:7
-msgid "New train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:162
-msgid "Status for item added to this train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:57
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:170
-msgid "Default processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:181
-msgid "Train updated"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:189
-msgid "Train created"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:5
-#, javascript-format
-msgid "Edit item #%s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:7
-#, javascript-format
-msgid "Add new item to %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:14
-msgid "Itemnumber"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:20
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:16
-msgid "Processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:117
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:367
-msgid "Barcode"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:241
-msgid "Cannot find item with this barcode. It must be in the waiting list."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:364
-msgid "Item updated"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:375
-msgid "Item added to train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:4
-#, javascript-format
-msgid "Add new items to %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:10
-msgid "Itemnumbers"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:61
-#, javascript-format
-msgid "Cannot be edited now, the value will be retrieved from %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:266
-#, javascript-format
-msgid "%s items have been added to train %s."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:275
-msgid "No items have been added to the train."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:12
-msgid "Filter by"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:24
-msgid "Closed"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:30
-msgid "Sent"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:36
-msgid "Received"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:56
-msgid "There are no trains defined"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:113
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:91
-msgid "Add items"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:156
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:424
-msgid "Are you sure you want to remove this train?"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:167
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:435
-#, javascript-format
-msgid "Train %s deleted"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:179
-msgid "Cannot add items to a closed train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:247
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:142
-msgid "Closed on"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:256
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:148
-msgid "Sent on"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:265
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:154
-msgid "Received on"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:14
-msgid "Copy item to the following train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:88
-msgid "Select a train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:114
-msgid "Send"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:120
-msgid "Receive"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:124
-#, javascript-format
-msgid "Train #%s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:187
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:86
-msgid "Clear all"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:189
-msgid "Actions: "
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:194
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:197
-msgid "Print slips"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:217
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:617
-msgid ""
-"Cannot print slip, this item does not have a processing with a letter "
-"template defined."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:491
-#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:14
-msgid "Are you sure you want to remove this item?"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:493
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:323
-msgid "Yes, remove"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:494
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:324
-msgid "No, do not remove"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:502
-msgid "Item removed"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:537
-msgid "Item copied successfully."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:543
-msgid ""
-"Item cannot be copied to a train, it is already in a non-received train."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:695
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:34
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:35
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:487
-msgid "Copy"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:716
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:1218
-msgid "Print slip"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:14
-msgid "Add items to waiting list"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:30
-msgid "Barcode list"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:72
-msgid "Add items to a train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:139
-msgid "You need to configure this module first."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:149
-msgid "Add to waiting list"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:159
-#, javascript-format
-msgid "Add last %s items to a train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:173
-msgid "There are no items in the waiting list"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:279
-#, javascript-format
-msgid "%s new items added. %s items not found."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:288
-#, javascript-format
-msgid "%s new items added."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:303
-msgid "No items added"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:320
-msgid "Are you sure you want to remove this item from the waiting list?"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:331
-msgid "Item removed from the waiting list"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:355
-msgid "Author"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:361
-msgid "Call number"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/AdditionalFieldsDisplay.vue:7

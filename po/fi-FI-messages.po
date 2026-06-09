@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 09:38+0300\n"
+"POT-Creation-Date: 2026-06-09 13:45+0300\n"
 "PO-Revision-Date: 2026-03-18 15:55+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -6658,7 +6658,7 @@ msgstr "Muokataan nimekettä {title} (Record number {biblionumber})"
 msgid "Add MARC record"
 msgstr "Lisää MARC-tietue"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:788
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:851
 msgctxt "Editing MARC record titled:"
 msgid "Editing"
 msgstr "Muokataan"
