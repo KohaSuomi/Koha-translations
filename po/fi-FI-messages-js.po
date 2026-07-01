@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 09:38+0300\n"
-"PO-Revision-Date: 2026-05-07 15:46+0300\n"
+"POT-Creation-Date: 2026-07-01 10:29+0300\n"
+"PO-Revision-Date: 2026-07-01 13:13+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -64,7 +64,7 @@ msgstr "Muokkaa"
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1509
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:607
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:167
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:67
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:18
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:18
@@ -401,37 +401,37 @@ msgid "Sat"
 msgstr "La"
 
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:155
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:178
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:188
 msgid "Sunday"
 msgstr "Sunnuntai"
 
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:156
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:172
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:182
 msgid "Monday"
 msgstr "Maanantai"
 
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:157
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:173
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:183
 msgid "Tuesday"
 msgstr "Tiistai"
 
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:158
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:174
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:184
 msgid "Wednesday"
 msgstr "Keskiviikko"
 
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:159
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:175
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:185
 msgid "Thursday"
 msgstr "Torstai"
 
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:160
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:176
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:186
 msgid "Friday"
 msgstr "Perjantai"
 
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:161
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:177
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:187
 msgid "Saturday"
 msgstr "Lauantai"
 
@@ -876,7 +876,7 @@ msgstr "Päivitä"
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1647
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:620
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:110
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:148
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:48
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:179
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:86
@@ -914,7 +914,7 @@ msgid "Last"
 msgstr "Viimeinen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:15
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1440
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1448
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:16
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:626
 msgid "No data available in table"
@@ -931,7 +931,7 @@ msgid "No entries to show"
 msgstr "Ei näytettäviä kohteita"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:18
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1443
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1451
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:19
 msgid "(filtered from _MAX_ total entries)"
 msgstr "(suodatettu _MAX_ tuloksesta)"
@@ -1115,6 +1115,7 @@ msgstr " (nykyinen) "
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:340
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:139
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:153
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:134
@@ -1130,6 +1131,7 @@ msgstr "Ei"
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:343
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:139
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:153
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:97
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:135
@@ -1376,7 +1378,7 @@ msgid "Staged identifiers have not yet been added as requests. Proceed?"
 msgstr "Välivarastoituja tunnisteita ei ole vielä lisätty pyynnöiksi. Jatketaanko?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/ill-list-table.js:651
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:84
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:104
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:154
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:184
 msgid "Select all"
@@ -1587,7 +1589,7 @@ msgstr "Yksityinen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:193
 #: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:110
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:803
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:817
 msgid "years"
 msgstr "vuotta"
 
@@ -1865,67 +1867,67 @@ msgstr "Valitse vähintään yksi tietue"
 msgid "At least two records must be selected for merging"
 msgstr "Valitse vähintään kaksi tietuetta yhdistettäväksi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
 #, javascript-format
 msgid "AJAX failed to approve tag: %s"
 msgstr "AJAX: Tagin %s hyväksyminen epäonnistui"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:59
 #, javascript-format
 msgid "AJAX failed to reject tag: %s"
 msgstr "AJAX: Tagin %s hylkääminen ei onnistunut"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:56
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:64
 #, javascript-format
 msgid "%s is permitted!"
 msgstr "%s on sallittu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:59
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #, javascript-format
 msgid "%s is prohibited!"
 msgstr "%s on kielletty."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:63
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:77
 #, javascript-format
 msgid "%s is neither permitted nor prohibited!"
 msgstr "%s ei ole sallittu eikä kielletty."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:72
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:92
 msgid " Test"
 msgstr " Testaa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:86
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:106
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:187
 msgid "Clear all"
 msgstr "Tyhjennä kaikki"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:88
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:108
 msgid "Select all pending"
 msgstr "Valitse kaikki odottavat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:168
 msgid "Reject"
 msgstr "Hylkää"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:153
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:157
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:173
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:177
 msgid "Approved"
 msgstr "Hyväksytty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:190
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:210
 msgid "Approve"
 msgstr "Hyväksy"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:195
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:199
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:215
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:219
 msgid "Rejected"
 msgstr "Hylätty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:209
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:229
 msgid "Testing..."
 msgstr "Tarkistetaan..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:228
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:248
 #, javascript-format
 msgid "AJAX error (%s alert)"
 msgstr "AJAX-virhe (%s)"
@@ -1974,7 +1976,7 @@ msgid "The recall may have already been expired. Please refresh the page."
 msgstr "Palautuspyynto on ehkä jo vanhentunut. Ole hyvä ja päivitä sivu."
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:37
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:819
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:833
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:138
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:163
 msgid "Expired"
@@ -2123,13 +2125,17 @@ msgstr "Syötä desimaaliluku muodossa: 0.0"
 msgid "Back to top"
 msgstr "Takaisin alkuun"
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:731
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:745
 msgid "An error occurred. Check the logs for details."
 msgstr "Tapahtui virhe. Tarkista lokit."
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:824
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:838
 msgid "Restricted"
 msgstr "Rajoitettu"
+
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:1065
+msgid "Please fill out this field."
+msgstr "Kirjoita kenttään."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:23
 msgid "Frequency and subscription length provided doesn't combine well. Please consider entering an issue count rather than a time period."
@@ -2465,11 +2471,16 @@ msgstr "Ylivuotohylly"
 msgid "Lock shelf"
 msgstr "Lukitse hylly"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:215
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:128
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:149
+msgid "Allow multiple holds"
+msgstr "Salli useamman varauksen lisääminen hyllyyn tietuetta kohti"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:225
 msgid "Hold pickup shelf updated!"
 msgstr "Noutohylly päivitetty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:225
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:235
 msgid "Hold pickup shelf created!"
 msgstr "Noutohylly luotu"
 
@@ -2545,15 +2556,15 @@ msgstr "Asiakastyyppi"
 msgid "Locked"
 msgstr "Lukittu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:154
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:161
 msgid "Edit in new tab"
 msgstr "Muokkaa uudella välilehdellä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:254
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:261
 msgid "Are you sure you want to delete this hold pickup shelf?"
 msgstr "Haluatko varmasti poistaa tämän varausten noutohyllyn?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:257
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:264
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:121
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:245
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:416
@@ -2575,7 +2586,7 @@ msgstr "Haluatko varmasti poistaa tämän varausten noutohyllyn?"
 msgid "Yes, delete"
 msgstr "Kyllä, poista"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:258
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:265
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:122
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:246
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:417
@@ -2597,16 +2608,16 @@ msgstr "Kyllä, poista"
 msgid "No, do not delete"
 msgstr "Ei, älä poista"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:266
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:273
 #, javascript-format
 msgid "Hold pickup shelf '%s' deleted"
 msgstr "Varausten noutohylly '%s' poistettu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:281
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:288
 msgid "Priorities updated successfully"
 msgstr "Prioriteetti päivitetty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:285
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:292
 msgid "Failed to update priorities"
 msgstr "Prioriteettien päivitys epäonnistui"
 
@@ -4267,27 +4278,27 @@ msgstr "Ohje"
 msgid "Select a pickup shelf"
 msgstr "Valitse noutohylly"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:51
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:52
 msgid "No pickup shelves available"
 msgstr "Noutohyllyjä ei ole saatavana"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:168
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:173
 msgid "Error fetching pickup shelves"
 msgstr "Virhe noutohyllyjä haettaessa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:186
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:191
 msgid "Error selecting pickup shelf"
 msgstr "Virhe noutohyllyä valitessa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:201
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:206
 msgid "Error releasing pickup shelf"
 msgstr "Virhe noutohyllyä vapautettaessa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:222
 msgid "Error locking pickup shelf"
 msgstr "Virhe noutohyllyn lukitsemisessa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:276
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:281
 msgid "Selected shelf is unavailable. Please choose another shelf."
 msgstr "Valittua hyllyä ei voi käyttää. Valitse toinen hylly."
 
@@ -5653,10 +5664,6 @@ msgstr "Yhtä tai useampaa tagia ei voida lisätä."
 #, fuzzy
 #~ msgid "Allow empty passwords"
 #~ msgstr "Näytä salasana"
-
-#, fuzzy
-#~ msgid "Allow fields"
-#~ msgstr "Lisäkentät"
 
 #~ msgid "Are you sure you want to remove the selected items?"
 #~ msgstr "Haluatko varmasti poistaa valitut nimekkeet?"
