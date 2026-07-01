@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 13:45+0300\n"
+"POT-Creation-Date: 2026-07-01 10:29+0300\n"
 "PO-Revision-Date: 2026-05-08 10:27+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -7289,57 +7289,57 @@ msgstr "Reservationsförhållanden"
 msgid "Check in {title}"
 msgstr "Återlämna {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:863
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:864
 #, fuzzy
 msgid "Confirm hold and transfer"
 msgstr "Bekräfta reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:864
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:865
 msgid "Print slip, transfer, and confirm"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:866
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:867
 #, fuzzy
 msgid "Confirm hold"
 msgstr "Bekräfta reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:868
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:870
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:869
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:871
 msgid "Print slip and confirm"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:877
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:879
 msgid "Hold found"
 msgstr "Reservation funnen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:877
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:879
 msgid "Ignore"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:887
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:889
 #, fuzzy
 msgid "Hold for"
 msgstr "Reservera"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:914
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:916
 #, fuzzy
 msgid "Main contact method"
 msgstr "Primär kontaktmetod"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:934
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:936
 msgid "Patron is RESTRICTED"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:938
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:940
 msgid "Patron's address is in doubt"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:942
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:944
 #, fuzzy
 msgid "Transfer to"
 msgstr "Överför"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:944
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:946
 msgid "Hold at"
 msgstr "Reservation på"
 
@@ -8216,7 +8216,7 @@ msgstr "Bygg en rapport, steg 5 av 6: Välj vilka kolumner som ska räknas samma
 msgid "Build a report, step 6 of 6: Select how you want the report ordered"
 msgstr "Bygg en rapport, steg 6 av 6: Välj hur rapporten ska sorteras"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:426
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:435
 msgid "Are you sure you want to delete this report?"
 msgstr "Är du säker på att du vill radera den här rapporten?"
 

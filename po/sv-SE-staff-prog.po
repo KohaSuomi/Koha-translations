@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 13:46+0300\n"
+"POT-Creation-Date: 2026-07-01 10:29+0300\n"
 "PO-Revision-Date: 2026-05-08 09:45+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -901,8 +901,8 @@ msgstr "Beställningssökning"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:264
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:67
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:489
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1284
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1448
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1286
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1450
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transferstoreceive.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:83
@@ -1564,7 +1564,7 @@ msgstr "Överföringar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:641
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:720
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:93
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:596
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:605
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:119
 #, c-format
 msgid "Add"
@@ -1675,8 +1675,8 @@ msgstr "Lägg till"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:96
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:136
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:427
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:436
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:75
@@ -1937,9 +1937,9 @@ msgstr "Skapa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:420
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:164
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:192
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1465
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1579
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1711
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1474
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1588
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1720
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1355
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:172
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:85
@@ -2367,7 +2367,7 @@ msgstr "%s Detta värde kommer att fyllas i med delfält %s för vald biblio. %s
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1631
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:252
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1648
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1657
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:250
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:428
 #, c-format
@@ -2723,11 +2723,11 @@ msgstr "Namn: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:159
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:198
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:408
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:822
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1407
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1458
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1526
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1573
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:831
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1416
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1467
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1535
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1582
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:155
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:158
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:58
@@ -2814,7 +2814,7 @@ msgstr "Grundparametrar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:216
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:50
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2714
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2723
 #, c-format
 msgid "Libraries"
 msgstr "Bibliotek"
@@ -2835,7 +2835,7 @@ msgstr "Biblioteksgrupper"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:108
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:402
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:511
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2713
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2722
 #, c-format
 msgid "Item types"
 msgstr "Exemplartyper"
@@ -2845,7 +2845,7 @@ msgstr "Exemplartyper"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:82
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:240
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2709
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2718
 #, c-format
 msgid "Authorized values"
 msgstr "Auktoriserade värden"
@@ -2864,7 +2864,7 @@ msgstr "Låntagare och cirkulation"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:60
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:650
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:142
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2716
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2725
 #, c-format
 msgid "Patron categories"
 msgstr "Låntagarkategorier"
@@ -2960,7 +2960,7 @@ msgstr "Avgifter"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:164
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2718
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2727
 #, c-format
 msgid "Debit types"
 msgstr "Debiteringstyper"
@@ -2970,7 +2970,7 @@ msgstr "Debiteringstyper"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:160
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2719
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2728
 #, c-format
 msgid "Credit types"
 msgstr "Kredittyper"
@@ -2980,7 +2980,7 @@ msgstr "Kredittyper"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:159
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2717
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2726
 #, c-format
 msgid "Cash registers"
 msgstr "Kassaregister"
@@ -3334,8 +3334,8 @@ msgstr "Satsstatusar för fjärrlån"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:846
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:126
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:65
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1361
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1374
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1370
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1383
 #, c-format
 msgid "Check out"
 msgstr "Låna ut"
@@ -3350,8 +3350,8 @@ msgstr "Låna ut"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search-header.inc:30
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:56
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1164
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1187
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1166
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1189
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:67
 #, c-format
 msgid "Check in"
@@ -4007,8 +4007,8 @@ msgstr "Grekiska (-1453)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:115
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:145
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:34
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1441
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1464
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1443
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1466
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:171
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:195
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:352
@@ -4037,8 +4037,8 @@ msgstr "Grekiska (-1453)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:180
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:180
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:187
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1669
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1678
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1327
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:574
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:578
@@ -4176,7 +4176,7 @@ msgstr "Redigera "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:344
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:719
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:183
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1332
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1341
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:120
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:378
 #, c-format
@@ -4391,7 +4391,7 @@ msgstr "Term"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:259
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:270
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:916
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:925
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:146
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:163
@@ -5518,7 +5518,7 @@ msgstr "Sök tillgångar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:186
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:181
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:214
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:95
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:57
@@ -5551,7 +5551,7 @@ msgstr "Bibliotek"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:312
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:175
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1276
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1302
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:70
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:198
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:190
@@ -5698,8 +5698,8 @@ msgstr "Nytt budgetställe för %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:126
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:143
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:398
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:407
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:68
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:126
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:67
@@ -5901,7 +5901,7 @@ msgstr "Satsvis redigering"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:389
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:128
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1203
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1212
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:69
@@ -5913,7 +5913,7 @@ msgstr "Satsvis redigering av exemplar"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:389
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:133
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1214
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1223
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:67
@@ -5926,7 +5926,7 @@ msgstr "Satsvis borttagning av exemplar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:271
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:323
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:138
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1167
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1176
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:55
@@ -5936,7 +5936,7 @@ msgstr "Satsvis redigering av poster"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:66
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:143
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1178
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1187
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:57
@@ -6351,7 +6351,7 @@ msgstr "Ny lista"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cashup_summary.inc:27
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:64
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1465
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1467
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:165
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:179
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:182
@@ -6556,7 +6556,7 @@ msgstr "Gå till exemplardetaljer"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue/itemsearch_item.json.inc:34
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/cataloging_additem.inc:4
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:161
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1313
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1322
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:330
 #, c-format
 msgid "Edit item"
@@ -6606,7 +6606,7 @@ msgstr "Är du säker på att du vill avbryta dina ändringar?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:270
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:265
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:490
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1285
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1287
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:109
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:114
@@ -6651,8 +6651,8 @@ msgstr "Konvertera macron lagrade i webbläsaren"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:35
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:163
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:403
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:412
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:110
 #, c-format
 msgid "Duplicate"
@@ -6847,7 +6847,7 @@ msgstr "Rad "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:287
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:219
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:166
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:322
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:460
 msgid "Loading"
@@ -6921,7 +6921,7 @@ msgstr "Nytt makro..."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:203
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:236
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:289
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:803
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:812
 msgid "Next"
 msgstr "Nästa"
 
@@ -7288,7 +7288,7 @@ msgstr "Utlån kommer att visas automatiskt o, %s sekunder..."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:389
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:406
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:92
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1283
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1285
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/pay.tt:94
@@ -7328,7 +7328,7 @@ msgstr "Exemplartyp (bibliografisk)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:103
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:204
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:491
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1295
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1297
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:90
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:148
@@ -7341,7 +7341,7 @@ msgstr "Exemplartyp (bibliografisk)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:168
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:215
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:133
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:161
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:258
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:96
@@ -7377,7 +7377,7 @@ msgstr "Exemplartyp"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:275
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:723
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:72
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1296
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1298
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:88
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:149
@@ -7429,7 +7429,7 @@ msgstr "Plats"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:97
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:206
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1287
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1289
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:54
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transferstoreceive.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:87
@@ -7502,7 +7502,7 @@ msgstr "Utlånad från"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:207
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1292
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1294
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transferstoreceive.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:91
@@ -8265,8 +8265,8 @@ msgstr "Ortsökning"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:94
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:119
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2682
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2701
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2691
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2710
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:73
@@ -8496,12 +8496,12 @@ msgstr "Registrerade låntagare"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:159
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:236
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:499
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:507
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1416
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1424
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1534
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1542
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:508
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:516
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1425
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1433
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1543
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1551
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:70
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:141
@@ -9214,15 +9214,15 @@ msgid "To: "
 msgstr "Till: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/guided-reports-view.inc:3
-#, c-format
-msgid "Run reports"
-msgstr "Kör rapporter"
+#, fuzzy, c-format
+msgid "View reports"
+msgstr "Ny rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/guided-reports-view.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:122
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:127
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:236
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1612
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1621
 #, c-format
 msgid "Saved reports"
 msgstr "Sparade rapporter"
@@ -9494,7 +9494,7 @@ msgstr "Ändra prioriteringsordning"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:119
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:263
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1297
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1299
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:95
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:164
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/discharges.tt:41
@@ -9536,8 +9536,8 @@ msgstr "Låntagare"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/readingrec.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:356
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2712
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2721
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:243
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:528
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:144
@@ -10057,7 +10057,7 @@ msgstr "Aktuellt bibliotek"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:389
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:272
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:99
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1290
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1292
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:89
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/statistics.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:169
@@ -10204,8 +10204,8 @@ msgstr "Inköpskanal"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:205
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:492
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1286
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1447
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1288
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1449
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:94
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:159
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:146
@@ -11021,7 +11021,7 @@ msgstr "Filter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-filter.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:250
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1640
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1649
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:176
 #, c-format
 msgid "Keyword:"
@@ -11473,8 +11473,8 @@ msgstr "Låntagare"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:119
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:98
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2672
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2687
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2681
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2696
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:32
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:46
 #, c-format
@@ -12148,7 +12148,7 @@ msgstr "Språk:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:98
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:102
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:257
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:410
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:419
 #, c-format
 msgid "Share"
 msgstr "Dela"
@@ -12442,7 +12442,7 @@ msgid "Print overdues"
 msgstr "Skriv ut försenade"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:53
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1403
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1405
 #, c-format
 msgid "Print checkin slip"
 msgstr "Skriv ut återlämningskvitto"
@@ -12928,8 +12928,8 @@ msgstr "Period: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:176
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:205
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:644
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:659
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:653
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:668
 #, c-format
 msgid "to "
 msgstr "till "
@@ -13593,7 +13593,7 @@ msgstr "Annullera markerade reservationer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:175
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:210
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:760
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:761
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:182
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1235
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1344
@@ -16008,13 +16008,13 @@ msgstr "Skapa ny"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:215
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:45
-#, c-format
-msgid "Use saved"
-msgstr "Använd sparad"
+#, fuzzy, c-format
+msgid "View saved"
+msgstr "Visad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:131
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1394
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1403
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:41
 #, c-format
 msgid "Create from SQL"
@@ -16027,7 +16027,7 @@ msgid "Statistics wizards"
 msgstr "Statistikguider"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:71
 #, c-format
 msgid "Cash register"
@@ -16129,13 +16129,13 @@ msgid "New report"
 msgstr "Ny rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:6
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:454
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:463
 #, c-format
 msgid "New guided report"
 msgstr "Ny rapport med guide"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:456
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:465
 #, c-format
 msgid "New SQL report"
 msgstr "Ny SQL-rapport"
@@ -16152,7 +16152,7 @@ msgstr "Duplicera "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:36
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:402
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:411
 msgid "Duplicate this saved report"
 msgstr "Kopiera denna sparade rapport"
 
@@ -17432,8 +17432,8 @@ msgstr "Ta bort formatering"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:195
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/update-child.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:74
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2681
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2700
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2690
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2709
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:237
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:596
 #, c-format
@@ -17849,7 +17849,7 @@ msgstr "Väntande förslag"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:784
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:793
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:229
 msgid "Finish"
 msgstr "Avsluta"
@@ -19023,7 +19023,7 @@ msgstr "Mallar"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:369
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:134
 #, c-format
 msgid "Text"
@@ -19878,7 +19878,7 @@ msgstr "Inställningar för förseningsmeddelande/status"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/home.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:64
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1151
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1160
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:72
 #, c-format
 msgid "Patron card creator"
@@ -19895,7 +19895,7 @@ msgstr "Satsvis borttagning/anonymisering av låntagare"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/tools-menu.inc:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:106
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1138
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1147
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:54
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:63
@@ -20091,21 +20091,21 @@ msgstr "Kontokredit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/transfer_reasons.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:124
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1352
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1354
 #, c-format
 msgid "Manual"
 msgstr "Manuell"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/transfer_reasons.inc:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:126
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1354
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1356
 #, c-format
 msgid "Stock rotation advance"
 msgstr "Beståndsrotation - nästa steg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/transfer_reasons.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:128
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1356
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1358
 #, c-format
 msgid "Stock rotation repatriation"
 msgstr "Specifikation av roterande samling"
@@ -20122,14 +20122,14 @@ msgstr "Returneras automatiskt till aktuellt bibliotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/transfer_reasons.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:134
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1362
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1364
 #, c-format
 msgid "Rotating collection"
 msgstr "Roterande samling"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/transfer_reasons.inc:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:136
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1364
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1366
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:735
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:824
 #, c-format
@@ -20330,7 +20330,7 @@ msgid "Expiration date"
 msgstr "Utgångsdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1291
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1293
 #, c-format
 msgid "Pickup shelf"
 msgstr "Avhämtningshylla"
@@ -20894,7 +20894,7 @@ msgstr "Följande id finns i båda tabellerna %s och %s:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:372
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:382
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:126
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1158
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1167
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:93
 #, c-format
 msgid "Bibliographic records"
@@ -25216,7 +25216,7 @@ msgstr "Korgskapare"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:88
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:87
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:548
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:557
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:99
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:222
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:254
@@ -25606,7 +25606,7 @@ msgstr "Skäl"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:606
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:550
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/checkout-notes.tt:72
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1298
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1300
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:98
@@ -26005,7 +26005,7 @@ msgstr "ISBN / EAN / ISSN:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:475
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:134
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:247
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1636
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1645
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:392
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1021
@@ -26242,7 +26242,7 @@ msgstr "Uppskattat leveransdatum från: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:127
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:107
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1628
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1637
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:91
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:178
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:140
@@ -27532,11 +27532,11 @@ msgid "&lt;&lt; Previous"
 msgstr "&lt;&lt; Föregående"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcels.tt:141
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:529
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:558
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:611
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:705
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:745
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:538
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:567
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:620
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:714
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:754
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:54
 #, c-format
 msgid "Next &gt;&gt;"
@@ -30341,7 +30341,7 @@ msgid "Show category: "
 msgstr "Visa kategori: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:306
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #, c-format
 msgid "Authorized value"
 msgstr "Auktoriserat värde"
@@ -33084,7 +33084,7 @@ msgid "Test the regular expressions:"
 msgstr "Prova de reguljära uttrycken:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:345
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2711
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2720
 #, c-format
 msgid "Classification sources"
 msgstr "Klassificeringskällor"
@@ -35682,8 +35682,8 @@ msgid "Are you sure you want to remove "
 msgstr "Är du säker på att du vill ta bort "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:292
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:642
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:649
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:651
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:658
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:285
 #, c-format
 msgid "from "
@@ -35881,7 +35881,7 @@ msgstr "Om originalposten har ett fält som matchar regeltaggen, men inga fält 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_out.tt:111
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:109
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:148
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:245
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:214
@@ -35965,7 +35965,7 @@ msgstr "Satsvis borttagning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:138
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:442
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:451
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:924
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:511
 #, c-format
@@ -38295,9 +38295,9 @@ msgstr "Använd systeminställningen 'useDaysMode' som standardvärde"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:503
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:119
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:122
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:520
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1437
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1555
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:529
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1446
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1564
 #, c-format
 msgid "Days"
 msgstr "Dagar"
@@ -38306,9 +38306,9 @@ msgstr "Dagar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:504
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:120
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:123
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:519
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1436
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1554
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:528
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1445
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1563
 #, c-format
 msgid "Hours"
 msgstr "Timmar"
@@ -40756,7 +40756,7 @@ msgid "Selected records:"
 msgstr "Valda poster:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1189
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1198
 #, c-format
 msgid "Add to list"
 msgstr "Lägg till i lista"
@@ -42289,7 +42289,7 @@ msgid "All locations"
 msgstr "Alla platser"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:46
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1260
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:234
 #, c-format
 msgid "All item types"
@@ -42351,7 +42351,7 @@ msgstr "Tillgänglighet:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:288
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:237
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1315
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1317
 #, c-format
 msgid "Not checked out"
 msgstr "Inte utlånad"
@@ -42627,16 +42627,16 @@ msgid "Physical details:"
 msgstr "Fysisk information:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:105
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:989
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1086
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:991
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1088
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:719
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:70
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:237
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:826
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:947
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1442
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1492
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1560
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:835
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:956
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1451
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1501
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1569
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:589
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1069
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:49
@@ -44755,7 +44755,7 @@ msgstr "Nummer:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:478
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:244
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1631
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1640
 #, c-format
 msgid "Date:"
 msgstr "Datum:"
@@ -44928,16 +44928,16 @@ msgid "Hold found (item is waiting and in transit):"
 msgstr "Reservation funnen (exemplaret väntar redan och är under trasnport):"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:92
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:687
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:688
 #, c-format
 msgid "Hold for:"
 msgstr "Reserverad för:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:108
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:98
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:703
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1021
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1118
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:704
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1023
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1120
 #, c-format
 msgid "Patron is RESTRICTED"
 msgstr "Låntagaren är BEGRÄNSAD"
@@ -44945,9 +44945,9 @@ msgstr "Låntagaren är BEGRÄNSAD"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:633
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:102
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:707
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1025
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1122
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:708
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1027
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1124
 #, c-format
 msgid "Patron's address is in doubt"
 msgstr "Låntagarens adress är ogiltig"
@@ -45044,8 +45044,8 @@ msgstr "Ange streckkod för exemplar: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:838
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:202
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:209
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1169
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1171
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1173
 msgid "Enter item barcode"
 msgstr "Ange streckkod för exemplar"
 
@@ -45940,7 +45940,7 @@ msgstr "Låntagaren har reservationer tillgängliga för utlån "
 #. %1$s:  IF rule.itemtype 
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1255
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1281
 #, c-format
 msgid "Item type: %s %s %s "
 msgstr "Exemplartyp: %s %s %s "
@@ -45948,12 +45948,12 @@ msgstr "Exemplartyp: %s %s %s "
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1263
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1289
 #, c-format
 msgid "Patron category: %s %s %s "
 msgstr "Låntagarkategori: %s %s %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1268
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1294
 #, c-format
 msgid "All patron categories"
 msgstr "Alla låntagarkategorier"
@@ -45961,7 +45961,7 @@ msgstr "Alla låntagarkategorier"
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1271
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1297
 #, c-format
 msgid "Library: %s %s %s "
 msgstr "Bibliotek: %s%s%s "
@@ -46493,7 +46493,7 @@ msgstr "Bibliotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:109
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:714
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:715
 #, c-format
 msgid "Hold at"
 msgstr "Reservation på"
@@ -46738,7 +46738,7 @@ msgstr "Låntagarens bibliotek:"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:331
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1647
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1656
 msgid "Apply filter"
 msgstr "Tillämpa filter"
 
@@ -47357,7 +47357,7 @@ msgstr "Låntagaren är inte meddelad."
 #. For the first occurrence,
 #. %1$s:  reservenotes | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:68
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:684
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:685
 #, c-format
 msgid "Notes: %s"
 msgstr "Kommentarer: %s"
@@ -47368,9 +47368,9 @@ msgid "Hold filled for:"
 msgstr "Reserverad av:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:107
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:712
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1029
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1126
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:713
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1031
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1128
 #, c-format
 msgid "Transfer to:"
 msgstr "Överför till:"
@@ -47386,43 +47386,43 @@ msgid "Reason for transfer"
 msgstr "Anledning till överföring"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:130
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1358
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1360
 #, c-format
 msgid "Return to home library"
 msgstr "Åter till hembibliotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:132
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1360
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1362
 #, c-format
 msgid "Return to holding library"
 msgstr "Åter till ägande bibliotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:138
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1366
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1368
 #, c-format
 msgid "Lost hold"
 msgstr "Förlorad reservation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:140
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1368
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1370
 #, c-format
 msgid "Cancelled hold"
 msgstr "Borttagen reservation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:142
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1370
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1372
 #, c-format
 msgid "Transfer was cancelled whilst in transit"
 msgstr "Överföringen blev annullerad under transporten"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:144
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1372
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1374
 #, c-format
 msgid "Recall"
 msgstr "Återkrav"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:146
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1374
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1376
 #, c-format
 msgid "Cancelled recall"
 msgstr "Borttaget återkrav"
@@ -47833,7 +47833,7 @@ msgid "Wrong transfer detected, please return item to: %s "
 msgstr "Återlämna exemplaret till %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:638
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:821
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:822
 #, c-format
 msgid "OK (Y)"
 msgstr "OK (Y)"
@@ -47848,30 +47848,30 @@ msgstr "Skriva ut överföringskvittering (P)"
 msgid "Cancel transfer (X)"
 msgstr "Avbryt överföring (X)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:672
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:673
 #, c-format
 msgid "Hold found (item is already waiting): "
 msgstr "Reservation funnen (exemplaret väntar redan): "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:750
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:751
 #, c-format
 msgid "Confirm hold (Y) "
 msgstr "Bekräfta reservation (Alt+Y) "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:753
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1047
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1140
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:754
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1049
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1142
 #, c-format
 msgid "Print slip and confirm (P) "
 msgstr "Skriv ut och bekräfta (Alt+P) "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:754
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1142
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:755
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1144
 #, c-format
 msgid "Ignore (I) "
 msgstr "Ignorera "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:766
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:767
 #, c-format
 msgid "Cancel hold (X) "
 msgstr "Ta bort reservation (Alt+X) "
@@ -47881,183 +47881,183 @@ msgstr "Ta bort reservation (Alt+X) "
 #. %3$s:  ELSE 
 #. %4$s:  Branches.GetName( returnbranch ) | html 
 #. %5$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:795
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:796
 #, c-format
 msgid "Please return this item to %s%s%s%s%s "
 msgstr "Återlämna exemplaret till: %s%s%s%s%s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:802
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:803
 #, c-format
 msgid "Transfer now? "
 msgstr "Överför nu? "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:813
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:814
 #, c-format
 msgid "Yes (Y)"
 msgstr "Ja"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:815
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:816
 #, c-format
 msgid "Yes, print slip"
 msgstr "Ja, skriv ut kvittering"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:817
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:818
 #, c-format
 msgid "No (N)"
 msgstr "Nej"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:828
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:829
 #, c-format
 msgid "Print slip (P)"
 msgstr "Skriv ut kvitto (P)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:975
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:977
 #, c-format
 msgid "Recall found: "
 msgstr "Återkrav funnen: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:993
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1090
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:995
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1092
 #, c-format
 msgid "Recall placed by:"
 msgstr "Återkrav lagd av:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1031
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1033
 #, c-format
 msgid "Recall at"
 msgstr "Återkrävd till"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1043
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1045
 #, c-format
 msgid "Confirm recall and transfer (Y) "
 msgstr "Bekräfta återkrav och överföring "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1044
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1046
 #, c-format
 msgid "Print slip, transfer, and confirm (P) "
 msgstr "Skriv ut kvitto, överför och bekräfta (Alt+P) "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1046
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1139
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1048
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1141
 #, c-format
 msgid "Confirm recall (Y) "
 msgstr "Bekräfta återkrav "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1050
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1052
 #, c-format
 msgid "Ignore "
 msgstr "Ignorera "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1072
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1074
 #, c-format
 msgid "Recall found (item is already waiting): "
 msgstr "Återkrav funnen (exemplaret väntar redan): "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1128
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1130
 #, c-format
 msgid "Wait for pickup at"
 msgstr "Vänta på hämtning på"
 
 #. BUTTON
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1162
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1164
 msgid "Show the last checkin message"
 msgstr "Visa det senaste återlämningsmeddelandet"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1176
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1178
 msgid "Checkin settings"
 msgstr "Återlämningsinställningar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1192
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1194
 #, c-format
 msgid "Fines for returned items are forgiven."
 msgstr "Avgifter för återlämnade exemplar efterskänkes."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1196
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1198
 #, c-format
 msgid "Fines are not charged for manually cancelled holds."
 msgstr "Avgifter debiteras inte för manuellt annullerade reservationer."
 
 #. %1$s:  dropboxdate | $KohaDates with_hours => 1 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1200
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1202
 #, c-format
 msgid "( Effective checkin date is %s )"
 msgstr "(Verkligt återlämningsdatum är %s )"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1200
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1202
 #, c-format
 msgid "Book drop mode. "
 msgstr "Böcker lämnade i återlämningslåda. "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1204
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1206
 #, c-format
 msgid "Saved check-in date: "
 msgstr "Sparat återlämningsdatum: "
 
 #. %1$s:  INCLUDE 'date-format.inc' 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1212
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1214
 #, c-format
 msgid "Specify return date %s: "
 msgstr "Ange återlämningsdatum %s: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1232
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1234
 #, c-format
 msgid "Remember return date for next check in"
 msgstr "Spara datum för nästa återlämning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1245
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1247
 #, c-format
 msgid "Forgive overdue charges"
 msgstr "Efterskänk förseningsavgifter"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1256
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1258
 #, c-format
 msgid "Book drop mode"
 msgstr "Böcker lämnade i återlämningslåda"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1266
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1268
 #, c-format
 msgid "Forgive fees for manually expired holds"
 msgstr "Efterskänk avgifter för manuellt utgångna reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1279
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1281
 #, c-format
 msgid "Checked-in items"
 msgstr "Återlämnade exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1288
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1290
 #, c-format
 msgid "Transfer to"
 msgstr "Skicka till"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1289
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1291
 #, c-format
 msgid "Transfer reason"
 msgstr "Anledning till överföring"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1293
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1295
 #, c-format
 msgid "Date acquired"
 msgstr "Inköpsdatum"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1294
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1296
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/restore_records.tt:127
 #, c-format
 msgid "Record-level itemtype"
 msgstr "Exemplartyp (bibliografisk)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1306
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1308
 #, c-format
 msgid "Item was not checked in"
 msgstr "Exemplaret återlämnades inte"
 
 #. %1$s:  checkin.duedate | $KohaDates as_due_date => 1 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1310
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1312
 #, c-format
 msgid "%s (overdue)"
 msgstr "%s (försenad)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1395
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1397
 #, c-format
 msgid "Checkouts:"
 msgstr "Lån:"
@@ -48065,29 +48065,29 @@ msgstr "Lån:"
 #. %1$s:  END 
 #. %2$s:  ELSE 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1403
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1405
 #, c-format
 msgid "%s %s Not checked out %s "
 msgstr "%s %s Inte utlånad %s "
 
 #. %1$s:  item.barcode | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1440
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1442
 #, c-format
 msgid "Items missing from bundle at checkin for %s"
 msgstr "Exemplar saknas från paket vid återlämning av %s"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1519
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1521
 msgid "No date selected"
 msgstr "Inget datum valt"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1519
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1521
 msgid "Unexpected: "
 msgstr "Oväntad: "
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1519
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1521
 msgid "Verified: "
 msgstr "Verifierad: "
 
@@ -56702,7 +56702,7 @@ msgid "Warning: This plugin was written for an older version of Koha. Use at you
 msgstr "Varning: detta plugin skrevs för en äldre version av Koha. Kör den på egen risk. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:213
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #, c-format
 msgid "Run report"
 msgstr "Kör rapport"
@@ -58153,7 +58153,7 @@ msgid "Add new definition"
 msgstr "Lägg till ny definition"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:156
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1587
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1596
 #, c-format
 msgid "The following error was encountered:"
 msgstr "Följande fel påträffades:"
@@ -58214,8 +58214,8 @@ msgid "Column: "
 msgstr "Kolumn: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:257
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:487
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:545
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:496
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:554
 #, c-format
 msgid "Choose: "
 msgstr "Välj: "
@@ -58276,12 +58276,12 @@ msgid "Are you sure you want to delete this dictionary definition? This cannot b
 msgstr "Är du säker på att du vill ta bort denna definition i lexikonet? Du kan inte ångra dig efteråt."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:154
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:480
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:535
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:564
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:618
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:711
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:751
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:489
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:544
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:573
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:627
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:720
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:760
 #, c-format
 msgid "Build a report"
 msgstr "Skapa en rapport"
@@ -58292,25 +58292,25 @@ msgid "Step 1 of 6: Choose a module"
 msgstr "Steg 1 av 6: Välj en modul"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:160
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:542
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:551
 #, c-format
 msgid "Step 2 of 6: Pick a report type"
 msgstr "Steg 2 av 6: välj en rapporttyp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:162
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:565
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:574
 #, c-format
 msgid "Step 3 of 6: Select columns for display"
 msgstr "Steg 3 av 6: välj kolumner för visning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:164
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:627
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:636
 #, c-format
 msgid "Step 4 of 6: Select criteria to limit on"
 msgstr "Steg 4 av 6: välj begränsningskriterier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:166
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:712
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:721
 #, c-format
 msgid "Step 5 of 6: Pick which columns to total"
 msgstr "Steg 5 av 6: välj vilka kolumner som ska summeras"
@@ -58323,7 +58323,7 @@ msgstr "Steg 6 av 6: välj ordningen i rapporten"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:179
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:370
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:375
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1577
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1586
 #, c-format
 msgid "Update SQL"
 msgstr "Uppdatera SQL"
@@ -58339,7 +58339,7 @@ msgid "Build and run reports"
 msgstr "Skapa och köra rapporter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:219
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1398
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1407
 #, c-format
 msgid "Create report from SQL"
 msgstr "Skapa rapport från SQL"
@@ -58427,122 +58427,122 @@ msgstr "%s/cgi-bin/koha/svc/report?id=%s"
 msgid "%s This report seems obsolete, it uses biblioitems.marcxml field. "
 msgstr "%s Den här rapporten verkar vara föråldrad, den använder fältet biblioitems.marcxml. "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:392
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:401
 #, c-format
 msgid "Preview SQL "
 msgstr "Förhandsvisa SQL "
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:409
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:418
 msgid "Share your report with Mana Knowledge Base"
 msgstr "Dela din rapport med Mana Knowledge Base"
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:415
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 #, c-format
 msgid "Schedule"
 msgstr "Schema"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:452
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:461
 #, c-format
 msgid "No saved reports match your criteria. "
 msgstr "Inga sparade rapporter motsvarar dina kriterier. "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:458
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:467
 #, c-format
 msgid "Cancel filter"
 msgstr "Avbryt filter"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:461
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:470
 #, c-format
 msgid "There are no saved reports. "
 msgstr "Det finns inga sparade rapporter. "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:463
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:472
 #, c-format
 msgid "Build a new report?"
 msgstr "Skapa en ny rapport?"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:476
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:485
 #, c-format
 msgid "Please choose a cache_expiry less than 30 days "
 msgstr "Välj ett värde för cache_expiry som är kortare än 30 dagar "
 
 #. %1$s:  IF (usecache) 
 #. %2$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:484
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:493
 #, c-format
 msgid "Step 1 of 6: Choose a module to report on,%sSet cache expiry,%s and choose report visibility "
 msgstr "Steg 1 av 6: välj en modul dit rapporten hör,%s ställ in när cachen löper ut %s och välj vilken synlighet rapporten ska ha "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:496
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:504
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1413
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1421
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1531
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1539
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:505
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:513
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1422
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1430
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1540
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1548
 #, c-format
 msgid "Report is public:"
 msgstr "Rapport är offentlig:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:498
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:506
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1415
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1423
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1533
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1541
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:507
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:515
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1432
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1542
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1550
 #, c-format
 msgid "No (default)"
 msgstr "Nej (standard)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:514
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1431
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1549
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:523
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1440
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1558
 #, c-format
 msgid "Cache expiry:"
 msgstr "Utgångstid för cache:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:517
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1434
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1552
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:526
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1443
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1561
 #, c-format
 msgid "Seconds (default)"
 msgstr "Sekunder (standard)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:518
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1435
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1553
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:527
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1444
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1562
 #, c-format
 msgid "Minutes"
 msgstr "Minuter"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:547
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:556
 #, c-format
 msgid "Tabular"
 msgstr "Tabellformat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:549
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:558
 #, c-format
 msgid "Matrix"
 msgstr "Matris"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:557
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:610
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:704
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:744
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:566
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:619
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:713
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:753
 #, c-format
 msgid "&lt;&lt; Back"
 msgstr "&lt;&lt; Tillbaka"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:566
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:575
 #, c-format
 msgid "Note: Be careful selecting when selecting columns. If your choice is too broad it could result in a very large report that will either not complete, or slow your system down."
 msgstr "Obs! Var försiktig vid val av kolumner. Om för många kolumner väljs kan det ge en mycket stor rapport som antingen inte går att slutföra eller som sänker prestandan på systemet."
 
 #. INPUT type=button name=delete
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:597
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:606
 msgid "<< Delete"
 msgstr "<< Ta bort"
 
@@ -58550,97 +58550,97 @@ msgstr "<< Ta bort"
 #. %2$s:  ELSE 
 #. %3$s:  value.display_value | html 
 #. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:668
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:677
 #, c-format
 msgid "%s Default %s %s %s "
 msgstr "%s Standard %s %s %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:688
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:697
 #, c-format
 msgid "Dictionary definitions"
 msgstr "Ordboksdefinitioner"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:752
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:761
 #, c-format
 msgid "Step 6 of 6: Choose how you want the report ordered"
 msgstr "Steg 6 av 6: välj ordningen i rapporten"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:790
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:799
 #, c-format
 msgid "Confirm custom report"
 msgstr "Bekräfta anpassad rapport"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:791
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:800
 #, c-format
 msgid "Your report will be generated with the following SQL statement."
 msgstr "Din rapport kommer att genereras med följande SQL-uttryck."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:800
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:809
 #, c-format
 msgid "You will need to save the report before you can execute it"
 msgstr "Du måste spara rapporten innan den kan köras"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:817
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:826
 #, c-format
 msgid "Save your custom report"
 msgstr "Spara din anpassade rapport"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:820
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1524
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:829
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1533
 #, c-format
 msgid "Report name: "
 msgstr "Rapportnamn: "
 
 #. INPUT type=submit name=submit
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:833
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1464
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:842
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1473
 msgid "Save report"
 msgstr "Spara rapport"
 
 #. For the first occurrence,
 #. %1$s:  name | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:840
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:874
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:849
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:883
 #, c-format
 msgid "Errors found when processing parameters for report: %s"
 msgstr "Fel hittades när parametrar bearbetades för rapport: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:842
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:876
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:851
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:885
 #, c-format
 msgid ") you selected does not exist. "
 msgstr ") du valde finns inte. "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:842
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:876
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:851
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:885
 #, c-format
 msgid "The authorized value category ("
 msgstr "Kategorin med auktoriserade värden ("
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:859
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:863
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:868
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:872
 #, c-format
 msgid "Save anyway"
 msgstr "Spara ändå"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:867
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:880
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:876
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:889
 #, c-format
 msgid "Edit SQL"
 msgstr "Redigera SQL"
 
 #. %1$s:  name | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:885
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:894
 #, c-format
 msgid "Enter parameters for report %s:"
 msgstr "Ange parametrar för rapport %s:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:933
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:942
 #, c-format
 msgid "Run the report"
 msgstr "Kör rapporten"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:943
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:952
 #, c-format
 msgid "Report ID:"
 msgstr "Rapport ID:"
@@ -58649,27 +58649,27 @@ msgstr "Rapport ID:"
 #. %2$s:  IF unlimited_total >= limit 
 #. %3$s:  results.size | html 
 #. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:951
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:960
 #, c-format
 msgid "%s %s (%s shown) %s "
 msgstr "%s %s (%s visas) %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:951
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:960
 #, c-format
 msgid "Total number of results:"
 msgstr "Antal resultat:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:960
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:969
 #, c-format
 msgid "Report SQL:"
 msgstr "SQLrapport:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:965
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:974
 #, c-format
 msgid "Hide chart"
 msgstr "Göm diagram"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:966
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:975
 #, c-format
 msgid "Show chart"
 msgstr "Visa diagram"
@@ -58679,456 +58679,456 @@ msgstr "Visa diagram"
 #. %3$s:  ELSE 
 #. %4$s:  unlimited_total | html 
 #. %5$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1112
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1121
 #, c-format
 msgid "Batch operations with %s%s%s%s%s visible records "
 msgstr "Satsvisa åtgärder med %s%s%s%s%s synliga poster "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1128
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1137
 #, c-format
 msgid "Patron records"
 msgstr "Låntagarposter"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1131
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1140
 msgid "Send visible results to batch patron modification"
 msgstr "Skicka synliga resultat till satsvis redigering av låntagare"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1144
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1153
 msgid "Send visible results to a new patron card batch"
 msgstr "Skicka synliga resultat till ny sats med lånekort"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1160
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1169
 msgid "Send visible records to batch record modification"
 msgstr "Skicka synliga exemplar till satsvis redigering"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1171
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1180
 msgid "Send visible records to batch record deletion"
 msgstr "Skicka synliga exemplar till satsvis borttagning"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1182
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1191
 msgid "Send visible records to a list"
 msgstr "Skicka synliga exemplar till en lista"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1194
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1203
 #, c-format
 msgid "Item records"
 msgstr "Exemplarpost"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1196
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1205
 msgid "Send visible items to batch item modification"
 msgstr "Skicka synliga exemplar till satsvis redigering"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1207
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1216
 msgid "Send visible items to batch item deletion"
 msgstr "Skicka synliga exemplar till satsvis borttagning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1219
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1228
 #, c-format
 msgid "Hold records"
 msgstr "Reservationer"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1221
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1230
 msgid "Send visible results to batch hold modification"
 msgstr "Skicka synliga resultat till satsvis redigering av reservationer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1228
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1237
 #, c-format
 msgid "Batch hold modification"
 msgstr "Satsvis redigering av reservationer"
 
 #. %1$s:  IF ( limit ) 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1241
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1250
 #, c-format
 msgid "%s Rows per page: "
 msgstr "%s Rader per sida: "
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1243
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1252
 #, c-format
 msgid "%s Rows per page %s "
 msgstr "%s Rader per sida %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1269
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1278
 #, c-format
 msgid "Show data menus"
 msgstr "Visa datamenyer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1270
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1279
 #, c-format
 msgid "Hide data menus"
 msgstr "Dölj datamenyer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1318
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1327
 #, c-format
 msgid "View item"
 msgstr "Visa exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1337
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1346
 #, c-format
 msgid "View record"
 msgstr "Visa post"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1351
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1360
 #, c-format
 msgid "View patron"
 msgstr "Visa låntagare"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1356
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1365
 #, c-format
 msgid "Edit patron"
 msgstr "Redigera låntagare"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1401
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1410
 #, c-format
 msgid "Report name:"
 msgstr "Rapportnamn:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1450
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1568
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1459
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1577
 #, c-format
 msgid "SQL:"
 msgstr "SQL:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1455
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1464
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1580
 #, c-format
 msgid "* In order to achieve auto-complete for columns, please prepend the column name with the table name, followed by a period. For example: 'borrowers.surname'"
 msgstr "* För att få till autokomplettering av kolumner, lägg in kolumnnamnet med namn på tabellen. följd av en punkt. Till exempel: 'borrowers.surname'"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1471
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1480
 #, c-format
 msgid "Saved report results"
 msgstr "Sparade rapportresultat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1486
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1495
 #, c-format
 msgid "Saved reports - SQL"
 msgstr "Sparade rapporter - SQL"
 
 #. %1$s:  reportname | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1510
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1519
 #, c-format
 msgid "Your report \"%s\" has been saved"
 msgstr "Din rapport \"%s\" har sparats"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1521
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1530
 #, c-format
 msgid "Edit SQL report"
 msgstr "Redigera SQL-rapport"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1578
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1587
 #, c-format
 msgid "Update and run SQL"
 msgstr "Uppdatera och kör SQL"
 
 #. %1$s:  FOREACH error IN errors 
 #. %2$s:  IF ( error.sqlerr ) 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1587
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1596
 #, c-format
 msgid "%s %s This report contains the SQL keyword "
 msgstr "%s %s Denna rapport innehåller SQL-nyckelordet "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1590
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1599
 #, c-format
 msgid "Use of this keyword is not allowed in Koha reports due to security and data integrity risks. Only SELECT queries are allowed."
 msgstr "Användning av detta nyckelord tillåts av säkerhetsskäl inte i Koha-rapporter. Endast SELECT-frågor tillåts."
 
 #. %1$s:  ELSIF ( error.queryerr ) 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1591
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1600
 #, c-format
 msgid "Please return to the &quot;Saved Reports&quot; screen and delete this report or retry creating a new one. %s "
 msgstr "Gå tillbaka till skärmen &quot;Sparade rapporter&quot; och ta bort den här rapporten eller försök att skapa en ny igen. %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1594
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1603
 #, c-format
 msgid "The database returned the following error:"
 msgstr "Databasen returnerade följande fel:"
 
 #. %1$s:  ELSIF ( error.cache_expiry ) 
 #. %2$s:  ELSIF ( error.passworderr ) 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1595
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1604
 #, c-format
 msgid "Please check the log for further details. %s Please select a cache expiry less than 30 days. %s The column selection in this report includes a password field."
 msgstr "Läs i loggen för att få mer information. %s Ställ in ett värde för cache som är kortare än 30 dagar. %s Kolumnvärdet i rapporten innehåller ett fält för lösenord."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1599
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1608
 #, c-format
 msgid "The report cannot be executed due to security risks."
 msgstr "Rapporten kan inte köra pga säkerhetsrisker."
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1600
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1609
 #, c-format
 msgid "Please edit this report and ensure no password columns have been selected. %s %s "
 msgstr "Redigera den här rapporten och kontrollera att inga lösenordskolumner har valts. %s %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1606
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1615
 #, c-format
 msgid "Return to previous page"
 msgstr "Återgå till föregående sida"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1668
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1677
 #, c-format
 msgid "Runtime parameter options"
 msgstr "Parameteralternativ för rapportkörning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1675
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1684
 #, c-format
 msgid "Parameter label: "
 msgstr "Parameteretikett: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1677
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1686
 #, c-format
 msgid "The label for the field shown when the report is run, e.g. \"Select a library.\""
 msgstr "Namnet på fältet visas när rapporten körs, tex \"Välj ett bibliotek.\""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1680
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1689
 #, c-format
 msgid "Authorized value category:"
 msgstr "Auktoriserad värdekategori:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1685
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1694
 #, c-format
 msgid "Select which authorized value category the user will choose from."
 msgstr "Välja vilka auktoriserade värde-kategori som användaren kan välja från."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1688
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1697
 #, c-format
 msgid "Parameter options:"
 msgstr "Parameteralternativ:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1691
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1700
 #, c-format
 msgid "Single parameter only"
 msgstr "Endast en parameter"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1692
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1701
 #, c-format
 msgid "- Query expression should use ="
 msgstr "- Frågeuttryck ska använda ="
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1697
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1706
 #, c-format
 msgid "Include option for all"
 msgstr "Inkludera alternativet för alla"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1698
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1707
 #, c-format
 msgid "- Query expression must use LIKE"
 msgstr "- Sökfrågan måste använda LIKE"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1703
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1712
 #, c-format
 msgid "Allow multiple selections"
 msgstr "Tillåt flera val"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1704
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1713
 #, c-format
 msgid "- Query expression must use IN"
 msgstr "- Frågeuttryck måste använda IN"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1710
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1719
 #, c-format
 msgid "Insert parameter"
 msgstr "Infoga parameter"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Are you sure you want to delete the selected reports?"
 msgstr "Är du säker på att du vill ta bort valda rapporter?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Are you sure you want to delete this report?"
 msgstr "Är du säker på att du vill radera den här rapporten?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Are you sure you want to delete this report? This cannot be undone."
 msgstr "Är du säker på att du vill ta bort rapporten? Du kan inte ångra dig efteråt."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Credit type"
 msgstr "Kredittyp"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Debit type"
 msgstr "Debitieringstyp"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Fetching full chart data for reports with many rows can cause performance issues. Are you sure you want to chart this report?"
 msgstr "Hämtning av fullständiga diagramdata för rapporter med många rader kan ge prestandaproblem. Är du säker på att du vill fortsätta?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Framework"
 msgstr "Ramverk"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert authorized value parameter"
 msgstr "Välj auktoriserat värde"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert bibliographic framework parameter"
 msgstr "Infoga parameter för bibliografiskt ramverk"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert cash register parameter"
 msgstr "Lägga till parameter för kassaregister"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert classification source parameter"
 msgstr "Infoga parameter för klassificeringskälla"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert credit type parameter"
 msgstr "Välj exemplartyp"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert date parameter"
 msgstr "Välj datum"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert debit type parameter"
 msgstr "Infoga parameter för debiteringstyp"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert item types parameter"
 msgstr "Välj exemplartyp"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert libraries parameter"
 msgstr "Välj bibliotek"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert list parameter"
 msgstr "Infoga listparameter"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert patron category parameter"
 msgstr "Välj låntagarkategori"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Insert text parameter"
 msgstr "Infoga textparameter"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "List of values"
 msgstr "Lista med värden"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "No columns selected!"
 msgstr "Inga kolumner har valts!"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "No matching reports found"
 msgstr "Inga matchande rapporter hittade"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Results from Mana Knowledge Base"
 msgstr "Resultat från Mana Knowledge Base"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "Source of classification or shelving scheme"
 msgstr "Källa för klassifikation/hyllsignaturer"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1751
 msgid "You must select one or more reports to delete"
 msgstr "Du måste välja en eller flera rapporter att ta bort"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2670
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2679
 #, c-format
 msgid "Report group:"
 msgstr "Rapportgrupp:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2674
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2689
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2683
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2698
 #, c-format
 msgid "(None)"
 msgstr "(Ingen)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2680
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2689
 #, c-format
 msgid "or create:"
 msgstr "eller skapa:"
 
 #. INPUT type=text name=group
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2681
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2690
 msgid "Group code"
 msgstr "Gruppkod"
 
 #. INPUT type=text name=groupdesc
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2682
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2691
 msgid "Group name"
 msgstr "Gruppnamn"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2685
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2694
 #, c-format
 msgid "Report subgroup:"
 msgstr "Undergrupp för rapport:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2699
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2708
 #, c-format
 msgid "or create"
 msgstr "eller skapa"
 
 #. INPUT type=text name=subgroup
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2700
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2709
 msgid "Subgroup code"
 msgstr "Kod för undergrupp"
 
 #. INPUT type=text name=subgroupdesc
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2701
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2710
 msgid "Subgroup name"
 msgstr "Namn på undergrupp"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2707
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2716
 #, c-format
 msgid "Insert runtime parameter "
 msgstr "Infoga körningsparameter "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2710
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2719
 #, c-format
 msgid "Bibliographic framework"
 msgstr "Bibliografiskt ramverk"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2715
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2724
 #, c-format
 msgid "List"
 msgstr "Lista"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2720
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2729
 #, c-format
 msgid "Text field"
 msgstr "Textfält"
@@ -75218,6 +75218,10 @@ msgstr "_blank"
 #~ msgstr "Kör verktyg "
 
 #, c-format
+#~ msgid "Run reports"
+#~ msgstr "Kör rapporter"
+
+#, c-format
 #~ msgid "Run the following SQL to fix the database:"
 #~ msgstr "Kör följande SQL för att reparera databasen:"
 
@@ -76069,6 +76073,10 @@ msgstr "_blank"
 #, c-format
 #~ msgid "Use carefully! If the destination library already has circulation and fine rules, they will be deleted without warning!"
 #~ msgstr "Använd med försiktighet! Om destinationsbiblioteket redan har låneregler tas de bort utan förvarning!"
+
+#, c-format
+#~ msgid "Use saved"
+#~ msgstr "Använd sparad"
 
 #~ msgid "Use: %s"
 #~ msgstr "Använd: %s"

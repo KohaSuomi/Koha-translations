@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 13:45+0300\n"
+"POT-Creation-Date: 2026-07-01 10:29+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,7 +210,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:142
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:100
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/FormAdd.vue:48
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:148
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:179
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:86
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:408
@@ -255,7 +255,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:160
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:155
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:121
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:257
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:264
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:245
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:416
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:192
@@ -277,7 +277,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:161
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:156
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:122
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:258
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:265
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:246
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:417
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:193
@@ -477,7 +477,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:91
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorShow.vue:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:67
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:167
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:18
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:18
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:16
@@ -745,13 +745,13 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:184
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:154
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:84
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:104
 #: koha-tmpl/intranet-tmpl/prog/js/ill-list-table.js:651
 msgid "Select all"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:187
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:86
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:106
 msgid "Clear all"
 msgstr ""
 
@@ -1281,6 +1281,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:139
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:153
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:97
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:135
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:384
@@ -1296,6 +1297,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/RecordSources/List.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:139
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:146
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:153
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:134
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:384
@@ -1449,46 +1451,51 @@ msgstr ""
 msgid "Lock shelf"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:172
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:128
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:149
+msgid "Allow multiple holds"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:182
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:156
 msgid "Monday"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:173
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:183
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:157
 msgid "Tuesday"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:174
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:184
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:158
 msgid "Wednesday"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:175
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:185
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:159
 msgid "Thursday"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:176
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:186
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:160
 msgid "Friday"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:177
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:187
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:161
 msgid "Saturday"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:178
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:188
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:155
 msgid "Sunday"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:215
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:225
 msgid "Hold pickup shelf updated!"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:225
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/FormAdd.vue:235
 msgid "Hold pickup shelf created!"
 msgstr ""
 
@@ -1556,24 +1563,24 @@ msgstr ""
 msgid "Locked"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:154
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:161
 msgid "Edit in new tab"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:254
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:261
 msgid "Are you sure you want to delete this hold pickup shelf?"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:266
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:273
 #, javascript-format
 msgid "Hold pickup shelf '%s' deleted"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:281
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:288
 msgid "Priorities updated successfully"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:285
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Admin/HoldPickupShelves/List.vue:292
 msgid "Failed to update priorities"
 msgstr ""
 
@@ -3171,27 +3178,27 @@ msgstr ""
 msgid "Select a pickup shelf"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:51
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:52
 msgid "No pickup shelves available"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:168
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:173
 msgid "Error fetching pickup shelves"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:186
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:191
 msgid "Error selecting pickup shelf"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:201
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:206
 msgid "Error releasing pickup shelf"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:222
 msgid "Error locking pickup shelf"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:276
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:281
 msgid "Selected shelf is unavailable. Please choose another shelf."
 msgstr ""
 
@@ -3224,7 +3231,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:193
 #: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:110
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:803
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:817
 msgid "years"
 msgstr ""
 
@@ -3327,66 +3334,6 @@ msgstr ""
 msgid "At least two records must be selected for merging"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:44
-#, javascript-format
-msgid "AJAX failed to approve tag: %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:52
-#, javascript-format
-msgid "AJAX failed to reject tag: %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:56
-#, javascript-format
-msgid "%s is permitted!"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:59
-#, javascript-format
-msgid "%s is prohibited!"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:63
-#, javascript-format
-msgid "%s is neither permitted nor prohibited!"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:72
-msgid " Test"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:88
-msgid "Select all pending"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
-msgid "Reject"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:153
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:157
-msgid "Approved"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:190
-msgid "Approve"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:195
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:199
-msgid "Rejected"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:209
-msgid "Testing..."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:228
-#, javascript-format
-msgid "AJAX error (%s alert)"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:19
 msgid ""
 "Error: presence of invalid data prevent saving. Please make the corrections "
@@ -3481,6 +3428,66 @@ msgstr ""
 msgid "Add new code"
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
+#, javascript-format
+msgid "AJAX failed to approve tag: %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:59
+#, javascript-format
+msgid "AJAX failed to reject tag: %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:64
+#, javascript-format
+msgid "%s is permitted!"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
+#, javascript-format
+msgid "%s is prohibited!"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:77
+#, javascript-format
+msgid "%s is neither permitted nor prohibited!"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:92
+msgid " Test"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:108
+msgid "Select all pending"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:168
+msgid "Reject"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:173
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:177
+msgid "Approved"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:210
+msgid "Approve"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:215
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:219
+msgid "Rejected"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:229
+msgid "Testing..."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:248
+#, javascript-format
+msgid "AJAX error (%s alert)"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:39
 msgid "Booking ID"
 msgstr ""
@@ -3496,7 +3503,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:138
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:163
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:37
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:819
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:833
 msgid "Expired"
 msgstr ""
 
@@ -5044,55 +5051,6 @@ msgstr ""
 msgid "%s month"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:67
-msgid "Click to expand this section"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:72
-msgid "Click to collapse this section"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:340
-#: koha-tmpl/opac-tmpl/bootstrap/js/global.js:349
-msgid "Back to top"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:458
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:10
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:11
-msgid "First"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:459
-#: koha-tmpl/intranet-tmpl/prog/js/browser.js:146
-#: koha-tmpl/intranet-tmpl/prog/js/browser.js:151
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:13
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:14
-msgid "Previous"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:460
-#: koha-tmpl/intranet-tmpl/prog/js/browser.js:160
-#: koha-tmpl/intranet-tmpl/prog/js/browser.js:165
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:12
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:13
-msgid "Next"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:461
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:11
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:12
-msgid "Last"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:731
-msgid "An error occurred. Check the logs for details."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:824
-msgid "Restricted"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:201
 msgid "Template name is required."
 msgstr ""
@@ -5296,6 +5254,22 @@ msgstr ""
 msgid "Cancel selected (%s)"
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/js/browser.js:146
+#: koha-tmpl/intranet-tmpl/prog/js/browser.js:151
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:13
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:459
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:14
+msgid "Previous"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/browser.js:160
+#: koha-tmpl/intranet-tmpl/prog/js/browser.js:165
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:12
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:460
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:13
+msgid "Next"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:172
 msgid "Results"
 msgstr ""
@@ -5304,8 +5278,28 @@ msgstr ""
 msgid "Go back to the results"
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:166
+msgid "(select to create)"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:810
+msgid "Something went wrong. Maybe the value already exists?"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:10
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:458
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:11
+msgid "First"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:11
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:461
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:12
+msgid "Last"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:15
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1440
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1448
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:16
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:626
 msgid "No data available in table"
@@ -5322,7 +5316,7 @@ msgid "No entries to show"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:18
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1443
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1451
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:19
 msgid "(filtered from _MAX_ total entries)"
 msgstr ""
@@ -5458,12 +5452,29 @@ msgstr ""
 msgid "Anywhere: %s"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:166
-msgid "(select to create)"
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:67
+msgid "Click to expand this section"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:810
-msgid "Something went wrong. Maybe the value already exists?"
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:72
+msgid "Click to collapse this section"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:340
+#: koha-tmpl/opac-tmpl/bootstrap/js/global.js:349
+msgid "Back to top"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:745
+msgid "An error occurred. Check the logs for details."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:838
+msgid "Restricted"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:1065
+msgid "Please fill out this field."
 msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:30
