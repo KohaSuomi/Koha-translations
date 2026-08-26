@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 10:29+0300\n"
+"POT-Creation-Date: 2026-08-26 09:52+0300\n"
 "PO-Revision-Date: 2026-05-08 09:45+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -947,10 +947,10 @@ msgstr "Beställningssökning"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:176
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:329
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:215
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:314
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:339
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:366
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:393
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:321
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:346
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:373
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:400
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:316
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/restore_items.tt:119
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/restore_records.tt:124
@@ -1316,7 +1316,7 @@ msgstr "Inköp"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:135
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:136
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-home.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-home.tt:35
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:35
@@ -1601,7 +1601,7 @@ msgstr "Lägg till"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:229
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:308
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:781
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:865
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:867
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:207
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:307
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:313
@@ -1682,10 +1682,10 @@ msgstr "Lägg till"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:100
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:278
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:280
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:516
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:518
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:279
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:281
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:517
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:519
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:185
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:314
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:113
@@ -1965,8 +1965,8 @@ msgstr "Skapa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:169
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:229
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:285
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:147
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:247
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:154
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:254
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:365
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:325
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:99
@@ -2408,8 +2408,8 @@ msgstr "Välj en ikon:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:200
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:281
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:253
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:783
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:788
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:784
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:789
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:223
@@ -2731,8 +2731,8 @@ msgstr "Namn: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:155
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:158
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:58
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:390
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:586
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:391
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:587
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:321
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:385
@@ -3810,7 +3810,7 @@ msgstr "(Intilliggande överliggande fält)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:234
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:184
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:185
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:125
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:184
@@ -4289,7 +4289,7 @@ msgstr "Ta bort post"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:159
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:331
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:134
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:626
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:627
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:156
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:123
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:187
@@ -4297,8 +4297,8 @@ msgstr "Ta bort post"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:217
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:256
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:146
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:246
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:153
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:253
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:359
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:463
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/scheduler.tt:79
@@ -5646,7 +5646,7 @@ msgstr "Nytt budgetställe för %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:485
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:781
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:192
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:864
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:866
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:207
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:363
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:392
@@ -6557,7 +6557,7 @@ msgstr "Gå till exemplardetaljer"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/cataloging_additem.inc:4
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:161
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1322
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:330
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:331
 #, c-format
 msgid "Edit item"
 msgstr "Redigera exemplar"
@@ -8342,10 +8342,10 @@ msgstr "Mall"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:295
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:322
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:315
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:340
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:367
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:394
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:322
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:347
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:374
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:401
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:137
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:129
 #, c-format
@@ -8417,8 +8417,8 @@ msgstr "Registrerade låntagare"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:528
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:531
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:595
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:818
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:842
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:819
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:843
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:110
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:233
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:329
@@ -8546,8 +8546,8 @@ msgstr "Ja"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:529
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:532
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:597
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:820
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:844
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:821
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:845
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:110
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:235
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:329
@@ -8951,7 +8951,7 @@ msgstr "Visa mindre"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:266
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:321
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:81
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:193
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:200
 #, c-format
 msgid "Title: "
 msgstr "Titel: "
@@ -9541,8 +9541,8 @@ msgstr "Låntagare"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:243
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:528
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:144
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:313
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:392
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:320
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:399
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:240
 #, c-format
 msgid "Date"
@@ -9849,8 +9849,8 @@ msgstr "RegEx"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:106
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:764
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:1304
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:387
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:583
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:388
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:584
 msgid "Clone"
 msgstr "Klona"
 
@@ -9858,8 +9858,8 @@ msgstr "Klona"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:270
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:764
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:1304
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:387
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:583
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:388
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:584
 msgid "Clone this subfield"
 msgstr "Klona detta delfält"
 
@@ -10117,7 +10117,7 @@ msgstr "Numrering/kronologi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:98
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:233
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:183
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:184
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:281
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:348
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:800
@@ -10742,7 +10742,7 @@ msgstr "Kunde inte uppdatera de satsvisa beställningarna"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal-strings.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:62
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:779
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:780
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1673
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/purchase-suggestions.tt:114
@@ -10831,7 +10831,7 @@ msgstr "Lånekortsnummer, användarnamn eller efternamn:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:304
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:632
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:55
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:164
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:171
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:394
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:400
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:349
@@ -11982,7 +11982,7 @@ msgstr "Kommentarer "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:135
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:551
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:175
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:687
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:688
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:193
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:353
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:384
@@ -12697,31 +12697,31 @@ msgid "You can ask for a digest to reduce the number of messages. Messages will 
 msgstr "Du kan be om ett sammandrag för att minska antalet meddelanden. Meddelanden sparas och skickas som ett enda meddelande."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:32
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:757
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:758
 #, c-format
 msgid "Item due"
 msgstr "Återlämningsdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:34
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:759
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:760
 #, c-format
 msgid "Advance notice"
 msgstr "Påminnelse om kommande återlämningsdatum"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:36
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:761
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:762
 #, c-format
 msgid "Hold filled"
 msgstr "Infångad reservation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:38
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:775
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:776
 #, c-format
 msgid "Hold reminder"
 msgstr "Påminnelse om reservation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:40
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:763
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:764
 #, c-format
 msgid "Item check-in"
 msgstr "Exemplaret återlämnat"
@@ -12732,37 +12732,37 @@ msgid "Item checkout and renewal"
 msgstr "Utlån och omlån av exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:765
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:766
 #, c-format
 msgid "Item checkout"
 msgstr "Exemplaret utlånat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:48
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:777
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:778
 #, c-format
 msgid "Patron account expiry"
 msgstr "Kontot är inte längre giltigt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:50
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:767
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:768
 #, c-format
 msgid "Interlibrary loan ready"
 msgstr "Fjärrlån redo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:52
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:769
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:770
 #, c-format
 msgid "Interlibrary loan unavailable"
 msgstr "Fjärrlån inte tillgängligt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:54
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:771
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:772
 #, c-format
 msgid "Interlibrary loan updated"
 msgstr "Fjärrlån uppdaterat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:56
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:774
 #, c-format
 msgid "Auto renewal"
 msgstr "Automatiskt omlån"
@@ -12986,7 +12986,7 @@ msgstr "Auktoriserat värde:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:308
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:89
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:84
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:197
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:204
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:316
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:216
 #, c-format
@@ -13151,7 +13151,7 @@ msgstr "Ta bort \"påstås återlämnad\" (claim) "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/serials_multi_receiving.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/serials_multi_receiving.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:205
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:630
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:631
 #, c-format
 msgid "Multi receiving"
 msgstr "Ta emot fler"
@@ -13406,7 +13406,7 @@ msgstr "(endast %s)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_servers.tt:160
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:248
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:271
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:313
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:169
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:250
@@ -13884,8 +13884,8 @@ msgstr "Laddar "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:309
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:582
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:583
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:727
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:732
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:728
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:733
 #, c-format
 msgid "%s years"
 msgstr "%s år"
@@ -16587,118 +16587,118 @@ msgid "Acquisition date (yyyy-mm-dd)"
 msgstr "Inköpsdatum (åååå-mm-dd)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:1
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:207
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:209
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:468
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:208
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:210
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:469
 #, c-format
 msgid "Expected"
 msgstr "Förväntas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:2
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:212
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:214
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:471
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:473
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:213
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:215
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:472
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:474
 #, c-format
 msgid "Arrived"
 msgstr "Ankommet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:3
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:217
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:220
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:218
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:221
 #, c-format
 msgid "Circulating"
 msgstr "Cirkulerar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:4
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:224
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:227
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:225
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:228
 #, c-format
 msgid "Out for binding"
 msgstr "Bokbinderi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:5
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:231
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:234
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:232
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:235
 #, c-format
 msgid "Bound"
 msgstr "Inbunden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:6
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:238
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:240
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:476
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:478
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:239
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:241
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:477
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:479
 #, c-format
 msgid "Late"
 msgstr "Sen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:243
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:245
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:481
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:483
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:244
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:246
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:482
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:484
 #, c-format
 msgid "Missing"
 msgstr "Saknas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:248
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:250
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:486
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:488
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:249
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:251
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:487
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:489
 #, c-format
 msgid "Missing (never received)"
 msgstr "Saknas (aldrig mottagen)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:253
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:255
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:491
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:493
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:254
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:256
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:492
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:494
 #, c-format
 msgid "Missing (sold out)"
 msgstr "Saknas (utsåld)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:258
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:260
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:496
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:498
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:259
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:261
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:497
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:499
 #, c-format
 msgid "Missing (damaged)"
 msgstr "Saknas (skadad)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:263
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:265
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:501
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:503
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:264
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:266
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:502
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:504
 #, c-format
 msgid "Missing (lost)"
 msgstr "Saknas (förlorad)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:273
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:275
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:511
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:513
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:274
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:276
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:512
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:514
 #, c-format
 msgid "Not available"
 msgstr "Ej tillgängligt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:268
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:270
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:506
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:508
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:269
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:271
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:507
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:509
 #, c-format
 msgid "Claimed"
 msgstr "Reklamerad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:283
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:521
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:284
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:522
 #, c-format
 msgid "Stopped"
 msgstr "Stoppad"
@@ -16991,7 +16991,7 @@ msgstr "%s obligatoriska fält är tomma (markerade)"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/cataloging_additem.inc:4
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:21
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:22
 msgid "%s mandatory fields empty (highlighted)"
 msgstr "%s obligatoriska fält är tomma (markerade)"
 
@@ -17014,14 +17014,14 @@ msgstr "Är du säker på att du vill spara?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:734
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:507
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:204
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:21
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:22
 msgid "Form not submitted because of the following problem(s)"
 msgstr "Formuläret kunde inte skickas på grund av följande problem"
 
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/cataloging_additem.inc:4
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:21
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:292
 msgid "Itemtype is not valid. Use one of the following itemtypes:"
 msgstr "Ogiltig exemplartyp. Välj någon av följande:"
@@ -17644,7 +17644,7 @@ msgstr "Minska indrag"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:458
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:462
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:618
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:833
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:834
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:213
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:230
@@ -19493,7 +19493,7 @@ msgstr "Ungdom"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:29
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:215
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:700
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:701
 #, c-format
 msgid "Adult"
 msgstr "Vuxen"
@@ -23513,8 +23513,8 @@ msgstr "Importera alla markerade exemplar i korgen med följande parametrar:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:274
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:113
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:68
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:347
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:544
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:348
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:545
 #, c-format
 msgid "Item"
 msgstr "Exemplar"
@@ -23969,10 +23969,11 @@ msgstr "Uppskattat leveransdatum:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:605
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:609
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:612
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:741
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:827
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:829
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:862
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:828
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:830
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:863
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:864
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:359
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:196
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:487
@@ -25710,7 +25711,7 @@ msgstr "Fakturapris"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:130
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:790
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:77
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:161
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:169
 #, c-format
 msgid "by"
 msgstr "av"
@@ -30368,7 +30369,7 @@ msgstr "Biblioteksbegränsning"
 #. For the first occurrence,
 #. %1$s:  loo.branches.size | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:333
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:805
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:806
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:222
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:509
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:350
@@ -30379,7 +30380,7 @@ msgstr "%s biblioteksbegränsningar"
 #. For the first occurrence,
 #. %1$s:  loo.branches.size | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:335
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:807
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:808
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:224
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:511
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:352
@@ -30388,7 +30389,7 @@ msgid "%s library limitation"
 msgstr "%s biblioteksbegränsning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:339
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:811
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:812
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:228
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:515
 #, c-format
@@ -31926,13 +31927,13 @@ msgid "Select a category type"
 msgstr "Välj en kategorityp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:216
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:702
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:703
 #, c-format
 msgid "Child"
 msgstr "Barn"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:217
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:708
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:709
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:456
 #, c-format
 msgid "Staff"
@@ -31950,7 +31951,7 @@ msgid "Professional"
 msgstr "Professionell"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:220
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:710
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:711
 #, c-format
 msgid "Statistical"
 msgstr "Statistisk"
@@ -32197,7 +32198,7 @@ msgstr "Standardsekretess: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:459
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:463
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:620
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:835
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:836
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:90
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:488
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:528
@@ -32213,7 +32214,7 @@ msgstr "Aldrig"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:460
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:464
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:622
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:837
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:838
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:486
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:105
@@ -32324,7 +32325,7 @@ msgstr "Denna kategori används %s gånger"
 #. %4$s:  category.enrolmentperioddate | $KohaDates 
 #. %5$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:572
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:713
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:714
 #, c-format
 msgid "%s %s months %s until %s %s "
 msgstr "%s %s månader %s tills %s %s "
@@ -32332,7 +32333,7 @@ msgstr "%s %s månader %s tills %s %s "
 #. For the first occurrence,
 #. %1$s:  category.password_expiry_days | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:581
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:722
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:723
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:229
 #, c-format
 msgid "%s days"
@@ -32363,7 +32364,7 @@ msgid "Check previous checkouts: "
 msgstr "Kontrollera tidigare lån: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:599
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:822
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:823
 #, c-format
 msgid "Inherit"
 msgstr "Ärva"
@@ -32463,12 +32464,17 @@ msgstr "Maxtak för avgifter för förmyndare"
 msgid "Enforce patron account expiry notice"
 msgstr "Tvinga fram meddelande om att kontot har gått ut"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:704
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:687
+#, fuzzy, c-format
+msgid "Can have permissions"
+msgstr "Rättigheter tillåtna"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:705
 #, c-format
 msgid "Prof."
 msgstr "Prof."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:706
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:707
 #, c-format
 msgid "Org."
 msgstr "Org."
@@ -32476,17 +32482,17 @@ msgstr "Org."
 #. %1$s:  IF ( category.hidelostitems ) 
 #. %2$s:  ELSE 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:743
 #, c-format
 msgid "%sHidden%sShown%s"
 msgstr "%sDold%sVisas%s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:872
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:874
 #, c-format
 msgid "Create a new category"
 msgstr "Skapa en ny kategori"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:872
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:874
 #, c-format
 msgid "No categories have been defined. "
 msgstr "Inga kategorier har definierats. "
@@ -43938,8 +43944,8 @@ msgstr "phony_submit"
 #. INPUT type=submit name=add_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:353
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:93
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:338
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:536
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:339
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:537
 #, c-format
 msgid "Add item"
 msgstr "Lägg till exemplar"
@@ -46535,7 +46541,7 @@ msgstr "Anteckningar"
 msgid "Next hold"
 msgstr "Datum"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:162
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:170
 #, c-format
 msgid "series"
 msgstr "serie"
@@ -46550,12 +46556,12 @@ msgstr "serie"
 #. %8$s:  IF ( reserveloo.enumchron ) 
 #. %9$s:  reserveloo.enumchron | html 
 #. %10$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:163
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:171
 #, c-format
 msgid "%s %s%s%s %s %s%s %sIssues %s%s "
 msgstr "%s %s%s%s %s %s%s %sNummer %s%s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:246
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:254
 #, c-format
 msgid "No items found. Please ask your system administrator to ensure that update-holds-to-pull.pl gets run regularly. "
 msgstr "Inga exemplar hittades. Be din systemadministratör att se till att update-holds-to-pull.pl körs regelbundet. "
@@ -57285,7 +57291,7 @@ msgstr "gruppera efter "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:172
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:122
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:209
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:338
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:345
 #, c-format
 msgid "Day of week"
 msgstr "Veckodag"
@@ -61108,7 +61114,7 @@ msgstr "Ingen periodika vald"
 msgid "You must select at least one serial to edit"
 msgstr "Du måste välja minst en serie att redigera"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:141
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:142
 #, c-format
 msgid "Serial edition"
 msgstr "Periodikautgåva"
@@ -61119,115 +61125,115 @@ msgstr "Periodikautgåva"
 #. %4$s:  IF ( callnumber ) 
 #. %5$s:  callnumber | html 
 #. %6$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:153
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:154
 #, c-format
 msgid "%s(%s)%s %scallnumber: %s%s"
 msgstr "%s(%s)%s %shyllsignatur: %s%s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:153
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:154
 #, c-format
 msgid "Serial edition "
 msgstr "Periodikautgåva "
 
 #. %1$s:  internalnotes | html | html_line_break 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:159
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:160
 #, c-format
 msgid "Nonpublic note: %s"
 msgstr "Intern anmärkning: %s"
 
 #. %1$s:  FOREACH errse IN errseq 
 #. %2$s:  errse.serialseq | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:166
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:167
 #, c-format
 msgid "Error: Barcode not unique for %sserialseq %s"
 msgstr "Fel: Streckkod inte unik för %sserialseq %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:179
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:180
 #, c-format
 msgid "Numbered"
 msgstr "Numrerad"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:180
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:181
 #, c-format
 msgid "Published on"
 msgstr "Utgiven på"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:181
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:182
 #, c-format
 msgid "Published on (text)"
 msgstr "Utgiven på (text)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:182
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:183
 #, c-format
 msgid "Expected on"
 msgstr "Väntas den"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:192
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:193
 #, c-format
 msgid "Issue "
 msgstr "Nummer "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:399
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:594
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:400
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:595
 #, c-format
 msgid "Number of copies to be made of this item "
 msgstr "Antal kopior av detta exemplar att lägga till "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:408
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:603
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:409
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:604
 #, c-format
 msgid "Number of copies limited to under 1000. The barcode you enter will be incremented for each additional item."
 msgstr "Antalet kopior begränsas till under 1000. Streckkoden du anger ökas inkrementellt för varje ytterligare exemplar."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:429
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:430
 #, c-format
 msgid "Skip issues:"
 msgstr "Hoppa över exemplarnummer:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:439
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:440
 #, c-format
 msgid "Supplemental issue "
 msgstr "Bilaga "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:643
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:644
 #, c-format
 msgid "Serial links"
 msgstr "Periodikalänkar"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:647
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:648
 msgid "Serial collection for %s"
 msgstr "Periodikasamling för %s"
 
 #. %1$s:  subscription.subscriptionid | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:648
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:649
 #, c-format
 msgid "Serial collection #%s"
 msgstr "Periodikasamling #%s"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:651
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:652
 msgid "Detail of the subscription"
 msgstr "Information om prenumerationen"
 
 #. %1$s:  subscription.subscriptionid | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:651
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:652
 #, c-format
 msgid "Subscription #%s"
 msgstr "Prenumeration #%s"
 
 #. %1$s:  subscription.subscriptionid | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:654
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:655
 #, c-format
 msgid "Renew #%s"
 msgstr "Förnya #%s"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:658
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:659
 msgid "Go to %s"
 msgstr "Gå till %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:658
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:659
 #, c-format
 msgid "Show bibliographic record"
 msgstr "Visa bibliografisk post"
@@ -65115,13 +65121,13 @@ msgid "Edit this holiday"
 msgstr "Redigera denna helgdag"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:59
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:169
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:176
 #, c-format
 msgid "From date:"
 msgstr "Från datum:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:78
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:188
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:195
 #, c-format
 msgid "To date: "
 msgstr "Till datum: "
@@ -65191,264 +65197,274 @@ msgstr "Detta innebär att undantagen inom ett visst intervall tas bort. Se till
 msgid "This will save changes to the holiday's title and description. If the information for a repeatable holiday is modified, it affects all of the dates on which the holiday is repeated."
 msgstr "Detta sparar ändringar av helgens titel och beskrivning. Om informationen för en upprepningsbar helg redigeras, påverkas även alla datum i framtiden."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:137
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:136
+#, fuzzy, c-format
+msgid "Edit holidays on a range"
+msgstr "Helger i ett intervall"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:139
+#, fuzzy, c-format
+msgid "This will save changes to title and description of the holidays with same type on a range."
+msgstr "Detta sparar ändringar av helgens titel och beskrivning. Om informationen för en upprepningsbar helg redigeras, påverkas även alla datum i framtiden."
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:144
 #, c-format
 msgid "Copy changes to all libraries"
 msgstr "Kopiera ändringar till alla bibliotek"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:140
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:147
 #, c-format
 msgid "If checked, changes for this holiday will be copied to all libraries. If the holiday doesn't exists for a library, holiday is added to calendar. NOTE! This might overwrite existing holidays in other calendars."
 msgstr "Om markerad, kopieras ändringar för helgdagen till alla bibliotek. Om helgdagen inte finns för något bibliotek görs inga ändringar. Obs, det här kan skriva över existerande helgdagar i andra kalendrar."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:161
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:168
 #, c-format
 msgid "Add new holiday"
 msgstr "Lägg till en ny helg"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:190
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:197
 #, c-format
 msgid "This field only applies when holidays are added on a range."
 msgstr "Det här fältet tillämpas bara när helgdagar läggs till i ett intervall."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:202
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:209
 #, c-format
 msgid "Holiday only on this day"
 msgstr "Helgdag bara denna dag"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:204
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:211
 #, c-format
 msgid "Make a single holiday. For example, selecting August 1, 2012 will make it a holiday, but will not affect August 1 in other years."
 msgstr "Skapa en enstaka helg. Exempel: att välja 1 augusti 2012 gör det till en helgdag, men påverkar inte 1 augusti för kommande år."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:208
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:215
 #, c-format
 msgid "Holiday repeated every same day of the week"
 msgstr "Helgdag upprepas samma veckodag"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:210
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:217
 #, c-format
 msgid "Make this weekday a holiday, every week. For example, if your library is closed on Saturdays, use this option to make every Saturday a holiday."
 msgstr "Gör denna veckodag till helgdag varje vecka. Om ditt bibliotek t.ex. är stängt på lördagar, kan du använda detta alternativ för att göra varje lördag till en helgdag."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:214
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:221
 #, c-format
 msgid "Holiday repeated yearly on the same date"
 msgstr "Helgdag upprepas årligen på samma datum"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:217
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:224
 #, c-format
 msgid "This will take this day and month as a reference to make it a holiday. Through this option, you can repeat this rule for every year. For example, selecting August 1 will make August 1 a holiday every year."
 msgstr "Detta tar denna dag och månad som referens för att skapa en helg. Med detta alternativ kan du upprepa denna regel för varje år. Om du exempelvis väljer den 1 augusti ställs den dagen in som helg för alla kommande år."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:223
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:230
 #, c-format
 msgid "Holidays on a range"
 msgstr "Helger i ett intervall"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:226
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:233
 #, c-format
 msgid "Make a single holiday on a range. For example, selecting August 1, 2012 and August 10, 2012 will make all days between August 1 and 10 a holiday, but will not affect August 1-10 in other years."
 msgstr "Skapa en enstaka helg i ett intervall. Exempel: att välja 1 augusti 2012 och 10 augusti 2012 gör alla dagar mellan den första och tionde augusti till helgdagar, men påverkar inte 1-10 augusti för kommande år."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:231
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:238
 #, c-format
 msgid "Holidays repeated yearly on a range"
 msgstr "Helger som upprepas årligen i ett intervall"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:234
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:241
 #, c-format
 msgid "Make a single holiday on a range repeated yearly. For example, selecting August 1, 2012 and August 10, 2012 will make all days between August 1 and 10 a holiday, and will affect August 1-10 in other years."
 msgstr "Skapa en enstaka helg i ett intervall som upprepas årligen. Exempel: att välja 1 augusti 2012 och 10 augusti 2012 gör alla dagar mellan den första och tionde augusti till helgdagar, och påverkar även 1-10 augusti kommande år."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:240
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:247
 #, c-format
 msgid "Copy to all libraries"
 msgstr "Kopiera till alla bibliotek"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:242
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:249
 #, c-format
 msgid "If checked, this holiday will be copied to all libraries. If the holiday already exists for a library, no change is made."
 msgstr "Om markerad, kopieras helgdagen till alla bibliotek. Om helgdagen redan finns för ett bibliotek görs inga ändringar."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:256
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:263
 #, c-format
 msgid "Calendar information"
 msgstr "Kalenderinformation"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:264
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:271
 #, c-format
 msgid "Copy holidays to:"
 msgstr "Kopiera helgdagar till:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:282
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:289
 #, c-format
 msgid "Hints"
 msgstr "Tips"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:284
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:291
 #, c-format
 msgid "Search in the calendar the day you want to set as holiday."
 msgstr "Sök i kalendern efter den dag du vill ställa in som helgdag."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:285
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:292
 #, c-format
 msgid "Click the date to add or edit a holiday."
 msgstr "Klicka på datumet för att lägga till eller redigera en helgdag."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:286
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:293
 #, c-format
 msgid "Enter a title and description for the holiday."
 msgstr "Ange en titel och beskrivning för helgen."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:287
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:294
 #, c-format
 msgid "Specify how the holiday should repeat."
 msgstr "Ange hur helgdagen ska upprepas."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:288
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:295
 #, c-format
 msgid "Click Save to finish."
 msgstr "Klicka på Spara för att slutföra."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:290
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:297
 #, c-format
 msgid "Key"
 msgstr "Nyckel"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:292
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:299
 #, c-format
 msgid "Working day"
 msgstr "Arbetsdag"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:293
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:300
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 #, c-format
 msgid "Unique holiday"
 msgstr "Unik helg"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:294
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:301
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 #, c-format
 msgid "Holiday repeating weekly"
 msgstr "Helgdag som upprepas varje vecka"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:295
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:302
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 #, c-format
 msgid "Holiday repeating yearly"
 msgstr "Helgdag som upprepas varje år"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:296
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:303
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 #, c-format
 msgid "Holiday exception"
 msgstr "Undantag för helgdag"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:305
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:312
 #, c-format
 msgid "Exceptions"
 msgstr "Undantag"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:307
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:386
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:314
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:393
 #, c-format
 msgid "Show past entries "
 msgstr "Visa tidigare ingångar "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:334
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:341
 #, c-format
 msgid "Weekly - Repeatable holidays"
 msgstr "Veckovis - upprepningsbara helger"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:357
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:364
 #, c-format
 msgid "Yearly - Repeatable holidays"
 msgstr "Årligen - upprepningsbara helger"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:362
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:369
 #, c-format
 msgid "Day/month"
 msgstr "Dag/månad"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:364
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:371
 #, c-format
 msgid "Month/day"
 msgstr "Månad/dag"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:384
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:391
 #, c-format
 msgid "Unique holidays"
 msgstr "Unika helger"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Delete this exception."
 msgstr "Ta bort undantaget."
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Delete this holiday."
 msgstr "Ta bort helgdagen."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Exception: %s"
 msgstr "Undantag: %s"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Fridays"
 msgstr "Fredagar"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Mondays"
 msgstr "Måndagar"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Normal day"
 msgstr "Normal dag"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Saturdays"
 msgstr "Lördagar"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Single holiday: %s"
 msgstr "Enstaka helg: %s"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Sundays"
 msgstr "Söndagar"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Thursdays"
 msgstr "Torsdagar"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Tuesdays"
 msgstr "Tisdagar"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Wednesdays"
 msgstr "Onsdagar"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Weekly holiday: %s"
 msgstr "Veckohelg: %s"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:424
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:431
 msgid "Yearly holiday: %s"
 msgstr "Årlig helg: %s"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 10:29+0300\n"
+"POT-Creation-Date: 2026-08-26 09:52+0300\n"
 "PO-Revision-Date: 2026-07-01 13:13+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -2678,6 +2678,7 @@ msgstr "OK"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:82
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:108
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:276
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/hold_pickup_shelves.js:7
 msgid "Close"
 msgstr "Sulje"
 
@@ -4278,27 +4279,11 @@ msgstr "Ohje"
 msgid "Select a pickup shelf"
 msgstr "Valitse noutohylly"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:52
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:56
 msgid "No pickup shelves available"
 msgstr "Noutohyllyjä ei ole saatavana"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:173
-msgid "Error fetching pickup shelves"
-msgstr "Virhe noutohyllyjä haettaessa"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:191
-msgid "Error selecting pickup shelf"
-msgstr "Virhe noutohyllyä valitessa"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:206
-msgid "Error releasing pickup shelf"
-msgstr "Virhe noutohyllyä vapautettaessa"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:222
-msgid "Error locking pickup shelf"
-msgstr "Virhe noutohyllyn lukitsemisessa"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:281
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:327
 msgid "Selected shelf is unavailable. Please choose another shelf."
 msgstr "Valittua hyllyä ei voi käyttää. Valitse toinen hylly."
 
@@ -4315,113 +4300,167 @@ msgid "Loading more options..."
 msgstr "Ladataan lisää vaihtoehtoja..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:3
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:22
 msgid "Acquisitions"
 msgstr "Hankinnat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:7
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Acquisitions home"
 msgstr "Hankinnat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Advanced search"
 msgstr "Tarkka haku"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:22
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Late orders"
 msgstr "Myöhässä olevat tilaukset"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:42
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Suggestions"
 msgstr "Hankintaehdotukset"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:47
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:56
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Invoices"
 msgstr "Laskut"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:60
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "EDIFACT messages"
 msgstr "EDIFACT-viestit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:74
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:344
 msgid "Reports"
 msgstr "Raportit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Acquisitions statistics wizard"
 msgstr "Hankinnan tilastovelho"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:88
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Orders by fund"
 msgstr "Tilaukset tilin mukaan"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:103
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Hold ratios"
 msgstr "Varauksia per nide"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:128
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:7
 msgid "Administration"
 msgstr "Ylläpito"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:139
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Budgets"
 msgstr "Budjetit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:151
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Funds"
 msgstr "Tilit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:163
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Currencies"
 msgstr "Valuutat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:177
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "EDI accounts"
 msgstr "EDI-tilit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:184
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Library EANs"
 msgstr "Kirjasto-EANit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:201
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "MARC order accounts"
 msgstr "MARC-tilausten tilit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:218
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Manage invoice fields"
 msgstr "Hallinnoi laskukenttiä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:237
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Manage order basket fields"
 msgstr "Hallinnoi tilauskorien kenttiä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:244
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
 msgid "Manage order line fields"
 msgstr "Hallinnoi tilausrivien kenttiä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:238
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Baskets"
 msgstr "Tilauskorit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:25
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Basket groups"
 msgstr "Tilausryhmät"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:37
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Contracts"
 msgstr "Sopimukset"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:49
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Vendor issues"
 msgstr "Toimittajan ongelmat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:69
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:75
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
 msgid "Uncertain prices"
 msgstr "Vahvistamattomat hinnat"
 
@@ -5730,6 +5769,18 @@ msgstr "Yhtä tai useampaa tagia ei voida lisätä."
 #, fuzzy
 #~ msgid "Error detect"
 #~ msgstr "Virhe: "
+
+#~ msgid "Error fetching pickup shelves"
+#~ msgstr "Virhe noutohyllyjä haettaessa"
+
+#~ msgid "Error locking pickup shelf"
+#~ msgstr "Virhe noutohyllyn lukitsemisessa"
+
+#~ msgid "Error releasing pickup shelf"
+#~ msgstr "Virhe noutohyllyä vapautettaessa"
+
+#~ msgid "Error selecting pickup shelf"
+#~ msgstr "Virhe noutohyllyä valitessa"
 
 #~ msgid "Expand or collapse row details"
 #~ msgstr "Avaa tai sulje rivin tiedot"

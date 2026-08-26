@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 10:29+0300\n"
+"POT-Creation-Date: 2026-08-26 09:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,117 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:22
-msgid "Acquisitions"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:7
-msgid "Acquisitions home"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:12
-msgid "Advanced search"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:22
-msgid "Late orders"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:42
-msgid "Suggestions"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:47
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:56
-msgid "Invoices"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:60
-msgid "EDIFACT messages"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:74
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:344
-msgid "Reports"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:81
-msgid "Acquisitions statistics wizard"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:88
-msgid "Orders by fund"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:103
-msgid "Hold ratios"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:128
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:7
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:7
-msgid "Administration"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:139
-msgid "Budgets"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:151
-msgid "Funds"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:163
-msgid "Currencies"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:177
-msgid "EDI accounts"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:184
-msgid "Library EANs"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:201
-msgid "MARC order accounts"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:218
-msgid "Manage invoice fields"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:237
-msgid "Manage order basket fields"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:244
-msgid "Manage order line fields"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:13
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:238
-msgid "Baskets"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:25
-msgid "Basket groups"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:37
-msgid "Contracts"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:49
-msgid "Vendor issues"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:75
-msgid "Uncertain prices"
-msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Main.vue:73
 msgid ""
@@ -217,9 +106,9 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:133
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:371
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:378
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:110
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1647
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:620
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:110
 msgid "Cancel"
 msgstr ""
 
@@ -484,10 +373,10 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:16
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:24
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:193
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:607
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1509
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:188
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:607
 msgid "Delete"
 msgstr ""
 
@@ -521,6 +410,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:150
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:113
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Dialog.vue:19
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/hold_pickup_shelves.js:7
 msgid "Close"
 msgstr ""
 
@@ -745,8 +635,8 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:184
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:154
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:104
 #: koha-tmpl/intranet-tmpl/prog/js/ill-list-table.js:651
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:104
 msgid "Select all"
 msgstr ""
 
@@ -783,8 +673,8 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorContracts.vue:81
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:103
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:161
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:99
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1525
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:99
 msgid "Actions"
 msgstr ""
 
@@ -1225,6 +1115,13 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:232
 msgid "Invoice currency"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:238
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
+msgid "Baskets"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Vendors/VendorList.vue:248
@@ -3149,11 +3046,11 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Dialog.vue:114
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Shelf.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:4
-#: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:109
-#: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:119
 #: koha-tmpl/intranet-tmpl/prog/js/ajax.js:43
 #: koha-tmpl/intranet-tmpl/prog/js/letter.js:10
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:20
+#: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:109
+#: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:119
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:21
 msgid "Loading..."
 msgstr ""
@@ -3178,570 +3075,170 @@ msgstr ""
 msgid "Select a pickup shelf"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:52
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:56
 msgid "No pickup shelves available"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:173
-msgid "Error fetching pickup shelves"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:191
-msgid "Error selecting pickup shelf"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:206
-msgid "Error releasing pickup shelf"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:222
-msgid "Error locking pickup shelf"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:281
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/HoldPickupShelves/Select.vue:327
 msgid "Selected shelf is unavailable. Please choose another shelf."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:40
-#: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:68
-msgid "Your concern was successfully submitted."
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:3
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:22
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Acquisitions"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:53
-#: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:78
-msgid ""
-"There was an error when submitting your concern, please contact a librarian."
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:7
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Acquisitions home"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:48
-msgid "Assignee"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Advanced search"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:58
-msgid "Loading updates . . ."
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:22
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Late orders"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:92
-msgid "Public"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:42
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Suggestions"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:95
-msgid "Private"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:47
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:56
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Invoices"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:193
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:110
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:817
-msgid "years"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:60
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "EDIFACT messages"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:216
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:129
-msgid "Search for a patron"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:74
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:344
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Reports"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:249
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:295
-#, javascript-format
-msgid "Concern #%s updated successfully."
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Acquisitions statistics wizard"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:260
-#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:306
-#, javascript-format
-msgid "Error resolving concern #%s. Check the logs for details."
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:88
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Orders by fund"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:43
-msgid "Edit booking"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:103
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Hold ratios"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:46
-msgid "Place booking"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:128
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:7
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:7
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Administration"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:198
-msgid "Pickup location"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:139
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Budgets"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:257
-msgid "Item type"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:151
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Funds"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:1198
-msgid "Booking successfully placed"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:163
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Currencies"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:1209
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:1278
-#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:47
-msgid "Failure"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:177
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "EDI accounts"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:1267
-msgid "Booking successfully updated"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:184
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Library EANs"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:83
-msgid "Remove restriction?"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:201
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "MARC order accounts"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:130
-msgid "You must select checkout(s) to export"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:218
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Manage invoice fields"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:68
-msgid "Coce image from Amazon.com"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:237
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Manage order basket fields"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:74
-msgid "Coce image from Google Books"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/AcquisitionsMenu.vue:244
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.230c80d3a1211e45fdc5.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/acquisitions-menu.5856da5859e07fc092ad.js:1
+msgid "Manage order line fields"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:80
-msgid "Coce image from Open Library"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:25
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
+msgid "Basket groups"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:126
-#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:18
-#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:26
-#: koha-tmpl/opac-tmpl/bootstrap/js/bakertaylorimages.js:11
-#: koha-tmpl/opac-tmpl/bootstrap/js/google-jackets.js:81
-#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:25
-#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:65
-#: koha-tmpl/opac-tmpl/bootstrap/js/openlibrary.js:68
-msgid "No cover image available"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:37
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
+msgid "Contracts"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:397
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:445
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:453
-msgid "Nothing is selected"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:49
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
+msgid "Vendor issues"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:422
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:94
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:433
-msgid "Place hold"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:516
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:531
-msgid "You must select at least one record"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:544
-msgid "At least two records must be selected for merging"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:19
-msgid ""
-"Error: presence of invalid data prevent saving. Please make the corrections "
-"and try again."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:57
-msgid "Nothing to save"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:60
-msgid "Saving..."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:85
-#, javascript-format
-msgid "Saved preference %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:106
-msgid "modified"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:113
-msgid "You have made changes to system preferences."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:211
-msgid "Are you sure you want to delete this consent item?"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:283
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:299
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:314
-msgid "Collapse this section"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:293
-msgid "Expand this section"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:344
-msgid "Note: _ALL_ value will override all other values"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:358
-msgid "The following values are not formatted correctly:"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:526
-msgid "Requires consent in OPAC"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:534
-msgid "Requires consent in staff interface"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:542
-msgid "String used to identify cookie name"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:556
-msgid "Cookie domain"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:570
-msgid "Cookie path"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:593
-msgid "Expand"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:600
-msgid "Collapse"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:624
-msgid "You must complete all fields"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:672
-msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:680
-msgid ""
-"Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:696
-msgid "Add new code"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
-#, javascript-format
-msgid "AJAX failed to approve tag: %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:59
-#, javascript-format
-msgid "AJAX failed to reject tag: %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:64
-#, javascript-format
-msgid "%s is permitted!"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
-#, javascript-format
-msgid "%s is prohibited!"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:77
-#, javascript-format
-msgid "%s is neither permitted nor prohibited!"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:92
-msgid " Test"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:108
-msgid "Select all pending"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:168
-msgid "Reject"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:173
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:177
-msgid "Approved"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:210
-msgid "Approve"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:215
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:219
-msgid "Rejected"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:229
-msgid "Testing..."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:248
-#, javascript-format
-msgid "AJAX error (%s alert)"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:39
-msgid "Booking ID"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:62
-msgid "Item"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:65
-msgid "Any item"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:138
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:163
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:37
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:833
-msgid "Expired"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:146
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:165
-msgid "Pending"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:152
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:164
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:15
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:119
-msgid "Cancelled"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:155
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:167
-msgid "Completed"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:178
-msgid "Show expired"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:179
-msgid "Hide expired"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:33
-msgid "Edit record source"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:27
-msgid "Add hold pickup shelf"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:33
-msgid "Edit hold pickup shelf"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:12
-#, javascript-format
-msgid "Search for vendor: %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:32
-msgid "Vendors"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:47
-msgid "Show vendor"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:61
-msgid "Edit vendor"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:38
-msgid "E-resource management"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:61
-msgid "Show agreement"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:73
-msgid "Edit agreement"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:92
-msgid "Show license"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:98
-msgid "Add license"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:104
-msgid "Edit license"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:110
-msgid "eHoldings"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:116
-msgid "Local"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:139
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
-msgid "Show package"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
-msgid "Add package"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
-msgid "Edit package"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:178
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
-msgid "Show title"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
-msgid "Add title"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
-msgid "Edit title"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
-msgid "Resource"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
-msgid "EBSCO"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:291
-msgid "eUsage"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:297
-msgid "Data providers"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:314
-msgid "Show provider"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:322
-msgid "Add data provider"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:330
-msgid "Edit data provider"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:359
-msgid "View report"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:28
-msgid "Preservation"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:34
-msgid "Home"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:39
-msgid "Trains"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:50
-msgid "Show train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:66
-msgid "Add item to train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:72
-msgid "Add items to train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:78
-msgid "Edit item in train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:88
-msgid "Add train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:94
-msgid "Edit train"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:100
-msgid "Waiting list"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:113
-msgid "Settings"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:129
-msgid "Show processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:135
-msgid "Add processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:141
-msgid "Edit processing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:31
-msgid "supersedes"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:34
-msgid "is superseded by"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:38
-msgid "provides post-cancellation access for"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:42
-msgid "has post-cancellation access in"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:46
-msgid "tracks demand-driven acquisitions for"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:50
-msgid "has demand-driven acquisitions in"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:54
-msgid "has backfile in"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:58
-msgid "has frontfile in"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:60
-msgid "related to"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:69
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Islands/VendorMenu.vue:75
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.191544db471be7303d3e.esm.js:1
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/vendor-menu.8a28a6d56d52e95ad041.js:1
+msgid "Uncertain prices"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/acq.js:11
@@ -4060,12 +3557,24 @@ msgstr ""
 msgid "December"
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:1209
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:1278
+msgid "Failure"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:6
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:29
 #: koha-tmpl/opac-tmpl/bootstrap/js/results-list.js:18
 #: koha-tmpl/opac-tmpl/bootstrap/js/results-list.js:88
 #: koha-tmpl/opac-tmpl/bootstrap/js/results-list.js:107
 msgid "No item was selected"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:94
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:422
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:433
+msgid "Place hold"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/cashup_modal.js:26
@@ -4625,12 +4134,26 @@ msgstr ""
 msgid "The recall may have already been cancelled. Please refresh the page."
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:15
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:119
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:152
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:164
+msgid "Cancelled"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:27
 msgid "Are you sure you want to expire this recall?"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:34
 msgid "The recall may have already been expired. Please refresh the page."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:37
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:833
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:163
+msgid "Expired"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
@@ -5469,12 +4992,528 @@ msgstr ""
 msgid "An error occurred. Check the logs for details."
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:817
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:193
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:110
+msgid "years"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:838
 msgid "Restricted"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:1065
 msgid "Please fill out this field."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:40
+#: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:68
+msgid "Your concern was successfully submitted."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:53
+#: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:78
+msgid ""
+"There was an error when submitting your concern, please contact a librarian."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:48
+msgid "Assignee"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:58
+msgid "Loading updates . . ."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:92
+msgid "Public"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:95
+msgid "Private"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:216
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:129
+msgid "Search for a patron"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:249
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:295
+#, javascript-format
+msgid "Concern #%s updated successfully."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:260
+#: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:306
+#, javascript-format
+msgid "Error resolving concern #%s. Check the logs for details."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:43
+msgid "Edit booking"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:46
+msgid "Place booking"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:198
+msgid "Pickup location"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:257
+msgid "Item type"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:1198
+msgid "Booking successfully placed"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/modals/place_booking.js:1267
+msgid "Booking successfully updated"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:83
+msgid "Remove restriction?"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:130
+msgid "You must select checkout(s) to export"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:68
+msgid "Coce image from Amazon.com"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:74
+msgid "Coce image from Google Books"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:80
+msgid "Coce image from Open Library"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:126
+#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:18
+#: koha-tmpl/opac-tmpl/bootstrap/js/amazonimages.js:26
+#: koha-tmpl/opac-tmpl/bootstrap/js/bakertaylorimages.js:11
+#: koha-tmpl/opac-tmpl/bootstrap/js/google-jackets.js:81
+#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:25
+#: koha-tmpl/opac-tmpl/bootstrap/js/localcovers.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/openlibrary.js:68
+msgid "No cover image available"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:397
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:445
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:453
+msgid "Nothing is selected"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:516
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:531
+msgid "You must select at least one record"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:544
+msgid "At least two records must be selected for merging"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:19
+msgid ""
+"Error: presence of invalid data prevent saving. Please make the corrections "
+"and try again."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:57
+msgid "Nothing to save"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:60
+msgid "Saving..."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:85
+#, javascript-format
+msgid "Saved preference %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:106
+msgid "modified"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:113
+msgid "You have made changes to system preferences."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:211
+msgid "Are you sure you want to delete this consent item?"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:283
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:299
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:314
+msgid "Collapse this section"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:293
+msgid "Expand this section"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:344
+msgid "Note: _ALL_ value will override all other values"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:358
+msgid "The following values are not formatted correctly:"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:526
+msgid "Requires consent in OPAC"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:534
+msgid "Requires consent in staff interface"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:542
+msgid "String used to identify cookie name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:556
+msgid "Cookie domain"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:570
+msgid "Cookie path"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:593
+msgid "Expand"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:600
+msgid "Collapse"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:624
+msgid "You must complete all fields"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:672
+msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:680
+msgid ""
+"Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:696
+msgid "Add new code"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
+#, javascript-format
+msgid "AJAX failed to approve tag: %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:59
+#, javascript-format
+msgid "AJAX failed to reject tag: %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:64
+#, javascript-format
+msgid "%s is permitted!"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
+#, javascript-format
+msgid "%s is prohibited!"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:77
+#, javascript-format
+msgid "%s is neither permitted nor prohibited!"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:92
+msgid " Test"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:108
+msgid "Select all pending"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:168
+msgid "Reject"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:173
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:177
+msgid "Approved"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:210
+msgid "Approve"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:215
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:219
+msgid "Rejected"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:229
+msgid "Testing..."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:248
+#, javascript-format
+msgid "AJAX error (%s alert)"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:39
+msgid "Booking ID"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:62
+msgid "Item"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:65
+msgid "Any item"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:146
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:165
+msgid "Pending"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:155
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:167
+msgid "Completed"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:178
+msgid "Show expired"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:179
+msgid "Hide expired"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/record_sources.js:33
+msgid "Edit record source"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:27
+msgid "Add hold pickup shelf"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/admin/hold_pickup_shelves.js:33
+msgid "Edit hold pickup shelf"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:12
+#, javascript-format
+msgid "Search for vendor: %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:32
+msgid "Vendors"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:47
+msgid "Show vendor"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/acquisitions.js:61
+msgid "Edit vendor"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:38
+msgid "E-resource management"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:61
+msgid "Show agreement"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:73
+msgid "Edit agreement"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:92
+msgid "Show license"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:98
+msgid "Add license"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:104
+msgid "Edit license"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:110
+msgid "eHoldings"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:116
+msgid "Local"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:139
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
+msgid "Show package"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
+msgid "Add package"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
+msgid "Edit package"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:178
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
+msgid "Show title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
+msgid "Add title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
+msgid "Edit title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
+msgid "Resource"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
+msgid "EBSCO"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:291
+msgid "eUsage"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:297
+msgid "Data providers"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:314
+msgid "Show provider"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:322
+msgid "Add data provider"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:330
+msgid "Edit data provider"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:359
+msgid "View report"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:28
+msgid "Preservation"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:34
+msgid "Home"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:39
+msgid "Trains"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:50
+msgid "Show train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:66
+msgid "Add item to train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:72
+msgid "Add items to train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:78
+msgid "Edit item in train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:88
+msgid "Add train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:94
+msgid "Edit train"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:100
+msgid "Waiting list"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:113
+msgid "Settings"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:129
+msgid "Show processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:135
+msgid "Add processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:141
+msgid "Edit processing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:31
+msgid "supersedes"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:34
+msgid "is superseded by"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:38
+msgid "provides post-cancellation access for"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:42
+msgid "has post-cancellation access in"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:46
+msgid "tracks demand-driven acquisitions for"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:50
+msgid "has demand-driven acquisitions in"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:54
+msgid "has backfile in"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:58
+msgid "has frontfile in"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/stores/erm.js:60
+msgid "related to"
 msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:30
