@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-06 09:38+0300\n"
+"POT-Creation-Date: 2026-07-01 10:29+0300\n"
 "PO-Revision-Date: 2026-03-18 15:55+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -6658,7 +6658,7 @@ msgstr "Muokataan nimekettä {title} (Record number {biblionumber})"
 msgid "Add MARC record"
 msgstr "Lisää MARC-tietue"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:788
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:851
 msgctxt "Editing MARC record titled:"
 msgid "Editing"
 msgstr "Muokataan"
@@ -7260,52 +7260,52 @@ msgstr "Varauksia per nide"
 msgid "Check in {title}"
 msgstr "Palauta {title}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:863
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:864
 msgid "Confirm hold and transfer"
 msgstr "Vahvista varaus ja kuljetus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:864
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:865
 msgid "Print slip, transfer, and confirm"
 msgstr "Tulosta kuitti, kuljeta ja vahvista"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:866
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:867
 msgid "Confirm hold"
 msgstr "Vahvista varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:868
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:870
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:869
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:871
 msgid "Print slip and confirm"
 msgstr "Tulosta kuitti ja vahvista"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:877
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:879
 msgid "Hold found"
 msgstr "Teoksessa varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:877
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:879
 msgid "Ignore"
 msgstr "Älä huomioi"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:887
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:889
 msgid "Hold for"
 msgstr "Varaus"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:914
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:916
 msgid "Main contact method"
 msgstr "Ensisijainen yhteydenottotapa"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:934
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:936
 msgid "Patron is RESTRICTED"
 msgstr "Asiakkaalla on rajoite"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:938
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:940
 msgid "Patron's address is in doubt"
 msgstr "Tarkista asiakkaan osoite"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:942
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:944
 msgid "Transfer to"
 msgstr "Kuljeta pisteeseen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:944
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:946
 msgid "Hold at"
 msgstr "Noutopaikka"
 
@@ -8182,7 +8182,7 @@ msgstr "Rakenna raportti, vaihe 5/6: Valitse, mitkä sarakkeet lasketaan yhteen"
 msgid "Build a report, step 6 of 6: Select how you want the report ordered"
 msgstr "Rakenna raportti, vaihe 6/6: Valitse, miten haluat raportin järjestettävän"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:426
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:435
 msgid "Are you sure you want to delete this report?"
 msgstr "Haluatko varmasti poistaa tämän raportin?"
 
