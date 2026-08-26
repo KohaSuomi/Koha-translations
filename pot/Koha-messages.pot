@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-26 09:52+0300\n"
+"POT-Creation-Date: 2026-08-26 14:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,52 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: C4/ILSDI/Services.pm:988
-msgid "unknown"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:988
-msgid "Error: could not retrieve availability for this ID"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:997 C4/ILSDI/Services.pm:999 C4/ILSDI/Services.pm:1001
-#: C4/ILSDI/Services.pm:1003 C4/ILSDI/Services.pm:1005
-#: C4/ILSDI/Services.pm:1007 C4/ILSDI/Services.pm:1009
-msgid "not available"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:997 Koha/Database/Columns.pm:243
-msgid "Not for loan"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:999 Koha/ILL/Request.pm:707
-msgid "Checked out"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:1001
-msgid "Item lost"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:1003
-msgid "Item withdrawn"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:1005
-msgid "Item damaged"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:1007
-msgid "In transit"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:1009
-msgid "On hold"
-msgstr ""
-
-#: C4/ILSDI/Services.pm:1011
-msgid "available"
-msgstr ""
 
 #: Koha/SuggestionEngine/Plugin/ExplodedTerms.pm:78
 msgid "Search also for narrower subjects"
@@ -2235,6 +2189,10 @@ msgstr ""
 msgid "New status"
 msgstr ""
 
+#: Koha/Database/Columns.pm:243 C4/ILSDI/Services.pm:997
+msgid "Not for loan"
+msgstr ""
+
 #: Koha/Database/Columns.pm:244
 msgid "Due date"
 msgstr ""
@@ -2690,6 +2648,10 @@ msgstr ""
 msgid "Delete request"
 msgstr ""
 
+#: Koha/ILL/Request.pm:707 C4/ILSDI/Services.pm:999
+msgid "Checked out"
+msgstr ""
+
 #: Koha/ILL/Request.pm:708
 msgid "Check out"
 msgstr ""
@@ -2911,1453 +2873,85 @@ msgstr ""
 msgid "devices, other performers"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-msgid "Serial enumeration"
+#: C4/ILSDI/Services.pm:988
+msgid "unknown"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-msgid "Item type"
+#: C4/ILSDI/Services.pm:988
+msgid "Error: could not retrieve availability for this ID"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-msgid "Not for loan status"
+#: C4/ILSDI/Services.pm:997 C4/ILSDI/Services.pm:999 C4/ILSDI/Services.pm:1001
+#: C4/ILSDI/Services.pm:1003 C4/ILSDI/Services.pm:1005
+#: C4/ILSDI/Services.pm:1007 C4/ILSDI/Services.pm:1009
+msgid "not available"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-msgid "Date accessioned"
+#: C4/ILSDI/Services.pm:1001
+msgid "Item lost"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-msgid "Checkouts"
+#: C4/ILSDI/Services.pm:1003
+msgid "Item withdrawn"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
-msgid "Last checkout date"
+#: C4/ILSDI/Services.pm:1005
+msgid "Item damaged"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-msgid "Manager name"
+#: C4/ILSDI/Services.pm:1007
+msgid "In transit"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-msgid "Patron card number"
+#: C4/ILSDI/Services.pm:1009
+msgid "On hold"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-msgid "Patron name"
+#: C4/ILSDI/Services.pm:1011
+msgid "available"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-msgid "Transaction library"
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:13
+msgid "Article requests"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-msgid "Transaction date"
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/checkout-notes.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transferstoreceive.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:37
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_old_queue.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_overdue.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_queue.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:36
+msgid "Circulation"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-msgid "Updated"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-msgid "Amount"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-msgid "Fund"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-msgid "Basket num"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Basket name"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-msgid "Authorised by"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-msgid "Biblio number"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-msgid "RRP"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-msgid "Total RRP"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-msgid "Total cost"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Entry date"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Contract name"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Publication year"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Note for vendor"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-msgid "Delivery place"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
-msgid "Billing place"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Account number"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "RRP tax included"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "RRP tax excluded"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Estimated cost tax included"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Estimated cost tax excluded"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Vendor name"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Vendor physical address"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Vendor postal address"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Contract number"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Basket group delivery place"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Basket group billing place"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Basket delivery place"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Basket billing place"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "ORDER DATE"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "ESTIMATED DELIVERY DATE"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "VENDOR"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "INFORMATION"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "TOTAL COST"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "BASKET"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "CLAIMS COUNT"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "CLAIMED DATE"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "INTERNAL NOTE"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
-msgid "VENDOR NOTE"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/budget_planning.inc:5
-#, perl-brace-format
-msgctxt "Budget planning"
-msgid "Planning for '{fund}' by months"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/budget_planning.inc:7
-#, perl-brace-format
-msgctxt "Budget planning"
-msgid "Planning for '{fund}' by item types"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/budget_planning.inc:9
-#, perl-brace-format
-msgctxt "Budget planning"
-msgid "Planning for '{fund}' by library"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/budget_planning.inc:11
-#, perl-brace-format
-msgctxt "Budget planning"
-msgid "Planning for '{fund}' by {type}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:3
-msgid "Afghanistan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
-msgid "Albania"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
-msgid "Algeria"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
-msgid "Andorra"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
-msgid "Angola"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
-msgid "Antigua & Deps"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
-msgid "Argentina"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
-msgid "Armenia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
-msgid "Australia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
-msgid "Austria"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
-msgid "Azerbaijan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
-msgid "Bahamas"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
-msgid "Bahrain"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
-msgid "Bangladesh"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
-msgid "Barbados"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
-msgid "Belarus"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
-msgid "Belgium"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
-msgid "Belize"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
-msgid "Benin"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
-msgid "Bhutan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
-msgid "Bolivia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
-msgid "Bosnia Herz."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
-msgid "Botswana"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
-msgid "Brazil"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
-msgid "Brunei"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
-msgid "Bulgaria"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
-msgid "Burkina"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
-msgid "Burundi"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
-msgid "Cambodia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
-msgid "Cameroon"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
-msgid "Canada"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
-msgid "Cape Verde"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
-msgid "Centr. Afr. Rep"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
-msgid "Chad"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
-msgid "Chile"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
-msgid "China"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
-msgid "Colombia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
-msgid "Comoros"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
-msgid "Congo"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
-msgid "Costa Rica"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
-msgid "Croatia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
-msgid "Cuba"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
-msgid "Cyprus"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
-msgid "Czech Republic"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
-msgid "Denmark"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
-msgid "Djibouti"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
-msgid "Dominica"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
-msgid "Dominican Rep."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
-msgid "East Timor"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
-msgid "Ecuador"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
-msgid "Egypt"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
-msgid "El Salvador"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
-msgid "Equator. Guinea"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
-msgid "Eritrea"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
-msgid "Estonia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
-msgid "Ethiopia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
-msgid "Fiji"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
-msgid "Finland"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
-msgid "France"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
-msgid "Gabon"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
-msgid "Gambia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
-msgid "Georgia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
-msgid "Germany"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
-msgid "Ghana"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
-msgid "Greece"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
-msgid "Grenada"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
-msgid "Guatemala"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
-msgid "Guinea"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
-msgid "Guinea-Bissau"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
-msgid "Guyana"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
-msgid "Haiti"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
-msgid "Honduras"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
-msgid "Hungary"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
-msgid "Iceland"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
-msgid "India"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
-msgid "Indonesia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
-msgid "Iran"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
-msgid "Iraq"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
-msgid "Ireland"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
-msgid "Israel"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
-msgid "Italy"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
-msgid "Ivory Coast"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
-msgid "Jamaica"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
-msgid "Japan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
-msgid "Jordan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
-msgid "Kazakhstan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
-msgid "Kenya"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
-msgid "Kiribati"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
-msgid "Korea North"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
-msgid "Korea South"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
-msgid "Kosovo"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
-msgid "Kuwait"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
-msgid "Kyrgyzstan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
-msgid "Laos"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
-msgid "Latvia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
-msgid "Lebanon"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
-msgid "Lesotho"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
-msgid "Liberia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
-msgid "Libya"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
-msgid "Liechtenstein"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
-msgid "Lithuania"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
-msgid "Luxembourg"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
-msgid "Macedonia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
-msgid "Madagascar"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
-msgid "Malawi"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
-msgid "Malaysia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
-msgid "Maldives"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
-msgid "Mali"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
-msgid "Malta"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
-msgid "Marshall Isl."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
-msgid "Mauritania"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
-msgid "Mauritius"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
-msgid "Mexico"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
-msgid "Micronesia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
-msgid "Moldova"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
-msgid "Monaco"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
-msgid "Mongolia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
-msgid "Montenegro"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
-msgid "Morocco"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
-msgid "Mozambique"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
-msgid "Myanmar"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
-msgid "Namibia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
-msgid "Nauru"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
-msgid "Nepal"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
-msgid "Netherlands"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
-msgid "New Zealand"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
-msgid "Nicaragua"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
-msgid "Niger"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
-msgid "Nigeria"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
-msgid "Norway"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
-msgid "Oman"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
-msgid "Pakistan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
-msgid "Palau"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
-msgid "Panama"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
-msgid "Papua N. Guinea"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
-msgid "Paraguay"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
-msgid "Peru"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
-msgid "Philippines"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
-msgid "Poland"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
-msgid "Portugal"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
-msgid "Qatar"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
-msgid "Romania"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
-msgid "Russian Fed."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
-msgid "Rwanda"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
-msgid "St Kitts & Nev."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
-msgid "St Lucia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
-msgid "Saint Vincent"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
-msgid "Samoa"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
-msgid "San Marino"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
-msgid "Sao Tome"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
-msgid "Saudi Arabia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
-msgid "Senegal"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
-msgid "Serbia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
-msgid "Seychelles"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
-msgid "Sierra Leone"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
-msgid "Singapore"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
-msgid "Slovakia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
-msgid "Slovenia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
-msgid "Solomon Islands"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
-msgid "Somalia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
-msgid "South Africa"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
-msgid "Spain"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
-msgid "Sri Lanka"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
-msgid "Sudan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
-msgid "Suriname"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
-msgid "Swaziland"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
-msgid "Sweden"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
-msgid "Switzerland"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
-msgid "Syria"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
-msgid "Taiwan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
-msgid "Tajikistan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
-msgid "Tanzania"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
-msgid "Thailand"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
-msgid "Togo"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
-msgid "Tonga"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
-msgid "Trinidad & Tob."
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
-msgid "Tunisia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
-msgid "Turkey"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
-msgid "Turkmenistan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
-msgid "Tuvalu"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
-msgid "Uganda"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
-msgid "Ukraine"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
-msgid "UAE"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
-msgid "United Kingdom"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
-msgid "USA"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
-msgid "Uruguay"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
-msgid "Uzbekistan"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
-msgid "Vanuatu"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
-msgid "Vatican City"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
-msgid "Venezuela"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
-msgid "Vietnam"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
-msgid "Yemen"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
-msgid "Zambia"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
-msgid "Zimbabwe"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patron-age.inc:9
-#, perl-brace-format
-msgid "({age} year)"
-msgid_plural "({age} years)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:5
-msgid "Standard"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:7
-msgid "Full address"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:9
-msgid "All emails"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:11
-msgid "All phones"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:13
-msgid "Borrowernumber"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:53
-msgid "Mobile phone"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:61
-msgid "Alternate street number"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:63
-msgid "Alternate street type"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:65
-msgid "Alternate address"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:67
-msgid "Alternate address line 2"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:69
-msgid "Alternate city"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:71
-msgid "Alternate state"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:73
-msgid "Alternate zip code"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:75
-msgid "Alternate country"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:77
-msgid "Alternate email"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:79
-msgid "Alternate phone"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:83
-msgid "Library (code)"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:85
-msgid "Category (code)"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:91
-msgid "Gone no address"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:93
-msgid "Lost card"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:95
-msgid "Restricted"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:97
-msgid "Restriction reason"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:99
-msgid "Guarantor surname"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:101
-msgid "Guarantor firstname"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:103
-msgid "Guarantor title"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:105
-msgid "Guarantor ID"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:109
-msgid "Guarantor relationship"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:113
-msgid "Permissions (code)"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:119
-msgid "Contact note"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:125
-msgid "Alternate contact first name"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:127
-msgid "Alternate contact surname"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:129
-msgid "Alternate contact address"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:131
-msgid "Alternate contact address 2"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:133
-msgid "Alternate contact city"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:135
-msgid "Alternate contact state"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:137
-msgid "Alternate contact ZIP/postal code"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:139
-msgid "Alternate contact country"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:141
-msgid "Alternate contact phone"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:143
-msgid "SMS alert number"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:145
-msgid "SMS provider"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:147
-msgid "Privacy (code)"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:149
-msgid "Guarantor can view checkouts"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:151
-msgid "Last updated"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:153
-msgid "Last seen"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:155
-msgid "Check previous checkout"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:7
-msgid "Manual"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:9
-msgid "Overdues"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:11
-msgid "Suspension"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:13
-msgid "Discharge"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/virtualshelves-toolbar.inc:27
-msgid "Are you sure you want to delete this list?"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/wrapper-staff-tool-plugin.inc:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-upload.tt:8
-msgid "Plugins"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/wrapper-staff-tool-plugin.inc:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-print.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/home.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:47
-#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:25
-#: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:21
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:22
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:22
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:34
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/page.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/picture-upload.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/preview_letter.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:18
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/scheduler.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:18
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:51
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:12
-msgid "Tools"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/wrapper-staff-tool-plugin.inc:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:26
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/adveditorshortcuts.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:81
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:42
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/audio_alerts.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:29
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:29
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:32
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:29
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:26
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branch_transfer_limits.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:26
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:32
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:200
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:26
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:21
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/didyoumean.tt:36
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:22
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:26
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:34
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/koha2marclinks.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:30
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:30
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_set_mappings.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/overdrive.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:26
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/record_sources.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/search_filters.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/share_content.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sms_providers.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:26
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transfer_limits.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transport-cost-matrix.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/hold_pickup_shelves.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:31
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:22
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:11
-msgid "Administration"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/wrapper-staff-tool-plugin.inc:21
-#: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/blinddetail-biblio-search.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/merge.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:33
-#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:35
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showelastic.tt:5
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showmarc.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:33
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:209
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:18
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/linkitem.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:16
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:21
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c_bis.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a_bis.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader_authorities.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/EXAMPLE.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_006.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_classifications.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_106.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_115a.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_115b.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_117.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121a.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121b.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_122.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123a.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123defg.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123i_j.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124a.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124b.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124c.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124d.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124e.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124f.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124g.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125a.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126a.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126b.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_127.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128a.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128c.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146b.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146c.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146d.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146e.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146f.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146h.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146i.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:10
@@ -4666,222 +3260,17 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:11
-msgid "Koha"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:166
-msgid "Hide SQL code"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:150
-msgid "Patrons found for: %s"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:361
-msgid "Item is checked out"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:363
-msgid "Item does not belong to your library"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:365
-msgid "Item has a waiting hold"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:367
-msgid "Item has item level holds"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:369
-msgid "Item has linked analytics"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:371
-msgid "Last item for bibliographic record with biblio-level hold on it"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:373
-msgid "Unknown reason"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:392
-#, perl-brace-format
-msgid ""
-"Holds on this item: {item_holds} / Total holds on this record: {total_holds}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:394
-#, perl-brace-format
-msgid "No holds on this item / Total holds on this record: {total_holds}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:398
-#, perl-brace-format
-msgid "Holds on this record: {total_holds}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:400
-msgid "No holds on this record"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:707
-msgid "OK"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:136
-#, perl-brace-format
-msgid ""
-"There is an item attached to this record. You must delete all items before "
-"deleting this record"
-msgid_plural ""
-"There are {count} items attached to this record. You must delete all items "
-"before deleting this record"
-msgstr[0] ""
-msgstr[1] ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:147
-#, perl-brace-format
-msgid ""
-"There is a subscription attached to this record. You must delete all "
-"subscriptions before deleting this record"
-msgid_plural ""
-"There are {subscriptions_count} subscriptions attached to this record. You "
-"must delete all subscriptions before deleting this record"
-msgstr[0] ""
-msgstr[1] ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:47
-#: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:76
-msgctxt "More menu options"
-msgid "More"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:184
-msgid "Set library, desk, and register"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:186
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:13
-msgid "Set library and desk"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:188
-msgid "Set library and cash register"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:190
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:16
-msgid "Set library"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:193
-msgid "Set desk and cash register"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:195
-msgid "Set cash register"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:197
-msgid "Set desk"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:4
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:4
-msgid "Conference title"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:12
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:12
-msgid "Part"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:53
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:53
-msgid "Issue number"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:11
-msgid "Mana Knowledge Base reports search"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_out.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/convert_report.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:16
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemtypes.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:72
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:7
-msgid "Reports"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:10
-msgid "Cataloging authority plugin"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/blinddetail-biblio-search.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/merge.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt:8
-msgid "Authorities"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/blinddetail-biblio-search.tt:7
-msgid "Authority details"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:11
-msgid "Unknown authority record"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:13
-#, perl-brace-format
-msgid "Details for authority #{authid} ({authtypetext})"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/merge.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:10
-msgid "Merging records"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:10
-msgid "Authority search results"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:10
-#, perl-brace-format
-msgid "Modify authority #{authority_id} ({authtypetext})"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:12
-#, perl-brace-format
-msgid "Adding authority ({authtypetext})"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:32
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:15
-msgid "Your cart"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:15
@@ -4891,277 +3280,39 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showelastic.tt:5
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showmarc.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:209
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:11
-msgid "Catalog"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:6
-msgid "Download cart"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:6
-msgid "Sending your cart"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/batch/print-notices.tt:6
-#, perl-brace-format
-msgid "Print notices for {today}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:10
-msgid "Bookings"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:30
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:11
-msgid "Unknown record"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:13
-#, perl-brace-format
-msgid "ISBD details for {title}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:13
-#, perl-brace-format
-msgid "MARC details for {title}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:33
-#, perl-brace-format
-msgid "Details for {title}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:688
-#, perl-brace-format
-msgctxt "pluralization"
-msgid "There is one archived suggestion."
-msgid_plural "There are {count} archived suggestions."
-msgstr[0] ""
-msgstr[1] ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:9
-msgid "Images"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:13
-#, perl-brace-format
-msgid "Checkout history for {title}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:13
-#, perl-brace-format
-msgid "Labeled MARC details for {title}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:10
-msgid "Search history"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showmarc.tt:6
-msgid "MARC import"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showmarc.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/linkitem.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader_authorities.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_006.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-profile.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-range.tt:9
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-template.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-home.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:31
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-home.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:18
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:18
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:35
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:21
-msgid "Cataloging"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:11
-#, perl-brace-format
-msgid "Stock rotation details for {title}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:19
-#, perl-brace-format
-msgid "Results of search for {query_desc} with limit(s): '{limit_desc}'"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:21
-#, perl-brace-format
-msgid "Results of search for {query_desc}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:25
-#, perl-brace-format
-msgid "Results of search for {limit_desc}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:27
-msgid "Results of search"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:31
-msgid "You did not specify any search criteria"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:750
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:757
-#: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:18
-#, perl-brace-format
-msgid "{count} item"
-msgid_plural "{count} items"
-msgstr[0] ""
-msgstr[1] ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:13
-#, perl-brace-format
-msgid "Item details for {title}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:208
-msgid "Item search"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:357
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:359
-msgctxt "On specific date"
-msgid "On"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:10
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:10
-msgid "Advanced search"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:49
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:11
-msgid "Search results"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:14
-msgid "No results found"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:12
-msgid "Catalog concerns"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/linkitem.tt:8
-msgid "Link to host record"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:8
-msgid "Attach an item to"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:10
-msgid "Z39.50 authority search points"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:13
-msgid "Z39.50 authority search results"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:10
-msgid "Z39.50/SRU search results"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:13
-msgid "Items"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:16
-#, perl-brace-format
-msgid "{title} by {author}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:20
-#, perl-brace-format
-msgid "(Record #{biblionumber})"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:68
-#, perl-brace-format
-msgid "Edit {title} by {author}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:69
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:72
-msgctxt "Bibliographic record number"
-msgid "Record #"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:71
-#, perl-brace-format
-msgid "Edit {title}"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:77
-msgctxt "Items attached to a bibliographic record"
-msgid "Items"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:10
-#, perl-brace-format
-msgid "Editing {title} (Record number {biblionumber})"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:12
-msgid "Add MARC record"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:851
-msgctxt "Editing MARC record titled:"
-msgid "Editing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:6
-msgid "UNIMARC field 183-2 builder"
-msgstr ""
-
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146b.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146c.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146d.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146e.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146f.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146h.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146i.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183a.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:9
@@ -5171,7 +3322,19 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader_authorities.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/EXAMPLE.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_006.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_classifications.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_106.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:8
@@ -5185,7 +3348,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_122.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123a.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123defg.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123i_j.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123i_j.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124a.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124b.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124c.tt:8
@@ -5203,365 +3366,33 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128c.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146b.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146c.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146d.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146e.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146f.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146h.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146i.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:7
-msgid "Cataloguing"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183a.tt:6
-msgid "UNIMARC field 183a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c_bis.tt:7
-msgid "UNIMARC field 210c builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a_bis.tt:7
-msgid "UNIMARC field 225a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:6
-msgid "UNIMARC field 283-2 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:6
-msgid "UNIMARC field 283a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:7
-msgid "UNIMARC field 325h builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:6
-msgid "UNIMARC field 325j builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:8
-msgid "UNIMARC field 4XX builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:6
-msgid "UNIMARC field 686a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader_authorities.tt:6
-msgid "UNIMARC leader builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/EXAMPLE.tt:6
-msgid "Framework plugin example"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:11
-msgid "Call number browser"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_006.tt:8
-msgid "006 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:7
-msgid "007 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_classifications.tt:7
-msgid "008 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_classifications.tt:8
-msgid "Classifications"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:8
-msgid "000 - Leader builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt:7
-msgid "Leader builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:7
-msgid "Plugin for links"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100_authorities.tt:7
-msgid "UNIMARC field 100 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:7
-msgid "UNIMARC field 105 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_106.tt:7
-msgid "UNIMARC field 106 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:7
-msgid "UNIMARC field 110 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_115a.tt:7
-msgid "UNIMARC field 115a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_115b.tt:7
-msgid "UNIMARC field 115b builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:8
-msgid "UNIMARC field 116 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:66
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:68
-msgctxt "UNIMARC 116 painting techniques"
-msgid "print"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:785
-msgctxt "UNIMARC 116 painting techniques"
-msgid "Techniques (print) 1"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:953
-msgctxt "UNIMARC 116 painting techniques"
-msgid "Techniques (print) 2"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:1122
-msgctxt "UNIMARC 116 painting techniques"
-msgid "Techniques (print) 3"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_117.tt:7
-msgid "UNIMARC field 117 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:7
-msgid "UNIMARC field 120 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121a.tt:7
-msgid "UNIMARC field 121a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121b.tt:7
-msgid "UNIMARC field 121b builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_122.tt:7
-msgid "UNIMARC field 122 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123a.tt:7
-msgid "UNIMARC field 123a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123defg.tt:7
-msgid "UNIMARC field 123d/e/f/g builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123i_j.tt:7
-msgid "UNIMARC field 123i/j builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124a.tt:7
-msgid "UNIMARC field 124a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124b.tt:7
-msgid "UNIMARC field 124b builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124c.tt:7
-msgid "UNIMARC field 124c builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124d.tt:7
-msgid "UNIMARC field 124d builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124e.tt:7
-msgid "UNIMARC field 124e builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124f.tt:7
-msgid "UNIMARC field 124f builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124g.tt:7
-msgid "UNIMARC field 124g builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125a.tt:7
-msgid "UNIMARC field 125a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:7
-msgid "UNIMARC field 125b builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126a.tt:7
-msgid "UNIMARC field 126a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126b.tt:7
-msgid "UNIMARC field 126b builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_127.tt:7
-msgid "UNIMARC field 127 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128a.tt:7
-msgid "UNIMARC field 128a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:7
-msgid "UNIMARC field 128b builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128c.tt:7
-msgid "UNIMARC field 128c builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:7
-msgid "UNIMARC field 130 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_135a.tt:7
-msgid "UNIMARC field 135a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:7
-msgid "UNIMARC field 140 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:7
-msgid "UNIMARC field 141 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146a.tt:6
-msgid "Framework plugin unimarc_field_146a"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146b.tt:6
-msgid "Framework plugin unimarc_field_146b"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146c.tt:6
-msgid "Framework plugin unimarc_field_146c"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146d.tt:6
-msgid "Framework plugin unimarc_field_146d"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146e.tt:6
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146f.tt:6
-msgid "Framework plugin unimarc_field_146e"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146h.tt:6
-msgid "Framework plugin unimarc_field_146h"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146i.tt:6
-msgid "Framework plugin unimarc_field_146i"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:6
-msgid "UNIMARC field 181-2 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:6
-msgid "UNIMARC field 181a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:6
-msgid "UNIMARC field 181b builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:6
-msgid "UNIMARC field 181c builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:6
-msgid "UNIMARC field 182-2 builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:6
-msgid "UNIMARC field 182a builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:6
-msgid "UNIMARC field 182c builder"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:13
-msgid "Article requests"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/checkout-notes.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:16
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:16
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:22
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:22
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transferstoreceive.tt:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:15
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:19
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:37
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:13
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/kohasuomi-pendingreserves.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:8
-#: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:10
-#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_old_queue.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_overdue.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_queue.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:14
-#: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:36
-msgid "Circulation"
+#: koha-tmpl/intranet-tmpl/prog/en/includes/wrapper-staff-tool-plugin.inc:21
+#: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:12
+msgid "Koha"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:10
 #, perl-brace-format
 msgid "Circulation statistics for {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:35
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showelastic.tt:5
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:209
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:11
+msgid "Catalog"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:9
@@ -5692,6 +3523,16 @@ msgstr ""
 msgid "Holds awaiting pickup"
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:186
+msgid "Set library and desk"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:190
+msgid "Set library"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:36
 #, perl-brace-format
 msgid "Check in {title}"
@@ -5773,6 +3614,55 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:17
 msgid "Patron clubs"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-print.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/home.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:47
+#: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:25
+#: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:21
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/page.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/picture-upload.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/preview_letter.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:18
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/scheduler.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:18
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_modify_holds.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:51
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/includes/wrapper-staff-tool-plugin.inc:17
+msgid "Tools"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:13
@@ -5992,6 +3882,51 @@ msgstr ""
 msgid "Barcode image generator"
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:28
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-profile.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-range.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-template.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-home.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:31
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-home.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:18
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:18
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:35
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:21
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showmarc.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/linkitem.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:21
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader_authorities.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_006.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:9
+msgid "Cataloging"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:11
 #, perl-brace-format
 msgid "Edit label batch {batch_id}"
@@ -6095,6 +4030,16 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:6
 msgid "Label printing/exporting"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:49
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:11
+msgid "Search results"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:50
@@ -6465,6 +4410,81 @@ msgstr ""
 msgid "Plugins disabled"
 msgstr ""
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-upload.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/includes/wrapper-staff-tool-plugin.inc:14
+msgid "Plugins"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-home.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/adveditorshortcuts.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:81
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:42
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/audio_alerts.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:29
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:29
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:32
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:29
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branch_transfer_limits.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:24
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:32
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:200
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:21
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:24
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/didyoumean.tt:36
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/koha2marclinks.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:30
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:30
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_set_mappings.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/overdrive.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/record_sources.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:23
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/search_filters.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/share_content.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sms_providers.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transfer_limits.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transport-cost-matrix.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:28
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/hold_pickup_shelves.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:31
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:22
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/includes/wrapper-staff-tool-plugin.inc:19
+msgid "Administration"
+msgstr ""
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-upload.tt:7
 msgid "Upload plugin"
 msgstr ""
@@ -6537,6 +4557,29 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:12
 msgid "Acquisitions statistics"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_out.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:20
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/convert_report.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemtypes.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:13
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:12
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:72
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:12
+msgid "Reports"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:11
@@ -7469,6 +5512,15 @@ msgstr ""
 #, perl-brace-format
 msgid "{library} calendar"
 msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:18
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:750
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:757
+#, perl-brace-format
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] ""
+msgstr[1] ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:47
 msgid "Edit"
@@ -9035,6 +7087,1954 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:64
 msgid "Elasticsearch is currently disabled."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:10
+msgid "Cataloging authority plugin"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/merge.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt:8
+msgid "Authorities"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/blinddetail-biblio-search.tt:7
+msgid "Authority details"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:11
+msgid "Unknown authority record"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:13
+#, perl-brace-format
+msgid "Details for authority #{authid} ({authtypetext})"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/merge.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:10
+msgid "Merging records"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:10
+msgid "Authority search results"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:10
+#, perl-brace-format
+msgid "Modify authority #{authority_id} ({authtypetext})"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:12
+#, perl-brace-format
+msgid "Adding authority ({authtypetext})"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:32
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:15
+msgid "Your cart"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:6
+msgid "Download cart"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:6
+msgid "Sending your cart"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/batch/print-notices.tt:6
+#, perl-brace-format
+msgid "Print notices for {today}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:10
+msgid "Bookings"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:10
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:30
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:11
+msgid "Unknown record"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:13
+#, perl-brace-format
+msgid "ISBD details for {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:13
+#, perl-brace-format
+msgid "MARC details for {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:33
+#, perl-brace-format
+msgid "Details for {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:688
+#, perl-brace-format
+msgctxt "pluralization"
+msgid "There is one archived suggestion."
+msgid_plural "There are {count} archived suggestions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:9
+msgid "Images"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:13
+#, perl-brace-format
+msgid "Checkout history for {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:13
+#, perl-brace-format
+msgid "Labeled MARC details for {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/search-history.tt:10
+msgid "Search history"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showmarc.tt:6
+msgid "MARC import"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:11
+#, perl-brace-format
+msgid "Stock rotation details for {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:19
+#, perl-brace-format
+msgid "Results of search for {query_desc} with limit(s): '{limit_desc}'"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:21
+#, perl-brace-format
+msgid "Results of search for {query_desc}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:25
+#, perl-brace-format
+msgid "Results of search for {limit_desc}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:27
+msgid "Results of search"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:31
+msgid "You did not specify any search criteria"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:13
+#, perl-brace-format
+msgid "Item details for {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:208
+msgid "Item search"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:357
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:359
+msgctxt "On specific date"
+msgid "On"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:10
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:10
+msgid "Advanced search"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:14
+msgid "No results found"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:12
+msgid "Catalog concerns"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/linkitem.tt:8
+msgid "Link to host record"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:8
+msgid "Attach an item to"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:10
+msgid "Z39.50 authority search points"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:13
+msgid "Z39.50 authority search results"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:10
+msgid "Z39.50/SRU search results"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:13
+msgid "Items"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:16
+#, perl-brace-format
+msgid "{title} by {author}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:20
+#, perl-brace-format
+msgid "(Record #{biblionumber})"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:68
+#, perl-brace-format
+msgid "Edit {title} by {author}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:69
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:72
+msgctxt "Bibliographic record number"
+msgid "Record #"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:71
+#, perl-brace-format
+msgid "Edit {title}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:77
+msgctxt "Items attached to a bibliographic record"
+msgid "Items"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:10
+#, perl-brace-format
+msgid "Editing {title} (Record number {biblionumber})"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:12
+msgid "Add MARC record"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:851
+msgctxt "Editing MARC record titled:"
+msgid "Editing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:7
+msgid "UNIMARC field 141 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146b.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146c.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146d.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146e.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146f.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146h.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146i.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c_bis.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a_bis.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/EXAMPLE.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_106.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_115a.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_115b.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:9
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_117.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121a.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121b.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_122.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123a.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123defg.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123i_j.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124a.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124b.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124c.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124d.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124e.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124f.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124g.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125a.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126a.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126b.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_127.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128a.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128c.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:8
+msgid "Cataloguing"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146a.tt:6
+msgid "Framework plugin unimarc_field_146a"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146b.tt:6
+msgid "Framework plugin unimarc_field_146b"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146c.tt:6
+msgid "Framework plugin unimarc_field_146c"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146d.tt:6
+msgid "Framework plugin unimarc_field_146d"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146e.tt:6
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146f.tt:6
+msgid "Framework plugin unimarc_field_146e"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146h.tt:6
+msgid "Framework plugin unimarc_field_146h"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146i.tt:6
+msgid "Framework plugin unimarc_field_146i"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:6
+msgid "UNIMARC field 181-2 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:6
+msgid "UNIMARC field 181a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:6
+msgid "UNIMARC field 181b builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:6
+msgid "UNIMARC field 181c builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:6
+msgid "UNIMARC field 182-2 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:6
+msgid "UNIMARC field 182a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:6
+msgid "UNIMARC field 182c builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:6
+msgid "UNIMARC field 183-2 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183a.tt:6
+msgid "UNIMARC field 183a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c_bis.tt:7
+msgid "UNIMARC field 210c builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a_bis.tt:7
+msgid "UNIMARC field 225a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:6
+msgid "UNIMARC field 283-2 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:6
+msgid "UNIMARC field 283a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:7
+msgid "UNIMARC field 325h builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:6
+msgid "UNIMARC field 325j builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:8
+msgid "UNIMARC field 4XX builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:6
+msgid "UNIMARC field 686a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader_authorities.tt:6
+msgid "UNIMARC leader builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/EXAMPLE.tt:6
+msgid "Framework plugin example"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/cn_browser.tt:11
+msgid "Call number browser"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_006.tt:8
+msgid "006 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:7
+msgid "007 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008.tt:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_classifications.tt:7
+msgid "008 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_classifications.tt:8
+msgid "Classifications"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader.tt:8
+msgid "000 - Leader builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt:7
+msgid "Leader builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_linking_section.tt:7
+msgid "Plugin for links"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100_authorities.tt:7
+msgid "UNIMARC field 100 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:7
+msgid "UNIMARC field 105 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_106.tt:7
+msgid "UNIMARC field 106 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:7
+msgid "UNIMARC field 110 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_115a.tt:7
+msgid "UNIMARC field 115a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_115b.tt:7
+msgid "UNIMARC field 115b builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:8
+msgid "UNIMARC field 116 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:66
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:68
+msgctxt "UNIMARC 116 painting techniques"
+msgid "print"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:785
+msgctxt "UNIMARC 116 painting techniques"
+msgid "Techniques (print) 1"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:953
+msgctxt "UNIMARC 116 painting techniques"
+msgid "Techniques (print) 2"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:1122
+msgctxt "UNIMARC 116 painting techniques"
+msgid "Techniques (print) 3"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_117.tt:7
+msgid "UNIMARC field 117 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:7
+msgid "UNIMARC field 120 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121a.tt:7
+msgid "UNIMARC field 121a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121b.tt:7
+msgid "UNIMARC field 121b builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_122.tt:7
+msgid "UNIMARC field 122 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123a.tt:7
+msgid "UNIMARC field 123a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123defg.tt:7
+msgid "UNIMARC field 123d/e/f/g builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123i_j.tt:7
+msgid "UNIMARC field 123i/j builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124a.tt:7
+msgid "UNIMARC field 124a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124b.tt:7
+msgid "UNIMARC field 124b builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124c.tt:7
+msgid "UNIMARC field 124c builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124d.tt:7
+msgid "UNIMARC field 124d builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124e.tt:7
+msgid "UNIMARC field 124e builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124f.tt:7
+msgid "UNIMARC field 124f builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124g.tt:7
+msgid "UNIMARC field 124g builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125a.tt:7
+msgid "UNIMARC field 125a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:7
+msgid "UNIMARC field 125b builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126a.tt:7
+msgid "UNIMARC field 126a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126b.tt:7
+msgid "UNIMARC field 126b builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_127.tt:7
+msgid "UNIMARC field 127 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128a.tt:7
+msgid "UNIMARC field 128a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:7
+msgid "UNIMARC field 128b builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128c.tt:7
+msgid "UNIMARC field 128c builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:7
+msgid "UNIMARC field 130 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_135a.tt:7
+msgid "UNIMARC field 135a builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:7
+msgid "UNIMARC field 140 builder"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:3
+msgid "Afghanistan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
+msgid "Albania"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
+msgid "Algeria"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
+msgid "Andorra"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
+msgid "Angola"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
+msgid "Antigua & Deps"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
+msgid "Argentina"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:4
+msgid "Armenia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
+msgid "Australia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
+msgid "Austria"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
+msgid "Azerbaijan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
+msgid "Bahamas"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
+msgid "Bahrain"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
+msgid "Bangladesh"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:5
+msgid "Barbados"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
+msgid "Belarus"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
+msgid "Belgium"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
+msgid "Belize"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
+msgid "Benin"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
+msgid "Bhutan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
+msgid "Bolivia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
+msgid "Bosnia Herz."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:6
+msgid "Botswana"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
+msgid "Brazil"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
+msgid "Brunei"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
+msgid "Bulgaria"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
+msgid "Burkina"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
+msgid "Burundi"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
+msgid "Cambodia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
+msgid "Cameroon"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:7
+msgid "Canada"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
+msgid "Cape Verde"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
+msgid "Centr. Afr. Rep"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
+msgid "Chad"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
+msgid "Chile"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
+msgid "China"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
+msgid "Colombia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
+msgid "Comoros"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:8
+msgid "Congo"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
+msgid "Costa Rica"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
+msgid "Croatia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
+msgid "Cuba"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
+msgid "Cyprus"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
+msgid "Czech Republic"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
+msgid "Denmark"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:9
+msgid "Djibouti"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
+msgid "Dominica"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
+msgid "Dominican Rep."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
+msgid "East Timor"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
+msgid "Ecuador"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
+msgid "Egypt"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
+msgid "El Salvador"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:10
+msgid "Equator. Guinea"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
+msgid "Eritrea"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
+msgid "Estonia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
+msgid "Ethiopia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
+msgid "Fiji"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
+msgid "Finland"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
+msgid "France"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
+msgid "Gabon"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:11
+msgid "Gambia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
+msgid "Georgia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
+msgid "Germany"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
+msgid "Ghana"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
+msgid "Greece"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
+msgid "Grenada"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
+msgid "Guatemala"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
+msgid "Guinea"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:12
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
+msgid "Guyana"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
+msgid "Haiti"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
+msgid "Honduras"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
+msgid "Hungary"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
+msgid "Iceland"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
+msgid "India"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
+msgid "Indonesia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:13
+msgid "Iran"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
+msgid "Iraq"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
+msgid "Ireland"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
+msgid "Israel"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
+msgid "Italy"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
+msgid "Ivory Coast"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
+msgid "Jamaica"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
+msgid "Japan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:14
+msgid "Jordan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
+msgid "Kazakhstan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
+msgid "Kenya"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
+msgid "Kiribati"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
+msgid "Korea North"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
+msgid "Korea South"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
+msgid "Kosovo"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:15
+msgid "Kuwait"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
+msgid "Laos"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
+msgid "Latvia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
+msgid "Lebanon"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
+msgid "Lesotho"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
+msgid "Liberia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
+msgid "Libya"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:16
+msgid "Liechtenstein"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
+msgid "Lithuania"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
+msgid "Luxembourg"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
+msgid "Macedonia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
+msgid "Madagascar"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
+msgid "Malawi"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
+msgid "Malaysia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:17
+msgid "Maldives"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
+msgid "Mali"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
+msgid "Malta"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
+msgid "Marshall Isl."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
+msgid "Mauritania"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
+msgid "Mauritius"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
+msgid "Mexico"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:18
+msgid "Micronesia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
+msgid "Moldova"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
+msgid "Monaco"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
+msgid "Mongolia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
+msgid "Montenegro"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
+msgid "Morocco"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
+msgid "Mozambique"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:19
+msgid "Myanmar"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
+msgid "Namibia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
+msgid "Nauru"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
+msgid "Nepal"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
+msgid "Netherlands"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
+msgid "New Zealand"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
+msgid "Nicaragua"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
+msgid "Niger"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:20
+msgid "Nigeria"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
+msgid "Norway"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
+msgid "Oman"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
+msgid "Pakistan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
+msgid "Palau"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
+msgid "Panama"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
+msgid "Papua N. Guinea"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
+msgid "Paraguay"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:21
+msgid "Peru"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
+msgid "Philippines"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
+msgid "Poland"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
+msgid "Portugal"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
+msgid "Qatar"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
+msgid "Romania"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
+msgid "Russian Fed."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:22
+msgid "Rwanda"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
+msgid "St Kitts & Nev."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
+msgid "St Lucia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
+msgid "Saint Vincent"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
+msgid "Samoa"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
+msgid "San Marino"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
+msgid "Sao Tome"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:23
+msgid "Saudi Arabia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
+msgid "Senegal"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
+msgid "Serbia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
+msgid "Seychelles"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
+msgid "Sierra Leone"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
+msgid "Singapore"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
+msgid "Slovakia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:24
+msgid "Slovenia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
+msgid "Solomon Islands"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
+msgid "Somalia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
+msgid "South Africa"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
+msgid "Spain"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
+msgid "Sri Lanka"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
+msgid "Sudan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:25
+msgid "Suriname"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
+msgid "Swaziland"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
+msgid "Sweden"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
+msgid "Switzerland"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
+msgid "Syria"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
+msgid "Taiwan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
+msgid "Tajikistan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:26
+msgid "Tanzania"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
+msgid "Thailand"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
+msgid "Togo"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
+msgid "Tonga"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
+msgid "Trinidad & Tob."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
+msgid "Tunisia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
+msgid "Turkey"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:27
+msgid "Turkmenistan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
+msgid "Tuvalu"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
+msgid "Uganda"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
+msgid "Ukraine"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
+msgid "UAE"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
+msgid "United Kingdom"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
+msgid "USA"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
+msgid "Uruguay"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:28
+msgid "Uzbekistan"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
+msgid "Vanuatu"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
+msgid "Vatican City"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
+msgid "Venezuela"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
+msgid "Vietnam"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
+msgid "Yemen"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
+msgid "Zambia"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:29
+msgid "Zimbabwe"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patron-age.inc:9
+#, perl-brace-format
+msgid "({age} year)"
+msgid_plural "({age} years)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:5
+msgid "Standard"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:7
+msgid "Full address"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:9
+msgid "All emails"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:11
+msgid "All phones"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:13
+msgid "Borrowernumber"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:53
+msgid "Mobile phone"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:61
+msgid "Alternate street number"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:63
+msgid "Alternate street type"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:65
+msgid "Alternate address"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:67
+msgid "Alternate address line 2"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:69
+msgid "Alternate city"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:71
+msgid "Alternate state"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:73
+msgid "Alternate zip code"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:75
+msgid "Alternate country"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:77
+msgid "Alternate email"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:79
+msgid "Alternate phone"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:83
+msgid "Library (code)"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:85
+msgid "Category (code)"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:91
+msgid "Gone no address"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:93
+msgid "Lost card"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:95
+msgid "Restricted"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:97
+msgid "Restriction reason"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:99
+msgid "Guarantor surname"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:101
+msgid "Guarantor firstname"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:103
+msgid "Guarantor title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:105
+msgid "Guarantor ID"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:109
+msgid "Guarantor relationship"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:113
+msgid "Permissions (code)"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:119
+msgid "Contact note"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:125
+msgid "Alternate contact first name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:127
+msgid "Alternate contact surname"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:129
+msgid "Alternate contact address"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:131
+msgid "Alternate contact address 2"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:133
+msgid "Alternate contact city"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:135
+msgid "Alternate contact state"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:137
+msgid "Alternate contact ZIP/postal code"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:139
+msgid "Alternate contact country"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:141
+msgid "Alternate contact phone"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:143
+msgid "SMS alert number"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:145
+msgid "SMS provider"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:147
+msgid "Privacy (code)"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:149
+msgid "Guarantor can view checkouts"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:151
+msgid "Last updated"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:153
+msgid "Last seen"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:155
+msgid "Check previous checkout"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:7
+msgid "Manual"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:9
+msgid "Overdues"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:11
+msgid "Suspension"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:13
+msgid "Discharge"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/virtualshelves-toolbar.inc:27
+msgid "Are you sure you want to delete this list?"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:166
+msgid "Hide SQL code"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:150
+msgid "Patrons found for: %s"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:361
+msgid "Item is checked out"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:363
+msgid "Item does not belong to your library"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:365
+msgid "Item has a waiting hold"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:367
+msgid "Item has item level holds"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:369
+msgid "Item has linked analytics"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:371
+msgid "Last item for bibliographic record with biblio-level hold on it"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:373
+msgid "Unknown reason"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:392
+#, perl-brace-format
+msgid ""
+"Holds on this item: {item_holds} / Total holds on this record: {total_holds}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:394
+#, perl-brace-format
+msgid "No holds on this item / Total holds on this record: {total_holds}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:398
+#, perl-brace-format
+msgid "Holds on this record: {total_holds}"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:400
+msgid "No holds on this record"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:707
+msgid "OK"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:136
+#, perl-brace-format
+msgid ""
+"There is an item attached to this record. You must delete all items before "
+"deleting this record"
+msgid_plural ""
+"There are {count} items attached to this record. You must delete all items "
+"before deleting this record"
+msgstr[0] ""
+msgstr[1] ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:147
+#, perl-brace-format
+msgid ""
+"There is a subscription attached to this record. You must delete all "
+"subscriptions before deleting this record"
+msgid_plural ""
+"There are {subscriptions_count} subscriptions attached to this record. You "
+"must delete all subscriptions before deleting this record"
+msgstr[0] ""
+msgstr[1] ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:47
+#: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:76
+msgctxt "More menu options"
+msgid "More"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:184
+msgid "Set library, desk, and register"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:188
+msgid "Set library and cash register"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:193
+msgid "Set desk and cash register"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:195
+msgid "Set cash register"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:197
+msgid "Set desk"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:4
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:4
+msgid "Conference title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/forms/conference.inc:12
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/forms/conference.inc:12
+msgid "Part"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:53
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/shared/form_input_helpers.inc:53
+msgid "Issue number"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:11
+msgid "Mana Knowledge Base reports search"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
+msgid "Serial enumeration"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
+msgid "Item type"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
+msgid "Not for loan status"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
+msgid "Date accessioned"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
+msgid "Checkouts"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
+msgid "Last checkout date"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
+msgid "Manager name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
+msgid "Patron card number"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
+msgid "Patron name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
+msgid "Transaction library"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
+msgid "Transaction date"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
+msgid "Updated"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
+msgid "Amount"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+msgid "Fund"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+msgid "Basket num"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Basket name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+msgid "Authorised by"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+msgid "Biblio number"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
+msgid "RRP"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+msgid "Total RRP"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+msgid "Total cost"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/orders_by_budget.tt:4
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Entry date"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Contract name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Publication year"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Note for vendor"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
+msgid "Delivery place"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basket.tt:6
+msgid "Billing place"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Account number"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "RRP tax included"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "RRP tax excluded"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Estimated cost tax included"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Estimated cost tax excluded"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Vendor name"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Vendor physical address"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Vendor postal address"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Contract number"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Basket group delivery place"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Basket group billing place"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Basket delivery place"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Basket billing place"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "ORDER DATE"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "ESTIMATED DELIVERY DATE"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "VENDOR"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "INFORMATION"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "TOTAL COST"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "BASKET"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "CLAIMS COUNT"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "CLAIMED DATE"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "INTERNAL NOTE"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
+msgid "VENDOR NOTE"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/budget_planning.inc:5
+#, perl-brace-format
+msgctxt "Budget planning"
+msgid "Planning for '{fund}' by months"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/budget_planning.inc:7
+#, perl-brace-format
+msgctxt "Budget planning"
+msgid "Planning for '{fund}' by item types"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/budget_planning.inc:9
+#, perl-brace-format
+msgctxt "Budget planning"
+msgid "Planning for '{fund}' by library"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/budget_planning.inc:11
+#, perl-brace-format
+msgctxt "Budget planning"
+msgid "Planning for '{fund}' by {type}"
 msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill/backends/Standard/create.inc:34

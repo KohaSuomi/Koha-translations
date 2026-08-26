@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-26 09:52+0300\n"
+"POT-Creation-Date: 2026-08-26 14:05+0300\n"
 "PO-Revision-Date: 2026-07-07 15:16+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53718,6 +53718,11 @@ msgstr "Puhelinoperaattori:"
 #, c-format
 msgid "Quick add"
 msgstr "Pikalisäys"
+
+#. SCRIPT
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1721
+msgid "Attention! You are changing the patron category from Staff to another category. Staff permissions will be removed upon saving. Are you sure you want to continue?"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:28
 #, c-format
