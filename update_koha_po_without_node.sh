@@ -300,7 +300,7 @@ extract_marc() {
   local marc_type="${1#marc-}"
   local files_list=$(mktemp)
   
-  find koha-tmpl/*-tmpl/*/en -iname "*${marc_type}*" -type f > "$files_list" 2>/dev/null || true
+  LC_ALL=C find koha-tmpl/*-tmpl/*/en -iname "*${marc_type}*" -type f > "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
     echo "No files found for marc-$marc_type" >&2
@@ -318,13 +318,13 @@ extract_marc() {
 extract_staff_prog() {
   local files_list=$(mktemp)
   
-  find koha-tmpl/intranet-tmpl/prog/en \
+  LC_ALL=C find koha-tmpl/intranet-tmpl/prog/en \
     \( -name "*.tt" -o -name "*.inc" \) \
     ! -iname "*MARC21*" ! -iname "*UNIMARC*" \
     ! -iname "*marc21*" ! -iname "*unimarc*" \
     -type f > "$files_list" 2>/dev/null || true
   
-  find koha-tmpl/intranet-tmpl/prog/en/xslt -name "*.xsl" \
+  LC_ALL=C find koha-tmpl/intranet-tmpl/prog/en/xslt -name "*.xsl" \
     ! -iname "*MARC21*" ! -iname "*UNIMARC*" \
     ! -iname "*marc21*" ! -iname "*unimarc*" \
     ! -iname "*NORMARC*" ! -iname "*normarc*" \
@@ -346,13 +346,13 @@ extract_staff_prog() {
 extract_opac_bootstrap() {
   local files_list=$(mktemp)
   
-  find koha-tmpl/opac-tmpl/bootstrap/en \
+  LC_ALL=C find koha-tmpl/opac-tmpl/bootstrap/en \
     \( -name "*.tt" -o -name "*.inc" \) \
     ! -iname "*MARC21*" ! -iname "*UNIMARC*" \
     ! -iname "*marc21*" ! -iname "*unimarc*" \
     -type f > "$files_list" 2>/dev/null || true
   
-  find koha-tmpl/opac-tmpl/bootstrap/en/xslt -name "*.xsl" \
+  LC_ALL=C find koha-tmpl/opac-tmpl/bootstrap/en/xslt -name "*.xsl" \
     ! -iname "*MARC21*" ! -iname "*UNIMARC*" \
     ! -iname "*marc21*" ! -iname "*unimarc*" \
     ! -iname "*NORMARC*" ! -iname "*normarc*" \
@@ -374,7 +374,7 @@ extract_opac_bootstrap() {
 extract_opac_prog() {
   local files_list=$(mktemp)
   
-  find koha-tmpl/opac-tmpl/prog/en \
+  LC_ALL=C find koha-tmpl/opac-tmpl/prog/en \
     \( -name "*.tt" -o -name "*.inc" \) \
     ! -iname "*MARC21*" ! -iname "*UNIMARC*" \
     ! -iname "*marc21*" ! -iname "*unimarc*" \
@@ -396,7 +396,7 @@ extract_opac_prog() {
 extract_pref() {
   local files_list=$(mktemp)
   
-  find koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences \
+  LC_ALL=C find koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences \
     -name "*.pref" -type f > "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
@@ -415,9 +415,9 @@ extract_pref() {
 extract_messages_js() {
   local files_list=$(mktemp)
   
-  find koha-tmpl/intranet-tmpl/prog/js/vue -name "*.vue" -type f > "$files_list" 2>/dev/null || true
-  find koha-tmpl/intranet-tmpl/prog/js -name "*.js" -type f >> "$files_list" 2>/dev/null || true
-  find koha-tmpl/opac-tmpl/bootstrap/js -name "*.js" -type f >> "$files_list" 2>/dev/null || true
+  LC_ALL=C find koha-tmpl/intranet-tmpl/prog/js/vue -name "*.vue" -type f > "$files_list" 2>/dev/null || true
+  LC_ALL=C find koha-tmpl/intranet-tmpl/prog/js -name "*.js" -type f >> "$files_list" 2>/dev/null || true
+  LC_ALL=C find koha-tmpl/opac-tmpl/bootstrap/js -name "*.js" -type f >> "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
     echo "No JS files found" >&2
@@ -444,10 +444,10 @@ extract_messages() {
   local perl_pot="$POT_DIR/Koha-perl.pot.tmp"
   local tt_pot="$POT_DIR/Koha-tt.pot.tmp"
   
-  find . \( -name "*.pl" -o -name "*.pm" \) -type f | grep -v "/blib/" | grep -v "/\.git/" > "$perl_list" 2>/dev/null || true
+  LC_ALL=C find . \( -name "*.pl" -o -name "*.pm" \) -type f | grep -v "/blib/" | grep -v "/\.git/" > "$perl_list" 2>/dev/null || true
   
-  find koha-tmpl/intranet-tmpl/prog/en -name "*.tt" -o -name "*.inc" > "$tt_list" 2>/dev/null || true
-  find koha-tmpl/opac-tmpl/bootstrap/en -name "*.tt" -o -name "*.inc" >> "$tt_list" 2>/dev/null || true
+  LC_ALL=C find koha-tmpl/intranet-tmpl/prog/en -name "*.tt" -o -name "*.inc" > "$tt_list" 2>/dev/null || true
+  LC_ALL=C find koha-tmpl/opac-tmpl/bootstrap/en -name "*.tt" -o -name "*.inc" >> "$tt_list" 2>/dev/null || true
   
   if [[ -s "$perl_list" ]]; then
     xgettext -L Perl \
@@ -483,8 +483,8 @@ extract_messages() {
 extract_installer() {
   local files_list=$(mktemp)
   
-  find installer/data/mysql/en/mandatory -maxdepth 1 -name "*.yml" -type f > "$files_list" 2>/dev/null || true
-  find installer/data/mysql/en/optional -maxdepth 1 -name "*.yml" -type f >> "$files_list" 2>/dev/null || true
+  LC_ALL=C find installer/data/mysql/en/mandatory -maxdepth 1 -name "*.yml" -type f > "$files_list" 2>/dev/null || true
+  LC_ALL=C find installer/data/mysql/en/optional -maxdepth 1 -name "*.yml" -type f >> "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
     echo "No installer YAML files found" >&2
@@ -504,7 +504,7 @@ extract_installer_marc() {
   local marc_dir="${marc_type,,}"  # Convert to lowercase for directory name
   local files_list=$(mktemp)
   
-  find "installer/data/mysql/en/marcflavour/$marc_dir" -name "*.yml" -type f > "$files_list" 2>/dev/null || true
+  LC_ALL=C find "installer/data/mysql/en/marcflavour/$marc_dir" -name "*.yml" -type f > "$files_list" 2>/dev/null || true
   
   if [[ ! -s "$files_list" ]]; then
     echo "No installer files found for $marc_type" >&2
