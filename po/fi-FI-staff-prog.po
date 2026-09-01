@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.05.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 14:05+0300\n"
-"PO-Revision-Date: 2026-08-26 15:28+0300\n"
+"PO-Revision-Date: 2026-09-01 13:03+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -49738,7 +49738,7 @@ msgstr "Pyydetty ilmoitus laitettiin viestijonoon %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:503
 #, c-format
 msgid "The requested notice was NOT queued for delivery by %s "
-msgstr "Pyydettyä ilmoitusta ei laitettu viestijonoon %s "
+msgstr "Viestiä ei lähetetty. Tarkista asiakkaan viestiasetukset: %s "
 
 #. %1$s:  request.id_prefix _ request.illrequest_id | html
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:506
