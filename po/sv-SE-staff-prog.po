@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-26 14:05+0300\n"
-"PO-Revision-Date: 2026-08-28 09:37+0300\n"
+"PO-Revision-Date: 2026-10-02 09:14+0300\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -41211,7 +41211,7 @@ msgstr "Plats och tillgänglighet"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:303
 #, c-format
 msgid "Only items currently available:"
-msgstr "Endast tillgängliga exemplar:"
+msgstr "Endast de exemplar som inte är utlånade:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:310
 #, c-format
