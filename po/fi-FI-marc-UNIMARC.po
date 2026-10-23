@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.05.001\n"
+"Project-Id-Version: Koha 26.05.04.005\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-23 03:06+0000\n"
-"PO-Revision-Date: 2025-10-04 03:04+0000\n"
+"POT-Creation-Date: 2026-03-20 03:01+0000\n"
+"PO-Revision-Date: 2026-07-04 03:08+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Weblate 5.16.1\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-marc-UNIMARC.po\n"
 "X-POOTLE-MTIME: 1692704742.597472\n"
@@ -74,7 +74,7 @@ msgstr "lapset ja nuoret, yleinen"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:8
 #, c-format
 msgid "pre-primary (0-5)"
-msgstr "pre-primary (0-5)"
+msgstr "esikouluikäiset (0-5)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:15
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:9
@@ -255,7 +255,7 @@ msgstr "isoteksti"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:23
 #, c-format
 msgid "newspaper format"
-msgstr "newspaper format"
+msgstr "sanomalehden muoto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:30
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_106.tt:40
@@ -271,7 +271,7 @@ msgstr "Moonin tai Braillen kirjoitus"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:25
 #, c-format
 msgid "microprint"
-msgstr "microprint"
+msgstr "mikroprintti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:32
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:26
@@ -291,7 +291,7 @@ msgstr "multimedia"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:28
 #, c-format
 msgid "mini-print"
-msgstr "mini-print"
+msgstr "mini-printti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:35
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:29
@@ -305,13 +305,13 @@ msgstr "elektroninen aineisto"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:30
 #, c-format
 msgid "microform"
-msgstr "microform"
+msgstr "mikrotallenne"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:37
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:31
 #, c-format
 msgid "other form of textual material"
-msgstr "other form of textual material"
+msgstr "muu tekstimateriaali"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:41
 #, c-format
@@ -404,7 +404,7 @@ msgstr "Ei tekstiä"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:48
 #, c-format
 msgid "multiple/other literary forms"
-msgstr "multiple/other literary forms"
+msgstr "useita/muita kirjallisia muotoja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:58
 #, c-format
@@ -415,7 +415,7 @@ msgstr "Biografia: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:55
 #, c-format
 msgid "not a biography"
-msgstr "not a biography"
+msgstr "ei elämäkerta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:62
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:64
@@ -502,7 +502,7 @@ msgstr "kartat"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:68
 #, c-format
 msgid "portraits"
-msgstr "portraits"
+msgstr "muotokuvat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:79
@@ -546,13 +546,13 @@ msgstr "kaaviot"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:70
 #, c-format
 msgid "plans"
-msgstr "plans"
+msgstr "suunnitelmat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:77
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:71
 #, c-format
 msgid "plates"
-msgstr "plates"
+msgstr "levyt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:89
@@ -684,7 +684,7 @@ msgstr "kuvitus"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:81
 #, c-format
 msgid "no illustrations"
-msgstr "no illustrations"
+msgstr "ei kuvitusta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:91
 #, c-format
@@ -787,7 +787,7 @@ msgstr "hakemisto"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:95
 #, c-format
 msgid "project description"
-msgstr "Volyymin kuvaus:"
+msgstr "projektin kuvaus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:316
@@ -801,7 +801,7 @@ msgstr "tilastot"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:97
 #, c-format
 msgid "programmed text books"
-msgstr "programmed text books"
+msgstr "ohjelmoidut oppikirjat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:104
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:98
@@ -827,7 +827,7 @@ msgstr "väitöskirja tai opinnäytetyö"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:101
 #, c-format
 msgid "laws and legislation"
-msgstr "laws and legislation"
+msgstr "lainsäädäntö"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:108
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:102
@@ -1249,7 +1249,7 @@ msgstr "Mikä tahansa säännöllisyys"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:167
 #, c-format
 msgid "regular"
-msgstr "regular"
+msgstr "säännöllinen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:237
@@ -1257,7 +1257,7 @@ msgstr "regular"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:168
 #, c-format
 msgid "normalised irregular"
-msgstr "normalised irregular"
+msgstr "normalisoitu säännöllinen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:175
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:243
@@ -1337,7 +1337,7 @@ msgstr "tekninen piirustus"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:189
 #, c-format
 msgid "other non-projected graphic type"
-msgstr "other non-projected graphic type"
+msgstr "muu projisoimaton graafinen tyyppi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:199
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:102
@@ -1407,7 +1407,7 @@ msgstr "kovalevy"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:200
 #, c-format
 msgid "porcelaine"
-msgstr "porcelaine"
+msgstr "posliini"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:206
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:137
@@ -1528,7 +1528,7 @@ msgstr "metal"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:208
 #, c-format
 msgid "paper"
-msgstr "paper"
+msgstr "paperi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:214
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:209
@@ -1579,7 +1579,7 @@ msgstr "b - jatkuva julkaisu, lakannut ilmestymästä"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:45
 #, c-format
 msgid "c - continuing resource of unknown status"
-msgstr "c - continuing resource of unknown status"
+msgstr "c - jatkuva resurssi, jonka tila ei ole tiedossa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:50
@@ -10622,7 +10622,7 @@ msgstr "mikrofilmikela"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:151
 #, c-format
 msgid "microfiche"
-msgstr "mikrokortti"
+msgstr "mikrokuultokortti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:51
@@ -10630,7 +10630,7 @@ msgstr "mikrokortti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:157
 #, c-format
 msgid "microfiche cassette"
-msgstr "mikrokorttikasetti"
+msgstr "mikrokuultokorttikasetti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:54
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:56
@@ -10644,7 +10644,7 @@ msgstr "mikrokortti (läpinäkymätön)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:187
 #, c-format
 msgid "microfilm slip"
-msgstr "microfilm slip"
+msgstr "mikrofilmiliuska"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:72
 #, c-format
@@ -12374,9 +12374,11 @@ msgstr "System code :"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:27
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:25
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:27
 #, c-format
-msgid "RDA Carrier"
-msgstr "RDA Carrier"
+msgid "RDA carrier"
+msgstr "RDA carrier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:33
@@ -12384,10 +12386,11 @@ msgstr "RDA Carrier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:33
 #, c-format
-msgid "RDA Content"
-msgstr "RDA Content"
+msgid "RDA content"
+msgstr "RDA content"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:39
@@ -12395,10 +12398,11 @@ msgstr "RDA Content"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:39
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:39
 #, c-format
-msgid "RDA Media"
-msgstr "RDA Media"
+msgid "RDA media"
+msgstr "RDA media"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:45
@@ -12406,9 +12410,11 @@ msgstr "RDA Media"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:45
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:43
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:45
 #, c-format
-msgid "RDA fr Carrier"
-msgstr "RDA fr Carrier"
+msgid "RDA fr carrier"
+msgstr "RDA fr carrier"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:15
 #, c-format
@@ -13447,19 +13453,19 @@ msgstr "Auktoriteettihaun tulokset"
 #. %2$s:  to | html 
 #. %3$s:  total | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:57
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:77
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:75
 #, c-format
 msgid "Results %s to %s of %s"
 msgstr "Tulokset %s-%s / %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:59
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:79
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:77
 #, c-format
 msgid "No results found"
 msgstr "Ei hakutuloksia"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:66
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:87
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:85
 #, c-format
 msgid "Summary"
 msgstr "Yhteenveto"
@@ -13486,7 +13492,7 @@ msgid "%s times"
 msgstr "%s kertaa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:78
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:122
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:120
 #, c-format
 msgid "Choose"
 msgstr "Valitse"
@@ -13528,28 +13534,6 @@ msgstr "TAI uusi kokoelma: "
 msgid "UNIMARC field 283-2 builder"
 msgstr "UNIMARC-kentän 283-2 muodostaja"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:25
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:27
-#, c-format
-msgid "RDA carrier"
-msgstr "RDA carrier"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:31
-#, c-format
-msgid "RDA content"
-msgstr "RDA content"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:37
-#, c-format
-msgid "RDA media"
-msgstr "RDA media"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:43
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:45
-#, c-format
-msgid "RDA fr carrier"
-msgstr "RDA fr carrier"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:15
 #, c-format
 msgid "UNIMARC field 283a builder"
@@ -13565,7 +13549,7 @@ msgstr "äänisilmukkakasetti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:33
 #, c-format
 msgid "audio belt"
-msgstr "audio belt"
+msgstr "äänihihna"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:39
@@ -13583,7 +13567,7 @@ msgstr "äänilevy"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:51
 #, c-format
 msgid "sound track reel"
-msgstr "sound track reel"
+msgstr "ääniraitakela"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:57
@@ -13601,13 +13585,13 @@ msgstr "äänilankakela"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:69
 #, c-format
 msgid "audiocassette"
-msgstr "audiocassette"
+msgstr "äänikasetti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:75
 #, c-format
 msgid "audiotape reel"
-msgstr "äänihihna"
+msgstr "äänikela"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:81
@@ -13643,25 +13627,25 @@ msgstr "levykekasetti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:113
 #, c-format
 msgid "computer tape cartridge"
-msgstr "computer tape cartridge"
+msgstr "tietokoneen nauhakasetti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:117
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:119
 #, c-format
 msgid "computer tape cassette"
-msgstr "computer tape cassette"
+msgstr "tietokoneen DAT-kasetti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:123
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:125
 #, c-format
 msgid "computer tape reel"
-msgstr "computer tape reel"
+msgstr "tietokoneen magneettinauha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:131
 #, c-format
 msgid "online resource"
-msgstr "online resource"
+msgstr "verkkoresurssi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:135
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:137
@@ -13673,13 +13657,13 @@ msgstr "other computer carrier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:163
 #, c-format
 msgid "microfilm cartridge"
-msgstr "microfilm cartridge"
+msgstr "Mikromuoto, mikrofilmisilmukkakasetti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:179
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:181
 #, c-format
 msgid "microfilm roll"
-msgstr "microfilm roll"
+msgstr "mikrofilmirulla"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:191
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:193
@@ -13697,7 +13681,7 @@ msgstr "other microform carrier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:207
 #, c-format
 msgid "microscope slide"
-msgstr "microscope slide"
+msgstr "mikroskoopin preparaatti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:211
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:213
@@ -13721,13 +13705,13 @@ msgstr "raina"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:263
 #, c-format
 msgid "overhead transparency"
-msgstr "overhead transparency"
+msgstr "heijastettava kuva, kalvo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:267
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:269
 #, c-format
 msgid "slide"
-msgstr "slide"
+msgstr "dia"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:273
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:275
@@ -13739,13 +13723,13 @@ msgstr "other projected image carrier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:283
 #, c-format
 msgid "stereograph card"
-msgstr "stereograph card"
+msgstr "stereografinen kortti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:287
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:289
 #, c-format
 msgid "stereograph disc"
-msgstr "stereograph disc"
+msgstr "stereografinen levy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:293
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:295
@@ -13757,7 +13741,7 @@ msgstr "other stereographic carrier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:303
 #, c-format
 msgid "card"
-msgstr "card"
+msgstr "kortti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:307
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:309
@@ -13769,19 +13753,19 @@ msgstr "lehtiötaulu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:321
 #, c-format
 msgid "sheet"
-msgstr "sheet"
+msgstr "arkki"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:325
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:327
 #, c-format
 msgid "volume"
-msgstr "volume"
+msgstr "osa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:331
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:333
 #, c-format
 msgid "object"
-msgstr "object"
+msgstr "esine"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:337
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:339
@@ -13793,13 +13777,13 @@ msgstr "other unmediated carrier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:347
 #, c-format
 msgid "video cartridge"
-msgstr "video cartridge"
+msgstr "videosilmukkakasetti"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:363
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:365
 #, c-format
 msgid "videotape reel"
-msgstr "videotape reel"
+msgstr "Videokelanauha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:369
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:371
@@ -13811,7 +13795,7 @@ msgstr "other video carrier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:379
 #, c-format
 msgid "unspecified"
-msgstr "unspecified"
+msgstr "määrittelemätön"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:16
 #, c-format
@@ -13820,8 +13804,8 @@ msgstr "UNIMARC-kentän 325h muodostaja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:22
 #, c-format
-msgid "Completeness of the reproduction code :"
-msgstr "Completeness of the reproduction code :"
+msgid "Completeness of the reproduction code:"
+msgstr "Jäljenteen täydellisyyskoodi:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:28
@@ -13848,8 +13832,8 @@ msgstr "UNIMARC-kentän 325j muodostaja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:21
 #, c-format
-msgid "Terms of access to the reproduction :"
-msgstr "Terms of access to the reproduction :"
+msgid "Terms of access to the reproduction:"
+msgstr "Jäljenteeseen pääsyn ehdot:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:27
@@ -13883,8 +13867,8 @@ msgstr "5 - free-to-read upon subscription (requires signing up)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:57
 #, c-format
-msgid "Qualifier type :"
-msgstr "Qualifier type :"
+msgid "Qualifier type:"
+msgstr "Määritetyyppi:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:61
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:63
@@ -13908,8 +13892,8 @@ msgstr "# - ei koodattu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:87
 #, c-format
-msgid "Unit under embargo :"
-msgstr "Unit under embargo :"
+msgid "Unit under embargo:"
+msgstr "Saarron alainen yksikkö:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:91
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:93
@@ -13937,8 +13921,8 @@ msgstr "i - issue(s) part"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:129
 #, c-format
-msgid "Number of units under embargo :"
-msgstr "Number of units under embargo :"
+msgid "Number of units under embargo:"
+msgstr "Saarron alaisten yksiköiden lukumäärä:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:17
 #, c-format
@@ -13950,62 +13934,62 @@ msgstr "UNIMARC-kentän 4XX muodostaja"
 msgid "Search on "
 msgstr "Hae "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:30
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:28
 #, c-format
 msgid "Any word"
 msgstr "Mikä sana tahansa"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:32
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:30
 #, c-format
 msgid "Item type:"
 msgstr "Nidetyyppi:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:32
 #, c-format
 msgid "All item types"
 msgstr "Kaikki nidetyypit"
 
 #. INPUT type=submit
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:41
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:39
 msgid "Start search"
 msgstr "Aloita haku"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:46
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:44
 #, c-format
 msgid "Search results"
 msgstr "Hakutulokset"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:53
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:51
 #, c-format
 msgid "&lt;&lt; Previous"
 msgstr "&lt;&lt; Edellinen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:71
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:69
 #, c-format
 msgid "Next&gt;&gt;"
 msgstr "Seuraava&gt;&gt;"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:88
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:86
 #, c-format
 msgid "Item count"
 msgstr "Niteitä"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:89
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:87
 #, c-format
 msgid "Location"
 msgstr "Paikka"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:129
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:127
 #, c-format
 msgid "Clear field"
 msgstr "Tyhjennä kenttä"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:144
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:142
 #, c-format
 msgid "&lt;&lt; Previous "
 msgstr "&lt;&lt; Edellinen "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:166
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:164
 #, c-format
 msgid "Next&gt;&gt; "
 msgstr "Seuraava&gt;&gt; "
@@ -15266,7 +15250,7 @@ msgstr "abcdjptvxyz"
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:453
 #, c-format
 msgid "&amp;sort_by="
-msgstr ""
+msgstr "&amp;sort_by="
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:449
 #, c-format
@@ -15638,6 +15622,22 @@ msgstr "Idref"
 #, c-format
 #~ msgid "OK"
 #~ msgstr "OK"
+
+#, c-format
+#~ msgid "RDA Carrier"
+#~ msgstr "RDA Carrier"
+
+#, c-format
+#~ msgid "RDA Content"
+#~ msgstr "RDA Content"
+
+#, c-format
+#~ msgid "RDA Media"
+#~ msgstr "RDA Media"
+
+#, c-format
+#~ msgid "RDA fr Carrier"
+#~ msgstr "RDA fr Carrier"
 
 #, c-format
 #~ msgid "Serial type"

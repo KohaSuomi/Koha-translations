@@ -1,10 +1,10 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.05.001\n"
+"Project-Id-Version: Koha 26.05.04.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2025-08-15 03:04+0000\n"
+"PO-Revision-Date: 2026-10-02 03:03+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.16.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-installer.po\n"
 "X-POOTLE-MTIME: 1695118958.904701\n"
@@ -3413,6 +3413,371 @@ msgstr "ei kielellistä sisältöä"
 msgid "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"
 msgstr "zaza"
 
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:488
+msgid "audio cartridge"
+msgstr "äänisilmukkakasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:489
+msgid "audio belt"
+msgstr "äänihihna"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:490
+msgid "audio cylinder"
+msgstr "äänisylinteri"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:491
+msgid "audio disc"
+msgstr "äänilevy"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:492
+msgid "sound track reel"
+msgstr "ääniraitakela"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:493
+msgid "audio roll"
+msgstr "äänirulla"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:494
+msgid "audio wire reel"
+msgstr "äänilankakela"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:495
+msgid "audiocassette"
+msgstr "äänikasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:496
+msgid "audiotape reel"
+msgstr "äänikela"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:497
+msgid "computer card"
+msgstr "reikäkortti, magneettikortti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:498
+msgid "computer chip cartridge"
+msgstr "piirikotelo"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:499
+msgid "computer disc"
+msgstr "levyke"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:500
+msgid "computer disc cartridge"
+msgstr "levykekasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:501
+msgid "computer tape cartridge"
+msgstr "tietokoneen nauhakasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:502
+msgid "computer tape cassette"
+msgstr "tietokoneen DAT-kasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:503
+msgid "computer tape reel"
+msgstr "tietokoneen magneettinauha"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:504
+msgid "online resource"
+msgstr "verkkoresurssi"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:505
+msgid "aperture card"
+msgstr "reikäkortti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:506
+msgid "microfiche"
+msgstr "mikrokuultokortti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:507
+msgid "microfiche cassette"
+msgstr "mikrokuultokorttikasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:508
+msgid "microfilm cartridge"
+msgstr "Mikromuoto, mikrofilmisilmukkakasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:509
+msgid "microfilm cassette"
+msgstr "mikrofilmikasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:510
+msgid "microfilm reel"
+msgstr "mikrofilmikela"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:511
+msgid "microfilm roll"
+msgstr "mikrofilmirulla"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:512
+msgid "microfilm slip"
+msgstr "mikrofilmiliuska"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:513
+msgid "microopaque"
+msgstr "mikrokortti (läpinäkymätön)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:514
+msgid "microscope slide"
+msgstr "mikroskoopin preparaatti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:515
+msgid "film cartridge"
+msgstr "filmisilmukkakasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:516
+msgid "film cassette"
+msgstr "filmikasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:517
+msgid "film reel"
+msgstr "filmikela"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:518
+msgid "film roll"
+msgstr "filmirulla"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:519
+msgid "filmslip"
+msgstr "filminauha"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:520
+msgid "filmstrip"
+msgstr "raina"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:521
+msgid "filmstrip cartridge"
+msgstr "rainakasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:522
+msgid "overhead transparency"
+msgstr "heijastettava kuva, kalvo"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:523
+msgid "slide"
+msgstr "dia"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:524
+msgid "stereograph card"
+msgstr "stereografinen kortti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:525
+msgid "stereograph disc"
+msgstr "stereografinen levy"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:526
+msgid "card"
+msgstr "kortti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:527
+msgid "flipchart"
+msgstr "lehtiötaulu"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:528
+msgid "roll"
+msgstr "rulla"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:529
+msgid "sheet"
+msgstr "arkki"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:530
+msgid "volume"
+msgstr "osa"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:531
+msgid "object"
+msgstr "esine"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:532
+msgid "video cartridge"
+msgstr "videosilmukkakasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:533
+msgid "videocassette"
+msgstr "videokasetti"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:534
+msgid "videodisc"
+msgstr "videolevy"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:535
+msgid "videotape reel"
+msgstr "Videokelanauha"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:536
+msgid "unspecified"
+msgstr "määrittelemätön"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:537
+msgid "other"
+msgstr "muu"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:547
+msgid "other (audio)"
+msgstr "muu (audio)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:556
+msgid "other (computer)"
+msgstr "muu (tietokone)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:566
+msgid "other (microform)"
+msgstr "muu (mikromuoto)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:568
+msgid "other (microscopic)"
+msgstr "muu (mikroskooppinen)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:578
+msgid "other (projected image)"
+msgstr "muu (projisoitu kuva)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:581
+msgid "other (stereographic carriers)"
+msgstr "muu (stereografiset tallenteet)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:588
+msgid "other (unmediated)"
+msgstr "muu (välittämätön)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:593
+msgid "other (video)"
+msgstr "muu (video)"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:595
+msgid "cartographic dataset"
+msgstr "kartografinen aineisto"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:596
+msgid "cartographic image"
+msgstr "kartografinen kuva"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:597
+msgid "cartographic moving image"
+msgstr "kartografinen liikkuva kuva"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:598
+msgid "cartographic tactile image"
+msgstr "Kartografinen taktiili kuva"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:599
+msgid "cartographic tactile three-dimensional form"
+msgstr "kartografinen kolmiulotteinen aineisto"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:600
+msgid "cartographic three-dimensional form"
+msgstr "kartografinen kolmiulotteinen aineisto"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:601
+msgid "computer dataset"
+msgstr "tietokoneaineisto"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:602
+msgid "computer program"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:603
+msgid "notated movement"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:604
+#, fuzzy
+msgid "notated music"
+msgstr "Nuottijulkaisu"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:605
+#, fuzzy
+msgid "performed music"
+msgstr "Nuottijulkaisu"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:606
+#, fuzzy
+msgid "sounds"
+msgstr "Perustaja"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:607
+msgid "spoken word"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:608
+msgid "still image"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:609
+msgid "tactile image"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:610
+#, fuzzy
+msgid "tactile notated music"
+msgstr "Nuottijulkaisu"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:611
+msgid "tactile notated movement"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:612
+msgid "tactile text"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:613
+msgid "tactile three-dimensional form"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:614
+msgid "text"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:615
+msgid "three-dimensional form"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:616
+#, fuzzy
+msgid "three-dimensional moving image"
+msgstr "Kaukokartoituskuva"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:617
+msgid "two-dimensional moving image"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:645
+msgid "audio"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:646
+#, fuzzy
+msgid "computer"
+msgstr "Elektroninen aineisto"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:647
+msgid "microform"
+msgstr "mikrotallenne"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:648
+msgid "microscopic"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:649
+#, fuzzy
+msgid "projected"
+msgstr "Hylätty"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:650
+#, fuzzy
+msgid "stereographic"
+msgstr "Koreografi"
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:651
+msgid "unmediated"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:4:row:652
+#, fuzzy
+msgid "video"
+msgstr "Tarjoaja"
+
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:1
 msgid "Undetermined function"
 msgstr "Määrittelemätön suhde"
@@ -3643,7 +4008,7 @@ msgstr "Kyseenalainen tekijä"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:58
 msgid "Editor"
-msgstr "Editori"
+msgstr "Toimittaja"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:59
 msgid "Engraver"
@@ -4049,6 +4414,10 @@ msgstr "Velattomuusilmoitus"
 msgid "Notice failure suspension"
 msgstr "Keskeytys epäonnistuneesta viestinlähetyksestä"
 
+#: installer/data/mysql/en/mandatory/patron_restriction_types.yml:restriction_types:1:row:6
+msgid "Fines suspension"
+msgstr "Maksujen keskeytys"
+
 #: installer/data/mysql/en/mandatory/sample_frequencies.yml:description:1
 msgid "Sample frequencies for subscriptions"
 msgstr "Esimerkki ilmestymistiheys kausijulkaisutilauksille"
@@ -4419,7 +4788,7 @@ msgstr "Lista on siirretty sinulle"
 # Siirrot? Kuljetukset? Kuljetukset ja siirrot?
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58
 msgid "Transfer ownership"
-msgstr "Listan omistajan muutos"
+msgstr "Siirrä omistajuus"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
 msgid "Discharge confirmation"
@@ -4433,506 +4802,476 @@ msgstr "Velattomuusilmoitus asiakkaalle <<borrowers.firstname>> <<borrowers.surn
 msgid "Account expiration"
 msgstr "Käyttäjätilin vanhentuminen"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
 msgid "Account renewal"
 msgstr "Tilin uusinta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64
 msgid "OPAC self-registration verification email"
 msgstr "Verkkokirjaston itserekisteröitymisen vahvistussähköposti"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64
 msgid "Verify your account"
 msgstr "Vahvista käyttäjätilisi"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65
 msgid "Library account password change notification"
 msgstr "Ilmoitus kirjastokortin salasanan muutoksesta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65
 msgid "Notification of password change"
 msgstr "Ilmoitus salasanan vaihdosta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
 msgid "Koha password recovery"
 msgstr "Kohan salasanan palautus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
 msgid "Online password reset"
 msgstr "Salasanan palautus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
 msgid "Koha password reset"
 msgstr "Kohan salasanan palautus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68
 msgid "Welcome notice "
 msgstr "Tervetuloilmoitus "
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68
 msgid "[% USE Koha %][% IF Koha.Preference('LibraryName') %]Welcome to [% Koha.Preference('LibraryName') %][% ELSE %]Welcome to the library[% END %]"
 msgstr "[% USE Koha %][% IF Koha.Preference('LibraryName') %] [% Koha.Preference('LibraryName') %] toivottaa sinut tervetulleeksi [% ELSE %]Tervetuloa kirjastoon[% END %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Two-authentication token"
 msgstr "Kaksivaiheinen tunnistus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "two-authentication step token"
 msgstr "Kaksivaiheisen tunnistautumisen koodi"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71
 msgid "Account balance slip"
 msgstr "Tilin saldo -kuitti"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71
 msgid "Account summary for [% borrower.firstname %] [% borrower.surname %]"
 msgstr "Tilin yhteenveto asiakkaalle [% borrower.firstname %] [% borrower.surname %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72
 msgid "Acquisition order"
 msgstr "Hankintatilaus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72
 msgid "Order"
 msgstr "Tilaus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73
 msgid "Point of sale receipt"
 msgstr "Myyntipisteen kuitti"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73
 msgid "Receipt"
 msgstr "Kuitti"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75
+#, fuzzy
+msgid "Payout receipt"
+msgstr "Myyntipisteen kuitti"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75
+#, fuzzy
+msgid "Point of sale payout receipt"
+msgstr "Myyntipisteen kuitti"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76
 msgid "Hold has been cancelled"
 msgstr "Varaus on peruutettu"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77
 msgid "Hold available for pickup"
 msgstr "Varaus noudettavissa"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77
 msgid "Hold available for pickup at <<branches.branchname>>"
 msgstr "Varaus noudettavissa kirjastosta <<branches.branchname>>"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78
 msgid "Hold(s) available for pickup"
 msgstr "Varaus noudettavissa"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80
 msgid "Hold available for pickup at [% branch.branchname %]"
 msgstr "Varaus noudettavissa kirjastosta [% branch.branchname %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81
 msgid "Hold available for pickup (print notice)"
 msgstr "Varaus noudettavissa (tuloste)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82
 msgid "Hold placed on item"
-msgstr "Nide varattu"
+msgstr "Teokseen kohdistui varaus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83
 msgid "Canceled hold available for different patron"
 msgstr "Peruutettu varaus vapautunut toiselle asiakkaalle"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84
 msgid "Waiting hold reminder"
 msgstr "Muistutus odottavasta varauksesta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84
 msgid "You have waiting holds."
 msgstr "Sinulla on odottavia varauksia."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85
 msgid "New curbside pickup"
 msgstr "Uusi nouto"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85
 msgid "You have scheduled a curbside pickup for [% branch.branchname %]"
 msgstr "Sinulle on ajastettu nouto kirjastossa [% branch.branchname %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86
 msgid "New serial issue"
 msgstr "Uusi kausijulkaisun numero"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86
 msgid "New serial issue is now available"
 msgstr "Uusi kausijulkaisun numero on saatavana"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87
 msgid "Purchase suggestion accepted"
 msgstr "Hankintaehdotus hyväksytty"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87
 msgid "Suggestion accepted"
 msgstr "Hankintaehdotus hyväksytty"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88
 msgid "Suggested purchase available"
 msgstr "Hankintaehdotus saatavana"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88
 msgid "Suggestion available"
 msgstr "Hankintaehdotus saatavana"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89
 msgid "New suggestion"
 msgstr "Uusi ehdotus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90
 msgid "Suggested item ordered"
 msgstr "Ehdotettu nide tilattu"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90
 msgid "Suggestion ordered"
 msgstr "Ehdotus tilattu"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91
 msgid "Purchase suggestion declined"
 msgstr "Hankintaehdotus hylätty"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91
 msgid "Suggestion rejected"
 msgstr "Ehdotus hylätty"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92
 msgid "A suggestion is ready to be processed"
 msgstr "Hankintaehdotus on valmis käsiteltäväksi"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92
 msgid "Notify fund owner"
 msgstr "Uusi hankintaehdotus (tilin hallinnoija)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93
 msgid "A suggestion has been assigned to you"
 msgstr "Sinulle on hankintaehdotus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93
 msgid "Notify manager of a suggestion"
 msgstr "Uusi hankintaehdotus (hankintavastaava)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94
 msgid "OPAC problem report"
 msgstr "Verkkokirjaston vikailmoitukset"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95
 msgid "Automatic renewal notice"
 msgstr "Ilmoitus automaattisesta uusinnasta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95
 msgid "Notification of automatic renewal"
 msgstr "Ilmoitus automaattisesta uusinnasta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96
 msgid "Checkin slip"
 msgstr "Palautuskuitti"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Overdue item fine description"
 msgstr "Myöhästymismaksun kuvaus"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98
 msgid "Auto renewals (Digest)"
 msgstr "Automaattinen uusinta (yhteenveto)"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98
 msgid "Notification on auto renewals"
 msgstr "Ilmoitus automaattisesta uusinnasta"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:99
 msgid "Notification to return a recalled item"
 msgstr "Palautuspyyntö niteelle"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100
 msgid "Recalled item awaiting pickup"
 msgstr "Noudettavissa olevat palautuspyynnöt"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101
 msgid "Return recalled item"
 msgstr "Palauta takaisinkutsuttu nide"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103
 msgid "Details of patron who recalled item"
 msgstr "Palautuspyynnön tehneen asiakkaan tiedot"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104
 msgid "Confirmation of disabling two factor authentication"
 msgstr "Kaksivaiheinen tunnistautuminen poistettu käytöstä"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:102
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105
 msgid "Confirmation of enabling two factor authentication"
 msgstr "Kaksivaiheinen tunnistautuminen otettu käyttöön"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106
 msgid "New OPAC self-registration"
 msgstr "Uusi verkkokirjaston itserekisteröityminen"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106
 msgid "New OPAC self-registration submitted"
 msgstr "Uusi verkkokirjaston itserekisteröityminen tehty"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107
 msgid "Send list"
 msgstr "Lähetä lista"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107
 msgid "Your list: [% listname | html %]"
 msgstr "Listasi: [% listname | html %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108
 msgid "Send cart"
 msgstr "Lähetä kori"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108
 msgid "Your cart"
 msgstr "Korisi"
 
 # Siirrot? Kuljetukset? Kuljetukset ja siirrot?
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:109
 msgid "Train item slip"
 msgstr "Käsittelyeräkuitti"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:110
 msgid "Hold is confirmed"
 msgstr "Varaus on vahvistettu"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:110
 msgid "Your hold on [% hold.biblio.title %] is confirmed"
 msgstr "Varauksesi teokseen [% hold.biblio.title %] on vahvistettu"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111
 msgid "OAI harvest report"
 msgstr "OAI-haravoinnin raportti"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111
 msgid "OAI harvest report for [% servername %]"
 msgstr "OAI-haravoinnin raportti palvelimelle [% servername %]"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:112
+msgid "OPAC virtual card"
+msgstr ""
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:6
+msgid "A recall that you requested on the following item: %s%s / %s%s (%s) is now ready for you to pick up at %s. Please pick up your item by %s.%s"
+msgstr "Varaamasi teos %s%s / %s%s (%s) on noudettavissa kirjastosta %s. Nouda teos %s mennessä.%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:1
+msgid "Your item has been recalled: %s (%s). Please return by %s."
+msgstr "Lainaamasi teokseen on palautuspyyntö: %s (%s). Palauta se kirjastoon %s."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:102:mul:1
+msgid "A recalled item: %s(%s) is ready for you to pick up at %s. Please collect by %s."
+msgstr "Palautuspyynnön kautta varaamasi teos %s (%s) on noudettavissa kirjastosta: %s. Nouda teos %s mennessä."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:3
 msgid "Recall for pickup at %s%s"
 msgstr "Palautuspyyntö on käsitelty ja teos odottaa noutoa kirjastossa: %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:9
 msgid "ITEM RECALLED%s"
 msgstr "PALAUTUSPYYNTÖ%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:10
 msgid "%s%s by %s%s%s"
 msgstr "%s%s / %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:12
 msgid "%s Callnumber: %s%s%s"
 msgstr "%s Luokka: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:13
 msgid "Waiting since: %s%s"
 msgstr "Noudettavissa alkaen: %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:100:mul:14
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:14
 msgid "%sNotes: %s%s%s"
 msgstr "%sHuomautukset: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:1
 msgid "%sDear %s %s,%s"
 msgstr "%sHyvä %s %s,%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:2
 msgid "%sThis is to confirm that someone disabled two factor authentication on your account.%s"
 msgstr "%sTililtäsi on poistettu käytöstä kaksivaiheinen tunnistautuminen.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:3
 msgid "%sIf you did not do this, someone else may be using your account. Please contact technical support.%s"
 msgstr "%sJos et pyytänyt tätä muutosta, joku muu saattaa käyttää tiliäsi. Ota yhteys kirjastoon.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:101:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:4
 msgid "%sYour library%s"
 msgstr "%sKirjastosi%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:102:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105:mul:2
 msgid "%sThis is to confirm that someone enabled two factor authentication on your account.%s"
 msgstr "%sOlet ottanut käyttöön kaksivaiheisen tunnistautumisen tilillesi.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:1
 msgid "%sNew OPAC self-registration%s"
 msgstr "%sUusi verkkokirjaston itserekisteröityminen%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:2
 msgid "%s%sSelf-registration made:%s"
 msgstr "%s%sVerkkokirjaston itserekisteröityminen tehty:%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:5
 msgid "%s%sCardnumber: %s%s%s"
 msgstr "%s%sKirjastokortin numero: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:6
 msgid "%s%sEmail: %s%s%s"
 msgstr "%s%sSähköposti: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:7
 msgid "%s%sPhone: %s%s%s"
 msgstr "%s%sPuhelin: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:8
 msgid "%s%sMobile: %s%s%s"
 msgstr "%s%sMatkapuhelin: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:9
 msgid "%s%sFax: %s%s%s"
 msgstr "%s%sFaksi: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:10
 msgid "%s%sSecondary email: %s%s%s"
 msgstr "%s%sToissijainen sähköpostiosoite: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:11
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:11
 msgid "%s%sSecondary phone: %s%s%s"
 msgstr "%s%sToissijainen puh.nro: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:12
 msgid "%s%sHome library: %s%s%s"
 msgstr "%s%sKotikirjasto: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:103:mul:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:13
 msgid "%s%sTemporary patron category: %s%s%s"
 msgstr "%s%sVäliaikainen asiakastyyppi: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:5
 msgid "Hi,%s%s"
 msgstr "Hei,%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:6
 msgid "%s %s sent you a list from our online catalog called: %s.%s"
 msgstr "%s %s lähetti sinulle verkkokirjastostamme listan nimeltään %s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:7
 msgid "Please note that the attached file is a MARC bibliographic records file which can be imported into personal bibliographic software like EndNote, Reference Manager or ProCite.%s"
 msgstr "Huomaa, että liitetiedosto on MARC-formaatissa, jota käyttävät kirjastot ja useimmat viitteidenhallintaohjelmat kuten EndNote, Referece Manager tai ProCite.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:12
 msgid "%sAuthor(s): %s%s%s%s%s; %s%s%s%s%s%s%s;%s%s%s%s%s"
 msgstr "%sTekijä(t): %s%s%s%s%s; %s%s%s%s%s%s%s;%s%s%s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:13
 msgid "%s%sISBN: %s%s%s; %s%s%s%s"
 msgstr "%s%sISBN: %s%s%s; %s%s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:14
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:14
 msgid "%sPublished by: %s%s in %s%s%s, %s%s%s%s"
 msgstr "%sJulkaisija: %s%s vuonna %s%s%s, %s%s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:15
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:15
 msgid "%sCollection: %s%s%s"
 msgstr "%sKokoelma: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:16
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:16
 msgid "%sCopyright year: %s%s%s"
 msgstr "%sTekijänoikeusvuosi: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:18
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:18
 msgid "%sUnified title: %s%s%s"
 msgstr "%sYhtenäistetty nimeke: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:19
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:19
 msgid "%sSerial: %s%s%s"
 msgstr "%sKausijulkaisu: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:20
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:20
 msgid "%sLCCN: %s%s%s"
 msgstr "%sLCCN: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:21
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:21
 msgid "%sIn: %s%s %s%s%s%s%s%s"
 msgstr "%sTeoksessa: %s%s %s%s%s%s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:22
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:22
 msgid "%sURL: %s%s%s"
 msgstr "%sURL: %s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:23
 msgid "[%sView in online catalog%s"
 msgstr "[%sKatso verkkokirjastossa%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:104:mul:24
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:24
 msgid "%s%sItems: %s%s%s%s"
 msgstr "%s%sNiteitä: %s%s%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:6
 msgid "%s %s sent you a cart from our online catalog.%s"
 msgstr "%s %s lähetti sinulle verkkokirjastostamme korinsa.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:105:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:23
 msgid "%sView in online catalog%s"
 msgstr "%sKatso verkkokirjastossa%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:109:mul:4
 msgid "Train name: %s"
 msgstr "Käsittelyerän nimi: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:109:mul:5
 msgid "Sent on: %s"
 msgstr "Lähetetty: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:106:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:109:mul:9
 msgid "Item number #%s"
 msgstr "Niteen numero käsittelyerässä #%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:1
-msgid "Hello %s %s (%s),"
-msgstr "Hei %s %s (%s),"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:2
-msgid "Your hold on %s (%s) has been confirmed."
-msgstr "Varauksesi %s (%s) on vahvistettu."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:107:mul:3
-msgid "You will be notified by the library when your item is available for pickup."
-msgstr "Saat ilmoituksen kun nide on noudettavissa."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:1
-msgid "OAI harvest report for %s:"
-msgstr "OAI-haravoinnin raportti palvelimelle %s:"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:3
-msgid "Endpoint: %s"
-msgstr "Päätepiste: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:4
-msgid "Set: %s"
-msgstr "Setti: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:5
-msgid "Data format: %s"
-msgstr "Tiedon tallennusmuoto: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:6
-msgid "Record type: %s"
-msgstr "Tietuetyyppi: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:8
-msgid "%s records added"
-msgstr "%s tietuetta lisätty"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:9
-msgid "%s records updated"
-msgstr "%s tietuetta päivitetty"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:10
-msgid "%s records deleted"
-msgstr "%s tietuetta poistettu"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:11
-msgid "%s records skipped"
-msgstr "%s tietuetta ohitettu"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:12
-msgid "%s records in error"
-msgstr "%s tietuetta virheellisiä"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:108:mul:13
-msgid "%s total"
-msgstr "%s yhteensä"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:26
 msgid "      %sTransaction ID: %s"
@@ -4993,6 +5332,62 @@ msgstr "      %sVaihtorahaa annettu: %s"
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:107
 msgid "      %sAccount balance as on date:%s"
 msgstr "      %sTilin saldo tällä hetkellä:%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:110:mul:1
+msgid "Hello %s %s (%s),"
+msgstr "Hei %s %s (%s),"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:110:mul:2
+msgid "Your hold on %s (%s) has been confirmed."
+msgstr "Varauksesi %s (%s) on vahvistettu."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:110:mul:3
+msgid "You will be notified by the library when your item is available for pickup."
+msgstr "Saat ilmoituksen kun nide on noudettavissa."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:1
+msgid "OAI harvest report for %s:"
+msgstr "OAI-haravoinnin raportti palvelimelle %s:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:3
+msgid "Endpoint: %s"
+msgstr "Päätepiste: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:4
+msgid "Set: %s"
+msgstr "Setti: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:5
+msgid "Data format: %s"
+msgstr "Tiedon tallennusmuoto: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:6
+msgid "Record type: %s"
+msgstr "Tietuetyyppi: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:8
+msgid "%s records added"
+msgstr "%s tietuetta lisätty"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:9
+msgid "%s records updated"
+msgstr "%s tietuetta päivitetty"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:10
+msgid "%s records deleted"
+msgstr "%s tietuetta poistettu"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:11
+msgid "%s records skipped"
+msgstr "%s tietuetta ohitettu"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:12
+msgid "%s records in error"
+msgstr "%s tietuetta virheellisiä"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:111:mul:13
+msgid "%s total"
+msgstr "%s yhteensä"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:11:mul:20
 msgid "      %sFee ID: %s"
@@ -5267,9 +5662,8 @@ msgid "According to our current records, you have items that are overdue."
 msgstr "Sinulla on myöhässä olevia lainoja."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:5
-#, fuzzy
 msgid "Please return or renew your overdue items at the library as soon as possible."
-msgstr "Uusi tai palauta lainat mahdollisimman pian."
+msgstr "Uusi tai palauta myöhässä olevat lainat mahdollisimman pian."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:10
 msgid "Phone: %s"
@@ -5287,23 +5681,19 @@ msgstr "Sähköposti: %s"
 msgid "If you have registered a password with the library, and you have a renewal available, you may renew online."
 msgstr "Jos sinulla on kirjautumistunnukset ja uusiminen on mahdollista, voit uusia lainat verkossa."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:15
-msgid "If an item becomes more than 30 days overdue, you will be unable to use your library card until the item is returned."
-msgstr "Jos nide on myöhässä yli 30 päivää, olet lainakiellossa, kunnes nide palautetaan."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:16
 msgid "%sThese items are overdue:%sThis item is overdue:%s"
 msgstr "%sNämä teokset ovat myöhässä:%sTämä teos on myöhässä:%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:21
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:20
 msgid "\"%s\" by %s, %s, Barcode: %s, Fine: %s"
 msgstr "\"%s\" / %s, %s, %s, Viivakoodi: %s, Maksu: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:24
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:23
 msgid "Thank you for your prompt attention to this matter."
 msgstr "Kiitos nopeasta toiminnasta."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:26
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:25
 msgid "%s staff"
 msgstr "%s henkilökunta"
 
@@ -5529,15 +5919,15 @@ msgstr "Kirjastokorttisi vanhenee pian:"
 msgid "Thank you,"
 msgstr "Kiitos,"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:2
 msgid "Dear %s %s %s,"
 msgstr "Hyvä %s %s %s,"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:4
 msgid "Your library account has been renewed. The new expiry date is: %s."
 msgstr "Kirjastokorttisi voimassaoloaikaa on jatkettu. Uusi vanhentumispäivä on: %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:5
 msgid ""
 "%s\n"
 "An enrollment fee of %s has been applied.\n"
@@ -5547,153 +5937,97 @@ msgstr ""
 "Ilmoittautumismaksu %s on lisätty.\n"
 "%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:8
 msgid "Your library,"
 msgstr "Kirjastosi,"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:1
 msgid "Hello!"
 msgstr "Hei!"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:3
 msgid "Your library account has been created. Please verify your email address by clicking this link to complete the signup process:"
 msgstr "Olet rekisteröitynyt kirjaston asiakkaaksi. Viimeistele rekisteröinti vahvistamalla sähköpostiosoitteesi klikkaamalla tätä linkkiä:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:5
 msgid "%s/cgi-bin/koha/opac-registration-verify.pl?token=%s"
 msgstr "%s/cgi-bin/koha/opac-registration-verify.pl?token=%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:7
 msgid "If you did not initiate this request, you may safely ignore this one-time message. The request will expire shortly."
 msgstr "Jos et luonut tiliä, voit jättää tämän viestin huomioimatta. Vahvistus vanhenee pian."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:3
 msgid "We want to notify you that your password has been changed. If you did not change it yourself (or requested that change), please contact library staff."
 msgstr "Salasanasi on muuttunut. Jos et muuttanut salasanaasi itse (tai pyytänyt kirjastosta sen muuttamista), ole yhteydessä kirjastoon."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:1
 msgid "%sThis email has been sent in response to your password recovery request for the account %s%s%s."
 msgstr "%sTämä sähköposti on lähetetty vastauksena tilin salasanan palautuspyyntöön %s%s%s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:4
 msgid "You can now create your new password using the following link:"
 msgstr "Voit luoda uuden salasanan tämän linkin kautta:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:7
 msgid "%sThis link will be valid for 2 days from this email's reception, then you must reapply if you do not change your password.%s"
 msgstr "%sTämä linkki on voimassa kaksi päivää viestin saapumisesta. Ellet vaihda salasanaa sinä aikana, sinun pitää hakea sitä uudelleen.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:8
 msgid "%sThank you.%s"
 msgstr "%sKiitos.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:1
 msgid "%sA librarian has reset the password for the account %s%s%s."
 msgstr "%sTämä sähköposti on lähetetty vastauksena tilin salasanan palautuspyyntöön %s%s%s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:4
 msgid "Please create your new password using the following link:"
 msgstr "Luo uusi salasana tämän linkin kautta:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:7
 msgid "%sThis link will be valid for 5 days from this email's reception, then you must reapply if you do not change your password.%s"
 msgstr "%sTämä linkki on voimassa viisi päivää viestin saapumisesta. Ellet vaihda salasanaa sinä aikana, sinun pitää hakea sitä uudelleen.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:2
 msgid "Hello %s %s %s.%s"
 msgstr "Hei %s %s %s. %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:4
 msgid "Thank you for joining %s%s%sthe library%s%s"
 msgstr "Tervetuloa asiakkaaksi %s%skirjasto%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:6
 msgid "You can search for all our materials in our %scatalog%s.%s"
 msgstr "Voit etsiä kaikkia aineistojamme %skirjaston haulla%s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:8
 msgid "Your library card number is %s%s"
 msgstr "Kirjastokorttisi numero on %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:10
 msgid "If you have any problems or questions regarding your account, please contact the library."
 msgstr "Jos sinulla on ongelmia tai kysyttävää, ota yhteys kirjastoon."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:28
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:28
 msgid "      %sHello %s %s %s%s"
 msgstr "      %sHei %s %s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:34
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:34
 msgid "        Thank you for joining %s%s%sthe library%s%s"
 msgstr "        Tervetuloa asiakkaaksi %s%s%skirjastoon%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:37
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:37
 msgid "        You can search for all our materials in our %scatalog%s.%s"
 msgstr "        Voit etsiä kaikkia aineistojamme %skirjaston haulla%s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:40
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:40
 msgid "        Your library card number is %s%s"
 msgstr "        Kirjastokorttisi numero on %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:43
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:43
 msgid "        If you have any problems or questions regarding your account, please contact the library.%s"
 msgstr "        Jos sinulla on ongelmia tai kysyttävää, ota yhteys kirjastoon.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:3
-msgid "Your authentication token is %s."
-msgstr "Varmennuksesi on %s."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68:mul:4
-msgid "It is valid one minute."
-msgstr "On voimassa yhden minuutin."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:23
-msgid "      %sOutstanding accounts%s"
-msgstr "      %sMaksettavaa%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:29
-msgid "      %sDebts%s"
-msgstr "      %sVelat%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:34
-msgid "    %sDate%s"
-msgstr "    %sPäivämäärä%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:35
-msgid "    %sCharge%s"
-msgstr "    %sMaksu%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:36
-msgid "    %sAmount%s"
-msgstr "    %sSumma%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:37
-msgid "    %sOutstanding%s"
-msgstr "    %sMaksettavaa%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:52
-msgid "    %sThere are no outstanding debts on your account%s"
-msgstr "    %sTililläsi ei ole maksuja%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:58
-msgid "      %sCredits%s"
-msgstr "      %sHyvitykset%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:64
-msgid "    %sCredit%s"
-msgstr "    %sHyvitys%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:81
-msgid "    %sThere are no outstanding credits on your account%s"
-msgstr "    %sTililläsi ei ole hyvityksiä%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:88
-msgid "        Total credit as of %s:"
-msgstr "        Hyvitystä yhteensä %s:"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:90
-msgid "        Total outstanding dues as of %s:"
-msgstr "        Yhteensä maksettavaa %s:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:3
 msgid "Dear cataloger,%s"
@@ -5707,94 +6041,182 @@ msgstr "%s antoi seuraavan kuvailutietojen virheen %s%s%s sinun ratkaistavaksi%s
 msgid "You can action this concern from the %sconcern management page%s."
 msgstr "Voit käsitellä virheilmoitusta %svirheilmoitusten käsittelysivulla%s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:3
+msgid "Your authentication token is %s."
+msgstr "Varmennuksesi on %s."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:4
+msgid "It is valid one minute."
+msgstr "On voimassa yhden minuutin."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:23
+msgid "      %sOutstanding accounts%s"
+msgstr "      %sMaksettavaa%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:29
+msgid "      %sDebts%s"
+msgstr "      %sVelat%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:34
+msgid "    %sDate%s"
+msgstr "    %sPäivämäärä%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:35
+msgid "    %sCharge%s"
+msgstr "    %sMaksu%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:36
+msgid "    %sAmount%s"
+msgstr "    %sSumma%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:37
+msgid "    %sOutstanding%s"
+msgstr "    %sMaksettavaa%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:52
+msgid "    %sThere are no outstanding debts on your account%s"
+msgstr "    %sTililläsi ei ole maksuja%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:58
+msgid "      %sCredits%s"
+msgstr "      %sHyvitykset%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:64
+msgid "    %sCredit%s"
+msgstr "    %sHyvitys%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:81
+msgid "    %sThere are no outstanding credits on your account%s"
+msgstr "    %sTililläsi ei ole hyvityksiä%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:88
+msgid "        Total credit as of %s:"
+msgstr "        Hyvitystä yhteensä %s:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:90
+msgid "        Total outstanding dues as of %s:"
+msgstr "        Yhteensä maksettavaa %s:"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:8
 msgid "Please order for the library:"
 msgstr "Tilataan kirjastoon:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:10
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:10
 msgid "%sOrdernumber %s (%s) (quantity: %s) ($%s each).%s"
 msgstr "%sTilausnumero %s (%s) (määrä: %s) ($%s €/kpl).%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:24
 msgid "  %sTransaction ID: %s"
 msgstr "  %sTapahtuman ID: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:27
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:28
 msgid "  %sOperator ID: %s"
 msgstr "  %sOperaattorin ID: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:31
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:32
 msgid "  %sPayment type: %s"
 msgstr "  %sMaksun tyyppi: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:37
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:38
 msgid "        %s%sFee receipt%s%s"
 msgstr "        %s%sMaksukuitti%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:42
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:43
 msgid "    %sDescription of charges%s"
 msgstr "    %sMaksun kuvaus%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:55
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:56
 msgid "    %sTotal: %s"
 msgstr "    %sYhteensä: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:59
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:60
 msgid "    %sTendered: %s"
 msgstr "    %sTarjottu rahamäärä: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:63
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:64
 msgid "    %sChange: %s"
 msgstr "    %sVaihtoraha: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:39
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74:mul:39
 msgid "        %s%sPayment receipt%s%s"
 msgstr "        %s%sMaksukuitti%s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:58
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74:mul:58
 msgid "      %sTendered: %s"
 msgstr "      %sTarjottu rahamäärä: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72:mul:62
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74:mul:62
 msgid "      %sChange given:%s"
 msgstr "      %sVaihtorahaa annettu:%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:32
+#, fuzzy
+msgid "  %sPayout type: %s"
+msgstr "  %sMaksun tyyppi: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:38
+#, fuzzy
+msgid "        %s%sRefund payout receipt%s%s"
+msgstr "        %s%sMaksukuitti%s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:45
+#, fuzzy
+msgid "        Paid to: %s %s%s"
+msgstr "        Lasku asiakkaalle: %s %s %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:46
+#, fuzzy
+msgid "        Card number: %s"
+msgstr "        Kirjastokortin numero: %s%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:52
+#, fuzzy
+msgid "    %sRefund details%s"
+msgstr "      %sHyvitykset%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:55
+#, fuzzy
+msgid "    %sItem / Original charge%s"
+msgstr "    %sMaksun kuvaus%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:56
+#, fuzzy
+msgid "    %sRefund amount%s"
+msgstr "    %sSumma%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:67
+#, fuzzy
+msgid "                %sOriginal charge: %s"
+msgstr "      %sMaksujen kuvaus%s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:77
+#, fuzzy
+msgid "    %sTotal payout: %s"
+msgstr "    %sYhteensä: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76:mul:3
 msgid "We regret to inform you, that the following item can not be provided due to it being missing. Your hold was cancelled."
 msgstr "Valitettavasti varaamasi nide on kadonnut. Olemme peruuttaneet varauksesi."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76:mul:7
 msgid "Copy: %s"
 msgstr "Kopion numero: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77:mul:3
 msgid "You have a hold available for pickup as of %s:"
 msgstr "Sinulla on varaus noudettavissa %s:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:1
 msgid "You have one or more holds available for pickup:"
 msgstr "Sinulla on varaus noudettavissa:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:6
 msgid "Waiting since: %s"
 msgstr "Odottaa alkaen: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:7
 msgid "Waiting at: %s"
 msgstr "Odottaa kirjastossa: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77:mul:3
-msgid "Your hold for %s is available for pickup."
-msgstr "Varaamasi %s on noudettavissa."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78:mul:6
-msgid "Change service requested"
-msgstr "Palvelupyyntö"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79:mul:1
-#, fuzzy
-msgid "A hold has been placed on the following item: %s (%s) by the user %s."
-msgstr "Seuraavaan niteeseen on tehty varaus : %s (%s) käyttäjän toimesta %s %s (%s)."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:4
 msgid "The library has now marked your concern with %s as resolved.%s"
@@ -5804,20 +6226,31 @@ msgstr "Kirjasto on nyt merkinnyt raportoimasi virheen %s ratkaistuksi.%s"
 msgid "The following comment was left: %s"
 msgstr "Seuraava kommentti on tallennettu: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:1
-#, fuzzy
-msgid "The patron picking up %s (%s) has changed to %s."
-msgstr "Aiempi varaaja: %s, niteelle (%s) on muuttunut: %s %s (%s)."
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:3
+msgid "Your hold for %s is available for pickup."
+msgstr "Varaamasi %s on noudettavissa."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81:mul:6
+msgid "Change service requested"
+msgstr "Palvelupyyntö"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82:mul:1
+msgid "A hold has been placed on the following item: %s (%s) by the user %s."
+msgstr "Uusi varaus teokseen %s (%s) käyttäjältä %s."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:1
+msgid "The patron picking up %s (%s) has changed to %s."
+msgstr "Teokseen %s (%s) tehdyn varauksen noutava asiakas on muuttunut asiakkaaksi %s."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:2
 msgid "Please update the hold information for this item."
 msgstr "Siirrä seuraava nide uudelle varaajalle."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:80:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:6
 msgid "Pickup location: %s"
 msgstr "Noutopaikka: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:81:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:1
 msgid ""
 "Dear %s %s,\n"
 "\n"
@@ -5835,11 +6268,11 @@ msgstr ""
 "    %s : odottaa lähtien: %s\n"
 "%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:4
 msgid "You have a curbside pickup scheduled for %s at %s."
 msgstr "Sinulla on noutopalvelu varattuna ajalle %s kirjastoon %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:5
 msgid ""
 "Any holds waiting for you at the pickup time will be included in this pickup. At this time, that list includes:\n"
 "%s\n"
@@ -5855,229 +6288,217 @@ msgstr ""
 "%s\n"
 "%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:82:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:7
 msgid "Once you have arrived, please call your library or log into your account and click the \"Alert staff of your arrival\" button to let them know you are there."
 msgstr "Kun olet paikalla, soita kirjastoon tai kirjaudu tilillesi ja klikkaa \"Hälytä henkilökunta paikalle\" -nappia."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:3
 msgid "The following issue is now available:"
 msgstr "Seuraava numero on saatavana:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:83:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:7
 msgid "Please pick it up at your convenience."
 msgstr "Voit noutaa numeron, kun se sinulle sopii."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:3
 msgid "You have suggested that the library acquire %s by %s."
 msgstr "Olet tehnyt kirjastolle hankintaehdotuksen kirjasta %s / %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:5
 msgid "The library has reviewed your suggestion today. The item will be ordered as soon as possible. You will be notified by mail when the order is completed, and again when the item arrives at the library."
 msgstr "Kirjasto on tarkistanyt ehdotuksesi tänään ja ehdottamasi aineisto tilataan pian. Saat sähköpostia, kun tilaus on tehty ja uudelleen, kun aineisto saapuu kirjastolle."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:7
 msgid "If you have any questions, please email us at %s."
 msgstr "Jos sinulla on kysyttävää, ota yhteys kirjastoon: %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88:mul:5
 msgid "We are pleased to inform you that the item you requested is now part of the collection."
 msgstr "Ehdottamasi aineisto on nyt käsitelty ja lainattavissa."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:1
 msgid "%sSuggestion pending approval%s"
 msgstr "%sHyväksymistä odottava hankintaehdotus%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:2
 msgid "    %s%sSuggested by%s"
 msgstr "    %s%sEhdottaja%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:14
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:14
 msgid "    %s%sTitle suggested%s"
 msgstr "    %s%sEhdotetun aineiston nimeke%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:16
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:16
 msgid "    %s%sLibrary:%s %s%s"
 msgstr "    %s%sKirjasto:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:17
 msgid "    %s%sTitle:%s %s%s"
 msgstr "    %s%sNimi:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:18
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:18
 msgid "    %s%sAuthor:%s %s%s"
 msgstr "    %s%sTekijä:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:19
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:19
 msgid "    %s%sCopyright date:%s %s%s"
 msgstr "    %s%sTekijänoikeusvuosi:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:20
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:20
 msgid "    %s%sStandard number (ISBN, ISSN or other):%s %s%s"
 msgstr "    %s%sStandardoitu numero (ISBN, ISSN tai muu):%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:21
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:21
 msgid "    %s%sPublisher:%s %s%s"
 msgstr "    %s%sJulkaisija:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:22
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:22
 msgid "    %s%sCollection title:%s %s%s"
 msgstr "    %s%sKokoelman nimi:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:23
 msgid "    %s%sPublication place:%s %s%s"
 msgstr "    %s%sJulkaisu-/kustannuspaikka:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:24
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:24
 msgid "    %s%sQuantity:%s %s%s"
 msgstr "    %s%sMäärä:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:25
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:25
 msgid "    %s%sItem type:%s  %s%s"
 msgstr "    %s%sNidetyyppi:%s  %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:26
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:26
 msgid "    %s%sReason for suggestion:%s %s%s"
 msgstr "    %s%sHankintaperusteet:%s %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:86:mul:27
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:27
 msgid "    %s%sNotes:%s %s%s"
 msgstr "    %s%sHuomautukset:%s %s%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:5
-msgid "We are pleased to inform you that the item you requested has now been ordered. It should arrive soon, at which time it will be processed for addition into the collection."
-msgstr "Ehdottamasi aineisto on nyt tilattu ja sen pitäisi saapua pian kirjastolle käsiteltäväksi."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:7
-msgid "You will be notified again when the book is available."
-msgstr "Saat sähköpostin, kun aineisto on saatavana."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:87:mul:9
-msgid "If you have any questions, please email us at %s"
-msgstr "Jos sinulla on kysyttävää, ota yhteys kirjastoon: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88:mul:5
-msgid "The library has reviewed your request today, and has decided not to accept the suggestion at this time."
-msgstr "Kirjasto on tarkistanut ehdotuksesi tänään ja päättänyt olla hankkimatta ehdotuksesi mukaista aineistoa tällä kertaa."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:88:mul:7
-msgid "The reason given is: %s"
-msgstr "Syy: %s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:89:mul:3
-msgid "A new suggestion is ready to be processed: %s by %s."
-msgstr "Uusi hankintaehdotus on valmis käsiteltäväksi: %s by %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:4
 msgid "The library has added an update to the concern you reported against %s.%s"
 msgstr "Kirjasto on päivittänyt ilmoitustasi, jonka teit virheestä %s.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:5
+msgid "We are pleased to inform you that the item you requested has now been ordered. It should arrive soon, at which time it will be processed for addition into the collection."
+msgstr "Ehdottamasi aineisto on nyt tilattu ja sen pitäisi saapua pian kirjastolle käsiteltäväksi."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:7
+msgid "You will be notified again when the book is available."
+msgstr "Saat sähköpostin, kun aineisto on saatavana."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:9
+msgid "If you have any questions, please email us at %s"
+msgstr "Jos sinulla on kysyttävää, ota yhteys kirjastoon: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:5
+msgid "The library has reviewed your request today, and has decided not to accept the suggestion at this time."
+msgstr "Kirjasto on tarkistanut ehdotuksesi tänään ja päättänyt olla hankkimatta ehdotuksesi mukaista aineistoa tällä kertaa."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:7
+msgid "The reason given is: %s"
+msgstr "Syy: %s"
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:3
+msgid "A new suggestion is ready to be processed: %s by %s."
+msgstr "Uusi hankintaehdotus on valmis käsiteltäväksi: %s by %s."
+
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:3
 msgid "A new suggestion has been assigned to you: %s."
 msgstr "Sinulle on uusi hankintaehdotus: %s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:1
 msgid "Username: %s"
 msgstr "Käyttäjätunnus: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:3
 msgid "Problem page: %s"
 msgstr "Ongelmasivu: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:91:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:94:mul:7
 msgid "Message: %s"
 msgstr "Viesti: %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:3
 msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "Seuraava nide, %s, on uusittu oikein ja erääntyy nyt %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:4
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:4
 msgid "This item has reached the maximum number of automatic renewals and will no longer be renewed."
 msgstr "Lainan uusimiskerrat ovat tulleet täyteen eikä uusinta ole enää mahdollista."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:7
 msgid "This item has reached the maximum number of unseen renewals and will need to be renewed at the library."
 msgstr "Lainan verkkokirjastouusimiskerrat ovat tulleet täyteen ja laina on uusittava kirjastossa."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:9
 msgid "The following item, %s, has not been renewed because:"
 msgstr "Seuraavaa nidettä, %s, ei ole uusittu koska:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:11
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:11
 msgid "You have reached the maximum number of renewals possible."
 msgstr "Lainan uusimiskerrat ovat tulleet täyteen."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:13
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:13
 msgid "This item is on hold for another patron."
 msgstr "Tämä nide varattu toiselle asiakkaalle."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:15
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:15
 msgid "You are currently restricted."
 msgstr "Sinulla on tällä hetkellä rajoitus."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:17
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:17
 msgid "You have overdue items."
 msgstr "Sinulla on myöhässä olevia lainoja."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:19
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:19
 msgid "It's too late to renew this item."
 msgstr "Nidettä ei voi enää uusia."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:21
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:21
 msgid "Your total unpaid fines are too high."
 msgstr "Maksamattomien maksujesi yhteissumma on liian korkea."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:23
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:23
 msgid "This item must be renewed at the library."
 msgstr "Tämä nide täytyy uusia kirjastossa."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:92:mul:25
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:25
 msgid "Your account has expired."
 msgstr "Asiakastilisi on vanhentunut."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:2
 msgid "Checked in items for %s %s %s %s %s"
 msgstr "Palautukset asiakkaalle %s %s %s(%s)%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:7
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:7
 msgid "%sChecked in today%s"
 msgstr "%sTänään palautetut%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:93:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:12
 msgid "Barcode: %s %s"
 msgstr "Viivakoodi: %s %s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:3
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98:mul:3
 msgid "There were %s items that were not renewed."
 msgstr "%s nidettä ei uusittu."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:6
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98:mul:6
 msgid "There were %s items that were renewed."
 msgstr "%s nidettä uusittiin."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:95:mul:12
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98:mul:12
 msgid "was renewed until %s"
 msgstr "on uusittu %s asti"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:1
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:99:mul:1
 msgid "Date: %s%s"
 msgstr "Pvm: %s%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:99:mul:5
 msgid "A recall has been placed on the following item:%s%s/ %s%s (%s). The due date has been updated, and is now %s. Please return the item before the due date.%s"
 msgstr "Seuraavaan teokseen on palautuspyyntö: %s%s / %s%s (%s). Lainasi eräpäivä on sen takia muuttunut ja uusi eräpäivä on: %s. Palauta teos eräpäivään mennessä.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:6
-msgid "A recall that you requested on the following item: %s%s / %s%s (%s) is now ready for you to pick up at %s. Please pick up your item by %s.%s"
-msgstr "Varaamasi teos %s%s / %s%s (%s) on noudettavissa kirjastosta %s. Nouda teos %s mennessä.%s"
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:98:mul:1
-msgid "Your item has been recalled: %s (%s). Please return by %s."
-msgstr "Lainaamasi teokseen on palautuspyyntö: %s (%s). Palauta se kirjastoon %s."
-
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:99:mul:1
-msgid "A recalled item: %s(%s) is ready for you to pick up at %s. Please collect by %s."
-msgstr "Palautuspyynnön kautta varaamasi teos %s (%s) on noudettavissa kirjastosta: %s. Nouda teos %s mennessä."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:4
 msgid "%s reported the following concern with %s%s%s%s"
@@ -6185,7 +6606,7 @@ msgstr "Hankinta ei ole kokoelmapolitiikkamme mukainen"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:2:row:2
 msgid "Large print"
-msgstr "Isoteksti"
+msgstr "Isotekstinen"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:2:row:5
 msgid "DVD"
@@ -6313,7 +6734,7 @@ msgstr "Hankinnat"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:5
 msgid "Accounts"
-msgstr "Käyttäjätilit"
+msgstr "Asiakastilit"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:6
 msgid "Serials"
@@ -6553,7 +6974,7 @@ msgstr "Moniviestin"
 
 #: installer/data/mysql/en/optional/marc21_holdings_coded_values.yml:authorised_values:1:row:33
 msgid "Microform"
-msgstr "Mikromuoto"
+msgstr "Mikrotallenne"
 
 #: installer/data/mysql/en/optional/marc21_holdings_coded_values.yml:authorised_values:1:row:34
 msgid "Microform, aperture card"
@@ -6825,7 +7246,7 @@ msgstr "Saatu ja valmis tai päättynyt"
 
 #: installer/data/mysql/en/optional/marc21_holdings_coded_values.yml:authorised_values:1:row:103
 msgid "On order"
-msgstr "Tilattu"
+msgstr "Tilauksessa"
 
 #: installer/data/mysql/en/optional/marc21_holdings_coded_values.yml:authorised_values:1:row:104
 msgid "Currently received"
@@ -6939,297 +7360,301 @@ msgstr "Dialogin tekijä"
 msgid "Audio engineer"
 msgstr "Ääniteknikko"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:28
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:27
 msgid "Audio producer"
 msgstr "Äänituottaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:29
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:28
 msgid "Screenwriter"
 msgstr "Käsikirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:33
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:32
 msgid "Book artist"
 msgstr "Kirjataitelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:35
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:34
 msgid "Book producer"
 msgstr "Kirjan tuottaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:36
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:35
 msgid "Blurb writer"
 msgstr "Lievetekstin kirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:37
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:36
 msgid "Binder"
 msgstr "Sitoja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:39
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:38
 msgid "Broadcaster"
 msgstr "Lähetyksestä vastaava"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:40
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:39
 msgid "Braille embosser"
 msgstr "Pistekirjoituksen valmistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:42
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:41
 msgid "Casting director"
 msgstr "Roolittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:43
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:42
 msgid "Caster"
 msgstr "Valaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:46
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:45
 msgid "Client"
 msgstr "Asiakas"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:48
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:47
 msgid "Colorist"
 msgstr "Värittäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:49
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:48
 msgid "Collotyper"
 msgstr "Kollotypian valmistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:53
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:52
 msgid "Cinematographer"
 msgstr "Kuvaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:56
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:55
 msgid "Contestant-appellee"
 msgstr "Kilpailija valituksen vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:57
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:56
 msgid "Collector"
 msgstr "Keräilijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:59
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:58
 msgid "Conservator"
 msgstr "Konservaattori"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:60
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:59
 msgid "Camera operator"
 msgstr "Kameraoperaattori"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:61
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:60
 msgid "Collection registrar"
 msgstr "Kokoelman luetteloija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:62
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:61
 msgid "Contestant"
 msgstr "Kilpailija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:63
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:62
 msgid "Contestant-appellant"
 msgstr "Kilpailija valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:64
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:63
 msgid "Court governed"
 msgstr "Voimassaoleva tuomioistuin"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:65
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:64
 msgid "Cover designer"
 msgstr "Kansisuunnittelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:66
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:65
 msgid "Copyright claimant"
 msgstr "Tekijänoikeuden omistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:67
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:66
 msgid "Complainant-appellee"
 msgstr "Asianomistaja valituksen vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:69
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:68
 msgid "Complainant"
 msgstr "Asianomistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:70
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:69
 msgid "Complainant-appellant"
 msgstr "Asianomistaja valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:71
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:70
 msgid "Creator"
 msgstr "Tekijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:72
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:71
 msgid "Correspondent"
 msgstr "Kirjeenvaihtaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:74
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:73
 msgid "Court reporter"
 msgstr "Tuomioistuimen kirjuri"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:75
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:74
 msgid "Consultant"
 msgstr "Konsultti"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:77
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:76
 msgid "Costume designer"
 msgstr "Pukusuunnittelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:78
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:77
 msgid "Contributor"
 msgstr "Muu tekijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:79
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:78
 msgid "Contestee-appellee"
 msgstr "Kiistäjä valituksen vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:81
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:80
 msgid "Contractor"
 msgstr "Urakoitsija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:82
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:81
 msgid "Contestee"
 msgstr "Vastaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:83
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:82
 msgid "Contestee-appellant"
 msgstr "Kiistäjä valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:84
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:83
 msgid "Curator"
 msgstr "Kuraattori"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:86
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:85
 msgid "Dubbing director"
 msgstr "Dubbausohjaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:87
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:86
 msgid "Distribution place"
 msgstr "Julkaisu-/kustannupaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:88
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:87
 msgid "Defendant"
 msgstr "Vastaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:89
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:88
 msgid "Defendant-appellee"
 msgstr "Vastaaja valituksen vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:90
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:89
 msgid "Defendant-appellant"
 msgstr "Vastaaja valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:91
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:90
 msgid "Degree committee member"
 msgstr "Opinnäytteen tarkastaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:92
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:91
 msgid "Degree granting institution"
 msgstr "Oppiarvon myöntävä yhteisö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:93
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:92
 msgid "Degree supervisor"
 msgstr "Opinnäytteen ohjaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:95
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:94
 msgid "DJ"
 msgstr "DJ"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:96
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:95
 msgid "Delineator"
 msgstr "Tekninen piirtäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:99
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:98
 msgid "Depicted"
 msgstr "Kuvattu"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:100
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:99
 msgid "Depositor"
 msgstr "Tallettaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:101
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:100
 msgid "Draftsman"
 msgstr "Piirtäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:103
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:102
 msgid "Designer"
 msgstr "Suunnittelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:105
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:104
 msgid "Data contributor"
 msgstr "Tiedon tallentaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:107
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:106
 msgid "Data manager"
 msgstr "Tiedonhallinnoija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:110
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:109
 msgid "Editor of compilation"
 msgstr "Kokoomateoksen toimittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:111
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:110
 msgid "Editorial director"
 msgstr "Toimituspäällikkö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:112
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:111
 msgid "Editor of moving image work"
 msgstr "Leikkaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:115
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:114
 msgid "Electrician"
 msgstr "Sähköasentaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:116
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:115
 msgid "Electrotyper"
 msgstr "Metallityöntekijä (elektrotypia)"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:117
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:116
 msgid "Engineer"
 msgstr "Insinööri"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:118
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:117
 msgid "Enacting jurisdiction"
 msgstr "Säätävä lainkäyttöalue"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:120
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:119
 msgid "Event place"
 msgstr "Tapahtumapaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:122
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:121
 msgid "Facsimilist"
 msgstr "Jäljenteen toteuttaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:123
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:122
 msgid "Film distributor"
 msgstr "Elokuvan jakelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:124
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:123
 msgid "Field director"
 msgstr "Kenttäjohtaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:126
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:125
 msgid "Film director"
 msgstr "Elokuvaohjaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:127
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:126
 msgid "Filmmaker"
 msgstr "Elokuvantekijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:129
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:128
 msgid "Film producer"
 msgstr "Elokuvantuottaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:131
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:130
 msgid "First party"
 msgstr "Ensimmäinen osapuoli"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:134
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:133
 msgid "Game developer"
 msgstr "Pelikehittäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:135
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:134
 msgid "Geographic information specialist"
 msgstr "Paikkatietoasiantuntija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:136
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:135
 msgid "Host institution"
 msgstr "Isäntäorganisaatio"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:138
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:137
 msgid "Host"
 msgstr "Palvelin"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:140
+msgid "Inker"
+msgstr "Tussaaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:142
 msgid "Inventor"
@@ -7399,283 +7824,295 @@ msgstr "Luvanantaja"
 msgid "Production manager"
 msgstr "Tuotantopäällikkö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:205
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:202
+msgid "Penciller"
+msgstr "Lyijykynä-piirtäjä"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:206
 msgid "Praeses"
 msgstr "Preeses"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:206
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:207
 msgid "Process contact"
 msgstr "Prosessin yhteyshenkilö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:207
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:208
 msgid "Production personnel"
 msgstr "Tuotantohenkilökunta"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:210
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:211
 msgid "Programmer"
 msgstr "Ohjelmoija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:211
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:212
 msgid "Printmaker"
 msgstr "Kuvalaatan valmistaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:212
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:213
 msgid "Production company"
 msgstr "Tuotantoyhtiö"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:214
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:215
 msgid "Production place"
 msgstr "Tuotantopaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:215
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:216
 msgid "Production designer"
 msgstr "Tuotantosuunnittelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:217
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:218
 msgid "Provider"
 msgstr "Tarjoaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:219
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:220
 msgid "Plaintiff-appellee"
 msgstr "Kantaja valituksen vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:220
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:221
 msgid "Plaintiff"
 msgstr "Kantaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:221
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:222
 msgid "Patent holder"
 msgstr "Patentinhaltija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:222
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:223
 msgid "Plaintiff-appellant"
 msgstr "Kantaja valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:223
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:224
 msgid "Publication place"
 msgstr "Julkaisu-/kustannuspaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:224
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:225
 msgid "Rapporteur"
 msgstr "Kokouksen raportoija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:226
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:227
 msgid "Recordist"
 msgstr "Taltioija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:228
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:229
 msgid "Addressee"
 msgstr "Vastaanottaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:229
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:230
 msgid "Radio director"
 msgstr "Radio-ohjelman ohjaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:230
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:231
 msgid "Redaktor"
 msgstr "Toimittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:231
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:232
 msgid "Renderer"
 msgstr "Renderoija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:232
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:233
 msgid "Researcher"
 msgstr "Tutkija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:234
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:235
 msgid "Radio producer"
 msgstr "Radiotuottaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:235
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:236
 msgid "Repository"
 msgstr "Säilytyspaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:236
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:237
 msgid "Reporter"
 msgstr "Toimittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:237
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:238
 msgid "Responsible party"
 msgstr "Vastaava toimittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:238
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:239
 msgid "Respondent-appellee"
 msgstr "Vastaaja valituksen vastaajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:239
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:240
 msgid "Restager"
 msgstr "Uudelleenesittäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:240
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:241
 msgid "Respondent"
 msgstr "Respondentti"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:242
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:243
 msgid "Respondent-appellant"
 msgstr "Vastaaja valittajana"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:245
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:246
 msgid "Remix artist"
 msgstr "Uudelleenmiksaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:250
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:251
 msgid "Sound engineer"
 msgstr "Ääniteknikko"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:251
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:252
 msgid "Stage director"
 msgstr "Näyttämöohjaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:252
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:253
 msgid "Sound designer"
 msgstr "Äänisuunnittelija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:254
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:255
 msgid "Special effects provider"
 msgstr "Erikoistehosteiden tekijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:256
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:257
 msgid "Supporting host"
 msgstr "Tukija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:257
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:258
 msgid "Seller"
 msgstr "Myyjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:259
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:260
 msgid "Speaker"
 msgstr "Puhuja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:261
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:262
 msgid "Second party"
 msgstr "Toinen osapuoli"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:262
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:263
 msgid "Surveyor"
 msgstr "Kartoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:263
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:264
 msgid "Set designer"
 msgstr "Lavastaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:264
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:265
 msgid "Setting"
 msgstr "Kehys"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:265
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:266
 msgid "Storyteller"
 msgstr "Tarinankertoja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:266
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:267
 msgid "Stage manager"
 msgstr "Näyttämömestari"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:268
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:269
 msgid "Stereotyper"
 msgstr "Laakapainaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:269
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:270
 msgid "Software developer"
 msgstr "Ohjelmistokehittäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:270
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:271
 msgid "Technical advisor"
 msgstr "Tekninen neuvonantaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:271
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:272
 msgid "Television writer"
 msgstr "Televisiokäsikirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:272
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:273
 msgid "Technical director"
 msgstr "Tekninen johtaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:273
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:274
 msgid "Teacher"
 msgstr "Opettaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:275
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
 msgid "Television director"
 msgstr "Televisio-ohjaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:277
 msgid "Television guest"
 msgstr "Ohjelmavieras"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:277
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:278
 msgid "Television host"
 msgstr "Ohjelmaisäntä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:278
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:279
 msgid "Television producer"
 msgstr "Televisiotuottaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:279
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:280
 msgid "Transcriber"
 msgstr "Transkriboija"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:283
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:284
 msgid "University place"
 msgstr "Yliopiston kotipaikka"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:284
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:285
 msgid "Voice actor"
 msgstr "Ääninäyttelijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:285
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:286
 msgid "Videographer"
 msgstr "Kuvaaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:286
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:287
 msgid "Visual effects provider"
 msgstr "Visuaalisten tehosteiden tekijä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:287
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:288
 msgid "Writer of added commentary"
 msgstr "Kommentaarin kirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:288
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:289
 msgid "Writer of added lyrics"
 msgstr "Lisätyn sanoituksen kirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:290
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
 msgid "Writer of added text"
 msgstr "Lisätyn tekstin kirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:292
+msgid "Writer of afterword"
+msgstr "Jälkisanojen kirjoittaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
 msgid "Woodcutter"
 msgstr "Puupiirtäjä"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:292
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
 msgid "Wood engraver"
 msgstr "Puupiirtäjä (ksylografia)"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:295
 msgid "Writer of film story"
 msgstr "Elokuvan tarinan käsikirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:296
 msgid "Writer of intertitles"
 msgstr "Elokuvan välitekstien kirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:295
-msgid "Writer of introduction"
-msgstr "Johdannon kirjoittaja"
-
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:296
-msgid "Witness"
-msgstr "Todistaja"
-
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:297
-msgid "Writer of preface"
+msgid "Writer of foreword"
 msgstr "Esipuheen kirjoittaja"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:298
+msgid "Writer of introduction"
+msgstr "Johdannon kirjoittaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:299
+msgid "Witness"
+msgstr "Todistaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:300
+msgid "Writer of preface"
+msgstr "Esipuheen kirjoittaja"
+
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:301
 msgid "Writer of supplementary textual content"
 msgstr "Ohiestekstin kirjoittaja"
 
-#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:299
+#: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:302
 msgid "Writer of television story"
 msgstr "Television tarinan alkuperäiskirjoittaja"
 
@@ -7829,7 +8266,7 @@ msgstr "  %sKirjasto: &lt;branchcode&gt;%s"
 
 #: installer/data/mysql/en/optional/sample_creator_data.yml:creator_layouts:1:row:4:mul:9
 msgid "  %sExpires: &lt;dateexpiry&gt;%s"
-msgstr ""
+msgstr "  %sVanhenee: &lt;dateexpiry&gt;%s"
 
 #: installer/data/mysql/en/optional/sample_creator_data.yml:creator_templates:2:row:1
 msgid "3 columns, 10 rows of labels"
@@ -8438,6 +8875,9 @@ msgstr "NATIONAL LIBRARY OF FRANCE"
 #~ msgid "Ebook"
 #~ msgstr "E-kirja"
 
+#~ msgid "If an item becomes more than 30 days overdue, you will be unable to use your library card until the item is returned."
+#~ msgstr "Jos nide on myöhässä yli 30 päivää, olet lainakiellossa, kunnes nide palautetaan."
+
 #~ msgid "Item: %s"
 #~ msgstr "Nide: %s"
 
@@ -8447,10 +8887,6 @@ msgstr "NATIONAL LIBRARY OF FRANCE"
 #~ msgid "Organizer of meeting"
 #~ msgstr "Kokouksen järjestäjä"
 
-#, fuzzy
-#~ msgid "Penciller"
-#~ msgstr "Myyjä"
-
 #~ msgid "Recipient"
 #~ msgstr "Vastaanottaja"
 
@@ -8459,11 +8895,3 @@ msgstr "NATIONAL LIBRARY OF FRANCE"
 
 #~ msgid "The following item(s) is/are currently overdue:"
 #~ msgstr "Seuraavat niteet ovat tällä hetkellä myöhässä:"
-
-#, fuzzy
-#~ msgid "Writer of afterword"
-#~ msgstr "Elokuvan tarinan käsikirjoittaja"
-
-#, fuzzy
-#~ msgid "Writer of foreword"
-#~ msgstr "Esipuheen kirjoittaja"
