@@ -1,18 +1,18 @@
 # Compendium of sv.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 25.05.04.000\n"
+"Project-Id-Version: Koha 26.05.04.005\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-23 03:06+0000\n"
-"PO-Revision-Date: 2025-05-08 03:00+0000\n"
-"Last-Translator: \"Tomas.jiglind\" <tomas.jiglind@mariestad.se>\n"
+"POT-Creation-Date: 2026-03-20 03:01+0000\n"
+"PO-Revision-Date: 2026-10-10 03:04+0000\n"
+"Last-Translator: \"marie.hedbom\" <marie.hedbom@musikochteaterbiblioteket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.16.2\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-marc-UNIMARC.po\n"
 "X-POOTLE-MTIME: 1695017915.442441\n"
@@ -452,7 +452,7 @@ msgstr "innehåller biografiska data"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:69
 #, c-format
 msgid "Illustration: "
-msgstr "Illustration:"
+msgstr "Illustration: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:29
@@ -717,7 +717,7 @@ msgstr "Innehåll: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:88
 #, c-format
 msgid "bibliography"
-msgstr "bibliografi "
+msgstr "bibliografi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:95
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_110.tt:274
@@ -807,13 +807,13 @@ msgstr "programmed text books"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:98
 #, c-format
 msgid "patent"
-msgstr "patent "
+msgstr "patent"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:105
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:99
 #, c-format
 msgid "standard"
-msgstr "standard "
+msgstr "standard"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:106
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:100
@@ -1091,7 +1091,7 @@ msgstr "Periodika"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:131
 #, c-format
 msgid "Monographic series"
-msgstr "Monografiserie "
+msgstr "Monografiserie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:138
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:132
@@ -1103,7 +1103,7 @@ msgstr "Tidning"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:133
 #, c-format
 msgid "Updating loose-leaf"
-msgstr "Uppdaterar lösblad "
+msgstr "Uppdaterar lösblad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:140
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:134
@@ -1115,7 +1115,7 @@ msgstr "Databas"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:135
 #, c-format
 msgid "Updating website"
-msgstr "Uppdaterar webbplats "
+msgstr "Uppdaterar webbplats"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:142
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:166
@@ -1128,7 +1128,7 @@ msgstr "Annat"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:146
 #, c-format
 msgid "Periodicity: "
-msgstr "Periodicitet:"
+msgstr "Periodicitet: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:149
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:143
@@ -1140,61 +1140,61 @@ msgstr "Dagligen"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:144
 #, c-format
 msgid "Semiweekly"
-msgstr "Två gånger i veckan "
+msgstr "Två gånger i veckan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:151
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:145
 #, c-format
 msgid "Weekly"
-msgstr "Veckovis "
+msgstr "Veckovis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:152
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:146
 #, c-format
 msgid "Biweekly"
-msgstr "Varannan vecka "
+msgstr "Varannan vecka"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:153
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:147
 #, c-format
 msgid "Semimonthly"
-msgstr "Två gånger i månaden "
+msgstr "Två gånger i månaden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:154
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:148
 #, c-format
 msgid "Monthly"
-msgstr "Månadsvis "
+msgstr "Månadsvis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:155
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:149
 #, c-format
 msgid "Bimonthly"
-msgstr "Varannan månad "
+msgstr "Varannan månad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:156
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:150
 #, c-format
 msgid "Quarterly"
-msgstr "Kvartalsvis "
+msgstr "Kvartalsvis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:157
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:151
 #, c-format
 msgid "Three times a year"
-msgstr "Tre gånger om året "
+msgstr "Tre gånger om året"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:158
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:152
 #, c-format
 msgid "Semiannual"
-msgstr "Två gånger om året "
+msgstr "Två gånger om året"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:159
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:153
 #, c-format
 msgid "Annual"
-msgstr "Årlig "
+msgstr "Årlig"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:160
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:154
@@ -1212,19 +1212,19 @@ msgstr "Triennial"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:156
 #, c-format
 msgid "Three times a week"
-msgstr "Tre gånger i veckan "
+msgstr "Tre gånger i veckan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:163
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:157
 #, c-format
 msgid "Three times a month"
-msgstr "Tre gånger i månaden "
+msgstr "Tre gånger i månaden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:164
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:158
 #, c-format
 msgid "Without periodicity"
-msgstr "Utan periodicitet "
+msgstr "Utan periodicitet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:165
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:159
@@ -1235,7 +1235,7 @@ msgstr "Okänd"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:170
 #, c-format
 msgid "Regularity: "
-msgstr "Regelbundenhet:"
+msgstr "Regelbundenhet: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:172
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:166
@@ -1271,7 +1271,7 @@ msgstr "oregelbunden"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:176
 #, c-format
 msgid "Picture"
-msgstr "Bild "
+msgstr "Bild"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtypes_unimarc.inc:186
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:406
@@ -1546,7 +1546,7 @@ msgstr "UNIMARC field 100 builder"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100_authorities.tt:19
 #, c-format
 msgid "Date entered on file"
-msgstr "Datum angivet i fil "
+msgstr "Datum angivet i fil"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:23
 #, c-format
@@ -1648,7 +1648,7 @@ msgstr "Publiceringsdatum 2"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:111
 #, c-format
 msgid "Target audience code"
-msgstr "Kod för målgrupp "
+msgstr "Kod för målgrupp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:115
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:117
@@ -1881,12 +1881,12 @@ msgstr "u- unknown"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:167
 #, c-format
 msgid "Target audience code 2"
-msgstr "Kod för målgrupp 2 "
+msgstr "Kod för målgrupp 2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:223
 #, c-format
 msgid "Target audience code 3"
-msgstr "Kod för målgrupp 3 "
+msgstr "Kod för målgrupp 3"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:233
 #, c-format
@@ -1979,7 +1979,7 @@ msgstr "1- redigerad post"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100_authorities.tt:46
 #, c-format
 msgid "Language of cataloguing (mandatory)"
-msgstr "Katalogiseringsspråk (obligatoriskt) "
+msgstr "Katalogiseringsspråk (obligatoriskt)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:373
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100_authorities.tt:51
@@ -2665,7 +2665,7 @@ msgstr "zz- Other"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:306
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader_authorities.tt:191
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100.tt:797
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_100_authorities.tt:350
@@ -3308,7 +3308,7 @@ msgstr "Form of contents codes 4:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:962
 #, c-format
 msgid "Conference or meeting code:"
-msgstr "Konferens- eller möteskod: "
+msgstr "Konferens- eller möteskod"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:972
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_105.tt:974
@@ -7179,7 +7179,7 @@ msgstr "Oslo (Kristiania), Norge "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:1050
 #, c-format
 msgid "Paris, France"
-msgstr "Paris, Frankrike "
+msgstr "Paris, Frankrike"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:819
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:821
@@ -7187,7 +7187,7 @@ msgstr "Paris, Frankrike "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:1056
 #, c-format
 msgid "Peking, People's Republic of China"
-msgstr "Peking, Folkrepubliken Kina "
+msgstr "Peking, Folkrepubliken Kina"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:825
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:827
@@ -7195,7 +7195,7 @@ msgstr "Peking, Folkrepubliken Kina "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:1062
 #, c-format
 msgid "Philadelphia, USA"
-msgstr "Philadelphia, USA "
+msgstr "Philadelphia, USA"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:831
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:833
@@ -7219,7 +7219,7 @@ msgstr "Rio de Janeiro, Brasilien "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:1080
 #, c-format
 msgid "Rome, Italy"
-msgstr "Rom, Italien "
+msgstr "Rom, Italien"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:849
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:851
@@ -7227,7 +7227,7 @@ msgstr "Rom, Italien "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:1086
 #, c-format
 msgid "Santiago, Chile"
-msgstr "Santiago, Chile "
+msgstr "Santiago, Chile"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:855
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:857
@@ -7235,7 +7235,7 @@ msgstr "Santiago, Chile "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:1092
 #, c-format
 msgid "Stockholm, Sweden"
-msgstr "Stockholm, Sverige "
+msgstr "Stockholm, Sverige"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:861
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:863
@@ -7819,9 +7819,9 @@ msgid "other type of scale (e.g., time scale, quantitative statistical scale)"
 msgstr "other type of scale (e.g., time scale, quantitative statistical scale)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123defg.tt:14
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 123d/e/f/g builder"
-msgstr "UNIMARC field 123d builder"
+msgstr "UNIMARC field 123d/e/f/g builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123defg.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123i_j.tt:20
@@ -8467,7 +8467,7 @@ msgstr "Literary text indicator:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:46
 #, c-format
 msgid "history"
-msgstr "history"
+msgstr "historik"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:51
@@ -8751,7 +8751,7 @@ msgstr "microgroove/fine"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126a.tt:238
 #, c-format
 msgid "Dimensions (sound recordings):"
-msgstr "Dimensioner (ljudinspelningar): "
+msgstr "Dimensioner (ljudinspelningar):"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126a.tt:242
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126a.tt:244
@@ -9410,17 +9410,17 @@ msgstr "(Komplett med 0 till vänster)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_127.tt:21
 #, c-format
 msgid "Hours:"
-msgstr "Timmar: "
+msgstr "Timmar:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_127.tt:23
 #, c-format
 msgid "Minutes:"
-msgstr "Minuter: "
+msgstr "Minuter:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_127.tt:25
 #, c-format
 msgid "Seconds:"
-msgstr "Sekunder: "
+msgstr "Sekunder:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128a.tt:15
 #, c-format
@@ -9860,7 +9860,7 @@ msgstr "UNIMARC field 128b builder"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:20
 #, c-format
 msgid "Instruments or voices for ensemble:"
-msgstr "Instrument eller röster för ensemble: "
+msgstr "Instrument eller röster för ensemble:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:30
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:32
@@ -10216,7 +10216,7 @@ msgstr "Synthesizer "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128c.tt:241
 #, c-format
 msgid "Tape"
-msgstr "Band "
+msgstr "Band"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:250
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:252
@@ -10606,7 +10606,7 @@ msgstr "microform cartridge"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:169
 #, c-format
 msgid "microfilm cassette"
-msgstr "mikrofilmkassett"
+msgstr "Mikrofilmskassett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:41
@@ -10614,7 +10614,7 @@ msgstr "mikrofilmkassett"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:175
 #, c-format
 msgid "microfilm reel"
-msgstr "mikrofilmspole"
+msgstr "Mikrofilmsrulle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:46
@@ -11124,9 +11124,9 @@ msgid "v- 8 inches"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_135a.tt:277
-#, fuzzy, c-format
+#, c-format
 msgid "Sound:"
-msgstr "ljud"
+msgstr "Ljud:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_135a.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_135a.tt:288
@@ -11870,7 +11870,7 @@ msgstr "multiple or other"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:1532
 #, c-format
 msgid "Biography:"
-msgstr "Biografi: "
+msgstr "Biografi:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:1556
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:1558
@@ -12069,7 +12069,7 @@ msgstr "Bindningsmaterial 3:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:190
 #, c-format
 msgid "Types of binding:"
-msgstr "Bindningstyper: "
+msgstr "Bindningstyper:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:196
@@ -12356,9 +12356,9 @@ msgid "Number of players"
 msgstr "Antal musiker"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 181-2 builder"
-msgstr "UNIMARC field 122 builder"
+msgstr "UNIMARC field 181-2 builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:21
@@ -12374,9 +12374,11 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:27
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:25
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:27
 #, c-format
-msgid "RDA Carrier"
-msgstr ""
+msgid "RDA carrier"
+msgstr "RDA-bärare"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:33
@@ -12384,10 +12386,11 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:33
-#, fuzzy, c-format
-msgid "RDA Content"
-msgstr "Innehåll "
+#, c-format
+msgid "RDA content"
+msgstr "RDA-innehåll"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:39
@@ -12395,10 +12398,11 @@ msgstr "Innehåll "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:39
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:39
 #, c-format
-msgid "RDA Media"
-msgstr ""
+msgid "RDA media"
+msgstr "RDA-media"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:45
@@ -12406,14 +12410,16 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:45
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:43
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:45
 #, c-format
-msgid "RDA fr Carrier"
+msgid "RDA fr carrier"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 181a builder"
-msgstr "UNIMARC field 121a builder"
+msgstr "UNIMARC field 181a builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:21
 #, fuzzy, c-format
@@ -12540,9 +12546,9 @@ msgid "# - position not used"
 msgstr "# - position används inte"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 181b builder"
-msgstr "UNIMARC field 121b builder"
+msgstr "UNIMARC field 181b builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:21
 #, fuzzy, c-format
@@ -12675,9 +12681,9 @@ msgid "Sensory specification 3 "
 msgstr "Specifikt reduktionsförhållande"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 181c builder"
-msgstr "UNIMARC field 128c builder"
+msgstr "UNIMARC field 181c builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:21
 #, fuzzy, c-format
@@ -12784,13 +12790,13 @@ msgstr "r - Three-dimensional artefacts and realia"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:123
 #, c-format
 msgid "ntm - notated music"
-msgstr ""
+msgstr "ntm - noterad musik"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:127
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:129
 #, c-format
 msgid "tcm - tactical notated music"
-msgstr ""
+msgstr "tcm - taktil noterad musik"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:135
@@ -12835,14 +12841,14 @@ msgid "zzz - unspecified"
 msgstr "Ospecificerad "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 182-2 builder"
-msgstr "UNIMARC field 122 builder"
+msgstr "UNIMARC field 182-2 builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 182a builder"
-msgstr "UNIMARC field 121a builder"
+msgstr "UNIMARC field 182a builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:21
 #, fuzzy, c-format
@@ -12912,9 +12918,9 @@ msgid "z - other media"
 msgstr "z - other"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 182c builder"
-msgstr "UNIMARC field 124c builder"
+msgstr "UNIMARC field 182c builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:21
 #, fuzzy, c-format
@@ -12976,14 +12982,14 @@ msgid "z - unspecified"
 msgstr "Ospecificerad "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 183-2 builder"
-msgstr "UNIMARC field 122 builder"
+msgstr "UNIMARC field 183-2 builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183a.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 183a builder"
-msgstr "UNIMARC field 123a builder"
+msgstr "UNIMARC field 183a builder"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183a.tt:22
@@ -13455,19 +13461,19 @@ msgstr "Auktoritetssökresultat"
 #. %2$s:  to | html 
 #. %3$s:  total | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:57
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:77
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:75
 #, c-format
 msgid "Results %s to %s of %s"
 msgstr "Resultat %s till %s av %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:59
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:79
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:77
 #, c-format
 msgid "No results found"
 msgstr "Inga resultat hittades"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:66
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:87
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:85
 #, c-format
 msgid "Summary"
 msgstr "Sammanfattning"
@@ -13494,7 +13500,7 @@ msgid "%s times"
 msgstr "%s tider"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:78
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:122
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:120
 #, c-format
 msgid "Choose"
 msgstr "Välj"
@@ -13532,36 +13538,14 @@ msgid "OR new collection: "
 msgstr "ELLER ny samling: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 283-2 builder"
-msgstr "UNIMARC field 122 builder"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:25
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:27
-#, c-format
-msgid "RDA carrier"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:31
-#, fuzzy, c-format
-msgid "RDA content"
-msgstr "Innehåll "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:37
-#, c-format
-msgid "RDA media"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:43
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:45
-#, c-format
-msgid "RDA fr carrier"
-msgstr ""
+msgstr "UNIMARC field 283-2 builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 283a builder"
-msgstr "UNIMARC field 123a builder"
+msgstr "UNIMARC field 283a builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:27
@@ -13679,15 +13663,15 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:161
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:163
-#, fuzzy, c-format
+#, c-format
 msgid "microfilm cartridge"
-msgstr "microform cartridge"
+msgstr "Mikroform, mikrofilmsmagasin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:179
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:181
-#, fuzzy, c-format
+#, c-format
 msgid "microfilm roll"
-msgstr "mikrofilmspole"
+msgstr "Mikrofilmsrulle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:191
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:193
@@ -13822,13 +13806,13 @@ msgid "unspecified"
 msgstr "Ospecificerad "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:16
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 325h builder"
-msgstr "UNIMARC field 125a builder"
+msgstr "UNIMARC field 325h builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:22
 #, fuzzy, c-format
-msgid "Completeness of the reproduction code :"
+msgid "Completeness of the reproduction code:"
 msgstr "Form of reproduction"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:26
@@ -13850,13 +13834,13 @@ msgid "1 - reproduction is complete"
 msgstr "e - reproduction of a document"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:15
-#, fuzzy, c-format
+#, c-format
 msgid "UNIMARC field 325j builder"
-msgstr "UNIMARC field 125a builder"
+msgstr "UNIMARC field 325j builder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:21
 #, fuzzy, c-format
-msgid "Terms of access to the reproduction :"
+msgid "Terms of access to the reproduction:"
 msgstr "Form of reproduction"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:25
@@ -13891,7 +13875,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:57
 #, c-format
-msgid "Qualifier type :"
+msgid "Qualifier type:"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:61
@@ -13916,7 +13900,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:87
 #, c-format
-msgid "Unit under embargo :"
+msgid "Unit under embargo:"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:91
@@ -13945,7 +13929,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:129
 #, c-format
-msgid "Number of units under embargo :"
+msgid "Number of units under embargo:"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:17
@@ -13958,62 +13942,62 @@ msgstr "UNIMARC field 4XX builder"
 msgid "Search on "
 msgstr "Sök på "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:30
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:28
 #, c-format
 msgid "Any word"
 msgstr "Alla ord"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:32
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:30
 #, c-format
 msgid "Item type:"
 msgstr "Exemplartyp:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:32
 #, c-format
 msgid "All item types"
 msgstr "Alla exemplartyper"
 
 #. INPUT type=submit
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:41
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:39
 msgid "Start search"
 msgstr "Börja sökning"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:46
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:44
 #, c-format
 msgid "Search results"
 msgstr "Sökresultat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:53
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:51
 #, c-format
 msgid "&lt;&lt; Previous"
 msgstr "&lt;&lt; Föregående"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:71
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:69
 #, c-format
 msgid "Next&gt;&gt;"
 msgstr "Nästa&gt;&gt;"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:88
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:86
 #, c-format
 msgid "Item count"
 msgstr "Antal exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:89
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:87
 #, c-format
 msgid "Location"
 msgstr "Plats"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:129
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:127
 #, c-format
 msgid "Clear field"
 msgstr "Rensa fält"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:144
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:142
 #, c-format
 msgid "&lt;&lt; Previous "
 msgstr "&lt;&lt; Föregående "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:166
+#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:164
 #, c-format
 msgid "Next&gt;&gt; "
 msgstr "Nästa&gt;&gt; "
@@ -14974,13 +14958,13 @@ msgstr "Dewey: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:276
 #, c-format
 msgid "Classification: "
-msgstr "Klassificering:"
+msgstr "Klassificering: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:252
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:294
 #, c-format
 msgid "Contents note: "
-msgstr "Innehållskommentar:"
+msgstr "Innehållskommentar: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:257
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:299
@@ -15012,7 +14996,7 @@ msgstr "Ursprungsanteckning: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:337
 #, c-format
 msgid "Bibliography: "
-msgstr "Bibliografi:"
+msgstr "Bibliografi: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslim2intranetDetail.xsl:305
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACDetail.xsl:347
@@ -15222,7 +15206,7 @@ msgstr "Beskrivning: "
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:219
 #, c-format
 msgid "Linked with: "
-msgstr "Länkad till:"
+msgstr "Länkad till: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:281
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:293
@@ -15289,9 +15273,9 @@ msgstr "%%20"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:506
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:503
-#, fuzzy, c-format
+#, c-format
 msgid "Content warning: "
-msgstr "Innehåll: "
+msgstr "Innehållsvarning: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:530
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslimUtils.xsl:527
@@ -15345,9 +15329,9 @@ msgid "Periodicity"
 msgstr "Periodicitet"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:164
-#, fuzzy, c-format
+#, c-format
 msgid "Regularity "
-msgstr "Regelbundenhet:"
+msgstr "Regelbundenhet "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/subtypes_unimarc.inc:177
 #, fuzzy, c-format
@@ -15486,7 +15470,7 @@ msgstr "Hyllsignatur: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:287
 #, c-format
 msgid "Items available for reference: "
-msgstr "Exemplar tillgängliga som referens:"
+msgstr "Exemplar tillgängliga som referens: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:292
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/UNIMARCslim2OPACResults.xsl:333
@@ -15653,6 +15637,10 @@ msgstr "Idref"
 #, c-format
 #~ msgid "OK"
 #~ msgstr "OK"
+
+#, fuzzy, c-format
+#~ msgid "RDA Content"
+#~ msgstr "Innehåll "
 
 #, c-format
 #~ msgid "Serial type"
