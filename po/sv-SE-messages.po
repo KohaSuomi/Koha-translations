@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 25.05.04.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 10:29+0300\n"
-"PO-Revision-Date: 2026-05-08 10:27+0300\n"
+"POT-Creation-Date: 2026-08-26 09:52+0300\n"
+"PO-Revision-Date: 2026-10-28 14:27+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv_SE\n"
@@ -1553,6 +1553,8 @@ msgid ""
 "These commands are only suggestions. They are not a replacement for the database update scripts run during installations and updates.\n"
 "Review the database, the atomic update files and the table definitions in kohastructure.sql before running any of the commands below:"
 msgstr ""
+"Dessa kommandon är endast förslag. De kan inte ersätta skript för databasuppdatering som körs i samband med inställning och uppdatering.\n"
+"Granska databasen, filerna för atomära uppdateringar och tabelldefinitionerna i kohastructure.sql innan du kör något av kommandona nedan:"
 
 #: Koha/Database/Auditor.pm:84
 msgid "Warning!"
@@ -1569,12 +1571,12 @@ msgstr "Allt väl"
 #: Koha/Database/Auditor.pm:111
 #, perl-format
 msgid "Parsing schema for database %s\n"
-msgstr ""
+msgstr "Parsningsschema för databas %s\n"
 
 #: Koha/Database/Auditor.pm:151
 #, perl-format
 msgid "Parsing schema for file %s\n"
-msgstr ""
+msgstr "Parsningsschema för fil %s\n"
 
 #: Koha/Database/Columns.pm:73
 msgid "Basket ID (internal)"
@@ -1743,7 +1745,7 @@ msgstr "Skatt på beställning"
 
 #: Koha/Database/Columns.pm:116
 msgid "Tax amount on receive"
-msgstr ""
+msgstr "Skattebelopp vid mottagning"
 
 #: Koha/Database/Columns.pm:117
 msgid "Timestamp"
@@ -2366,7 +2368,7 @@ msgstr "EAN"
 
 #: Koha/Database/Columns.pm:291
 msgid "Edition responsibility"
-msgstr ""
+msgstr "Utgivare"
 
 #: Koha/Database/Columns.pm:292
 #, fuzzy
@@ -2509,11 +2511,11 @@ msgstr "SMS-leverantör"
 
 #: Koha/ILL/Backend/Standard.pm:188
 msgid "Edited item metadata"
-msgstr ""
+msgstr "Redigerat"
 
 #: Koha/ILL/Backend/Standard.pm:189
 msgid "Edit item metadata"
-msgstr ""
+msgstr "Redigera"
 
 #: Koha/ILL/Backend/Standard.pm:936
 #, fuzzy
@@ -2545,7 +2547,7 @@ msgstr "Skapad den"
 
 #: Koha/ILL/Backend/Standard.pm:943
 msgid "DOI"
-msgstr ""
+msgstr "DOI"
 
 #: Koha/ILL/Backend/Standard.pm:944
 msgid "Editor"
@@ -2553,19 +2555,19 @@ msgstr "Redaktör"
 
 #: Koha/ILL/Backend/Standard.pm:945
 msgid "Format"
-msgstr ""
+msgstr "Materialtyp"
 
 #: Koha/ILL/Backend/Standard.pm:946
 msgid "Genre"
-msgstr ""
+msgstr "Genre"
 
 #: Koha/ILL/Backend/Standard.pm:947
 msgid "Institution"
-msgstr ""
+msgstr "Institution"
 
 #: Koha/ILL/Backend/Standard.pm:950
 msgid "Issue"
-msgstr ""
+msgstr "Nummer"
 
 #: Koha/ILL/Backend/Standard.pm:951
 msgid "Date"
@@ -2573,7 +2575,7 @@ msgstr "Datum "
 
 #: Koha/ILL/Backend/Standard.pm:952
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: Koha/ILL/Backend/Standard.pm:953
 msgid "Pages"
@@ -2596,7 +2598,7 @@ msgstr "Serietitel"
 
 #: Koha/ILL/Backend/Standard.pm:957
 msgid "Part / Edition"
-msgstr ""
+msgstr "Del / Upplaga"
 
 #: Koha/ILL/Backend/Standard.pm:958
 #, fuzzy
@@ -2605,15 +2607,15 @@ msgstr "Utgivningsdatum"
 
 #: Koha/ILL/Backend/Standard.pm:962 Koha/ILL/Backend/Standard.pm:963
 msgid "PubMed ID"
-msgstr ""
+msgstr "PubMed ID"
 
 #: Koha/ILL/Backend/Standard.pm:964
 msgid "Sponsor"
-msgstr ""
+msgstr "Sponsor"
 
 #: Koha/ILL/Backend/Standard.pm:965
 msgid "Studio"
-msgstr ""
+msgstr "Studio"
 
 #: Koha/ILL/Backend/Standard.pm:967
 msgid "Type"
@@ -2621,7 +2623,7 @@ msgstr "Typ"
 
 #: Koha/ILL/Backend/Standard.pm:968
 msgid "Venue"
-msgstr ""
+msgstr "Plats"
 
 #: Koha/ILL/Backend/Standard.pm:969
 #, fuzzy
@@ -7819,7 +7821,7 @@ msgctxt "patron restriction created on"
 msgid "Created"
 msgstr "Skapad"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2028
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:2043
 msgid "Add guarantor"
 msgstr "Lägg till vårdnadshavare"
 
