@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 26.05.04.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 03:05+0000\n"
-"PO-Revision-Date: 2026-10-29 08:05+0200\n"
+"PO-Revision-Date: 2026-10-29 08:13+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -5559,12 +5559,12 @@ msgstr "Muokkaa hallintapaneeliasi lisäämällä käyttöliittymäkomponentteja
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ModuleDashboard/ModuleDashboard.vue:7
 msgid "Open widget picker"
-msgstr "Avaa elementtien poimija"
+msgstr "Avaa komponenttien poimija"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ModuleDashboard/ModuleDashboard.vue:18
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ModuleDashboard/ModuleDashboard.vue:53
 msgid "Drop widgets here"
-msgstr "Pudota widgetit tänne"
+msgstr "Pudota komponentit tänne"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ModuleDashboard/ModuleDashboard.vue:204
 msgid "Customize your dashboard widgets"
@@ -5703,7 +5703,7 @@ msgstr "Toimia vaativat lisenssit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ModuleDashboard/Widgets/ERMLicensesNeedingAction.vue:198
 msgid "Show licenses that need action. It filters licenses by status and end date. This widget is configurable."
-msgstr "Näytä lisenssit, jotka tarvitsevat toimintaa. Se suodattaa lisenssit tilan ja päättymispäivän mukaan. Tämä widget on konfiguroitava."
+msgstr "Näytä lisenssit, jotka tarvitsevat toimintaa. Se suodattaa lisenssit tilan ja päättymispäivän mukaan. Tämä komponentti on konfiguroitava."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ModuleDashboard/Widgets/ERMRunUsageReport.vue:60
 msgid "Run eUsage report"
@@ -5751,7 +5751,7 @@ msgstr "Kaukolainapyynnöt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ModuleDashboard/Widgets/ILLRequests.vue:164
 msgid "Show ILL requests that need action. It filters requests by status and library. Provides a button to visit the ILL requests (previously ILL module). This widget is configurable."
-msgstr "Näytä kaukolainapyynnöt, jotka tarvitsevat toimia. Se suodattaa pyynnöt tilan ja kirjaston mukaan. Lisää nappulan, jolla pääsee katsomaan kaukolainapyyntöjä. Tämä widget on määritettävissä."
+msgstr "Näytä kaukolainapyynnöt, jotka tarvitsevat toimia. Se suodattaa pyynnöt tilan ja kirjaston mukaan. Lisää nappulan, jolla pääsee katsomaan kaukolainapyyntöjä. Tämä komponentti on määritettävissä."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/PatronSearch.vue:14
 msgid "Select user"

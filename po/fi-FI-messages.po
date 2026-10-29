@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 26.05.04.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 03:05+0000\n"
-"PO-Revision-Date: 2026-10-17 03:05+0000\n"
+"PO-Revision-Date: 2026-10-29 08:16+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: fi-FI\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Poedit 3.8\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-messages.po\n"
 "X-POOTLE-MTIME: 1695118454.573755\n"
@@ -7899,42 +7899,41 @@ msgstr "Kurssivarannot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step1.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:42
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Add reserves for course {course_name}"
-msgstr "Tiedot kurssille '{course_name}'"
+msgstr "Lisää varaontoja kurssille '{course_name}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:11
 msgid "Editing item in course"
-msgstr ""
+msgstr "Muokataan kurssin nidettä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:13
-#, fuzzy
 msgid "Adding item to course"
-msgstr "Lisää niteitä"
+msgstr "Lisätään nidettä kurssiin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:74
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgctxt "Editing course reserve item"
 msgid "Editing {title}"
-msgstr "Muokkaa {title}"
+msgstr "Muokataan {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:76
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgctxt "Adding course reserve item"
 msgid "Adding {title}"
-msgstr "Muokkaa {title}"
+msgstr "Lisätään {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:50
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Editing item in course {course_name}"
-msgstr "Muokkaa kurssia {course_name}"
+msgstr "Muokataan nidettä kurssissa {course_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:52
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Adding item for course {course_name}"
-msgstr "Muokkaa kurssia {course_name}"
+msgstr "Lisätään nidettä kurssiin {course_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:9
 msgid "Remove reserves"
@@ -7974,7 +7973,7 @@ msgstr "Haluatko varmasti poistaa tämän kurssin?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:57
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Edit course {course_name}"
 msgstr "Muokkaa kurssia {course_name}"
 
@@ -10059,9 +10058,8 @@ msgid "Your messaging settings"
 msgstr "Viestiasetuksesi"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:55
-#, fuzzy
 msgid "Message type"
-msgstr "Viesti lähetetty"
+msgstr "Viestityyppi"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-news-rss.tt:11
 #, perl-brace-format
