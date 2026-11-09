@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 26.05.04.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2026-10-20 03:03+0000\n"
+"PO-Revision-Date: 2026-11-09 15:13+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: fi-FI\n"
+"Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Poedit 3.8\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-POOTLE-MTIME: 1698392361.707486\n"
@@ -4652,7 +4652,7 @@ msgstr "henkilökunnan valitsevan listalla näytettävät lainat ennen myöhäss
 # OPAC > Policy > OPACFineNoRenewals
 # OPAC > Policy
 msgid "circulation.pref#FineNoRenewals# Only allow patrons or staff to renew items if patron has less than"
-msgstr "Salli asiakkaan tai henkilökunnan uusia lainat verkkokirjastossa, jos asiakkaalla on vähemmän kuin"
+msgstr "Salli asiakkaan tai henkilökunnan uusia lainat, jos asiakkaalla on vähemmän kuin"
 
 # OPAC > Policy > OPACFineNoRenewals
 # OPAC > Policy
@@ -7134,7 +7134,7 @@ msgstr "Syndetics"
 msgid "enhanced_content.pref Tagging"
 msgstr "Tagit"
 
-# Enhanced content > All > 
+# Enhanced content > All >
 # Enhanced content > All
 msgid "enhanced_content.pref## <strong>NOTE:</strong> you can only choose one source of cover images from below, otherwise Koha will show the images from all sources selected."
 msgstr "<strong>HUOM:</strong> voit valita vain yhden kansikuvalähteen alapuolelta, muuten Koha näyttää kuvat kaikista valituista lähteistä."
@@ -8740,7 +8740,7 @@ msgstr "Paikalliskäyttö"
 msgid "local_use.pref Local use"
 msgstr "Paikalliset tiedot"
 
-# Local use > Local use > 
+# Local use > Local use >
 # Local Use
 msgid "local_use.pref## Nothing defined yet."
 msgstr "Mitään ei ole vielä määritelty."
@@ -8785,7 +8785,7 @@ msgstr "tasoa."
 # Logging > Logging > NewsLog
 # Logging > Logging
 msgid "logs.pref#AdditionalContentLog#  changes to HTML customizations, news entries, pages, and other content managed in the additional content tools."
-msgstr "HTML-muokkauksiin, uutisiin, sivuihin ja muihin sisältöihin uutistyökalulla tehdyistä muutoksista."
+msgstr "HTML-muokkauksiin, uutisiin, sivuihin ja muihin sisältöihin tehdyistä muutoksista, jotka on tehty Lisäsisältö-työkalulla."
 
 # Logging > Logging > AcquisitionLog
 # Logging > Logging
@@ -10143,15 +10143,15 @@ msgstr "Kentät, jotka piilotetaan asiakkaan hankintaehdotuksista:"
 # OPAC > Self registration and modification > OPACPatronDetails
 # OPAC > Self registration and modification
 msgid "opac.pref#OPACTableColExpandedByDefault# Don't expand"
-msgstr "opac.pref#OPACTableColExpandedByDefault# Älä laajenna"
+msgstr "Älä laajenna"
 
 # OPAC > Appearance > OPACTableColExpandedByDefault
 msgid "opac.pref#OPACTableColExpandedByDefault# Expand"
-msgstr "opac.pref#OPACTableColExpandedByDefault# Laajenna"
+msgstr "Laajenna"
 
 # OPAC > Appearance > OPACTableColExpandedByDefault
 msgid "opac.pref#OPACTableColExpandedByDefault# tables on the OPAC by default, when zoomed in or viewed on a mobile screen."
-msgstr "opac.pref#OPACTableColExpandedByDefault# taulukot oletuksena verkkokirjastossa, kun selaimen näkymää suurennetaan tai verkkokirjastoa käytetään mobiilinäkymässä."
+msgstr "taulukot oletuksena verkkokirjastossa, kun selaimen näkymää suurennetaan tai verkkokirjastoa käytetään mobiilinäkymässä."
 
 # OPAC > Appearance > OPACURLOpenInNewWindow
 # OPAC > Appearance
@@ -11809,22 +11809,22 @@ msgstr "henkilökunnan asettaa asiakkaan maksut näkyväksi linkitetyille asiakk
 # Patrons > Security > Pseudonymization
 # Patrons > Security
 msgid "patrons.pref#AnonymizeLastBorrower#  item's last borrower after "
-msgstr "patrons.pref#AnonymizeLastBorrower#  niteen viimeinen lainaaja "
+msgstr "niteen viimeisin lainaaja "
 
 # Patrons > Security > Pseudonymization
 # Patrons > Security
 msgid "patrons.pref#AnonymizeLastBorrower# Anonymize"
-msgstr "patrons.pref#AnonymizeLastBorrower# Anonymisoi"
+msgstr "Anonymisoi"
 
 # Circulation > Checkin policy > StoreLastBorrower
 # Circulation > Checkin policy
 msgid "patrons.pref#AnonymizeLastBorrower# Don't anonymize"
-msgstr "patrons.pref#AnonymizeLastBorrower# Älä anonymisoi"
+msgstr "Älä anonymisoi"
 
 # Patrons > Security > Pseudonymization
 # Patrons > Security
 msgid "patrons.pref#AnonymizeLastBorrower# days."
-msgstr "patrons.pref#AnonymizeLastBorrower# vuorokauden jälkeen."
+msgstr "vuorokauden jälkeen."
 
 # Patrons > General > AutoApprovePatronProfileSettings
 # Patrons > Security
@@ -14636,7 +14636,7 @@ msgstr "Älä näytä"
 
 # Staff interface > Options > FilterSearchResultsByLoggedInBranch
 msgid "staff_interface.pref#FilterSearchResultsByLoggedInBranch# add a filter to the location column on staff interface search results to filter items by the library the user is currently logged into."
-msgstr "Paikka-sarakkeeseen suodatus, joka näyttää, kuinka monta nidettä nimekkeellä on paikalla käyttäjän kirjatumiskirjastossa."
+msgstr "Paikka-sarakkeen yläpuolella nappula, jolla voi suodattaa näkyville, kuinka monta nidettä nimekkeellä on kirjautumiskirjastossa."
 
 # Staff interface > Options > HidePatronName
 # Staff interface > Options
@@ -15065,7 +15065,7 @@ msgstr "erämuokkauksessa ja inventoinnissa. <br/>Huomaa: \\r vastaa enteriä, \
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
 msgid "tools.pref#EmailNoticeCSS# Include the following CSS on all email notices:"
-msgstr "Kaytä kaikissa sähköposti-ilmoituksissa seuraavia CSS-määrityksiä:"
+msgstr "Käytä kaikissa sähköposti-ilmoituksissa seuraavia CSS-määrityksiä:"
 
 # Circulation > Interface > NoticeCSS
 # Circulation > Interface
@@ -15150,7 +15150,7 @@ msgstr "vain virkailijaliittymässä"
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
 msgid "tools.pref#PrintNoticeCSS# Include the following CSS on all print notices:"
-msgstr "Kaytä tulostettavissa ilmoituksissa seuraavia CSS-määrityksiä:"
+msgstr "Käytä tulostettavissa ilmoituksissa seuraavia CSS-määrityksiä:"
 
 # Circulation > Interface > NoticeCSS
 # Circulation > Interface
@@ -15165,7 +15165,7 @@ msgstr "tulostettavissa ilmoituksissa. (Anna täydellinen URL-osoite, joka alkaa
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
 msgid "tools.pref#PrintSlipCSS# Include the following CSS on all print slips:"
-msgstr "Kaytä kaikissa tulostettavissa kuiteissa seuraavia CSS-määrityksiä:"
+msgstr "Käytä kaikissa tulostettavissa kuiteissa seuraavia CSS-määrityksiä:"
 
 # Staff interface > Appearance > SlipCSS
 # Staff interface > Appearance
