@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 26.05.04.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 03:05+0000\n"
-"PO-Revision-Date: 2026-10-29 08:13+0200\n"
+"PO-Revision-Date: 2026-11-11 15:45+0200\n"
 "Last-Translator: Anneli Österman <anneli.osterman@koha-suomi.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi_FI\n"
@@ -6681,7 +6681,7 @@ msgstr "Lähetä asiakkaan kotikirjasto AO-kentässä asiakkaan tila ja asiakkaa
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/SIP2/SIP2AccountResource.vue:480
 msgid "Show checkin message"
-msgstr "Näytä lainausviesti"
+msgstr "Näytä palautusviesti"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/SIP2/SIP2AccountResource.vue:484
 msgid "If enabled, successful checking responses will contain an AF screen message"
